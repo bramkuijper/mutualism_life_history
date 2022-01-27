@@ -6,13 +6,13 @@
 \origin unavailable
 \textclass article
 \begin_preamble
-\usepackage{mathpazo}
-%\usepackage{newpxtext,newpxmath}
-\usepackage{amsmath}
+\usepackage{heuristica}
+\usepackage[heuristica,vvarbb,bigdelims]{newtxmath}
+\usepackage[T1]{fontenc}
+\renewcommand*\oldstylenums[1]{\textosf{#1}}
 \usepackage{color}
-\definecolor{slateblue}{RGB}{17, 83,128}
+\definecolor{slateblue}{RGB}{22,88,143}
 \usepackage{doi}
-\allowdisplaybreaks
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
@@ -44,9 +44,9 @@
 \pdf_bookmarksnumbered false
 \pdf_bookmarksopen false
 \pdf_bookmarksopenlevel 1
-\pdf_breaklinks false
-\pdf_pdfborder false
-\pdf_colorlinks false
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
 \pdf_backref false
 \pdf_pdfusetitle true
 \pdf_quoted_options "urlcolor=slateblue,linkcolor=slateblue,citecolor=slateblue"
@@ -62,9 +62,9 @@
 \use_package stackrel 1
 \use_package stmaryrd 1
 \use_package undertilde 1
-\cite_engine basic
-\cite_engine_type default
-\biblio_style plain
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -105,11 +105,42 @@ The model
 \end_layout
 
 \begin_layout Standard
-We want to understand the evolution of conditional cooperation in the context
- of mutualism and how they engender feedbacks (i.e., successful species 1
- results in a successful species 2).
- We can look at mortality gifts and fecundity gifts of mutualistic species,
- differences in survival, differences in dispersal between the two species.
+It is well known that the evolution of social behaviours is strongly dependent
+ on the life-history component (fecundity or survival) that these behaviours
+ affect 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Taylor2000"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+However, a more recent result is that this depends on the demographic structure
+ of the population, i.e., whether population dynamics are driven by births
+ that then result in deaths (birth-death, BD) or alternatively by deaths
+ that result in births (death-birth, DB).
+ Indeed, a key result by 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Taylor2010"
+literal "false"
+
+\end_inset
+
+ is that fecundity effects under BD behave the same as survival effects
+ in a DB-type population.
+ So far, however, the interplay of demography vs life-history components
+ has only been considered in the context of helping in single species.
+ By contrast, how this interplay affect the evolution of mutualistic interaction
+s has yet to be considered: clearly, existing results cannot be directly
+ extrapolated from single-species to multispecies contexts as one species
+ may be DB regulated, whereas the other may be BD regulated.
+ How do these effects interplay through a mutualist feedback?
 \end_layout
 
 \begin_layout Subsection
@@ -117,15 +148,312 @@ Life cycle
 \end_layout
 
 \begin_layout Standard
-We have three events:
+We consider a patch structured population, where patches are characterized
+ by two state variables: the number 
+\begin_inset Formula $n_{1}$
+\end_inset
+
+ of individuals of species (where 
+\begin_inset Formula $0\leq n_{1}\leq n_{1,\mathrm{max}}$
+\end_inset
+
+) and the number of individuals of species 2.
+ The frequency of patches containing 
+\begin_inset Formula $n_{1}$
+\end_inset
+
+ individuals of species 
+\begin_inset Formula $1$
+\end_inset
+
+ and 
+\begin_inset Formula $n_{2}$
+\end_inset
+
+ individuals of species 2 is then given by 
+\begin_inset Formula $f(n_{1},n_{2})$
+\end_inset
+
+.
+ 
 \end_layout
 
-\begin_layout Enumerate
-Species 1 dies and gets replaced
+\begin_layout Standard
+We have four types of events that can change the number of individuals per
+ patch
 \end_layout
 
-\begin_layout Enumerate
-Species 2 dies and gets replaced
+\begin_layout Paragraph
+Death event species 1
+\end_layout
+
+\begin_layout Standard
+A focal individual of species 1 dies at rate 
+\begin_inset Formula $m_{1}\left(n_{1},n_{2},z_{1}^{\bullet},y_{1}^{\bullet};z_{2}\right)$
+\end_inset
+
+, where we assume this is a function of (i) the number 
+\begin_inset Formula $n_{1}$
+\end_inset
+
+ of species 
+\begin_inset Formula $1$
+\end_inset
+
+ individuals, (ii) the number 
+\begin_inset Formula $n_{2}$
+\end_inset
+
+ of species 
+\begin_inset Formula $2$
+\end_inset
+
+ individuals, (iii) the amount of survival help 
+\begin_inset Formula $z_{1}^{\bullet}$
+\end_inset
+
+ provided by the focal individual of species 1 to local individuals of species
+ 2 (the 
+\begin_inset Formula $\bullet$
+\end_inset
+
+ superscript denotes the focal's trait, whereas 
+\begin_inset Formula $z_{1}^{\circ}$
+\end_inset
+
+ (see below) denotes the average trait value of all species 1 individuals
+ (including the focal) in the local patch and 
+\begin_inset Formula $z_{1}$
+\end_inset
+
+ the average trait value in the whole population), (iv) the amount of fecundity
+ help 
+\begin_inset Formula $y_{1}^{\bullet}$
+\end_inset
+
+ provided by the focal individidual of species 
+\begin_inset Formula $1$
+\end_inset
+
+ to local individuals of species 
+\begin_inset Formula $2$
+\end_inset
+
+ and (v) survival help provided by members of species.
+ We then have
+\begin_inset Formula 
+\begin{align}
+m_{1}\left(n_{1},n_{2},z_{1}^{\bullet},y_{1}^{\bullet};z_{2}\right) & =\mu_{1}+c_{z_{1}}z_{1}^{\bullet}\left(n_{2}\right)+c_{y_{1}}y_{1}^{\bullet}\left(n_{2}\right)-\mu_{z_{2}}\frac{\text{n_{2}}}{n_{1}}z_{2}\left(n_{1}\right),\label{eq:mortality1}
+\end{align}
+
+\end_inset
+
+where 
+\begin_inset Formula $\mu_{1}$
+\end_inset
+
+ is the baseline mortality rate in absence of any mutualistic effects on
+ mortality.
+ This parameter can be varied to assess the effect of lifespan of species
+ 
+\begin_inset Formula $1$
+\end_inset
+
+ on the evolution of mutualism.
+ The second term in eq.
+ (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:mortality1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) reflects the mortality cost of a mutualistic survival-benefit act by the
+ focal individual.
+ Specifically, 
+\begin_inset Formula $c_{z_{1}}$
+\end_inset
+
+ is a parameter that weighs the mortality cost of the focal who producing
+ an amount of 
+\begin_inset Formula $z_{1}^{\bullet}(n_{2})$
+\end_inset
+
+ survival help to species 2.
+ The third term in eq.
+ (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:mortality1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) reflects the mortality cost of a mutualistic fecundity-benefit act 
+\begin_inset Formula $y_{1}^{\bullet}(n_{2})$
+\end_inset
+
+ by the focal individual, where the parameter 
+\begin_inset Formula $c_{y_{1}}$
+\end_inset
+
+ reflects the strength with which such acts impact on mortality.
+ The final term in eq.
+ (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:mortality1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) reflects the mutualistic per-capita survival benefit 
+\begin_inset Formula $z_{2}(n_{1})$
+\end_inset
+
+ provided by species 2.
+ The potential effect of this survival benefit is given by the parameter
+ 
+\begin_inset Formula $\mu_{z_{2}}$
+\end_inset
+
+, which reflects the strength with which survival benefits provided by species
+ feedback on species 1's survival (reflecting the `potential effect' as
+ in p.
+ 4 in 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Foster2006"
+literal "false"
+
+\end_inset
+
+).
+ Note that the amount of survival help provided by species 2 is 
+\begin_inset Formula $n_{2}z_{2}\left(n_{1}\right)$
+\end_inset
+
+, so the amount of help received by the focal individual is 
+\begin_inset Formula $n_{2}z_{2}\left(n_{1}\right)/n_{1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Paragraph
+Death event species 2
+\end_layout
+
+\begin_layout Standard
+A focal individual of species 2 dies at rate 
+\begin_inset Formula $m_{2}\left(n_{2},n_{1},z_{2}^{\bullet},y_{2}^{\bullet};z_{1}\right)$
+\end_inset
+
+, which can be derived in a similar fashion to equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:mortality1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+):
+\begin_inset Formula 
+\begin{align}
+m_{2}\left(n_{1},n_{2},z_{2}^{\bullet},y_{2}^{\bullet};z_{2}\right) & =\mu_{2}+c_{z_{2}}z_{2}^{\bullet}\left(n_{1}\right)+c_{y_{2}}y_{2}^{\bullet}\left(n_{1}\right)-\mu_{z_{1}}\frac{\text{n_{1}}}{n_{2}}z_{1}\left(n_{2}\right).\label{eq:mortality2}
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Birth event species 1
+\end_layout
+
+\begin_layout Standard
+A focal individual of species 
+\begin_inset Formula $1$
+\end_inset
+
+ gives birth at rate 
+\begin_inset Formula $b_{1}\left(n_{1},n_{2},y_{1}^{\bullet},z_{1}^{\bullet};z_{2}\right)$
+\end_inset
+
+, given by
+\begin_inset Formula 
+\begin{align}
+b_{1}\left(n_{1},n_{2},y_{1}^{\bullet},z_{1}^{\bullet};z_{2}\right) & =\beta_{1}-k_{z_{1}}z_{1}^{\bullet}\left(n_{2}\right)-k_{y_{1}}y_{1}^{\bullet}\left(n_{2}\right)+\beta_{b_{2}}\frac{n_{2}}{n_{1}}y_{2}\left(n_{1}\right)\label{eq:fecundity1}
+\end{align}
+
+\end_inset
+
+ where 
+\begin_inset Formula $\beta_{1}$
+\end_inset
+
+ reflects the baseline fecundity of species 
+\begin_inset Formula $1$
+\end_inset
+
+, 
+\begin_inset Formula $k_{z_{1}}$
+\end_inset
+
+ reflects how rapidly the focal's fecundity decreases with any survival
+ benefit acts 
+\begin_inset Formula $z_{1}^{\bullet}(n_{2})$
+\end_inset
+
+ to species 2 by the focal, 
+\begin_inset Formula $k_{y_{1}}$
+\end_inset
+
+ reflects how rapidly the focal's fecundity decreases with any fecundity
+ benefit acts 
+\begin_inset Formula $y_{1}^{\bullet}(n_{2})$
+\end_inset
+
+ to species 2 by the focal, 
+\begin_inset Formula $\beta_{b_{2}}$
+\end_inset
+
+ reflects how rapidly the focal's fecundity increases with any fecundity
+ help from the other species.
+\end_layout
+
+\begin_layout Paragraph
+Birth event species 2
+\end_layout
+
+\begin_layout Standard
+A focal individual of species 
+\begin_inset Formula $2$
+\end_inset
+
+ gives birth at rate 
+\begin_inset Formula $b_{2}\left(n_{1},n_{2},y_{2}^{\bullet},z_{2}^{\bullet};z_{1}\right)$
+\end_inset
+
+, given by
+\begin_inset Formula 
+\begin{align}
+b_{2}\left(n_{1},n_{2},y_{2}^{\bullet},z_{2}^{\bullet};z_{1}\right) & =\beta_{2}-k_{z_{2}}z_{2}^{\bullet}\left(n_{1}\right)-k_{y_{2}}y_{2}^{\bullet}\left(n_{1}\right)+\beta_{b_{1}}\frac{n_{1}}{n_{2}}y_{1}\left(n_{2}\right).\label{eq:fecundity2}
+\end{align}
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -133,69 +461,508 @@ Patch dynamics
 \end_layout
 
 \begin_layout Standard
-We have a patch characterised by three state variables: 1.
- the number 
-\begin_inset Formula $n_{1}$
-\end_inset
-
- of individuals of species 1 where 
-\begin_inset Formula $0\leq n_{1}\leq n_{1,\mathrm{max}}$
-\end_inset
-
-, 2.
- the numer of individuals of species 2.
- The frequency of these patches is then given by 
+To obtain the frequencies of patches 
 \begin_inset Formula $f(n_{1},n_{2})$
 \end_inset
 
+ containing 
+\begin_inset Formula $n_{1}$
+\end_inset
+
+ individuals of species 
+\begin_inset Formula $1$
+\end_inset
+
+ and 
+\begin_inset Formula $n_{2}$
+\end_inset
+
+ individuals of species 
+\begin_inset Formula $2$
+\end_inset
+
+, we derive an expression for its instantaneous change in frequency 
+\begin_inset Formula $\mathrm{d}f(n_{1},n_{2})/\mathrm{d}t$
+\end_inset
+
+, which is a sum of the different rates of change of events 
+\begin_inset Formula $i\in1,\ldots,8$
+\end_inset
+
+ listed in eqns.
+ (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:patch_freq:mortality1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+-
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:patch_freq:vacancy_fill:n2-1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) below.
+ We then have
+\begin_inset Formula 
+\begin{align}
+\frac{\mathrm{d}f\left(n_{1},n_{2}\right)}{\mathrm{d}t} & =\sum_{i}^{8}\Delta_{i}f\left(n_{1},n_{2}\right).\label{eq:patch_freq:overall_eq}
+\end{align}
+
+\end_inset
+
+In total, this results in a system of 
+\begin_inset Formula $(n_{1}+1)\times(n_{2}+1)$
+\end_inset
+
+ differential equations, to track all the different permutations of breeders
+ of species 1 
+\begin_inset Formula $n_{1}\in0,\ldots,n_{1,\text{max}}$
+\end_inset
+
+ and those of species 2 
+\begin_inset Formula $n_{2}\in0,\ldots,n_{2,\text{max }}$
+\end_inset
+
 .
- The different events result in 
-\begin_inset Formula $\mathcal{N}$
+ 
+\end_layout
+
+\begin_layout Standard
+Crucially, as we assume that the focal mutant only slighly diverges from
+ the resident, we can assume that patch frequences are unaffected by the
+ mutant's phenotype 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Taylor1990a,Alizon2008"
+literal "false"
+
 \end_inset
 
- different types of  frequency 
-\begin_inset Formula $\Delta_{i}$
+.
+ Hence, we calculate patch frequences for a population that is monomorphic
+ for the traits 
+\begin_inset Formula $y_{i},z_{i}$
+\end_inset
+
+ for 
+\begin_inset Formula $i\in(1,2)$
+\end_inset
+
+.
+ We drop obvious notation, so that mortality rates are then given by 
+\begin_inset Formula $m_{1}(n_{1},n_{2})\equiv m_{1}\left(n_{1},n_{2},z_{1},y_{1};z_{1}\right)$
+\end_inset
+
+ and 
+\begin_inset Formula $m_{2}(n_{1},n_{2})\equiv m_{2}\left(n_{1},n_{2},z_{2},y_{2};z_{2}\right)$
+\end_inset
+
+ and birth rates are given by 
+\begin_inset Formula $b_{1}(n_{1},n_{2})\equiv b_{1}\left(n_{1},n_{2},z_{1},y_{1};z_{2}\right)$
+\end_inset
+
+ and 
+\begin_inset Formula $b_{2}(n_{1},n_{2})\equiv b_{2}\left(n_{1},n_{2},z_{2},y_{2};z_{1}\right)$
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsubsection
+Mortality events that change patch frequency
+\end_layout
+
+\begin_layout Standard
+The first event is a reduction in frequency 
+\begin_inset Formula $f(n_{1},n_{2})$
+\end_inset
+
+ of an 
+\begin_inset Formula $n_{1},n_{2}$
+\end_inset
+
+-patch due to mortality event of a breeder of species 
+\begin_inset Formula $1$
+\end_inset
+
+ at a total rate of rate 
+\begin_inset Formula $n_{1}m_{1}(n_{1},n_{2})$
+\end_inset
+
+, where 
+\begin_inset Formula $m_{1}(n_{1},n_{2})$
+\end_inset
+
+ is the mortality rate of a species 1 individual in an 
+\begin_inset Formula $n_{1},n_{2}$
+\end_inset
+
+-patch:
 \begin_inset Formula 
-\begin{align*}
-f\left(n_{1},n_{2}\right) & =\sum_{i}\Delta_{i}f\left(n_{1},n_{2}\right),
-\end{align*}
+\begin{align}
+\Delta_{1}f\left(n_{1},n_{2}\right) & =-f\left(n_{1},n_{2}\right)n_{1}m_{1}\left(n_{1},n_{2}\right).\label{eq:patch_freq:mortality1}
+\end{align}
 
 \end_inset
 
-where 
+The patch in question subsequently has a number of 
+\begin_inset Formula $n_{1}-1$
+\end_inset
+
+ breeders of species 1 and 
+\begin_inset Formula $n_{2}$
+\end_inset
+
+ breeders of species 
+\begin_inset Formula $2$
+\end_inset
+
+.
+ Indeed, eq.
+ (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:patch_freq:mortality:n1+1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) tracks the influx in frequency from patches that previously had a higher
+ number of 
+\begin_inset Formula $n_{1}$
+\end_inset
+
+ breeders than they currently do, due to mortality.
+\end_layout
+
+\begin_layout Standard
+The second event is a reduction in frequency 
+\begin_inset Formula $f(n_{1},n_{2})$
+\end_inset
+
+ of an 
+\begin_inset Formula $n_{1},n_{2}$
+\end_inset
+
+-patch due to mortality event of a breeder of species 
+\begin_inset Formula $2$
+\end_inset
+
+ at a total rate of rate 
+\begin_inset Formula $n_{2}m_{2}(n_{1},n_{2})$
+\end_inset
+
+, where 
+\begin_inset Formula $m_{2}(n_{1},n_{2})\equiv m_{2}\left(n_{1},n_{2},z_{2},y_{2};z_{2}\right)$
+\end_inset
+
+ is the mortality rate of a species 2 individual in an 
+\begin_inset Formula $n_{1},n_{2}$
+\end_inset
+
+-site:
 \begin_inset Formula 
-\begin{align*}
-\Delta\\
-\\
- & -m_{2}\left(n-n_{1}\right)f\left(e_{i},n_{1}\right)g_{2\rightarrow1}\left(e_{i},n_{1}\right)\\
- & +m_{1}\left(n_{1}+1\right)f\left(e_{i},n_{1}+1\right)g_{1\rightarrow2}\left(e_{i},n_{1}+1\right)\quad n_{1}<n\\
- & +m_{2}\left(n_{1}-1\right)f\left(e_{i},n_{1}-1\right)g_{2\rightarrow1}\left(e_{i},n_{1}-1\right)\quad n_{1}>0
-\end{align*}
+\begin{align}
+\Delta_{2}f\left(n_{1},n_{2}\right) & =-f\left(n_{1},n_{2}\right)n_{2}m_{2}\left(n_{1},n_{2}\right).\label{eq:patch_freq:mortality2}
+\end{align}
 
 \end_inset
 
-where 
-\begin_inset Formula $g_{i\rightarrow j}(e_{i},n_{1})$
+The concomitant influx of a 
+\begin_inset Formula $n_{1},n_{2}$
 \end_inset
 
- reflects the probability that the vacant position left through the mortality
- of a breeder with phenotype 
-\begin_inset Formula $z_{i}$
+-patch to an 
+\begin_inset Formula $n_{1},n_{2}-1$
 \end_inset
 
- is occupied by a breeder with phenotype 
-\begin_inset Formula $j$
+ patch is captured in eq.
+ (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:patch_freq:mortality:n2+1"
+plural "false"
+caps "false"
+noprefix "false"
+
 \end_inset
 
-:
+).
+\end_layout
+
+\begin_layout Standard
+The third event is an increase in frequency 
+\begin_inset Formula $f(n_{1},n_{2})$
+\end_inset
+
+ due to a mortality event of a species 
+\begin_inset Formula $1$
+\end_inset
+
+ breeder in a patch currently containing 
+\begin_inset Formula $n_{1}+1$
+\end_inset
+
+ species 1 breeders and 
+\begin_inset Formula $n_{2}$
+\end_inset
+
+ species 2 breeders:
 \begin_inset Formula 
-\begin{align*}
-g_{i\rightarrow j}\left(e_{i},n_{1}\right) & =1-g_{i\rightarrow i}\left(e_{i},n_{1}\right)\\
-g_{i\rightarrow i}\left(e_{i},n_{1}\right) & =\frac{\left(1-d\right)\left[n_{1}b_{1}\nu_{1\rightarrow i}+\left(n-n_{1}\right)b_{2}\nu_{2\rightarrow i}\right]+d\sum_{e_{j}n_{k}}f\left(e_{j},n_{k}\right)n_{k}b_{k}\nu_{k\rightarrow i}}{\left(1-d\right)\left[n_{1}b_{1}+\left(n-n_{1}\right)b_{2}\right]+d\sum_{e_{j}n_{k}}f\left(e_{j},n_{k}\right)n_{k}b_{k}}.
-\end{align*}
+\begin{align}
+\Delta_{3}f\left(n_{1},n_{2}\right) & =f\left(n_{1}+1,n_{2}\right)\left(n_{1}+1\right)m_{1}\left(n_{1}+1,n_{2}\right).\label{eq:patch_freq:mortality:n1+1}
+\end{align}
+
+\end_inset
+
+The fourth event is an increase in frequency 
+\begin_inset Formula $f(n_{1},n_{2})$
+\end_inset
+
+ due to a mortality event of a species 2 breeder in a patch currently containing
+ 
+\begin_inset Formula $n_{1}$
+\end_inset
+
+ species 1 breeders and 
+\begin_inset Formula $n_{2}$
+\end_inset
+
+ species 2 breeders:
+\begin_inset Formula 
+\begin{align}
+\Delta_{4}f\left(n_{1},n_{2}\right) & =f\left(n_{1},n_{2}+1\right)\left(n_{2}+1\right)m_{2}\left(n_{1},n_{2}+1\right).\label{eq:patch_freq:mortality:n2+1}
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Birth and competition events that change patch frequency
+\end_layout
+
+\begin_layout Standard
+Following 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Alizon2008"
+literal "false"
+
+\end_inset
+
+, we assume that each competing offspring of species 
+\begin_inset Formula $i$
+\end_inset
+
+ fills an empty site at a rate of 
+\begin_inset Formula $1/n_{i,\mathrm{max}}$
+\end_inset
+
+.
+ This is a strong assumption (see p.
+ 1331, 2nd column in 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Alizon2008"
+literal "false"
+
+\end_inset
+
+ for a discussion) as it implies that the more offspring there are on a
+ patch, the larger the probability a vacancy is filled (as each offspring
+ fills a vacancy at rate 
+\begin_inset Formula $1/n_{i,\mathrm{max}}$
+\end_inset
+
+, so if there are 
+\begin_inset Formula $K$
+\end_inset
+
+ offspring the rate with which a vacancy will be filled is simply 
+\begin_inset Formula $K/n_{i,\mathrm{max}}$
+\end_inset
+
+).
+ The assumption contrasts with other models (e.g., 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Kuijper2016"
+literal "false"
+
+\end_inset
+
+) in which the rate at which a vacancy will be occupied is unaffected by
+ the number of offspring present on the patch (i.e., where the rate of filling
+ a vacancy is given by 
+\begin_inset Formula $1/K$
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Standard
+Given that the probability of dispersal and philopatry for an offspring
+ of species 1 is 
+\begin_inset Formula $d_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $h_{1}\equiv1-d_{1}$
+\end_inset
+
+ respectively, a patch containing 
+\begin_inset Formula $n_{1}$
+\end_inset
+
+ individuals of species 1 produces non dispersing (native) offspring at
+ rate 
+\begin_inset Formula $n_{1}b_{1}(n_{1},n_{2})h_{1}$
+\end_inset
+
+ and exports emigrants at rate 
+\begin_inset Formula $n_{1}b_{1}(n_{1},n_{2})d_{1}$
+\end_inset
+
+.
+ Immigrant offspring of species 
+\begin_inset Formula $1$
+\end_inset
+
+ and species 
+\begin_inset Formula $2$
+\end_inset
+
+ arrive (from other patches) at a random patch at rates 
+\begin_inset Formula $\mathcal{D}_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $\mathcal{D}_{2}$
+\end_inset
+
+ respectively, where
+\begin_inset Formula 
+\begin{align}
+\mathcal{D}_{1} & =\sum_{j=1}^{n_{1,\mathrm{max}}}\sum_{k=0}^{n_{2,\mathrm{max}}}f\left(n_{1j},n_{2k}\right)n_{1j}b_{1}\left(n_{1j},n_{2k}\right)d_{1}\label{eq:total_immigrant:1}\\
+\mathcal{D}_{2} & =\sum_{j=0}^{n_{1,\mathrm{max}}}\sum_{k=1}^{n_{2,\mathrm{max}}}f\left(n_{1j},n_{2k}\right)n_{2k}b_{2}\left(n_{1j},n_{2k}\right)d_{2}.\label{eq:total_immigrant:2}
+\end{align}
+
+\end_inset
+
+Hence, the rate at which a species 
+\begin_inset Formula $i$
+\end_inset
+
+ vacancy is filled on a site with 
+\begin_inset Formula $n_{i}$
+\end_inset
+
+ breeders is given by
+\begin_inset Formula 
+\begin{align}
+\mathcal{K}_{1}\left(n_{1},n_{2}\right) & =\frac{f\left(n_{1},n_{2}\right)n_{1}b_{1}\left(n_{1},n_{2}\right)h_{1}+\mathcal{D}_{1}}{n_{1,\mathrm{max}}}.\label{eq:total_birth1}\\
+\mathcal{K}_{2}\left(n_{1},n_{2}\right) & =\frac{f\left(n_{1},n_{2}\right)n_{2}b_{2}\left(n_{1},n_{2}\right)h_{2}+\mathcal{D}_{2}}{n_{2,\mathrm{max}}}.\label{eq:total_birth2}
+\end{align}
+
+\end_inset
+
+Continuing our accounting of events, the fifth event is a decrease in frequency
+ 
+\begin_inset Formula $f(n_{1},n_{2})$
+\end_inset
+
+ due to a newborn species 1 breeder taking up a breeding position in an
+ 
+\begin_inset Formula $n_{1},n_{2}$
+\end_inset
+
+ patch, resulting in a change to a 
+\begin_inset Formula $n_{1}+1,n_{2}$
+\end_inset
+
+ patch:
+\begin_inset Formula 
+\begin{align}
+\Delta_{5}f\left(n_{1},n_{2}\right) & =-f\left(n_{1},n_{2}\right)\mathcal{K}_{1}\left(n_{1},n_{2}\right).\label{eq:patch_freq:vacancy_fill:n1}
+\end{align}
+
+\end_inset
+
+The sixth event is a decrease in frequency 
+\begin_inset Formula $f(n_{1},n_{2})$
+\end_inset
+
+ due to a newborn species 2 breeder taking up a breeding position in a 
+\begin_inset Formula $n_{1},n_{2}$
+\end_inset
+
+ patch, resulting in a change to a 
+\begin_inset Formula $n_{1},n_{2}+1$
+\end_inset
+
+ patch:
+\begin_inset Formula 
+\begin{align}
+\Delta_{6}f\left(n_{1},n_{2}\right) & =-f\left(n_{1},n_{2}\right)\mathcal{K}_{2}\left(n_{1},n_{2}\right).\label{eq:patch_feq:vacancy_fill:n2}
+\end{align}
+
+\end_inset
+
+The seventh event is an increase in frequency 
+\begin_inset Formula $f(n_{1},n_{2})$
+\end_inset
+
+ due to a species 1 vacancy being filled in a 
+\begin_inset Formula $n_{1}-1,n_{2}$
+\end_inset
+
+ patch, resulting in a change into a 
+\begin_inset Formula $n_{1},n_{2}$
+\end_inset
+
+ patch:
+\begin_inset Formula 
+\begin{align}
+\Delta_{7}f\left(n_{1},n_{2}\right) & =f\left(n_{1}-1,n_{2}\right)\mathcal{K}_{1}\left(n_{1}-1,n_{2}\right).\label{eq:patch_freq:vacancy_fill:n1-1}
+\end{align}
+
+\end_inset
+
+The eight event is an increase in frequency 
+\begin_inset Formula $f\left(n_{1},n_{2}\right)$
+\end_inset
+
+ due to a species 
+\begin_inset Formula $2$
+\end_inset
+
+ vacancy being filled in a 
+\begin_inset Formula $n_{1},n_{2}-1$
+\end_inset
+
+ patch, resulting in a change into a 
+\begin_inset Formula $n_{1},n_{2}$
+\end_inset
+
+ patch:
+\begin_inset Formula 
+\begin{align}
+\Delta_{8}f\left(n_{1},n_{2}\right) & =f\left(n_{1},n_{2}-1\right)\mathcal{K}_{2}\left(n_{1},n_{2}-1\right).\label{eq:patch_freq:vacancy_fill:n2-1}
+\end{align}
 
 \end_inset
 
@@ -203,11 +970,325 @@ g_{i\rightarrow i}\left(e_{i},n_{1}\right) & =\frac{\left(1-d\right)\left[n_{1}b
 \end_layout
 
 \begin_layout Subsection
-Pool dynamics
+Equilibrium patch frequencies
 \end_layout
 
 \begin_layout Standard
-We then track the dynamics of the local pools of free DNA, where 
+We then solve for the equilibrium patch frequencies 
+\begin_inset Formula $\hat{f}\left(n_{1},n_{2}\right)$
+\end_inset
+
+ by solving 
+\begin_inset Formula 
+\begin{align*}
+\frac{\mathrm{d}f\left(n_{1},n_{2}\right)}{\mathrm{d}t} & =0,\quad\forall n_{1},n_{2}.
+\end{align*}
+
+\end_inset
+
+subject to the contraint 
+\begin_inset Formula $\sum_{n_{1}=0}^{n_{1,\mathrm{max}}}\sum_{n_{2}=0}^{n_{2,\mathrm{max}}}f(n_{1},n_{2})=1.$
+\end_inset
+
+ As there is no straightforward analytical solution, we solve numerically
+ for the equilibrium frequencies, where we assume convergence when 
+\begin_inset Formula $\mathrm{d}f\left(n_{1},n_{2}\right)/\mathrm{d}t\leq1\times10^{-8}$
+\end_inset
+
+ 
+\begin_inset Formula $\forall n_{1},n_{2}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection
+Reproductive values of species 1
+\end_layout
+
+\begin_layout Standard
+The expected change 
+\begin_inset Formula $\Delta v_{1}\left(n_{1},n_{2}\right)$
+\end_inset
+
+ in reproductive value of a species 
+\begin_inset Formula $1$
+\end_inset
+
+ individual is given by
+\begin_inset Formula 
+\begin{align*}
+\frac{\mathrm{d}v_{1}\left(n_{1},n_{2}\right)}{\mathrm{d}t} & =\sum_{i=1}^{8}\Delta_{i}v_{1}\left(n_{1},n_{2}\right)
+\end{align*}
+
+\end_inset
+
+which are given in eqns.
+ (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:rv1:focal_dies"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+-) below.
+ 
+\end_layout
+
+\begin_layout Standard
+The first event affecting reproductive values is if the focal individual
+ dies:
+\begin_inset Formula 
+\begin{align}
+\Delta_{1}v_{1}\left(n_{1},n_{2}\right) & =-m_{1}\left(n_{1},n_{2}\right)v_{1}\left(n_{1},n_{2}\right),\label{eq:rv1:focal_dies}
+\end{align}
+
+\end_inset
+
+which simply reflects the focal's removal from the total `pool' of reproductive
+ value.
+ 
+\end_layout
+
+\begin_layout Standard
+Next, the second event is when a local patchmate of the nonfocal individual
+ dies:
+\begin_inset Formula 
+\begin{align}
+\Delta_{2}v_{2}\left(n_{1},n_{2}\right) & =\left(n_{1}-1\right)m_{1}\left(n_{1},n_{2}\right)\left[v_{1}\left(n_{1}-1,n_{2}\right)-v_{1}\left(n_{1},n_{2}\right)\right].\label{eq:rv1:nonfocal_dies}
+\end{align}
+
+\end_inset
+
+There are 
+\begin_inset Formula $n_{1}-1$
+\end_inset
+
+ nonfocal individuals of species 1 in the local site, these die at rate
+ 
+\begin_inset Formula $m_{1}\left(n_{1},n_{2}\right)$
+\end_inset
+
+.
+ After the death event, the change in reproductive value is given by the
+ new reproductive value minus the old one.
+ The new reproductive value of the focal is 
+\begin_inset Formula $v_{1}\left(n_{1}-1,n_{2}\right)$
+\end_inset
+
+ as the focal now lives on a site with 
+\begin_inset Formula $n_{1}-1$
+\end_inset
+
+ species 1 neighbours.
+ The old reproductive value was 
+\begin_inset Formula $v_{1}\left(n_{1},n_{2}\right)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The third event occurs when a focal 2 individual dies
+\begin_inset Formula 
+\begin{align}
+\Delta_{3}v_{1}\left(n_{1},n_{2}\right) & =n_{2}m_{2}\left(n_{1},n_{2}\right)\left[v_{1}\left(n_{1},n_{2}-1\right)-v_{1}\left(n_{1},n_{2}\right)\right].\label{eq:rv1:species2_dies}
+\end{align}
+
+\end_inset
+
+The fourth event occurs when a focal's offspring occupies one of the vacant
+ patches in the local site.
+ We have
+\begin_inset Formula 
+\begin{align}
+\Delta_{4}v_{1}\left(n_{1},n_{2}\right) & =b_{1}\left(n_{1},n_{2}\right)h_{1}\frac{\left(n_{1,\mathrm{max}}-n_{1}\right)}{n_{1,\mathrm{max}}}\left[2v_{1}\left(n_{1}+1,n_{2}\right)-v_{1}\left(n_{1},n_{2}\right)\right],\label{eq:rv1:focal_birth_local}
+\end{align}
+
+\end_inset
+
+where the birth rate of the focal is 
+\begin_inset Formula $b_{1}\left(n_{1},n_{2}\right)$
+\end_inset
+
+, a proportion of 
+\begin_inset Formula $h_{1}$
+\end_inset
+
+ stays at the natal site.
+ Moreover, the rate at filling the vacancy is given by 
+\begin_inset Formula $1/n_{1,\mathrm{max}}$
+\end_inset
+
+ and there are 
+\begin_inset Formula $n_{1,\mathrm{max}}-n_{1}$
+\end_inset
+
+ vacant sites.
+ Upon filling the vacancy, the focal's new reproductive value is 
+\begin_inset Formula $v_{1}\left(n_{1}+1,n_{2}\right)$
+\end_inset
+
+ (who now finds itself in a patch with 
+\begin_inset Formula $n_{1}+1$
+\end_inset
+
+ individuals), plus that of its clonal offspring 
+\begin_inset Formula $v_{1}\left(n_{1}+1,n_{2}\right)$
+\end_inset
+
+ who finds itself in the same situation as its parent.
+ Brief note: with competition among locals and immigrant in mind, it may
+ be tempting to calculate the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+emph{probability}
+\end_layout
+
+\end_inset
+
+ that the focal's offspring (and not another offspring) fills the vacant
+ site.
+ However, this is a continuous-time model, so one is interested in rates,
+ here given by 
+\begin_inset Formula $b_{1}\left(n_{1},n_{2}\right)h_{1}/n_{1,\mathrm{max}}$
+\end_inset
+
+.
+ Clearly, this focal birth rate is only a fraction of the rate with which
+ others fill vacancies in this patch, which is given by 
+\begin_inset Formula $\mathcal{K}_{1}-b_{1}\left(n_{1},n_{2}\right)h_{1}/n_{1,\mathrm{max}}$
+\end_inset
+
+, hence competition among individuals is accounted for.
+ 
+\end_layout
+
+\begin_layout Standard
+The fifth event occurs when an offspring produced by a patch mate of the
+ focal, or an immigrant offspring, occupies the vacant site.
+ The total rate at which species 1 offspring (including those of the focal)
+ fill vacancies is given by 
+\begin_inset Formula $\mathcal{K}_{1}$
+\end_inset
+
+ (see eq.
+ [
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:total_birth1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+] above).
+ Hence, subtracting the focal's philopatric offspring fill rate from that,
+ we have
+\begin_inset Formula 
+\begin{align}
+\Delta_{5}v_{1}\left(n_{1},n_{2}\right) & =\left[\mathcal{K}_{1}-b_{1}\left(n_{1},n_{2}\right)h_{1}/n_{1,\mathrm{max}}\right]\left(n_{1,\mathrm{max}}-n_{1}\right)\left[v_{1}\left(n_{1}+1,n_{2}\right)-v_{1}\left(n_{1},n_{2}\right)\right].\label{eq:rv1:nonfocal_birth_local}
+\end{align}
+
+\end_inset
+
+The sixth event occurs when a species 
+\begin_inset Formula $2$
+\end_inset
+
+ individual occupies a vacant site in the site of the species 1 focal:
+\begin_inset Formula 
+\begin{align}
+\Delta_{6}v_{1}\left(n_{1},n_{2}\right) & =\mathcal{K}_{2}\left(n_{2,\mathrm{max}}-n_{2}\right)\left[v_{1}\left(n_{1},n_{2}+1\right)-v_{1}\left(n_{1},n_{2}\right)\right]\label{eq:rv1:species2_birth}
+\end{align}
+
+\end_inset
+
+The seventh event occurs when a focal offspring occupies a vacancy in a
+ remote site:
+\begin_inset Formula 
+\begin{align}
+\Delta_{7}v_{1}\left(n_{1},n_{2}\right) & =b_{1}\left(n_{1},n_{2}\right)d_{1}\sum_{i=1}^{n_{1,\mathrm{max}}-1}\sum_{j=0}^{n_{2,\mathrm{max}}}f\left(n_{1i},n_{2j}\right)\frac{n_{1,\mathrm{max}}-n_{1i}}{n_{1,\mathrm{max}}}v_{1}\left(n_{1i}+1,n_{2j}\right).\label{eq:rv1:focal_birth:nonlocal}
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Reproductive values of species 2
+\end_layout
+
+\begin_layout Standard
+An equation for the total change in reproductive value of species 2 can
+ be derived analogously to that of species 
+\begin_inset Formula $1$
+\end_inset
+
+.
+ We have 
+\begin_inset Formula 
+\begin{align*}
+\frac{\mathrm{d}v_{2}\left(n_{1},n_{2}\right)}{\mathrm{d}t} & =\sum_{i=1}^{8}\Delta_{i}v_{2}\left(n_{1},n_{2}\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Equilibrium reproductive values
+\end_layout
+
+\begin_layout Standard
+We then solve for the equilibrium reproductive values 
+\begin_inset Formula $\hat{v}_{1}\left(n_{1},n_{2}\right)$
+\end_inset
+
+ by simultaneously solving 
+\begin_inset Formula 
+\begin{align*}
+\frac{\mathrm{d}v_{1}\left(n_{1},n_{2}\right)}{\mathrm{d}t} & =0\quad\forall n_{1},n_{2}\\
+\frac{\mathrm{d}v_{2}\left(n_{1},n_{2}\right)}{\mathrm{d}t} & =0\quad\forall n_{1},n_{2},
+\end{align*}
+
+\end_inset
+
+subject to the contraint 
+\begin_inset Formula $\sum_{n_{1}=0}^{n_{1,\mathrm{max}}}\sum_{n_{2}=0}^{n_{2,\mathrm{max}}}\hat{f}(n_{1},n_{2})v_{1}\left(n_{1},n_{2}\right)=1$
+\end_inset
+
+ (i.e., the total reproductive value is constant).
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "/Users/bram/Projects/databases/transgenerational"
+options "jevolbiol"
+
+\end_inset
+
+
 \end_layout
 
 \end_body
