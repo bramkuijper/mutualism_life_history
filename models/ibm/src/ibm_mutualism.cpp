@@ -8,8 +8,4 @@ IBM_Mutualism::IBM_Mutualism(const IBM_parameters &params) :
 
 void IBM_Mutualism::initialize_simulation()
 {
-  for (int i = 0; i < Npatches; ++i)
-  {
-
-  }
 }
