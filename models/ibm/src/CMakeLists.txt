@@ -1,8 +1,7 @@
 # this file is used for the programme CMake,
 # which allows us to build and compile the executable
 # see https://cmake.org/cmake/help/latest/index.html
-
-cmake_minimum_required(VERSION 3.22)
+cmake_minimum_required(VERSION 3.10)
 
 
 #### VARIABLES ####
@@ -92,4 +91,14 @@ include(GoogleTest)
 gtest_discover_tests("${EXE_NAME_IND_TEST}")
 
 
-
+# run all tests
+# see https://stackoverflow.com/questions/32901679/unit-testing-as-part-of-the-build 
+set(UNIT_TEST "${EXE_NAME_IND_TEST}")
+add_test(NAME "${UNIT_TEST}" COMMAND "${UNIT_TEST}")
+add_custom_command(
+    TARGET ${UNIT_TEST}
+    COMMENT "Run tests"
+    POST_BUILD
+    WORKING_DIRECTORY ${CMAKE_BINARY_DIR}
+    COMMAND ${CMAKE_CTEST_COMMAND} -C $<CONFIGURATION> -R "^${UNIT_TEST}$" --output-on-failures
+)
