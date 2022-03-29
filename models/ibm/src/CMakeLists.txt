@@ -88,18 +88,23 @@ target_include_directories(
     )
 
 include(GoogleTest)
-gtest_discover_tests("${EXE_NAME_IND_TEST}")
-gtest_discover_tests("${EXE_NAME_SIM_TEST}")
 
+set(UNIT_TESTS ${EXE_NAME_IND_TEST} ${EXE_NAME_SIM_TEST})
 
-# run all tests
-# see https://stackoverflow.com/questions/32901679/unit-testing-as-part-of-the-build 
-set(UNIT_TESTS "${EXE_NAME_IND_TEST}" "${EXE_NAME_SIM_TEST}")
-
-foreach(UNIT_TEST_I ${UNIT_TESTS})
+foreach (UNIT_TEST_I ${UNIT_TESTS})
     add_test(NAME "${UNIT_TEST_I}" COMMAND "${UNIT_TEST_I}")
-    add_custom_target(${UNIT_TEST_I}.exe ALL
-        COMMAND ${CMAKE_CTEST_COMMAND} -C $<CONFIGURATION> -R "^${UNIT_TEST_I}$" --output-on-failures
-        DEPENDS ${UNIT_TEST_I}
-    )
+    gtest_discover_tests("${UNIT_TEST_I}")
+
+    # ok we have to test manually as we have a crazy _NOT_BUILT command
+    message(STATUS "${UNIT_TEST_I}")
+    
+    # alas this really does not work, we'll have to test manually    
+    #    add_custom_command(
+    #        TARGET "${UNIT_TEST_I}"
+    #        COMMENT "Run tests"
+    #        POST_BUILD
+    #        WORKING_DIRECTORY ${CMAKE_BINARY_DIR}
+    #        COMMAND ${CMAKE_CTEST_COMMAND} -C $<CONFIGURATION> -R "^${UNIT_TEST_I}$" --output-on-failures
+    #    )
 endforeach()
+

@@ -28,8 +28,10 @@ class IBM_Mutualism
 
 
     public:
-        bool initialize_simulation();
         IBM_Mutualism(const IBM_parameters &params);
+        
+        void event_chooser(generation);
+        bool initialize_simulation();
 }; // end class IBM_Mutualism
 
 #endif
