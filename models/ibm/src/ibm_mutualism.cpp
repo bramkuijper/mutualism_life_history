@@ -6,6 +6,7 @@ IBM_Mutualism::IBM_Mutualism(const IBM_parameters &params) :
   initialize_simulation();
 } // end IBM_Mutualism
 
-void IBM_Mutualism::initialize_simulation()
+bool IBM_Mutualism::initialize_simulation()
 {
+    return(false);
 }

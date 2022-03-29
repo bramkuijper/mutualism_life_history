@@ -20,14 +20,15 @@ class IBM_Mutualism
 {
     private:
         IBM_parameters par;
+
         std::uniform_real_distribution<double> uniform;
 
         // (npp1 + 1) x (npp2 +1) combinations of patches
         std::vector < std::vector <Individual> > patches;
 
-        void initialize_simulation();
 
     public:
+        bool initialize_simulation();
         IBM_Mutualism(const IBM_parameters &params);
 }; // end class IBM_Mutualism
 

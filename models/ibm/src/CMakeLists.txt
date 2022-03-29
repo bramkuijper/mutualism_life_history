@@ -10,6 +10,7 @@ cmake_minimum_required(VERSION 3.10)
 # need it in multiple places
 set(EXE_NAME "MutualismIBM")
 set(EXE_NAME_IND_TEST "MutualismIBM_individual_tests")
+set(EXE_NAME_SIM_TEST "MutualismIBM_simulation_tests")
 
 
 # varia
@@ -23,7 +24,7 @@ set(GOOGLETEST_URL "https://github.com/google/googletest/archive/609281088cfefc7
 project(MutualismIBM)
 
 add_executable("${EXE_NAME}" ibm_mutualism_main.cpp)
-add_library(all_kinds ibm_mutualism.cpp individual.cpp)
+add_library(mutualism_library ibm_mutualism.cpp individual.cpp)
 
 # add the current dir in which the executable is being built
 # as include dir, as there are a bunch of header files in there
@@ -54,51 +55,51 @@ enable_testing()
 
 add_executable(
     "${EXE_NAME_IND_TEST}"
-    individual_tests.cpp)
+individual_tests.cpp)
 
 target_link_libraries(
-    "${EXE_NAME_IND_TEST}"
-    gtest_main
+    "${EXE_NAME_IND_TEST}" gtest_main mutualism_library
 )
 
-# link other libraries to test exe
+add_executable(
+    "${EXE_NAME_SIM_TEST}"
+    ibm_mutualism_tests.cpp
+)
+
 target_link_libraries(
-    "${EXE_NAME_IND_TEST}"
-    all_kinds
+    "${EXE_NAME_SIM_TEST}" gtest_main mutualism_library
 )
 
-# link other libraries to main exe
+# link libraries to main exe
 target_link_libraries(
     "${EXE_NAME}"
-    all_kinds
+    mutualism_library
 )
+
 target_include_directories(
     "${EXE_NAME_IND_TEST}" 
     PUBLIC
     "${PROJECT_BINARY_DIR}"
     )
-
-target_compile_options(
-    "${EXE_NAME}"
-    INTERFACE "SHELL:-v"
-)
-target_compile_options(
-    "${EXE_NAME_IND_TEST}"
-    INTERFACE "SHELL:-v"
-)
+target_include_directories(
+    "${EXE_NAME_SIM_TEST}" 
+    PUBLIC
+    "${PROJECT_BINARY_DIR}"
+    )
 
 include(GoogleTest)
 gtest_discover_tests("${EXE_NAME_IND_TEST}")
+gtest_discover_tests("${EXE_NAME_SIM_TEST}")
 
 
 # run all tests
 # see https://stackoverflow.com/questions/32901679/unit-testing-as-part-of-the-build 
-set(UNIT_TEST "${EXE_NAME_IND_TEST}")
-add_test(NAME "${UNIT_TEST}" COMMAND "${UNIT_TEST}")
-add_custom_command(
-    TARGET ${UNIT_TEST}
-    COMMENT "Run tests"
-    POST_BUILD
-    WORKING_DIRECTORY ${CMAKE_BINARY_DIR}
-    COMMAND ${CMAKE_CTEST_COMMAND} -C $<CONFIGURATION> -R "^${UNIT_TEST}$" --output-on-failures
-)
+set(UNIT_TESTS "${EXE_NAME_IND_TEST}" "${EXE_NAME_SIM_TEST}")
+
+foreach(UNIT_TEST_I ${UNIT_TESTS})
+    add_test(NAME "${UNIT_TEST_I}" COMMAND "${UNIT_TEST_I}")
+    add_custom_target(${UNIT_TEST_I}.exe ALL
+        COMMAND ${CMAKE_CTEST_COMMAND} -C $<CONFIGURATION> -R "^${UNIT_TEST_I}$" --output-on-failures
+        DEPENDS ${UNIT_TEST_I}
+    )
+endforeach()
