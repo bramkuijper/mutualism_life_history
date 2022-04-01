@@ -91,7 +91,7 @@ include(GoogleTest)
 gtest_discover_tests("${EXE_NAME_IND_TEST}")
 
 
-# run all tests
+# run all tests directly after building
 # see https://stackoverflow.com/questions/32901679/unit-testing-as-part-of-the-build 
 set(UNIT_TEST "${EXE_NAME_IND_TEST}")
 add_test(NAME "${UNIT_TEST}" COMMAND "${UNIT_TEST}")
