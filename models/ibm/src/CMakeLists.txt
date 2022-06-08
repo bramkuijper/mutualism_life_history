@@ -88,7 +88,6 @@ target_include_directories(
     )
 
 include(GoogleTest)
-<<<<<<< HEAD
 gtest_discover_tests("${EXE_NAME_IND_TEST}")
 
 
