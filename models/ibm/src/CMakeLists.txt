@@ -3,6 +3,7 @@
 # see https://cmake.org/cmake/help/latest/index.html
 cmake_minimum_required(VERSION 3.10)
 
+set(CMAKE_BUILD_TYPE Debug)
 
 #### VARIABLES ####
 
@@ -88,7 +89,7 @@ target_include_directories(
     )
 
 include(GoogleTest)
-<<<<<<< HEAD
+
 gtest_discover_tests("${EXE_NAME_IND_TEST}")
 
 
