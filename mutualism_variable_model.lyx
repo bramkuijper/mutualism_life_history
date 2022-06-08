@@ -157,7 +157,15 @@ We consider a patch structured population, where patches are characterized
 \begin_inset Formula $0\leq n_{1}\leq n_{1,\mathrm{max}}$
 \end_inset
 
-) and the number of individuals of species 2.
+) and the number 
+\begin_inset Formula $n_{2}$
+\end_inset
+
+ of individuals of species 2 (where 
+\begin_inset Formula $0\leq n_{2}\leq n_{2,\mathrm{max}}$
+\end_inset
+
+).
  The frequency of patches containing 
 \begin_inset Formula $n_{1}$
 \end_inset
@@ -1273,10 +1281,6 @@ subject to the contraint
 
  (i.e., the total reproductive value is constant).
  
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Standard
