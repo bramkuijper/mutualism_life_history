@@ -18,6 +18,7 @@ IBM_Mutualism::IBM_Mutualism(Parameters const &params) : // constructors first i
         reproduce();
         disperse();
         survive();
+        write_data();
     }
 } // end IBM_Mutualism
 
@@ -68,8 +69,9 @@ void IBM_Mutualism::reproduce()
 
             // calculate fecundity help per individual
             fecundity_help_per_individual = 
+                // total amount of help
                 metapop[patch_idx].help_fecundity[the_other_species] / 
-                    metapop.breeders[species_idx].size();
+                    metapop.breeders[species_idx].size(); // divided by #recipients
 
             // then dish out fecundity and calculate fecundity costs of
             // help
@@ -92,8 +94,45 @@ void IBM_Mutualism::reproduce()
                     + fecundity_help_per_individual
                     - fecundity_cost_of_help; 
 
+                for (int egg_i = 0; eggs_i < fecundity; ++eggs_i)
+                {
+                    juveniles.push_back(offspring)
+                }
             }
         }
     }
 } // end IBM_Mutualism::reproduce()
+
+
+void IBM_Mutualism::disperse()
+{
+    for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
+    {
+        for (int species_idx = 0; species_idx < 2; ++species_idx)
+        {
+            // initialize a random distribution 
+            std::uniform_int_distribution juvenile_sampler{0, juveniles.size() - 1};
+
+            // this could result in 84, 90, etc..
+            randomly_sampled_juvenile = juvenile_sampler(rng_r);
+
+            for (int juvenile_idx = 0; juvenile_idx < juveniles.size(); ++juvenile_idx)
+            {
+
+
+                // dispersal rate is 0.3
+                if (uniform(rng_r) < par.d[species_idx])
+                {
+                    // you disperse!
+                }
+                else
+                {
+                    // individual stays put
+                }
+            }
+
+        }
+    }
+
+}
 
