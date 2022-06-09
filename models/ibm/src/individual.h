@@ -17,7 +17,7 @@ class Individual
         // of the other species) for species 1 and 2
         // dependent on parameters that cost will be paid in terms of mortality
         // or fecundity
-        double mort_h[2] = {0.0,0.0};
+        double surv_h[2] = {0.0,0.0};
 
         // default constructor
         Individual();

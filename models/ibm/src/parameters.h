@@ -8,7 +8,7 @@
 struct Parameters {
     double d[2] = {0.5,0.3}; // dispersal rates of species 1 and 2
     int max_time_steps{10}; // number of generations the simulation is supposed to last
-    int npatches{500}; // number of patches
+    unsigned int npatches{250}; // number of patches
     
     // number of individuals per patch
     // of each species
@@ -19,12 +19,15 @@ struct Parameters {
     // have death-birth rather than birth death updating 
     bool death_birth[2] = {true,true}; 
 
-    // baseline mortality rate for both species
-    double baseline_mortality_rate[2] = {1.0,1.0};
-    double baseline_fecundity_rate[2] = {1.0,1.0};
+    // baseline survival and fecundity for both species
+    double baseline_survival[2] = {1.0,1.0};
+    double baseline_fecundity[2] = {1.0,1.0};
 
-    double mortality_cost_of_mort_help[2] = {0.5,0.5};
+    double mortality_cost_of_surv_help[2] = {0.5,0.5};
     double mortality_cost_of_fec_help[2] = {0.5,0.5};
+    
+    double fecundity_cost_of_surv_help[2] = {0.5,0.5};
+    double fecundity_cost_of_fec_help[2] = {0.5,0.5};
 
     // number of alleles in population
     int n_alleles = 20;
