@@ -25,7 +25,7 @@ set(GOOGLETEST_URL "https://github.com/google/googletest/archive/609281088cfefc7
 project(MutualismIBM)
 
 add_executable("${EXE_NAME}" ibm_mutualism_main.cpp)
-add_library(mutualism_library ibm_mutualism.cpp individual.cpp)
+add_library(mutualism_library ibm_mutualism.cpp patch.cpp individual.cpp)
 
 # add the current dir in which the executable is being built
 # as include dir, as there are a bunch of header files in there

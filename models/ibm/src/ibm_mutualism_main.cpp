@@ -2,7 +2,7 @@
 
 int main()
 {
-    IBM_parameters parms{};
+    Parameters parms{};
     IBM_Mutualism sim{parms};
 
     return 0;

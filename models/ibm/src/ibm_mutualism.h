@@ -3,8 +3,10 @@
 
 #include <vector>
 #include <random>
-#include "individual.h"
-#include "ibm_parameters.h"
+#include <iostream>
+#include <fstream>
+#include "patch.h"
+#include "parameters.h"
 
 // struct with default parameters for the class constructor
 
@@ -35,16 +37,16 @@ class IBM_Mutualism
         
         // parameter object
         // containing all the parameters for this run
-        IBM_parameters par;
+        Parameters par;
         
-
-        // (npp1 + 1) x (npp2 +1) combinations of patches
-        std::vector < std::vector <Individual> > patches;
-
     public:
-        IBM_Mutualism(const IBM_parameters &params);
+        // metapopulation of patches
+        std::vector<Patch> metapop;
+
+        // the class constructor
+        IBM_Mutualism(const Parameters &params);
         
-        void event_chooser();
+        void reproduce();
         bool initialize_simulation();
 }; // end class IBM_Mutualism
 
