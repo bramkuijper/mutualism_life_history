@@ -16,8 +16,7 @@ IBM_Mutualism::IBM_Mutualism(Parameters const &params) : // constructors first i
     {
         calculate_help();
         reproduce();
-        disperse();
-        survive();
+        survive_replace();
         write_data();
     }
 } // end IBM_Mutualism
@@ -49,32 +48,58 @@ void IBM_Mutualism::calculate_help()
 } // end void IBM_Mutualism::calculate_help()
 
 
+// reproduce 
 void IBM_Mutualism::reproduce()
 {
-    // aux variable for fecundity help
-    double fecundity_help_per_individual, fecundity_cost_of_help;
+    // some auxiliary variables to store temporary
+    // cost and benefit values
+    double fecundity_help_per_individual, 
+           fecundity_cost_of_help,
+           fecundity;
+
+    // integer variable for discretized fecundity
+    int fecundity_i;
 
     // aux variable to get the index of the 'other' species
     int the_other_species;
 
+    // distribution to sample random destination patches for 
+    // dispersing newborns
+    std::uniform_int_distribution<int> patch_sampler(0, metapop.size() - 1);
 
-
-    // go through all patches and calculate help of the two species
+    // first clear the previous stacks of juveniles across all patches
+    // these are from the previous time step so we do not want any remaining
+    // juveniles to carry over to the current one
     for (int patch_idx = 0; patch_idx < metapop.size(); ++patches)
     {
         for (int species_idx = 0; species_idx < 2; ++species_idx)
         {
-            // get the opposite index of 0,1
+            metapop[patch_idx].juveniles[species_idx].clear();
+        }
+    }
+        
+    // go through all patches and calculate help of the two species
+    // then use this to reproduce
+    for (int patch_idx = 0; patch_idx < metapop.size(); ++patches)
+    {
+        for (int species_idx = 0; species_idx < 2; ++species_idx)
+        {
+            // get the opposite index species_idx
+            // to obtain the index of the mutualist 
             the_other_species = !species_idx;
 
             // calculate fecundity help per individual
             fecundity_help_per_individual = 
                 // total amount of help
                 metapop[patch_idx].help_fecundity[the_other_species] / 
-                    metapop.breeders[species_idx].size(); // divided by #recipients
+                    metapop.breeders[species_idx].size(); 
+                    // divide by #recipients
+                    // to get per-individual amount of benefits
 
-            // then dish out fecundity and calculate fecundity costs of
-            // help
+            // - calculate fecundity costs of help (these vary per individual
+            //      as they depend on the expression of helping traits)
+            // - calculate fecundity (help received - costs)
+            // - actually reproduce
             for (std::vector<Individual>::iterator individual_iter = 
                     metapop.breeders[species_idx].begin();
                     individual_iter != metapop.breeders[species_idx].end();
@@ -94,45 +119,97 @@ void IBM_Mutualism::reproduce()
                     + fecundity_help_per_individual
                     - fecundity_cost_of_help; 
 
-                for (int egg_i = 0; eggs_i < fecundity; ++eggs_i)
+                // now translate fecundity into births
+                // as fecundity is necessarily discrete (0, 1, 2, .., n offspring)
+                // let us discretize the number
+                //
+                // first we take the lowest integer in fecundity
+                fecundity_i = floor(fecundity);
+
+                // then we draw a random number and compare it against the remainder
+                // hence if fecundity is 10.73, one produces 10 offspring with certainty
+                // but 11 offspring with a probability of 0.73
+                if (uniform(rng_r) < fecundity - fecundity_i)
                 {
-                    juveniles.push_back(offspring)
+                    // increment count by 1
+                    ++fecundity_i;
+                }
+
+                // now reproduce 
+                for (int egg_i = 0; eggs_i < fecundity_i; ++eggs_i)
+                {
+                    // make offspring
+                    Individual offspring(
+                            // current parent (dereference an iterator)
+                            *individual_iter
+                            ,rng_r
+                            ,par);
+
+                    // determine patch of destination dependent on dispersal
+                    // using C++'s ternary operator
+                    destination_patch = uniform(rng) < par.d[species_idx] 
+                                            ?
+                                        patch_sampler(rng_r) : patch_idx;
+
+                    // add offspring to local stack of juveniles
+                    metapop[destination_patch].juveniles[species_idx].push_back(offspring);
                 }
             }
-        }
-    }
+        } // end for species_idx
+    } // end for patch_idx  idx
 } // end IBM_Mutualism::reproduce()
 
-
-void IBM_Mutualism::disperse()
+void Individual::survive_replace()
 {
-    for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
+    bool the_other_species;
+
+    double survival_help_per_individual;
+
+    // go through all patches 
+    for (int patch_idx = 0; patch_idx < metapop.size(); ++patches)
     {
+        // go through the 2 species
         for (int species_idx = 0; species_idx < 2; ++species_idx)
         {
-            // initialize a random distribution 
-            std::uniform_int_distribution juvenile_sampler{0, juveniles.size() - 1};
+            // get the opposite index species_idx
+            // to obtain the index of the mutualist 
+            the_other_species = !species_idx;
 
-            // this could result in 84, 90, etc..
-            randomly_sampled_juvenile = juvenile_sampler(rng_r);
+            // calculate fecundity help per individual
+            survival_help_per_individual = 
+                // total amount of help
+                metapop[patch_idx].help_survival[the_other_species] / 
+                    metapop.breeders[species_idx].size(); 
+                    // divide by #recipients
+                    // to get per-individual amount of benefits
 
-            for (int juvenile_idx = 0; juvenile_idx < juveniles.size(); ++juvenile_idx)
+            // - calculate survival costs of help
+            // - dish out survival benefits / costs
+            // - have individuals survive or not
+            // - replace vacancies by juveniles
+            for (std::vector<Individual>::iterator individual_iter = 
+                    metapop.breeders[species_idx].begin();
+                    individual_iter != metapop.breeders[species_idx].end();
+                    ++individual_iter)
             {
+                survival_cost_of_help = 
+                    survival_cost_of_fec_help[species_idx] * (
+                            individual_iter->fec_h[0] + 
+                            individual_iter->fec_h[1]) 
+                    +
+                    survival_cost_of_surv_help[species_idx] * (
+                            individual_iter->surv_h[0] + 
+                            individual_iter->surv_h[1]);
 
+                survival = par.baseline_survival[species_idx] 
+                    + survival_help_per_individual
+                    - survival_cost_of_help; 
 
-                // dispersal rate is 0.3
-                if (uniform(rng_r) < par.d[species_idx])
-                {
-                    // you disperse!
-                }
-                else
-                {
-                    // individual stays put
-                }
+                // darn... in contrast to fecundity this is not so easily
+                // scalable
+                1.0 - par.baseline_survival[species_idx]
             }
-
-        }
-    }
-
-}
+        } // end for for (int species_idx = 0; species_idx < 2; ++species_idx)
+    } // end for (int patch_idx = 0; patch_idx < metapop.size(); ++patches)
+} // end void Individual::survive_replace()
 
