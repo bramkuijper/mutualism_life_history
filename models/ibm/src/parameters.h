@@ -15,6 +15,8 @@ struct Parameters {
     int npp[2] = {2,2}; 
     std::string base_name{"ibm_mutualism_data"};
 
+    int data_interval = 50000;
+
     // array to determine whether species 1 and species 2
     // have death-birth rather than birth death updating 
     bool death_birth[2] = {true,true}; 

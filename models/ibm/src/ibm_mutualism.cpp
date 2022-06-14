@@ -15,13 +15,23 @@ IBM_Mutualism::IBM_Mutualism(Parameters const &params) : // constructors first i
     ,par{params} // initialize the parameter data member with the constructor argument
     ,metapop{par.npatches, Patch(par.npp[0],par.npp[1])} // initialize a meta population each with n1 individuals of species 1 and n2 individuals of species 2
 {
-    for (time_step = 0; time_step < par.max_time_steps; ++time_step)
+    write_data_headers();
+
+    for (time_step = 0; time_step <= par.max_time_steps; ++time_step)
     {
         calculate_help();
         reproduce();
         survive_otherwise_replace();
-        write_data();
+
+        if (time_step % par.data_interval == 0 || 
+                time_step == par.max_time_steps)
+        {
+            write_data();
+        }
     }
+
+    write_parameters();
+
 } // end IBM_Mutualism
 
 void IBM_Mutualism::calculate_help()
@@ -199,6 +209,8 @@ void IBM_Mutualism::survive_otherwise_replace()
     double p_survive;
 
     int individual_idx;
+
+    double survival_cost_of_help;
 
     // reset some data members we use to keep stats
     for (int species_idx = 0; species_idx < 2; ++species_idx)
@@ -410,8 +422,10 @@ void IBM_Mutualism::write_data()
                     << var_surv_h << ";"
 
                     << mean_surv_prob[species_idx] << ";" 
-                    << mean_survivors[species_idx] << ";" 
+                    << nsurvivors[species_idx] << ";" 
                     << mean_offspring[species_idx] << ";";
     } // end for species_idx
+
+    data_file << std::endl;
 
 } // end IBM_Mutualism::write_data()

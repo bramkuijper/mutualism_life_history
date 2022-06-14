@@ -25,9 +25,10 @@ Individual::Individual(Individual const &parent
 {
     // set up random number distributions to realize
     // mutation rates...
-    std::uniform_real_distribution uniform{0.0,1.0};
+    std::uniform_real_distribution<> uniform{0.0,1.0};
+
     // ... and mutational effect sizes
-    std::normal_distribution{0,params.sdmu};
+    std::normal_distribution<> normal{0,params.sdmu};
 
     for (int allele_idx = 0; allele_idx < 2; ++allele_idx)
     {
