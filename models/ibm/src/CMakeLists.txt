@@ -12,9 +12,6 @@ set(EXE_NAME "MutualismIBM")
 set(EXE_NAME_IND_TEST "MutualismIBM_individual_tests")
 set(EXE_NAME_SIM_TEST "MutualismIBM_simulation_tests")
 
-
-# varia
-
 # google test url
 set(GOOGLETEST_URL "https://github.com/google/googletest/archive/609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip") 
 
