@@ -14,7 +14,17 @@ Patch::Patch(int const nbreeder_species1, int const nbreeder_species2)
     breeders.push_back(stack_species_2);
 
     assert(breeders.size() == 2);
-}
+   
+    // now do the same thing for the juveniles
+    // however they can be empty as we will only start to
+    // allocate them at the reproduction stage
+    std::vector<Individual> juvs1(0, Individual());
+    std::vector<Individual> juvs2(0, Individual());
+
+    juveniles.push_back(juvs1, juvs2);
+
+    assert(juveniles.size() == 2);
+} // end constructor
 
 // copy constructor
 Patch::Patch(Patch const &other) :

@@ -30,6 +30,14 @@ struct Parameters {
     // fecundity cost of surv/fec help for both species
     double fecundity_cost_of_surv_help[2] = {0.5,0.5};
     double fecundity_cost_of_fec_help[2] = {0.5,0.5};
+
+    // number of alleles in population
+    int n_alleles = 20;
+
+    // mutation rates
+    double mu_fec_h = 0.01;
+    double mu_surv_h = 0.01;
+    double sdmu = 0.01;
 };
 
 #endif

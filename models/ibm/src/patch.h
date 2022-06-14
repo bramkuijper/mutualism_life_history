@@ -13,6 +13,7 @@ class Patch
         // two dimensional list of individuals in each patch
         // which reflect the breeders of species 1 and species 2
         std::vector < std::vector<Individual> > breeders;
+        std::vector < std::vector<Individual> > juveniles;
 
         // the default constructor 
         // with n1 species 1 breeders
