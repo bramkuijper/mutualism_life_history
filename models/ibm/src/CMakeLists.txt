@@ -3,6 +3,7 @@
 # see https://cmake.org/cmake/help/latest/index.html
 cmake_minimum_required(VERSION 3.10)
 
+set(CMAKE_BUILD_TYPE Debug)
 
 #### VARIABLES ####
 
@@ -21,7 +22,7 @@ set(GOOGLETEST_URL "https://github.com/google/googletest/archive/609281088cfefc7
 project(MutualismIBM)
 
 add_executable("${EXE_NAME}" ibm_mutualism_main.cpp)
-add_library(mutualism_library ibm_mutualism.cpp individual.cpp)
+add_library(mutualism_library ibm_mutualism.cpp patch.cpp individual.cpp)
 
 # add the current dir in which the executable is being built
 # as include dir, as there are a bunch of header files in there
@@ -31,9 +32,9 @@ target_include_directories(
     "${PROJECT_BINARY_DIR}"
     )
 
-# make sure it is c++11
-set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+# make sure it is c++14
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
 
 # now adding the google mock testing framework
 # see: https://google.github.io/googletest/quickstart-cmake.html
@@ -86,6 +87,18 @@ target_include_directories(
 
 include(GoogleTest)
 
+# run all tests directly after building
+# see https://stackoverflow.com/questions/32901679/unit-testing-as-part-of-the-build 
+# set(UNIT_TEST "${EXE_NAME_IND_TEST}")
+# add_test(NAME "${UNIT_TEST}" COMMAND "${UNIT_TEST}")
+# add_custom_command(
+#     TARGET ${UNIT_TEST}
+#     COMMENT "Run tests"
+#     POST_BUILD
+#     WORKING_DIRECTORY ${CMAKE_BINARY_DIR}
+#     COMMAND ${CMAKE_CTEST_COMMAND} -C $<CONFIGURATION> -R "^${UNIT_TEST}$" --output-on-failures
+# )
+
 set(UNIT_TESTS ${EXE_NAME_IND_TEST} ${EXE_NAME_SIM_TEST})
 
 foreach (UNIT_TEST_I ${UNIT_TESTS})
@@ -104,4 +117,3 @@ foreach (UNIT_TEST_I ${UNIT_TESTS})
     #        COMMAND ${CMAKE_CTEST_COMMAND} -C $<CONFIGURATION> -R "^${UNIT_TEST_I}$" --output-on-failures
     #    )
 endforeach()
-

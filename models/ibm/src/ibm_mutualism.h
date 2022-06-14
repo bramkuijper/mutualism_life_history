@@ -3,35 +3,64 @@
 
 #include <vector>
 #include <random>
-#include "individual.h"
+#include <iostream>
+#include <fstream>
+#include "patch.h"
+#include "parameters.h"
 
 // struct with default parameters for the class constructor
-// this is a great post why to use a struct rather than
-// function arguments:
-// https://stackoverflow.com/questions/58859201/why-pass-structure-to-function-instead-of-separate-parameters
-struct IBM_parameters {
-    double d[2] = {0.5,0.3}; // dispersal rates of species 1 and 2
-    int ngenerations{10}; // number of generations the simulation is supposed to last
-    int npatches{500}; // number of patches
-    int npp[2] = {2,2}; // number of individuals per patch
-};
 
 class IBM_Mutualism
 {
     private:
-        IBM_parameters par;
+        // a data file containing the results of the simulation
+        std::ofstream data_file;
 
-        std::uniform_real_distribution<double> uniform;
-
-        // (npp1 + 1) x (npp2 +1) combinations of patches
-        std::vector < std::vector <Individual> > patches;
-
-
-    public:
-        IBM_Mutualism(const IBM_parameters &params);
+        // keep track of the time step of the simulation
+        long unsigned time_step = 0;
         
-        void event_chooser(generation);
+        // random device which is used to generate
+        // proper random seeds
+        std::random_device rd;
+
+        // store the random seed
+        // we need to store this so that we can output the 
+        // random seed, so that we could 'replay' the exact
+        // same sequence of random numbers for debugging purposes etc
+        unsigned int seed;
+        
+        // random number generator
+        std::mt19937 rng_r;
+
+        // uniform distribution to compare against probabilities
+        std::uniform_real_distribution<double> uniform;
+        
+        // parameter object
+        // containing all the parameters for this run
+        Parameters par;
+
+        // for stats purposes collect
+        // the mean survival probability and other things
+        double mean_surv_prob[2] = {0.0,0.0};
+        int nsurvivors[2] = {0,0};
+        double mean_offspring[2] = {0.0,0.0};
+        
+    public:
+        // metapopulation of patches
+        std::vector<Patch> metapop;
+
+        // the class constructor
+        IBM_Mutualism(const Parameters &params);
+        
+        void reproduce();
         bool initialize_simulation();
+
+        void survive_otherwise_replace();
+        void write_parameters();
+        void write_data();
+        void write_data_headers();
+
+        void calculate_help();
 }; // end class IBM_Mutualism
 
 #endif
