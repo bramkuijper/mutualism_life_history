@@ -23,14 +23,13 @@ struct Parameters {
     double baseline_survival[2] = {1.0,1.0};
     double baseline_fecundity[2] = {1.0,1.0};
 
+    // mortality cost of surv/fec help for both species
     double mortality_cost_of_surv_help[2] = {0.5,0.5};
     double mortality_cost_of_fec_help[2] = {0.5,0.5};
     
+    // fecundity cost of surv/fec help for both species
     double fecundity_cost_of_surv_help[2] = {0.5,0.5};
     double fecundity_cost_of_fec_help[2] = {0.5,0.5};
-
-    // number of alleles in population
-    int n_alleles = 20;
 };
 
 #endif
