@@ -1,4 +1,7 @@
 #include <stdexcept>
+#include <random>
+#include <cassert>
+#include <vector>
 #include "ibm_mutualism.h"
 #include "parameters.h"
 
@@ -16,7 +19,7 @@ IBM_Mutualism::IBM_Mutualism(Parameters const &params) : // constructors first i
     {
         calculate_help();
         reproduce();
-        survive_replace();
+        survive_otherwise_replace();
         write_data();
     }
 } // end IBM_Mutualism
@@ -24,7 +27,7 @@ IBM_Mutualism::IBM_Mutualism(Parameters const &params) : // constructors first i
 void IBM_Mutualism::calculate_help()
 {
     // go through all patches and calculate help of the two species
-    for (int patch_idx = 0; patch_idx < metapop.size(); ++patches)
+    for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
     {
         for (int species_idx = 0; species_idx < 2; ++species_idx)
         {
@@ -33,8 +36,8 @@ void IBM_Mutualism::calculate_help()
             metapop[patch_idx].help_fecundity[species_idx] = 0.0;
 
             for (std::vector<Individual>::iterator individual_iter = 
-                    metapop.breeders[species_idx].begin();
-                    individual_iter != metapop.breeders[species_idx].end();
+                    metapop[patch_idx].breeders[species_idx].begin();
+                    individual_iter != metapop[patch_idx].breeders[species_idx].end();
                     ++individual_iter)
             {
                 metapop[patch_idx].help_survival[species_idx] += 
@@ -63,6 +66,9 @@ void IBM_Mutualism::reproduce()
     // aux variable to get the index of the 'other' species
     int the_other_species;
 
+    // aux variable to store patch of destination
+    int destination_patch;
+
     // distribution to sample random destination patches for 
     // dispersing newborns
     std::uniform_int_distribution<int> patch_sampler(0, metapop.size() - 1);
@@ -70,17 +76,22 @@ void IBM_Mutualism::reproduce()
     // first clear the previous stacks of juveniles across all patches
     // these are from the previous time step so we do not want any remaining
     // juveniles to carry over to the current one
-    for (int patch_idx = 0; patch_idx < metapop.size(); ++patches)
+    for (int species_idx = 0; species_idx < 2; ++species_idx)
     {
-        for (int species_idx = 0; species_idx < 2; ++species_idx)
+        // reset stats variable that tracks # offspring
+        mean_offspring[species_idx] = 0.0;
+
+        for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
         {
             metapop[patch_idx].juveniles[species_idx].clear();
         }
     }
+
+    int n[2] = {0,0};
         
     // go through all patches and calculate help of the two species
     // then use this to reproduce
-    for (int patch_idx = 0; patch_idx < metapop.size(); ++patches)
+    for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
     {
         for (int species_idx = 0; species_idx < 2; ++species_idx)
         {
@@ -92,7 +103,7 @@ void IBM_Mutualism::reproduce()
             fecundity_help_per_individual = 
                 // total amount of help
                 metapop[patch_idx].help_fecundity[the_other_species] / 
-                    metapop.breeders[species_idx].size(); 
+                    metapop[patch_idx].breeders[species_idx].size(); 
                     // divide by #recipients
                     // to get per-individual amount of benefits
 
@@ -101,16 +112,16 @@ void IBM_Mutualism::reproduce()
             // - calculate fecundity (help received - costs)
             // - actually reproduce
             for (std::vector<Individual>::iterator individual_iter = 
-                    metapop.breeders[species_idx].begin();
-                    individual_iter != metapop.breeders[species_idx].end();
+                    metapop[patch_idx].breeders[species_idx].begin();
+                    individual_iter != metapop[patch_idx].breeders[species_idx].end();
                     ++individual_iter)
             {
                 fecundity_cost_of_help = 
-                    fecundity_cost_of_fec_help[species_idx] * (
+                    par.fecundity_cost_of_fec_help[species_idx] * (
                             individual_iter->fec_h[0] + 
                             individual_iter->fec_h[1]) 
                     +
-                    fecundity_cost_of_surv_help[species_idx] * (
+                    par.fecundity_cost_of_surv_help[species_idx] * (
                             individual_iter->surv_h[0] + 
                             individual_iter->surv_h[1]);
 
@@ -134,9 +145,13 @@ void IBM_Mutualism::reproduce()
                     // increment count by 1
                     ++fecundity_i;
                 }
+                    
+                mean_offspring[species_idx] += fecundity_i;
+
+                ++n[species_idx];
 
                 // now reproduce 
-                for (int egg_i = 0; eggs_i < fecundity_i; ++eggs_i)
+                for (int egg_i = 0; egg_i < fecundity_i; ++egg_i)
                 {
                     // make offspring
                     Individual offspring(
@@ -145,11 +160,17 @@ void IBM_Mutualism::reproduce()
                             ,rng_r
                             ,par);
 
+
                     // determine patch of destination dependent on dispersal
                     // using C++'s ternary operator
-                    destination_patch = uniform(rng) < par.d[species_idx] 
+                    destination_patch = uniform(rng_r) < par.d[species_idx] 
                                             ?
-                                        patch_sampler(rng_r) : patch_idx;
+                                        patch_sampler(rng_r) // disperse, hence remote patch
+                                        : 
+                                        patch_idx; // philopatric, hence local patch
+
+                    assert(destination_patch >= 0);
+                    assert(destination_patch < metapop.size());
 
                     // add offspring to local stack of juveniles
                     metapop[destination_patch].juveniles[species_idx].push_back(offspring);
@@ -157,16 +178,39 @@ void IBM_Mutualism::reproduce()
             }
         } // end for species_idx
     } // end for patch_idx  idx
+
+    // finalize stats
+    for (int species_idx = 0; species_idx < 2; ++species_idx)
+    {
+        // reset stats variable that tracks # offspring
+        mean_offspring[species_idx] /= n[species_idx];
+    }
 } // end IBM_Mutualism::reproduce()
 
-void Individual::survive_replace()
+
+// have individuals
+void IBM_Mutualism::survive_otherwise_replace()
 {
+    // some aux variables
     bool the_other_species;
 
     double survival_help_per_individual;
 
+    double p_survive;
+
+    int individual_idx;
+
+    // reset some data members we use to keep stats
+    for (int species_idx = 0; species_idx < 2; ++species_idx)
+    {
+        mean_surv_prob[species_idx] = 0.0;
+        nsurvivors[species_idx] = 0;
+    }
+
+    int n[2] = {0,0};
+
     // go through all patches 
-    for (int patch_idx = 0; patch_idx < metapop.size(); ++patches)
+    for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
     {
         // go through the 2 species
         for (int species_idx = 0; species_idx < 2; ++species_idx)
@@ -179,37 +223,195 @@ void Individual::survive_replace()
             survival_help_per_individual = 
                 // total amount of help
                 metapop[patch_idx].help_survival[the_other_species] / 
-                    metapop.breeders[species_idx].size(); 
+                    metapop[patch_idx].breeders[species_idx].size(); 
                     // divide by #recipients
                     // to get per-individual amount of benefits
+
+            // sample juveniles
+            std::uniform_int_distribution<int>
+                juvenile_sampler(0, metapop[patch_idx].juveniles[species_idx].size() - 1);
 
             // - calculate survival costs of help
             // - dish out survival benefits / costs
             // - have individuals survive or not
             // - replace vacancies by juveniles
             for (std::vector<Individual>::iterator individual_iter = 
-                    metapop.breeders[species_idx].begin();
-                    individual_iter != metapop.breeders[species_idx].end();
+                    metapop[patch_idx].breeders[species_idx].begin();
+                    individual_iter != metapop[patch_idx].breeders[species_idx].end();
                     ++individual_iter)
             {
                 survival_cost_of_help = 
-                    survival_cost_of_fec_help[species_idx] * (
+                    par.survival_cost_of_fec_help[species_idx] * (
                             individual_iter->fec_h[0] + 
                             individual_iter->fec_h[1]) 
                     +
-                    survival_cost_of_surv_help[species_idx] * (
+                    par.survival_cost_of_surv_help[species_idx] * (
                             individual_iter->surv_h[0] + 
                             individual_iter->surv_h[1]);
 
-                survival = par.baseline_survival[species_idx] 
-                    + survival_help_per_individual
-                    - survival_cost_of_help; 
+                // calculate survival probability
+                p_survive = par.baseline_survival[species_idx] +
+                    (1.0 - par.baseline_survival[species_idx])
+                        * exp(-par.strength_survival[species_idx] * (
+                    survival_help_per_individual
+                    - survival_cost_of_help));
 
-                // darn... in contrast to fecundity this is not so easily
-                // scalable
-                1.0 - par.baseline_survival[species_idx]
+                mean_surv_prob[species_idx] += p_survive;
+                ++n[species_idx];
+
+                // death implies replacement hence death birth
+                if (uniform(rng_r) > p_survive)
+                {
+                    // get index of parent
+                    individual_idx = individual_iter - 
+                        metapop[patch_idx].breeders[species_idx].begin();
+
+                    // randomly chosen juvenile overwrites adult
+                    metapop[patch_idx].breeders[species_idx][individual_idx] = 
+                        metapop[patch_idx].juveniles[species_idx][juvenile_sampler(rng_r)];
+                }
+                else
+                {
+                    ++nsurvivors[species_idx];
+                }
             }
         } // end for for (int species_idx = 0; species_idx < 2; ++species_idx)
     } // end for (int patch_idx = 0; patch_idx < metapop.size(); ++patches)
-} // end void Individual::survive_replace()
 
+    // final averaging of stats
+    for (int species_idx = 0; species_idx < 2; ++species_idx)
+    {
+        mean_surv_prob[species_idx] /= n[species_idx];
+    }
+
+} // end void IBM_Mutualism::survive_replace()
+
+//  write parameters to the output file
+void IBM_Mutualism::write_parameters()
+{
+    data_file << std::endl
+        << std::endl;
+
+    for (int species_idx = 0; species_idx < 2; ++species_idx)
+    {
+        data_file << "d" << (species_idx + 1) << ";" << par.d[species_idx] << std::endl
+            << "npp" << (species_idx + 1) << ";" << par.npp[species_idx] << std::endl
+
+            << "baseline_survival" << (species_idx + 1) << ";" 
+                << par.baseline_survival[species_idx] << std::endl
+
+            << "baseline_fecundity" << (species_idx + 1) << ";" 
+                << par.baseline_fecundity[species_idx] << std::endl
+            
+            << "strength_survival" << (species_idx + 1) << ";" 
+                << par.strength_survival[species_idx] << std::endl
+
+            << "survival_cost_of_surv_help" << (species_idx + 1) << ";" 
+                << par.survival_cost_of_surv_help[species_idx] << std::endl
+
+            << "survival_cost_of_fec_help" << (species_idx + 1) << ";" 
+                << par.survival_cost_of_fec_help[species_idx] << std::endl;
+    }
+
+    data_file << "mu_fec_h;" << par.mu_fec_h << std::endl
+                << "mu_surv_h;" << par.mu_surv_h << std::endl
+                << "sdmu;" << par.sdmu << std::endl
+                << "seed;" << seed << std::endl;
+
+} // end write_parameters()
+
+void IBM_Mutualism::write_data_headers()
+{
+    data_file << "time_step;";
+
+    for (int species_idx = 1; species_idx <= 2; ++species_idx)
+    {
+        data_file 
+            << "mean_fec_h" << species_idx << ";"
+            << "mean_surv_h" << species_idx << ";"
+            << "var_fec_h" << species_idx << ";"
+            << "var_surv_h" << species_idx << ";"
+            
+            << "mean_surv_prob" << species_idx << ";"
+            << "nsurvivors" << species_idx << ";"
+            << "mean_offspring" << species_idx << ";";
+    }
+
+    data_file << std::endl;
+} // end IBM_Mutualism::write_data_headers()
+
+// write the data to an output file
+void IBM_Mutualism::write_data()
+{
+    // store means and sums of squares 
+    // (latter for variance calculations)
+    double mean_fec_h[2] = {0.0,0.0};
+    double mean_surv_h[2] = {0.0,0.0};
+
+    double ss_fec_h[2] = {0.0,0.0};
+    double ss_surv_h[2] = {0.0,0.0};
+
+    // aux variables to store trait values
+    double f,s;
+
+    // array for counts of population sizes
+    // (although for now this should be simply metapop.size() * npp[species_idx])
+    int n[2] = {0,0};
+
+    // go through all patches 
+    for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
+    {
+        // go through the 2 species
+        for (int species_idx = 0; species_idx < 2; ++species_idx)
+        {
+            for (std::vector<Individual>::iterator individual_iter = 
+                    metapop[patch_idx].breeders[species_idx].begin();
+                    individual_iter != metapop[patch_idx].breeders[species_idx].end();
+                    ++individual_iter)
+            {
+                // obtain allelic values
+                f = individual_iter->fec_h[0] + individual_iter->fec_h[1];
+                s = individual_iter->surv_h[0] + individual_iter->surv_h[1];
+
+                mean_fec_h[species_idx] += f;
+                ss_fec_h[species_idx] += f * f;
+
+                mean_surv_h[species_idx] += s;
+                ss_surv_h[species_idx] += s * s;
+
+                // update population stats
+                // (although for now, it should be the same as 
+                ++n[species_idx];
+            }
+        } // end for species_idx
+    } // end for patch_idx
+   
+
+    // output the time step for starters
+    data_file << time_step << ";";
+
+    // calculate means variances of traits for each species
+    for (int species_idx = 0; species_idx < 2; ++species_idx)
+    {
+        mean_fec_h[species_idx] /= n[species_idx];
+        mean_surv_h[species_idx] /= n[species_idx];
+
+        // var = E[x^2] - E[x]^2
+        double var_fec_h = ss_fec_h[species_idx] / n[species_idx] - 
+            mean_fec_h[species_idx] * mean_fec_h[species_idx];
+        
+        double var_surv_h = ss_surv_h[species_idx] / n[species_idx] - 
+            mean_surv_h[species_idx] * mean_surv_h[species_idx];
+
+        data_file 
+                << mean_fec_h[species_idx] << ";"
+                    << mean_surv_h[species_idx] << ";"
+                    << var_fec_h << ";"
+                    << var_surv_h << ";"
+
+                    << mean_surv_prob[species_idx] << ";" 
+                    << mean_survivors[species_idx] << ";" 
+                    << mean_offspring[species_idx] << ";";
+    } // end for species_idx
+
+} // end IBM_Mutualism::write_data()

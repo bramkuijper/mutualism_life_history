@@ -38,6 +38,12 @@ class IBM_Mutualism
         // parameter object
         // containing all the parameters for this run
         Parameters par;
+
+        // for stats purposes collect
+        // the mean survival probability and other things
+        double mean_surv_prob[2] = {0.0,0.0};
+        int nsurvivors[2] = {0,0};
+        double mean_offspring[2] = {0.0,0.0};
         
     public:
         // metapopulation of patches
@@ -48,6 +54,13 @@ class IBM_Mutualism
         
         void reproduce();
         bool initialize_simulation();
+
+        void survive_otherwise_replace();
+        void write_parameters();
+        void write_data();
+        void write_data_headers();
+
+        void calculate_help();
 }; // end class IBM_Mutualism
 
 #endif

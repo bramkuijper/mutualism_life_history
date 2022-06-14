@@ -20,19 +20,19 @@ struct Parameters {
     bool death_birth[2] = {true,true}; 
 
     // baseline survival and fecundity for both species
-    double baseline_survival[2] = {1.0,1.0};
+    double baseline_survival[2] = {0.1,0.1};
     double baseline_fecundity[2] = {1.0,1.0};
 
+    // how rapidly survival increases with help
+    double strength_survival[2] = {0.1,0.1};
+
     // mortality cost of surv/fec help for both species
-    double mortality_cost_of_surv_help[2] = {0.5,0.5};
-    double mortality_cost_of_fec_help[2] = {0.5,0.5};
+    double survival_cost_of_surv_help[2] = {0.5,0.5};
+    double survival_cost_of_fec_help[2] = {0.5,0.5};
     
     // fecundity cost of surv/fec help for both species
     double fecundity_cost_of_surv_help[2] = {0.5,0.5};
     double fecundity_cost_of_fec_help[2] = {0.5,0.5};
-
-    // number of alleles in population
-    int n_alleles = 20;
 
     // mutation rates
     double mu_fec_h = 0.01;
