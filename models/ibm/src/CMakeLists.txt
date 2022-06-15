@@ -34,7 +34,7 @@ target_include_directories(
 
 # make sure it is c++14
 set(CMAKE_CXX_STANDARD 14)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -lstdc++")
 
 # now adding the google mock testing framework
 # see: https://google.github.io/googletest/quickstart-cmake.html
