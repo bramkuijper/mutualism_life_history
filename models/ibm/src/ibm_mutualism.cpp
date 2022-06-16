@@ -10,7 +10,8 @@ IBM_Mutualism::IBM_Mutualism(Parameters const &params) : // constructors first i
     rd{} // initialize random device, see *.h file
     ,seed{rd()} // initialize seed
     ,rng_r{seed} // initialize the random number generator
-    ,uniform{0.0,1.0} // initialize the normal distribution
+    ,uniform{0.0,1.0} // initialize the uniform distribution
+    ,patch_sampler{0,(int)params.npatches - 1} // initialize uniform distribution to sample patch indices from, as we are counting from 0 this can be any number from 0 to npatches - 1
     ,data_file{params.base_name.c_str()} // initialize the data file by giving it a name
     ,par{params} // initialize the parameter data member with the constructor argument
     ,metapop{par.npatches, Patch(par.npp[0],par.npp[1])} // initialize a meta population each with n1 individuals of species 1 and n2 individuals of species 2
@@ -79,10 +80,6 @@ void IBM_Mutualism::reproduce()
     // aux variable to store patch of destination
     int destination_patch;
 
-    // distribution to sample random destination patches for 
-    // dispersing newborns
-    std::uniform_int_distribution<int> patch_sampler(0, metapop.size() - 1);
-
     // first clear the previous stacks of juveniles across all patches
     // these are from the previous time step so we do not want any remaining
     // juveniles to carry over to the current one
@@ -95,6 +92,9 @@ void IBM_Mutualism::reproduce()
         {
             metapop[patch_idx].juveniles[species_idx].clear();
         }
+
+        // reset count of juveniles
+        njuveniles[species_idx] = 0;
     }
 
     int n[2] = {0,0};
@@ -184,6 +184,8 @@ void IBM_Mutualism::reproduce()
 
                     // add offspring to local stack of juveniles
                     metapop[destination_patch].juveniles[species_idx].push_back(offspring);
+                    // update count
+                    ++njuveniles[species_idx];
                 }
             }
         } // end for species_idx
@@ -201,24 +203,36 @@ void IBM_Mutualism::reproduce()
 // have individuals
 void IBM_Mutualism::survive_otherwise_replace()
 {
-    // some aux variables
-    bool the_other_species;
+    // some auxiliary variables
+    bool the_other_species; // vector index of the other species
+    double survival_help_per_individual; // survival help value
+    double p_survive; // survival prob
+    int individual_idx; // vector index of an individual
+    double survival_cost_of_help; // survival cost value
+    int juvenile_origin_patch; // patch of origin of juveniles (in case 0 juveniles in patch)
 
-    double survival_help_per_individual;
+    // random patch sample function
 
-    double p_survive;
 
-    int individual_idx;
-
-    double survival_cost_of_help;
-
-    // reset some data members we use to keep stats
+    // reset some data members that we use for stats purposes
     for (int species_idx = 0; species_idx < 2; ++species_idx)
     {
         mean_surv_prob[species_idx] = 0.0;
+        mean_surv_help_per_individual[species_idx] = 0.0;
         nsurvivors[species_idx] = 0;
+    
+        // no juveniles to replace adults
+        // consider population to be extinct
+        if (njuveniles[species_idx] < 1)
+        {
+            write_parameters();
+            exit(1);
+        }
     }
 
+
+    // array with population sizes
+    // which will later be used to calculate means
     int n[2] = {0,0};
 
     // go through all patches 
@@ -239,9 +253,31 @@ void IBM_Mutualism::survive_otherwise_replace()
                     // divide by #recipients
                     // to get per-individual amount of benefits
 
-            // sample juveniles
+            // update stats to obtain mean amount of mutualist
+            // help per patch
+            mean_surv_help_per_individual[species_idx] += 
+                survival_help_per_individual;
+
+            // by default get juveniles from local patch
+            juvenile_origin_patch =  patch_idx;
+
+            // if no juveniles produced in local patch
+            // get them elsewhere...
+            while (metapop[juvenile_origin_patch].juveniles[species_idx].size() < 1)
+            {
+                // sample random patch where there might be nonzero juvs
+                juvenile_origin_patch = patch_sampler(rng_r);
+            }
+
+            // then make a juvenile sample distribution
+            // so that each juvenile is equally likely to be selected
+            // clearly we sample and replace, which is not super realistic
+            // as each juvenile can be selected multiple times. However, as long
+            // as this is independent of a juvenile's phenotype, no effect on
+            // selection
             std::uniform_int_distribution<int>
-                juvenile_sampler(0, metapop[patch_idx].juveniles[species_idx].size() - 1);
+                juvenile_sampler(0, 
+                        metapop[juvenile_origin_patch].juveniles[species_idx].size() - 1);
 
             // - calculate survival costs of help
             // - dish out survival benefits / costs
@@ -264,9 +300,10 @@ void IBM_Mutualism::survive_otherwise_replace()
                 // calculate survival probability
                 p_survive = par.baseline_survival[species_idx] +
                     (1.0 - par.baseline_survival[species_idx])
-                        * exp(-par.strength_survival[species_idx] * (
+                         * (1.0 - exp(-par.strength_survival[species_idx] * (
                     survival_help_per_individual
-                    - survival_cost_of_help));
+                    - survival_cost_of_help))
+                        );
 
                 mean_surv_prob[species_idx] += p_survive;
                 ++n[species_idx];
@@ -280,7 +317,7 @@ void IBM_Mutualism::survive_otherwise_replace()
 
                     // randomly chosen juvenile overwrites adult
                     metapop[patch_idx].breeders[species_idx][individual_idx] = 
-                        metapop[patch_idx].juveniles[species_idx][juvenile_sampler(rng_r)];
+                        metapop[juvenile_origin_patch].juveniles[species_idx][juvenile_sampler(rng_r)];
                 }
                 else
                 {
@@ -290,9 +327,10 @@ void IBM_Mutualism::survive_otherwise_replace()
         } // end for for (int species_idx = 0; species_idx < 2; ++species_idx)
     } // end for (int patch_idx = 0; patch_idx < metapop.size(); ++patches)
 
-    // final averaging of stats
+    // final averaging: divide by population size
     for (int species_idx = 0; species_idx < 2; ++species_idx)
     {
+        mean_surv_help_per_individual[species_idx] /= n[species_idx];
         mean_surv_prob[species_idx] /= n[species_idx];
     }
 
@@ -304,6 +342,7 @@ void IBM_Mutualism::write_parameters()
     data_file << std::endl
         << std::endl;
 
+    // write parameters to the file for each species
     for (int species_idx = 0; species_idx < 2; ++species_idx)
     {
         data_file << "d" << (species_idx + 1) << ";" << par.d[species_idx] << std::endl
@@ -345,6 +384,7 @@ void IBM_Mutualism::write_data_headers()
             << "var_surv_h" << species_idx << ";"
             
             << "mean_surv_prob" << species_idx << ";"
+            << "mean_surv_help_per_ind" << species_idx << ";"
             << "nsurvivors" << species_idx << ";"
             << "mean_offspring" << species_idx << ";";
     }
@@ -420,8 +460,8 @@ void IBM_Mutualism::write_data()
                     << mean_surv_h[species_idx] << ";"
                     << var_fec_h << ";"
                     << var_surv_h << ";"
-
                     << mean_surv_prob[species_idx] << ";" 
+                    << mean_surv_help_per_individual[species_idx] << ";" 
                     << nsurvivors[species_idx] << ";" 
                     << mean_offspring[species_idx] << ";";
     } // end for species_idx

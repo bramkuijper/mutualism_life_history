@@ -34,7 +34,9 @@ class IBM_Mutualism
 
         // uniform distribution to compare against probabilities
         std::uniform_real_distribution<double> uniform;
-        
+
+        // uniform distribution to get random patch
+        std::uniform_int_distribution<int> patch_sampler;
         // parameter object
         // containing all the parameters for this run
         Parameters par;
@@ -42,8 +44,12 @@ class IBM_Mutualism
         // for stats purposes collect
         // the mean survival probability and other things
         double mean_surv_prob[2] = {0.0,0.0};
+        double mean_surv_help_per_individual[2] = {0.0,0.0};
+
         int nsurvivors[2] = {0,0};
         double mean_offspring[2] = {0.0,0.0};
+
+        int njuveniles[2] = {0,0};
         
     public:
         // metapopulation of patches
