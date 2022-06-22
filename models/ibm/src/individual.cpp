@@ -16,6 +16,7 @@ Individual::Individual(Individual const &other) :
     ,surv_h{other.surv_h[0],other.surv_h[1]}
 {}
 
+
 // birth constructor
 Individual::Individual(Individual const &parent
                 ,std::mt19937 &rng

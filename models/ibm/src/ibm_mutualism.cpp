@@ -35,11 +35,14 @@ IBM_Mutualism::IBM_Mutualism(Parameters const &params) : // constructors first i
 
 } // end IBM_Mutualism
 
+// go over the population and just calculates the total help value
+// in each patch
 void IBM_Mutualism::calculate_help()
 {
     // go through all patches and calculate help of the two species
     for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
     {
+        // go through the two different species
         for (int species_idx = 0; species_idx < 2; ++species_idx)
         {
             // reset levels of help for each species

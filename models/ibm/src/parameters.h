@@ -13,6 +13,8 @@ struct Parameters {
     // number of individuals per patch
     // of each species
     int npp[2] = {2,2}; 
+
+    // the name of the file to which data is written
     std::string base_name{"ibm_mutualism_data"};
 
     // interval in generations at which data is written to the data
