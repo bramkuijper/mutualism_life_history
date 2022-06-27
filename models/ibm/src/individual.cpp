@@ -4,25 +4,32 @@
 #include "parameters.h"
 
 // default constructor
-Individual::Individual() :
+Individual::Individual(Parameters const &params
+                       ,int const species) :
     fec_h{0.0,0.0}
     ,surv_h{0.0,0.0}
 {
+    d[0] = params.initial_d[species];
+    d[1] = params.initial_d[species];
+    
 }
 
 // copy constructor
 Individual::Individual(Individual const &other) :
     fec_h{other.fec_h[0],other.fec_h[1]}
     ,surv_h{other.surv_h[0],other.surv_h[1]}
+    ,d{other.d[0],other.d[1]}
 {}
 
 
 // birth constructor
 Individual::Individual(Individual const &parent
                 ,std::mt19937 &rng
-                ,Parameters const &params) :
+                ,Parameters const &params
+                ,int const species) :
     fec_h{parent.fec_h[0],parent.fec_h[1]}
     ,surv_h{parent.surv_h[0],parent.surv_h[1]}
+    ,d{parent.d[0],parent.d[1]}
 {
     // set up random number distributions to realize
     // mutation rates...
@@ -45,6 +52,14 @@ Individual::Individual(Individual const &parent
         {
             surv_h[allele_idx] = surv_h[allele_idx] + normal(rng); 
         }
+        if (params.d_evolves[species])
+        {
+            if (uniform(rng) < params.mu_disp)
+            {
+                d[allele_idx] = d[allele_idx] + normal(rng);
+            }
+        }
+
     } // end for (int allele_idx = 0; allele_idx < 2; ++allele_idx)
 } // end parent constructor
 
@@ -57,5 +72,6 @@ void Individual::operator=(Individual const &other)
     {
         fec_h[allele_idx] = other.fec_h[allele_idx];
         surv_h[allele_idx] = other.surv_h[allele_idx];
+	d[allele_idx] = other.d[allele_idx];
     }
 }

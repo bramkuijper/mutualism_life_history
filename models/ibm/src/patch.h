@@ -18,12 +18,13 @@ class Patch
         // the default constructor 
         // with n1 species 1 breeders
         // with n2 species 2 breeders
-        Patch(int const n1, int const n2);
+        Patch(int const n1, int const n2, Parameters const &params);
 
         // copy constructor
         Patch(Patch const &other);
 
-
+        Parameters par; 
+        
         void operator=(Patch const &other);
 };
 

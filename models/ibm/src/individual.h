@@ -19,8 +19,12 @@ class Individual
         // or fecundity
         double surv_h[2] = {0.0,0.0};
 
+        // diploid dispersal locus
+        double d[2] = {0.0,0.0};
+
         // default constructor
-        Individual();
+        Individual(Parameters const &params
+                   ,int const species);
 
         // copy constructor
         Individual(Individual const &other);
@@ -31,7 +35,8 @@ class Individual
         // and a parameter object as we will need to implement mutation
         Individual(Individual const &parent
                 ,std::mt19937 &rng
-                ,Parameters const &params);
+                ,Parameters const &params
+                ,int const species);
 
         // assignment operator
         void operator=(Individual const &other);
