@@ -3,7 +3,6 @@
 
 int main(int argc, char **argv)
 {
-    // default parameter object
     Parameters parms{};
 
     parms.d[0] = atof(argv[1]);

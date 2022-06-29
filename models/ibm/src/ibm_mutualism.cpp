@@ -365,6 +365,12 @@ void IBM_Mutualism::write_parameters()
 
             << "survival_cost_of_fec_help" << (species_idx + 1) << ";" 
                 << par.survival_cost_of_fec_help[species_idx] << std::endl;
+            
+            << "fecundity_cost_of_surv_help" << (species_idx + 1) << ";" 
+                    << par.fecundity_cost_of_surv_help[species_idx] << std::endl
+
+                << "fecundity_cost_of_fec_help" << (species_idx + 1) << ";" 
+                    << par.fecundity_cost_of_fec_help[species_idx] << std::endl;
     }
 
     data_file << "mu_fec_h;" << par.mu_fec_h << std::endl
