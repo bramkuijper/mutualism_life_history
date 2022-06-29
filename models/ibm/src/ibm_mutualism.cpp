@@ -224,7 +224,8 @@ void IBM_Mutualism::survive_otherwise_replace()
         mean_surv_prob[species_idx] = 0.0;
         mean_surv_help_per_individual[species_idx] = 0.0;
         nsurvivors[species_idx] = 0;
-    
+	patch_occupancy[species_idx] = 0.0;
+
         // no juveniles to replace adults
         // consider population to be extinct
         if (njuveniles[species_idx] < 1)
@@ -336,6 +337,7 @@ void IBM_Mutualism::survive_otherwise_replace()
     {
         mean_surv_help_per_individual[species_idx] /= n[species_idx];
         mean_surv_prob[species_idx] /= n[species_idx];
+        patch_occupancy[species_idx] = n[species_idx]/par.npatches; 
     }
 
 } // end void IBM_Mutualism::survive_replace()
@@ -391,6 +393,7 @@ void IBM_Mutualism::write_data_headers()
             
             << "mean_surv_prob" << species_idx << ";"
             << "mean_surv_help_per_ind" << species_idx << ";"
+            << "patch_occupancy" << species_idx << ";"
             << "nsurvivors" << species_idx << ";"
             << "mean_offspring" << species_idx << ";";
     }
@@ -480,6 +483,7 @@ void IBM_Mutualism::write_data()
                     << var_surv_h << ";"
                     << mean_surv_prob[species_idx] << ";" 
                     << mean_surv_help_per_individual[species_idx] << ";" 
+                    << patch_occupancy[species_idx] << ";"
                     << nsurvivors[species_idx] << ";" 
                     << mean_offspring[species_idx] << ";";
     } // end for species_idx

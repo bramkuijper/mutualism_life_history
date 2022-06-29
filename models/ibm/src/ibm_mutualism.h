@@ -47,6 +47,7 @@ class IBM_Mutualism
         double mean_surv_help_per_individual[2] = {0.0,0.0};
 
         int nsurvivors[2] = {0,0};
+	double patch_occupancy[2] = {0.0,0.0};
         double mean_offspring[2] = {0.0,0.0};
 
         int njuveniles[2] = {0,0};
