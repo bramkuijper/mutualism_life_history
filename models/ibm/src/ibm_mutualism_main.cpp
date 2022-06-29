@@ -4,7 +4,6 @@
 
 int main(int argc, char **argv)
 {
-    // default parameter object
     Parameters parms{};
 
     parms.baseline_survival[0] = atof(argv[1]);

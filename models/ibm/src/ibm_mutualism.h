@@ -37,6 +37,7 @@ class IBM_Mutualism
 
         // uniform distribution to get random patch
         std::uniform_int_distribution<int> patch_sampler;
+
         // parameter object
         // containing all the parameters for this run
         Parameters par;
@@ -60,7 +61,6 @@ class IBM_Mutualism
         IBM_Mutualism(const Parameters &params);
         
         void reproduce();
-        bool initialize_simulation();
 
         void survive_otherwise_replace();
         void write_parameters();
