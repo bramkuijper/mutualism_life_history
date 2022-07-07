@@ -49,12 +49,12 @@ void IBM_Mutualism::calculate_help()
             metapop[patch_idx].help_survival[species_idx] = 0.0;
             metapop[patch_idx].help_fecundity[species_idx] = 0.0;
 
-            for (std::vector<Individual>::iterator individual_iter = 
+            for (std::vector<Individual>::iterator individual_iter =
                     metapop[patch_idx].breeders[species_idx].begin();
                     individual_iter != metapop[patch_idx].breeders[species_idx].end();
                     ++individual_iter)
             {
-                metapop[patch_idx].help_survival[species_idx] += 
+                metapop[patch_idx].help_survival[species_idx] +=
                     individual_iter->surv_h[0] + individual_iter->surv_h[1];
 
                 metapop[patch_idx].help_fecundity[species_idx] +=
@@ -65,20 +65,20 @@ void IBM_Mutualism::calculate_help()
 } // end void IBM_Mutualism::calculate_help()
 
 
-// reproduce 
+// reproduce
 void IBM_Mutualism::reproduce()
 {
     // some auxiliary variables to store temporary
     // cost and benefit values
-    double fecundity_help_per_individual, 
+    double fecundity_help_per_individual,
            fecundity_cost_of_help,
            fecundity;
 
     // integer variable for discretized fecundity
     int fecundity_i;
 
-    // aux variable to get the index of the 'other' species
-    int the_other_species;
+    // aux variable to get the index of the interacting species
+    int friend_species;
 
     // aux variable to store patch of destination
     int destination_patch;
@@ -101,7 +101,7 @@ void IBM_Mutualism::reproduce()
     }
 
     int n[2] = {0,0};
-        
+
     // go through all patches and calculate help of the two species
     // then use this to reproduce
     for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
@@ -109,14 +109,22 @@ void IBM_Mutualism::reproduce()
         for (int species_idx = 0; species_idx < 2; ++species_idx)
         {
             // get the opposite index species_idx
-            // to obtain the index of the mutualist 
-            the_other_species = !species_idx;
+            // to obtain the index of the mutualist
+            // or the leave it the same for within species interactions
+            if (par.between_species)
+            {
+                friend_species = !species_idx;
+            }
+            else
+            {
+                friend_species = species_idx;
+            }
 
             // calculate fecundity help per individual
-            fecundity_help_per_individual = 
+            fecundity_help_per_individual =
                 // total amount of help
-                metapop[patch_idx].help_fecundity[species_idx] / // the_other_species -> species_idx 
-                    metapop[patch_idx].breeders[species_idx].size(); 
+                metapop[patch_idx].help_fecundity[friend_species] / // the_other_species <- species_idx
+                    metapop[patch_idx].breeders[species_idx].size();
                     // divide by #recipients
                     // to get per-individual amount of benefits
 
@@ -124,24 +132,24 @@ void IBM_Mutualism::reproduce()
             //      as they depend on the expression of helping traits)
             // - calculate fecundity (help received - costs)
             // - actually reproduce
-            for (std::vector<Individual>::iterator individual_iter = 
+            for (std::vector<Individual>::iterator individual_iter =
                     metapop[patch_idx].breeders[species_idx].begin();
                     individual_iter != metapop[patch_idx].breeders[species_idx].end();
                     ++individual_iter)
             {
-                fecundity_cost_of_help = 
+                fecundity_cost_of_help =
                     par.fecundity_cost_of_fec_help[species_idx] * (
-                            individual_iter->fec_h[0] + 
-                            individual_iter->fec_h[1]) 
+                            individual_iter->fec_h[0] +
+                            individual_iter->fec_h[1])
                     +
                     par.fecundity_cost_of_surv_help[species_idx] * (
-                            individual_iter->surv_h[0] + 
+                            individual_iter->surv_h[0] +
                             individual_iter->surv_h[1]);
 
                 // calculate fecundity
-                fecundity = par.baseline_fecundity[species_idx] 
+                fecundity = par.baseline_fecundity[species_idx]
                     + fecundity_help_per_individual
-                    - fecundity_cost_of_help; 
+                    - fecundity_cost_of_help;
 
                 // now translate fecundity into births
                 // as fecundity is necessarily discrete (0, 1, 2, .., n offspring)
@@ -158,12 +166,12 @@ void IBM_Mutualism::reproduce()
                     // increment count by 1
                     ++fecundity_i;
                 }
-                    
+
                 mean_offspring[species_idx] += fecundity_i;
 
                 ++n[species_idx];
 
-                // now reproduce 
+                // now reproduce
                 for (int egg_i = 0; egg_i < fecundity_i; ++egg_i)
                 {
                     // make offspring
@@ -180,7 +188,7 @@ void IBM_Mutualism::reproduce()
                     destination_patch = uniform(rng_r) < (individual_iter->d[0] + individual_iter->d[1]) / 2
                                             ?
                                         patch_sampler(rng_r) // disperse, hence remote patch
-                                        : 
+                                        :
                                         patch_idx; // philopatric, hence local patch
 
                     assert(destination_patch >= 0);
@@ -208,7 +216,7 @@ void IBM_Mutualism::reproduce()
 void IBM_Mutualism::survive_otherwise_replace()
 {
     // some auxiliary variables
-    bool the_other_species; // vector index of the other species
+    bool friend_species; // vector index of the interacting species
     double survival_help_per_individual; // survival help value
     double p_survive; // survival prob
     int individual_idx; // vector index of an individual
@@ -247,20 +255,28 @@ void IBM_Mutualism::survive_otherwise_replace()
         for (int species_idx = 0; species_idx < 2; ++species_idx)
         {
             // get the opposite index species_idx
-            // to obtain the index of the mutualist 
-            the_other_species = !species_idx;
+            // to obtain the index of the mutualist
+            // or leave it the same for within species interactions
+            if (par.between_species)
+            {
+                friend_species = !species_idx;
+            }
+            else
+            {
+                friend_species = species_idx;
+            }
 
-            // calculate fecundity help per individual
-            survival_help_per_individual = 
+            // calculate survival help per individual
+            survival_help_per_individual =
                 // total amount of help
-                metapop[patch_idx].help_survival[species_idx] / // the_other_species -> species_idx 
-                    metapop[patch_idx].breeders[species_idx].size(); 
+                metapop[patch_idx].help_survival[friend_species] / // the_other_species <- species_idx
+                    metapop[patch_idx].breeders[species_idx].size();
                     // divide by #recipients
                     // to get per-individual amount of benefits
 
             // update stats to obtain mean amount of mutualist
             // help per patch
-            mean_surv_help_per_individual[species_idx] += 
+            mean_surv_help_per_individual[species_idx] +=
                 survival_help_per_individual;
 
             // by default get juveniles from local patch
@@ -351,27 +367,35 @@ void IBM_Mutualism::write_parameters()
     // write parameters to the file for each species
     for (int species_idx = 0; species_idx < 2; ++species_idx)
     {
-        data_file << "npp" << (species_idx + 1) << ";" << par.npp[species_idx] << std::endl
+        data_file << "d" << (species_idx + 1) << ";" << par.initial_d[species_idx] << std::endl
 
-            << "baseline_survival" << (species_idx + 1) << ";" 
+            << "npp" << (species_idx + 1) << ";" << par.npp[species_idx] << std::endl
+
+            << "baseline_survival" << (species_idx + 1) << ";"
                 << par.baseline_survival[species_idx] << std::endl
 
-            << "baseline_fecundity" << (species_idx + 1) << ";" 
+            << "baseline_fecundity" << (species_idx + 1) << ";"
                 << par.baseline_fecundity[species_idx] << std::endl
-            
-            << "strength_survival" << (species_idx + 1) << ";" 
+
+            << "strength_survival" << (species_idx + 1) << ";"
                 << par.strength_survival[species_idx] << std::endl
 
-            << "survival_cost_of_surv_help" << (species_idx + 1) << ";" 
+            << "fecundity_help" << (species_idx +1 ) << ";"
+                << par.initial_fec_h[species_idx] << std::endl
+
+            << "survival_help" << (species_idx + 1) << ";"
+                << par.initial_surv_h[species_idx] << std::endl
+
+            << "survival_cost_of_surv_help" << (species_idx + 1) << ";"
                 << par.survival_cost_of_surv_help[species_idx] << std::endl
 
-            << "survival_cost_of_fec_help" << (species_idx + 1) << ";" 
+            << "survival_cost_of_fec_help" << (species_idx + 1) << ";"
                 << par.survival_cost_of_fec_help[species_idx] << std::endl
-            
-            << "fecundity_cost_of_surv_help" << (species_idx + 1) << ";" 
-                    << par.fecundity_cost_of_surv_help[species_idx] << std::endl;
 
-                << "fecundity_cost_of_fec_help" << (species_idx + 1) << ";" 
+            << "fecundity_cost_of_surv_help" << (species_idx + 1) << ";"
+                    << par.fecundity_cost_of_surv_help[species_idx] << std::endl
+
+                << "fecundity_cost_of_fec_help" << (species_idx + 1) << ";"
                     << par.fecundity_cost_of_fec_help[species_idx] << std::endl;
     }
 
@@ -379,6 +403,7 @@ void IBM_Mutualism::write_parameters()
                 << "mu_surv_h;" << par.mu_surv_h << std::endl
 		<< "mu_d;" << par.mu_disp << std::endl
                 << "sdmu;" << par.sdmu << std::endl
+                << "between_species;" << par.between_species << std::endl
                 << "seed;" << seed << std::endl;
 
 } // end write_parameters()

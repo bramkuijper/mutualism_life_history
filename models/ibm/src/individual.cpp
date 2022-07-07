@@ -5,13 +5,16 @@
 
 // default constructor
 Individual::Individual(Parameters const &params
-                       ,int const species) :
-    fec_h{0.0,0.0}
-    ,surv_h{0.0,0.0}
+                       ,int const species)  
 {
     d[0] = params.initial_d[species];
     d[1] = params.initial_d[species];
-    
+
+    fec_h[0] = params.initial_fec_h[species];
+    fec_h[1] = params.initial_fec_h[species];
+
+    surv_h[0] = params.initial_surv_h[species];
+    surv_h[1] = params.initial_surv_h[species];
 }
 
 // copy constructor
