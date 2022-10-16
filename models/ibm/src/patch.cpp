@@ -33,6 +33,7 @@ Patch::Patch(int const nbreeder_species1, int const nbreeder_species2, Parameter
 Patch::Patch(Patch const &other) :
     help_survival{other.help_survival[0],other.help_survival[1]}
     ,help_fecundity{other.help_fecundity[0],other.help_fecundity[1]}
+    ,relatedness{other.relatedness[0],other.relatedness[1]}
     ,breeders{other.breeders[0],other.breeders[1]}
     ,juveniles{other.juveniles[0], other.juveniles[1]}
 {
@@ -44,6 +45,7 @@ void Patch::operator=(Patch const &other)
     {
         help_survival[species_idx] = other.help_survival[species_idx];
         help_fecundity[species_idx] = other.help_fecundity[species_idx];
+        relatedness[species_idx] = other.relatedness[species_idx];
         breeders[species_idx] = other.breeders[species_idx];
         juveniles[species_idx] = other.juveniles[species_idx];
     }

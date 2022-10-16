@@ -10,6 +10,8 @@ class Patch
         double help_survival[2] = {0.0,0.0};
         double help_fecundity[2] = {0.0,0.0};
 
+        double relatedness[2] = {0.0,0.0};
+
         // two dimensional list of individuals in each patch
         // which reflect the breeders of species 1 and species 2
         std::vector < std::vector<Individual> > breeders;

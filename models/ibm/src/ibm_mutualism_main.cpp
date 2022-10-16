@@ -11,13 +11,13 @@ int main(int argc, char **argv)
 
     parms.between_species = argv[3] == std::string{"true"};
 
-    parms.initial_fec_h[0] = atof(argv[4]);
-    parms.initial_fec_h[1] = atof(argv[5]);
+//    parms.initial_fec_h[0] = atof(argv[4]);
+//    parms.initial_fec_h[1] = atof(argv[5]);
 
-    parms.initial_surv_h[0] = atof(argv[6]);
-    parms.initial_surv_h[1] = atof(argv[7]);
+//    parms.initial_surv_h[0] = atof(argv[6]);
+//    parms.initial_surv_h[1] = atof(argv[7]);
 
-    parms.base_name = argv[8];
+    parms.base_name = argv[4];
 
     IBM_Mutualism sim{parms};
 

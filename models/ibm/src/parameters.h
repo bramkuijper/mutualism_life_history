@@ -2,6 +2,7 @@
 #define _PARAMETERS_H_
 
 #include <string>
+#include <set>
 // this is a great post why to use a struct rather than
 // function arguments:
 // https://stackoverflow.com/questions/58859201/why-pass-structure-to-function-instead-of-separate-parameters
@@ -27,10 +28,11 @@ struct Parameters {
 
     // toggle within vs between species help
     bool between_species = true;
+    bool partner_choice = true;
 
     // baseline survival and fecundity for both species
     double baseline_survival[2] = {0,0};
-    double baseline_fecundity[2] = {1.0,1.0};
+    double baseline_fecundity[2] = {0.7,0.7};
 
     // how rapidly survival increases with help
     double strength_survival[2] = {0.4,0.4};
@@ -40,18 +42,22 @@ struct Parameters {
     double initial_surv_h[2] = {0.0,0.0};
 
     // mortality cost of surv/fec help for both species
-    double survival_cost_of_surv_help[2] = {0.5,0.5};
-    double survival_cost_of_fec_help[2] = {0.5,0.5};
+    double survival_cost_of_surv_help[2] = {0.0,0.0};
+    double survival_cost_of_fec_help[2] = {0.0,0.0};
 
     // fecundity cost of surv/fec help for both species
-    double fecundity_cost_of_surv_help[2] = {0.5,0.5};
-    double fecundity_cost_of_fec_help[2] = {0.5,0.5};
+    double fecundity_cost_of_surv_help[2] = {0.0,0.0};
+    double fecundity_cost_of_fec_help[2] = {0.0,0.0};
 
     // mutation rates
-    double mu_fec_h = 0.0;
-    double mu_surv_h = 0.0;
+    double mu_fec_h = 0.01;
+    double mu_surv_h = 0.01;
     double mu_disp = 0.01;
     double sdmu = 0.01;
+
+    // rank error in partner choice
+    double sd_pcerr = 0.0;
 };
 
 #endif
+

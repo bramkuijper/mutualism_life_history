@@ -20,11 +20,12 @@ IBM_Mutualism::IBM_Mutualism(Parameters const &params) : // constructors first i
 
     for (time_step = 0; time_step <= par.max_time_steps; ++time_step)
     {
+        sort_individuals();
         calculate_help();
         reproduce();
         survive_otherwise_replace();
 
-        if (time_step % par.data_interval == 0 || 
+        if (time_step % par.data_interval == 0 ||
                 time_step == par.max_time_steps)
         {
             write_data();
@@ -34,6 +35,32 @@ IBM_Mutualism::IBM_Mutualism(Parameters const &params) : // constructors first i
     write_parameters();
 
 } // end IBM_Mutualism
+
+// sort individuals by perceived quality
+void IBM_Mutualism::sort_individuals()
+{
+    for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
+    {
+        for (int species_idx = 0; species_idx < 2; ++species_idx)
+        {
+            // update perceived help values
+            for (std::vector<Individual>::iterator individual_iter =
+                    metapop[patch_idx].breeders[species_idx].begin();
+                    individual_iter != metapop[patch_idx].breeders[species_idx].end();
+                    ++individual_iter)
+            {
+                *individual_iter = Individual(*individual_iter
+                    ,rng_r
+                    ,par);
+            }
+
+            // sort individuals by help traits
+            std::sort(metapop[patch_idx].breeders[species_idx].begin(),
+                 metapop[patch_idx].breeders[species_idx].end(),
+                 Individual::compare_total_help);
+        } // species
+    } // patch
+}
 
 // go over the population and just calculates the total help value
 // in each patch
@@ -64,6 +91,10 @@ void IBM_Mutualism::calculate_help()
     }
 } // end void IBM_Mutualism::calculate_help()
 
+bool IBM_Mutualism::compare_quality(Individual const &i1, Individual const &i2)
+{
+    return((i1.fec_h[0] + i1.fec_h[1]) < (i2.fec_h[0] + i2.fec_h[1]));
+}
 
 // reproduce
 void IBM_Mutualism::reproduce()
@@ -102,107 +133,205 @@ void IBM_Mutualism::reproduce()
 
     int n[2] = {0,0};
 
-    // go through all patches and calculate help of the two species
-    // then use this to reproduce
-    for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
+    // split streams for partner choice vs non partner choice
+    if (par.partner_choice)
     {
-        for (int species_idx = 0; species_idx < 2; ++species_idx)
+        for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
         {
-            // get the opposite index species_idx
-            // to obtain the index of the mutualist
-            // or the leave it the same for within species interactions
-            if (par.between_species)
+            // help for each species
+            for (int species_idx = 0; species_idx < 2; ++species_idx)
             {
+                // get opposite index species_idx (no method for within species)
                 friend_species = !species_idx;
-            }
-            else
-            {
-                friend_species = species_idx;
-            }
 
-            // calculate fecundity help per individual
-            fecundity_help_per_individual =
-                // total amount of help
-                metapop[patch_idx].help_fecundity[friend_species] / // the_other_species <- species_idx
-                    metapop[patch_idx].breeders[species_idx].size();
-                    // divide by #recipients
-                    // to get per-individual amount of benefits
-
-            // - calculate fecundity costs of help (these vary per individual
-            //      as they depend on the expression of helping traits)
-            // - calculate fecundity (help received - costs)
-            // - actually reproduce
-            for (std::vector<Individual>::iterator individual_iter =
-                    metapop[patch_idx].breeders[species_idx].begin();
-                    individual_iter != metapop[patch_idx].breeders[species_idx].end();
-                    ++individual_iter)
-            {
-                fecundity_cost_of_help =
-                    par.fecundity_cost_of_fec_help[species_idx] * (
-                            individual_iter->fec_h[0] +
-                            individual_iter->fec_h[1])
-                    +
-                    par.fecundity_cost_of_surv_help[species_idx] * (
-                            individual_iter->surv_h[0] +
-                            individual_iter->surv_h[1]);
-
+                // loop through pair of individuals, source: stackoverflow.com/questions/9602918/c-initiailising-2-different-iterators-in-a-for-loop
+                /* Only iterates the length of the focal species vector, 
+                   though I'm assuming because of the way the juvenile population is sampled (with replacement) species vectors will always be the same length*/
+                // get fecundity help from opposite species
+                // get fecundity costs of help
                 // calculate fecundity
-                fecundity = par.baseline_fecundity[species_idx]
-                    + fecundity_help_per_individual
-                    - fecundity_cost_of_help;
-
-                // now translate fecundity into births
-                // as fecundity is necessarily discrete (0, 1, 2, .., n offspring)
-                // let us discretize the number
-                //
-                // first we take the lowest integer in fecundity
-                fecundity_i = floor(fecundity);
-
-                // then we draw a random number and compare it against the remainder
-                // hence if fecundity is 10.73, one produces 10 offspring with certainty
-                // but 11 offspring with a probability of 0.73
-                if (uniform(rng_r) < fecundity - fecundity_i)
+                // actually reproduce
+                
+                for (std::pair<ind_iter, ind_iter> individual_iter(metapop[patch_idx].breeders[species_idx].begin(), metapop[patch_idx].breeders[friend_species].begin());
+                     individual_iter.first != metapop[patch_idx].breeders[species_idx].end();
+                     ++individual_iter.first, ++individual_iter.second)
                 {
-                    // increment count by 1
-                    ++fecundity_i;
+                    // fecundity help from partner
+                    fecundity_help_per_individual = individual_iter.second->fec_h[0]
+                        + individual_iter.second->fec_h[1];
+
+                    // fecundity cost of help
+                    fecundity_cost_of_help =
+                        par.fecundity_cost_of_fec_help[species_idx] * (
+                                individual_iter.first->fec_h[0] +
+                                individual_iter.first->fec_h[1])
+                        +
+                        par.fecundity_cost_of_surv_help[species_idx] * (
+                                individual_iter.first->surv_h[0] +
+                                individual_iter.first->surv_h[1]);
+
+                    // calculate fecundity with partner choice
+                    fecundity = par.baseline_fecundity[species_idx]
+                        + fecundity_help_per_individual
+                        - fecundity_cost_of_help;
+
+                    // now translate fecundity into births
+                    // as fecundity is necessarily discrete (0, 1, 2, .., n offspring)
+                    // let us discretize the number
+                    //
+                    // first we take the lowest integer in fecundity
+                    fecundity_i = floor(fecundity);
+
+                    // then we draw a random number and compare it against the remainder
+                    // hence if fecundity is 10.73, one produces 10 offspring with certainty
+                    // but 11 offspring with a probability of 0.73
+                    if (uniform(rng_r) < fecundity - fecundity_i)
+                    {
+                        // increment count by 1
+                        ++fecundity_i;
+                    }
+
+                    mean_offspring[species_idx] += fecundity_i;
+
+                    ++n[species_idx];
+
+                    // now reproduce
+                    for (int egg_i = 0; egg_i < fecundity_i; ++egg_i)
+                    {
+                        // make offspring
+                        Individual offspring(
+                                // current parent (dereference an iterator)
+                                *individual_iter.first
+                                ,rng_r
+                                ,par
+                                ,species_idx);
+
+                        // determine patch of destination dependent on dispersal
+                        // using C++'s ternary operator
+                        destination_patch = uniform(rng_r) < (individual_iter.first->d[0] + individual_iter.first->d[1]) / 2
+                                                ?
+                                            patch_sampler(rng_r) // disperse, hence remote patch
+                                            :
+                                            patch_idx; // philopatric, hence local patch
+
+                        assert(destination_patch >= 0);
+                        assert(destination_patch < metapop.size());
+
+                        // add offspring to local stack of juveniles
+                        metapop[destination_patch].juveniles[species_idx].push_back(offspring);
+                        // update count
+                        ++njuveniles[species_idx];
+                    } // egg
+
+                } // paired individuals
+
+            } // species, help
+        } // metapop
+    } // partner choice
+    else
+    {
+        // go through all patches and calculate help of the two species
+	// then use this to reproduce
+        for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
+    	{
+
+            for (int species_idx = 0; species_idx < 2; ++species_idx)
+            {
+                // get the opposite index species_idx
+                // to obtain the index of the mutualist
+                // or the leave it the same for within species interactions
+                if (par.between_species)
+                {
+                    friend_species = !species_idx;
+                }
+                else
+                {
+                    friend_species = species_idx;
                 }
 
-                mean_offspring[species_idx] += fecundity_i;
+                // calculate fecundity help per individual without partner choice
+                fecundity_help_per_individual =
+                    // total amount of help
+                    metapop[patch_idx].help_fecundity[friend_species] / // the_other_species <- species_idx
+                        metapop[patch_idx].breeders[species_idx].size();
+                        // divide by #recipients
+                        // to get per-individual amount of benefits
 
-                ++n[species_idx];
-
-                // now reproduce
-                for (int egg_i = 0; egg_i < fecundity_i; ++egg_i)
+                // - calculate fecundity costs of help (these vary per individual
+                //      as they depend on the expression of helping traits)
+                // - calculate fecundity (help received - costs)
+                // - actually reproduce
+                for (std::vector<Individual>::iterator individual_iter =
+                        metapop[patch_idx].breeders[species_idx].begin();
+                        individual_iter != metapop[patch_idx].breeders[species_idx].end();
+                        ++individual_iter)
                 {
-                    // make offspring
-                    Individual offspring(
-                            // current parent (dereference an iterator)
-                            *individual_iter
-                            ,rng_r
-                            ,par
-                            ,species_idx);
+                    fecundity_cost_of_help =
+                        par.fecundity_cost_of_fec_help[species_idx] * (
+                                individual_iter->fec_h[0] +
+                                individual_iter->fec_h[1])
+                        +
+                        par.fecundity_cost_of_surv_help[species_idx] * (
+                                individual_iter->surv_h[0] +
+                                individual_iter->surv_h[1]);
+
+                    // calculate fecundity without partner choice
+                    fecundity = par.baseline_fecundity[species_idx]
+                        + fecundity_help_per_individual
+                        - fecundity_cost_of_help;
+
+                    // now translate fecundity into births
+                    // as fecundity is necessarily discrete (0, 1, 2, .., n offspring)
+                    // let us discretize the number
+                    //
+                    // first we take the lowest integer in fecundity
+                    fecundity_i = floor(fecundity);
+
+                    // then we draw a random number and compare it against the remainder
+                    // hence if fecundity is 10.73, one produces 10 offspring with certainty
+                    // but 11 offspring with a probability of 0.73
+                    if (uniform(rng_r) < fecundity - fecundity_i)
+                    {
+                        // increment count by 1
+                        ++fecundity_i;
+                    }
+
+                    mean_offspring[species_idx] += fecundity_i;
+
+                    ++n[species_idx];
+
+                    // now reproduce
+                    for (int egg_i = 0; egg_i < fecundity_i; ++egg_i)
+                    {
+                        // make offspring
+                        Individual offspring(
+                                // current parent (dereference an iterator)
+                                *individual_iter
+                                ,rng_r
+                                ,par
+                                ,species_idx);
 
 
-                    // determine patch of destination dependent on dispersal
-                    // using C++'s ternary operator
-                    destination_patch = uniform(rng_r) < (individual_iter->d[0] + individual_iter->d[1]) / 2
-                                            ?
-                                        patch_sampler(rng_r) // disperse, hence remote patch
-                                        :
-                                        patch_idx; // philopatric, hence local patch
+                        // determine patch of destination dependent on dispersal
+                        // using C++'s ternary operator
+                        destination_patch = uniform(rng_r) < (individual_iter->d[0] + individual_iter->d[1]) / 2
+                                                ?
+                                            patch_sampler(rng_r) // disperse, hence remote patch
+                                            :
+                                            patch_idx; // philopatric, hence local patch
 
-                    assert(destination_patch >= 0);
-                    assert(destination_patch < metapop.size());
+                        assert(destination_patch >= 0);
+                        assert(destination_patch < metapop.size());
 
-                    // add offspring to local stack of juveniles
-                    metapop[destination_patch].juveniles[species_idx].push_back(offspring);
-                    // update count
-                    ++njuveniles[species_idx];
-                }
-            }
-        } // end for species_idx
-    } // end for patch_idx  idx
-
+                        // add offspring to local stack of juveniles
+                        metapop[destination_patch].juveniles[species_idx].push_back(offspring);
+                        // update count
+                        ++njuveniles[species_idx];
+                    } // egg
+                } // individual
+            } // end for species_idx
+        } // end for patch_idx
+    } // no partner choice
     // finalize stats
     for (int species_idx = 0; species_idx < 2; ++species_idx)
     {
@@ -248,105 +377,190 @@ void IBM_Mutualism::survive_otherwise_replace()
     // which will later be used to calculate means
     int n[2] = {0,0};
 
-    // go through all patches 
-    for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
+    if (par.partner_choice)
     {
-        // go through the 2 species
-        for (int species_idx = 0; species_idx < 2; ++species_idx)
+        // survive with partner choice help values
+        for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
         {
-            // get the opposite index species_idx
-            // to obtain the index of the mutualist
-            // or leave it the same for within species interactions
-            if (par.between_species)
+            for (int species_idx = 0; species_idx < 2; ++species_idx)
             {
+                // get the opposite species index (no method for within species)
                 friend_species = !species_idx;
-            }
-            else
-            {
-                friend_species = species_idx;
-            }
 
-            // calculate survival help per individual
-            survival_help_per_individual =
-                // total amount of help
-                metapop[patch_idx].help_survival[friend_species] / // the_other_species <- species_idx
-                    metapop[patch_idx].breeders[species_idx].size();
-                    // divide by #recipients
-                    // to get per-individual amount of benefits
+                // help stats now done individually
+                // by default get juveniles from local patch
+                juvenile_origin_patch = patch_idx;
 
-            // update stats to obtain mean amount of mutualist
-            // help per patch
-            mean_surv_help_per_individual[species_idx] +=
-                survival_help_per_individual;
-
-            // by default get juveniles from local patch
-            juvenile_origin_patch =  patch_idx;
-
-            // if no juveniles produced in local patch
-            // get them elsewhere...
-            while (metapop[juvenile_origin_patch].juveniles[species_idx].size() < 1)
-            {
-                // sample random patch where there might be nonzero juvs
-                juvenile_origin_patch = patch_sampler(rng_r);
-            }
-
-            // then make a juvenile sample distribution
-            // so that each juvenile is equally likely to be selected
-            // clearly we sample and replace, which is not super realistic
-            // as each juvenile can be selected multiple times. However, as long
-            // as this is independent of a juvenile's phenotype, no effect on
-            // selection
-            std::uniform_int_distribution<int>
-                juvenile_sampler(0, 
-                        metapop[juvenile_origin_patch].juveniles[species_idx].size() - 1);
-
-            // - calculate survival costs of help
-            // - dish out survival benefits / costs
-            // - have individuals survive or not
-            // - replace vacancies by juveniles
-            for (std::vector<Individual>::iterator individual_iter = 
-                    metapop[patch_idx].breeders[species_idx].begin();
-                    individual_iter != metapop[patch_idx].breeders[species_idx].end();
-                    ++individual_iter)
-            {
-                survival_cost_of_help = 
-                    par.survival_cost_of_fec_help[species_idx] * (
-                            individual_iter->fec_h[0] + 
-                            individual_iter->fec_h[1]) 
-                    +
-                    par.survival_cost_of_surv_help[species_idx] * (
-                            individual_iter->surv_h[0] + 
-                            individual_iter->surv_h[1]);
-
-                // calculate survival probability
-                p_survive = par.baseline_survival[species_idx] +
-                    (1.0 - par.baseline_survival[species_idx])
-                         * (1.0 - exp(-par.strength_survival[species_idx] * (
-                    survival_help_per_individual
-                    - survival_cost_of_help))
-                        );
-
-                mean_surv_prob[species_idx] += p_survive;
-                ++n[species_idx];
-
-                // death implies replacement hence death birth
-                if (uniform(rng_r) > p_survive)
+                // if no juveniles produced in local patch get them elsewhere
+                while (metapop[juvenile_origin_patch].juveniles[species_idx].size() < 1)
                 {
-                    // get index of parent
-                    individual_idx = individual_iter - 
-                        metapop[patch_idx].breeders[species_idx].begin();
+                    // samples random patch where there might be nonzero juvs
+                    juvenile_origin_patch = patch_sampler(rng_r);
+                }
 
-                    // randomly chosen juvenile overwrites adult
-                    metapop[patch_idx].breeders[species_idx][individual_idx] = 
-                        metapop[juvenile_origin_patch].juveniles[species_idx][juvenile_sampler(rng_r)];
+                // then make a juvenile sample distribution
+                std::uniform_int_distribution<int>
+                    juvenile_sampler(0,
+                            metapop[juvenile_origin_patch].juveniles[species_idx].size() - 1);
+
+                // loop through pairs of individuals
+                for(std::pair<ind_iter, ind_iter> individual_iter(metapop[patch_idx].breeders[species_idx].begin(), metapop[patch_idx].breeders[friend_species].begin());
+                    individual_iter.first != metapop[patch_idx].breeders[species_idx].end();
+                    ++individual_iter.first, ++individual_iter.second)
+                {
+                    // survival help from partner
+                    survival_help_per_individual = individual_iter.second->surv_h[0]
+                        + individual_iter.second->surv_h[1];
+
+                    // update stats
+                    mean_surv_help_per_individual[species_idx] +=
+                        survival_help_per_individual;
+
+                    // do all the things but with partner choice
+                    survival_cost_of_help =
+                        par.survival_cost_of_fec_help[species_idx] * (
+                                individual_iter.first->fec_h[0] +
+                                individual_iter.first->fec_h[1])
+                        +
+                        par.survival_cost_of_surv_help[species_idx] * (
+                                individual_iter.first->surv_h[0] +
+                                individual_iter.first->surv_h[1]);
+
+                    // calculate survival probability
+                    p_survive = par.baseline_survival[species_idx] +
+                        (1.0 - par.baseline_survival[species_idx])
+                            * (1.0 - exp(-par.strength_survival[species_idx] * (
+                        survival_help_per_individual
+                        - survival_cost_of_help))
+                            );
+
+                    mean_surv_prob[species_idx] += p_survive;
+                    ++n[species_idx];
+
+                    // death implies replacement hence death birth
+                    if (uniform(rng_r) > p_survive)
+                    {
+                        // get index of parent
+                        individual_idx = individual_iter.first - 
+                            metapop[patch_idx].breeders[species_idx].begin();
+
+                        // randomly chosen juvenile overwrites adult
+                        metapop[patch_idx].breeders[species_idx][individual_idx] = 
+                            metapop[juvenile_origin_patch].juveniles[species_idx][juvenile_sampler(rng_r)];
+                    }
+                    else
+                    {
+                        ++nsurvivors[species_idx];
+                    }
+
+                } // individual pairs
+            } // species
+        } // metapop
+    } // partner choice
+
+    else
+    {
+        // survive with population help values
+        // go through all patches 
+        for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
+        {
+            // go through the 2 species
+            for (int species_idx = 0; species_idx < 2; ++species_idx)
+            {
+                // get the opposite index species_idx
+                // to obtain the index of the mutualist
+                // or leave it the same for within species interactions
+                if (par.between_species)
+                {
+                    friend_species = !species_idx;
                 }
                 else
                 {
-                    ++nsurvivors[species_idx];
+                    friend_species = species_idx;
                 }
-            }
-        } // end for for (int species_idx = 0; species_idx < 2; ++species_idx)
-    } // end for (int patch_idx = 0; patch_idx < metapop.size(); ++patches)
+
+                // calculate survival help per individual
+                survival_help_per_individual =
+                    // total amount of help
+                    metapop[patch_idx].help_survival[friend_species] / // the_other_species <- species_idx
+                        metapop[patch_idx].breeders[species_idx].size();
+                        // divide by #recipients
+                        // to get per-individual amount of benefits
+
+                // update stats to obtain mean amount of mutualist
+                // help per patch
+                mean_surv_help_per_individual[species_idx] +=
+                    survival_help_per_individual;
+
+                // by default get juveniles from local patch
+                juvenile_origin_patch =  patch_idx;
+
+                // if no juveniles produced in local patch
+                // get them elsewhere...
+                while (metapop[juvenile_origin_patch].juveniles[species_idx].size() < 1)
+                {
+                    // sample random patch where there might be nonzero juvs
+                    juvenile_origin_patch = patch_sampler(rng_r);
+                }
+
+                // then make a juvenile sample distribution
+                // so that each juvenile is equally likely to be selected
+                // clearly we sample and replace, which is not super realistic
+                // as each juvenile can be selected multiple times. However, as long
+                // as this is independent of a juvenile's phenotype, no effect on
+                // selection
+                std::uniform_int_distribution<int>
+                    juvenile_sampler(0, 
+                            metapop[juvenile_origin_patch].juveniles[species_idx].size() - 1);
+
+                // - calculate survival costs of help
+                // - dish out survival benefits / costs
+                // - have individuals survive or not
+                // - replace vacancies by juveniles
+                for (std::vector<Individual>::iterator individual_iter = 
+                        metapop[patch_idx].breeders[species_idx].begin();
+                        individual_iter != metapop[patch_idx].breeders[species_idx].end();
+                        ++individual_iter)
+                {
+                    survival_cost_of_help = 
+                        par.survival_cost_of_fec_help[species_idx] * (
+                                individual_iter->fec_h[0] + 
+                                individual_iter->fec_h[1]) 
+                        +
+                        par.survival_cost_of_surv_help[species_idx] * (
+                                individual_iter->surv_h[0] + 
+                                individual_iter->surv_h[1]);
+
+                    // calculate survival probability
+                    p_survive = par.baseline_survival[species_idx] +
+                        (1.0 - par.baseline_survival[species_idx])
+                             * (1.0 - exp(-par.strength_survival[species_idx] * (
+                        survival_help_per_individual
+                        - survival_cost_of_help))
+                            );
+
+                    mean_surv_prob[species_idx] += p_survive;
+                    ++n[species_idx];
+
+                    // death implies replacement hence death birth
+                    if (uniform(rng_r) > p_survive)
+                    {
+                        // get index of parent
+                        individual_idx = individual_iter - 
+                            metapop[patch_idx].breeders[species_idx].begin();
+
+                        // randomly chosen juvenile overwrites adult
+                        metapop[patch_idx].breeders[species_idx][individual_idx] = 
+                            metapop[juvenile_origin_patch].juveniles[species_idx][juvenile_sampler(rng_r)];
+                    }
+                    else
+                    {
+                        ++nsurvivors[species_idx];
+                    }
+                }
+            } // end for for (int species_idx = 0; species_idx < 2; ++species_idx)
+        } // end for (int patch_idx = 0; patch_idx < metapop.size(); ++patches)
+    } // end whole population help
 
     // final averaging: divide by population size
     for (int species_idx = 0; species_idx < 2; ++species_idx)

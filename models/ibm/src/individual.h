@@ -19,8 +19,16 @@ class Individual
         // or fecundity
         double surv_h[2] = {0.0,0.0};
 
+        // perceived fecundity and survival loci
+        double prc_fec_h[2] = {0.0,0.0};
+        double prc_surv_h[2] = {0.0,0.0};
+
         // diploid dispersal locus
         double d[2] = {0.0,0.0};
+
+        // allele identity
+        std::string fec_id[2] = {"AAAA","AAAA"};
+        std::string surv_id[2] = {"AAAA","AAAA"};
 
         // default constructor
         Individual(Parameters const &params
@@ -38,8 +46,21 @@ class Individual
                 ,Parameters const &params
                 ,int const species);
 
+        // rank constructor
+        Individual(Individual const &other
+                ,std::mt19937 &rng
+                ,Parameters const &params);
+
         // assignment operator
         void operator=(Individual const &other);
+
+        // comparisons for sort
+        static bool compare_fecundity(Individual const &i1
+                ,Individual const &i2);
+        static bool compare_survival(Individual const &i1
+                ,Individual const &i2);
+        static bool compare_total_help(Individual const &i1
+                ,Individual const &i2);
 };
 
 #endif

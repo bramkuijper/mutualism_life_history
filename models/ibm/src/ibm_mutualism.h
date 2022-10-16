@@ -5,6 +5,7 @@
 #include <random>
 #include <iostream>
 #include <fstream>
+#include <algorithm>
 #include "patch.h"
 #include "parameters.h"
 
@@ -18,17 +19,17 @@ class IBM_Mutualism
 
         // keep track of the time step of the simulation
         long unsigned time_step = 0;
-        
+
         // random device which is used to generate
         // proper random seeds
         std::random_device rd;
 
         // store the random seed
-        // we need to store this so that we can output the 
+        // we need to store this so that we can output the
         // random seed, so that we could 'replay' the exact
         // same sequence of random numbers for debugging purposes etc
         unsigned int seed;
-        
+
         // random number generator
         std::mt19937 rng_r;
 
@@ -52,14 +53,17 @@ class IBM_Mutualism
         double mean_offspring[2] = {0.0,0.0};
 
         int njuveniles[2] = {0,0};
-        
+
     public:
         // metapopulation of patches
         std::vector<Patch> metapop;
 
         // the class constructor
         IBM_Mutualism(const Parameters &params);
-        
+
+        // typedef for individual operator, not sure if in the right place             
+        typedef std::vector<Individual>::iterator ind_iter;
+
         void reproduce();
 
         void survive_otherwise_replace();
@@ -68,6 +72,8 @@ class IBM_Mutualism
         void write_data_headers();
 
         void calculate_help();
+        void sort_individuals();
+        static bool compare_quality(Individual const &i1, Individual const &i2);
 }; // end class IBM_Mutualism
 
 #endif
