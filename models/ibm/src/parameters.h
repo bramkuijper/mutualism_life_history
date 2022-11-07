@@ -16,9 +16,6 @@ struct Parameters {
     // of each species
     int npp[2] = {2,2};
 
-    // site ids for checking which are available
-    std::vector < std::vector < int > > site_ids;
-
     // the name of the file to which data is written
     std::string base_name{"ibm_mutualism_data"};
 
@@ -33,7 +30,10 @@ struct Parameters {
     bool between_species = true;
 
     // select partnering mechanism
-    // 0 for no mechanism; 1 for partner choice; 2 for partner fidelity
+    // 0 for no mechanism;
+    // 1 for partner choice;
+    // 2 for partner fidelity;
+    // 3 for partner fidelity and two shot (unfinished)
     int partner_mechanism = 2;
 
     // baseline survival and fecundity for both species
@@ -56,8 +56,8 @@ struct Parameters {
     double fecundity_cost_of_fec_help[2] = {0.0,0.0};
 
     // mutation rates
-    double mu_fec_h = 0.01;
-    double mu_surv_h = 0.0;
+    double mu_fec_h = 0.0;
+    double mu_surv_h = 0.01;
     double mu_disp = 0.01;
     double sdmu = 0.01;
 

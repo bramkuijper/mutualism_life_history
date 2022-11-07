@@ -29,7 +29,6 @@ class Individual
         // allele identity
         std::string fec_id[2] = {"AAAA","AAAA"};
         std::string surv_id[2] = {"AAAA","AAAA"};
-        int ind_id{0};
 
         // default constructor
         Individual(Parameters const &params
@@ -46,11 +45,6 @@ class Individual
                 ,std::mt19937 &rng
                 ,Parameters const &params
                 ,int const species);
-
-        // juvenile survival constructor
-        Individual(Individual const &self
-                ,int const species
-                ,int const new_id);
 
         // rank constructor
         Individual(Individual const &other

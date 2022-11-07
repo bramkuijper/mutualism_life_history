@@ -95,18 +95,6 @@ void IBM_Mutualism::calculate_help()
     }
 } // end void IBM_Mutualism::calculate_help()
 
-// compare percieved quality of individuals for sorting
-bool IBM_Mutualism::compare_quality(Individual const &i1, Individual const &i2)
-{
-    return((i1.prc_fec_h[0] + i1.prc_fec_h[1]) < (i2.prc_fec_h[0] + i2.prc_fec_h[1]));
-}
-
-// create vector of available site ids (only using after death so no real need for a separate function)
-//std::vector IBM_Mutualism::available_ids(Patch const &patch, Parameters const &params, int const species)
-//{
-    // do things
-//}
-
 // reproduce
 void IBM_Mutualism::reproduce()
 {
