@@ -6,6 +6,15 @@ int main(int argc, char **argv)
 {
     Parameters parms{};
 
+    // filling site_ids from npp
+    for (int species_idx = 0; species_idx < 2; ++species_idx)
+    {
+        for (int site_idx = 0; site_idx < parms.npp[species_idx]; ++site_idx)
+        {
+            parms.site_ids[species_idx].push_back(site_idx);
+        }
+    }
+
     parms.baseline_survival[0] = atof(argv[1]);
     parms.baseline_survival[1] = atof(argv[2]);
 

@@ -61,7 +61,7 @@ class IBM_Mutualism
         // the class constructor
         IBM_Mutualism(const Parameters &params);
 
-        // typedef for individual operator, not sure if in the right place             
+        // typedef for individual iterator, not sure if in the right place             
         typedef std::vector<Individual>::iterator ind_iter;
 
         void reproduce();
@@ -74,6 +74,7 @@ class IBM_Mutualism
         void calculate_help();
         void sort_individuals();
         static bool compare_quality(Individual const &i1, Individual const &i2);
+//        std::vector available_ids(Patch const &patch, Parameters const &params, int const species);
 }; // end class IBM_Mutualism
 
 #endif

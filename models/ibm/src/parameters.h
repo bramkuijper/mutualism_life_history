@@ -16,6 +16,9 @@ struct Parameters {
     // of each species
     int npp[2] = {2,2};
 
+    // site ids for checking which are available
+    std::vector < std::vector < int > > site_ids;
+
     // the name of the file to which data is written
     std::string base_name{"ibm_mutualism_data"};
 
@@ -28,7 +31,10 @@ struct Parameters {
 
     // toggle within vs between species help
     bool between_species = true;
-    bool partner_choice = true;
+
+    // select partnering mechanism
+    // 0 for no mechanism; 1 for partner choice; 2 for partner fidelity
+    int partner_mechanism = 2;
 
     // baseline survival and fecundity for both species
     double baseline_survival[2] = {0,0};
@@ -51,11 +57,12 @@ struct Parameters {
 
     // mutation rates
     double mu_fec_h = 0.01;
-    double mu_surv_h = 0.01;
+    double mu_surv_h = 0.0;
     double mu_disp = 0.01;
     double sdmu = 0.01;
 
     // rank error in partner choice
+    // e.g. 0.5 gives probability of approx 0.317 that there will be a swap
     double sd_pcerr = 0.0;
 };
 

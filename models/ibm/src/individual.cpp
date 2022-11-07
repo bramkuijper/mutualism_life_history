@@ -9,6 +9,7 @@ Individual::Individual(Parameters const &params
                        ,int const species) :
     fec_id{"AAAA","AAAA"}
     ,surv_id{"AAAA","AAAA"}
+    ,ind_id{0}
 {
     d[0] = params.initial_d[species];
     d[1] = params.initial_d[species];
@@ -34,10 +35,10 @@ Individual::Individual(Individual const &other) :
     ,d{other.d[0],other.d[1]}
     ,fec_id{other.fec_id[0],other.fec_id[1]}
     ,surv_id{other.surv_id[0],other.surv_id[1]}
+    ,ind_id{other.ind_id}
     ,prc_fec_h{other.prc_fec_h[0],other.prc_fec_h[1]}
     ,prc_surv_h{other.prc_surv_h[0],other.prc_surv_h[1]}
 {}
-
 
 // birth constructor
 Individual::Individual(Individual const &parent
@@ -49,6 +50,7 @@ Individual::Individual(Individual const &parent
     ,d{parent.d[0],parent.d[1]}
     ,fec_id{parent.fec_id[0],parent.fec_id[1]}
     ,surv_id{parent.surv_id[0],parent.surv_id[1]}
+    ,ind_id{0}
     ,prc_fec_h{parent.fec_h[0],parent.fec_h[1]}
     ,prc_surv_h{parent.surv_h[0],parent.surv_h[1]}
 {
@@ -86,6 +88,23 @@ Individual::Individual(Individual const &parent
     } // end for (int allele_idx = 0; allele_idx < 2; ++allele_idx)
 } // end parent constructor
 
+// juvenile survival constructor
+Individual::Individual(Individual const &self
+                ,int const species
+                ,int const new_id) :
+    fec_h{self.fec_h[0],self.fec_h[1]}
+    ,surv_h{self.surv_h[0],self.surv_h[1]}
+    ,d{self.d[0],self.d[1]}
+    ,fec_id{self.fec_id[0],self.fec_id[1]}
+    ,surv_id{self.surv_id[0],self.surv_id[1]}
+    ,ind_id{self.ind_id} //  
+    ,prc_fec_h{self.prc_fec_h[0],self.prc_fec_h[1]}
+    ,prc_surv_h{self.prc_surv_h[0],self.prc_surv_h[1]}
+{
+    // update ind_id with id provided
+    ind_id = new_id;
+}
+
 // rank constructor
 Individual::Individual(Individual const &other
                 ,std::mt19937 &rng
@@ -95,6 +114,7 @@ Individual::Individual(Individual const &other
     ,d{other.d[0],other.d[1]}
     ,fec_id{other.fec_id[0],other.fec_id[1]}
     ,surv_id{other.surv_id[0],other.surv_id[1]}
+    ,ind_id{other.ind_id}
     ,prc_fec_h{other.prc_fec_h[0],other.prc_fec_h[1]}
     ,prc_surv_h{other.prc_surv_h[0],other.prc_surv_h[1]}
 {
@@ -123,6 +143,7 @@ void Individual::operator=(Individual const &other)
         prc_fec_h[allele_idx] = other.prc_fec_h[allele_idx];
         prc_surv_h[allele_idx] = other.prc_surv_h[allele_idx];
     }
+    ind_id = other.ind_id;
 }
 
 // comparator functions
