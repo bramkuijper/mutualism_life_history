@@ -145,7 +145,7 @@ void IBM_Mutualism::reproduce()
     int n[2] = {0,0};
 
     // split streams for partner choice vs non partner choice
-    if (par.partner_mechanism == 1)
+    if (par.partner_mechanism == 1 || par.partner_mechanism == 2) // partner choice or partner fidelity
     {
         for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
         {
@@ -392,7 +392,7 @@ void IBM_Mutualism::survive_otherwise_replace()
     // which will later be used to calculate means
     int n[2] = {0,0};
 
-    if (par.partner_mechanism == 1)
+    if (par.partner_mechanism == 1 || par.partner_mechanism == 2) // partner choice or partner fidelity
     {
         // survive with partner choice help values
         for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
@@ -576,7 +576,7 @@ void IBM_Mutualism::survive_otherwise_replace()
             } // end for for (int species_idx = 0; species_idx < 2; ++species_idx)
         } // end for (int patch_idx = 0; patch_idx < metapop.size(); ++patches)
     } // end whole population help
-    else if (par.partner_mechanism == 2)
+    else if (par.partner_mechanism == 3)
     {
         // partner fidelity things
         for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
