@@ -30,9 +30,13 @@ class Individual
         std::string fec_id[2] = {"AAAA","AAAA"};
         std::string surv_id[2] = {"AAAA","AAAA"};
 
+        // given help values
+        double given_fec_h = {0.0};
+        double given_surv_h = {0.0};
+
         // default constructor
         Individual(Parameters const &params
-                   ,int const species);
+                ,int const species);
 
         // copy constructor
         Individual(Individual const &other);
@@ -49,6 +53,13 @@ class Individual
         // rank constructor
         Individual(Individual const &other
                 ,std::mt19937 &rng
+                ,Parameters const &params);
+
+        // help adjustment constructor
+        Individual(Individual const &other
+                ,double const received_fec_h
+                ,double const received_surv_h
+                ,int const species
                 ,Parameters const &params);
 
         // assignment operator

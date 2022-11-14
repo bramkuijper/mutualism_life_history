@@ -6,7 +6,7 @@
 
 // default constructor
 Individual::Individual(Parameters const &params
-                       ,int const species) :
+                ,int const species) :
     fec_id{"AAAA","AAAA"}
     ,surv_id{"AAAA","AAAA"}
 {
@@ -25,6 +25,8 @@ Individual::Individual(Parameters const &params
     prc_surv_h[0] = params.initial_surv_h[species];
     prc_surv_h[1] = params.initial_surv_h[species];
 
+    given_fec_h = params.initial_fec_h[species] * 2;
+    given_surv_h = params.initial_surv_h[species] * 2;
 }
 
 // copy constructor
@@ -36,6 +38,8 @@ Individual::Individual(Individual const &other) :
     ,surv_id{other.surv_id[0],other.surv_id[1]}
     ,prc_fec_h{other.prc_fec_h[0],other.prc_fec_h[1]}
     ,prc_surv_h{other.prc_surv_h[0],other.prc_surv_h[1]}
+    ,given_fec_h{other.given_fec_h}
+    ,given_surv_h{other.given_surv_h}
 {}
 
 // birth constructor
@@ -50,6 +54,8 @@ Individual::Individual(Individual const &parent
     ,surv_id{parent.surv_id[0],parent.surv_id[1]}
     ,prc_fec_h{parent.fec_h[0],parent.fec_h[1]}
     ,prc_surv_h{parent.surv_h[0],parent.surv_h[1]}
+    ,given_fec_h{parent.given_fec_h}
+    ,given_surv_h{parent.given_surv_h}
 {
     // set up random number distributions to realize
     // mutation rates...
@@ -96,6 +102,8 @@ Individual::Individual(Individual const &other
     ,surv_id{other.surv_id[0],other.surv_id[1]}
     ,prc_fec_h{other.prc_fec_h[0],other.prc_fec_h[1]}
     ,prc_surv_h{other.prc_surv_h[0],other.prc_surv_h[1]}
+    ,given_fec_h{other.given_fec_h}
+    ,given_surv_h{other.given_surv_h}
 {
     // random number distribution for perceived helpfulness
     std::normal_distribution<> normal_prc{0,params.sd_pcerr};
@@ -105,6 +113,28 @@ Individual::Individual(Individual const &other
         prc_fec_h[allele_idx] = fec_h[allele_idx] + normal_prc(rng);
         prc_surv_h[allele_idx] = surv_h[allele_idx] + normal_prc(rng);
     }
+}
+
+// help adjustment constructor
+Individual::Individual(Individual const &other
+                ,double const received_fec_h
+                ,double const received_surv_h
+                ,int const species
+                ,Parameters const &params) :
+    fec_h{other.fec_h[0],other.fec_h[1]}
+    ,surv_h{other.surv_h[0],other.surv_h[1]}
+    ,d{other.d[0],other.d[1]}
+    ,fec_id{other.fec_id[0],other.fec_id[1]}
+    ,surv_id{other.surv_id[0],other.surv_id[1]}
+    ,prc_fec_h{other.prc_fec_h[0],other.prc_fec_h[1]}
+    ,prc_surv_h{other.prc_surv_h[0],other.prc_surv_h[1]}
+    ,given_fec_h{other.given_fec_h}
+    ,given_surv_h{other.given_surv_h}
+{
+    // total received help multiplied by adjustment proportion
+    // might have to change where adjustment proportion comes from (should it be gaussian rather than fixed?)
+    given_fec_h = received_fec_h * params.adjust_prop[species];
+    given_surv_h = received_surv_h * params.adjust_prop[species];
 }
 
 // assignment operator, if you want to
@@ -122,6 +152,8 @@ void Individual::operator=(Individual const &other)
         prc_fec_h[allele_idx] = other.prc_fec_h[allele_idx];
         prc_surv_h[allele_idx] = other.prc_surv_h[allele_idx];
     }
+    given_fec_h = other.given_fec_h;
+    given_surv_h = other.given_surv_h;
 }
 
 // comparator functions

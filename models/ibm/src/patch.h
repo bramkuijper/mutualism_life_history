@@ -1,6 +1,7 @@
 #ifndef _PATCH_H_
 #define _PATCH_H_
 
+#include <random>
 #include "individual.h"
 
 class Patch
@@ -24,6 +25,9 @@ class Patch
 
         // copy constructor
         Patch(Patch const &other);
+
+        // shuffle constructor
+        Patch(Patch const &other, Parameters const &params, std::mt19937 &rng);
 
         Parameters par; 
         

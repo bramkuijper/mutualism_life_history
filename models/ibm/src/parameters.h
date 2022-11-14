@@ -36,6 +36,10 @@ struct Parameters {
     // 3 for partner fidelity and two shot (unfinished)
     int partner_mechanism = 2;
 
+    // probability that partners will stay together at the end of each time step
+    double fidelity_prob{0.5};
+    bool negotiate_once{true};
+
     // baseline survival and fecundity for both species
     double baseline_survival[2] = {0,0};
     double baseline_fecundity[2] = {0.7,0.7};
@@ -55,10 +59,13 @@ struct Parameters {
     double fecundity_cost_of_surv_help[2] = {0.0,0.0};
     double fecundity_cost_of_fec_help[2] = {0.0,0.0};
 
+    // ratio by which individuals adjust if they are using two shot response
+    double adjust_prop[2] = {1.0,1.0};
+
     // mutation rates
     double mu_fec_h = 0.0;
     double mu_surv_h = 0.01;
-    double mu_disp = 0.01;
+    double mu_disp = 0.0;
     double sdmu = 0.01;
 
     // rank error in partner choice

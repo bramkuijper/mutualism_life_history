@@ -1,7 +1,9 @@
 #include "patch.h"
 #include "individual.h"
+#include <random>
 #include <vector>
 #include <cassert>
+#include <algorithm>
 
 Patch::Patch(int const nbreeder_species1, int const nbreeder_species2, Parameters const &params) :
     par{params}
@@ -16,7 +18,7 @@ Patch::Patch(int const nbreeder_species1, int const nbreeder_species2, Parameter
     breeders.push_back(stack_species_2);
 
     assert(breeders.size() == 2);
-   
+
     // now do the same thing for the juveniles
     // however they can be empty as we will only start to
     // allocate them at the reproduction stage
@@ -37,6 +39,25 @@ Patch::Patch(Patch const &other) :
     ,breeders{other.breeders[0],other.breeders[1]}
     ,juveniles{other.juveniles[0], other.juveniles[1]}
 {
+}
+
+// shuffle constructor
+Patch::Patch(Patch const &other, Parameters const &params, std::mt19937 &rng) :
+    help_survival{other.help_survival[0],other.help_survival[1]}
+    ,help_fecundity{other.help_fecundity[0],other.help_fecundity[1]}
+    ,relatedness{other.relatedness[0],other.relatedness[1]}
+    ,breeders{other.breeders[0],other.breeders[1]}
+    ,juveniles{other.juveniles[0], other.juveniles[1]}
+{
+    // random distribution for probability
+    std::uniform_real_distribution<> uniform{0.0,1.0};
+
+    // reorder individuals of species 1 with probability 1-fidelity_prob
+    if(uniform(rng) > params.fidelity_prob)
+    {
+        std::shuffle(breeders[0].begin(), breeders[0].end(), rng);
+    }
+
 }
 
 void Patch::operator=(Patch const &other)

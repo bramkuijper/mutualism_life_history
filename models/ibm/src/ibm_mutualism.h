@@ -49,7 +49,7 @@ class IBM_Mutualism
         double mean_surv_help_per_individual[2] = {0.0,0.0};
 
         int nsurvivors[2] = {0,0};
-	double patch_occupancy[2] = {0.0,0.0};
+        double patch_occupancy[2] = {0.0,0.0};
         double mean_offspring[2] = {0.0,0.0};
 
         int njuveniles[2] = {0,0};
@@ -64,15 +64,17 @@ class IBM_Mutualism
         // typedef for individual iterator, not sure if in the right place             
         typedef std::vector<Individual>::iterator ind_iter;
 
-        void reproduce();
+        void sort_individuals();
+        void calculate_help();
+        void negotiate();
 
+        void reproduce();
         void survive_otherwise_replace();
+
         void write_parameters();
         void write_data();
         void write_data_headers();
 
-        void calculate_help();
-        void sort_individuals();
 }; // end class IBM_Mutualism
 
 #endif
