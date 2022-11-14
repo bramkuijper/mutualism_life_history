@@ -829,32 +829,34 @@ void IBM_Mutualism::write_parameters()
     // write parameters to the file for each species
     for (int species_idx = 0; species_idx < 2; ++species_idx)
     {
-        data_file << "d" << (species_idx + 1) << ";" << par.initial_d[species_idx] << std::endl
+        data_file << "d" << (species_idx + 1) << ";" 
+                    << par.initial_d[species_idx] << std::endl
 
-            << "npp" << (species_idx + 1) << ";" << par.npp[species_idx] << std::endl
+                << "npp" << (species_idx + 1) << ";" 
+                    << par.npp[species_idx] << std::endl
 
-            << "baseline_survival" << (species_idx + 1) << ";"
-                << par.baseline_survival[species_idx] << std::endl
+                << "baseline_survival" << (species_idx + 1) << ";"
+                    << par.baseline_survival[species_idx] << std::endl
 
-            << "baseline_fecundity" << (species_idx + 1) << ";"
-                << par.baseline_fecundity[species_idx] << std::endl
+                << "baseline_fecundity" << (species_idx + 1) << ";"
+                    << par.baseline_fecundity[species_idx] << std::endl
 
-            << "strength_survival" << (species_idx + 1) << ";"
-                << par.strength_survival[species_idx] << std::endl
+                << "strength_survival" << (species_idx + 1) << ";"
+                    << par.strength_survival[species_idx] << std::endl
 
-            << "fecundity_help" << (species_idx +1 ) << ";"
-                << par.initial_fec_h[species_idx] << std::endl
+                << "fecundity_help" << (species_idx +1 ) << ";"
+                    << par.initial_fec_h[species_idx] << std::endl
 
-            << "survival_help" << (species_idx + 1) << ";"
-                << par.initial_surv_h[species_idx] << std::endl
+                << "survival_help" << (species_idx + 1) << ";"
+                    << par.initial_surv_h[species_idx] << std::endl
 
-            << "survival_cost_of_surv_help" << (species_idx + 1) << ";"
-                << par.survival_cost_of_surv_help[species_idx] << std::endl
+                << "survival_cost_of_surv_help" << (species_idx + 1) << ";"
+                    << par.survival_cost_of_surv_help[species_idx] << std::endl
 
-            << "survival_cost_of_fec_help" << (species_idx + 1) << ";"
-                << par.survival_cost_of_fec_help[species_idx] << std::endl
+                << "survival_cost_of_fec_help" << (species_idx + 1) << ";"
+                    << par.survival_cost_of_fec_help[species_idx] << std::endl
 
-            << "fecundity_cost_of_surv_help" << (species_idx + 1) << ";"
+                << "fecundity_cost_of_surv_help" << (species_idx + 1) << ";"
                     << par.fecundity_cost_of_surv_help[species_idx] << std::endl
 
                 << "fecundity_cost_of_fec_help" << (species_idx + 1) << ";"
@@ -863,9 +865,13 @@ void IBM_Mutualism::write_parameters()
 
     data_file << "mu_fec_h;" << par.mu_fec_h << std::endl
                 << "mu_surv_h;" << par.mu_surv_h << std::endl
-		<< "mu_d;" << par.mu_disp << std::endl
+                << "mu_d;" << par.mu_disp << std::endl
                 << "sdmu;" << par.sdmu << std::endl
                 << "between_species;" << par.between_species << std::endl
+                << "partner_mechanism;" << par.partner_mechanism << std::endl
+                << "fidelity_prob;" << par.fidelity_prob << std::endl
+                << "negotiate_once;" << par.negotiate_once << std::endl
+                << "sd_pcerr;" << par.sd_pcerr << std::endl
                 << "seed;" << seed << std::endl;
 
 } // end write_parameters()

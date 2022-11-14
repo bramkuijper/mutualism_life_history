@@ -68,7 +68,7 @@ struct Parameters {
     double mu_disp = 0.0;
     double sdmu = 0.01;
 
-    // rank error in partner choice
+    // rank error in partner choice (standard deviation)
     // e.g. 0.5 gives probability of approx 0.317 that there will be a swap
     double sd_pcerr = 0.0;
 };
