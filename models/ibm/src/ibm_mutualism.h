@@ -61,12 +61,9 @@ class IBM_Mutualism
         // the class constructor
         IBM_Mutualism(const Parameters &params);
 
-        // typedef for individual iterator, not sure if in the right place             
-        typedef std::vector<Individual>::iterator ind_iter;
-
+        void partner_up();
         void sort_individuals();
         void calculate_help();
-        void negotiate();
 
         void reproduce();
         void survive_otherwise_replace();
@@ -75,6 +72,8 @@ class IBM_Mutualism
         void write_data();
         void write_data_headers();
 
+        // typedef
+        typedef std::vector<Individual>::iterator ind_iter;
 }; // end class IBM_Mutualism
 
 #endif

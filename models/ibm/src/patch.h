@@ -32,6 +32,9 @@ class Patch
         Parameters par; 
         
         void operator=(Patch const &other);
+
+        // typedef
+        typedef std::vector<Individual>::iterator ind_iter;
 };
 
 

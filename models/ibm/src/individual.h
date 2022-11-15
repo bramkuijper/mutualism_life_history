@@ -57,13 +57,18 @@ class Individual
 
         // help adjustment constructor
         Individual(Individual const &other
-                ,double const received_fec_h
-                ,double const received_surv_h
-                ,int const species
-                ,Parameters const &params);
+                ,double const &new_given_fec_h
+                ,double const &new_given_surv_h);
 
         // assignment operator
         void operator=(Individual const &other);
+
+        // negotiation
+        static void negotiate(Individual &i1
+            ,Individual &i2
+            ,int const &focal_species
+            ,bool const &reset
+            ,Parameters const &params);
 
         // comparisons for sort
         static bool compare_fecundity(Individual const &i1
@@ -72,6 +77,7 @@ class Individual
                 ,Individual const &i2);
         static bool compare_total_help(Individual const &i1
                 ,Individual const &i2);
+
 };
 
 #endif

@@ -20,22 +20,8 @@ IBM_Mutualism::IBM_Mutualism(Parameters const &params) : // constructors first i
 
     for (time_step = 0; time_step <= par.max_time_steps; ++time_step)
     {
-        if (par.partner_mechanism == 1) // partner fidelity won't work if they are sorted at all
-        {
-            sort_individuals();
-        }
-        else if(par.partner_mechanism == 2 ||
-                par.partner_mechanism == 3)
-        {
-            for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
-            {
-                // shuffle patch according to probability
-                metapop[patch_idx] = Patch(metapop[patch_idx]
-                        ,par
-                        ,rng_r);
-            }
-        }
 
+        partner_up();
         calculate_help();
         reproduce();
         survive_otherwise_replace();
@@ -50,6 +36,83 @@ IBM_Mutualism::IBM_Mutualism(Parameters const &params) : // constructors first i
     write_parameters();
 
 } // end IBM_Mutualism
+
+// for the sake of tidiness
+void IBM_Mutualism::partner_up()
+{
+    if (par.partner_mechanism == 1) // partner choice
+    {
+        sort_individuals();
+    } // end partner choice
+    else if (par.partner_mechanism == 2 ||
+             par.partner_mechanism == 3) // partner fidelity
+    {
+
+        bool reset{false};
+        int focal_species;
+        bool friend_species = !focal_species;
+
+        if (time_step == 0)
+        {
+            // TODO: negotiate across whole metapop
+
+            for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
+            {
+                for (int ind_idx = 0; ind_idx < metapop[patch_idx].breeders[0].size(); ++ind_idx)
+                {
+                    if (uniform(rng_r) < 0.5)
+                    {
+                        focal_species = 0;
+                    }
+                    else
+                    {
+                        focal_species = 1;
+                    }
+
+                    Individual::negotiate(metapop[patch_idx].breeders[focal_species][ind_idx]
+                            ,metapop[patch_idx].breeders[friend_species][ind_idx]
+                            ,focal_species
+                            ,reset
+                            ,par);
+                }
+            }
+
+        } // first timestep
+        else if (!par.negotiate_once)
+        {
+            // TODO: negotiate across whole metapop
+            for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
+            {
+                for (int ind_idx = 0; ind_idx < metapop[patch_idx].breeders[0].size(); ++ind_idx)
+                {
+                    if (uniform(rng_r) < 0.5)
+                    {
+                        focal_species = 0;
+                    }
+                    else
+                    {
+                        focal_species = 1;
+                    }
+
+                    Individual::negotiate(metapop[patch_idx].breeders[focal_species][ind_idx]
+                            ,metapop[patch_idx].breeders[friend_species][ind_idx]
+                            ,focal_species
+                            ,reset
+                            ,par);
+                }
+            }
+        } // other times negotiating throughout
+
+        // shuffle patches and re-negotiate
+        for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
+        {
+            metapop[patch_idx] = Patch(metapop[patch_idx]
+                    ,par
+                    ,rng_r);
+        } // metapop patches
+    } // end partner fidelity
+
+} // end shuffle_metapop
 
 // sort individuals by perceived quality
 void IBM_Mutualism::sort_individuals()
@@ -105,44 +168,6 @@ void IBM_Mutualism::calculate_help()
         }
     }
 } // end void IBM_Mutualism::calculate_help()
-
-void IBM_Mutualism::negotiate()
-{
-    // store temporary values to use in constructor
-    // double received_fec_h;
-    // double received_surv_h;
-
-    for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
-    {
-        for (std::pair<ind_iter, ind_iter> partners_iter(metapop[patch_idx].breeders[0].begin(), metapop[patch_idx].breeders[1].begin());
-            partners_iter.first != metapop[patch_idx].breeders[0].end();
-            ++partners_iter.first, ++partners_iter.second)
-        {
-            // randomly choose focal
-            int focal_species = 1; // change to random later once I've checked order is correct
-//            bool friend_species = !focal_species;
-
-            // provide given fecundity help from focal individual to friend individual so friend can respond (and update its own given help)
-            // Could update individual's given help to be sum of perceived help rather than sum of given help
-            if (focal_species == 1)
-            {
-                *partners_iter.second = Individual(*partners_iter.second
-                        ,partners_iter.first->given_fec_h
-                        ,partners_iter.first->given_surv_h
-                        ,focal_species
-                        ,par);
-            } // first is focal
-            else
-            {
-                *partners_iter.first = Individual(*partners_iter.first
-                        ,partners_iter.second->given_fec_h
-                        ,partners_iter.second->given_surv_h
-                        ,focal_species
-                        ,par);
-            } // second is focal
-        } // end individual pairs
-    } // end patch
-} // end void IBM_Mutualism::two_shot()
 
 // reproduce
 void IBM_Mutualism::reproduce()

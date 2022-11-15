@@ -117,10 +117,8 @@ Individual::Individual(Individual const &other
 
 // help adjustment constructor
 Individual::Individual(Individual const &other
-                ,double const received_fec_h
-                ,double const received_surv_h
-                ,int const species
-                ,Parameters const &params) :
+                ,double const &new_given_fec_h
+                ,double const &new_given_surv_h) :
     fec_h{other.fec_h[0],other.fec_h[1]}
     ,surv_h{other.surv_h[0],other.surv_h[1]}
     ,d{other.d[0],other.d[1]}
@@ -131,10 +129,8 @@ Individual::Individual(Individual const &other
     ,given_fec_h{other.given_fec_h}
     ,given_surv_h{other.given_surv_h}
 {
-    // total received help multiplied by adjustment proportion
-    // might have to change where adjustment proportion comes from (should it be gaussian rather than fixed?)
-    given_fec_h = received_fec_h * params.adjust_prop[species];
-    given_surv_h = received_surv_h * params.adjust_prop[species];
+        given_fec_h = new_given_fec_h;
+        given_surv_h = new_given_surv_h;
 }
 
 // assignment operator, if you want to
@@ -154,6 +150,52 @@ void Individual::operator=(Individual const &other)
     }
     given_fec_h = other.given_fec_h;
     given_surv_h = other.given_surv_h;
+}
+
+// negotiate
+void Individual::negotiate(Individual &i1
+    ,Individual &i2
+    ,int const &focal_species
+    ,bool const &reset
+    ,Parameters const &params)
+{
+    if (reset)
+    { // reset given help parameters back to summed trait values
+        i1 = Individual(i1
+            ,i1.fec_h[0] + i1.fec_h[1]
+            ,i1.surv_h[0] + i1.surv_h[1]);
+
+        i2 = Individual(i2
+            ,i2.fec_h[0] + i2.fec_h[1]
+            ,i2.surv_h[0] + i2.surv_h[1]);
+    }
+
+    // initialise for storage
+    double given_fec;
+    double given_surv;
+
+    // negotiate in for loop
+    // TODO: probably a nicer way to do this
+    // TODO: change adjust_prop
+
+    for (int round_idx = 0; round_idx < 1; ++round_idx)
+    {
+        given_fec = i2.given_fec_h * params.adjust_prop[focal_species];
+        given_surv = i2.given_surv_h * params.adjust_prop[focal_species];
+
+        i1 = Individual(i1
+            ,given_fec
+            ,given_surv);
+
+        bool friend_species = !focal_species;
+
+        given_fec = i1.given_fec_h * params.adjust_prop[friend_species];
+        given_surv = i1.given_surv_h * params.adjust_prop[friend_species];
+
+        i2 = Individual(i2
+            ,given_fec
+            ,given_surv);
+    }
 }
 
 // comparator functions
