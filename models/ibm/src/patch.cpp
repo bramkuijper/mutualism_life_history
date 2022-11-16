@@ -10,7 +10,7 @@ Patch::Patch(int const nbreeder_species1, int const nbreeder_species2, Parameter
 {
     // make two vectors of individuals, one for species 1
     // make two vectors of individuals, the other for species 1
-    // we could do this in a loop but initially 
+    // we could do this in a loop but initially
     std::vector<Individual> stack_species_1(nbreeder_species1, Individual(par, 0));
     std::vector<Individual> stack_species_2(nbreeder_species2, Individual(par, 1));
 
