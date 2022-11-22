@@ -40,6 +40,9 @@ struct Parameters {
     double fidelity_prob{1.0};
     bool negotiate_once{false};
 
+    // ratio by which individuals adjust if they are negotiating
+    double adjust_prop[2] = {1.0,1.0};
+
     // baseline survival and fecundity for both species
     double baseline_survival[2] = {0,0};
     double baseline_fecundity[2] = {0.7,0.7};
@@ -58,9 +61,6 @@ struct Parameters {
     // fecundity cost of surv/fec help for both species
     double fecundity_cost_of_surv_help[2] = {0.0,0.0};
     double fecundity_cost_of_fec_help[2] = {0.0,0.0};
-
-    // ratio by which individuals adjust if they are negotiating
-    double adjust_prop[2] = {1.0,1.0};
 
     // mutation rates
     double mu_fec_h = 0.0;

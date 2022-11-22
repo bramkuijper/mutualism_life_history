@@ -80,52 +80,6 @@ Patch::Patch(Patch const &other, Parameters const &params, std::mt19937 &rng) :
                     ,par);
         }
 
- // old code saved for now
-
-//        for (std::pair<ind_iter,ind_iter> partners_iter(breeders[0].begin(), breeders[1].begin());
-//            partners_iter.first != breeders[0].end();
-//            ++partners_iter.first, ++partners_iter.second)
-//        {
-//            bool reset{true};
-//            int friend_species{0};
-//
-//            // reset given help parameters for both individuals
-//            *partners_iter.first = Individual(*partners_iter.first
-//                ,*partners_iter.second
-//                ,friend_species
-//                ,par
-//                ,reset);
-//
-//            *partners_iter.second = Individual(*partners_iter.second
-//                ,*partners_iter.first
-//                ,friend_species
-//                ,par
-//                ,reset);
-//
-//            // negotiate in response to focal individual
-//            // TODO: make negotiation for loop
-//            reset = false;
-//
-//            if (uniform(rng) < 0.5)
-//            { // if focal is species 1 (focal value remains the same)
-//                friend_species = 1;
-//                *partners_iter.second = Individual(*partners_iter.second
-//                    ,*partners_iter.first
-//                    ,friend_species
-//                    ,par
-//                    ,reset);
-//            } // TODO: add switch to individuals for consistent negotiation order
-//            else
-//            {
-//                *partners_iter.first = Individual(*partners_iter.first
-//                    ,*partners_iter.second
-//                    ,friend_species
-//                    ,par
-//                    ,reset);
-//            }
-//            // constructor to change given help
-//            // maybe I need given help constructor that takes a value from wherever and then a wrapper function that gives it a value from its partner (negotiate function)
-//        }
     }
 
 }

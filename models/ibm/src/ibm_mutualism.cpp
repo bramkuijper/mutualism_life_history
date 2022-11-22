@@ -410,8 +410,11 @@ void IBM_Mutualism::reproduce()
     {
         for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
         {
-            for (int species_idx = 0; species_idx <2; ++species_idx)
+            for (int species_idx = 0; species_idx < 2; ++species_idx)
             {
+
+                // get opposite index species_idx (no method for within species)
+                friend_species = !species_idx;
 
                 // loop through pair of individuals, source: stackoverflow.com/questions/9602918/c-initiailising-2-different-iterators-in-a-for-loop
                 /* Only iterates the length of the focal species vector,
@@ -726,7 +729,7 @@ void IBM_Mutualism::survive_otherwise_replace()
         } // metapop
     } // partner choice, partner fidelity
 
-    else if (par.partner_mechanism == 3) // out of action for now
+    else if (par.partner_mechanism == 3) // partner fidelity using negotiated help
     {
         // partner fidelity, basically the same structure as partner choice but with probability of switching
         for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
