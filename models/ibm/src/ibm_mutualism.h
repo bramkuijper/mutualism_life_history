@@ -67,6 +67,7 @@ class IBM_Mutualism
 
         void reproduce();
         void survive_otherwise_replace();
+        void survive_otherwise_compete();
 
         void write_parameters();
         void write_data();

@@ -40,7 +40,8 @@ struct Parameters {
     double fidelity_prob{1.0};
     bool negotiate_once{false};
 
-    // ratio by which individuals adjust if they are negotiating
+    // proportion by which individuals adjust if they are negotiating (unused so far)
+    // TODO: negotiate
     double adjust_prop[2] = {1.0,1.0};
 
     // baseline survival and fecundity for both species
