@@ -23,6 +23,10 @@ class Individual
         double prc_fec_h[2] = {0.0,0.0};
         double prc_surv_h[2] = {0.0,0.0};
 
+        // received help 
+        double rec_fec_h = 0.0;
+        double rec_surv_h = 0.0;
+
         // diploid dispersal locus
         double d[2] = {0.0,0.0};
 
@@ -59,6 +63,10 @@ class Individual
         Individual(Individual const &other
                 ,double const &new_given_fec_h
                 ,double const &new_given_surv_h);
+
+        // received help constructor
+        Individual(Individual const &other
+                ,std::vector<double> const &new_help_values);
 
         // assignment operator
         void operator=(Individual const &other);

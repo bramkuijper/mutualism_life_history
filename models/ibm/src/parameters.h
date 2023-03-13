@@ -24,7 +24,8 @@ struct Parameters {
 
     // array to determine whether species 1 and species 2
     // have death-birth rather than birth death updating
-    bool death_birth[2] = {true, true};
+    // TODO: make db/bd asymmetric
+    bool death_birth = true;
 
     // toggle within vs between species help
     bool between_species = true;
@@ -34,6 +35,7 @@ struct Parameters {
     // 1 for partner choice;
     // 2 for partner fidelity;
     // 3 for partner fidelity and negotiation
+    // FIXME: 3 partner fidelity and negotiation
     int partner_mechanism = 3;
 
     // probability that partners will stay together at the end of each time step

@@ -9,6 +9,8 @@ Individual::Individual(Parameters const &params
                 ,int const species) :
     fec_id{"AAAA","AAAA"}
     ,surv_id{"AAAA","AAAA"}
+    ,rec_fec_h{0.0}
+    ,rec_surv_h{0.0}
 {
     d[0] = params.initial_d[species];
     d[1] = params.initial_d[species];
@@ -40,6 +42,8 @@ Individual::Individual(Individual const &other) :
     ,prc_surv_h{other.prc_surv_h[0],other.prc_surv_h[1]}
     ,given_fec_h{other.given_fec_h}
     ,given_surv_h{other.given_surv_h}
+    ,rec_fec_h{other.rec_fec_h}
+    ,rec_surv_h{other.rec_surv_h}
 {}
 
 // birth constructor
@@ -56,6 +60,8 @@ Individual::Individual(Individual const &parent
     ,prc_surv_h{parent.surv_h[0],parent.surv_h[1]}
     ,given_fec_h{parent.given_fec_h}
     ,given_surv_h{parent.given_surv_h}
+    ,rec_fec_h{0.0}
+    ,rec_surv_h{0.0}
 {
     // set up random number distributions to realize
     // mutation rates...
@@ -91,7 +97,7 @@ Individual::Individual(Individual const &parent
     } // end for (int allele_idx = 0; allele_idx < 2; ++allele_idx)
 } // end parent constructor
 
-// rank constructor
+// rank constructor (for sorting)
 Individual::Individual(Individual const &other
                 ,std::mt19937 &rng
                 ,Parameters const &params) :
@@ -104,6 +110,8 @@ Individual::Individual(Individual const &other
     ,prc_surv_h{other.prc_surv_h[0],other.prc_surv_h[1]}
     ,given_fec_h{other.given_fec_h}
     ,given_surv_h{other.given_surv_h}
+    ,rec_fec_h{other.rec_fec_h}
+    ,rec_surv_h{other.rec_surv_h}
 {
     // random number distribution for perceived helpfulness
     std::normal_distribution<> normal_prc{0,params.sd_pcerr};
@@ -115,7 +123,7 @@ Individual::Individual(Individual const &other
     }
 }
 
-// help adjustment constructor
+// help adjustment constructor (for negotiation)
 Individual::Individual(Individual const &other
                 ,double const &new_given_fec_h
                 ,double const &new_given_surv_h) :
@@ -128,9 +136,31 @@ Individual::Individual(Individual const &other
     ,prc_surv_h{other.prc_surv_h[0],other.prc_surv_h[1]}
     ,given_fec_h{other.given_fec_h}
     ,given_surv_h{other.given_surv_h}
+    ,rec_fec_h{other.rec_fec_h}
+    ,rec_surv_h{other.rec_surv_h}
 {
-        given_fec_h = new_given_fec_h;
-        given_surv_h = new_given_surv_h;
+    given_fec_h = new_given_fec_h;
+    given_surv_h = new_given_surv_h;
+}
+
+// received help constructor
+// FIXME: janky workaround using vector to avoid conflict with other constructor
+Individual::Individual(Individual const &other
+                ,std::vector<double> const &new_help_values) :
+    fec_h{other.fec_h[0],other.fec_h[1]}
+    ,surv_h{other.surv_h[0],other.surv_h[1]}
+    ,d{other.d[0],other.d[1]}
+    ,fec_id{other.fec_id[0],other.fec_id[1]}
+    ,surv_id{other.surv_id[0],other.surv_id[1]}
+    ,prc_fec_h{other.prc_fec_h[0],other.prc_fec_h[1]}
+    ,prc_surv_h{other.prc_surv_h[0],other.prc_surv_h[1]}
+    ,given_fec_h{other.given_fec_h}
+    ,given_surv_h{other.given_surv_h}
+    ,rec_fec_h{0.0}
+    ,rec_surv_h{0.0}
+{
+    rec_fec_h = new_help_values[0];
+    rec_surv_h = new_help_values[1];
 }
 
 // assignment operator, if you want to
@@ -142,7 +172,7 @@ void Individual::operator=(Individual const &other)
     {
         fec_h[allele_idx] = other.fec_h[allele_idx];
         surv_h[allele_idx] = other.surv_h[allele_idx];
-	d[allele_idx] = other.d[allele_idx];
+        d[allele_idx] = other.d[allele_idx];
         fec_id[allele_idx] = other.fec_id[allele_idx];
         surv_id[allele_idx] = other.surv_id[allele_idx];
         prc_fec_h[allele_idx] = other.prc_fec_h[allele_idx];
@@ -150,6 +180,8 @@ void Individual::operator=(Individual const &other)
     }
     given_fec_h = other.given_fec_h;
     given_surv_h = other.given_surv_h;
+    rec_fec_h = other.rec_fec_h;
+    rec_surv_h = other.rec_surv_h;
 }
 
 // negotiate
