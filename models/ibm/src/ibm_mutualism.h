@@ -45,6 +45,7 @@ class IBM_Mutualism
 
         // for stats purposes collect
         // the mean survival probability and other things
+        // TODO: reorder variables according to occurrence
         double mean_surv_prob[2] = {0.0,0.0};
         double mean_surv_help_per_individual[2] = {0.0,0.0};
 
@@ -62,12 +63,12 @@ class IBM_Mutualism
         IBM_Mutualism(const Parameters &params);
 
         void partner_up();
-        void sort_individuals();
+        // void sort_individuals();
         void calculate_help();
 
         void reproduce();
         void survive_otherwise_replace();
-        void survive_otherwise_compete();
+        void compete_to_survive();
 
         void write_parameters();
         void write_data();
