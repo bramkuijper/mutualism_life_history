@@ -219,7 +219,7 @@ void Individual::negotiate(Individual &i1
             ,given_fec
             ,given_surv);
 
-        bool friend_species = !focal_species;
+        int friend_species = !focal_species;
 
         given_fec = i1.given_fec_h * params.adjust_prop[friend_species];
         given_surv = i1.given_surv_h * params.adjust_prop[friend_species];

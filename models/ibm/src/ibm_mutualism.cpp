@@ -78,7 +78,7 @@ void IBM_Mutualism::partner_up()
 
         bool reset{false};
         int focal_species;
-        bool friend_species = !focal_species;
+        int friend_species;
 
         if (time_step == 0)
         {
@@ -96,6 +96,8 @@ void IBM_Mutualism::partner_up()
                     {
                         focal_species = 1;
                     }
+
+                    friend_species = !focal_species;
 
                     Individual::negotiate(metapop[patch_idx].breeders[focal_species][ind_idx]
                             ,metapop[patch_idx].breeders[friend_species][ind_idx]
@@ -573,7 +575,7 @@ void IBM_Mutualism::reproduce()
 void IBM_Mutualism::survive_otherwise_replace()
 {
     // some auxiliary variables
-    bool friend_species; // vector index of the interacting species
+    int friend_species; // vector index of the interacting species
     double survival_help_per_individual; // survival help value
     double p_survive; // survival prob
     int individual_idx; // vector index of an individual
@@ -895,7 +897,7 @@ void IBM_Mutualism::survive_otherwise_replace()
 void IBM_Mutualism::compete_to_survive()
 {
     // auxillary variables
-    bool friend_species;                            // vector index of interacting species
+    int friend_species;                            // vector index of interacting species
     double survival_help_per_individual;            // survival help value
     double p_survive;                               //survival prob
     double survival_cost_of_help;                   // survival cost value
@@ -990,9 +992,6 @@ void IBM_Mutualism::compete_to_survive()
                             individual_iter->surv_h[0] +
                             individual_iter->surv_h[1]);
 
-                    // p_survive = par.baseline_survival[species_idx] + 
-                    //     (survival_help_per_individual - survival_cost_of_help);
-
                     p_survive = par.baseline_survival[species_idx] +
                         (1.0 - par.baseline_survival[species_idx])
                              * (1.0 - exp(-par.strength_survival[species_idx] * (
@@ -1064,7 +1063,7 @@ void IBM_Mutualism::compete_to_survive()
                 // get the opposite index species_idx
                 // to obtain the index of the mutualist
                 // or leave it the same for within species interactions
-                friend_species = species_idx;
+                friend_species = !species_idx;
 
                 // calculate survival help per individual
                 survival_help_per_individual = 
@@ -1108,18 +1107,12 @@ void IBM_Mutualism::compete_to_survive()
                             individual_iter->surv_h[0] +
                             individual_iter->surv_h[1]);
 
-
-                    // p_survive = par.baseline_survival[species_idx] + 
-                    //     individual_iter->rec_surv_h -
-                    //     survival_cost_of_help;
-
                     p_survive = par.baseline_survival[species_idx] +
                         (1.0 - par.baseline_survival[species_idx])
                              * (1.0 - exp(-par.strength_survival[species_idx] * (
                         individual_iter->rec_surv_h
                         - survival_cost_of_help))
-                            );
-
+                        );
 
                     survival_weights.push_back(p_survive);
 

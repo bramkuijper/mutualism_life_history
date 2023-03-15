@@ -60,7 +60,7 @@ Patch::Patch(Patch const &other, Parameters const &params, std::mt19937 &rng) :
         // reset given help parameters and negotiate using negotiate function from Individual class
         bool reset{true};
         int focal_species;
-        bool friend_species = !focal_species;
+        int friend_species;
 
         for (int ind_idx = 0; ind_idx < breeders[0].size(); ++ind_idx)
         {
@@ -72,6 +72,8 @@ Patch::Patch(Patch const &other, Parameters const &params, std::mt19937 &rng) :
             {
                 focal_species = 1;
             }
+
+            friend_species = !focal_species;
 
             Individual::negotiate(breeders[focal_species][ind_idx]
                     ,breeders[friend_species][ind_idx]
