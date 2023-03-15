@@ -146,7 +146,7 @@ Individual::Individual(Individual const &other
 // received help constructor
 // FIXME: janky workaround using vector to avoid conflict with other constructor
 Individual::Individual(Individual const &other
-                ,std::vector<double> const &new_help_values) :
+                ,std::pair<double, double> const &new_help_values) :
     fec_h{other.fec_h[0],other.fec_h[1]}
     ,surv_h{other.surv_h[0],other.surv_h[1]}
     ,d{other.d[0],other.d[1]}
@@ -159,8 +159,8 @@ Individual::Individual(Individual const &other
     ,rec_fec_h{0.0}
     ,rec_surv_h{0.0}
 {
-    rec_fec_h = new_help_values[0];
-    rec_surv_h = new_help_values[1];
+    rec_fec_h = new_help_values.first;
+    rec_surv_h = new_help_values.second;
 }
 
 // assignment operator, if you want to

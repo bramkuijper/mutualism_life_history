@@ -229,7 +229,8 @@ void IBM_Mutualism::calculate_help()
 
 
                     *partners_iter.first = Individual(*partners_iter.first 
-                        ,std::vector<double> {received_fec_h, received_surv_h});
+                        ,std::pair<double, double> {received_fec_h, received_surv_h});
+
                 } // end partners
             } // end species
         } // end patch 
@@ -275,7 +276,7 @@ void IBM_Mutualism::reproduce()
     int n_events[2] = {0,0};
 
     // split streams for partner choice vs non partner choice
-    if (par.partner_mechanism == 0) // non partner choice using help from entire patch
+    if (par.partner_mechanism == 0) // no partner choice using help from entire patch
     {
         // go through all patches and calculate help of the two species
 	    // then use this to reproduce
@@ -401,13 +402,17 @@ void IBM_Mutualism::reproduce()
                     ++individual_iter)
                 {
 
-                    fecundity_cost_of_help = (par.fecundity_cost_of_fec_help[species_idx] * 
-                            (individual_iter->fec_h[0] + individual_iter->fec_h[1])) +
-                            (par.fecundity_cost_of_surv_help[species_idx] *
-                            (individual_iter->surv_h[0] + individual_iter->surv_h[1]));
+                    fecundity_cost_of_help =
+                        par.fecundity_cost_of_fec_help[species_idx] * (
+                                individual_iter->fec_h[0] +
+                                individual_iter->fec_h[1])
+                        +
+                        par.fecundity_cost_of_surv_help[species_idx] * (
+                                individual_iter->surv_h[0] +
+                                individual_iter->surv_h[1]);
 
                     fecundity_help_per_individual = individual_iter->rec_fec_h;
-
+                    std::cout << individual_iter->rec_fec_h; // TODO: check
                     fecundity = par.baseline_fecundity[species_idx] +
                         fecundity_help_per_individual -
                         fecundity_cost_of_help;
@@ -418,6 +423,8 @@ void IBM_Mutualism::reproduce()
                     //
                     // first we take the lowest integer in fecundity
                     fecundity_i = floor(fecundity);
+
+                    std::cout << fecundity_i; // TODO: check
 
                     // then we draw a random number and compare it against the remainder
                     // hence if fecundity is 10.73, one produces 10 offspring with certainty
@@ -1227,6 +1234,7 @@ void IBM_Mutualism::write_parameters()
                 << "mu_d;" << par.mu_disp << std::endl
                 << "sdmu;" << par.sdmu << std::endl
                 << "between_species;" << par.between_species << std::endl
+                << "death_birth;" << par.death_birth << std::endl
                 << "partner_mechanism;" << par.partner_mechanism << std::endl
                 << "fidelity_prob;" << par.fidelity_prob << std::endl
                 << "negotiate_once;" << par.negotiate_once << std::endl

@@ -66,7 +66,7 @@ class Individual
 
         // received help constructor
         Individual(Individual const &other
-                ,std::vector<double> const &new_help_values);
+                ,std::pair<double, double> const &new_help_values);
 
         // assignment operator
         void operator=(Individual const &other);

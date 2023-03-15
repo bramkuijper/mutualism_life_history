@@ -47,11 +47,11 @@ struct Parameters {
     double adjust_prop[2] = {1.0,1.0};
 
     // baseline survival and fecundity for both species
-    double baseline_survival[2]  = {0,0};
+    double baseline_survival[2]  = {0.4,0.4};
     double baseline_fecundity[2] = {0.7,0.7};
 
     // how rapidly survival increases with help
-    double strength_survival[2] = {0.4,0.4};
+    double strength_survival[2] = {0.5,0.5};
 
     // initial help values
     double initial_fec_h[2]  = {0.0,0.0};
