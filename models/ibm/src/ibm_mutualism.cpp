@@ -412,7 +412,7 @@ void IBM_Mutualism::reproduce()
                                 individual_iter->surv_h[1]);
 
                     fecundity_help_per_individual = individual_iter->rec_fec_h;
-                    std::cout << individual_iter->rec_fec_h; // TODO: check
+
                     fecundity = par.baseline_fecundity[species_idx] +
                         fecundity_help_per_individual -
                         fecundity_cost_of_help;
@@ -423,8 +423,6 @@ void IBM_Mutualism::reproduce()
                     //
                     // first we take the lowest integer in fecundity
                     fecundity_i = floor(fecundity);
-
-                    std::cout << fecundity_i; // TODO: check
 
                     // then we draw a random number and compare it against the remainder
                     // hence if fecundity is 10.73, one produces 10 offspring with certainty
@@ -762,21 +760,19 @@ void IBM_Mutualism::survive_otherwise_replace()
                     survival_cost_of_help = 
                         par.survival_cost_of_fec_help[species_idx] * (
                             individual_iter->fec_h[0] +
-                            individual_iter->fec_h[1]
-                        ) +
+                            individual_iter->fec_h[1]) 
+                        +
                         par.survival_cost_of_surv_help[species_idx] * (
                             individual_iter->surv_h[0] +
-                            individual_iter->surv_h[1]
-                        );
+                            individual_iter->surv_h[1]);
                     
                     // calculate survival probability
-                    p_survive = par.baseline_survival[species_idx] + (
-                        1.0 - par.baseline_survival[species_idx] * (
-                            1.0 - exp(-par.strength_survival[species_idx] * (
+                    p_survive = par.baseline_survival[species_idx] +
+                        (1.0 - par.baseline_survival[species_idx]) 
+                            * (1.0 - exp(-par.strength_survival[species_idx] * (
                                 individual_iter->rec_surv_h
-                            ))
-                        )
-                    );
+                                -survival_cost_of_help))
+                            );
 
                     mean_surv_prob[species_idx] += p_survive;
                     ++n_events[species_idx];
