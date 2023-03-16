@@ -144,13 +144,6 @@ void IBM_Mutualism::partner_up()
 
 } // end shuffle_metapop
 
-// sort individuals by perceived quality
-// TODO: Move into partnering function
-// void IBM_Mutualism::sort_individuals()
-// {
-
-// }
-
 // go over the population and calculates help value according to partnering mechanism
 void IBM_Mutualism::calculate_help()
 {
@@ -200,35 +193,6 @@ void IBM_Mutualism::calculate_help()
                     // help received from partners
                     received_fec_h = partners_iter.second->fec_h[0] + partners_iter.second->fec_h[1];
                     received_surv_h = partners_iter.second->surv_h[0] + partners_iter.second->surv_h[1];
-
-                    // // costs of helping partners
-                    // fecundity_cost_of_help =
-                    //     par.fecundity_cost_of_fec_help[species_idx] * (
-                    //             partners_iter.first->fec_h[0] +
-                    //             partners_iter.first->fec_h[1])
-                    //     +
-                    //     par.fecundity_cost_of_surv_help[species_idx] * (
-                    //             partners_iter.first->surv_h[0] +
-                    //             partners_iter.first->surv_h[1]);
-
-                    // survival_cost_of_help =
-                    //     par.survival_cost_of_fec_help[species_idx] * (
-                    //             partners_iter.first->fec_h[0] +
-                    //             partners_iter.first->fec_h[1])
-                    //     +
-                    //     par.survival_cost_of_surv_help[species_idx] * (
-                    //             partners_iter.first->surv_h[0] +
-                    //             partners_iter.first->surv_h[1]);
-
-                    // // final fecundity and survival values
-                    // fecundity = par.baseline_fecundity[species_idx]
-                    //     + received_fec_h
-                    //     - fecundity_cost_of_help;
-
-                    // survival = par.baseline_survival[species_idx]
-                    //     + received_surv_h
-                    //     - survival_cost_of_help;
-
 
                     *partners_iter.first = Individual(*partners_iter.first 
                         ,std::pair<double, double> {received_fec_h, received_surv_h});

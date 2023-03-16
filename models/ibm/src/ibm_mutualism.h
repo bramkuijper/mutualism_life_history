@@ -63,7 +63,6 @@ class IBM_Mutualism
         IBM_Mutualism(const Parameters &params);
 
         void partner_up();
-        // void sort_individuals();
         void calculate_help();
 
         void reproduce();
