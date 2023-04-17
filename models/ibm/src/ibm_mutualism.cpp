@@ -18,6 +18,8 @@ IBM_Mutualism::IBM_Mutualism(Parameters const &params) : // constructors first i
 {
     write_data_headers();
 
+    calculate_survival_weight();
+
     for (time_step = 0; time_step <= par.max_time_steps; ++time_step)
     {
         partner_up();
@@ -30,7 +32,6 @@ IBM_Mutualism::IBM_Mutualism(Parameters const &params) : // constructors first i
         }
         else
         {
-            calculate_survival_weight();
             compete_to_survive();
         }
 
