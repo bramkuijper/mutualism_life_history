@@ -37,7 +37,7 @@ struct Parameters {
     // TODO: partner fidelity for birth-death
     // 3 for partner fidelity and negotiation
     // FIXME: 3 partner fidelity and negotiation
-    int partner_mechanism = 1;
+    int partner_mechanism = 0;
 
     // probability that partners will stay together at the end of each time step
     double fidelity_prob{1.0};
@@ -48,8 +48,8 @@ struct Parameters {
     double adjust_prop[2] = {1.0,1.0};
 
     // baseline survival and fecundity for both species
-    double baseline_survival[2]  = {0.4,0.4};
-    double baseline_fecundity[2] = {0.7,0.7};
+    double baseline_survival[2]  = {0.5,0.5};
+    double baseline_fecundity[2] = {1.0,1.0};
 
     // how rapidly survival increases with help
     double strength_survival[2] = {0.5,0.5};
@@ -59,12 +59,12 @@ struct Parameters {
     double initial_surv_h[2] = {0.0,0.0};
 
     // mortality cost of surv/fec help for both species
-    double survival_cost_of_surv_help[2] = {0.0,0.0};
+    double survival_cost_of_surv_help[2] = {0.2,0.2};
     double survival_cost_of_fec_help[2]  = {0.0,0.0};
 
     // fecundity cost of surv/fec help for both species
     double fecundity_cost_of_surv_help[2] = {0.0,0.0};
-    double fecundity_cost_of_fec_help[2]  = {0.0,0.0};
+    double fecundity_cost_of_fec_help[2]  = {0.2,0.2};
 
     // mutation rates
     double mu_fec_h = 0.0;

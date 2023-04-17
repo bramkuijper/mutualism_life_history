@@ -53,6 +53,8 @@ class IBM_Mutualism
         double patch_occupancy[2] = {0.0,0.0};
         double mean_offspring[2] = {0.0,0.0};
 
+        double juvenile_survival_weight[2] = {0.0,0.0};
+
         int njuveniles[2] = {0,0};
 
     public:
@@ -62,6 +64,7 @@ class IBM_Mutualism
         // the class constructor
         IBM_Mutualism(const Parameters &params);
 
+        void calculate_survival_weight();
         void partner_up();
         void calculate_help();
 
