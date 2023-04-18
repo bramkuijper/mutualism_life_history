@@ -20,6 +20,8 @@ IBM_Mutualism::IBM_Mutualism(Parameters const &params) : // constructors first i
 
     calculate_survival_weight();
 
+    // TODO: make efficient
+
     for (time_step = 0; time_step <= par.max_time_steps; ++time_step)
     {
         partner_up();
