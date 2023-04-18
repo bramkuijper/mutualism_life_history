@@ -19,7 +19,6 @@ IBM_Mutualism::IBM_Mutualism(Parameters const &params) : // constructors first i
     write_data_headers();
 
     calculate_survival_weight();
-    std::cout << "calculated juvenile survival weight: " << juvenile_survival_weight[0] << " and " << juvenile_survival_weight[1] << "\n";
 
     for (time_step = 0; time_step <= par.max_time_steps; ++time_step)
     {
@@ -109,16 +108,6 @@ void IBM_Mutualism::calculate_survival_weight()
             / 
             (par.npp[species_idx] * fecundity[species_idx]));
     }
-
-    std::cout << "survival help per individual:  " << survival_help_per_individual[0] << " and " << survival_help_per_individual[1] << "\n";
-    std::cout << "survival cost of help:         " << survival_cost_of_help[0] << " and " << survival_cost_of_help[1] << "\n";
-    std::cout << "adult survival probability:    " << adult_survival_probability[0] << " and " << adult_survival_probability[1] << "\n";
-
-    std::cout << "fecundity help per individual: " << fecundity_help_per_individual[0] << " and " << fecundity_help_per_individual[1] << "\n";
-    std::cout << "fecundity cost of help:        " << fecundity_cost_of_help[0] << " and " << fecundity_cost_of_help[1] << "\n";
-    std::cout << "fecundity:                     " << fecundity[0] << " and " << fecundity[1] << "\n";
-
-    std::cout << "juvenile survival weight:      " << juvenile_survival_weight[0] << " and " << juvenile_survival_weight[1] << "\n";
 } // end juvenile survival weights
 
 // pair individuals according to partnering mechanism

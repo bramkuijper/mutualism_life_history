@@ -53,7 +53,7 @@ class IBM_Mutualism
         double patch_occupancy[2] = {0.0,0.0};
         double mean_offspring[2] = {0.0,0.0};
 
-        double juvenile_survival_weight[2] = {0.0,0.0};
+        double juvenile_survival_weight[2] = {1.0,1.0};
 
         int njuveniles[2] = {0,0};
 
