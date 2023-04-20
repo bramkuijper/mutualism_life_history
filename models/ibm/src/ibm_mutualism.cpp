@@ -2,6 +2,7 @@
 #include <random>
 #include <cassert>
 #include <vector>
+#include <array>
 #include "ibm_mutualism.h"
 #include "parameters.h"
 
@@ -28,7 +29,7 @@ IBM_Mutualism::IBM_Mutualism(Parameters const &params) : // constructors first i
         calculate_help();
         reproduce();
 
-        if(par.death_birth)
+        if (par.death_birth)
         {
             survive_otherwise_replace();
         }
@@ -49,7 +50,6 @@ IBM_Mutualism::IBM_Mutualism(Parameters const &params) : // constructors first i
 } // end IBM_Mutualism
 
 // calculate juvenile survival weight for birth-death updating
-// TODO: record juvenile survival weight
 void IBM_Mutualism::calculate_survival_weight()
 {
     int friend_species;
@@ -931,13 +931,18 @@ void IBM_Mutualism::compete_to_survive()
     // auxillary variables
     int friend_species;                             // vector index of interacting species
     double survival_help_per_individual;            // survival help value
-    double p_survive;                               //survival prob
+    double p_survive;                               // survival prob
     double survival_cost_of_help;                   // survival cost value
     int juvenile_origin_patch;                      // patch of origin of juveniles (in case 0 juveniles in patch)
+    std::vector<int> survivor_idx;                  // to store survivor indices
+    // alternative methods for survivor idx that I don't want to discard yet
+    // std::array<int, par.npp[species_idx]> survivor_idx;
+    // int survivor_idx[par.npp[species_idx]];
+
     
     std::vector <double> survival_weights;          // vector of sampling probabilities of both adults and juveniles
-    std::vector<Individual> surviving_adults;       // vector of indices of surviving adults
-    std::vector<Individual> surviving_juveniles;    // vector of indices of surviving juveniles
+    // std::vector<Individual> surviving_adults;       // vector of surviving adults
+    std::vector<Individual> surviving_juveniles;    // vector of surviving juveniles
     // TODO: check auxillary variables
 
     // reset data members for stats
@@ -947,6 +952,8 @@ void IBM_Mutualism::compete_to_survive()
         mean_surv_help_per_individual[species_idx]  = 0.0;
         nsurvivors[species_idx]                     = 0;
         patch_occupancy[species_idx]                = 0.0;
+        mean_adult_survival_weight[species_idx]     = 0.0;
+        mean_juvenile_survival_weight[species_idx]  = 0.0;
 
         // no juveniles to replace adults
         // consider population to be extinct
@@ -960,6 +967,7 @@ void IBM_Mutualism::compete_to_survive()
     
     // array with population sizes used to calculate means
     int n_events[2] = {0,0};
+    int n_babies[2] = {0,0};
 
     // split streams for partner choice/non partner choice
     if (par.partner_mechanism == 0) // no partnering mechanism
@@ -1033,7 +1041,7 @@ void IBM_Mutualism::compete_to_survive()
 
                     survival_weights.push_back(p_survive);
 
-                    mean_surv_prob[species_idx] += p_survive; //TODO: add realised survival probability to outputs
+                    mean_adult_survival_weight[species_idx] += p_survive; //TESTME: add realised survival probability to outputs
                     ++n_events[species_idx];
 
                 } // individual adult
@@ -1042,41 +1050,45 @@ void IBM_Mutualism::compete_to_survive()
                 for (int ind_idx = 0; ind_idx < metapop[juvenile_origin_patch].juveniles[species_idx].size(); ++ind_idx)
                 {
                     survival_weights.push_back(juvenile_survival_weight[species_idx]);
+                    mean_juvenile_survival_weight[species_idx] += juvenile_survival_weight[species_idx];
+                    ++n_babies[species_idx];
                 } // individual juvenile
 
                 // sample weighted distribution without replacement to get surviving individuals
-                // TODO: record realised survival probability (not just baseline survival plus gift)
                 for (int site_idx = 0; site_idx < par.npp[species_idx]; ++site_idx)
                 {
                     // sampling distribution using weights from baseline survival and help values
                     std::discrete_distribution<int> weighted_distribution(survival_weights.begin(), survival_weights.end());
-                    int survivor_idx = weighted_distribution(rng_r);
-                    survival_weights[survivor_idx] = 0.0;
+                    survivor_idx.push_back(weighted_distribution(rng_r));
+                    survival_weights[survivor_idx[site_idx]] = 0.0;
 
                     // store survivors
-                    if (survivor_idx < par.npp[species_idx]){
-                        surviving_adults.push_back(metapop[patch_idx].breeders[species_idx][survivor_idx]);
+                    if (survivor_idx[site_idx] < par.npp[species_idx]){
+                        // surviving_adults.push_back(metapop[patch_idx].breeders[species_idx][survivor_idx[site_idx]]);
                         ++nsurvivors[species_idx];
                     }
                     else
                     {
-                        surviving_juveniles.push_back(metapop[juvenile_origin_patch].juveniles[species_idx][survivor_idx - par.npp[species_idx]]);
+                        surviving_juveniles.push_back(metapop[juvenile_origin_patch].juveniles[species_idx][survivor_idx[site_idx] - par.npp[species_idx]]);
                     }
 
                 } // site
 
                 // juveniles become adults
-                surviving_adults.insert(surviving_adults.end(), surviving_juveniles.begin(), surviving_juveniles.end());
-
-                // overwrite existing adults with survivors 
+                // following method maintains position in patch which is necessary for fidelity
                 for (int site_idx = 0; site_idx < par.npp[species_idx]; ++site_idx)
                 {
-                    metapop[patch_idx].breeders[species_idx][site_idx] = surviving_adults[site_idx];
-                }
+                    if (std::none_of(survivor_idx.begin(), survivor_idx.end(), [site_idx](int a){return a == site_idx;}))
+                    {
+                        metapop[patch_idx].breeders[species_idx][site_idx] = surviving_juveniles.back();
+                        surviving_juveniles.pop_back();
+                    } 
+                } // site
 
                 // clear stored survivors and weights
                 // TODO: move to other stats reset?
-                surviving_adults.clear();
+                survivor_idx.clear();
+                // surviving_adults.clear();
                 surviving_juveniles.clear();
                 survival_weights.clear();
 
@@ -1148,7 +1160,7 @@ void IBM_Mutualism::compete_to_survive()
 
                     survival_weights.push_back(p_survive);
 
-                    mean_surv_prob[species_idx] += p_survive; //TODO: add realised survival probability to outputs
+                    mean_adult_survival_weight[species_idx] += p_survive; // TESTME: add realised survival probability to outputs
                     ++n_events[species_idx];
 
                 } // individual adult
@@ -1157,40 +1169,44 @@ void IBM_Mutualism::compete_to_survive()
                 for (int ind_idx = 0; ind_idx < metapop[juvenile_origin_patch].juveniles[species_idx].size(); ++ind_idx)
                 {
                     survival_weights.push_back(juvenile_survival_weight[species_idx]);
+                    mean_juvenile_survival_weight[species_idx] += juvenile_survival_weight[species_idx];
+                    ++n_babies[species_idx];
                 } // individual juvenile
 
+                // TESTME: add juvenile survival to outputs
+
                 // sample weighted distribution without replacement to get surviving individuals
-                // TODO: record realised survival probability (not just baseline survival plus gift)
                 for (int site_idx = 0; site_idx < par.npp[species_idx]; ++site_idx)
                 {
                     // sampling distribution using weights from baseline survival and help values
                     std::discrete_distribution<int> weighted_distribution(survival_weights.begin(), survival_weights.end());
-                    int survivor_idx = weighted_distribution(rng_r);
-                    survival_weights[survivor_idx] = 0.0;
+                    survivor_idx.push_back(weighted_distribution(rng_r));
+                    survival_weights[survivor_idx[site_idx]] = 0.0;
 
                     // store survivors
-                    if (survivor_idx < par.npp[species_idx]){
-                        surviving_adults.push_back(metapop[patch_idx].breeders[species_idx][survivor_idx]);
+                    if (survivor_idx[site_idx] < par.npp[species_idx]){
+                        // surviving_adults.push_back(metapop[patch_idx].breeders[species_idx][survivor_idx[site_idx]]);
                         ++nsurvivors[species_idx];
                     }
                     else
                     {
-                        surviving_juveniles.push_back(metapop[juvenile_origin_patch].juveniles[species_idx][survivor_idx - par.npp[species_idx]]);
+                        surviving_juveniles.push_back(metapop[juvenile_origin_patch].juveniles[species_idx][survivor_idx[site_idx] - par.npp[species_idx]]);
                     }
-
                 } // site
 
-                // juveniles become adults
-                surviving_adults.insert(surviving_adults.end(), surviving_juveniles.begin(), surviving_juveniles.end());
-
-                // overwrite existing adults with survivors 
+                // following method maintains position in patch which is necessary for fidelity
                 for (int site_idx = 0; site_idx < par.npp[species_idx]; ++site_idx)
                 {
-                    metapop[patch_idx].breeders[species_idx][site_idx] = surviving_adults[site_idx];
-                }
+                    if (std::none_of(survivor_idx.begin(), survivor_idx.end(), [site_idx](int a){return a == site_idx;}))
+                    {
+                        metapop[patch_idx].breeders[species_idx][site_idx] = surviving_juveniles.back();
+                        surviving_juveniles.pop_back();
+                    } 
+                } // site
 
                 // clear stored survivors and weights
-                surviving_adults.clear();
+                survivor_idx.clear();
+                // surviving_adults.clear();
                 surviving_juveniles.clear();
                 survival_weights.clear();
 
@@ -1201,7 +1217,15 @@ void IBM_Mutualism::compete_to_survive()
     // final averaging: divide by pop size
     for (int species_idx = 0; species_idx < 2; ++species_idx)
     {
-        mean_surv_prob[species_idx] /= n_events[species_idx];
+        mean_adult_survival_weight[species_idx] /= n_events[species_idx];
+        mean_juvenile_survival_weight[species_idx] /= n_babies[species_idx];
+
+        mean_surv_prob[species_idx] = // TESTME: mean_surv_prob
+            mean_adult_survival_weight[species_idx]
+            /
+            (n_events[species_idx] * mean_adult_survival_weight[species_idx] 
+            + n_babies[species_idx] * mean_juvenile_survival_weight[species_idx]);
+
         mean_surv_help_per_individual[species_idx] /= par.npatches;
         patch_occupancy[species_idx] = n_events[species_idx]/par.npatches;
     }
@@ -1247,7 +1271,10 @@ void IBM_Mutualism::write_parameters()
                     << par.fecundity_cost_of_surv_help[species_idx] << std::endl
 
                 << "fecundity_cost_of_fec_help" << (species_idx + 1) << ";"
-                    << par.fecundity_cost_of_fec_help[species_idx] << std::endl;
+                    << par.fecundity_cost_of_fec_help[species_idx] << std::endl
+
+                << "juvenile_survival_weight" << (species_idx + 1) << ";"
+                    << juvenile_survival_weight[species_idx] << std::endl;
     }
 
     data_file << "mu_fec_h;" << par.mu_fec_h << std::endl
@@ -1287,7 +1314,10 @@ void IBM_Mutualism::write_data_headers()
             << "mean_surv_help_per_ind" << species_idx << ";"
             << "patch_occupancy" << species_idx << ";"
             << "nsurvivors" << species_idx << ";"
-            << "mean_offspring" << species_idx << ";";
+            << "mean_offspring" << species_idx << ";"
+            
+            << "mean_adult_survival_weight" << species_idx << ";"
+            << "mean_juvenile_survival_weight" << species_idx << ";";
     }
 
     data_file << std::endl;
@@ -1404,7 +1434,10 @@ void IBM_Mutualism::write_data()
                     << mean_surv_help_per_individual[species_idx] << ";"
                     << patch_occupancy[species_idx] << ";"
                     << nsurvivors[species_idx] << ";"
-                    << mean_offspring[species_idx] << ";";
+                    << mean_offspring[species_idx] << ";"
+
+                    << mean_adult_survival_weight[species_idx] << ";"
+                    << mean_juvenile_survival_weight[species_idx] << ";";
     } // end for species_idx
 
     data_file << std::endl;

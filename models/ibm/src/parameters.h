@@ -34,10 +34,10 @@ struct Parameters {
     // 0 for no mechanism;
     // 1 for partner choice;
     // 2 for partner fidelity;
-    // TODO: partner fidelity for birth-death
+    // TESTME: partner fidelity for birth-death
     // 3 for partner fidelity and negotiation
-    // FIXME: 3 partner fidelity and negotiation
-    int partner_mechanism = 0;
+    // TODO: 3 partner fidelity and negotiation
+    int partner_mechanism = 2;
 
     // probability that partners will stay together at the end of each time step
     double fidelity_prob{1.0};
@@ -48,8 +48,8 @@ struct Parameters {
     double adjust_prop[2] = {1.0,1.0};
 
     // baseline survival and fecundity for both species
-    double baseline_survival[2]  = {0.3,0.3};
-    double baseline_fecundity[2] = {0.3,0.3};
+    double baseline_survival[2]  = {0.7,0.7};
+    double baseline_fecundity[2] = {1.0,1.0};
 
     // how rapidly survival increases with help
     double strength_survival[2] = {0.7,0.7};

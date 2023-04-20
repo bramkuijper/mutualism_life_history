@@ -144,7 +144,7 @@ Individual::Individual(Individual const &other
 }
 
 // received help constructor
-// FIXME: janky workaround using vector to avoid conflict with other constructor
+// TODO: janky workaround using vector to avoid conflict with other constructor
 Individual::Individual(Individual const &other
                 ,std::pair<double, double> const &new_help_values) :
     fec_h{other.fec_h[0],other.fec_h[1]}

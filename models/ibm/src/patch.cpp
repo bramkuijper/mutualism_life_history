@@ -74,6 +74,7 @@ Patch::Patch(Patch const &other, Parameters const &params, std::mt19937 &rng) :
             }
 
 // TODO: friend species
+// can't remember what this todo was
             friend_species = !focal_species;
 
             Individual::negotiate(breeders[focal_species][ind_idx]
