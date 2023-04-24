@@ -34,7 +34,6 @@ struct Parameters {
     // 0 for no mechanism;
     // 1 for partner choice;
     // 2 for partner fidelity;
-    // TESTME: partner fidelity for birth-death
     // 3 for partner fidelity and negotiation
     // TODO: 3 partner fidelity and negotiation
     int partner_mechanism = 2;
