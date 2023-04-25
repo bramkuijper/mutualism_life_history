@@ -28,7 +28,7 @@ struct Parameters {
     bool death_birth = true;
 
     // toggle within vs between species help
-    bool between_species = true;
+    bool between_species = false;
 
     // select partnering mechanism
     // 0 for no mechanism;
@@ -36,7 +36,7 @@ struct Parameters {
     // 2 for partner fidelity;
     // 3 for partner fidelity and negotiation
     // TODO: 3 partner fidelity and negotiation
-    int partner_mechanism = 2;
+    int partner_mechanism = 0;
 
     // probability that partners will stay together at the end of each time step
     double fidelity_prob{1.0};
@@ -51,7 +51,7 @@ struct Parameters {
     double baseline_fecundity[2] = {1.0,1.0};
 
     // how rapidly survival increases with help
-    double strength_survival[2] = {0.7,0.7};
+    double strength_survival[2] = {0.3,0.3};
 
     // initial help values
     double initial_fec_h[2]  = {0.0,0.0};
