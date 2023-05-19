@@ -244,6 +244,6 @@ bool Individual::compare_survival(Individual const &i1, Individual const &i2)
 bool Individual::compare_total_help(Individual const &i1, Individual const &i2)
 {
     return((i1.prc_fec_h[0] + i1.prc_fec_h[1] + i1.prc_surv_h[0] + i2.prc_surv_h[1]) <
-            (i2.prc_fec_h[0] + i2.prc_fec_h[1] + i1.prc_surv_h[0] + i2.prc_surv_h[1]));
+            (i2.prc_fec_h[0] + i2.prc_fec_h[1] + i2.prc_surv_h[0] + i2.prc_surv_h[1]));
 }
 
