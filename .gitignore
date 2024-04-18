@@ -12,3 +12,4 @@ graph_iter_*
 *.csv
 x*
 file_*
+batch_file.sh
