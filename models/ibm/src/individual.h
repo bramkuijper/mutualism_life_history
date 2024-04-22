@@ -28,9 +28,11 @@ class Individual
         double rec_surv_h = 0.0;
 
         // diploid dispersal locus
+        // TODO: Make dispersal fixed again
         double d[2] = {0.0,0.0};
 
         // allele identity
+        // TODO: get rid of allele id?
         std::string fec_id[2] = {"AAAA","AAAA"};
         std::string surv_id[2] = {"AAAA","AAAA"};
 
@@ -71,6 +73,7 @@ class Individual
         // assignment operator
         void operator=(Individual const &other);
 
+        // TODO: remove negotiation?
         // negotiation
         static void negotiate(Individual &i1
             ,Individual &i2

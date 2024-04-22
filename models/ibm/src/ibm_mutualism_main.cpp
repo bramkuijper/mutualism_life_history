@@ -7,15 +7,21 @@ int main(int argc, char **argv)
     Parameters parms{};
 
     parms.base_name = argv[1];
-
-    parms.npp[0] = atof(argv[2]);
-    parms.npp[1] = atof(argv[2]);
     
-    parms.mu_fec_h = atof(argv[3]);
-    parms.mu_surv_h = atof(argv[4]);
+    parms.mu_fec_h = atof(argv[2]);
+    parms.mu_surv_h = atof(argv[3]);
 
-    parms.initial_d[0] = atof(argv[5]);
-    parms.initial_d[1] = atof(argv[5]);
+    parms.baseline_survival[0] = atof(argv[4]);
+    parms.baseline_survival[1] = atof(argv[4]);
+
+    parms.fecundity_cost_of_fec_help[0] = atof(argv[5]);
+    parms.fecundity_cost_of_fec_help[1] = atof(argv[5]);
+
+    parms.survival_cost_of_surv_help[0] = atof(argv[6]);
+    parms.survival_cost_of_surv_help[1] = atof(argv[6]);
+
+    // parms.initial_d[0] = atof(argv[5]);
+    // parms.initial_d[1] = atof(argv[5]);
 
     // parms.between_species = argv[2] == std::string{"true"};
     // parms.death_birth = argv[3] == std::string{"true"};
