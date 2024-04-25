@@ -400,7 +400,7 @@ void IBM_Mutualism::reproduce()
 
                         // determine patch of destination dependent on dispersal
                         // using C++'s ternary operator
-                        destination_patch = uniform(rng_r) < (individual_iter->d[0] + individual_iter->d[1]) / 2
+                        destination_patch = uniform(rng_r) < par.dispersal_rate[species_idx]
                                                 ?
                                             patch_sampler(rng_r) // disperse, hence remote patch
                                             :
@@ -488,7 +488,7 @@ void IBM_Mutualism::reproduce()
 
                         // determine patch of destination dependent on dispersal
                         // using C++'s ternary operator
-                        destination_patch = uniform(rng_r) < (individual_iter->d[0] + individual_iter->d[1]) / 2
+                        destination_patch = uniform(rng_r) < par.dispersal_rate[species_idx]
                                                 ?
                                             patch_sampler(rng_r) // disperse, hence remote patch
                                             :
@@ -580,7 +580,7 @@ void IBM_Mutualism::reproduce()
 
                         // determine patch of destination dependent on dispersal
                         // using C++'s ternary operator
-                        destination_patch = uniform(rng_r) < (partners_iter.first->d[0] + partners_iter.first->d[1]) / 2
+                        destination_patch = uniform(rng_r) < par.dispersal_rate[species_idx]
                                                 ?
                                             patch_sampler(rng_r) // disperse, hence remote patch
                                             :
@@ -1243,7 +1243,7 @@ void IBM_Mutualism::write_parameters()
     for (int species_idx = 0; species_idx < 2; ++species_idx)
     {
         data_file << "d" << (species_idx + 1) << ";"
-                    << par.initial_d[species_idx] << std::endl
+                    << par.dispersal_rate[species_idx] << std::endl
 
                 << "npp" << (species_idx + 1) << ";"
                     << par.npp[species_idx] << std::endl
@@ -1281,8 +1281,8 @@ void IBM_Mutualism::write_parameters()
 
     data_file << "mu_fec_h;" << par.mu_fec_h << std::endl
                 << "mu_surv_h;" << par.mu_surv_h << std::endl
-                << "mu_d;" << par.mu_disp << std::endl
                 << "sdmu;" << par.sdmu << std::endl
+                << "npatch;" << par.npatches << std::endl
                 << "between_species;" << par.between_species << std::endl
                 << "death_birth;" << par.death_birth << std::endl
                 << "partner_mechanism;" << par.partner_mechanism << std::endl
@@ -1300,13 +1300,11 @@ void IBM_Mutualism::write_data_headers()
     for (int species_idx = 1; species_idx <= 2; ++species_idx)
     {
         data_file
-            << "mean_disp" << species_idx << ";"
             << "mean_fec_h" << species_idx << ";"
             << "mean_surv_h" << species_idx << ";"
             << "mean_given_fec_h" << species_idx << ";"
             << "mean_given_surv_h" << species_idx << ";"
 
-            << "var_disp" << species_idx << ";"
             << "var_fec_h" << species_idx << ";"
             << "var_surv_h" << species_idx << ";"
             << "var_given_fec_h" << species_idx << ";"
@@ -1330,20 +1328,18 @@ void IBM_Mutualism::write_data()
 {
     // store means and sums of squares
     // (latter for variance calculations)
-    double mean_disp[2]         = {0.0,0.0};
     double mean_fec_h[2]        = {0.0,0.0};
     double mean_surv_h[2]       = {0.0,0.0};
     double mean_given_fec_h[2]  = {0.0,0.0};
     double mean_given_surv_h[2] = {0.0,0.0};
 
-    double ss_disp[2]           = {0.0,0.0};
     double ss_fec_h[2]          = {0.0,0.0};
     double ss_surv_h[2]         = {0.0,0.0};
     double ss_given_fec_h[2]    = {0.0,0.0};
     double ss_given_surv_h[2]   = {0.0,0.0};
 
     // aux variables to store trait values
-    double disp,f,s,gf,gs;
+    double f,s,gf,gs;
 
     // array for counts of population sizes
     // (although for now this should be simply metapop.size() * npp[species_idx])
@@ -1361,14 +1357,10 @@ void IBM_Mutualism::write_data()
                     ++individual_iter)
             {
                 // obtain allelic values
-                disp    = (individual_iter->d[0]        + individual_iter->d[1]) / 2;
                 f       = individual_iter->fec_h[0]     + individual_iter->fec_h[1];
                 s       = individual_iter->surv_h[0]    + individual_iter->surv_h[1];
                 gf      = individual_iter->given_fec_h;
                 gs      = individual_iter->given_surv_h;
-
-                mean_disp[species_idx]          += disp;
-		        ss_disp[species_idx]            += disp * disp;
 
                 mean_fec_h[species_idx]         += f;
                 ss_fec_h[species_idx]           += f * f;
@@ -1396,16 +1388,11 @@ void IBM_Mutualism::write_data()
     // calculate means variances of traits for each species
     for (int species_idx = 0; species_idx < 2; ++species_idx)
     {
-        mean_disp[species_idx]          /= n_events[species_idx];
-        mean_fec_h[species_idx]         /= n_events[species_idx];
         mean_surv_h[species_idx]        /= n_events[species_idx];
         mean_given_fec_h[species_idx]   /= n_events[species_idx];
         mean_given_surv_h[species_idx]  /= n_events[species_idx];
 
         // var = E[x^2] - E[x]^2
-        double var_disp = ss_disp[species_idx] / n_events[species_idx] -
-	        mean_disp[species_idx] * mean_disp[species_idx];
-
         double var_fec_h = ss_fec_h[species_idx] / n_events[species_idx] -
             mean_fec_h[species_idx] * mean_fec_h[species_idx];
 
@@ -1419,13 +1406,11 @@ void IBM_Mutualism::write_data()
             mean_given_surv_h[species_idx] * mean_given_surv_h[species_idx];
 
         data_file
-                    << mean_disp[species_idx] << ";"
                     << mean_fec_h[species_idx] << ";"
                     << mean_surv_h[species_idx] << ";"
                     << mean_given_fec_h[species_idx] << ";"
                     << mean_given_surv_h[species_idx] << ";"
 
-                    << var_disp << ";"
                     << var_fec_h << ";"
                     << var_surv_h << ";"
                     << var_given_fec_h << ";"

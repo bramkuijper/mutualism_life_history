@@ -27,11 +27,7 @@ class Individual
         double rec_fec_h = 0.0;
         double rec_surv_h = 0.0;
 
-        // diploid dispersal locus
-        // TODO: Make dispersal fixed again
-        double d[2] = {0.0,0.0};
-
-        // allele identity
+// allele identity
         // TODO: get rid of allele id?
         std::string fec_id[2] = {"AAAA","AAAA"};
         std::string surv_id[2] = {"AAAA","AAAA"};

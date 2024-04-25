@@ -12,8 +12,6 @@ Individual::Individual(Parameters const &params
     ,rec_fec_h{0.0}
     ,rec_surv_h{0.0}
 {
-    d[0] = params.initial_d[species];
-    d[1] = params.initial_d[species];
 
     fec_h[0] = params.initial_fec_h[species];
     fec_h[1] = params.initial_fec_h[species];
@@ -35,7 +33,6 @@ Individual::Individual(Parameters const &params
 Individual::Individual(Individual const &other) :
     fec_h{other.fec_h[0],other.fec_h[1]}
     ,surv_h{other.surv_h[0],other.surv_h[1]}
-    ,d{other.d[0],other.d[1]}
     ,fec_id{other.fec_id[0],other.fec_id[1]}
     ,surv_id{other.surv_id[0],other.surv_id[1]}
     ,prc_fec_h{other.prc_fec_h[0],other.prc_fec_h[1]}
@@ -53,7 +50,6 @@ Individual::Individual(Individual const &parent
                 ,int const species) :
     fec_h{parent.fec_h[0],parent.fec_h[1]}
     ,surv_h{parent.surv_h[0],parent.surv_h[1]}
-    ,d{parent.d[0],parent.d[1]}
     ,fec_id{parent.fec_id[0],parent.fec_id[1]}
     ,surv_id{parent.surv_id[0],parent.surv_id[1]}
     ,prc_fec_h{parent.fec_h[0],parent.fec_h[1]}
@@ -86,13 +82,6 @@ Individual::Individual(Individual const &parent
             surv_h[allele_idx] = surv_h[allele_idx] + normal(rng);
 
         }
-        if (params.d_evolves[species])
-        {
-            if (uniform(rng) < params.mu_disp)
-            {
-                d[allele_idx] = d[allele_idx] + normal(rng);
-            }
-        }
 
     } // end for (int allele_idx = 0; allele_idx < 2; ++allele_idx)
 } // end parent constructor
@@ -103,7 +92,6 @@ Individual::Individual(Individual const &other
                 ,Parameters const &params) :
     fec_h{other.fec_h[0],other.fec_h[1]}
     ,surv_h{other.surv_h[0],other.surv_h[1]}
-    ,d{other.d[0],other.d[1]}
     ,fec_id{other.fec_id[0],other.fec_id[1]}
     ,surv_id{other.surv_id[0],other.surv_id[1]}
     ,prc_fec_h{other.prc_fec_h[0],other.prc_fec_h[1]}
@@ -129,7 +117,6 @@ Individual::Individual(Individual const &other
                 ,double const &new_given_surv_h) :
     fec_h{other.fec_h[0],other.fec_h[1]}
     ,surv_h{other.surv_h[0],other.surv_h[1]}
-    ,d{other.d[0],other.d[1]}
     ,fec_id{other.fec_id[0],other.fec_id[1]}
     ,surv_id{other.surv_id[0],other.surv_id[1]}
     ,prc_fec_h{other.prc_fec_h[0],other.prc_fec_h[1]}
@@ -149,7 +136,6 @@ Individual::Individual(Individual const &other
                 ,std::pair<double, double> const &new_help_values) :
     fec_h{other.fec_h[0],other.fec_h[1]}
     ,surv_h{other.surv_h[0],other.surv_h[1]}
-    ,d{other.d[0],other.d[1]}
     ,fec_id{other.fec_id[0],other.fec_id[1]}
     ,surv_id{other.surv_id[0],other.surv_id[1]}
     ,prc_fec_h{other.prc_fec_h[0],other.prc_fec_h[1]}
@@ -172,7 +158,6 @@ void Individual::operator=(Individual const &other)
     {
         fec_h[allele_idx] = other.fec_h[allele_idx];
         surv_h[allele_idx] = other.surv_h[allele_idx];
-        d[allele_idx] = other.d[allele_idx];
         fec_id[allele_idx] = other.fec_id[allele_idx];
         surv_id[allele_idx] = other.surv_id[allele_idx];
         prc_fec_h[allele_idx] = other.prc_fec_h[allele_idx];

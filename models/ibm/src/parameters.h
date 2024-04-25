@@ -7,8 +7,7 @@
 // function arguments:
 // https://stackoverflow.com/questions/58859201/why-pass-structure-to-function-instead-of-separate-parameters
 struct Parameters {
-    bool d_evolves[2] = {false,false};
-    double initial_d[2] = {0.15,0.15}; // dispersal rates of species 1 and 2
+    double dispersal_rate[2] = {0.15,0.15}; // dispersal rates of species 1 and 2
     int max_time_steps{50000}; // number of generations the simulation is supposed to last
     unsigned int npatches{250}; // number of patches
 
@@ -68,7 +67,6 @@ struct Parameters {
     // mutation rates
     double mu_fec_h = 0.0;
     double mu_surv_h = 0.0;
-    double mu_disp = 0.0;
     double sdmu = 0.01;
 
     // rank error in partner choice (standard deviation)
