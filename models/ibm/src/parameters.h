@@ -58,16 +58,16 @@ struct Parameters {
     double initial_surv_h[2] = {0.0,0.0};
 
     // mortality cost of surv/fec help for both species
-    double survival_cost_of_surv_help[2] = {0.2,0.2};
+    double survival_cost_of_surv_help[2] = {0.0,0.0};
     double survival_cost_of_fec_help[2]  = {0.0,0.0};
 
     // fecundity cost of surv/fec help for both species
     double fecundity_cost_of_surv_help[2] = {0.0,0.0};
-    double fecundity_cost_of_fec_help[2]  = {0.2,0.2};
+    double fecundity_cost_of_fec_help[2]  = {0.0,0.0};
 
     // mutation rates
     double mu_fec_h = 0.0;
-    double mu_surv_h = 0.01;
+    double mu_surv_h = 0.0;
     double mu_disp = 0.0;
     double sdmu = 0.01;
 
