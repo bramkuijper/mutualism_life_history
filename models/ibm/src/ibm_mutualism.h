@@ -67,12 +67,20 @@ class IBM_Mutualism
         IBM_Mutualism(const Parameters &params);
 
         void calculate_survival_weight();
-        void partner_up();
-        void calculate_help();
+        void partner_choice();
+        void partner_fidelity();
 
-        void reproduce();
-        void survive_otherwise_replace();
-        void compete_to_survive();
+        void calculate_help_0();
+        void calculate_help_12();
+
+        void reproduce_0();
+        void reproduce_12();
+
+        void survive_otherwise_replace_0();
+        void survive_otherwise_replace_12();
+
+        void compete_to_survive_0();
+        void compete_to_survive_12();
 
         void write_parameters();
         void write_data();
