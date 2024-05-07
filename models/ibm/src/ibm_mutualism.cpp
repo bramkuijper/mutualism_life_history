@@ -182,7 +182,7 @@ void IBM_Mutualism::calculate_survival_weight()
                         (1.0 - par.baseline_survival[species_idx])
                              * (1.0 - exp(-par.strength_survival[species_idx] * (
                         survival_help_per_individual[species_idx]
-                        - std::abs(survival_cost_of_help[species_idx]))) 
+                        - survival_cost_of_help[species_idx])) 
                         );
 
         // fecundity bits
@@ -197,7 +197,7 @@ void IBM_Mutualism::calculate_survival_weight()
 
         // fecundity[species_idx] = par.baseline_fecundity[species_idx]
         //                 + fecundity_help_per_individual[species_idx]
-        //                 - std::abs(fecundity_cost_of_help[species_idx]);
+        //                 - fecundity_cost_of_help[species_idx];
 
         // juvenile_survival_weight[species_idx] = 
         //     (1 - (par.npp[species_idx] * adult_survival_probability[species_idx]) 
@@ -470,7 +470,7 @@ void IBM_Mutualism::reproduce_0()
                 // calculate fecundity 
                 fecundity = par.baseline_fecundity[species_idx]
                     + fecundity_help_per_individual
-                    - std::abs(fecundity_cost_of_help);
+                    - fecundity_cost_of_help;
 
                 // now translate fecundity into births
                 // as fecundity is necessarily discrete (0, 1, 2, .., n offspring)
@@ -602,7 +602,7 @@ void IBM_Mutualism::reproduce_12()
 
                 fecundity = par.baseline_fecundity[species_idx] +
                     fecundity_help_per_individual -
-                    std::abs(fecundity_cost_of_help);
+                    fecundity_cost_of_help;
 
                 // now translate fecundity into births
                 // as fecundity is necessarily discrete (0, 1, 2, .., n offspring)
@@ -776,7 +776,7 @@ void IBM_Mutualism::survive_otherwise_replace_0()
                     (1.0 - par.baseline_survival[species_idx])
                             * (1.0 - exp(-par.strength_survival[species_idx] * (
                     survival_help_per_individual
-                    - std::abs(survival_cost_of_help)))
+                    - survival_cost_of_help))
                         );
 
                 mean_surv_prob[species_idx] += p_survive;
@@ -906,7 +906,7 @@ void IBM_Mutualism::survive_otherwise_replace_12()
                     (1.0 - par.baseline_survival[species_idx]) 
                         * (1.0 - exp(-par.strength_survival[species_idx] * (
                             individual_iter->rec_surv_h
-                            - std::abs(survival_cost_of_help)))
+                            - survival_cost_of_help))
                         );
 
                 mean_surv_prob[species_idx] += p_survive;
@@ -1054,7 +1054,7 @@ void IBM_Mutualism::compete_to_survive_0()
                     (1.0 - par.baseline_survival[species_idx])
                             * (1.0 - exp(-par.strength_survival[species_idx] * (
                     survival_help_per_individual
-                    - std::abs(survival_cost_of_help)))
+                    - survival_cost_of_help))
                     );
 
                 survival_weights.push_back(p_survive);
@@ -1232,7 +1232,7 @@ void IBM_Mutualism::compete_to_survive_12()
                     (1.0 - par.baseline_survival[species_idx])
                             * (1.0 - exp(-par.strength_survival[species_idx] * (
                     individual_iter->rec_surv_h
-                    - std::abs(survival_cost_of_help)))
+                    - survival_cost_of_help))
                     );
 
                 survival_weights.push_back(p_survive);
