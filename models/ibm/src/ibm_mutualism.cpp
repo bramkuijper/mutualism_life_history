@@ -148,10 +148,14 @@ void IBM_Mutualism::calculate_survival_weight()
 
     for (int species_idx = 0; species_idx < 2; ++species_idx)
     {
+        if (par.baseline_survival[species_idx] != 0)
+        {
         juvenile_survival_weight[species_idx] = 
             (par.baseline_survival[species_idx] * par.npp[species_idx]) 
             / 
             (par.juvenile_baseline_survival[species_idx] * par.baseline_fecundity[species_idx]);
+        std::cout << juvenile_survival_weight[species_idx] << "\n";
+        }
     }
 } // end calculate_survival_weight
 
