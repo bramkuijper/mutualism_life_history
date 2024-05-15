@@ -1,130 +1,82 @@
 # this is a nifty batch file to run multiple simulations sequentially
-# mu_f, baseline_survival, f_cost_f_help
+# mu_f, baseline_survival, f_cost_f_help, juv_surv_weight
 
-# survival 0.4
+# survival 0.0, cost 1
+./build/MutualismIBM file_set_intergen_00_100_02_f_1 0.01  0.0  1.00  0.2  &
+./build/MutualismIBM file_set_intergen_00_100_02_f_2 0.01  0.0  1.00  0.2  &
+./build/MutualismIBM file_set_intergen_00_100_02_f_3 0.01  0.0  1.00  0.2  &
+./build/MutualismIBM file_set_intergen_00_100_02_f_4 0.01  0.0  1.00  0.2  &
 
-./build/MutualismIBM file_set_intergen_04_100_f_1 0.01  0.4  1.00  &
-./build/MutualismIBM file_set_intergen_04_100_f_2 0.01  0.4  1.00  &
-./build/MutualismIBM file_set_intergen_04_100_f_3 0.01  0.4  1.00  &
-./build/MutualismIBM file_set_intergen_04_100_f_4 0.01  0.4  1.00  &
+./build/MutualismIBM file_set_intergen_00_100_04_f_1 0.01  0.0  1.00  0.4  &
+./build/MutualismIBM file_set_intergen_00_100_04_f_2 0.01  0.0  1.00  0.4  &
+./build/MutualismIBM file_set_intergen_00_100_04_f_3 0.01  0.0  1.00  0.4  &
+./build/MutualismIBM file_set_intergen_00_100_04_f_4 0.01  0.0  1.00  0.4  &
 
-./build/MutualismIBM file_set_intergen_04_050_f_1 0.01  0.4  0.50  &
-./build/MutualismIBM file_set_intergen_04_050_f_2 0.01  0.4  0.50  &
-./build/MutualismIBM file_set_intergen_04_050_f_3 0.01  0.4  0.50  &
-./build/MutualismIBM file_set_intergen_04_050_f_4 0.01  0.4  0.50  
+./build/MutualismIBM file_set_intergen_00_100_06_f_1 0.01  0.0  1.00  0.6  &
+./build/MutualismIBM file_set_intergen_00_100_06_f_2 0.01  0.0  1.00  0.6  &
+./build/MutualismIBM file_set_intergen_00_100_06_f_3 0.01  0.0  1.00  0.6  &
+./build/MutualismIBM file_set_intergen_00_100_06_f_4 0.01  0.0  1.00  0.6  &
 
-./build/MutualismIBM file_set_intergen_04_025_f_1 0.01  0.4  0.25  &
-./build/MutualismIBM file_set_intergen_04_025_f_2 0.01  0.4  0.25  &
-./build/MutualismIBM file_set_intergen_04_025_f_3 0.01  0.4  0.25  &
-./build/MutualismIBM file_set_intergen_04_025_f_4 0.01  0.4  0.25  &
+./build/MutualismIBM file_set_intergen_00_100_08_f_1 0.01  0.0  1.00  0.8  &
+./build/MutualismIBM file_set_intergen_00_100_08_f_2 0.01  0.0  1.00  0.8  &
+./build/MutualismIBM file_set_intergen_00_100_08_f_3 0.01  0.0  1.00  0.8  &
+./build/MutualismIBM file_set_intergen_00_100_08_f_4 0.01  0.0  1.00  0.8  &
 
-./build/MutualismIBM file_set_intergen_04_167_f_1 0.01  0.4  0.167 &
-./build/MutualismIBM file_set_intergen_04_167_f_2 0.01  0.4  0.167 &
-./build/MutualismIBM file_set_intergen_04_167_f_3 0.01  0.4  0.167 &
-./build/MutualismIBM file_set_intergen_04_167_f_4 0.01  0.4  0.167
-
-./build/MutualismIBM file_set_intergen_04_125_f_1 0.01  0.4  0.125 &
-./build/MutualismIBM file_set_intergen_04_125_f_2 0.01  0.4  0.125 &
-./build/MutualismIBM file_set_intergen_04_125_f_3 0.01  0.4  0.125 &
-./build/MutualismIBM file_set_intergen_04_125_f_4 0.01  0.4  0.125 &
-
-./build/MutualismIBM file_set_intergen_04_010_f_1 0.01  0.4  0.10  &
-./build/MutualismIBM file_set_intergen_04_010_f_2 0.01  0.4  0.10  &
-./build/MutualismIBM file_set_intergen_04_010_f_3 0.01  0.4  0.10  &
-./build/MutualismIBM file_set_intergen_04_010_f_4 0.01  0.4  0.10 
-
-./build/MutualismIBM file_set_intergen_04_008_f_1 0.01  0.4  0.08  &
-./build/MutualismIBM file_set_intergen_04_008_f_2 0.01  0.4  0.08  &
-./build/MutualismIBM file_set_intergen_04_008_f_3 0.01  0.4  0.08  &
-./build/MutualismIBM file_set_intergen_04_008_f_4 0.01  0.4  0.08  &
-
-./build/MutualismIBM file_set_intergen_04_007_f_1 0.01  0.4  0.07  &
-./build/MutualismIBM file_set_intergen_04_007_f_2 0.01  0.4  0.07  &
-./build/MutualismIBM file_set_intergen_04_007_f_3 0.01  0.4  0.07  &
-./build/MutualismIBM file_set_intergen_04_007_f_4 0.01  0.4  0.07 
+./build/MutualismIBM file_set_intergen_00_100_10_f_1 0.01  0.0  1.00  1.0  &
+./build/MutualismIBM file_set_intergen_00_100_10_f_2 0.01  0.0  1.00  1.0  &
+./build/MutualismIBM file_set_intergen_00_100_10_f_3 0.01  0.0  1.00  1.0  &
+./build/MutualismIBM file_set_intergen_00_100_10_f_4 0.01  0.0  1.00  1.0  &
 
 
-# survival 0.5
+# survival 0.0, cost 0.2
+./build/MutualismIBM file_set_intergen_00_020_02_f_1 0.01  0.0  0.20  0.2  &
+./build/MutualismIBM file_set_intergen_00_020_02_f_2 0.01  0.0  0.20  0.2  &
+./build/MutualismIBM file_set_intergen_00_020_02_f_3 0.01  0.0  0.20  0.2  &
+./build/MutualismIBM file_set_intergen_00_020_02_f_4 0.01  0.0  0.20  0.2  &
 
-./build/MutualismIBM file_set_intergen_05_100_f_1 0.01  0.5  1.00  &
-./build/MutualismIBM file_set_intergen_05_100_f_2 0.01  0.5  1.00  &
-./build/MutualismIBM file_set_intergen_05_100_f_3 0.01  0.5  1.00  &
-./build/MutualismIBM file_set_intergen_05_100_f_4 0.01  0.5  1.00  &
+./build/MutualismIBM file_set_intergen_00_020_04_f_1 0.01  0.0  0.20  0.4  &
+./build/MutualismIBM file_set_intergen_00_020_04_f_2 0.01  0.0  0.20  0.4  &
+./build/MutualismIBM file_set_intergen_00_020_04_f_3 0.01  0.0  0.20  0.4  &
+./build/MutualismIBM file_set_intergen_00_020_04_f_4 0.01  0.0  0.20  0.4  &
 
-./build/MutualismIBM file_set_intergen_05_050_f_1 0.01  0.5  0.50  &
-./build/MutualismIBM file_set_intergen_05_050_f_2 0.01  0.5  0.50  &
-./build/MutualismIBM file_set_intergen_05_050_f_3 0.01  0.5  0.50  &
-./build/MutualismIBM file_set_intergen_05_050_f_4 0.01  0.5  0.50 
+./build/MutualismIBM file_set_intergen_00_020_06_f_1 0.01  0.0  0.20  0.6  &
+./build/MutualismIBM file_set_intergen_00_020_06_f_2 0.01  0.0  0.20  0.6  &
+./build/MutualismIBM file_set_intergen_00_020_06_f_3 0.01  0.0  0.20  0.6  &
+./build/MutualismIBM file_set_intergen_00_020_06_f_4 0.01  0.0  0.20  0.6  &
 
-./build/MutualismIBM file_set_intergen_05_025_f_1 0.01  0.5  0.25  &
-./build/MutualismIBM file_set_intergen_05_025_f_2 0.01  0.5  0.25  &
-./build/MutualismIBM file_set_intergen_05_025_f_3 0.01  0.5  0.25  &
-./build/MutualismIBM file_set_intergen_05_025_f_4 0.01  0.5  0.25  &
+./build/MutualismIBM file_set_intergen_00_020_08_f_1 0.01  0.0  0.20  0.8  &
+./build/MutualismIBM file_set_intergen_00_020_08_f_2 0.01  0.0  0.20  0.8  &
+./build/MutualismIBM file_set_intergen_00_020_08_f_3 0.01  0.0  0.20  0.8  &
+./build/MutualismIBM file_set_intergen_00_020_08_f_4 0.01  0.0  0.20  0.8  &
 
-./build/MutualismIBM file_set_intergen_05_167_f_1 0.01  0.5  0.167 &
-./build/MutualismIBM file_set_intergen_05_167_f_2 0.01  0.5  0.167 &
-./build/MutualismIBM file_set_intergen_05_167_f_3 0.01  0.5  0.167 &
-./build/MutualismIBM file_set_intergen_05_167_f_4 0.01  0.5  0.167
+./build/MutualismIBM file_set_intergen_00_020_10_f_1 0.01  0.0  0.20  1.0  &
+./build/MutualismIBM file_set_intergen_00_020_10_f_2 0.01  0.0  0.20  1.0  &
+./build/MutualismIBM file_set_intergen_00_020_10_f_3 0.01  0.0  0.20  1.0  &
+./build/MutualismIBM file_set_intergen_00_020_10_f_4 0.01  0.0  0.20  1.0  &
 
-./build/MutualismIBM file_set_intergen_05_125_f_1 0.01  0.5  0.125 &
-./build/MutualismIBM file_set_intergen_05_125_f_2 0.01  0.5  0.125 &
-./build/MutualismIBM file_set_intergen_05_125_f_3 0.01  0.5  0.125 &
-./build/MutualismIBM file_set_intergen_05_125_f_4 0.01  0.5  0.125 &
 
-./build/MutualismIBM file_set_intergen_05_010_f_1 0.01  0.5  0.10  &
-./build/MutualismIBM file_set_intergen_05_010_f_2 0.01  0.5  0.10  &
-./build/MutualismIBM file_set_intergen_05_010_f_3 0.01  0.5  0.10  &
-./build/MutualismIBM file_set_intergen_05_010_f_4 0.01  0.5  0.10 
+# survival 0.0, cost 0.1
+./build/MutualismIBM file_set_intergen_00_010_02_f_1 0.01  0.0  0.10  0.2  &
+./build/MutualismIBM file_set_intergen_00_010_02_f_2 0.01  0.0  0.10  0.2  &
+./build/MutualismIBM file_set_intergen_00_010_02_f_3 0.01  0.0  0.10  0.2  &
+./build/MutualismIBM file_set_intergen_00_010_02_f_4 0.01  0.0  0.10  0.2  &
 
-./build/MutualismIBM file_set_intergen_05_008_f_1 0.01  0.5  0.08  &
-./build/MutualismIBM file_set_intergen_05_008_f_2 0.01  0.5  0.08  &
-./build/MutualismIBM file_set_intergen_05_008_f_3 0.01  0.5  0.08  &
-./build/MutualismIBM file_set_intergen_05_008_f_4 0.01  0.5  0.08  &
+./build/MutualismIBM file_set_intergen_00_010_04_f_1 0.01  0.0  0.10  0.4  &
+./build/MutualismIBM file_set_intergen_00_010_04_f_2 0.01  0.0  0.10  0.4  &
+./build/MutualismIBM file_set_intergen_00_010_04_f_3 0.01  0.0  0.10  0.4  &
+./build/MutualismIBM file_set_intergen_00_010_04_f_4 0.01  0.0  0.10  0.4  &
 
-./build/MutualismIBM file_set_intergen_05_007_f_1 0.01  0.5  0.07  &
-./build/MutualismIBM file_set_intergen_05_007_f_2 0.01  0.5  0.07  &
-./build/MutualismIBM file_set_intergen_05_007_f_3 0.01  0.5  0.07  &
-./build/MutualismIBM file_set_intergen_05_007_f_4 0.01  0.5  0.07 
+./build/MutualismIBM file_set_intergen_00_010_06_f_1 0.01  0.0  0.10  0.6  &
+./build/MutualismIBM file_set_intergen_00_010_06_f_2 0.01  0.0  0.10  0.6  &
+./build/MutualismIBM file_set_intergen_00_010_06_f_3 0.01  0.0  0.10  0.6  &
+./build/MutualismIBM file_set_intergen_00_010_06_f_4 0.01  0.0  0.10  0.6  &
 
-# survival 0.6
+./build/MutualismIBM file_set_intergen_00_010_08_f_1 0.01  0.0  0.10  0.8  &
+./build/MutualismIBM file_set_intergen_00_010_08_f_2 0.01  0.0  0.10  0.8  &
+./build/MutualismIBM file_set_intergen_00_010_08_f_3 0.01  0.0  0.10  0.8  &
+./build/MutualismIBM file_set_intergen_00_010_08_f_4 0.01  0.0  0.10  0.8  &
 
-./build/MutualismIBM file_set_intergen_06_100_f_1 0.01  0.6  1.00  &
-./build/MutualismIBM file_set_intergen_06_100_f_2 0.01  0.6  1.00  &
-./build/MutualismIBM file_set_intergen_06_100_f_3 0.01  0.6  1.00  &
-./build/MutualismIBM file_set_intergen_06_100_f_4 0.01  0.6  1.00  &
-
-./build/MutualismIBM file_set_intergen_06_050_f_1 0.01  0.6  0.50  &
-./build/MutualismIBM file_set_intergen_06_050_f_2 0.01  0.6  0.50  &
-./build/MutualismIBM file_set_intergen_06_050_f_3 0.01  0.6  0.50  &
-./build/MutualismIBM file_set_intergen_06_050_f_4 0.01  0.6  0.50 
-
-./build/MutualismIBM file_set_intergen_06_025_f_1 0.01  0.6  0.25  &
-./build/MutualismIBM file_set_intergen_06_025_f_2 0.01  0.6  0.25  &
-./build/MutualismIBM file_set_intergen_06_025_f_3 0.01  0.6  0.25  &
-./build/MutualismIBM file_set_intergen_06_025_f_4 0.01  0.6  0.25  &
-
-./build/MutualismIBM file_set_intergen_06_167_f_1 0.01  0.6  0.167 &
-./build/MutualismIBM file_set_intergen_06_167_f_2 0.01  0.6  0.167 &
-./build/MutualismIBM file_set_intergen_06_167_f_3 0.01  0.6  0.167 &
-./build/MutualismIBM file_set_intergen_06_167_f_4 0.01  0.6  0.167
-
-./build/MutualismIBM file_set_intergen_06_125_f_1 0.01  0.6  0.125 &
-./build/MutualismIBM file_set_intergen_06_125_f_2 0.01  0.6  0.125 &
-./build/MutualismIBM file_set_intergen_06_125_f_3 0.01  0.6  0.125 &
-./build/MutualismIBM file_set_intergen_06_125_f_4 0.01  0.6  0.125 &
-
-./build/MutualismIBM file_set_intergen_06_010_f_1 0.01  0.6  0.10  &
-./build/MutualismIBM file_set_intergen_06_010_f_2 0.01  0.6  0.10  &
-./build/MutualismIBM file_set_intergen_06_010_f_3 0.01  0.6  0.10  &
-./build/MutualismIBM file_set_intergen_06_010_f_4 0.01  0.6  0.10 
-
-./build/MutualismIBM file_set_intergen_06_008_f_1 0.01  0.6  0.08  &
-./build/MutualismIBM file_set_intergen_06_008_f_2 0.01  0.6  0.08  &
-./build/MutualismIBM file_set_intergen_06_008_f_3 0.01  0.6  0.08  &
-./build/MutualismIBM file_set_intergen_06_008_f_4 0.01  0.6  0.08  &
-
-./build/MutualismIBM file_set_intergen_06_007_f_1 0.01  0.6  0.07  &
-./build/MutualismIBM file_set_intergen_06_007_f_2 0.01  0.6  0.07  &
-./build/MutualismIBM file_set_intergen_06_007_f_3 0.01  0.6  0.07  &
-./build/MutualismIBM file_set_intergen_06_007_f_4 0.01  0.6  0.07 
-
+./build/MutualismIBM file_set_intergen_00_010_10_f_1 0.01  0.0  0.10  1.0  &
+./build/MutualismIBM file_set_intergen_00_010_10_f_2 0.01  0.0  0.10  1.0  &
+./build/MutualismIBM file_set_intergen_00_010_10_f_3 0.01  0.0  0.10  1.0  &
+./build/MutualismIBM file_set_intergen_00_010_10_f_4 0.01  0.0  0.10  1.0  &

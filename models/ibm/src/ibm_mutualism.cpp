@@ -142,72 +142,18 @@ IBM_Mutualism::IBM_Mutualism(Parameters const &params) : // constructors first i
 
 } // end IBM_Mutualism
 
-// calculate juvenile survival weight for birth-death updating
-// FIXME: try calculating survival help each timestep
+// calculate survival weight for juveniles
 void IBM_Mutualism::calculate_survival_weight()
 {
-    int friend_species;
-    double survival_cost_of_help[2];
-    double survival_help_per_individual[2];
-    double adult_survival_probability[2];
-    double fecundity_help_per_individual[2];
-    double fecundity_cost_of_help[2];
-    double fecundity[2];
 
     for (int species_idx = 0; species_idx < 2; ++species_idx)
     {
-        // get the opposite index species_idx
-        // to obtain the index of the mutualist
-        // or leave it the same for within species interactions
-        if (par.between_species)
-        {
-            friend_species = !species_idx;
-        }
-        else
-        {
-            friend_species = species_idx;
-        }
-
-        // survival bits
-        survival_help_per_individual[species_idx] = par.initial_surv_h[friend_species] * 2;
-
-        survival_cost_of_help[species_idx] = 
-                par.survival_cost_of_surv_help[species_idx] * 
-                    (par.initial_surv_h[species_idx] * 2) 
-                +
-                par.survival_cost_of_fec_help[species_idx] *
-                    (par.initial_fec_h[species_idx] * 2);
-
-        adult_survival_probability[species_idx] = par.baseline_survival[species_idx] +
-                        (1.0 - par.baseline_survival[species_idx])
-                             * (1.0 - exp(-par.strength_survival[species_idx] * (
-                        survival_help_per_individual[species_idx]
-                        - survival_cost_of_help[species_idx])) 
-                        );
-
-        // fecundity bits
-        // fecundity_help_per_individual[species_idx] = par.initial_fec_h[friend_species] * 2;
-
-        // fecundity_cost_of_help[species_idx] = 
-        //         par.fecundity_cost_of_fec_help[species_idx] *
-        //             (par.initial_fec_h[species_idx] * 2)
-        //         +
-        //         par.fecundity_cost_of_surv_help[species_idx] *
-        //             (par.initial_surv_h[species_idx]);
-
-        // fecundity[species_idx] = par.baseline_fecundity[species_idx]
-        //                 + fecundity_help_per_individual[species_idx]
-        //                 - fecundity_cost_of_help[species_idx];
-
-        // juvenile_survival_weight[species_idx] = 
-        //     (1 - (par.npp[species_idx] * adult_survival_probability[species_idx]) 
-        //     / 
-        //     (par.npp[species_idx] * fecundity[species_idx]));
-
         juvenile_survival_weight[species_idx] = 
-            1 - adult_survival_probability[species_idx];
+            (par.baseline_survival[species_idx] * par.npp[species_idx]) 
+            / 
+            (par.juvenile_baseline_survival[species_idx] * par.baseline_fecundity[species_idx]);
     }
-} // end juvenile survival weights
+} // end calculate_survival_weight
 
 // pair individuals according to partnering mechanism
 void IBM_Mutualism::partner_choice()
@@ -973,7 +919,6 @@ void IBM_Mutualism::compete_to_survive_0()
         nsurvivors[species_idx]                     = 0;
         patch_occupancy[species_idx]                = 0.0;
         mean_adult_survival_weight[species_idx]     = 0.0;
-        mean_juvenile_survival_weight[species_idx]  = 0.0;
 
         // no juveniles to replace adults
         // consider population to be extinct
@@ -1068,7 +1013,6 @@ void IBM_Mutualism::compete_to_survive_0()
             for (int ind_idx = 0; ind_idx < metapop[juvenile_origin_patch].juveniles[species_idx].size(); ++ind_idx)
             {
                 survival_weights.push_back(juvenile_survival_weight[species_idx]);
-                mean_juvenile_survival_weight[species_idx] += juvenile_survival_weight[species_idx];
                 ++n_babies[species_idx];
             } // individual juvenile
 
@@ -1117,13 +1061,12 @@ void IBM_Mutualism::compete_to_survive_0()
     for (int species_idx = 0; species_idx < 2; ++species_idx)
     {
         mean_adult_survival_weight[species_idx] /= n_events[species_idx];
-        mean_juvenile_survival_weight[species_idx] /= n_babies[species_idx];
 
         mean_surv_prob[species_idx] = // TESTME: mean_surv_prob
             mean_adult_survival_weight[species_idx]
             /
             (n_events[species_idx] * mean_adult_survival_weight[species_idx] 
-            + n_babies[species_idx] * mean_juvenile_survival_weight[species_idx]);
+            + n_babies[species_idx] * juvenile_survival_weight[species_idx]);
 
         mean_surv_help_per_individual[species_idx] /= par.npatches;
         patch_occupancy[species_idx] = n_events[species_idx]/par.npatches;
@@ -1158,7 +1101,6 @@ void IBM_Mutualism::compete_to_survive_12()
         nsurvivors[species_idx]                     = 0;
         patch_occupancy[species_idx]                = 0.0;
         mean_adult_survival_weight[species_idx]     = 0.0;
-        mean_juvenile_survival_weight[species_idx]  = 0.0;
 
         // no juveniles to replace adults
         // consider population to be extinct
@@ -1246,7 +1188,6 @@ void IBM_Mutualism::compete_to_survive_12()
             for (int ind_idx = 0; ind_idx < metapop[juvenile_origin_patch].juveniles[species_idx].size(); ++ind_idx)
             {
                 survival_weights.push_back(juvenile_survival_weight[species_idx]);
-                mean_juvenile_survival_weight[species_idx] += juvenile_survival_weight[species_idx];
                 ++n_babies[species_idx];
             } // individual juvenile
 
@@ -1292,13 +1233,12 @@ void IBM_Mutualism::compete_to_survive_12()
     for (int species_idx = 0; species_idx < 2; ++species_idx)
     {
         mean_adult_survival_weight[species_idx] /= n_events[species_idx];
-        mean_juvenile_survival_weight[species_idx] /= n_babies[species_idx];
 
         mean_surv_prob[species_idx] = // TESTME: mean_surv_prob
             mean_adult_survival_weight[species_idx]
             /
             (n_events[species_idx] * mean_adult_survival_weight[species_idx] 
-            + n_babies[species_idx] * mean_juvenile_survival_weight[species_idx]);
+            + n_babies[species_idx] * juvenile_survival_weight[species_idx]);
 
         mean_surv_help_per_individual[species_idx] /= par.npatches;
         patch_occupancy[species_idx] = n_events[species_idx]/par.npatches;
@@ -1347,6 +1287,9 @@ void IBM_Mutualism::write_parameters()
                 << "fecundity_cost_of_fec_help" << (species_idx + 1) << ";"
                     << par.fecundity_cost_of_fec_help[species_idx] << std::endl
 
+                << "juvenile_baseline_survival" << (species_idx + 1) << ";"
+                    << par.juvenile_baseline_survival[species_idx] << std::endl
+
                 << "juvenile_survival_weight" << (species_idx + 1) << ";"
                     << juvenile_survival_weight[species_idx] << std::endl;
     }
@@ -1388,8 +1331,7 @@ void IBM_Mutualism::write_data_headers()
             << "nsurvivors" << species_idx << ";"
             << "mean_offspring" << species_idx << ";"
             
-            << "mean_adult_survival_weight" << species_idx << ";"
-            << "mean_juvenile_survival_weight" << species_idx << ";";
+            << "mean_adult_survival_weight" << species_idx << ";";
     }
 
     data_file << std::endl;
@@ -1495,8 +1437,7 @@ void IBM_Mutualism::write_data()
                     << nsurvivors[species_idx] << ";"
                     << mean_offspring[species_idx] << ";"
 
-                    << mean_adult_survival_weight[species_idx] << ";"
-                    << mean_juvenile_survival_weight[species_idx] << ";";
+                    << mean_adult_survival_weight[species_idx] << ";";
     } // end for species_idx
 
     data_file << std::endl;

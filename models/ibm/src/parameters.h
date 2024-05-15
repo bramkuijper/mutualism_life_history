@@ -24,7 +24,7 @@ struct Parameters {
     // array to determine whether species 1 and species 2
     // have death-birth rather than birth death updating
     // TODO: make db/bd asymmetric
-    bool death_birth = true;
+    bool death_birth = false;
 
     // toggle within vs between species help
     bool between_species = false;
@@ -44,6 +44,9 @@ struct Parameters {
     // proportion by which individuals adjust if they are negotiating (unused so far)
     // TODO: negotiate
     double adjust_prop[2] = {1.0,1.0};
+
+    // juvenile survival weight for birth-death updating
+    double juvenile_baseline_survival[2] = {0, 0};
 
     // baseline survival and fecundity for both species
     double baseline_survival[2]  = {0.7,0.7};
