@@ -23,8 +23,8 @@ int main(int argc, char **argv)
     // parms.strength_survival[0] = atof(argv[5]);
     // parms.strength_survival[1] = atof(argv[5]);
 
-    parms.juvenile_baseline_survival[0] = atof(argv[5]);
-    parms.juvenile_baseline_survival[1] = atof(argv[5]);
+    parms.juvenile_survival_weight[0] = atof(argv[5]);
+    parms.juvenile_survival_weight[1] = atof(argv[5]);
 
     // parms.between_species = argv[2] == std::string{"true"};
     // parms.death_birth = argv[3] == std::string{"true"};
