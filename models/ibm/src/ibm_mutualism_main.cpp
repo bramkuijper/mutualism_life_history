@@ -9,22 +9,25 @@ int main(int argc, char **argv)
     parms.base_name = argv[1];
     
     parms.mu_fec_h = atof(argv[2]);
-    // parms.mu_surv_h = atof(argv[2]);
+    parms.mu_surv_h = atof(argv[3]);
 
-    parms.baseline_survival[0] = atof(argv[3]);
-    parms.baseline_survival[1] = atof(argv[3]);
+    parms.dispersal_rate[0] = atof(argv[4]);
+    parms.dispersal_rate[1] = atof(argv[4]);
 
-    parms.fecundity_cost_of_fec_help[0] = atof(argv[4]);
-    parms.fecundity_cost_of_fec_help[1] = atof(argv[4]);
+    parms.baseline_survival[0] = atof(argv[5]);
+    parms.baseline_survival[1] = atof(argv[5]);
 
-    // parms.survival_cost_of_surv_help[0] = atof(argv[4]);
-    // parms.survival_cost_of_surv_help[1] = atof(argv[4]);
+    parms.baseline_fecundity[0] = atof(argv[6]);
+    parms.baseline_fecundity[1] = atof(argv[6]);
 
-    // parms.strength_survival[0] = atof(argv[5]);
-    // parms.strength_survival[1] = atof(argv[5]);
+    parms.fecundity_cost_of_fec_help[0] = atof(argv[7]);
+    parms.fecundity_cost_of_fec_help[1] = atof(argv[7]);
 
-    parms.juvenile_survival_weight[0] = atof(argv[5]);
-    parms.juvenile_survival_weight[1] = atof(argv[5]);
+    parms.survival_cost_of_surv_help[0] = atof(argv[8]);
+    parms.survival_cost_of_surv_help[1] = atof(argv[8]);
+
+    parms.juvenile_survival_weight[0] = atof(argv[9]);
+    parms.juvenile_survival_weight[1] = atof(argv[9]);
 
     // parms.between_species = argv[2] == std::string{"true"};
     // parms.death_birth = argv[3] == std::string{"true"};
