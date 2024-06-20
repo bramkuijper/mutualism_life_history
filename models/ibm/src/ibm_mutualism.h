@@ -58,6 +58,8 @@ class IBM_Mutualism
 
         int njuveniles[2] = {0,0};
 
+        int extinctions[2] = {0,0};
+
     public:
         // metapopulation of patches
         std::vector<Patch> metapop;

@@ -667,7 +667,13 @@ void IBM_Mutualism::survive_otherwise_replace_0()
             juvenile_origin_patch = patch_idx;
 
             // if no juveniles produced in local patch
-            // get them elsewhere...
+            // first increment counter
+            if(metapop[juvenile_origin_patch].juveniles[species_idx].size() < 1)
+            {
+                extinctions[species_idx]++;
+            }
+
+            // then get them elsewhere...
             while (metapop[juvenile_origin_patch].juveniles[species_idx].size() < 1)
             {
                 // sample random patch where there might be nonzero juvs
@@ -802,6 +808,12 @@ void IBM_Mutualism::survive_otherwise_replace_12()
             juvenile_origin_patch = patch_idx;
 
             // if no juveniles produced in local patch get them elsewhere
+            // first increment counter
+            if(metapop[juvenile_origin_patch].juveniles[species_idx].size() < 1)
+            {
+                extinctions[species_idx]++;
+            }
+
             while (metapop[juvenile_origin_patch].juveniles[species_idx].size() < 1)
             {
                 // samples random patch where there might be nonzero juvs
@@ -953,8 +965,17 @@ void IBM_Mutualism::compete_to_survive_0()
             // by default get juveniles from local patch
             juvenile_origin_patch = patch_idx;
 
-            // if no juveniles produced in local patch
-            while (metapop[juvenile_origin_patch].juveniles[species_idx].size() < 1)
+            // if not enough juveniles produced in local patch
+            // first increment counter
+            if(metapop[juvenile_origin_patch].juveniles[species_idx].size() +
+            (par.npp[species_idx] * std::ceil(par.baseline_survival[species_idx])) < par.npp[species_idx])
+            {
+                extinctions[species_idx]++;
+            }
+
+            // then resample juveniles from other patches
+            while (metapop[juvenile_origin_patch].juveniles[species_idx].size() +
+            (par.npp[species_idx] * std::ceil(par.baseline_survival[species_idx])) < par.npp[species_idx])
             {
                 // sample random patch where there might be nonzero juvs
                 juvenile_origin_patch = patch_sampler(rng_r);
@@ -1127,8 +1148,17 @@ void IBM_Mutualism::compete_to_survive_12()
             // by default get juveniles from local patch
             juvenile_origin_patch = patch_idx;
 
-            // if no juveniles produced in local patch
-            while (metapop[juvenile_origin_patch].juveniles[species_idx].size() < 1)
+            // if not enough juveniles produced in local patch
+            // first increment counter
+            if(metapop[juvenile_origin_patch].juveniles[species_idx].size() +
+            (par.npp[species_idx] * std::ceil(par.baseline_survival[species_idx])) < par.npp[species_idx])
+            {
+                extinctions[species_idx]++;
+            }
+
+            // then resample juveniles from other patches
+            while (metapop[juvenile_origin_patch].juveniles[species_idx].size() +
+            (par.npp[species_idx] * std::ceil(par.baseline_survival[species_idx])) < par.npp[species_idx])
             {
                 // sample random patch where there might be nonzero juvs
                 juvenile_origin_patch = patch_sampler(rng_r);
