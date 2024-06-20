@@ -1343,7 +1343,8 @@ void IBM_Mutualism::write_data_headers()
             << "nsurvivors" << species_idx << ";"
             << "mean_offspring" << species_idx << ";"
             
-            << "mean_adult_survival_weight" << species_idx << ";";
+            << "mean_adult_survival_weight" << species_idx << ";"
+            << "extinctions" << species_idx << ";";
     }
 
     data_file << std::endl;
@@ -1449,7 +1450,8 @@ void IBM_Mutualism::write_data()
                     << nsurvivors[species_idx] << ";"
                     << mean_offspring[species_idx] << ";"
 
-                    << mean_adult_survival_weight[species_idx] << ";";
+                    << mean_adult_survival_weight[species_idx] << ";"
+                    << extinctions[species_idx] << ";";
     } // end for species_idx
 
     data_file << std::endl;
