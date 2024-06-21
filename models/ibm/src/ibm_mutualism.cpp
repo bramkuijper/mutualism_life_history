@@ -976,13 +976,6 @@ void IBM_Mutualism::compete_to_survive_0()
             // by default get juveniles from local patch
             juvenile_origin_patch = patch_idx;
 
-            bool temp = metapop[juvenile_origin_patch].juveniles[species_idx].size() +
-            (par.npp[species_idx] * std::ceil(par.baseline_survival[species_idx])) < par.npp[species_idx];
-            
-            std::cout << "extinction " << temp << std::endl;
-            std::cout << "juvenile size " << metapop[juvenile_origin_patch].juveniles[species_idx].size() << std::endl;
-
-
             // if not enough juveniles produced in local patch
             // first increment counter
             if(metapop[juvenile_origin_patch].juveniles[species_idx].size() +
