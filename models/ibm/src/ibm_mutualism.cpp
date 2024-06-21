@@ -917,9 +917,19 @@ void IBM_Mutualism::compete_to_survive_0()
         patch_occupancy[species_idx]                = 0.0;
         mean_adult_survival_weight[species_idx]     = 0.0;
 
-        // no juveniles to replace adults
+        // go through each metapop patch and check if any are bigger than par.npp[species_idx]
+        int n_viable_patches = 0;
+        for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
+        {
+            if (metapop[patch_idx].juveniles[species_idx].size() > par.npp[species_idx])
+            {
+                ++n_viable_patches;
+            }
+        }
+
+        // not enough juveniles to replace adults
         // consider population to be extinct
-        if (njuveniles[species_idx] < 1)
+        if (n_viable_patches < 1)
         {
             write_parameters();
             exit(1);
@@ -946,6 +956,7 @@ void IBM_Mutualism::compete_to_survive_0()
             {
                 friend_species = !species_idx;
             }
+
             else
             {
                 friend_species = species_idx;
@@ -964,6 +975,13 @@ void IBM_Mutualism::compete_to_survive_0()
 
             // by default get juveniles from local patch
             juvenile_origin_patch = patch_idx;
+
+            bool temp = metapop[juvenile_origin_patch].juveniles[species_idx].size() +
+            (par.npp[species_idx] * std::ceil(par.baseline_survival[species_idx])) < par.npp[species_idx];
+            
+            std::cout << "extinction " << temp << std::endl;
+            std::cout << "juvenile size " << metapop[juvenile_origin_patch].juveniles[species_idx].size() << std::endl;
+
 
             // if not enough juveniles produced in local patch
             // first increment counter
@@ -1108,9 +1126,19 @@ void IBM_Mutualism::compete_to_survive_12()
         patch_occupancy[species_idx]                = 0.0;
         mean_adult_survival_weight[species_idx]     = 0.0;
 
-        // no juveniles to replace adults
+        // go through each metapop patch and check if any are bigger than par.npp[species_idx]
+        int n_viable_patches = 0;
+        for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
+        {
+            if (metapop[patch_idx].juveniles[species_idx].size() > par.npp[species_idx])
+            {
+                ++n_viable_patches;
+            }
+        }
+
+        // not enough juveniles to replace adults
         // consider population to be extinct
-        if (njuveniles[species_idx] < 1)
+        if (n_viable_patches < 1)
         {
             write_parameters();
             exit(1);
