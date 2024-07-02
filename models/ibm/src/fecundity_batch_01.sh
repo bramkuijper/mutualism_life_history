@@ -9,167 +9,167 @@
 
 # varying dispersal, bs = 0.0, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs0_c02_j01_f_1   0.01   0.00   0.0   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs0_c02_j01_f_1   0.01   0.00   0.1   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs0_c02_j01_f_1   0.01   0.00   0.2   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs0_c02_j01_f_1   0.01   0.00   0.3   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs0_c02_j01_f_1   0.01   0.00   0.4   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs0_c02_j01_f_1   0.01   0.00   0.5   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs0_c02_j01_f_1   0.01   0.00   0.6   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs0_c02_j01_f_1   0.01   0.00   0.7   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs0_c02_j01_f_1   0.01   0.00   0.8   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs0_c02_j01_f_1   0.01   0.00   0.9   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs0_c02_j01_f_1   0.01   0.00   1.0   0.0   3   0.1667  0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs0_c06_j01_f_1   0.01   0.00   0.0   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs0_c06_j01_f_1   0.01   0.00   0.1   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs0_c06_j01_f_1   0.01   0.00   0.2   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs0_c06_j01_f_1   0.01   0.00   0.3   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs0_c06_j01_f_1   0.01   0.00   0.4   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs0_c06_j01_f_1   0.01   0.00   0.5   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs0_c06_j01_f_1   0.01   0.00   0.6   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs0_c06_j01_f_1   0.01   0.00   0.7   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs0_c06_j01_f_1   0.01   0.00   0.8   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs0_c06_j01_f_1   0.01   0.00   0.9   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs0_c06_j01_f_1   0.01   0.00   1.0   0.0   3   0.1667  0.00    0.1 
 
 
 # varying dispersal, bs = 0.1, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs1_c02_j01_f_1   0.01   0.00   0.0   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs1_c02_j01_f_1   0.01   0.00   0.1   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs1_c02_j01_f_1   0.01   0.00   0.2   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs1_c02_j01_f_1   0.01   0.00   0.3   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs1_c02_j01_f_1   0.01   0.00   0.4   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs1_c02_j01_f_1   0.01   0.00   0.5   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs1_c02_j01_f_1   0.01   0.00   0.6   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs1_c02_j01_f_1   0.01   0.00   0.7   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs1_c02_j01_f_1   0.01   0.00   0.8   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs1_c02_j01_f_1   0.01   0.00   0.9   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs1_c02_j01_f_1   0.01   0.00   1.0   0.1   3   0.1667  0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs1_c06_j01_f_1   0.01   0.00   0.0   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs1_c06_j01_f_1   0.01   0.00   0.1   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs1_c06_j01_f_1   0.01   0.00   0.2   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs1_c06_j01_f_1   0.01   0.00   0.3   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs1_c06_j01_f_1   0.01   0.00   0.4   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs1_c06_j01_f_1   0.01   0.00   0.5   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs1_c06_j01_f_1   0.01   0.00   0.6   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs1_c06_j01_f_1   0.01   0.00   0.7   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs1_c06_j01_f_1   0.01   0.00   0.8   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs1_c06_j01_f_1   0.01   0.00   0.9   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs1_c06_j01_f_1   0.01   0.00   1.0   0.1   3   0.1667  0.00    0.1 
 
 
 # varying dispersal, bs = 0.2, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs2_c02_j01_f_1   0.01   0.00   0.0   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs2_c02_j01_f_1   0.01   0.00   0.1   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs2_c02_j01_f_1   0.01   0.00   0.2   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs2_c02_j01_f_1   0.01   0.00   0.3   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs2_c02_j01_f_1   0.01   0.00   0.4   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs2_c02_j01_f_1   0.01   0.00   0.5   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs2_c02_j01_f_1   0.01   0.00   0.6   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs2_c02_j01_f_1   0.01   0.00   0.7   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs2_c02_j01_f_1   0.01   0.00   0.8   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs2_c02_j01_f_1   0.01   0.00   0.9   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs2_c02_j01_f_1   0.01   0.00   1.0   0.2   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs2_c06_j01_f_1   0.01   0.00   0.0   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs2_c06_j01_f_1   0.01   0.00   0.1   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs2_c06_j01_f_1   0.01   0.00   0.2   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs2_c06_j01_f_1   0.01   0.00   0.3   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs2_c06_j01_f_1   0.01   0.00   0.4   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs2_c06_j01_f_1   0.01   0.00   0.5   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs2_c06_j01_f_1   0.01   0.00   0.6   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs2_c06_j01_f_1   0.01   0.00   0.7   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs2_c06_j01_f_1   0.01   0.00   0.8   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs2_c06_j01_f_1   0.01   0.00   0.9   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs2_c06_j01_f_1   0.01   0.00   1.0   0.2   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.3, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs3_c02_j01_f_1   0.01   0.00   0.0   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs3_c02_j01_f_1   0.01   0.00   0.1   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs3_c02_j01_f_1   0.01   0.00   0.2   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs3_c02_j01_f_1   0.01   0.00   0.3   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs3_c02_j01_f_1   0.01   0.00   0.4   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs3_c02_j01_f_1   0.01   0.00   0.5   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs3_c02_j01_f_1   0.01   0.00   0.6   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs3_c02_j01_f_1   0.01   0.00   0.7   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs3_c02_j01_f_1   0.01   0.00   0.8   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs3_c02_j01_f_1   0.01   0.00   0.9   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs3_c02_j01_f_1   0.01   0.00   1.0   0.3   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs3_c06_j01_f_1   0.01   0.00   0.0   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs3_c06_j01_f_1   0.01   0.00   0.1   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs3_c06_j01_f_1   0.01   0.00   0.2   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs3_c06_j01_f_1   0.01   0.00   0.3   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs3_c06_j01_f_1   0.01   0.00   0.4   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs3_c06_j01_f_1   0.01   0.00   0.5   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs3_c06_j01_f_1   0.01   0.00   0.6   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs3_c06_j01_f_1   0.01   0.00   0.7   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs3_c06_j01_f_1   0.01   0.00   0.8   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs3_c06_j01_f_1   0.01   0.00   0.9   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs3_c06_j01_f_1   0.01   0.00   1.0   0.3   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.4, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs4_c02_j01_f_1   0.01   0.00   0.0   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs4_c02_j01_f_1   0.01   0.00   0.1   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs4_c02_j01_f_1   0.01   0.00   0.2   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs4_c02_j01_f_1   0.01   0.00   0.3   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs4_c02_j01_f_1   0.01   0.00   0.4   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs4_c02_j01_f_1   0.01   0.00   0.5   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs4_c02_j01_f_1   0.01   0.00   0.6   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs4_c02_j01_f_1   0.01   0.00   0.7   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs4_c02_j01_f_1   0.01   0.00   0.8   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs4_c02_j01_f_1   0.01   0.00   0.9   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs4_c02_j01_f_1   0.01   0.00   1.0   0.4   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs4_c06_j01_f_1   0.01   0.00   0.0   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs4_c06_j01_f_1   0.01   0.00   0.1   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs4_c06_j01_f_1   0.01   0.00   0.2   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs4_c06_j01_f_1   0.01   0.00   0.3   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs4_c06_j01_f_1   0.01   0.00   0.4   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs4_c06_j01_f_1   0.01   0.00   0.5   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs4_c06_j01_f_1   0.01   0.00   0.6   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs4_c06_j01_f_1   0.01   0.00   0.7   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs4_c06_j01_f_1   0.01   0.00   0.8   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs4_c06_j01_f_1   0.01   0.00   0.9   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs4_c06_j01_f_1   0.01   0.00   1.0   0.4   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.5, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs5_c02_j01_f_1   0.01   0.00   0.0   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs5_c02_j01_f_1   0.01   0.00   0.1   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs5_c02_j01_f_1   0.01   0.00   0.2   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs5_c02_j01_f_1   0.01   0.00   0.3   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs5_c02_j01_f_1   0.01   0.00   0.4   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs5_c02_j01_f_1   0.01   0.00   0.5   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs5_c02_j01_f_1   0.01   0.00   0.6   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs5_c02_j01_f_1   0.01   0.00   0.7   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs5_c02_j01_f_1   0.01   0.00   0.8   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs5_c02_j01_f_1   0.01   0.00   0.9   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs5_c02_j01_f_1   0.01   0.00   1.0   0.5   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs5_c06_j01_f_1   0.01   0.00   0.0   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs5_c06_j01_f_1   0.01   0.00   0.1   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs5_c06_j01_f_1   0.01   0.00   0.2   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs5_c06_j01_f_1   0.01   0.00   0.3   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs5_c06_j01_f_1   0.01   0.00   0.4   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs5_c06_j01_f_1   0.01   0.00   0.5   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs5_c06_j01_f_1   0.01   0.00   0.6   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs5_c06_j01_f_1   0.01   0.00   0.7   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs5_c06_j01_f_1   0.01   0.00   0.8   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs5_c06_j01_f_1   0.01   0.00   0.9   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs5_c06_j01_f_1   0.01   0.00   1.0   0.5   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.6, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs6_c02_j01_f_1   0.01   0.00   0.0   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs6_c02_j01_f_1   0.01   0.00   0.1   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs6_c02_j01_f_1   0.01   0.00   0.2   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs6_c02_j01_f_1   0.01   0.00   0.3   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs6_c02_j01_f_1   0.01   0.00   0.4   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs6_c02_j01_f_1   0.01   0.00   0.5   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs6_c02_j01_f_1   0.01   0.00   0.6   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs6_c02_j01_f_1   0.01   0.00   0.7   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs6_c02_j01_f_1   0.01   0.00   0.8   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs6_c02_j01_f_1   0.01   0.00   0.9   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs6_c02_j01_f_1   0.01   0.00   1.0   0.6   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs6_c06_j01_f_1   0.01   0.00   0.0   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs6_c06_j01_f_1   0.01   0.00   0.1   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs6_c06_j01_f_1   0.01   0.00   0.2   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs6_c06_j01_f_1   0.01   0.00   0.3   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs6_c06_j01_f_1   0.01   0.00   0.4   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs6_c06_j01_f_1   0.01   0.00   0.5   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs6_c06_j01_f_1   0.01   0.00   0.6   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs6_c06_j01_f_1   0.01   0.00   0.7   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs6_c06_j01_f_1   0.01   0.00   0.8   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs6_c06_j01_f_1   0.01   0.00   0.9   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs6_c06_j01_f_1   0.01   0.00   1.0   0.6   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.7, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs7_c02_j01_f_1   0.01   0.00   0.0   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs7_c02_j01_f_1   0.01   0.00   0.1   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs7_c02_j01_f_1   0.01   0.00   0.2   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs7_c02_j01_f_1   0.01   0.00   0.3   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs7_c02_j01_f_1   0.01   0.00   0.4   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs7_c02_j01_f_1   0.01   0.00   0.5   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs7_c02_j01_f_1   0.01   0.00   0.6   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs7_c02_j01_f_1   0.01   0.00   0.7   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs7_c02_j01_f_1   0.01   0.00   0.8   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs7_c02_j01_f_1   0.01   0.00   0.9   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs7_c02_j01_f_1   0.01   0.00   1.0   0.7   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs7_c06_j01_f_1   0.01   0.00   0.0   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs7_c06_j01_f_1   0.01   0.00   0.1   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs7_c06_j01_f_1   0.01   0.00   0.2   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs7_c06_j01_f_1   0.01   0.00   0.3   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs7_c06_j01_f_1   0.01   0.00   0.4   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs7_c06_j01_f_1   0.01   0.00   0.5   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs7_c06_j01_f_1   0.01   0.00   0.6   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs7_c06_j01_f_1   0.01   0.00   0.7   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs7_c06_j01_f_1   0.01   0.00   0.8   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs7_c06_j01_f_1   0.01   0.00   0.9   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs7_c06_j01_f_1   0.01   0.00   1.0   0.7   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.8, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs8_c02_j01_f_1   0.01   0.00   0.0   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs8_c02_j01_f_1   0.01   0.00   0.1   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs8_c02_j01_f_1   0.01   0.00   0.2   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs8_c02_j01_f_1   0.01   0.00   0.3   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs8_c02_j01_f_1   0.01   0.00   0.4   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs8_c02_j01_f_1   0.01   0.00   0.5   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs8_c02_j01_f_1   0.01   0.00   0.6   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs8_c02_j01_f_1   0.01   0.00   0.7   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs8_c02_j01_f_1   0.01   0.00   0.8   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs8_c02_j01_f_1   0.01   0.00   0.9   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs8_c02_j01_f_1   0.01   0.00   1.0   0.8   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs8_c06_j01_f_1   0.01   0.00   0.0   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs8_c06_j01_f_1   0.01   0.00   0.1   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs8_c06_j01_f_1   0.01   0.00   0.2   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs8_c06_j01_f_1   0.01   0.00   0.3   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs8_c06_j01_f_1   0.01   0.00   0.4   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs8_c06_j01_f_1   0.01   0.00   0.5   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs8_c06_j01_f_1   0.01   0.00   0.6   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs8_c06_j01_f_1   0.01   0.00   0.7   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs8_c06_j01_f_1   0.01   0.00   0.8   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs8_c06_j01_f_1   0.01   0.00   0.9   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs8_c06_j01_f_1   0.01   0.00   1.0   0.8   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.9, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs9_c02_j01_f_1   0.01   0.00   0.0   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs9_c02_j01_f_1   0.01   0.00   0.1   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs9_c02_j01_f_1   0.01   0.00   0.2   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs9_c02_j01_f_1   0.01   0.00   0.3   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs9_c02_j01_f_1   0.01   0.00   0.4   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs9_c02_j01_f_1   0.01   0.00   0.5   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs9_c02_j01_f_1   0.01   0.00   0.6   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs9_c02_j01_f_1   0.01   0.00   0.7   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs9_c02_j01_f_1   0.01   0.00   0.8   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs9_c02_j01_f_1   0.01   0.00   0.9   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs9_c02_j01_f_1   0.01   0.00   1.0   0.9   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs9_c06_j01_f_1   0.01   0.00   0.0   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs9_c06_j01_f_1   0.01   0.00   0.1   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs9_c06_j01_f_1   0.01   0.00   0.2   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs9_c06_j01_f_1   0.01   0.00   0.3   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs9_c06_j01_f_1   0.01   0.00   0.4   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs9_c06_j01_f_1   0.01   0.00   0.5   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs9_c06_j01_f_1   0.01   0.00   0.6   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs9_c06_j01_f_1   0.01   0.00   0.7   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs9_c06_j01_f_1   0.01   0.00   0.8   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs9_c06_j01_f_1   0.01   0.00   0.9   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs9_c06_j01_f_1   0.01   0.00   1.0   0.9   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 1.0, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs10_c02_j01_f_1   0.01   0.00   0.0   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs10_c02_j01_f_1   0.01   0.00   0.1   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs10_c02_j01_f_1   0.01   0.00   0.2   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs10_c02_j01_f_1   0.01   0.00   0.3   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs10_c02_j01_f_1   0.01   0.00   0.4   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs10_c02_j01_f_1   0.01   0.00   0.5   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs10_c02_j01_f_1   0.01   0.00   0.6   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs10_c02_j01_f_1   0.01   0.00   0.7   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs10_c02_j01_f_1   0.01   0.00   0.8   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs10_c02_j01_f_1   0.01   0.00   0.9   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs10_c02_j01_f_1   0.01   0.00   1.0   1.0   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs10_c06_j01_f_1   0.01   0.00   0.0   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs10_c06_j01_f_1   0.01   0.00   0.1   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs10_c06_j01_f_1   0.01   0.00   0.2   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs10_c06_j01_f_1   0.01   0.00   0.3   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs10_c06_j01_f_1   0.01   0.00   0.4   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs10_c06_j01_f_1   0.01   0.00   0.5   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs10_c06_j01_f_1   0.01   0.00   0.6   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs10_c06_j01_f_1   0.01   0.00   0.7   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs10_c06_j01_f_1   0.01   0.00   0.8   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs10_c06_j01_f_1   0.01   0.00   0.9   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs10_c06_j01_f_1   0.01   0.00   1.0   1.0   3   0.1667  0.00    0.1
 
 
 # ________________________________________________________________________________________________________________
@@ -177,167 +177,167 @@
 
 # varying dispersal, bs = 0.0, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs0_c05_j01_f_1   0.01   0.00   0.0   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs0_c05_j01_f_1   0.01   0.00   0.1   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs0_c05_j01_f_1   0.01   0.00   0.2   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs0_c05_j01_f_1   0.01   0.00   0.3   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs0_c05_j01_f_1   0.01   0.00   0.4   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs0_c05_j01_f_1   0.01   0.00   0.5   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs0_c05_j01_f_1   0.01   0.00   0.6   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs0_c05_j01_f_1   0.01   0.00   0.7   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs0_c05_j01_f_1   0.01   0.00   0.8   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs0_c05_j01_f_1   0.01   0.00   0.9   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs0_c05_j01_f_1   0.01   0.00   1.0   0.0   3   0.125   0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs0_c08_j01_f_1   0.01   0.00   0.0   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs0_c08_j01_f_1   0.01   0.00   0.1   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs0_c08_j01_f_1   0.01   0.00   0.2   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs0_c08_j01_f_1   0.01   0.00   0.3   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs0_c08_j01_f_1   0.01   0.00   0.4   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs0_c08_j01_f_1   0.01   0.00   0.5   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs0_c08_j01_f_1   0.01   0.00   0.6   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs0_c08_j01_f_1   0.01   0.00   0.7   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs0_c08_j01_f_1   0.01   0.00   0.8   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs0_c08_j01_f_1   0.01   0.00   0.9   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs0_c08_j01_f_1   0.01   0.00   1.0   0.0   3   0.125   0.00    0.1 
 
 
 # varying dispersal, bs = 0.1, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs1_c05_j01_f_1   0.01   0.00   0.0   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs1_c05_j01_f_1   0.01   0.00   0.1   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs1_c05_j01_f_1   0.01   0.00   0.2   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs1_c05_j01_f_1   0.01   0.00   0.3   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs1_c05_j01_f_1   0.01   0.00   0.4   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs1_c05_j01_f_1   0.01   0.00   0.5   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs1_c05_j01_f_1   0.01   0.00   0.6   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs1_c05_j01_f_1   0.01   0.00   0.7   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs1_c05_j01_f_1   0.01   0.00   0.8   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs1_c05_j01_f_1   0.01   0.00   0.9   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs1_c05_j01_f_1   0.01   0.00   1.0   0.1   3   0.125   0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs1_c08_j01_f_1   0.01   0.00   0.0   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs1_c08_j01_f_1   0.01   0.00   0.1   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs1_c08_j01_f_1   0.01   0.00   0.2   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs1_c08_j01_f_1   0.01   0.00   0.3   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs1_c08_j01_f_1   0.01   0.00   0.4   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs1_c08_j01_f_1   0.01   0.00   0.5   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs1_c08_j01_f_1   0.01   0.00   0.6   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs1_c08_j01_f_1   0.01   0.00   0.7   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs1_c08_j01_f_1   0.01   0.00   0.8   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs1_c08_j01_f_1   0.01   0.00   0.9   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs1_c08_j01_f_1   0.01   0.00   1.0   0.1   3   0.125   0.00    0.1 
 
 
 # varying dispersal, bs = 0.2, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs2_c05_j01_f_1   0.01   0.00   0.0   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs2_c05_j01_f_1   0.01   0.00   0.1   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs2_c05_j01_f_1   0.01   0.00   0.2   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs2_c05_j01_f_1   0.01   0.00   0.3   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs2_c05_j01_f_1   0.01   0.00   0.4   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs2_c05_j01_f_1   0.01   0.00   0.5   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs2_c05_j01_f_1   0.01   0.00   0.6   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs2_c05_j01_f_1   0.01   0.00   0.7   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs2_c05_j01_f_1   0.01   0.00   0.8   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs2_c05_j01_f_1   0.01   0.00   0.9   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs2_c05_j01_f_1   0.01   0.00   1.0   0.2   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs2_c08_j01_f_1   0.01   0.00   0.0   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs2_c08_j01_f_1   0.01   0.00   0.1   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs2_c08_j01_f_1   0.01   0.00   0.2   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs2_c08_j01_f_1   0.01   0.00   0.3   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs2_c08_j01_f_1   0.01   0.00   0.4   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs2_c08_j01_f_1   0.01   0.00   0.5   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs2_c08_j01_f_1   0.01   0.00   0.6   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs2_c08_j01_f_1   0.01   0.00   0.7   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs2_c08_j01_f_1   0.01   0.00   0.8   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs2_c08_j01_f_1   0.01   0.00   0.9   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs2_c08_j01_f_1   0.01   0.00   1.0   0.2   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.3, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs3_c05_j01_f_1   0.01   0.00   0.0   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs3_c05_j01_f_1   0.01   0.00   0.1   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs3_c05_j01_f_1   0.01   0.00   0.2   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs3_c05_j01_f_1   0.01   0.00   0.3   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs3_c05_j01_f_1   0.01   0.00   0.4   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs3_c05_j01_f_1   0.01   0.00   0.5   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs3_c05_j01_f_1   0.01   0.00   0.6   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs3_c05_j01_f_1   0.01   0.00   0.7   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs3_c05_j01_f_1   0.01   0.00   0.8   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs3_c05_j01_f_1   0.01   0.00   0.9   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs3_c05_j01_f_1   0.01   0.00   1.0   0.3   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs3_c08_j01_f_1   0.01   0.00   0.0   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs3_c08_j01_f_1   0.01   0.00   0.1   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs3_c08_j01_f_1   0.01   0.00   0.2   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs3_c08_j01_f_1   0.01   0.00   0.3   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs3_c08_j01_f_1   0.01   0.00   0.4   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs3_c08_j01_f_1   0.01   0.00   0.5   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs3_c08_j01_f_1   0.01   0.00   0.6   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs3_c08_j01_f_1   0.01   0.00   0.7   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs3_c08_j01_f_1   0.01   0.00   0.8   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs3_c08_j01_f_1   0.01   0.00   0.9   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs3_c08_j01_f_1   0.01   0.00   1.0   0.3   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.4, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs4_c05_j01_f_1   0.01   0.00   0.0   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs4_c05_j01_f_1   0.01   0.00   0.1   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs4_c05_j01_f_1   0.01   0.00   0.2   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs4_c05_j01_f_1   0.01   0.00   0.3   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs4_c05_j01_f_1   0.01   0.00   0.4   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs4_c05_j01_f_1   0.01   0.00   0.5   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs4_c05_j01_f_1   0.01   0.00   0.6   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs4_c05_j01_f_1   0.01   0.00   0.7   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs4_c05_j01_f_1   0.01   0.00   0.8   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs4_c05_j01_f_1   0.01   0.00   0.9   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs4_c05_j01_f_1   0.01   0.00   1.0   0.4   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs4_c08_j01_f_1   0.01   0.00   0.0   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs4_c08_j01_f_1   0.01   0.00   0.1   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs4_c08_j01_f_1   0.01   0.00   0.2   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs4_c08_j01_f_1   0.01   0.00   0.3   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs4_c08_j01_f_1   0.01   0.00   0.4   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs4_c08_j01_f_1   0.01   0.00   0.5   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs4_c08_j01_f_1   0.01   0.00   0.6   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs4_c08_j01_f_1   0.01   0.00   0.7   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs4_c08_j01_f_1   0.01   0.00   0.8   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs4_c08_j01_f_1   0.01   0.00   0.9   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs4_c08_j01_f_1   0.01   0.00   1.0   0.4   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.5, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs5_c05_j01_f_1   0.01   0.00   0.0   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs5_c05_j01_f_1   0.01   0.00   0.1   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs5_c05_j01_f_1   0.01   0.00   0.2   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs5_c05_j01_f_1   0.01   0.00   0.3   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs5_c05_j01_f_1   0.01   0.00   0.4   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs5_c05_j01_f_1   0.01   0.00   0.5   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs5_c05_j01_f_1   0.01   0.00   0.6   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs5_c05_j01_f_1   0.01   0.00   0.7   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs5_c05_j01_f_1   0.01   0.00   0.8   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs5_c05_j01_f_1   0.01   0.00   0.9   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs5_c05_j01_f_1   0.01   0.00   1.0   0.5   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs5_c08_j01_f_1   0.01   0.00   0.0   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs5_c08_j01_f_1   0.01   0.00   0.1   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs5_c08_j01_f_1   0.01   0.00   0.2   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs5_c08_j01_f_1   0.01   0.00   0.3   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs5_c08_j01_f_1   0.01   0.00   0.4   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs5_c08_j01_f_1   0.01   0.00   0.5   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs5_c08_j01_f_1   0.01   0.00   0.6   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs5_c08_j01_f_1   0.01   0.00   0.7   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs5_c08_j01_f_1   0.01   0.00   0.8   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs5_c08_j01_f_1   0.01   0.00   0.9   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs5_c08_j01_f_1   0.01   0.00   1.0   0.5   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.6, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs6_c05_j01_f_1   0.01   0.00   0.0   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs6_c05_j01_f_1   0.01   0.00   0.1   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs6_c05_j01_f_1   0.01   0.00   0.2   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs6_c05_j01_f_1   0.01   0.00   0.3   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs6_c05_j01_f_1   0.01   0.00   0.4   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs6_c05_j01_f_1   0.01   0.00   0.5   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs6_c05_j01_f_1   0.01   0.00   0.6   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs6_c05_j01_f_1   0.01   0.00   0.7   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs6_c05_j01_f_1   0.01   0.00   0.8   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs6_c05_j01_f_1   0.01   0.00   0.9   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs6_c05_j01_f_1   0.01   0.00   1.0   0.6   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs6_c08_j01_f_1   0.01   0.00   0.0   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs6_c08_j01_f_1   0.01   0.00   0.1   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs6_c08_j01_f_1   0.01   0.00   0.2   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs6_c08_j01_f_1   0.01   0.00   0.3   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs6_c08_j01_f_1   0.01   0.00   0.4   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs6_c08_j01_f_1   0.01   0.00   0.5   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs6_c08_j01_f_1   0.01   0.00   0.6   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs6_c08_j01_f_1   0.01   0.00   0.7   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs6_c08_j01_f_1   0.01   0.00   0.8   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs6_c08_j01_f_1   0.01   0.00   0.9   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs6_c08_j01_f_1   0.01   0.00   1.0   0.6   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.7, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs7_c05_j01_f_1   0.01   0.00   0.0   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs7_c05_j01_f_1   0.01   0.00   0.1   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs7_c05_j01_f_1   0.01   0.00   0.2   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs7_c05_j01_f_1   0.01   0.00   0.3   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs7_c05_j01_f_1   0.01   0.00   0.4   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs7_c05_j01_f_1   0.01   0.00   0.5   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs7_c05_j01_f_1   0.01   0.00   0.6   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs7_c05_j01_f_1   0.01   0.00   0.7   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs7_c05_j01_f_1   0.01   0.00   0.8   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs7_c05_j01_f_1   0.01   0.00   0.9   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs7_c05_j01_f_1   0.01   0.00   1.0   0.7   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs7_c08_j01_f_1   0.01   0.00   0.0   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs7_c08_j01_f_1   0.01   0.00   0.1   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs7_c08_j01_f_1   0.01   0.00   0.2   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs7_c08_j01_f_1   0.01   0.00   0.3   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs7_c08_j01_f_1   0.01   0.00   0.4   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs7_c08_j01_f_1   0.01   0.00   0.5   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs7_c08_j01_f_1   0.01   0.00   0.6   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs7_c08_j01_f_1   0.01   0.00   0.7   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs7_c08_j01_f_1   0.01   0.00   0.8   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs7_c08_j01_f_1   0.01   0.00   0.9   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs7_c08_j01_f_1   0.01   0.00   1.0   0.7   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.8, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs8_c05_j01_f_1   0.01   0.00   0.0   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs8_c05_j01_f_1   0.01   0.00   0.1   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs8_c05_j01_f_1   0.01   0.00   0.2   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs8_c05_j01_f_1   0.01   0.00   0.3   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs8_c05_j01_f_1   0.01   0.00   0.4   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs8_c05_j01_f_1   0.01   0.00   0.5   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs8_c05_j01_f_1   0.01   0.00   0.6   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs8_c05_j01_f_1   0.01   0.00   0.7   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs8_c05_j01_f_1   0.01   0.00   0.8   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs8_c05_j01_f_1   0.01   0.00   0.9   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs8_c05_j01_f_1   0.01   0.00   1.0   0.8   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs8_c08_j01_f_1   0.01   0.00   0.0   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs8_c08_j01_f_1   0.01   0.00   0.1   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs8_c08_j01_f_1   0.01   0.00   0.2   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs8_c08_j01_f_1   0.01   0.00   0.3   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs8_c08_j01_f_1   0.01   0.00   0.4   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs8_c08_j01_f_1   0.01   0.00   0.5   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs8_c08_j01_f_1   0.01   0.00   0.6   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs8_c08_j01_f_1   0.01   0.00   0.7   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs8_c08_j01_f_1   0.01   0.00   0.8   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs8_c08_j01_f_1   0.01   0.00   0.9   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs8_c08_j01_f_1   0.01   0.00   1.0   0.8   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.9, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs9_c05_j01_f_1   0.01   0.00   0.0   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs9_c05_j01_f_1   0.01   0.00   0.1   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs9_c05_j01_f_1   0.01   0.00   0.2   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs9_c05_j01_f_1   0.01   0.00   0.3   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs9_c05_j01_f_1   0.01   0.00   0.4   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs9_c05_j01_f_1   0.01   0.00   0.5   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs9_c05_j01_f_1   0.01   0.00   0.6   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs9_c05_j01_f_1   0.01   0.00   0.7   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs9_c05_j01_f_1   0.01   0.00   0.8   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs9_c05_j01_f_1   0.01   0.00   0.9   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs9_c05_j01_f_1   0.01   0.00   1.0   0.9   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs9_c08_j01_f_1   0.01   0.00   0.0   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs9_c08_j01_f_1   0.01   0.00   0.1   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs9_c08_j01_f_1   0.01   0.00   0.2   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs9_c08_j01_f_1   0.01   0.00   0.3   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs9_c08_j01_f_1   0.01   0.00   0.4   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs9_c08_j01_f_1   0.01   0.00   0.5   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs9_c08_j01_f_1   0.01   0.00   0.6   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs9_c08_j01_f_1   0.01   0.00   0.7   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs9_c08_j01_f_1   0.01   0.00   0.8   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs9_c08_j01_f_1   0.01   0.00   0.9   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs9_c08_j01_f_1   0.01   0.00   1.0   0.9   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 1.0, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs10_c05_j01_f_1   0.01   0.00   0.0   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs10_c05_j01_f_1   0.01   0.00   0.1   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs10_c05_j01_f_1   0.01   0.00   0.2   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs10_c05_j01_f_1   0.01   0.00   0.3   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs10_c05_j01_f_1   0.01   0.00   0.4   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs10_c05_j01_f_1   0.01   0.00   0.5   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs10_c05_j01_f_1   0.01   0.00   0.6   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs10_c05_j01_f_1   0.01   0.00   0.7   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs10_c05_j01_f_1   0.01   0.00   0.8   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs10_c05_j01_f_1   0.01   0.00   0.9   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs10_c05_j01_f_1   0.01   0.00   1.0   1.0   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs10_c08_j01_f_1   0.01   0.00   0.0   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs10_c08_j01_f_1   0.01   0.00   0.1   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs10_c08_j01_f_1   0.01   0.00   0.2   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs10_c08_j01_f_1   0.01   0.00   0.3   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs10_c08_j01_f_1   0.01   0.00   0.4   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs10_c08_j01_f_1   0.01   0.00   0.5   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs10_c08_j01_f_1   0.01   0.00   0.6   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs10_c08_j01_f_1   0.01   0.00   0.7   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs10_c08_j01_f_1   0.01   0.00   0.8   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs10_c08_j01_f_1   0.01   0.00   0.9   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs10_c08_j01_f_1   0.01   0.00   1.0   1.0   3   0.125   0.00    0.1
 
 
 # ________________________________________________________________________________________________________________
@@ -345,167 +345,167 @@
 
 # varying dispersal, bs = 0.0, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs0_c20_j01_f_1   0.01   0.00   0.0   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs0_c20_j01_f_1   0.01   0.00   0.1   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs0_c20_j01_f_1   0.01   0.00   0.2   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs0_c20_j01_f_1   0.01   0.00   0.3   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs0_c20_j01_f_1   0.01   0.00   0.4   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs0_c20_j01_f_1   0.01   0.00   0.5   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs0_c20_j01_f_1   0.01   0.00   0.6   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs0_c20_j01_f_1   0.01   0.00   0.7   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs0_c20_j01_f_1   0.01   0.00   0.8   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs0_c20_j01_f_1   0.01   0.00   0.9   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs0_c20_j01_f_1   0.01   0.00   1.0   0.0   3   0.10    0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs0_c10_j01_f_1   0.01   0.00   0.0   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs0_c10_j01_f_1   0.01   0.00   0.1   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs0_c10_j01_f_1   0.01   0.00   0.2   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs0_c10_j01_f_1   0.01   0.00   0.3   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs0_c10_j01_f_1   0.01   0.00   0.4   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs0_c10_j01_f_1   0.01   0.00   0.5   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs0_c10_j01_f_1   0.01   0.00   0.6   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs0_c10_j01_f_1   0.01   0.00   0.7   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs0_c10_j01_f_1   0.01   0.00   0.8   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs0_c10_j01_f_1   0.01   0.00   0.9   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs0_c10_j01_f_1   0.01   0.00   1.0   0.0   3   0.10    0.00    0.1 
 
 
 # varying dispersal, bs = 0.1, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs1_c20_j01_f_1   0.01   0.00   0.0   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs1_c20_j01_f_1   0.01   0.00   0.1   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs1_c20_j01_f_1   0.01   0.00   0.2   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs1_c20_j01_f_1   0.01   0.00   0.3   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs1_c20_j01_f_1   0.01   0.00   0.4   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs1_c20_j01_f_1   0.01   0.00   0.5   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs1_c20_j01_f_1   0.01   0.00   0.6   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs1_c20_j01_f_1   0.01   0.00   0.7   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs1_c20_j01_f_1   0.01   0.00   0.8   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs1_c20_j01_f_1   0.01   0.00   0.9   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs1_c20_j01_f_1   0.01   0.00   1.0   0.1   3   0.10    0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs1_c10_j01_f_1   0.01   0.00   0.0   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs1_c10_j01_f_1   0.01   0.00   0.1   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs1_c10_j01_f_1   0.01   0.00   0.2   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs1_c10_j01_f_1   0.01   0.00   0.3   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs1_c10_j01_f_1   0.01   0.00   0.4   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs1_c10_j01_f_1   0.01   0.00   0.5   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs1_c10_j01_f_1   0.01   0.00   0.6   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs1_c10_j01_f_1   0.01   0.00   0.7   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs1_c10_j01_f_1   0.01   0.00   0.8   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs1_c10_j01_f_1   0.01   0.00   0.9   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs1_c10_j01_f_1   0.01   0.00   1.0   0.1   3   0.10    0.00    0.1 
 
 
 # varying dispersal, bs = 0.2, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs2_c20_j01_f_1   0.01   0.00   0.0   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs2_c20_j01_f_1   0.01   0.00   0.1   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs2_c20_j01_f_1   0.01   0.00   0.2   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs2_c20_j01_f_1   0.01   0.00   0.3   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs2_c20_j01_f_1   0.01   0.00   0.4   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs2_c20_j01_f_1   0.01   0.00   0.5   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs2_c20_j01_f_1   0.01   0.00   0.6   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs2_c20_j01_f_1   0.01   0.00   0.7   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs2_c20_j01_f_1   0.01   0.00   0.8   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs2_c20_j01_f_1   0.01   0.00   0.9   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs2_c20_j01_f_1   0.01   0.00   1.0   0.2   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs2_c10_j01_f_1   0.01   0.00   0.0   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs2_c10_j01_f_1   0.01   0.00   0.1   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs2_c10_j01_f_1   0.01   0.00   0.2   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs2_c10_j01_f_1   0.01   0.00   0.3   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs2_c10_j01_f_1   0.01   0.00   0.4   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs2_c10_j01_f_1   0.01   0.00   0.5   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs2_c10_j01_f_1   0.01   0.00   0.6   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs2_c10_j01_f_1   0.01   0.00   0.7   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs2_c10_j01_f_1   0.01   0.00   0.8   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs2_c10_j01_f_1   0.01   0.00   0.9   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs2_c10_j01_f_1   0.01   0.00   1.0   0.2   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.3, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs3_c20_j01_f_1   0.01   0.00   0.0   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs3_c20_j01_f_1   0.01   0.00   0.1   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs3_c20_j01_f_1   0.01   0.00   0.2   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs3_c20_j01_f_1   0.01   0.00   0.3   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs3_c20_j01_f_1   0.01   0.00   0.4   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs3_c20_j01_f_1   0.01   0.00   0.5   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs3_c20_j01_f_1   0.01   0.00   0.6   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs3_c20_j01_f_1   0.01   0.00   0.7   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs3_c20_j01_f_1   0.01   0.00   0.8   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs3_c20_j01_f_1   0.01   0.00   0.9   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs3_c20_j01_f_1   0.01   0.00   1.0   0.3   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs3_c10_j01_f_1   0.01   0.00   0.0   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs3_c10_j01_f_1   0.01   0.00   0.1   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs3_c10_j01_f_1   0.01   0.00   0.2   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs3_c10_j01_f_1   0.01   0.00   0.3   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs3_c10_j01_f_1   0.01   0.00   0.4   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs3_c10_j01_f_1   0.01   0.00   0.5   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs3_c10_j01_f_1   0.01   0.00   0.6   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs3_c10_j01_f_1   0.01   0.00   0.7   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs3_c10_j01_f_1   0.01   0.00   0.8   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs3_c10_j01_f_1   0.01   0.00   0.9   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs3_c10_j01_f_1   0.01   0.00   1.0   0.3   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.4, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs4_c20_j01_f_1   0.01   0.00   0.0   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs4_c20_j01_f_1   0.01   0.00   0.1   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs4_c20_j01_f_1   0.01   0.00   0.2   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs4_c20_j01_f_1   0.01   0.00   0.3   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs4_c20_j01_f_1   0.01   0.00   0.4   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs4_c20_j01_f_1   0.01   0.00   0.5   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs4_c20_j01_f_1   0.01   0.00   0.6   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs4_c20_j01_f_1   0.01   0.00   0.7   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs4_c20_j01_f_1   0.01   0.00   0.8   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs4_c20_j01_f_1   0.01   0.00   0.9   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs4_c20_j01_f_1   0.01   0.00   1.0   0.4   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs4_c10_j01_f_1   0.01   0.00   0.0   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs4_c10_j01_f_1   0.01   0.00   0.1   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs4_c10_j01_f_1   0.01   0.00   0.2   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs4_c10_j01_f_1   0.01   0.00   0.3   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs4_c10_j01_f_1   0.01   0.00   0.4   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs4_c10_j01_f_1   0.01   0.00   0.5   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs4_c10_j01_f_1   0.01   0.00   0.6   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs4_c10_j01_f_1   0.01   0.00   0.7   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs4_c10_j01_f_1   0.01   0.00   0.8   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs4_c10_j01_f_1   0.01   0.00   0.9   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs4_c10_j01_f_1   0.01   0.00   1.0   0.4   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.5, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs5_c20_j01_f_1   0.01   0.00   0.0   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs5_c20_j01_f_1   0.01   0.00   0.1   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs5_c20_j01_f_1   0.01   0.00   0.2   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs5_c20_j01_f_1   0.01   0.00   0.3   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs5_c20_j01_f_1   0.01   0.00   0.4   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs5_c20_j01_f_1   0.01   0.00   0.5   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs5_c20_j01_f_1   0.01   0.00   0.6   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs5_c20_j01_f_1   0.01   0.00   0.7   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs5_c20_j01_f_1   0.01   0.00   0.8   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs5_c20_j01_f_1   0.01   0.00   0.9   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs5_c20_j01_f_1   0.01   0.00   1.0   0.5   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs5_c10_j01_f_1   0.01   0.00   0.0   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs5_c10_j01_f_1   0.01   0.00   0.1   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs5_c10_j01_f_1   0.01   0.00   0.2   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs5_c10_j01_f_1   0.01   0.00   0.3   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs5_c10_j01_f_1   0.01   0.00   0.4   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs5_c10_j01_f_1   0.01   0.00   0.5   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs5_c10_j01_f_1   0.01   0.00   0.6   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs5_c10_j01_f_1   0.01   0.00   0.7   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs5_c10_j01_f_1   0.01   0.00   0.8   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs5_c10_j01_f_1   0.01   0.00   0.9   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs5_c10_j01_f_1   0.01   0.00   1.0   0.5   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.6, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs6_c20_j01_f_1   0.01   0.00   0.0   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs6_c20_j01_f_1   0.01   0.00   0.1   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs6_c20_j01_f_1   0.01   0.00   0.2   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs6_c20_j01_f_1   0.01   0.00   0.3   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs6_c20_j01_f_1   0.01   0.00   0.4   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs6_c20_j01_f_1   0.01   0.00   0.5   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs6_c20_j01_f_1   0.01   0.00   0.6   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs6_c20_j01_f_1   0.01   0.00   0.7   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs6_c20_j01_f_1   0.01   0.00   0.8   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs6_c20_j01_f_1   0.01   0.00   0.9   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs6_c20_j01_f_1   0.01   0.00   1.0   0.6   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs6_c10_j01_f_1   0.01   0.00   0.0   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs6_c10_j01_f_1   0.01   0.00   0.1   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs6_c10_j01_f_1   0.01   0.00   0.2   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs6_c10_j01_f_1   0.01   0.00   0.3   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs6_c10_j01_f_1   0.01   0.00   0.4   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs6_c10_j01_f_1   0.01   0.00   0.5   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs6_c10_j01_f_1   0.01   0.00   0.6   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs6_c10_j01_f_1   0.01   0.00   0.7   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs6_c10_j01_f_1   0.01   0.00   0.8   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs6_c10_j01_f_1   0.01   0.00   0.9   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs6_c10_j01_f_1   0.01   0.00   1.0   0.6   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.7, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs7_c20_j01_f_1   0.01   0.00   0.0   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs7_c20_j01_f_1   0.01   0.00   0.1   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs7_c20_j01_f_1   0.01   0.00   0.2   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs7_c20_j01_f_1   0.01   0.00   0.3   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs7_c20_j01_f_1   0.01   0.00   0.4   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs7_c20_j01_f_1   0.01   0.00   0.5   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs7_c20_j01_f_1   0.01   0.00   0.6   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs7_c20_j01_f_1   0.01   0.00   0.7   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs7_c20_j01_f_1   0.01   0.00   0.8   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs7_c20_j01_f_1   0.01   0.00   0.9   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs7_c20_j01_f_1   0.01   0.00   1.0   0.7   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs7_c10_j01_f_1   0.01   0.00   0.0   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs7_c10_j01_f_1   0.01   0.00   0.1   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs7_c10_j01_f_1   0.01   0.00   0.2   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs7_c10_j01_f_1   0.01   0.00   0.3   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs7_c10_j01_f_1   0.01   0.00   0.4   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs7_c10_j01_f_1   0.01   0.00   0.5   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs7_c10_j01_f_1   0.01   0.00   0.6   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs7_c10_j01_f_1   0.01   0.00   0.7   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs7_c10_j01_f_1   0.01   0.00   0.8   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs7_c10_j01_f_1   0.01   0.00   0.9   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs7_c10_j01_f_1   0.01   0.00   1.0   0.7   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.8, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs8_c20_j01_f_1   0.01   0.00   0.0   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs8_c20_j01_f_1   0.01   0.00   0.1   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs8_c20_j01_f_1   0.01   0.00   0.2   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs8_c20_j01_f_1   0.01   0.00   0.3   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs8_c20_j01_f_1   0.01   0.00   0.4   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs8_c20_j01_f_1   0.01   0.00   0.5   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs8_c20_j01_f_1   0.01   0.00   0.6   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs8_c20_j01_f_1   0.01   0.00   0.7   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs8_c20_j01_f_1   0.01   0.00   0.8   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs8_c20_j01_f_1   0.01   0.00   0.9   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs8_c20_j01_f_1   0.01   0.00   1.0   0.8   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs8_c10_j01_f_1   0.01   0.00   0.0   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs8_c10_j01_f_1   0.01   0.00   0.1   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs8_c10_j01_f_1   0.01   0.00   0.2   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs8_c10_j01_f_1   0.01   0.00   0.3   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs8_c10_j01_f_1   0.01   0.00   0.4   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs8_c10_j01_f_1   0.01   0.00   0.5   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs8_c10_j01_f_1   0.01   0.00   0.6   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs8_c10_j01_f_1   0.01   0.00   0.7   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs8_c10_j01_f_1   0.01   0.00   0.8   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs8_c10_j01_f_1   0.01   0.00   0.9   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs8_c10_j01_f_1   0.01   0.00   1.0   0.8   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.9, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs9_c20_j01_f_1   0.01   0.00   0.0   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs9_c20_j01_f_1   0.01   0.00   0.1   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs9_c20_j01_f_1   0.01   0.00   0.2   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs9_c20_j01_f_1   0.01   0.00   0.3   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs9_c20_j01_f_1   0.01   0.00   0.4   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs9_c20_j01_f_1   0.01   0.00   0.5   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs9_c20_j01_f_1   0.01   0.00   0.6   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs9_c20_j01_f_1   0.01   0.00   0.7   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs9_c20_j01_f_1   0.01   0.00   0.8   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs9_c20_j01_f_1   0.01   0.00   0.9   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs9_c20_j01_f_1   0.01   0.00   1.0   0.9   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs9_c10_j01_f_1   0.01   0.00   0.0   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs9_c10_j01_f_1   0.01   0.00   0.1   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs9_c10_j01_f_1   0.01   0.00   0.2   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs9_c10_j01_f_1   0.01   0.00   0.3   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs9_c10_j01_f_1   0.01   0.00   0.4   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs9_c10_j01_f_1   0.01   0.00   0.5   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs9_c10_j01_f_1   0.01   0.00   0.6   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs9_c10_j01_f_1   0.01   0.00   0.7   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs9_c10_j01_f_1   0.01   0.00   0.8   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs9_c10_j01_f_1   0.01   0.00   0.9   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs9_c10_j01_f_1   0.01   0.00   1.0   0.9   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 1.0, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs10_c20_j01_f_1   0.01   0.00   0.0   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs10_c20_j01_f_1   0.01   0.00   0.1   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs10_c20_j01_f_1   0.01   0.00   0.2   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs10_c20_j01_f_1   0.01   0.00   0.3   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs10_c20_j01_f_1   0.01   0.00   0.4   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs10_c20_j01_f_1   0.01   0.00   0.5   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs10_c20_j01_f_1   0.01   0.00   0.6   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs10_c20_j01_f_1   0.01   0.00   0.7   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs10_c20_j01_f_1   0.01   0.00   0.8   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs10_c20_j01_f_1   0.01   0.00   0.9   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs10_c20_j01_f_1   0.01   0.00   1.0   1.0   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs10_c10_j01_f_1   0.01   0.00   0.0   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs10_c10_j01_f_1   0.01   0.00   0.1   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs10_c10_j01_f_1   0.01   0.00   0.2   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs10_c10_j01_f_1   0.01   0.00   0.3   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs10_c10_j01_f_1   0.01   0.00   0.4   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs10_c10_j01_f_1   0.01   0.00   0.5   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs10_c10_j01_f_1   0.01   0.00   0.6   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs10_c10_j01_f_1   0.01   0.00   0.7   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs10_c10_j01_f_1   0.01   0.00   0.8   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs10_c10_j01_f_1   0.01   0.00   0.9   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs10_c10_j01_f_1   0.01   0.00   1.0   1.0   3   0.10    0.00    0.1
 
 
 
@@ -518,167 +518,167 @@
 
 # varying dispersal, bs = 0.0, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs0_c02_j01_f_2   0.01   0.00   0.0   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs0_c02_j01_f_2   0.01   0.00   0.1   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs0_c02_j01_f_2   0.01   0.00   0.2   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs0_c02_j01_f_2   0.01   0.00   0.3   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs0_c02_j01_f_2   0.01   0.00   0.4   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs0_c02_j01_f_2   0.01   0.00   0.5   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs0_c02_j01_f_2   0.01   0.00   0.6   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs0_c02_j01_f_2   0.01   0.00   0.7   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs0_c02_j01_f_2   0.01   0.00   0.8   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs0_c02_j01_f_2   0.01   0.00   0.9   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs0_c02_j01_f_2   0.01   0.00   1.0   0.0   3   0.1667  0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs0_c06_j01_f_2   0.01   0.00   0.0   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs0_c06_j01_f_2   0.01   0.00   0.1   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs0_c06_j01_f_2   0.01   0.00   0.2   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs0_c06_j01_f_2   0.01   0.00   0.3   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs0_c06_j01_f_2   0.01   0.00   0.4   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs0_c06_j01_f_2   0.01   0.00   0.5   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs0_c06_j01_f_2   0.01   0.00   0.6   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs0_c06_j01_f_2   0.01   0.00   0.7   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs0_c06_j01_f_2   0.01   0.00   0.8   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs0_c06_j01_f_2   0.01   0.00   0.9   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs0_c06_j01_f_2   0.01   0.00   1.0   0.0   3   0.1667  0.00    0.1 
 
 
 # varying dispersal, bs = 0.1, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs1_c02_j01_f_2   0.01   0.00   0.0   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs1_c02_j01_f_2   0.01   0.00   0.1   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs1_c02_j01_f_2   0.01   0.00   0.2   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs1_c02_j01_f_2   0.01   0.00   0.3   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs1_c02_j01_f_2   0.01   0.00   0.4   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs1_c02_j01_f_2   0.01   0.00   0.5   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs1_c02_j01_f_2   0.01   0.00   0.6   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs1_c02_j01_f_2   0.01   0.00   0.7   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs1_c02_j01_f_2   0.01   0.00   0.8   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs1_c02_j01_f_2   0.01   0.00   0.9   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs1_c02_j01_f_2   0.01   0.00   1.0   0.1   3   0.1667  0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs1_c06_j01_f_2   0.01   0.00   0.0   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs1_c06_j01_f_2   0.01   0.00   0.1   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs1_c06_j01_f_2   0.01   0.00   0.2   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs1_c06_j01_f_2   0.01   0.00   0.3   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs1_c06_j01_f_2   0.01   0.00   0.4   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs1_c06_j01_f_2   0.01   0.00   0.5   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs1_c06_j01_f_2   0.01   0.00   0.6   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs1_c06_j01_f_2   0.01   0.00   0.7   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs1_c06_j01_f_2   0.01   0.00   0.8   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs1_c06_j01_f_2   0.01   0.00   0.9   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs1_c06_j01_f_2   0.01   0.00   1.0   0.1   3   0.1667  0.00    0.1 
 
 
 # varying dispersal, bs = 0.2, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs2_c02_j01_f_2   0.01   0.00   0.0   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs2_c02_j01_f_2   0.01   0.00   0.1   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs2_c02_j01_f_2   0.01   0.00   0.2   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs2_c02_j01_f_2   0.01   0.00   0.3   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs2_c02_j01_f_2   0.01   0.00   0.4   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs2_c02_j01_f_2   0.01   0.00   0.5   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs2_c02_j01_f_2   0.01   0.00   0.6   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs2_c02_j01_f_2   0.01   0.00   0.7   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs2_c02_j01_f_2   0.01   0.00   0.8   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs2_c02_j01_f_2   0.01   0.00   0.9   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs2_c02_j01_f_2   0.01   0.00   1.0   0.2   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs2_c06_j01_f_2   0.01   0.00   0.0   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs2_c06_j01_f_2   0.01   0.00   0.1   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs2_c06_j01_f_2   0.01   0.00   0.2   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs2_c06_j01_f_2   0.01   0.00   0.3   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs2_c06_j01_f_2   0.01   0.00   0.4   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs2_c06_j01_f_2   0.01   0.00   0.5   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs2_c06_j01_f_2   0.01   0.00   0.6   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs2_c06_j01_f_2   0.01   0.00   0.7   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs2_c06_j01_f_2   0.01   0.00   0.8   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs2_c06_j01_f_2   0.01   0.00   0.9   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs2_c06_j01_f_2   0.01   0.00   1.0   0.2   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.3, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs3_c02_j01_f_2   0.01   0.00   0.0   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs3_c02_j01_f_2   0.01   0.00   0.1   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs3_c02_j01_f_2   0.01   0.00   0.2   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs3_c02_j01_f_2   0.01   0.00   0.3   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs3_c02_j01_f_2   0.01   0.00   0.4   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs3_c02_j01_f_2   0.01   0.00   0.5   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs3_c02_j01_f_2   0.01   0.00   0.6   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs3_c02_j01_f_2   0.01   0.00   0.7   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs3_c02_j01_f_2   0.01   0.00   0.8   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs3_c02_j01_f_2   0.01   0.00   0.9   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs3_c02_j01_f_2   0.01   0.00   1.0   0.3   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs3_c06_j01_f_2   0.01   0.00   0.0   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs3_c06_j01_f_2   0.01   0.00   0.1   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs3_c06_j01_f_2   0.01   0.00   0.2   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs3_c06_j01_f_2   0.01   0.00   0.3   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs3_c06_j01_f_2   0.01   0.00   0.4   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs3_c06_j01_f_2   0.01   0.00   0.5   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs3_c06_j01_f_2   0.01   0.00   0.6   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs3_c06_j01_f_2   0.01   0.00   0.7   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs3_c06_j01_f_2   0.01   0.00   0.8   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs3_c06_j01_f_2   0.01   0.00   0.9   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs3_c06_j01_f_2   0.01   0.00   1.0   0.3   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.4, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs4_c02_j01_f_2   0.01   0.00   0.0   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs4_c02_j01_f_2   0.01   0.00   0.1   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs4_c02_j01_f_2   0.01   0.00   0.2   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs4_c02_j01_f_2   0.01   0.00   0.3   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs4_c02_j01_f_2   0.01   0.00   0.4   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs4_c02_j01_f_2   0.01   0.00   0.5   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs4_c02_j01_f_2   0.01   0.00   0.6   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs4_c02_j01_f_2   0.01   0.00   0.7   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs4_c02_j01_f_2   0.01   0.00   0.8   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs4_c02_j01_f_2   0.01   0.00   0.9   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs4_c02_j01_f_2   0.01   0.00   1.0   0.4   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs4_c06_j01_f_2   0.01   0.00   0.0   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs4_c06_j01_f_2   0.01   0.00   0.1   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs4_c06_j01_f_2   0.01   0.00   0.2   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs4_c06_j01_f_2   0.01   0.00   0.3   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs4_c06_j01_f_2   0.01   0.00   0.4   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs4_c06_j01_f_2   0.01   0.00   0.5   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs4_c06_j01_f_2   0.01   0.00   0.6   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs4_c06_j01_f_2   0.01   0.00   0.7   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs4_c06_j01_f_2   0.01   0.00   0.8   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs4_c06_j01_f_2   0.01   0.00   0.9   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs4_c06_j01_f_2   0.01   0.00   1.0   0.4   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.5, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs5_c02_j01_f_2   0.01   0.00   0.0   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs5_c02_j01_f_2   0.01   0.00   0.1   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs5_c02_j01_f_2   0.01   0.00   0.2   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs5_c02_j01_f_2   0.01   0.00   0.3   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs5_c02_j01_f_2   0.01   0.00   0.4   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs5_c02_j01_f_2   0.01   0.00   0.5   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs5_c02_j01_f_2   0.01   0.00   0.6   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs5_c02_j01_f_2   0.01   0.00   0.7   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs5_c02_j01_f_2   0.01   0.00   0.8   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs5_c02_j01_f_2   0.01   0.00   0.9   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs5_c02_j01_f_2   0.01   0.00   1.0   0.5   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs5_c06_j01_f_2   0.01   0.00   0.0   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs5_c06_j01_f_2   0.01   0.00   0.1   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs5_c06_j01_f_2   0.01   0.00   0.2   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs5_c06_j01_f_2   0.01   0.00   0.3   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs5_c06_j01_f_2   0.01   0.00   0.4   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs5_c06_j01_f_2   0.01   0.00   0.5   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs5_c06_j01_f_2   0.01   0.00   0.6   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs5_c06_j01_f_2   0.01   0.00   0.7   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs5_c06_j01_f_2   0.01   0.00   0.8   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs5_c06_j01_f_2   0.01   0.00   0.9   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs5_c06_j01_f_2   0.01   0.00   1.0   0.5   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.6, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs6_c02_j01_f_2   0.01   0.00   0.0   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs6_c02_j01_f_2   0.01   0.00   0.1   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs6_c02_j01_f_2   0.01   0.00   0.2   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs6_c02_j01_f_2   0.01   0.00   0.3   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs6_c02_j01_f_2   0.01   0.00   0.4   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs6_c02_j01_f_2   0.01   0.00   0.5   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs6_c02_j01_f_2   0.01   0.00   0.6   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs6_c02_j01_f_2   0.01   0.00   0.7   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs6_c02_j01_f_2   0.01   0.00   0.8   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs6_c02_j01_f_2   0.01   0.00   0.9   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs6_c02_j01_f_2   0.01   0.00   1.0   0.6   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs6_c06_j01_f_2   0.01   0.00   0.0   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs6_c06_j01_f_2   0.01   0.00   0.1   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs6_c06_j01_f_2   0.01   0.00   0.2   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs6_c06_j01_f_2   0.01   0.00   0.3   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs6_c06_j01_f_2   0.01   0.00   0.4   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs6_c06_j01_f_2   0.01   0.00   0.5   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs6_c06_j01_f_2   0.01   0.00   0.6   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs6_c06_j01_f_2   0.01   0.00   0.7   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs6_c06_j01_f_2   0.01   0.00   0.8   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs6_c06_j01_f_2   0.01   0.00   0.9   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs6_c06_j01_f_2   0.01   0.00   1.0   0.6   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.7, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs7_c02_j01_f_2   0.01   0.00   0.0   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs7_c02_j01_f_2   0.01   0.00   0.1   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs7_c02_j01_f_2   0.01   0.00   0.2   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs7_c02_j01_f_2   0.01   0.00   0.3   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs7_c02_j01_f_2   0.01   0.00   0.4   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs7_c02_j01_f_2   0.01   0.00   0.5   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs7_c02_j01_f_2   0.01   0.00   0.6   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs7_c02_j01_f_2   0.01   0.00   0.7   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs7_c02_j01_f_2   0.01   0.00   0.8   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs7_c02_j01_f_2   0.01   0.00   0.9   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs7_c02_j01_f_2   0.01   0.00   1.0   0.7   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs7_c06_j01_f_2   0.01   0.00   0.0   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs7_c06_j01_f_2   0.01   0.00   0.1   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs7_c06_j01_f_2   0.01   0.00   0.2   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs7_c06_j01_f_2   0.01   0.00   0.3   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs7_c06_j01_f_2   0.01   0.00   0.4   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs7_c06_j01_f_2   0.01   0.00   0.5   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs7_c06_j01_f_2   0.01   0.00   0.6   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs7_c06_j01_f_2   0.01   0.00   0.7   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs7_c06_j01_f_2   0.01   0.00   0.8   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs7_c06_j01_f_2   0.01   0.00   0.9   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs7_c06_j01_f_2   0.01   0.00   1.0   0.7   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.8, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs8_c02_j01_f_2   0.01   0.00   0.0   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs8_c02_j01_f_2   0.01   0.00   0.1   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs8_c02_j01_f_2   0.01   0.00   0.2   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs8_c02_j01_f_2   0.01   0.00   0.3   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs8_c02_j01_f_2   0.01   0.00   0.4   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs8_c02_j01_f_2   0.01   0.00   0.5   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs8_c02_j01_f_2   0.01   0.00   0.6   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs8_c02_j01_f_2   0.01   0.00   0.7   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs8_c02_j01_f_2   0.01   0.00   0.8   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs8_c02_j01_f_2   0.01   0.00   0.9   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs8_c02_j01_f_2   0.01   0.00   1.0   0.8   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs8_c06_j01_f_2   0.01   0.00   0.0   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs8_c06_j01_f_2   0.01   0.00   0.1   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs8_c06_j01_f_2   0.01   0.00   0.2   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs8_c06_j01_f_2   0.01   0.00   0.3   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs8_c06_j01_f_2   0.01   0.00   0.4   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs8_c06_j01_f_2   0.01   0.00   0.5   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs8_c06_j01_f_2   0.01   0.00   0.6   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs8_c06_j01_f_2   0.01   0.00   0.7   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs8_c06_j01_f_2   0.01   0.00   0.8   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs8_c06_j01_f_2   0.01   0.00   0.9   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs8_c06_j01_f_2   0.01   0.00   1.0   0.8   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.9, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs9_c02_j01_f_2   0.01   0.00   0.0   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs9_c02_j01_f_2   0.01   0.00   0.1   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs9_c02_j01_f_2   0.01   0.00   0.2   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs9_c02_j01_f_2   0.01   0.00   0.3   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs9_c02_j01_f_2   0.01   0.00   0.4   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs9_c02_j01_f_2   0.01   0.00   0.5   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs9_c02_j01_f_2   0.01   0.00   0.6   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs9_c02_j01_f_2   0.01   0.00   0.7   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs9_c02_j01_f_2   0.01   0.00   0.8   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs9_c02_j01_f_2   0.01   0.00   0.9   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs9_c02_j01_f_2   0.01   0.00   1.0   0.9   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs9_c06_j01_f_2   0.01   0.00   0.0   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs9_c06_j01_f_2   0.01   0.00   0.1   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs9_c06_j01_f_2   0.01   0.00   0.2   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs9_c06_j01_f_2   0.01   0.00   0.3   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs9_c06_j01_f_2   0.01   0.00   0.4   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs9_c06_j01_f_2   0.01   0.00   0.5   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs9_c06_j01_f_2   0.01   0.00   0.6   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs9_c06_j01_f_2   0.01   0.00   0.7   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs9_c06_j01_f_2   0.01   0.00   0.8   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs9_c06_j01_f_2   0.01   0.00   0.9   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs9_c06_j01_f_2   0.01   0.00   1.0   0.9   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 1.0, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs10_c02_j01_f_2   0.01   0.00   0.0   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs10_c02_j01_f_2   0.01   0.00   0.1   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs10_c02_j01_f_2   0.01   0.00   0.2   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs10_c02_j01_f_2   0.01   0.00   0.3   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs10_c02_j01_f_2   0.01   0.00   0.4   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs10_c02_j01_f_2   0.01   0.00   0.5   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs10_c02_j01_f_2   0.01   0.00   0.6   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs10_c02_j01_f_2   0.01   0.00   0.7   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs10_c02_j01_f_2   0.01   0.00   0.8   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs10_c02_j01_f_2   0.01   0.00   0.9   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs10_c02_j01_f_2   0.01   0.00   1.0   1.0   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs10_c06_j01_f_2   0.01   0.00   0.0   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs10_c06_j01_f_2   0.01   0.00   0.1   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs10_c06_j01_f_2   0.01   0.00   0.2   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs10_c06_j01_f_2   0.01   0.00   0.3   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs10_c06_j01_f_2   0.01   0.00   0.4   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs10_c06_j01_f_2   0.01   0.00   0.5   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs10_c06_j01_f_2   0.01   0.00   0.6   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs10_c06_j01_f_2   0.01   0.00   0.7   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs10_c06_j01_f_2   0.01   0.00   0.8   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs10_c06_j01_f_2   0.01   0.00   0.9   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs10_c06_j01_f_2   0.01   0.00   1.0   1.0   3   0.1667  0.00    0.1
 
 
 # ________________________________________________________________________________________________________________
@@ -686,167 +686,167 @@
 
 # varying dispersal, bs = 0.0, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs0_c05_j01_f_2   0.01   0.00   0.0   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs0_c05_j01_f_2   0.01   0.00   0.1   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs0_c05_j01_f_2   0.01   0.00   0.2   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs0_c05_j01_f_2   0.01   0.00   0.3   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs0_c05_j01_f_2   0.01   0.00   0.4   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs0_c05_j01_f_2   0.01   0.00   0.5   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs0_c05_j01_f_2   0.01   0.00   0.6   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs0_c05_j01_f_2   0.01   0.00   0.7   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs0_c05_j01_f_2   0.01   0.00   0.8   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs0_c05_j01_f_2   0.01   0.00   0.9   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs0_c05_j01_f_2   0.01   0.00   1.0   0.0   3   0.125   0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs0_c08_j01_f_2   0.01   0.00   0.0   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs0_c08_j01_f_2   0.01   0.00   0.1   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs0_c08_j01_f_2   0.01   0.00   0.2   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs0_c08_j01_f_2   0.01   0.00   0.3   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs0_c08_j01_f_2   0.01   0.00   0.4   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs0_c08_j01_f_2   0.01   0.00   0.5   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs0_c08_j01_f_2   0.01   0.00   0.6   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs0_c08_j01_f_2   0.01   0.00   0.7   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs0_c08_j01_f_2   0.01   0.00   0.8   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs0_c08_j01_f_2   0.01   0.00   0.9   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs0_c08_j01_f_2   0.01   0.00   1.0   0.0   3   0.125   0.00    0.1 
 
 
 # varying dispersal, bs = 0.1, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs1_c05_j01_f_2   0.01   0.00   0.0   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs1_c05_j01_f_2   0.01   0.00   0.1   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs1_c05_j01_f_2   0.01   0.00   0.2   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs1_c05_j01_f_2   0.01   0.00   0.3   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs1_c05_j01_f_2   0.01   0.00   0.4   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs1_c05_j01_f_2   0.01   0.00   0.5   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs1_c05_j01_f_2   0.01   0.00   0.6   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs1_c05_j01_f_2   0.01   0.00   0.7   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs1_c05_j01_f_2   0.01   0.00   0.8   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs1_c05_j01_f_2   0.01   0.00   0.9   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs1_c05_j01_f_2   0.01   0.00   1.0   0.1   3   0.125   0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs1_c08_j01_f_2   0.01   0.00   0.0   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs1_c08_j01_f_2   0.01   0.00   0.1   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs1_c08_j01_f_2   0.01   0.00   0.2   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs1_c08_j01_f_2   0.01   0.00   0.3   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs1_c08_j01_f_2   0.01   0.00   0.4   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs1_c08_j01_f_2   0.01   0.00   0.5   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs1_c08_j01_f_2   0.01   0.00   0.6   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs1_c08_j01_f_2   0.01   0.00   0.7   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs1_c08_j01_f_2   0.01   0.00   0.8   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs1_c08_j01_f_2   0.01   0.00   0.9   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs1_c08_j01_f_2   0.01   0.00   1.0   0.1   3   0.125   0.00    0.1 
 
 
 # varying dispersal, bs = 0.2, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs2_c05_j01_f_2   0.01   0.00   0.0   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs2_c05_j01_f_2   0.01   0.00   0.1   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs2_c05_j01_f_2   0.01   0.00   0.2   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs2_c05_j01_f_2   0.01   0.00   0.3   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs2_c05_j01_f_2   0.01   0.00   0.4   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs2_c05_j01_f_2   0.01   0.00   0.5   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs2_c05_j01_f_2   0.01   0.00   0.6   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs2_c05_j01_f_2   0.01   0.00   0.7   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs2_c05_j01_f_2   0.01   0.00   0.8   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs2_c05_j01_f_2   0.01   0.00   0.9   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs2_c05_j01_f_2   0.01   0.00   1.0   0.2   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs2_c08_j01_f_2   0.01   0.00   0.0   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs2_c08_j01_f_2   0.01   0.00   0.1   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs2_c08_j01_f_2   0.01   0.00   0.2   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs2_c08_j01_f_2   0.01   0.00   0.3   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs2_c08_j01_f_2   0.01   0.00   0.4   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs2_c08_j01_f_2   0.01   0.00   0.5   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs2_c08_j01_f_2   0.01   0.00   0.6   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs2_c08_j01_f_2   0.01   0.00   0.7   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs2_c08_j01_f_2   0.01   0.00   0.8   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs2_c08_j01_f_2   0.01   0.00   0.9   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs2_c08_j01_f_2   0.01   0.00   1.0   0.2   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.3, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs3_c05_j01_f_2   0.01   0.00   0.0   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs3_c05_j01_f_2   0.01   0.00   0.1   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs3_c05_j01_f_2   0.01   0.00   0.2   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs3_c05_j01_f_2   0.01   0.00   0.3   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs3_c05_j01_f_2   0.01   0.00   0.4   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs3_c05_j01_f_2   0.01   0.00   0.5   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs3_c05_j01_f_2   0.01   0.00   0.6   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs3_c05_j01_f_2   0.01   0.00   0.7   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs3_c05_j01_f_2   0.01   0.00   0.8   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs3_c05_j01_f_2   0.01   0.00   0.9   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs3_c05_j01_f_2   0.01   0.00   1.0   0.3   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs3_c08_j01_f_2   0.01   0.00   0.0   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs3_c08_j01_f_2   0.01   0.00   0.1   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs3_c08_j01_f_2   0.01   0.00   0.2   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs3_c08_j01_f_2   0.01   0.00   0.3   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs3_c08_j01_f_2   0.01   0.00   0.4   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs3_c08_j01_f_2   0.01   0.00   0.5   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs3_c08_j01_f_2   0.01   0.00   0.6   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs3_c08_j01_f_2   0.01   0.00   0.7   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs3_c08_j01_f_2   0.01   0.00   0.8   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs3_c08_j01_f_2   0.01   0.00   0.9   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs3_c08_j01_f_2   0.01   0.00   1.0   0.3   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.4, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs4_c05_j01_f_2   0.01   0.00   0.0   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs4_c05_j01_f_2   0.01   0.00   0.1   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs4_c05_j01_f_2   0.01   0.00   0.2   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs4_c05_j01_f_2   0.01   0.00   0.3   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs4_c05_j01_f_2   0.01   0.00   0.4   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs4_c05_j01_f_2   0.01   0.00   0.5   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs4_c05_j01_f_2   0.01   0.00   0.6   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs4_c05_j01_f_2   0.01   0.00   0.7   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs4_c05_j01_f_2   0.01   0.00   0.8   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs4_c05_j01_f_2   0.01   0.00   0.9   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs4_c05_j01_f_2   0.01   0.00   1.0   0.4   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs4_c08_j01_f_2   0.01   0.00   0.0   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs4_c08_j01_f_2   0.01   0.00   0.1   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs4_c08_j01_f_2   0.01   0.00   0.2   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs4_c08_j01_f_2   0.01   0.00   0.3   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs4_c08_j01_f_2   0.01   0.00   0.4   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs4_c08_j01_f_2   0.01   0.00   0.5   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs4_c08_j01_f_2   0.01   0.00   0.6   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs4_c08_j01_f_2   0.01   0.00   0.7   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs4_c08_j01_f_2   0.01   0.00   0.8   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs4_c08_j01_f_2   0.01   0.00   0.9   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs4_c08_j01_f_2   0.01   0.00   1.0   0.4   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.5, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs5_c05_j01_f_2   0.01   0.00   0.0   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs5_c05_j01_f_2   0.01   0.00   0.1   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs5_c05_j01_f_2   0.01   0.00   0.2   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs5_c05_j01_f_2   0.01   0.00   0.3   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs5_c05_j01_f_2   0.01   0.00   0.4   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs5_c05_j01_f_2   0.01   0.00   0.5   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs5_c05_j01_f_2   0.01   0.00   0.6   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs5_c05_j01_f_2   0.01   0.00   0.7   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs5_c05_j01_f_2   0.01   0.00   0.8   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs5_c05_j01_f_2   0.01   0.00   0.9   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs5_c05_j01_f_2   0.01   0.00   1.0   0.5   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs5_c08_j01_f_2   0.01   0.00   0.0   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs5_c08_j01_f_2   0.01   0.00   0.1   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs5_c08_j01_f_2   0.01   0.00   0.2   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs5_c08_j01_f_2   0.01   0.00   0.3   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs5_c08_j01_f_2   0.01   0.00   0.4   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs5_c08_j01_f_2   0.01   0.00   0.5   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs5_c08_j01_f_2   0.01   0.00   0.6   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs5_c08_j01_f_2   0.01   0.00   0.7   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs5_c08_j01_f_2   0.01   0.00   0.8   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs5_c08_j01_f_2   0.01   0.00   0.9   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs5_c08_j01_f_2   0.01   0.00   1.0   0.5   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.6, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs6_c05_j01_f_2   0.01   0.00   0.0   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs6_c05_j01_f_2   0.01   0.00   0.1   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs6_c05_j01_f_2   0.01   0.00   0.2   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs6_c05_j01_f_2   0.01   0.00   0.3   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs6_c05_j01_f_2   0.01   0.00   0.4   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs6_c05_j01_f_2   0.01   0.00   0.5   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs6_c05_j01_f_2   0.01   0.00   0.6   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs6_c05_j01_f_2   0.01   0.00   0.7   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs6_c05_j01_f_2   0.01   0.00   0.8   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs6_c05_j01_f_2   0.01   0.00   0.9   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs6_c05_j01_f_2   0.01   0.00   1.0   0.6   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs6_c08_j01_f_2   0.01   0.00   0.0   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs6_c08_j01_f_2   0.01   0.00   0.1   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs6_c08_j01_f_2   0.01   0.00   0.2   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs6_c08_j01_f_2   0.01   0.00   0.3   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs6_c08_j01_f_2   0.01   0.00   0.4   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs6_c08_j01_f_2   0.01   0.00   0.5   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs6_c08_j01_f_2   0.01   0.00   0.6   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs6_c08_j01_f_2   0.01   0.00   0.7   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs6_c08_j01_f_2   0.01   0.00   0.8   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs6_c08_j01_f_2   0.01   0.00   0.9   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs6_c08_j01_f_2   0.01   0.00   1.0   0.6   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.7, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs7_c05_j01_f_2   0.01   0.00   0.0   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs7_c05_j01_f_2   0.01   0.00   0.1   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs7_c05_j01_f_2   0.01   0.00   0.2   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs7_c05_j01_f_2   0.01   0.00   0.3   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs7_c05_j01_f_2   0.01   0.00   0.4   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs7_c05_j01_f_2   0.01   0.00   0.5   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs7_c05_j01_f_2   0.01   0.00   0.6   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs7_c05_j01_f_2   0.01   0.00   0.7   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs7_c05_j01_f_2   0.01   0.00   0.8   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs7_c05_j01_f_2   0.01   0.00   0.9   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs7_c05_j01_f_2   0.01   0.00   1.0   0.7   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs7_c08_j01_f_2   0.01   0.00   0.0   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs7_c08_j01_f_2   0.01   0.00   0.1   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs7_c08_j01_f_2   0.01   0.00   0.2   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs7_c08_j01_f_2   0.01   0.00   0.3   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs7_c08_j01_f_2   0.01   0.00   0.4   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs7_c08_j01_f_2   0.01   0.00   0.5   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs7_c08_j01_f_2   0.01   0.00   0.6   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs7_c08_j01_f_2   0.01   0.00   0.7   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs7_c08_j01_f_2   0.01   0.00   0.8   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs7_c08_j01_f_2   0.01   0.00   0.9   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs7_c08_j01_f_2   0.01   0.00   1.0   0.7   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.8, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs8_c05_j01_f_2   0.01   0.00   0.0   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs8_c05_j01_f_2   0.01   0.00   0.1   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs8_c05_j01_f_2   0.01   0.00   0.2   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs8_c05_j01_f_2   0.01   0.00   0.3   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs8_c05_j01_f_2   0.01   0.00   0.4   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs8_c05_j01_f_2   0.01   0.00   0.5   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs8_c05_j01_f_2   0.01   0.00   0.6   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs8_c05_j01_f_2   0.01   0.00   0.7   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs8_c05_j01_f_2   0.01   0.00   0.8   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs8_c05_j01_f_2   0.01   0.00   0.9   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs8_c05_j01_f_2   0.01   0.00   1.0   0.8   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs8_c08_j01_f_2   0.01   0.00   0.0   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs8_c08_j01_f_2   0.01   0.00   0.1   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs8_c08_j01_f_2   0.01   0.00   0.2   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs8_c08_j01_f_2   0.01   0.00   0.3   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs8_c08_j01_f_2   0.01   0.00   0.4   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs8_c08_j01_f_2   0.01   0.00   0.5   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs8_c08_j01_f_2   0.01   0.00   0.6   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs8_c08_j01_f_2   0.01   0.00   0.7   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs8_c08_j01_f_2   0.01   0.00   0.8   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs8_c08_j01_f_2   0.01   0.00   0.9   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs8_c08_j01_f_2   0.01   0.00   1.0   0.8   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.9, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs9_c05_j01_f_2   0.01   0.00   0.0   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs9_c05_j01_f_2   0.01   0.00   0.1   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs9_c05_j01_f_2   0.01   0.00   0.2   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs9_c05_j01_f_2   0.01   0.00   0.3   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs9_c05_j01_f_2   0.01   0.00   0.4   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs9_c05_j01_f_2   0.01   0.00   0.5   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs9_c05_j01_f_2   0.01   0.00   0.6   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs9_c05_j01_f_2   0.01   0.00   0.7   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs9_c05_j01_f_2   0.01   0.00   0.8   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs9_c05_j01_f_2   0.01   0.00   0.9   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs9_c05_j01_f_2   0.01   0.00   1.0   0.9   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs9_c08_j01_f_2   0.01   0.00   0.0   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs9_c08_j01_f_2   0.01   0.00   0.1   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs9_c08_j01_f_2   0.01   0.00   0.2   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs9_c08_j01_f_2   0.01   0.00   0.3   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs9_c08_j01_f_2   0.01   0.00   0.4   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs9_c08_j01_f_2   0.01   0.00   0.5   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs9_c08_j01_f_2   0.01   0.00   0.6   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs9_c08_j01_f_2   0.01   0.00   0.7   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs9_c08_j01_f_2   0.01   0.00   0.8   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs9_c08_j01_f_2   0.01   0.00   0.9   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs9_c08_j01_f_2   0.01   0.00   1.0   0.9   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 1.0, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs10_c05_j01_f_2   0.01   0.00   0.0   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs10_c05_j01_f_2   0.01   0.00   0.1   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs10_c05_j01_f_2   0.01   0.00   0.2   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs10_c05_j01_f_2   0.01   0.00   0.3   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs10_c05_j01_f_2   0.01   0.00   0.4   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs10_c05_j01_f_2   0.01   0.00   0.5   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs10_c05_j01_f_2   0.01   0.00   0.6   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs10_c05_j01_f_2   0.01   0.00   0.7   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs10_c05_j01_f_2   0.01   0.00   0.8   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs10_c05_j01_f_2   0.01   0.00   0.9   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs10_c05_j01_f_2   0.01   0.00   1.0   1.0   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs10_c08_j01_f_2   0.01   0.00   0.0   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs10_c08_j01_f_2   0.01   0.00   0.1   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs10_c08_j01_f_2   0.01   0.00   0.2   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs10_c08_j01_f_2   0.01   0.00   0.3   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs10_c08_j01_f_2   0.01   0.00   0.4   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs10_c08_j01_f_2   0.01   0.00   0.5   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs10_c08_j01_f_2   0.01   0.00   0.6   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs10_c08_j01_f_2   0.01   0.00   0.7   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs10_c08_j01_f_2   0.01   0.00   0.8   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs10_c08_j01_f_2   0.01   0.00   0.9   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs10_c08_j01_f_2   0.01   0.00   1.0   1.0   3   0.125   0.00    0.1
 
 
 # ________________________________________________________________________________________________________________
@@ -854,167 +854,167 @@
 
 # varying dispersal, bs = 0.0, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs0_c20_j01_f_2   0.01   0.00   0.0   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs0_c20_j01_f_2   0.01   0.00   0.1   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs0_c20_j01_f_2   0.01   0.00   0.2   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs0_c20_j01_f_2   0.01   0.00   0.3   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs0_c20_j01_f_2   0.01   0.00   0.4   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs0_c20_j01_f_2   0.01   0.00   0.5   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs0_c20_j01_f_2   0.01   0.00   0.6   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs0_c20_j01_f_2   0.01   0.00   0.7   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs0_c20_j01_f_2   0.01   0.00   0.8   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs0_c20_j01_f_2   0.01   0.00   0.9   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs0_c20_j01_f_2   0.01   0.00   1.0   0.0   3   0.10    0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs0_c10_j01_f_2   0.01   0.00   0.0   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs0_c10_j01_f_2   0.01   0.00   0.1   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs0_c10_j01_f_2   0.01   0.00   0.2   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs0_c10_j01_f_2   0.01   0.00   0.3   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs0_c10_j01_f_2   0.01   0.00   0.4   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs0_c10_j01_f_2   0.01   0.00   0.5   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs0_c10_j01_f_2   0.01   0.00   0.6   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs0_c10_j01_f_2   0.01   0.00   0.7   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs0_c10_j01_f_2   0.01   0.00   0.8   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs0_c10_j01_f_2   0.01   0.00   0.9   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs0_c10_j01_f_2   0.01   0.00   1.0   0.0   3   0.10    0.00    0.1 
 
 
 # varying dispersal, bs = 0.1, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs1_c20_j01_f_2   0.01   0.00   0.0   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs1_c20_j01_f_2   0.01   0.00   0.1   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs1_c20_j01_f_2   0.01   0.00   0.2   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs1_c20_j01_f_2   0.01   0.00   0.3   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs1_c20_j01_f_2   0.01   0.00   0.4   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs1_c20_j01_f_2   0.01   0.00   0.5   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs1_c20_j01_f_2   0.01   0.00   0.6   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs1_c20_j01_f_2   0.01   0.00   0.7   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs1_c20_j01_f_2   0.01   0.00   0.8   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs1_c20_j01_f_2   0.01   0.00   0.9   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs1_c20_j01_f_2   0.01   0.00   1.0   0.1   3   0.10    0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs1_c10_j01_f_2   0.01   0.00   0.0   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs1_c10_j01_f_2   0.01   0.00   0.1   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs1_c10_j01_f_2   0.01   0.00   0.2   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs1_c10_j01_f_2   0.01   0.00   0.3   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs1_c10_j01_f_2   0.01   0.00   0.4   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs1_c10_j01_f_2   0.01   0.00   0.5   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs1_c10_j01_f_2   0.01   0.00   0.6   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs1_c10_j01_f_2   0.01   0.00   0.7   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs1_c10_j01_f_2   0.01   0.00   0.8   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs1_c10_j01_f_2   0.01   0.00   0.9   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs1_c10_j01_f_2   0.01   0.00   1.0   0.1   3   0.10    0.00    0.1 
 
 
 # varying dispersal, bs = 0.2, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs2_c20_j01_f_2   0.01   0.00   0.0   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs2_c20_j01_f_2   0.01   0.00   0.1   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs2_c20_j01_f_2   0.01   0.00   0.2   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs2_c20_j01_f_2   0.01   0.00   0.3   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs2_c20_j01_f_2   0.01   0.00   0.4   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs2_c20_j01_f_2   0.01   0.00   0.5   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs2_c20_j01_f_2   0.01   0.00   0.6   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs2_c20_j01_f_2   0.01   0.00   0.7   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs2_c20_j01_f_2   0.01   0.00   0.8   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs2_c20_j01_f_2   0.01   0.00   0.9   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs2_c20_j01_f_2   0.01   0.00   1.0   0.2   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs2_c10_j01_f_2   0.01   0.00   0.0   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs2_c10_j01_f_2   0.01   0.00   0.1   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs2_c10_j01_f_2   0.01   0.00   0.2   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs2_c10_j01_f_2   0.01   0.00   0.3   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs2_c10_j01_f_2   0.01   0.00   0.4   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs2_c10_j01_f_2   0.01   0.00   0.5   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs2_c10_j01_f_2   0.01   0.00   0.6   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs2_c10_j01_f_2   0.01   0.00   0.7   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs2_c10_j01_f_2   0.01   0.00   0.8   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs2_c10_j01_f_2   0.01   0.00   0.9   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs2_c10_j01_f_2   0.01   0.00   1.0   0.2   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.3, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs3_c20_j01_f_2   0.01   0.00   0.0   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs3_c20_j01_f_2   0.01   0.00   0.1   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs3_c20_j01_f_2   0.01   0.00   0.2   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs3_c20_j01_f_2   0.01   0.00   0.3   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs3_c20_j01_f_2   0.01   0.00   0.4   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs3_c20_j01_f_2   0.01   0.00   0.5   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs3_c20_j01_f_2   0.01   0.00   0.6   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs3_c20_j01_f_2   0.01   0.00   0.7   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs3_c20_j01_f_2   0.01   0.00   0.8   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs3_c20_j01_f_2   0.01   0.00   0.9   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs3_c20_j01_f_2   0.01   0.00   1.0   0.3   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs3_c10_j01_f_2   0.01   0.00   0.0   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs3_c10_j01_f_2   0.01   0.00   0.1   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs3_c10_j01_f_2   0.01   0.00   0.2   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs3_c10_j01_f_2   0.01   0.00   0.3   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs3_c10_j01_f_2   0.01   0.00   0.4   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs3_c10_j01_f_2   0.01   0.00   0.5   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs3_c10_j01_f_2   0.01   0.00   0.6   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs3_c10_j01_f_2   0.01   0.00   0.7   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs3_c10_j01_f_2   0.01   0.00   0.8   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs3_c10_j01_f_2   0.01   0.00   0.9   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs3_c10_j01_f_2   0.01   0.00   1.0   0.3   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.4, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs4_c20_j01_f_2   0.01   0.00   0.0   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs4_c20_j01_f_2   0.01   0.00   0.1   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs4_c20_j01_f_2   0.01   0.00   0.2   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs4_c20_j01_f_2   0.01   0.00   0.3   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs4_c20_j01_f_2   0.01   0.00   0.4   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs4_c20_j01_f_2   0.01   0.00   0.5   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs4_c20_j01_f_2   0.01   0.00   0.6   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs4_c20_j01_f_2   0.01   0.00   0.7   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs4_c20_j01_f_2   0.01   0.00   0.8   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs4_c20_j01_f_2   0.01   0.00   0.9   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs4_c20_j01_f_2   0.01   0.00   1.0   0.4   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs4_c10_j01_f_2   0.01   0.00   0.0   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs4_c10_j01_f_2   0.01   0.00   0.1   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs4_c10_j01_f_2   0.01   0.00   0.2   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs4_c10_j01_f_2   0.01   0.00   0.3   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs4_c10_j01_f_2   0.01   0.00   0.4   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs4_c10_j01_f_2   0.01   0.00   0.5   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs4_c10_j01_f_2   0.01   0.00   0.6   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs4_c10_j01_f_2   0.01   0.00   0.7   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs4_c10_j01_f_2   0.01   0.00   0.8   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs4_c10_j01_f_2   0.01   0.00   0.9   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs4_c10_j01_f_2   0.01   0.00   1.0   0.4   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.5, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs5_c20_j01_f_2   0.01   0.00   0.0   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs5_c20_j01_f_2   0.01   0.00   0.1   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs5_c20_j01_f_2   0.01   0.00   0.2   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs5_c20_j01_f_2   0.01   0.00   0.3   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs5_c20_j01_f_2   0.01   0.00   0.4   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs5_c20_j01_f_2   0.01   0.00   0.5   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs5_c20_j01_f_2   0.01   0.00   0.6   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs5_c20_j01_f_2   0.01   0.00   0.7   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs5_c20_j01_f_2   0.01   0.00   0.8   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs5_c20_j01_f_2   0.01   0.00   0.9   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs5_c20_j01_f_2   0.01   0.00   1.0   0.5   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs5_c10_j01_f_2   0.01   0.00   0.0   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs5_c10_j01_f_2   0.01   0.00   0.1   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs5_c10_j01_f_2   0.01   0.00   0.2   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs5_c10_j01_f_2   0.01   0.00   0.3   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs5_c10_j01_f_2   0.01   0.00   0.4   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs5_c10_j01_f_2   0.01   0.00   0.5   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs5_c10_j01_f_2   0.01   0.00   0.6   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs5_c10_j01_f_2   0.01   0.00   0.7   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs5_c10_j01_f_2   0.01   0.00   0.8   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs5_c10_j01_f_2   0.01   0.00   0.9   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs5_c10_j01_f_2   0.01   0.00   1.0   0.5   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.6, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs6_c20_j01_f_2   0.01   0.00   0.0   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs6_c20_j01_f_2   0.01   0.00   0.1   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs6_c20_j01_f_2   0.01   0.00   0.2   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs6_c20_j01_f_2   0.01   0.00   0.3   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs6_c20_j01_f_2   0.01   0.00   0.4   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs6_c20_j01_f_2   0.01   0.00   0.5   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs6_c20_j01_f_2   0.01   0.00   0.6   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs6_c20_j01_f_2   0.01   0.00   0.7   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs6_c20_j01_f_2   0.01   0.00   0.8   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs6_c20_j01_f_2   0.01   0.00   0.9   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs6_c20_j01_f_2   0.01   0.00   1.0   0.6   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs6_c10_j01_f_2   0.01   0.00   0.0   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs6_c10_j01_f_2   0.01   0.00   0.1   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs6_c10_j01_f_2   0.01   0.00   0.2   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs6_c10_j01_f_2   0.01   0.00   0.3   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs6_c10_j01_f_2   0.01   0.00   0.4   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs6_c10_j01_f_2   0.01   0.00   0.5   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs6_c10_j01_f_2   0.01   0.00   0.6   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs6_c10_j01_f_2   0.01   0.00   0.7   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs6_c10_j01_f_2   0.01   0.00   0.8   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs6_c10_j01_f_2   0.01   0.00   0.9   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs6_c10_j01_f_2   0.01   0.00   1.0   0.6   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.7, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs7_c20_j01_f_2   0.01   0.00   0.0   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs7_c20_j01_f_2   0.01   0.00   0.1   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs7_c20_j01_f_2   0.01   0.00   0.2   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs7_c20_j01_f_2   0.01   0.00   0.3   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs7_c20_j01_f_2   0.01   0.00   0.4   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs7_c20_j01_f_2   0.01   0.00   0.5   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs7_c20_j01_f_2   0.01   0.00   0.6   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs7_c20_j01_f_2   0.01   0.00   0.7   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs7_c20_j01_f_2   0.01   0.00   0.8   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs7_c20_j01_f_2   0.01   0.00   0.9   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs7_c20_j01_f_2   0.01   0.00   1.0   0.7   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs7_c10_j01_f_2   0.01   0.00   0.0   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs7_c10_j01_f_2   0.01   0.00   0.1   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs7_c10_j01_f_2   0.01   0.00   0.2   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs7_c10_j01_f_2   0.01   0.00   0.3   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs7_c10_j01_f_2   0.01   0.00   0.4   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs7_c10_j01_f_2   0.01   0.00   0.5   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs7_c10_j01_f_2   0.01   0.00   0.6   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs7_c10_j01_f_2   0.01   0.00   0.7   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs7_c10_j01_f_2   0.01   0.00   0.8   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs7_c10_j01_f_2   0.01   0.00   0.9   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs7_c10_j01_f_2   0.01   0.00   1.0   0.7   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.8, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs8_c20_j01_f_2   0.01   0.00   0.0   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs8_c20_j01_f_2   0.01   0.00   0.1   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs8_c20_j01_f_2   0.01   0.00   0.2   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs8_c20_j01_f_2   0.01   0.00   0.3   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs8_c20_j01_f_2   0.01   0.00   0.4   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs8_c20_j01_f_2   0.01   0.00   0.5   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs8_c20_j01_f_2   0.01   0.00   0.6   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs8_c20_j01_f_2   0.01   0.00   0.7   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs8_c20_j01_f_2   0.01   0.00   0.8   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs8_c20_j01_f_2   0.01   0.00   0.9   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs8_c20_j01_f_2   0.01   0.00   1.0   0.8   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs8_c10_j01_f_2   0.01   0.00   0.0   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs8_c10_j01_f_2   0.01   0.00   0.1   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs8_c10_j01_f_2   0.01   0.00   0.2   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs8_c10_j01_f_2   0.01   0.00   0.3   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs8_c10_j01_f_2   0.01   0.00   0.4   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs8_c10_j01_f_2   0.01   0.00   0.5   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs8_c10_j01_f_2   0.01   0.00   0.6   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs8_c10_j01_f_2   0.01   0.00   0.7   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs8_c10_j01_f_2   0.01   0.00   0.8   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs8_c10_j01_f_2   0.01   0.00   0.9   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs8_c10_j01_f_2   0.01   0.00   1.0   0.8   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.9, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs9_c20_j01_f_2   0.01   0.00   0.0   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs9_c20_j01_f_2   0.01   0.00   0.1   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs9_c20_j01_f_2   0.01   0.00   0.2   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs9_c20_j01_f_2   0.01   0.00   0.3   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs9_c20_j01_f_2   0.01   0.00   0.4   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs9_c20_j01_f_2   0.01   0.00   0.5   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs9_c20_j01_f_2   0.01   0.00   0.6   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs9_c20_j01_f_2   0.01   0.00   0.7   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs9_c20_j01_f_2   0.01   0.00   0.8   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs9_c20_j01_f_2   0.01   0.00   0.9   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs9_c20_j01_f_2   0.01   0.00   1.0   0.9   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs9_c10_j01_f_2   0.01   0.00   0.0   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs9_c10_j01_f_2   0.01   0.00   0.1   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs9_c10_j01_f_2   0.01   0.00   0.2   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs9_c10_j01_f_2   0.01   0.00   0.3   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs9_c10_j01_f_2   0.01   0.00   0.4   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs9_c10_j01_f_2   0.01   0.00   0.5   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs9_c10_j01_f_2   0.01   0.00   0.6   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs9_c10_j01_f_2   0.01   0.00   0.7   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs9_c10_j01_f_2   0.01   0.00   0.8   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs9_c10_j01_f_2   0.01   0.00   0.9   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs9_c10_j01_f_2   0.01   0.00   1.0   0.9   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 1.0, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs10_c20_j01_f_2   0.01   0.00   0.0   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs10_c20_j01_f_2   0.01   0.00   0.1   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs10_c20_j01_f_2   0.01   0.00   0.2   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs10_c20_j01_f_2   0.01   0.00   0.3   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs10_c20_j01_f_2   0.01   0.00   0.4   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs10_c20_j01_f_2   0.01   0.00   0.5   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs10_c20_j01_f_2   0.01   0.00   0.6   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs10_c20_j01_f_2   0.01   0.00   0.7   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs10_c20_j01_f_2   0.01   0.00   0.8   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs10_c20_j01_f_2   0.01   0.00   0.9   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs10_c20_j01_f_2   0.01   0.00   1.0   1.0   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs10_c10_j01_f_2   0.01   0.00   0.0   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs10_c10_j01_f_2   0.01   0.00   0.1   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs10_c10_j01_f_2   0.01   0.00   0.2   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs10_c10_j01_f_2   0.01   0.00   0.3   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs10_c10_j01_f_2   0.01   0.00   0.4   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs10_c10_j01_f_2   0.01   0.00   0.5   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs10_c10_j01_f_2   0.01   0.00   0.6   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs10_c10_j01_f_2   0.01   0.00   0.7   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs10_c10_j01_f_2   0.01   0.00   0.8   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs10_c10_j01_f_2   0.01   0.00   0.9   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs10_c10_j01_f_2   0.01   0.00   1.0   1.0   3   0.10    0.00    0.1
 
 
 
@@ -1028,167 +1028,167 @@
 
 # varying dispersal, bs = 0.0, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs0_c02_j01_f_3   0.01   0.00   0.0   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs0_c02_j01_f_3   0.01   0.00   0.1   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs0_c02_j01_f_3   0.01   0.00   0.2   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs0_c02_j01_f_3   0.01   0.00   0.3   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs0_c02_j01_f_3   0.01   0.00   0.4   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs0_c02_j01_f_3   0.01   0.00   0.5   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs0_c02_j01_f_3   0.01   0.00   0.6   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs0_c02_j01_f_3   0.01   0.00   0.7   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs0_c02_j01_f_3   0.01   0.00   0.8   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs0_c02_j01_f_3   0.01   0.00   0.9   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs0_c02_j01_f_3   0.01   0.00   1.0   0.0   3   0.1667  0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs0_c06_j01_f_3   0.01   0.00   0.0   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs0_c06_j01_f_3   0.01   0.00   0.1   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs0_c06_j01_f_3   0.01   0.00   0.2   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs0_c06_j01_f_3   0.01   0.00   0.3   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs0_c06_j01_f_3   0.01   0.00   0.4   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs0_c06_j01_f_3   0.01   0.00   0.5   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs0_c06_j01_f_3   0.01   0.00   0.6   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs0_c06_j01_f_3   0.01   0.00   0.7   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs0_c06_j01_f_3   0.01   0.00   0.8   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs0_c06_j01_f_3   0.01   0.00   0.9   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs0_c06_j01_f_3   0.01   0.00   1.0   0.0   3   0.1667  0.00    0.1 
 
 
 # varying dispersal, bs = 0.1, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs1_c02_j01_f_3   0.01   0.00   0.0   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs1_c02_j01_f_3   0.01   0.00   0.1   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs1_c02_j01_f_3   0.01   0.00   0.2   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs1_c02_j01_f_3   0.01   0.00   0.3   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs1_c02_j01_f_3   0.01   0.00   0.4   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs1_c02_j01_f_3   0.01   0.00   0.5   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs1_c02_j01_f_3   0.01   0.00   0.6   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs1_c02_j01_f_3   0.01   0.00   0.7   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs1_c02_j01_f_3   0.01   0.00   0.8   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs1_c02_j01_f_3   0.01   0.00   0.9   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs1_c02_j01_f_3   0.01   0.00   1.0   0.1   3   0.1667  0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs1_c06_j01_f_3   0.01   0.00   0.0   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs1_c06_j01_f_3   0.01   0.00   0.1   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs1_c06_j01_f_3   0.01   0.00   0.2   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs1_c06_j01_f_3   0.01   0.00   0.3   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs1_c06_j01_f_3   0.01   0.00   0.4   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs1_c06_j01_f_3   0.01   0.00   0.5   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs1_c06_j01_f_3   0.01   0.00   0.6   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs1_c06_j01_f_3   0.01   0.00   0.7   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs1_c06_j01_f_3   0.01   0.00   0.8   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs1_c06_j01_f_3   0.01   0.00   0.9   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs1_c06_j01_f_3   0.01   0.00   1.0   0.1   3   0.1667  0.00    0.1 
 
 
 # varying dispersal, bs = 0.2, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs2_c02_j01_f_3   0.01   0.00   0.0   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs2_c02_j01_f_3   0.01   0.00   0.1   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs2_c02_j01_f_3   0.01   0.00   0.2   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs2_c02_j01_f_3   0.01   0.00   0.3   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs2_c02_j01_f_3   0.01   0.00   0.4   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs2_c02_j01_f_3   0.01   0.00   0.5   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs2_c02_j01_f_3   0.01   0.00   0.6   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs2_c02_j01_f_3   0.01   0.00   0.7   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs2_c02_j01_f_3   0.01   0.00   0.8   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs2_c02_j01_f_3   0.01   0.00   0.9   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs2_c02_j01_f_3   0.01   0.00   1.0   0.2   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs2_c06_j01_f_3   0.01   0.00   0.0   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs2_c06_j01_f_3   0.01   0.00   0.1   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs2_c06_j01_f_3   0.01   0.00   0.2   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs2_c06_j01_f_3   0.01   0.00   0.3   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs2_c06_j01_f_3   0.01   0.00   0.4   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs2_c06_j01_f_3   0.01   0.00   0.5   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs2_c06_j01_f_3   0.01   0.00   0.6   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs2_c06_j01_f_3   0.01   0.00   0.7   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs2_c06_j01_f_3   0.01   0.00   0.8   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs2_c06_j01_f_3   0.01   0.00   0.9   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs2_c06_j01_f_3   0.01   0.00   1.0   0.2   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.3, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs3_c02_j01_f_3   0.01   0.00   0.0   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs3_c02_j01_f_3   0.01   0.00   0.1   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs3_c02_j01_f_3   0.01   0.00   0.2   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs3_c02_j01_f_3   0.01   0.00   0.3   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs3_c02_j01_f_3   0.01   0.00   0.4   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs3_c02_j01_f_3   0.01   0.00   0.5   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs3_c02_j01_f_3   0.01   0.00   0.6   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs3_c02_j01_f_3   0.01   0.00   0.7   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs3_c02_j01_f_3   0.01   0.00   0.8   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs3_c02_j01_f_3   0.01   0.00   0.9   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs3_c02_j01_f_3   0.01   0.00   1.0   0.3   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs3_c06_j01_f_3   0.01   0.00   0.0   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs3_c06_j01_f_3   0.01   0.00   0.1   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs3_c06_j01_f_3   0.01   0.00   0.2   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs3_c06_j01_f_3   0.01   0.00   0.3   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs3_c06_j01_f_3   0.01   0.00   0.4   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs3_c06_j01_f_3   0.01   0.00   0.5   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs3_c06_j01_f_3   0.01   0.00   0.6   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs3_c06_j01_f_3   0.01   0.00   0.7   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs3_c06_j01_f_3   0.01   0.00   0.8   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs3_c06_j01_f_3   0.01   0.00   0.9   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs3_c06_j01_f_3   0.01   0.00   1.0   0.3   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.4, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs4_c02_j01_f_3   0.01   0.00   0.0   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs4_c02_j01_f_3   0.01   0.00   0.1   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs4_c02_j01_f_3   0.01   0.00   0.2   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs4_c02_j01_f_3   0.01   0.00   0.3   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs4_c02_j01_f_3   0.01   0.00   0.4   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs4_c02_j01_f_3   0.01   0.00   0.5   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs4_c02_j01_f_3   0.01   0.00   0.6   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs4_c02_j01_f_3   0.01   0.00   0.7   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs4_c02_j01_f_3   0.01   0.00   0.8   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs4_c02_j01_f_3   0.01   0.00   0.9   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs4_c02_j01_f_3   0.01   0.00   1.0   0.4   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs4_c06_j01_f_3   0.01   0.00   0.0   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs4_c06_j01_f_3   0.01   0.00   0.1   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs4_c06_j01_f_3   0.01   0.00   0.2   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs4_c06_j01_f_3   0.01   0.00   0.3   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs4_c06_j01_f_3   0.01   0.00   0.4   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs4_c06_j01_f_3   0.01   0.00   0.5   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs4_c06_j01_f_3   0.01   0.00   0.6   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs4_c06_j01_f_3   0.01   0.00   0.7   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs4_c06_j01_f_3   0.01   0.00   0.8   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs4_c06_j01_f_3   0.01   0.00   0.9   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs4_c06_j01_f_3   0.01   0.00   1.0   0.4   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.5, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs5_c02_j01_f_3   0.01   0.00   0.0   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs5_c02_j01_f_3   0.01   0.00   0.1   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs5_c02_j01_f_3   0.01   0.00   0.2   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs5_c02_j01_f_3   0.01   0.00   0.3   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs5_c02_j01_f_3   0.01   0.00   0.4   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs5_c02_j01_f_3   0.01   0.00   0.5   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs5_c02_j01_f_3   0.01   0.00   0.6   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs5_c02_j01_f_3   0.01   0.00   0.7   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs5_c02_j01_f_3   0.01   0.00   0.8   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs5_c02_j01_f_3   0.01   0.00   0.9   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs5_c02_j01_f_3   0.01   0.00   1.0   0.5   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs5_c06_j01_f_3   0.01   0.00   0.0   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs5_c06_j01_f_3   0.01   0.00   0.1   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs5_c06_j01_f_3   0.01   0.00   0.2   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs5_c06_j01_f_3   0.01   0.00   0.3   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs5_c06_j01_f_3   0.01   0.00   0.4   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs5_c06_j01_f_3   0.01   0.00   0.5   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs5_c06_j01_f_3   0.01   0.00   0.6   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs5_c06_j01_f_3   0.01   0.00   0.7   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs5_c06_j01_f_3   0.01   0.00   0.8   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs5_c06_j01_f_3   0.01   0.00   0.9   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs5_c06_j01_f_3   0.01   0.00   1.0   0.5   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.6, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs6_c02_j01_f_3   0.01   0.00   0.0   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs6_c02_j01_f_3   0.01   0.00   0.1   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs6_c02_j01_f_3   0.01   0.00   0.2   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs6_c02_j01_f_3   0.01   0.00   0.3   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs6_c02_j01_f_3   0.01   0.00   0.4   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs6_c02_j01_f_3   0.01   0.00   0.5   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs6_c02_j01_f_3   0.01   0.00   0.6   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs6_c02_j01_f_3   0.01   0.00   0.7   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs6_c02_j01_f_3   0.01   0.00   0.8   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs6_c02_j01_f_3   0.01   0.00   0.9   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs6_c02_j01_f_3   0.01   0.00   1.0   0.6   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs6_c06_j01_f_3   0.01   0.00   0.0   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs6_c06_j01_f_3   0.01   0.00   0.1   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs6_c06_j01_f_3   0.01   0.00   0.2   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs6_c06_j01_f_3   0.01   0.00   0.3   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs6_c06_j01_f_3   0.01   0.00   0.4   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs6_c06_j01_f_3   0.01   0.00   0.5   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs6_c06_j01_f_3   0.01   0.00   0.6   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs6_c06_j01_f_3   0.01   0.00   0.7   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs6_c06_j01_f_3   0.01   0.00   0.8   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs6_c06_j01_f_3   0.01   0.00   0.9   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs6_c06_j01_f_3   0.01   0.00   1.0   0.6   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.7, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs7_c02_j01_f_3   0.01   0.00   0.0   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs7_c02_j01_f_3   0.01   0.00   0.1   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs7_c02_j01_f_3   0.01   0.00   0.2   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs7_c02_j01_f_3   0.01   0.00   0.3   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs7_c02_j01_f_3   0.01   0.00   0.4   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs7_c02_j01_f_3   0.01   0.00   0.5   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs7_c02_j01_f_3   0.01   0.00   0.6   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs7_c02_j01_f_3   0.01   0.00   0.7   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs7_c02_j01_f_3   0.01   0.00   0.8   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs7_c02_j01_f_3   0.01   0.00   0.9   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs7_c02_j01_f_3   0.01   0.00   1.0   0.7   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs7_c06_j01_f_3   0.01   0.00   0.0   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs7_c06_j01_f_3   0.01   0.00   0.1   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs7_c06_j01_f_3   0.01   0.00   0.2   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs7_c06_j01_f_3   0.01   0.00   0.3   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs7_c06_j01_f_3   0.01   0.00   0.4   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs7_c06_j01_f_3   0.01   0.00   0.5   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs7_c06_j01_f_3   0.01   0.00   0.6   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs7_c06_j01_f_3   0.01   0.00   0.7   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs7_c06_j01_f_3   0.01   0.00   0.8   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs7_c06_j01_f_3   0.01   0.00   0.9   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs7_c06_j01_f_3   0.01   0.00   1.0   0.7   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.8, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs8_c02_j01_f_3   0.01   0.00   0.0   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs8_c02_j01_f_3   0.01   0.00   0.1   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs8_c02_j01_f_3   0.01   0.00   0.2   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs8_c02_j01_f_3   0.01   0.00   0.3   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs8_c02_j01_f_3   0.01   0.00   0.4   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs8_c02_j01_f_3   0.01   0.00   0.5   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs8_c02_j01_f_3   0.01   0.00   0.6   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs8_c02_j01_f_3   0.01   0.00   0.7   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs8_c02_j01_f_3   0.01   0.00   0.8   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs8_c02_j01_f_3   0.01   0.00   0.9   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs8_c02_j01_f_3   0.01   0.00   1.0   0.8   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs8_c06_j01_f_3   0.01   0.00   0.0   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs8_c06_j01_f_3   0.01   0.00   0.1   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs8_c06_j01_f_3   0.01   0.00   0.2   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs8_c06_j01_f_3   0.01   0.00   0.3   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs8_c06_j01_f_3   0.01   0.00   0.4   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs8_c06_j01_f_3   0.01   0.00   0.5   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs8_c06_j01_f_3   0.01   0.00   0.6   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs8_c06_j01_f_3   0.01   0.00   0.7   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs8_c06_j01_f_3   0.01   0.00   0.8   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs8_c06_j01_f_3   0.01   0.00   0.9   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs8_c06_j01_f_3   0.01   0.00   1.0   0.8   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.9, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs9_c02_j01_f_3   0.01   0.00   0.0   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs9_c02_j01_f_3   0.01   0.00   0.1   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs9_c02_j01_f_3   0.01   0.00   0.2   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs9_c02_j01_f_3   0.01   0.00   0.3   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs9_c02_j01_f_3   0.01   0.00   0.4   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs9_c02_j01_f_3   0.01   0.00   0.5   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs9_c02_j01_f_3   0.01   0.00   0.6   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs9_c02_j01_f_3   0.01   0.00   0.7   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs9_c02_j01_f_3   0.01   0.00   0.8   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs9_c02_j01_f_3   0.01   0.00   0.9   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs9_c02_j01_f_3   0.01   0.00   1.0   0.9   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs9_c06_j01_f_3   0.01   0.00   0.0   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs9_c06_j01_f_3   0.01   0.00   0.1   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs9_c06_j01_f_3   0.01   0.00   0.2   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs9_c06_j01_f_3   0.01   0.00   0.3   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs9_c06_j01_f_3   0.01   0.00   0.4   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs9_c06_j01_f_3   0.01   0.00   0.5   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs9_c06_j01_f_3   0.01   0.00   0.6   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs9_c06_j01_f_3   0.01   0.00   0.7   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs9_c06_j01_f_3   0.01   0.00   0.8   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs9_c06_j01_f_3   0.01   0.00   0.9   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs9_c06_j01_f_3   0.01   0.00   1.0   0.9   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 1.0, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs10_c02_j01_f_3   0.01   0.00   0.0   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs10_c02_j01_f_3   0.01   0.00   0.1   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs10_c02_j01_f_3   0.01   0.00   0.2   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs10_c02_j01_f_3   0.01   0.00   0.3   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs10_c02_j01_f_3   0.01   0.00   0.4   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs10_c02_j01_f_3   0.01   0.00   0.5   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs10_c02_j01_f_3   0.01   0.00   0.6   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs10_c02_j01_f_3   0.01   0.00   0.7   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs10_c02_j01_f_3   0.01   0.00   0.8   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs10_c02_j01_f_3   0.01   0.00   0.9   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs10_c02_j01_f_3   0.01   0.00   1.0   1.0   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs10_c06_j01_f_3   0.01   0.00   0.0   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs10_c06_j01_f_3   0.01   0.00   0.1   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs10_c06_j01_f_3   0.01   0.00   0.2   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs10_c06_j01_f_3   0.01   0.00   0.3   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs10_c06_j01_f_3   0.01   0.00   0.4   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs10_c06_j01_f_3   0.01   0.00   0.5   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs10_c06_j01_f_3   0.01   0.00   0.6   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs10_c06_j01_f_3   0.01   0.00   0.7   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs10_c06_j01_f_3   0.01   0.00   0.8   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs10_c06_j01_f_3   0.01   0.00   0.9   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs10_c06_j01_f_3   0.01   0.00   1.0   1.0   3   0.1667  0.00    0.1
 
 
 # ________________________________________________________________________________________________________________
@@ -1196,167 +1196,167 @@
 
 # varying dispersal, bs = 0.0, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs0_c05_j01_f_3   0.01   0.00   0.0   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs0_c05_j01_f_3   0.01   0.00   0.1   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs0_c05_j01_f_3   0.01   0.00   0.2   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs0_c05_j01_f_3   0.01   0.00   0.3   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs0_c05_j01_f_3   0.01   0.00   0.4   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs0_c05_j01_f_3   0.01   0.00   0.5   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs0_c05_j01_f_3   0.01   0.00   0.6   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs0_c05_j01_f_3   0.01   0.00   0.7   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs0_c05_j01_f_3   0.01   0.00   0.8   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs0_c05_j01_f_3   0.01   0.00   0.9   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs0_c05_j01_f_3   0.01   0.00   1.0   0.0   3   0.125   0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs0_c08_j01_f_3   0.01   0.00   0.0   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs0_c08_j01_f_3   0.01   0.00   0.1   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs0_c08_j01_f_3   0.01   0.00   0.2   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs0_c08_j01_f_3   0.01   0.00   0.3   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs0_c08_j01_f_3   0.01   0.00   0.4   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs0_c08_j01_f_3   0.01   0.00   0.5   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs0_c08_j01_f_3   0.01   0.00   0.6   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs0_c08_j01_f_3   0.01   0.00   0.7   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs0_c08_j01_f_3   0.01   0.00   0.8   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs0_c08_j01_f_3   0.01   0.00   0.9   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs0_c08_j01_f_3   0.01   0.00   1.0   0.0   3   0.125   0.00    0.1 
 
 
 # varying dispersal, bs = 0.1, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs1_c05_j01_f_3   0.01   0.00   0.0   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs1_c05_j01_f_3   0.01   0.00   0.1   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs1_c05_j01_f_3   0.01   0.00   0.2   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs1_c05_j01_f_3   0.01   0.00   0.3   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs1_c05_j01_f_3   0.01   0.00   0.4   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs1_c05_j01_f_3   0.01   0.00   0.5   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs1_c05_j01_f_3   0.01   0.00   0.6   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs1_c05_j01_f_3   0.01   0.00   0.7   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs1_c05_j01_f_3   0.01   0.00   0.8   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs1_c05_j01_f_3   0.01   0.00   0.9   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs1_c05_j01_f_3   0.01   0.00   1.0   0.1   3   0.125   0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs1_c08_j01_f_3   0.01   0.00   0.0   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs1_c08_j01_f_3   0.01   0.00   0.1   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs1_c08_j01_f_3   0.01   0.00   0.2   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs1_c08_j01_f_3   0.01   0.00   0.3   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs1_c08_j01_f_3   0.01   0.00   0.4   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs1_c08_j01_f_3   0.01   0.00   0.5   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs1_c08_j01_f_3   0.01   0.00   0.6   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs1_c08_j01_f_3   0.01   0.00   0.7   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs1_c08_j01_f_3   0.01   0.00   0.8   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs1_c08_j01_f_3   0.01   0.00   0.9   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs1_c08_j01_f_3   0.01   0.00   1.0   0.1   3   0.125   0.00    0.1 
 
 
 # varying dispersal, bs = 0.2, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs2_c05_j01_f_3   0.01   0.00   0.0   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs2_c05_j01_f_3   0.01   0.00   0.1   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs2_c05_j01_f_3   0.01   0.00   0.2   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs2_c05_j01_f_3   0.01   0.00   0.3   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs2_c05_j01_f_3   0.01   0.00   0.4   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs2_c05_j01_f_3   0.01   0.00   0.5   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs2_c05_j01_f_3   0.01   0.00   0.6   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs2_c05_j01_f_3   0.01   0.00   0.7   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs2_c05_j01_f_3   0.01   0.00   0.8   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs2_c05_j01_f_3   0.01   0.00   0.9   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs2_c05_j01_f_3   0.01   0.00   1.0   0.2   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs2_c08_j01_f_3   0.01   0.00   0.0   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs2_c08_j01_f_3   0.01   0.00   0.1   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs2_c08_j01_f_3   0.01   0.00   0.2   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs2_c08_j01_f_3   0.01   0.00   0.3   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs2_c08_j01_f_3   0.01   0.00   0.4   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs2_c08_j01_f_3   0.01   0.00   0.5   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs2_c08_j01_f_3   0.01   0.00   0.6   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs2_c08_j01_f_3   0.01   0.00   0.7   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs2_c08_j01_f_3   0.01   0.00   0.8   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs2_c08_j01_f_3   0.01   0.00   0.9   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs2_c08_j01_f_3   0.01   0.00   1.0   0.2   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.3, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs3_c05_j01_f_3   0.01   0.00   0.0   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs3_c05_j01_f_3   0.01   0.00   0.1   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs3_c05_j01_f_3   0.01   0.00   0.2   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs3_c05_j01_f_3   0.01   0.00   0.3   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs3_c05_j01_f_3   0.01   0.00   0.4   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs3_c05_j01_f_3   0.01   0.00   0.5   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs3_c05_j01_f_3   0.01   0.00   0.6   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs3_c05_j01_f_3   0.01   0.00   0.7   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs3_c05_j01_f_3   0.01   0.00   0.8   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs3_c05_j01_f_3   0.01   0.00   0.9   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs3_c05_j01_f_3   0.01   0.00   1.0   0.3   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs3_c08_j01_f_3   0.01   0.00   0.0   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs3_c08_j01_f_3   0.01   0.00   0.1   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs3_c08_j01_f_3   0.01   0.00   0.2   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs3_c08_j01_f_3   0.01   0.00   0.3   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs3_c08_j01_f_3   0.01   0.00   0.4   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs3_c08_j01_f_3   0.01   0.00   0.5   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs3_c08_j01_f_3   0.01   0.00   0.6   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs3_c08_j01_f_3   0.01   0.00   0.7   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs3_c08_j01_f_3   0.01   0.00   0.8   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs3_c08_j01_f_3   0.01   0.00   0.9   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs3_c08_j01_f_3   0.01   0.00   1.0   0.3   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.4, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs4_c05_j01_f_3   0.01   0.00   0.0   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs4_c05_j01_f_3   0.01   0.00   0.1   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs4_c05_j01_f_3   0.01   0.00   0.2   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs4_c05_j01_f_3   0.01   0.00   0.3   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs4_c05_j01_f_3   0.01   0.00   0.4   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs4_c05_j01_f_3   0.01   0.00   0.5   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs4_c05_j01_f_3   0.01   0.00   0.6   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs4_c05_j01_f_3   0.01   0.00   0.7   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs4_c05_j01_f_3   0.01   0.00   0.8   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs4_c05_j01_f_3   0.01   0.00   0.9   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs4_c05_j01_f_3   0.01   0.00   1.0   0.4   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs4_c08_j01_f_3   0.01   0.00   0.0   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs4_c08_j01_f_3   0.01   0.00   0.1   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs4_c08_j01_f_3   0.01   0.00   0.2   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs4_c08_j01_f_3   0.01   0.00   0.3   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs4_c08_j01_f_3   0.01   0.00   0.4   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs4_c08_j01_f_3   0.01   0.00   0.5   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs4_c08_j01_f_3   0.01   0.00   0.6   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs4_c08_j01_f_3   0.01   0.00   0.7   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs4_c08_j01_f_3   0.01   0.00   0.8   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs4_c08_j01_f_3   0.01   0.00   0.9   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs4_c08_j01_f_3   0.01   0.00   1.0   0.4   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.5, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs5_c05_j01_f_3   0.01   0.00   0.0   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs5_c05_j01_f_3   0.01   0.00   0.1   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs5_c05_j01_f_3   0.01   0.00   0.2   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs5_c05_j01_f_3   0.01   0.00   0.3   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs5_c05_j01_f_3   0.01   0.00   0.4   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs5_c05_j01_f_3   0.01   0.00   0.5   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs5_c05_j01_f_3   0.01   0.00   0.6   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs5_c05_j01_f_3   0.01   0.00   0.7   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs5_c05_j01_f_3   0.01   0.00   0.8   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs5_c05_j01_f_3   0.01   0.00   0.9   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs5_c05_j01_f_3   0.01   0.00   1.0   0.5   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs5_c08_j01_f_3   0.01   0.00   0.0   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs5_c08_j01_f_3   0.01   0.00   0.1   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs5_c08_j01_f_3   0.01   0.00   0.2   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs5_c08_j01_f_3   0.01   0.00   0.3   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs5_c08_j01_f_3   0.01   0.00   0.4   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs5_c08_j01_f_3   0.01   0.00   0.5   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs5_c08_j01_f_3   0.01   0.00   0.6   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs5_c08_j01_f_3   0.01   0.00   0.7   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs5_c08_j01_f_3   0.01   0.00   0.8   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs5_c08_j01_f_3   0.01   0.00   0.9   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs5_c08_j01_f_3   0.01   0.00   1.0   0.5   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.6, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs6_c05_j01_f_3   0.01   0.00   0.0   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs6_c05_j01_f_3   0.01   0.00   0.1   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs6_c05_j01_f_3   0.01   0.00   0.2   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs6_c05_j01_f_3   0.01   0.00   0.3   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs6_c05_j01_f_3   0.01   0.00   0.4   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs6_c05_j01_f_3   0.01   0.00   0.5   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs6_c05_j01_f_3   0.01   0.00   0.6   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs6_c05_j01_f_3   0.01   0.00   0.7   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs6_c05_j01_f_3   0.01   0.00   0.8   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs6_c05_j01_f_3   0.01   0.00   0.9   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs6_c05_j01_f_3   0.01   0.00   1.0   0.6   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs6_c08_j01_f_3   0.01   0.00   0.0   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs6_c08_j01_f_3   0.01   0.00   0.1   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs6_c08_j01_f_3   0.01   0.00   0.2   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs6_c08_j01_f_3   0.01   0.00   0.3   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs6_c08_j01_f_3   0.01   0.00   0.4   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs6_c08_j01_f_3   0.01   0.00   0.5   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs6_c08_j01_f_3   0.01   0.00   0.6   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs6_c08_j01_f_3   0.01   0.00   0.7   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs6_c08_j01_f_3   0.01   0.00   0.8   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs6_c08_j01_f_3   0.01   0.00   0.9   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs6_c08_j01_f_3   0.01   0.00   1.0   0.6   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.7, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs7_c05_j01_f_3   0.01   0.00   0.0   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs7_c05_j01_f_3   0.01   0.00   0.1   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs7_c05_j01_f_3   0.01   0.00   0.2   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs7_c05_j01_f_3   0.01   0.00   0.3   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs7_c05_j01_f_3   0.01   0.00   0.4   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs7_c05_j01_f_3   0.01   0.00   0.5   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs7_c05_j01_f_3   0.01   0.00   0.6   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs7_c05_j01_f_3   0.01   0.00   0.7   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs7_c05_j01_f_3   0.01   0.00   0.8   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs7_c05_j01_f_3   0.01   0.00   0.9   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs7_c05_j01_f_3   0.01   0.00   1.0   0.7   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs7_c08_j01_f_3   0.01   0.00   0.0   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs7_c08_j01_f_3   0.01   0.00   0.1   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs7_c08_j01_f_3   0.01   0.00   0.2   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs7_c08_j01_f_3   0.01   0.00   0.3   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs7_c08_j01_f_3   0.01   0.00   0.4   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs7_c08_j01_f_3   0.01   0.00   0.5   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs7_c08_j01_f_3   0.01   0.00   0.6   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs7_c08_j01_f_3   0.01   0.00   0.7   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs7_c08_j01_f_3   0.01   0.00   0.8   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs7_c08_j01_f_3   0.01   0.00   0.9   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs7_c08_j01_f_3   0.01   0.00   1.0   0.7   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.8, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs8_c05_j01_f_3   0.01   0.00   0.0   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs8_c05_j01_f_3   0.01   0.00   0.1   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs8_c05_j01_f_3   0.01   0.00   0.2   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs8_c05_j01_f_3   0.01   0.00   0.3   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs8_c05_j01_f_3   0.01   0.00   0.4   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs8_c05_j01_f_3   0.01   0.00   0.5   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs8_c05_j01_f_3   0.01   0.00   0.6   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs8_c05_j01_f_3   0.01   0.00   0.7   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs8_c05_j01_f_3   0.01   0.00   0.8   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs8_c05_j01_f_3   0.01   0.00   0.9   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs8_c05_j01_f_3   0.01   0.00   1.0   0.8   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs8_c08_j01_f_3   0.01   0.00   0.0   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs8_c08_j01_f_3   0.01   0.00   0.1   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs8_c08_j01_f_3   0.01   0.00   0.2   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs8_c08_j01_f_3   0.01   0.00   0.3   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs8_c08_j01_f_3   0.01   0.00   0.4   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs8_c08_j01_f_3   0.01   0.00   0.5   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs8_c08_j01_f_3   0.01   0.00   0.6   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs8_c08_j01_f_3   0.01   0.00   0.7   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs8_c08_j01_f_3   0.01   0.00   0.8   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs8_c08_j01_f_3   0.01   0.00   0.9   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs8_c08_j01_f_3   0.01   0.00   1.0   0.8   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.9, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs9_c05_j01_f_3   0.01   0.00   0.0   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs9_c05_j01_f_3   0.01   0.00   0.1   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs9_c05_j01_f_3   0.01   0.00   0.2   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs9_c05_j01_f_3   0.01   0.00   0.3   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs9_c05_j01_f_3   0.01   0.00   0.4   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs9_c05_j01_f_3   0.01   0.00   0.5   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs9_c05_j01_f_3   0.01   0.00   0.6   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs9_c05_j01_f_3   0.01   0.00   0.7   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs9_c05_j01_f_3   0.01   0.00   0.8   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs9_c05_j01_f_3   0.01   0.00   0.9   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs9_c05_j01_f_3   0.01   0.00   1.0   0.9   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs9_c08_j01_f_3   0.01   0.00   0.0   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs9_c08_j01_f_3   0.01   0.00   0.1   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs9_c08_j01_f_3   0.01   0.00   0.2   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs9_c08_j01_f_3   0.01   0.00   0.3   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs9_c08_j01_f_3   0.01   0.00   0.4   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs9_c08_j01_f_3   0.01   0.00   0.5   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs9_c08_j01_f_3   0.01   0.00   0.6   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs9_c08_j01_f_3   0.01   0.00   0.7   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs9_c08_j01_f_3   0.01   0.00   0.8   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs9_c08_j01_f_3   0.01   0.00   0.9   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs9_c08_j01_f_3   0.01   0.00   1.0   0.9   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 1.0, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs10_c05_j01_f_3   0.01   0.00   0.0   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs10_c05_j01_f_3   0.01   0.00   0.1   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs10_c05_j01_f_3   0.01   0.00   0.2   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs10_c05_j01_f_3   0.01   0.00   0.3   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs10_c05_j01_f_3   0.01   0.00   0.4   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs10_c05_j01_f_3   0.01   0.00   0.5   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs10_c05_j01_f_3   0.01   0.00   0.6   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs10_c05_j01_f_3   0.01   0.00   0.7   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs10_c05_j01_f_3   0.01   0.00   0.8   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs10_c05_j01_f_3   0.01   0.00   0.9   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs10_c05_j01_f_3   0.01   0.00   1.0   1.0   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs10_c08_j01_f_3   0.01   0.00   0.0   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs10_c08_j01_f_3   0.01   0.00   0.1   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs10_c08_j01_f_3   0.01   0.00   0.2   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs10_c08_j01_f_3   0.01   0.00   0.3   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs10_c08_j01_f_3   0.01   0.00   0.4   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs10_c08_j01_f_3   0.01   0.00   0.5   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs10_c08_j01_f_3   0.01   0.00   0.6   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs10_c08_j01_f_3   0.01   0.00   0.7   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs10_c08_j01_f_3   0.01   0.00   0.8   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs10_c08_j01_f_3   0.01   0.00   0.9   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs10_c08_j01_f_3   0.01   0.00   1.0   1.0   3   0.125   0.00    0.1
 
 
 # ________________________________________________________________________________________________________________
@@ -1364,167 +1364,167 @@
 
 # varying dispersal, bs = 0.0, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs0_c20_j01_f_3   0.01   0.00   0.0   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs0_c20_j01_f_3   0.01   0.00   0.1   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs0_c20_j01_f_3   0.01   0.00   0.2   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs0_c20_j01_f_3   0.01   0.00   0.3   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs0_c20_j01_f_3   0.01   0.00   0.4   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs0_c20_j01_f_3   0.01   0.00   0.5   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs0_c20_j01_f_3   0.01   0.00   0.6   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs0_c20_j01_f_3   0.01   0.00   0.7   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs0_c20_j01_f_3   0.01   0.00   0.8   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs0_c20_j01_f_3   0.01   0.00   0.9   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs0_c20_j01_f_3   0.01   0.00   1.0   0.0   3   0.10    0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs0_c10_j01_f_3   0.01   0.00   0.0   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs0_c10_j01_f_3   0.01   0.00   0.1   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs0_c10_j01_f_3   0.01   0.00   0.2   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs0_c10_j01_f_3   0.01   0.00   0.3   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs0_c10_j01_f_3   0.01   0.00   0.4   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs0_c10_j01_f_3   0.01   0.00   0.5   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs0_c10_j01_f_3   0.01   0.00   0.6   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs0_c10_j01_f_3   0.01   0.00   0.7   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs0_c10_j01_f_3   0.01   0.00   0.8   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs0_c10_j01_f_3   0.01   0.00   0.9   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs0_c10_j01_f_3   0.01   0.00   1.0   0.0   3   0.10    0.00    0.1 
 
 
 # varying dispersal, bs = 0.1, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs1_c20_j01_f_3   0.01   0.00   0.0   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs1_c20_j01_f_3   0.01   0.00   0.1   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs1_c20_j01_f_3   0.01   0.00   0.2   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs1_c20_j01_f_3   0.01   0.00   0.3   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs1_c20_j01_f_3   0.01   0.00   0.4   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs1_c20_j01_f_3   0.01   0.00   0.5   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs1_c20_j01_f_3   0.01   0.00   0.6   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs1_c20_j01_f_3   0.01   0.00   0.7   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs1_c20_j01_f_3   0.01   0.00   0.8   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs1_c20_j01_f_3   0.01   0.00   0.9   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs1_c20_j01_f_3   0.01   0.00   1.0   0.1   3   0.10    0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs1_c10_j01_f_3   0.01   0.00   0.0   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs1_c10_j01_f_3   0.01   0.00   0.1   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs1_c10_j01_f_3   0.01   0.00   0.2   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs1_c10_j01_f_3   0.01   0.00   0.3   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs1_c10_j01_f_3   0.01   0.00   0.4   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs1_c10_j01_f_3   0.01   0.00   0.5   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs1_c10_j01_f_3   0.01   0.00   0.6   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs1_c10_j01_f_3   0.01   0.00   0.7   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs1_c10_j01_f_3   0.01   0.00   0.8   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs1_c10_j01_f_3   0.01   0.00   0.9   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs1_c10_j01_f_3   0.01   0.00   1.0   0.1   3   0.10    0.00    0.1 
 
 
 # varying dispersal, bs = 0.2, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs2_c20_j01_f_3   0.01   0.00   0.0   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs2_c20_j01_f_3   0.01   0.00   0.1   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs2_c20_j01_f_3   0.01   0.00   0.2   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs2_c20_j01_f_3   0.01   0.00   0.3   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs2_c20_j01_f_3   0.01   0.00   0.4   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs2_c20_j01_f_3   0.01   0.00   0.5   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs2_c20_j01_f_3   0.01   0.00   0.6   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs2_c20_j01_f_3   0.01   0.00   0.7   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs2_c20_j01_f_3   0.01   0.00   0.8   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs2_c20_j01_f_3   0.01   0.00   0.9   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs2_c20_j01_f_3   0.01   0.00   1.0   0.2   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs2_c10_j01_f_3   0.01   0.00   0.0   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs2_c10_j01_f_3   0.01   0.00   0.1   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs2_c10_j01_f_3   0.01   0.00   0.2   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs2_c10_j01_f_3   0.01   0.00   0.3   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs2_c10_j01_f_3   0.01   0.00   0.4   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs2_c10_j01_f_3   0.01   0.00   0.5   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs2_c10_j01_f_3   0.01   0.00   0.6   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs2_c10_j01_f_3   0.01   0.00   0.7   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs2_c10_j01_f_3   0.01   0.00   0.8   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs2_c10_j01_f_3   0.01   0.00   0.9   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs2_c10_j01_f_3   0.01   0.00   1.0   0.2   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.3, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs3_c20_j01_f_3   0.01   0.00   0.0   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs3_c20_j01_f_3   0.01   0.00   0.1   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs3_c20_j01_f_3   0.01   0.00   0.2   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs3_c20_j01_f_3   0.01   0.00   0.3   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs3_c20_j01_f_3   0.01   0.00   0.4   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs3_c20_j01_f_3   0.01   0.00   0.5   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs3_c20_j01_f_3   0.01   0.00   0.6   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs3_c20_j01_f_3   0.01   0.00   0.7   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs3_c20_j01_f_3   0.01   0.00   0.8   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs3_c20_j01_f_3   0.01   0.00   0.9   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs3_c20_j01_f_3   0.01   0.00   1.0   0.3   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs3_c10_j01_f_3   0.01   0.00   0.0   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs3_c10_j01_f_3   0.01   0.00   0.1   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs3_c10_j01_f_3   0.01   0.00   0.2   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs3_c10_j01_f_3   0.01   0.00   0.3   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs3_c10_j01_f_3   0.01   0.00   0.4   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs3_c10_j01_f_3   0.01   0.00   0.5   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs3_c10_j01_f_3   0.01   0.00   0.6   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs3_c10_j01_f_3   0.01   0.00   0.7   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs3_c10_j01_f_3   0.01   0.00   0.8   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs3_c10_j01_f_3   0.01   0.00   0.9   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs3_c10_j01_f_3   0.01   0.00   1.0   0.3   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.4, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs4_c20_j01_f_3   0.01   0.00   0.0   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs4_c20_j01_f_3   0.01   0.00   0.1   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs4_c20_j01_f_3   0.01   0.00   0.2   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs4_c20_j01_f_3   0.01   0.00   0.3   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs4_c20_j01_f_3   0.01   0.00   0.4   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs4_c20_j01_f_3   0.01   0.00   0.5   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs4_c20_j01_f_3   0.01   0.00   0.6   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs4_c20_j01_f_3   0.01   0.00   0.7   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs4_c20_j01_f_3   0.01   0.00   0.8   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs4_c20_j01_f_3   0.01   0.00   0.9   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs4_c20_j01_f_3   0.01   0.00   1.0   0.4   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs4_c10_j01_f_3   0.01   0.00   0.0   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs4_c10_j01_f_3   0.01   0.00   0.1   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs4_c10_j01_f_3   0.01   0.00   0.2   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs4_c10_j01_f_3   0.01   0.00   0.3   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs4_c10_j01_f_3   0.01   0.00   0.4   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs4_c10_j01_f_3   0.01   0.00   0.5   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs4_c10_j01_f_3   0.01   0.00   0.6   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs4_c10_j01_f_3   0.01   0.00   0.7   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs4_c10_j01_f_3   0.01   0.00   0.8   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs4_c10_j01_f_3   0.01   0.00   0.9   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs4_c10_j01_f_3   0.01   0.00   1.0   0.4   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.5, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs5_c20_j01_f_3   0.01   0.00   0.0   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs5_c20_j01_f_3   0.01   0.00   0.1   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs5_c20_j01_f_3   0.01   0.00   0.2   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs5_c20_j01_f_3   0.01   0.00   0.3   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs5_c20_j01_f_3   0.01   0.00   0.4   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs5_c20_j01_f_3   0.01   0.00   0.5   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs5_c20_j01_f_3   0.01   0.00   0.6   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs5_c20_j01_f_3   0.01   0.00   0.7   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs5_c20_j01_f_3   0.01   0.00   0.8   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs5_c20_j01_f_3   0.01   0.00   0.9   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs5_c20_j01_f_3   0.01   0.00   1.0   0.5   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs5_c10_j01_f_3   0.01   0.00   0.0   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs5_c10_j01_f_3   0.01   0.00   0.1   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs5_c10_j01_f_3   0.01   0.00   0.2   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs5_c10_j01_f_3   0.01   0.00   0.3   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs5_c10_j01_f_3   0.01   0.00   0.4   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs5_c10_j01_f_3   0.01   0.00   0.5   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs5_c10_j01_f_3   0.01   0.00   0.6   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs5_c10_j01_f_3   0.01   0.00   0.7   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs5_c10_j01_f_3   0.01   0.00   0.8   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs5_c10_j01_f_3   0.01   0.00   0.9   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs5_c10_j01_f_3   0.01   0.00   1.0   0.5   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.6, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs6_c20_j01_f_3   0.01   0.00   0.0   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs6_c20_j01_f_3   0.01   0.00   0.1   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs6_c20_j01_f_3   0.01   0.00   0.2   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs6_c20_j01_f_3   0.01   0.00   0.3   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs6_c20_j01_f_3   0.01   0.00   0.4   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs6_c20_j01_f_3   0.01   0.00   0.5   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs6_c20_j01_f_3   0.01   0.00   0.6   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs6_c20_j01_f_3   0.01   0.00   0.7   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs6_c20_j01_f_3   0.01   0.00   0.8   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs6_c20_j01_f_3   0.01   0.00   0.9   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs6_c20_j01_f_3   0.01   0.00   1.0   0.6   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs6_c10_j01_f_3   0.01   0.00   0.0   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs6_c10_j01_f_3   0.01   0.00   0.1   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs6_c10_j01_f_3   0.01   0.00   0.2   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs6_c10_j01_f_3   0.01   0.00   0.3   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs6_c10_j01_f_3   0.01   0.00   0.4   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs6_c10_j01_f_3   0.01   0.00   0.5   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs6_c10_j01_f_3   0.01   0.00   0.6   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs6_c10_j01_f_3   0.01   0.00   0.7   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs6_c10_j01_f_3   0.01   0.00   0.8   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs6_c10_j01_f_3   0.01   0.00   0.9   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs6_c10_j01_f_3   0.01   0.00   1.0   0.6   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.7, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs7_c20_j01_f_3   0.01   0.00   0.0   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs7_c20_j01_f_3   0.01   0.00   0.1   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs7_c20_j01_f_3   0.01   0.00   0.2   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs7_c20_j01_f_3   0.01   0.00   0.3   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs7_c20_j01_f_3   0.01   0.00   0.4   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs7_c20_j01_f_3   0.01   0.00   0.5   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs7_c20_j01_f_3   0.01   0.00   0.6   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs7_c20_j01_f_3   0.01   0.00   0.7   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs7_c20_j01_f_3   0.01   0.00   0.8   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs7_c20_j01_f_3   0.01   0.00   0.9   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs7_c20_j01_f_3   0.01   0.00   1.0   0.7   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs7_c10_j01_f_3   0.01   0.00   0.0   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs7_c10_j01_f_3   0.01   0.00   0.1   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs7_c10_j01_f_3   0.01   0.00   0.2   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs7_c10_j01_f_3   0.01   0.00   0.3   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs7_c10_j01_f_3   0.01   0.00   0.4   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs7_c10_j01_f_3   0.01   0.00   0.5   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs7_c10_j01_f_3   0.01   0.00   0.6   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs7_c10_j01_f_3   0.01   0.00   0.7   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs7_c10_j01_f_3   0.01   0.00   0.8   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs7_c10_j01_f_3   0.01   0.00   0.9   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs7_c10_j01_f_3   0.01   0.00   1.0   0.7   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.8, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs8_c20_j01_f_3   0.01   0.00   0.0   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs8_c20_j01_f_3   0.01   0.00   0.1   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs8_c20_j01_f_3   0.01   0.00   0.2   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs8_c20_j01_f_3   0.01   0.00   0.3   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs8_c20_j01_f_3   0.01   0.00   0.4   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs8_c20_j01_f_3   0.01   0.00   0.5   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs8_c20_j01_f_3   0.01   0.00   0.6   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs8_c20_j01_f_3   0.01   0.00   0.7   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs8_c20_j01_f_3   0.01   0.00   0.8   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs8_c20_j01_f_3   0.01   0.00   0.9   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs8_c20_j01_f_3   0.01   0.00   1.0   0.8   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs8_c10_j01_f_3   0.01   0.00   0.0   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs8_c10_j01_f_3   0.01   0.00   0.1   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs8_c10_j01_f_3   0.01   0.00   0.2   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs8_c10_j01_f_3   0.01   0.00   0.3   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs8_c10_j01_f_3   0.01   0.00   0.4   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs8_c10_j01_f_3   0.01   0.00   0.5   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs8_c10_j01_f_3   0.01   0.00   0.6   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs8_c10_j01_f_3   0.01   0.00   0.7   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs8_c10_j01_f_3   0.01   0.00   0.8   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs8_c10_j01_f_3   0.01   0.00   0.9   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs8_c10_j01_f_3   0.01   0.00   1.0   0.8   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.9, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs9_c20_j01_f_3   0.01   0.00   0.0   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs9_c20_j01_f_3   0.01   0.00   0.1   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs9_c20_j01_f_3   0.01   0.00   0.2   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs9_c20_j01_f_3   0.01   0.00   0.3   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs9_c20_j01_f_3   0.01   0.00   0.4   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs9_c20_j01_f_3   0.01   0.00   0.5   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs9_c20_j01_f_3   0.01   0.00   0.6   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs9_c20_j01_f_3   0.01   0.00   0.7   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs9_c20_j01_f_3   0.01   0.00   0.8   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs9_c20_j01_f_3   0.01   0.00   0.9   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs9_c20_j01_f_3   0.01   0.00   1.0   0.9   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs9_c10_j01_f_3   0.01   0.00   0.0   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs9_c10_j01_f_3   0.01   0.00   0.1   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs9_c10_j01_f_3   0.01   0.00   0.2   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs9_c10_j01_f_3   0.01   0.00   0.3   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs9_c10_j01_f_3   0.01   0.00   0.4   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs9_c10_j01_f_3   0.01   0.00   0.5   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs9_c10_j01_f_3   0.01   0.00   0.6   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs9_c10_j01_f_3   0.01   0.00   0.7   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs9_c10_j01_f_3   0.01   0.00   0.8   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs9_c10_j01_f_3   0.01   0.00   0.9   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs9_c10_j01_f_3   0.01   0.00   1.0   0.9   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 1.0, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs10_c20_j01_f_3   0.01   0.00   0.0   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs10_c20_j01_f_3   0.01   0.00   0.1   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs10_c20_j01_f_3   0.01   0.00   0.2   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs10_c20_j01_f_3   0.01   0.00   0.3   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs10_c20_j01_f_3   0.01   0.00   0.4   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs10_c20_j01_f_3   0.01   0.00   0.5   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs10_c20_j01_f_3   0.01   0.00   0.6   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs10_c20_j01_f_3   0.01   0.00   0.7   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs10_c20_j01_f_3   0.01   0.00   0.8   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs10_c20_j01_f_3   0.01   0.00   0.9   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs10_c20_j01_f_3   0.01   0.00   1.0   1.0   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs10_c10_j01_f_3   0.01   0.00   0.0   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs10_c10_j01_f_3   0.01   0.00   0.1   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs10_c10_j01_f_3   0.01   0.00   0.2   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs10_c10_j01_f_3   0.01   0.00   0.3   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs10_c10_j01_f_3   0.01   0.00   0.4   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs10_c10_j01_f_3   0.01   0.00   0.5   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs10_c10_j01_f_3   0.01   0.00   0.6   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs10_c10_j01_f_3   0.01   0.00   0.7   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs10_c10_j01_f_3   0.01   0.00   0.8   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs10_c10_j01_f_3   0.01   0.00   0.9   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs10_c10_j01_f_3   0.01   0.00   1.0   1.0   3   0.10    0.00    0.1
 
 
 
@@ -1537,167 +1537,167 @@
 
 # varying dispersal, bs = 0.0, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs0_c02_j01_f_4   0.01   0.00   0.0   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs0_c02_j01_f_4   0.01   0.00   0.1   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs0_c02_j01_f_4   0.01   0.00   0.2   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs0_c02_j01_f_4   0.01   0.00   0.3   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs0_c02_j01_f_4   0.01   0.00   0.4   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs0_c02_j01_f_4   0.01   0.00   0.5   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs0_c02_j01_f_4   0.01   0.00   0.6   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs0_c02_j01_f_4   0.01   0.00   0.7   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs0_c02_j01_f_4   0.01   0.00   0.8   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs0_c02_j01_f_4   0.01   0.00   0.9   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs0_c02_j01_f_4   0.01   0.00   1.0   0.0   3   0.1667  0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs0_c06_j01_f_4   0.01   0.00   0.0   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs0_c06_j01_f_4   0.01   0.00   0.1   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs0_c06_j01_f_4   0.01   0.00   0.2   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs0_c06_j01_f_4   0.01   0.00   0.3   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs0_c06_j01_f_4   0.01   0.00   0.4   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs0_c06_j01_f_4   0.01   0.00   0.5   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs0_c06_j01_f_4   0.01   0.00   0.6   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs0_c06_j01_f_4   0.01   0.00   0.7   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs0_c06_j01_f_4   0.01   0.00   0.8   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs0_c06_j01_f_4   0.01   0.00   0.9   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs0_c06_j01_f_4   0.01   0.00   1.0   0.0   3   0.1667  0.00    0.1 
 
 
 # varying dispersal, bs = 0.1, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs1_c02_j01_f_4   0.01   0.00   0.0   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs1_c02_j01_f_4   0.01   0.00   0.1   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs1_c02_j01_f_4   0.01   0.00   0.2   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs1_c02_j01_f_4   0.01   0.00   0.3   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs1_c02_j01_f_4   0.01   0.00   0.4   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs1_c02_j01_f_4   0.01   0.00   0.5   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs1_c02_j01_f_4   0.01   0.00   0.6   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs1_c02_j01_f_4   0.01   0.00   0.7   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs1_c02_j01_f_4   0.01   0.00   0.8   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs1_c02_j01_f_4   0.01   0.00   0.9   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs1_c02_j01_f_4   0.01   0.00   1.0   0.1   3   0.1667  0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs1_c06_j01_f_4   0.01   0.00   0.0   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs1_c06_j01_f_4   0.01   0.00   0.1   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs1_c06_j01_f_4   0.01   0.00   0.2   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs1_c06_j01_f_4   0.01   0.00   0.3   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs1_c06_j01_f_4   0.01   0.00   0.4   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs1_c06_j01_f_4   0.01   0.00   0.5   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs1_c06_j01_f_4   0.01   0.00   0.6   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs1_c06_j01_f_4   0.01   0.00   0.7   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs1_c06_j01_f_4   0.01   0.00   0.8   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs1_c06_j01_f_4   0.01   0.00   0.9   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs1_c06_j01_f_4   0.01   0.00   1.0   0.1   3   0.1667  0.00    0.1 
 
 
 # varying dispersal, bs = 0.2, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs2_c02_j01_f_4   0.01   0.00   0.0   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs2_c02_j01_f_4   0.01   0.00   0.1   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs2_c02_j01_f_4   0.01   0.00   0.2   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs2_c02_j01_f_4   0.01   0.00   0.3   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs2_c02_j01_f_4   0.01   0.00   0.4   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs2_c02_j01_f_4   0.01   0.00   0.5   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs2_c02_j01_f_4   0.01   0.00   0.6   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs2_c02_j01_f_4   0.01   0.00   0.7   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs2_c02_j01_f_4   0.01   0.00   0.8   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs2_c02_j01_f_4   0.01   0.00   0.9   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs2_c02_j01_f_4   0.01   0.00   1.0   0.2   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs2_c06_j01_f_4   0.01   0.00   0.0   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs2_c06_j01_f_4   0.01   0.00   0.1   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs2_c06_j01_f_4   0.01   0.00   0.2   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs2_c06_j01_f_4   0.01   0.00   0.3   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs2_c06_j01_f_4   0.01   0.00   0.4   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs2_c06_j01_f_4   0.01   0.00   0.5   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs2_c06_j01_f_4   0.01   0.00   0.6   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs2_c06_j01_f_4   0.01   0.00   0.7   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs2_c06_j01_f_4   0.01   0.00   0.8   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs2_c06_j01_f_4   0.01   0.00   0.9   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs2_c06_j01_f_4   0.01   0.00   1.0   0.2   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.3, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs3_c02_j01_f_4   0.01   0.00   0.0   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs3_c02_j01_f_4   0.01   0.00   0.1   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs3_c02_j01_f_4   0.01   0.00   0.2   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs3_c02_j01_f_4   0.01   0.00   0.3   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs3_c02_j01_f_4   0.01   0.00   0.4   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs3_c02_j01_f_4   0.01   0.00   0.5   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs3_c02_j01_f_4   0.01   0.00   0.6   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs3_c02_j01_f_4   0.01   0.00   0.7   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs3_c02_j01_f_4   0.01   0.00   0.8   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs3_c02_j01_f_4   0.01   0.00   0.9   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs3_c02_j01_f_4   0.01   0.00   1.0   0.3   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs3_c06_j01_f_4   0.01   0.00   0.0   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs3_c06_j01_f_4   0.01   0.00   0.1   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs3_c06_j01_f_4   0.01   0.00   0.2   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs3_c06_j01_f_4   0.01   0.00   0.3   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs3_c06_j01_f_4   0.01   0.00   0.4   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs3_c06_j01_f_4   0.01   0.00   0.5   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs3_c06_j01_f_4   0.01   0.00   0.6   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs3_c06_j01_f_4   0.01   0.00   0.7   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs3_c06_j01_f_4   0.01   0.00   0.8   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs3_c06_j01_f_4   0.01   0.00   0.9   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs3_c06_j01_f_4   0.01   0.00   1.0   0.3   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.4, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs4_c02_j01_f_4   0.01   0.00   0.0   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs4_c02_j01_f_4   0.01   0.00   0.1   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs4_c02_j01_f_4   0.01   0.00   0.2   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs4_c02_j01_f_4   0.01   0.00   0.3   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs4_c02_j01_f_4   0.01   0.00   0.4   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs4_c02_j01_f_4   0.01   0.00   0.5   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs4_c02_j01_f_4   0.01   0.00   0.6   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs4_c02_j01_f_4   0.01   0.00   0.7   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs4_c02_j01_f_4   0.01   0.00   0.8   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs4_c02_j01_f_4   0.01   0.00   0.9   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs4_c02_j01_f_4   0.01   0.00   1.0   0.4   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs4_c06_j01_f_4   0.01   0.00   0.0   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs4_c06_j01_f_4   0.01   0.00   0.1   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs4_c06_j01_f_4   0.01   0.00   0.2   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs4_c06_j01_f_4   0.01   0.00   0.3   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs4_c06_j01_f_4   0.01   0.00   0.4   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs4_c06_j01_f_4   0.01   0.00   0.5   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs4_c06_j01_f_4   0.01   0.00   0.6   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs4_c06_j01_f_4   0.01   0.00   0.7   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs4_c06_j01_f_4   0.01   0.00   0.8   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs4_c06_j01_f_4   0.01   0.00   0.9   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs4_c06_j01_f_4   0.01   0.00   1.0   0.4   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.5, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs5_c02_j01_f_4   0.01   0.00   0.0   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs5_c02_j01_f_4   0.01   0.00   0.1   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs5_c02_j01_f_4   0.01   0.00   0.2   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs5_c02_j01_f_4   0.01   0.00   0.3   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs5_c02_j01_f_4   0.01   0.00   0.4   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs5_c02_j01_f_4   0.01   0.00   0.5   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs5_c02_j01_f_4   0.01   0.00   0.6   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs5_c02_j01_f_4   0.01   0.00   0.7   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs5_c02_j01_f_4   0.01   0.00   0.8   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs5_c02_j01_f_4   0.01   0.00   0.9   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs5_c02_j01_f_4   0.01   0.00   1.0   0.5   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs5_c06_j01_f_4   0.01   0.00   0.0   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs5_c06_j01_f_4   0.01   0.00   0.1   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs5_c06_j01_f_4   0.01   0.00   0.2   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs5_c06_j01_f_4   0.01   0.00   0.3   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs5_c06_j01_f_4   0.01   0.00   0.4   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs5_c06_j01_f_4   0.01   0.00   0.5   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs5_c06_j01_f_4   0.01   0.00   0.6   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs5_c06_j01_f_4   0.01   0.00   0.7   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs5_c06_j01_f_4   0.01   0.00   0.8   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs5_c06_j01_f_4   0.01   0.00   0.9   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs5_c06_j01_f_4   0.01   0.00   1.0   0.5   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.6, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs6_c02_j01_f_4   0.01   0.00   0.0   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs6_c02_j01_f_4   0.01   0.00   0.1   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs6_c02_j01_f_4   0.01   0.00   0.2   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs6_c02_j01_f_4   0.01   0.00   0.3   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs6_c02_j01_f_4   0.01   0.00   0.4   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs6_c02_j01_f_4   0.01   0.00   0.5   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs6_c02_j01_f_4   0.01   0.00   0.6   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs6_c02_j01_f_4   0.01   0.00   0.7   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs6_c02_j01_f_4   0.01   0.00   0.8   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs6_c02_j01_f_4   0.01   0.00   0.9   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs6_c02_j01_f_4   0.01   0.00   1.0   0.6   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs6_c06_j01_f_4   0.01   0.00   0.0   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs6_c06_j01_f_4   0.01   0.00   0.1   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs6_c06_j01_f_4   0.01   0.00   0.2   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs6_c06_j01_f_4   0.01   0.00   0.3   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs6_c06_j01_f_4   0.01   0.00   0.4   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs6_c06_j01_f_4   0.01   0.00   0.5   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs6_c06_j01_f_4   0.01   0.00   0.6   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs6_c06_j01_f_4   0.01   0.00   0.7   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs6_c06_j01_f_4   0.01   0.00   0.8   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs6_c06_j01_f_4   0.01   0.00   0.9   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs6_c06_j01_f_4   0.01   0.00   1.0   0.6   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.7, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs7_c02_j01_f_4   0.01   0.00   0.0   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs7_c02_j01_f_4   0.01   0.00   0.1   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs7_c02_j01_f_4   0.01   0.00   0.2   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs7_c02_j01_f_4   0.01   0.00   0.3   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs7_c02_j01_f_4   0.01   0.00   0.4   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs7_c02_j01_f_4   0.01   0.00   0.5   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs7_c02_j01_f_4   0.01   0.00   0.6   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs7_c02_j01_f_4   0.01   0.00   0.7   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs7_c02_j01_f_4   0.01   0.00   0.8   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs7_c02_j01_f_4   0.01   0.00   0.9   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs7_c02_j01_f_4   0.01   0.00   1.0   0.7   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs7_c06_j01_f_4   0.01   0.00   0.0   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs7_c06_j01_f_4   0.01   0.00   0.1   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs7_c06_j01_f_4   0.01   0.00   0.2   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs7_c06_j01_f_4   0.01   0.00   0.3   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs7_c06_j01_f_4   0.01   0.00   0.4   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs7_c06_j01_f_4   0.01   0.00   0.5   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs7_c06_j01_f_4   0.01   0.00   0.6   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs7_c06_j01_f_4   0.01   0.00   0.7   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs7_c06_j01_f_4   0.01   0.00   0.8   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs7_c06_j01_f_4   0.01   0.00   0.9   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs7_c06_j01_f_4   0.01   0.00   1.0   0.7   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.8, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs8_c02_j01_f_4   0.01   0.00   0.0   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs8_c02_j01_f_4   0.01   0.00   0.1   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs8_c02_j01_f_4   0.01   0.00   0.2   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs8_c02_j01_f_4   0.01   0.00   0.3   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs8_c02_j01_f_4   0.01   0.00   0.4   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs8_c02_j01_f_4   0.01   0.00   0.5   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs8_c02_j01_f_4   0.01   0.00   0.6   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs8_c02_j01_f_4   0.01   0.00   0.7   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs8_c02_j01_f_4   0.01   0.00   0.8   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs8_c02_j01_f_4   0.01   0.00   0.9   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs8_c02_j01_f_4   0.01   0.00   1.0   0.8   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs8_c06_j01_f_4   0.01   0.00   0.0   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs8_c06_j01_f_4   0.01   0.00   0.1   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs8_c06_j01_f_4   0.01   0.00   0.2   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs8_c06_j01_f_4   0.01   0.00   0.3   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs8_c06_j01_f_4   0.01   0.00   0.4   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs8_c06_j01_f_4   0.01   0.00   0.5   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs8_c06_j01_f_4   0.01   0.00   0.6   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs8_c06_j01_f_4   0.01   0.00   0.7   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs8_c06_j01_f_4   0.01   0.00   0.8   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs8_c06_j01_f_4   0.01   0.00   0.9   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs8_c06_j01_f_4   0.01   0.00   1.0   0.8   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.9, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs9_c02_j01_f_4   0.01   0.00   0.0   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs9_c02_j01_f_4   0.01   0.00   0.1   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs9_c02_j01_f_4   0.01   0.00   0.2   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs9_c02_j01_f_4   0.01   0.00   0.3   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs9_c02_j01_f_4   0.01   0.00   0.4   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs9_c02_j01_f_4   0.01   0.00   0.5   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs9_c02_j01_f_4   0.01   0.00   0.6   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs9_c02_j01_f_4   0.01   0.00   0.7   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs9_c02_j01_f_4   0.01   0.00   0.8   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs9_c02_j01_f_4   0.01   0.00   0.9   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs9_c02_j01_f_4   0.01   0.00   1.0   0.9   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs9_c06_j01_f_4   0.01   0.00   0.0   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs9_c06_j01_f_4   0.01   0.00   0.1   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs9_c06_j01_f_4   0.01   0.00   0.2   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs9_c06_j01_f_4   0.01   0.00   0.3   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs9_c06_j01_f_4   0.01   0.00   0.4   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs9_c06_j01_f_4   0.01   0.00   0.5   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs9_c06_j01_f_4   0.01   0.00   0.6   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs9_c06_j01_f_4   0.01   0.00   0.7   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs9_c06_j01_f_4   0.01   0.00   0.8   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs9_c06_j01_f_4   0.01   0.00   0.9   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs9_c06_j01_f_4   0.01   0.00   1.0   0.9   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 1.0, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs10_c02_j01_f_4   0.01   0.00   0.0   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs10_c02_j01_f_4   0.01   0.00   0.1   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs10_c02_j01_f_4   0.01   0.00   0.2   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs10_c02_j01_f_4   0.01   0.00   0.3   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs10_c02_j01_f_4   0.01   0.00   0.4   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs10_c02_j01_f_4   0.01   0.00   0.5   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs10_c02_j01_f_4   0.01   0.00   0.6   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs10_c02_j01_f_4   0.01   0.00   0.7   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs10_c02_j01_f_4   0.01   0.00   0.8   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs10_c02_j01_f_4   0.01   0.00   0.9   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs10_c02_j01_f_4   0.01   0.00   1.0   1.0   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs10_c06_j01_f_4   0.01   0.00   0.0   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs10_c06_j01_f_4   0.01   0.00   0.1   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs10_c06_j01_f_4   0.01   0.00   0.2   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs10_c06_j01_f_4   0.01   0.00   0.3   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs10_c06_j01_f_4   0.01   0.00   0.4   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs10_c06_j01_f_4   0.01   0.00   0.5   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs10_c06_j01_f_4   0.01   0.00   0.6   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs10_c06_j01_f_4   0.01   0.00   0.7   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs10_c06_j01_f_4   0.01   0.00   0.8   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs10_c06_j01_f_4   0.01   0.00   0.9   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs10_c06_j01_f_4   0.01   0.00   1.0   1.0   3   0.1667  0.00    0.1
 
 
 # ________________________________________________________________________________________________________________
@@ -1705,167 +1705,167 @@
 
 # varying dispersal, bs = 0.0, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs0_c05_j01_f_4   0.01   0.00   0.0   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs0_c05_j01_f_4   0.01   0.00   0.1   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs0_c05_j01_f_4   0.01   0.00   0.2   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs0_c05_j01_f_4   0.01   0.00   0.3   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs0_c05_j01_f_4   0.01   0.00   0.4   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs0_c05_j01_f_4   0.01   0.00   0.5   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs0_c05_j01_f_4   0.01   0.00   0.6   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs0_c05_j01_f_4   0.01   0.00   0.7   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs0_c05_j01_f_4   0.01   0.00   0.8   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs0_c05_j01_f_4   0.01   0.00   0.9   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs0_c05_j01_f_4   0.01   0.00   1.0   0.0   3   0.125   0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs0_c08_j01_f_4   0.01   0.00   0.0   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs0_c08_j01_f_4   0.01   0.00   0.1   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs0_c08_j01_f_4   0.01   0.00   0.2   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs0_c08_j01_f_4   0.01   0.00   0.3   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs0_c08_j01_f_4   0.01   0.00   0.4   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs0_c08_j01_f_4   0.01   0.00   0.5   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs0_c08_j01_f_4   0.01   0.00   0.6   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs0_c08_j01_f_4   0.01   0.00   0.7   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs0_c08_j01_f_4   0.01   0.00   0.8   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs0_c08_j01_f_4   0.01   0.00   0.9   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs0_c08_j01_f_4   0.01   0.00   1.0   0.0   3   0.125   0.00    0.1 
 
 
 # varying dispersal, bs = 0.1, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs1_c05_j01_f_4   0.01   0.00   0.0   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs1_c05_j01_f_4   0.01   0.00   0.1   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs1_c05_j01_f_4   0.01   0.00   0.2   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs1_c05_j01_f_4   0.01   0.00   0.3   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs1_c05_j01_f_4   0.01   0.00   0.4   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs1_c05_j01_f_4   0.01   0.00   0.5   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs1_c05_j01_f_4   0.01   0.00   0.6   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs1_c05_j01_f_4   0.01   0.00   0.7   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs1_c05_j01_f_4   0.01   0.00   0.8   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs1_c05_j01_f_4   0.01   0.00   0.9   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs1_c05_j01_f_4   0.01   0.00   1.0   0.1   3   0.125   0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs1_c08_j01_f_4   0.01   0.00   0.0   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs1_c08_j01_f_4   0.01   0.00   0.1   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs1_c08_j01_f_4   0.01   0.00   0.2   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs1_c08_j01_f_4   0.01   0.00   0.3   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs1_c08_j01_f_4   0.01   0.00   0.4   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs1_c08_j01_f_4   0.01   0.00   0.5   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs1_c08_j01_f_4   0.01   0.00   0.6   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs1_c08_j01_f_4   0.01   0.00   0.7   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs1_c08_j01_f_4   0.01   0.00   0.8   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs1_c08_j01_f_4   0.01   0.00   0.9   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs1_c08_j01_f_4   0.01   0.00   1.0   0.1   3   0.125   0.00    0.1 
 
 
 # varying dispersal, bs = 0.2, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs2_c05_j01_f_4   0.01   0.00   0.0   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs2_c05_j01_f_4   0.01   0.00   0.1   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs2_c05_j01_f_4   0.01   0.00   0.2   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs2_c05_j01_f_4   0.01   0.00   0.3   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs2_c05_j01_f_4   0.01   0.00   0.4   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs2_c05_j01_f_4   0.01   0.00   0.5   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs2_c05_j01_f_4   0.01   0.00   0.6   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs2_c05_j01_f_4   0.01   0.00   0.7   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs2_c05_j01_f_4   0.01   0.00   0.8   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs2_c05_j01_f_4   0.01   0.00   0.9   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs2_c05_j01_f_4   0.01   0.00   1.0   0.2   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs2_c08_j01_f_4   0.01   0.00   0.0   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs2_c08_j01_f_4   0.01   0.00   0.1   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs2_c08_j01_f_4   0.01   0.00   0.2   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs2_c08_j01_f_4   0.01   0.00   0.3   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs2_c08_j01_f_4   0.01   0.00   0.4   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs2_c08_j01_f_4   0.01   0.00   0.5   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs2_c08_j01_f_4   0.01   0.00   0.6   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs2_c08_j01_f_4   0.01   0.00   0.7   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs2_c08_j01_f_4   0.01   0.00   0.8   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs2_c08_j01_f_4   0.01   0.00   0.9   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs2_c08_j01_f_4   0.01   0.00   1.0   0.2   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.3, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs3_c05_j01_f_4   0.01   0.00   0.0   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs3_c05_j01_f_4   0.01   0.00   0.1   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs3_c05_j01_f_4   0.01   0.00   0.2   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs3_c05_j01_f_4   0.01   0.00   0.3   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs3_c05_j01_f_4   0.01   0.00   0.4   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs3_c05_j01_f_4   0.01   0.00   0.5   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs3_c05_j01_f_4   0.01   0.00   0.6   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs3_c05_j01_f_4   0.01   0.00   0.7   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs3_c05_j01_f_4   0.01   0.00   0.8   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs3_c05_j01_f_4   0.01   0.00   0.9   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs3_c05_j01_f_4   0.01   0.00   1.0   0.3   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs3_c08_j01_f_4   0.01   0.00   0.0   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs3_c08_j01_f_4   0.01   0.00   0.1   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs3_c08_j01_f_4   0.01   0.00   0.2   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs3_c08_j01_f_4   0.01   0.00   0.3   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs3_c08_j01_f_4   0.01   0.00   0.4   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs3_c08_j01_f_4   0.01   0.00   0.5   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs3_c08_j01_f_4   0.01   0.00   0.6   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs3_c08_j01_f_4   0.01   0.00   0.7   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs3_c08_j01_f_4   0.01   0.00   0.8   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs3_c08_j01_f_4   0.01   0.00   0.9   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs3_c08_j01_f_4   0.01   0.00   1.0   0.3   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.4, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs4_c05_j01_f_4   0.01   0.00   0.0   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs4_c05_j01_f_4   0.01   0.00   0.1   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs4_c05_j01_f_4   0.01   0.00   0.2   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs4_c05_j01_f_4   0.01   0.00   0.3   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs4_c05_j01_f_4   0.01   0.00   0.4   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs4_c05_j01_f_4   0.01   0.00   0.5   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs4_c05_j01_f_4   0.01   0.00   0.6   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs4_c05_j01_f_4   0.01   0.00   0.7   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs4_c05_j01_f_4   0.01   0.00   0.8   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs4_c05_j01_f_4   0.01   0.00   0.9   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs4_c05_j01_f_4   0.01   0.00   1.0   0.4   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs4_c08_j01_f_4   0.01   0.00   0.0   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs4_c08_j01_f_4   0.01   0.00   0.1   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs4_c08_j01_f_4   0.01   0.00   0.2   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs4_c08_j01_f_4   0.01   0.00   0.3   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs4_c08_j01_f_4   0.01   0.00   0.4   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs4_c08_j01_f_4   0.01   0.00   0.5   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs4_c08_j01_f_4   0.01   0.00   0.6   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs4_c08_j01_f_4   0.01   0.00   0.7   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs4_c08_j01_f_4   0.01   0.00   0.8   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs4_c08_j01_f_4   0.01   0.00   0.9   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs4_c08_j01_f_4   0.01   0.00   1.0   0.4   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.5, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs5_c05_j01_f_4   0.01   0.00   0.0   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs5_c05_j01_f_4   0.01   0.00   0.1   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs5_c05_j01_f_4   0.01   0.00   0.2   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs5_c05_j01_f_4   0.01   0.00   0.3   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs5_c05_j01_f_4   0.01   0.00   0.4   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs5_c05_j01_f_4   0.01   0.00   0.5   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs5_c05_j01_f_4   0.01   0.00   0.6   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs5_c05_j01_f_4   0.01   0.00   0.7   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs5_c05_j01_f_4   0.01   0.00   0.8   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs5_c05_j01_f_4   0.01   0.00   0.9   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs5_c05_j01_f_4   0.01   0.00   1.0   0.5   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs5_c08_j01_f_4   0.01   0.00   0.0   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs5_c08_j01_f_4   0.01   0.00   0.1   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs5_c08_j01_f_4   0.01   0.00   0.2   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs5_c08_j01_f_4   0.01   0.00   0.3   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs5_c08_j01_f_4   0.01   0.00   0.4   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs5_c08_j01_f_4   0.01   0.00   0.5   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs5_c08_j01_f_4   0.01   0.00   0.6   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs5_c08_j01_f_4   0.01   0.00   0.7   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs5_c08_j01_f_4   0.01   0.00   0.8   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs5_c08_j01_f_4   0.01   0.00   0.9   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs5_c08_j01_f_4   0.01   0.00   1.0   0.5   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.6, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs6_c05_j01_f_4   0.01   0.00   0.0   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs6_c05_j01_f_4   0.01   0.00   0.1   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs6_c05_j01_f_4   0.01   0.00   0.2   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs6_c05_j01_f_4   0.01   0.00   0.3   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs6_c05_j01_f_4   0.01   0.00   0.4   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs6_c05_j01_f_4   0.01   0.00   0.5   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs6_c05_j01_f_4   0.01   0.00   0.6   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs6_c05_j01_f_4   0.01   0.00   0.7   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs6_c05_j01_f_4   0.01   0.00   0.8   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs6_c05_j01_f_4   0.01   0.00   0.9   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs6_c05_j01_f_4   0.01   0.00   1.0   0.6   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs6_c08_j01_f_4   0.01   0.00   0.0   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs6_c08_j01_f_4   0.01   0.00   0.1   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs6_c08_j01_f_4   0.01   0.00   0.2   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs6_c08_j01_f_4   0.01   0.00   0.3   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs6_c08_j01_f_4   0.01   0.00   0.4   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs6_c08_j01_f_4   0.01   0.00   0.5   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs6_c08_j01_f_4   0.01   0.00   0.6   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs6_c08_j01_f_4   0.01   0.00   0.7   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs6_c08_j01_f_4   0.01   0.00   0.8   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs6_c08_j01_f_4   0.01   0.00   0.9   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs6_c08_j01_f_4   0.01   0.00   1.0   0.6   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.7, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs7_c05_j01_f_4   0.01   0.00   0.0   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs7_c05_j01_f_4   0.01   0.00   0.1   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs7_c05_j01_f_4   0.01   0.00   0.2   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs7_c05_j01_f_4   0.01   0.00   0.3   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs7_c05_j01_f_4   0.01   0.00   0.4   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs7_c05_j01_f_4   0.01   0.00   0.5   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs7_c05_j01_f_4   0.01   0.00   0.6   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs7_c05_j01_f_4   0.01   0.00   0.7   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs7_c05_j01_f_4   0.01   0.00   0.8   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs7_c05_j01_f_4   0.01   0.00   0.9   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs7_c05_j01_f_4   0.01   0.00   1.0   0.7   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs7_c08_j01_f_4   0.01   0.00   0.0   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs7_c08_j01_f_4   0.01   0.00   0.1   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs7_c08_j01_f_4   0.01   0.00   0.2   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs7_c08_j01_f_4   0.01   0.00   0.3   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs7_c08_j01_f_4   0.01   0.00   0.4   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs7_c08_j01_f_4   0.01   0.00   0.5   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs7_c08_j01_f_4   0.01   0.00   0.6   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs7_c08_j01_f_4   0.01   0.00   0.7   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs7_c08_j01_f_4   0.01   0.00   0.8   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs7_c08_j01_f_4   0.01   0.00   0.9   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs7_c08_j01_f_4   0.01   0.00   1.0   0.7   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.8, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs8_c05_j01_f_4   0.01   0.00   0.0   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs8_c05_j01_f_4   0.01   0.00   0.1   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs8_c05_j01_f_4   0.01   0.00   0.2   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs8_c05_j01_f_4   0.01   0.00   0.3   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs8_c05_j01_f_4   0.01   0.00   0.4   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs8_c05_j01_f_4   0.01   0.00   0.5   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs8_c05_j01_f_4   0.01   0.00   0.6   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs8_c05_j01_f_4   0.01   0.00   0.7   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs8_c05_j01_f_4   0.01   0.00   0.8   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs8_c05_j01_f_4   0.01   0.00   0.9   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs8_c05_j01_f_4   0.01   0.00   1.0   0.8   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs8_c08_j01_f_4   0.01   0.00   0.0   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs8_c08_j01_f_4   0.01   0.00   0.1   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs8_c08_j01_f_4   0.01   0.00   0.2   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs8_c08_j01_f_4   0.01   0.00   0.3   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs8_c08_j01_f_4   0.01   0.00   0.4   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs8_c08_j01_f_4   0.01   0.00   0.5   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs8_c08_j01_f_4   0.01   0.00   0.6   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs8_c08_j01_f_4   0.01   0.00   0.7   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs8_c08_j01_f_4   0.01   0.00   0.8   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs8_c08_j01_f_4   0.01   0.00   0.9   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs8_c08_j01_f_4   0.01   0.00   1.0   0.8   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.9, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs9_c05_j01_f_4   0.01   0.00   0.0   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs9_c05_j01_f_4   0.01   0.00   0.1   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs9_c05_j01_f_4   0.01   0.00   0.2   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs9_c05_j01_f_4   0.01   0.00   0.3   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs9_c05_j01_f_4   0.01   0.00   0.4   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs9_c05_j01_f_4   0.01   0.00   0.5   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs9_c05_j01_f_4   0.01   0.00   0.6   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs9_c05_j01_f_4   0.01   0.00   0.7   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs9_c05_j01_f_4   0.01   0.00   0.8   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs9_c05_j01_f_4   0.01   0.00   0.9   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs9_c05_j01_f_4   0.01   0.00   1.0   0.9   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs9_c08_j01_f_4   0.01   0.00   0.0   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs9_c08_j01_f_4   0.01   0.00   0.1   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs9_c08_j01_f_4   0.01   0.00   0.2   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs9_c08_j01_f_4   0.01   0.00   0.3   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs9_c08_j01_f_4   0.01   0.00   0.4   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs9_c08_j01_f_4   0.01   0.00   0.5   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs9_c08_j01_f_4   0.01   0.00   0.6   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs9_c08_j01_f_4   0.01   0.00   0.7   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs9_c08_j01_f_4   0.01   0.00   0.8   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs9_c08_j01_f_4   0.01   0.00   0.9   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs9_c08_j01_f_4   0.01   0.00   1.0   0.9   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 1.0, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs10_c05_j01_f_4   0.01   0.00   0.0   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs10_c05_j01_f_4   0.01   0.00   0.1   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs10_c05_j01_f_4   0.01   0.00   0.2   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs10_c05_j01_f_4   0.01   0.00   0.3   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs10_c05_j01_f_4   0.01   0.00   0.4   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs10_c05_j01_f_4   0.01   0.00   0.5   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs10_c05_j01_f_4   0.01   0.00   0.6   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs10_c05_j01_f_4   0.01   0.00   0.7   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs10_c05_j01_f_4   0.01   0.00   0.8   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs10_c05_j01_f_4   0.01   0.00   0.9   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs10_c05_j01_f_4   0.01   0.00   1.0   1.0   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs10_c08_j01_f_4   0.01   0.00   0.0   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs10_c08_j01_f_4   0.01   0.00   0.1   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs10_c08_j01_f_4   0.01   0.00   0.2   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs10_c08_j01_f_4   0.01   0.00   0.3   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs10_c08_j01_f_4   0.01   0.00   0.4   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs10_c08_j01_f_4   0.01   0.00   0.5   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs10_c08_j01_f_4   0.01   0.00   0.6   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs10_c08_j01_f_4   0.01   0.00   0.7   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs10_c08_j01_f_4   0.01   0.00   0.8   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs10_c08_j01_f_4   0.01   0.00   0.9   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs10_c08_j01_f_4   0.01   0.00   1.0   1.0   3   0.125   0.00    0.1
 
 
 # ________________________________________________________________________________________________________________
@@ -1873,167 +1873,167 @@
 
 # varying dispersal, bs = 0.0, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs0_c20_j01_f_4   0.01   0.00   0.0   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs0_c20_j01_f_4   0.01   0.00   0.1   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs0_c20_j01_f_4   0.01   0.00   0.2   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs0_c20_j01_f_4   0.01   0.00   0.3   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs0_c20_j01_f_4   0.01   0.00   0.4   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs0_c20_j01_f_4   0.01   0.00   0.5   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs0_c20_j01_f_4   0.01   0.00   0.6   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs0_c20_j01_f_4   0.01   0.00   0.7   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs0_c20_j01_f_4   0.01   0.00   0.8   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs0_c20_j01_f_4   0.01   0.00   0.9   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs0_c20_j01_f_4   0.01   0.00   1.0   0.0   3   0.10    0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs0_c10_j01_f_4   0.01   0.00   0.0   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs0_c10_j01_f_4   0.01   0.00   0.1   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs0_c10_j01_f_4   0.01   0.00   0.2   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs0_c10_j01_f_4   0.01   0.00   0.3   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs0_c10_j01_f_4   0.01   0.00   0.4   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs0_c10_j01_f_4   0.01   0.00   0.5   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs0_c10_j01_f_4   0.01   0.00   0.6   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs0_c10_j01_f_4   0.01   0.00   0.7   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs0_c10_j01_f_4   0.01   0.00   0.8   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs0_c10_j01_f_4   0.01   0.00   0.9   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs0_c10_j01_f_4   0.01   0.00   1.0   0.0   3   0.10    0.00    0.1 
 
 
 # varying dispersal, bs = 0.1, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs1_c20_j01_f_4   0.01   0.00   0.0   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs1_c20_j01_f_4   0.01   0.00   0.1   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs1_c20_j01_f_4   0.01   0.00   0.2   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs1_c20_j01_f_4   0.01   0.00   0.3   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs1_c20_j01_f_4   0.01   0.00   0.4   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs1_c20_j01_f_4   0.01   0.00   0.5   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs1_c20_j01_f_4   0.01   0.00   0.6   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs1_c20_j01_f_4   0.01   0.00   0.7   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs1_c20_j01_f_4   0.01   0.00   0.8   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs1_c20_j01_f_4   0.01   0.00   0.9   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs1_c20_j01_f_4   0.01   0.00   1.0   0.1   3   0.10    0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs1_c10_j01_f_4   0.01   0.00   0.0   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs1_c10_j01_f_4   0.01   0.00   0.1   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs1_c10_j01_f_4   0.01   0.00   0.2   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs1_c10_j01_f_4   0.01   0.00   0.3   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs1_c10_j01_f_4   0.01   0.00   0.4   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs1_c10_j01_f_4   0.01   0.00   0.5   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs1_c10_j01_f_4   0.01   0.00   0.6   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs1_c10_j01_f_4   0.01   0.00   0.7   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs1_c10_j01_f_4   0.01   0.00   0.8   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs1_c10_j01_f_4   0.01   0.00   0.9   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs1_c10_j01_f_4   0.01   0.00   1.0   0.1   3   0.10    0.00    0.1 
 
 
 # varying dispersal, bs = 0.2, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs2_c20_j01_f_4   0.01   0.00   0.0   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs2_c20_j01_f_4   0.01   0.00   0.1   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs2_c20_j01_f_4   0.01   0.00   0.2   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs2_c20_j01_f_4   0.01   0.00   0.3   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs2_c20_j01_f_4   0.01   0.00   0.4   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs2_c20_j01_f_4   0.01   0.00   0.5   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs2_c20_j01_f_4   0.01   0.00   0.6   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs2_c20_j01_f_4   0.01   0.00   0.7   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs2_c20_j01_f_4   0.01   0.00   0.8   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs2_c20_j01_f_4   0.01   0.00   0.9   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs2_c20_j01_f_4   0.01   0.00   1.0   0.2   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs2_c10_j01_f_4   0.01   0.00   0.0   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs2_c10_j01_f_4   0.01   0.00   0.1   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs2_c10_j01_f_4   0.01   0.00   0.2   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs2_c10_j01_f_4   0.01   0.00   0.3   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs2_c10_j01_f_4   0.01   0.00   0.4   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs2_c10_j01_f_4   0.01   0.00   0.5   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs2_c10_j01_f_4   0.01   0.00   0.6   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs2_c10_j01_f_4   0.01   0.00   0.7   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs2_c10_j01_f_4   0.01   0.00   0.8   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs2_c10_j01_f_4   0.01   0.00   0.9   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs2_c10_j01_f_4   0.01   0.00   1.0   0.2   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.3, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs3_c20_j01_f_4   0.01   0.00   0.0   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs3_c20_j01_f_4   0.01   0.00   0.1   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs3_c20_j01_f_4   0.01   0.00   0.2   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs3_c20_j01_f_4   0.01   0.00   0.3   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs3_c20_j01_f_4   0.01   0.00   0.4   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs3_c20_j01_f_4   0.01   0.00   0.5   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs3_c20_j01_f_4   0.01   0.00   0.6   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs3_c20_j01_f_4   0.01   0.00   0.7   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs3_c20_j01_f_4   0.01   0.00   0.8   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs3_c20_j01_f_4   0.01   0.00   0.9   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs3_c20_j01_f_4   0.01   0.00   1.0   0.3   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs3_c10_j01_f_4   0.01   0.00   0.0   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs3_c10_j01_f_4   0.01   0.00   0.1   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs3_c10_j01_f_4   0.01   0.00   0.2   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs3_c10_j01_f_4   0.01   0.00   0.3   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs3_c10_j01_f_4   0.01   0.00   0.4   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs3_c10_j01_f_4   0.01   0.00   0.5   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs3_c10_j01_f_4   0.01   0.00   0.6   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs3_c10_j01_f_4   0.01   0.00   0.7   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs3_c10_j01_f_4   0.01   0.00   0.8   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs3_c10_j01_f_4   0.01   0.00   0.9   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs3_c10_j01_f_4   0.01   0.00   1.0   0.3   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.4, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs4_c20_j01_f_4   0.01   0.00   0.0   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs4_c20_j01_f_4   0.01   0.00   0.1   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs4_c20_j01_f_4   0.01   0.00   0.2   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs4_c20_j01_f_4   0.01   0.00   0.3   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs4_c20_j01_f_4   0.01   0.00   0.4   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs4_c20_j01_f_4   0.01   0.00   0.5   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs4_c20_j01_f_4   0.01   0.00   0.6   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs4_c20_j01_f_4   0.01   0.00   0.7   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs4_c20_j01_f_4   0.01   0.00   0.8   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs4_c20_j01_f_4   0.01   0.00   0.9   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs4_c20_j01_f_4   0.01   0.00   1.0   0.4   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs4_c10_j01_f_4   0.01   0.00   0.0   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs4_c10_j01_f_4   0.01   0.00   0.1   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs4_c10_j01_f_4   0.01   0.00   0.2   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs4_c10_j01_f_4   0.01   0.00   0.3   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs4_c10_j01_f_4   0.01   0.00   0.4   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs4_c10_j01_f_4   0.01   0.00   0.5   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs4_c10_j01_f_4   0.01   0.00   0.6   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs4_c10_j01_f_4   0.01   0.00   0.7   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs4_c10_j01_f_4   0.01   0.00   0.8   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs4_c10_j01_f_4   0.01   0.00   0.9   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs4_c10_j01_f_4   0.01   0.00   1.0   0.4   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.5, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs5_c20_j01_f_4   0.01   0.00   0.0   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs5_c20_j01_f_4   0.01   0.00   0.1   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs5_c20_j01_f_4   0.01   0.00   0.2   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs5_c20_j01_f_4   0.01   0.00   0.3   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs5_c20_j01_f_4   0.01   0.00   0.4   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs5_c20_j01_f_4   0.01   0.00   0.5   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs5_c20_j01_f_4   0.01   0.00   0.6   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs5_c20_j01_f_4   0.01   0.00   0.7   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs5_c20_j01_f_4   0.01   0.00   0.8   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs5_c20_j01_f_4   0.01   0.00   0.9   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs5_c20_j01_f_4   0.01   0.00   1.0   0.5   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs5_c10_j01_f_4   0.01   0.00   0.0   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs5_c10_j01_f_4   0.01   0.00   0.1   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs5_c10_j01_f_4   0.01   0.00   0.2   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs5_c10_j01_f_4   0.01   0.00   0.3   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs5_c10_j01_f_4   0.01   0.00   0.4   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs5_c10_j01_f_4   0.01   0.00   0.5   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs5_c10_j01_f_4   0.01   0.00   0.6   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs5_c10_j01_f_4   0.01   0.00   0.7   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs5_c10_j01_f_4   0.01   0.00   0.8   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs5_c10_j01_f_4   0.01   0.00   0.9   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs5_c10_j01_f_4   0.01   0.00   1.0   0.5   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.6, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs6_c20_j01_f_4   0.01   0.00   0.0   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs6_c20_j01_f_4   0.01   0.00   0.1   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs6_c20_j01_f_4   0.01   0.00   0.2   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs6_c20_j01_f_4   0.01   0.00   0.3   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs6_c20_j01_f_4   0.01   0.00   0.4   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs6_c20_j01_f_4   0.01   0.00   0.5   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs6_c20_j01_f_4   0.01   0.00   0.6   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs6_c20_j01_f_4   0.01   0.00   0.7   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs6_c20_j01_f_4   0.01   0.00   0.8   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs6_c20_j01_f_4   0.01   0.00   0.9   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs6_c20_j01_f_4   0.01   0.00   1.0   0.6   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs6_c10_j01_f_4   0.01   0.00   0.0   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs6_c10_j01_f_4   0.01   0.00   0.1   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs6_c10_j01_f_4   0.01   0.00   0.2   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs6_c10_j01_f_4   0.01   0.00   0.3   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs6_c10_j01_f_4   0.01   0.00   0.4   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs6_c10_j01_f_4   0.01   0.00   0.5   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs6_c10_j01_f_4   0.01   0.00   0.6   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs6_c10_j01_f_4   0.01   0.00   0.7   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs6_c10_j01_f_4   0.01   0.00   0.8   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs6_c10_j01_f_4   0.01   0.00   0.9   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs6_c10_j01_f_4   0.01   0.00   1.0   0.6   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.7, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs7_c20_j01_f_4   0.01   0.00   0.0   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs7_c20_j01_f_4   0.01   0.00   0.1   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs7_c20_j01_f_4   0.01   0.00   0.2   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs7_c20_j01_f_4   0.01   0.00   0.3   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs7_c20_j01_f_4   0.01   0.00   0.4   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs7_c20_j01_f_4   0.01   0.00   0.5   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs7_c20_j01_f_4   0.01   0.00   0.6   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs7_c20_j01_f_4   0.01   0.00   0.7   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs7_c20_j01_f_4   0.01   0.00   0.8   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs7_c20_j01_f_4   0.01   0.00   0.9   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs7_c20_j01_f_4   0.01   0.00   1.0   0.7   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs7_c10_j01_f_4   0.01   0.00   0.0   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs7_c10_j01_f_4   0.01   0.00   0.1   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs7_c10_j01_f_4   0.01   0.00   0.2   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs7_c10_j01_f_4   0.01   0.00   0.3   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs7_c10_j01_f_4   0.01   0.00   0.4   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs7_c10_j01_f_4   0.01   0.00   0.5   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs7_c10_j01_f_4   0.01   0.00   0.6   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs7_c10_j01_f_4   0.01   0.00   0.7   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs7_c10_j01_f_4   0.01   0.00   0.8   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs7_c10_j01_f_4   0.01   0.00   0.9   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs7_c10_j01_f_4   0.01   0.00   1.0   0.7   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.8, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs8_c20_j01_f_4   0.01   0.00   0.0   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs8_c20_j01_f_4   0.01   0.00   0.1   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs8_c20_j01_f_4   0.01   0.00   0.2   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs8_c20_j01_f_4   0.01   0.00   0.3   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs8_c20_j01_f_4   0.01   0.00   0.4   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs8_c20_j01_f_4   0.01   0.00   0.5   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs8_c20_j01_f_4   0.01   0.00   0.6   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs8_c20_j01_f_4   0.01   0.00   0.7   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs8_c20_j01_f_4   0.01   0.00   0.8   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs8_c20_j01_f_4   0.01   0.00   0.9   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs8_c20_j01_f_4   0.01   0.00   1.0   0.8   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs8_c10_j01_f_4   0.01   0.00   0.0   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs8_c10_j01_f_4   0.01   0.00   0.1   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs8_c10_j01_f_4   0.01   0.00   0.2   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs8_c10_j01_f_4   0.01   0.00   0.3   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs8_c10_j01_f_4   0.01   0.00   0.4   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs8_c10_j01_f_4   0.01   0.00   0.5   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs8_c10_j01_f_4   0.01   0.00   0.6   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs8_c10_j01_f_4   0.01   0.00   0.7   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs8_c10_j01_f_4   0.01   0.00   0.8   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs8_c10_j01_f_4   0.01   0.00   0.9   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs8_c10_j01_f_4   0.01   0.00   1.0   0.8   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.9, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs9_c20_j01_f_4   0.01   0.00   0.0   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs9_c20_j01_f_4   0.01   0.00   0.1   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs9_c20_j01_f_4   0.01   0.00   0.2   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs9_c20_j01_f_4   0.01   0.00   0.3   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs9_c20_j01_f_4   0.01   0.00   0.4   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs9_c20_j01_f_4   0.01   0.00   0.5   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs9_c20_j01_f_4   0.01   0.00   0.6   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs9_c20_j01_f_4   0.01   0.00   0.7   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs9_c20_j01_f_4   0.01   0.00   0.8   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs9_c20_j01_f_4   0.01   0.00   0.9   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs9_c20_j01_f_4   0.01   0.00   1.0   0.9   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs9_c10_j01_f_4   0.01   0.00   0.0   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs9_c10_j01_f_4   0.01   0.00   0.1   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs9_c10_j01_f_4   0.01   0.00   0.2   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs9_c10_j01_f_4   0.01   0.00   0.3   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs9_c10_j01_f_4   0.01   0.00   0.4   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs9_c10_j01_f_4   0.01   0.00   0.5   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs9_c10_j01_f_4   0.01   0.00   0.6   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs9_c10_j01_f_4   0.01   0.00   0.7   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs9_c10_j01_f_4   0.01   0.00   0.8   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs9_c10_j01_f_4   0.01   0.00   0.9   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs9_c10_j01_f_4   0.01   0.00   1.0   0.9   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 1.0, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs10_c20_j01_f_4   0.01   0.00   0.0   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs10_c20_j01_f_4   0.01   0.00   0.1   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs10_c20_j01_f_4   0.01   0.00   0.2   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs10_c20_j01_f_4   0.01   0.00   0.3   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs10_c20_j01_f_4   0.01   0.00   0.4   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs10_c20_j01_f_4   0.01   0.00   0.5   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs10_c20_j01_f_4   0.01   0.00   0.6   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs10_c20_j01_f_4   0.01   0.00   0.7   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs10_c20_j01_f_4   0.01   0.00   0.8   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs10_c20_j01_f_4   0.01   0.00   0.9   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs10_c20_j01_f_4   0.01   0.00   1.0   1.0   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs10_c10_j01_f_4   0.01   0.00   0.0   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs10_c10_j01_f_4   0.01   0.00   0.1   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs10_c10_j01_f_4   0.01   0.00   0.2   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs10_c10_j01_f_4   0.01   0.00   0.3   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs10_c10_j01_f_4   0.01   0.00   0.4   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs10_c10_j01_f_4   0.01   0.00   0.5   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs10_c10_j01_f_4   0.01   0.00   0.6   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs10_c10_j01_f_4   0.01   0.00   0.7   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs10_c10_j01_f_4   0.01   0.00   0.8   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs10_c10_j01_f_4   0.01   0.00   0.9   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs10_c10_j01_f_4   0.01   0.00   1.0   1.0   3   0.10    0.00    0.1
 
 
 
@@ -2046,167 +2046,167 @@
 
 # varying dispersal, bs = 0.0, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs0_c02_j01_f_5   0.01   0.00   0.0   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs0_c02_j01_f_5   0.01   0.00   0.1   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs0_c02_j01_f_5   0.01   0.00   0.2   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs0_c02_j01_f_5   0.01   0.00   0.3   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs0_c02_j01_f_5   0.01   0.00   0.4   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs0_c02_j01_f_5   0.01   0.00   0.5   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs0_c02_j01_f_5   0.01   0.00   0.6   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs0_c02_j01_f_5   0.01   0.00   0.7   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs0_c02_j01_f_5   0.01   0.00   0.8   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs0_c02_j01_f_5   0.01   0.00   0.9   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs0_c02_j01_f_5   0.01   0.00   1.0   0.0   3   0.1667  0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs0_c06_j01_f_5   0.01   0.00   0.0   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs0_c06_j01_f_5   0.01   0.00   0.1   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs0_c06_j01_f_5   0.01   0.00   0.2   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs0_c06_j01_f_5   0.01   0.00   0.3   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs0_c06_j01_f_5   0.01   0.00   0.4   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs0_c06_j01_f_5   0.01   0.00   0.5   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs0_c06_j01_f_5   0.01   0.00   0.6   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs0_c06_j01_f_5   0.01   0.00   0.7   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs0_c06_j01_f_5   0.01   0.00   0.8   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs0_c06_j01_f_5   0.01   0.00   0.9   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs0_c06_j01_f_5   0.01   0.00   1.0   0.0   3   0.1667  0.00    0.1 
 
 
 # varying dispersal, bs = 0.1, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs1_c02_j01_f_5   0.01   0.00   0.0   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs1_c02_j01_f_5   0.01   0.00   0.1   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs1_c02_j01_f_5   0.01   0.00   0.2   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs1_c02_j01_f_5   0.01   0.00   0.3   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs1_c02_j01_f_5   0.01   0.00   0.4   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs1_c02_j01_f_5   0.01   0.00   0.5   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs1_c02_j01_f_5   0.01   0.00   0.6   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs1_c02_j01_f_5   0.01   0.00   0.7   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs1_c02_j01_f_5   0.01   0.00   0.8   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs1_c02_j01_f_5   0.01   0.00   0.9   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs1_c02_j01_f_5   0.01   0.00   1.0   0.1   3   0.1667  0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs1_c06_j01_f_5   0.01   0.00   0.0   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs1_c06_j01_f_5   0.01   0.00   0.1   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs1_c06_j01_f_5   0.01   0.00   0.2   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs1_c06_j01_f_5   0.01   0.00   0.3   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs1_c06_j01_f_5   0.01   0.00   0.4   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs1_c06_j01_f_5   0.01   0.00   0.5   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs1_c06_j01_f_5   0.01   0.00   0.6   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs1_c06_j01_f_5   0.01   0.00   0.7   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs1_c06_j01_f_5   0.01   0.00   0.8   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs1_c06_j01_f_5   0.01   0.00   0.9   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs1_c06_j01_f_5   0.01   0.00   1.0   0.1   3   0.1667  0.00    0.1 
 
 
 # varying dispersal, bs = 0.2, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs2_c02_j01_f_5   0.01   0.00   0.0   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs2_c02_j01_f_5   0.01   0.00   0.1   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs2_c02_j01_f_5   0.01   0.00   0.2   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs2_c02_j01_f_5   0.01   0.00   0.3   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs2_c02_j01_f_5   0.01   0.00   0.4   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs2_c02_j01_f_5   0.01   0.00   0.5   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs2_c02_j01_f_5   0.01   0.00   0.6   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs2_c02_j01_f_5   0.01   0.00   0.7   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs2_c02_j01_f_5   0.01   0.00   0.8   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs2_c02_j01_f_5   0.01   0.00   0.9   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs2_c02_j01_f_5   0.01   0.00   1.0   0.2   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs2_c06_j01_f_5   0.01   0.00   0.0   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs2_c06_j01_f_5   0.01   0.00   0.1   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs2_c06_j01_f_5   0.01   0.00   0.2   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs2_c06_j01_f_5   0.01   0.00   0.3   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs2_c06_j01_f_5   0.01   0.00   0.4   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs2_c06_j01_f_5   0.01   0.00   0.5   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs2_c06_j01_f_5   0.01   0.00   0.6   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs2_c06_j01_f_5   0.01   0.00   0.7   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs2_c06_j01_f_5   0.01   0.00   0.8   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs2_c06_j01_f_5   0.01   0.00   0.9   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs2_c06_j01_f_5   0.01   0.00   1.0   0.2   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.3, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs3_c02_j01_f_5   0.01   0.00   0.0   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs3_c02_j01_f_5   0.01   0.00   0.1   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs3_c02_j01_f_5   0.01   0.00   0.2   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs3_c02_j01_f_5   0.01   0.00   0.3   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs3_c02_j01_f_5   0.01   0.00   0.4   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs3_c02_j01_f_5   0.01   0.00   0.5   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs3_c02_j01_f_5   0.01   0.00   0.6   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs3_c02_j01_f_5   0.01   0.00   0.7   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs3_c02_j01_f_5   0.01   0.00   0.8   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs3_c02_j01_f_5   0.01   0.00   0.9   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs3_c02_j01_f_5   0.01   0.00   1.0   0.3   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs3_c06_j01_f_5   0.01   0.00   0.0   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs3_c06_j01_f_5   0.01   0.00   0.1   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs3_c06_j01_f_5   0.01   0.00   0.2   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs3_c06_j01_f_5   0.01   0.00   0.3   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs3_c06_j01_f_5   0.01   0.00   0.4   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs3_c06_j01_f_5   0.01   0.00   0.5   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs3_c06_j01_f_5   0.01   0.00   0.6   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs3_c06_j01_f_5   0.01   0.00   0.7   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs3_c06_j01_f_5   0.01   0.00   0.8   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs3_c06_j01_f_5   0.01   0.00   0.9   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs3_c06_j01_f_5   0.01   0.00   1.0   0.3   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.4, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs4_c02_j01_f_5   0.01   0.00   0.0   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs4_c02_j01_f_5   0.01   0.00   0.1   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs4_c02_j01_f_5   0.01   0.00   0.2   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs4_c02_j01_f_5   0.01   0.00   0.3   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs4_c02_j01_f_5   0.01   0.00   0.4   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs4_c02_j01_f_5   0.01   0.00   0.5   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs4_c02_j01_f_5   0.01   0.00   0.6   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs4_c02_j01_f_5   0.01   0.00   0.7   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs4_c02_j01_f_5   0.01   0.00   0.8   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs4_c02_j01_f_5   0.01   0.00   0.9   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs4_c02_j01_f_5   0.01   0.00   1.0   0.4   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs4_c06_j01_f_5   0.01   0.00   0.0   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs4_c06_j01_f_5   0.01   0.00   0.1   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs4_c06_j01_f_5   0.01   0.00   0.2   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs4_c06_j01_f_5   0.01   0.00   0.3   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs4_c06_j01_f_5   0.01   0.00   0.4   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs4_c06_j01_f_5   0.01   0.00   0.5   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs4_c06_j01_f_5   0.01   0.00   0.6   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs4_c06_j01_f_5   0.01   0.00   0.7   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs4_c06_j01_f_5   0.01   0.00   0.8   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs4_c06_j01_f_5   0.01   0.00   0.9   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs4_c06_j01_f_5   0.01   0.00   1.0   0.4   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.5, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs5_c02_j01_f_5   0.01   0.00   0.0   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs5_c02_j01_f_5   0.01   0.00   0.1   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs5_c02_j01_f_5   0.01   0.00   0.2   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs5_c02_j01_f_5   0.01   0.00   0.3   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs5_c02_j01_f_5   0.01   0.00   0.4   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs5_c02_j01_f_5   0.01   0.00   0.5   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs5_c02_j01_f_5   0.01   0.00   0.6   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs5_c02_j01_f_5   0.01   0.00   0.7   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs5_c02_j01_f_5   0.01   0.00   0.8   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs5_c02_j01_f_5   0.01   0.00   0.9   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs5_c02_j01_f_5   0.01   0.00   1.0   0.5   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs5_c06_j01_f_5   0.01   0.00   0.0   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs5_c06_j01_f_5   0.01   0.00   0.1   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs5_c06_j01_f_5   0.01   0.00   0.2   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs5_c06_j01_f_5   0.01   0.00   0.3   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs5_c06_j01_f_5   0.01   0.00   0.4   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs5_c06_j01_f_5   0.01   0.00   0.5   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs5_c06_j01_f_5   0.01   0.00   0.6   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs5_c06_j01_f_5   0.01   0.00   0.7   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs5_c06_j01_f_5   0.01   0.00   0.8   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs5_c06_j01_f_5   0.01   0.00   0.9   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs5_c06_j01_f_5   0.01   0.00   1.0   0.5   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.6, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs6_c02_j01_f_5   0.01   0.00   0.0   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs6_c02_j01_f_5   0.01   0.00   0.1   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs6_c02_j01_f_5   0.01   0.00   0.2   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs6_c02_j01_f_5   0.01   0.00   0.3   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs6_c02_j01_f_5   0.01   0.00   0.4   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs6_c02_j01_f_5   0.01   0.00   0.5   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs6_c02_j01_f_5   0.01   0.00   0.6   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs6_c02_j01_f_5   0.01   0.00   0.7   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs6_c02_j01_f_5   0.01   0.00   0.8   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs6_c02_j01_f_5   0.01   0.00   0.9   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs6_c02_j01_f_5   0.01   0.00   1.0   0.6   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs6_c06_j01_f_5   0.01   0.00   0.0   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs6_c06_j01_f_5   0.01   0.00   0.1   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs6_c06_j01_f_5   0.01   0.00   0.2   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs6_c06_j01_f_5   0.01   0.00   0.3   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs6_c06_j01_f_5   0.01   0.00   0.4   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs6_c06_j01_f_5   0.01   0.00   0.5   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs6_c06_j01_f_5   0.01   0.00   0.6   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs6_c06_j01_f_5   0.01   0.00   0.7   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs6_c06_j01_f_5   0.01   0.00   0.8   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs6_c06_j01_f_5   0.01   0.00   0.9   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs6_c06_j01_f_5   0.01   0.00   1.0   0.6   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.7, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs7_c02_j01_f_5   0.01   0.00   0.0   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs7_c02_j01_f_5   0.01   0.00   0.1   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs7_c02_j01_f_5   0.01   0.00   0.2   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs7_c02_j01_f_5   0.01   0.00   0.3   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs7_c02_j01_f_5   0.01   0.00   0.4   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs7_c02_j01_f_5   0.01   0.00   0.5   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs7_c02_j01_f_5   0.01   0.00   0.6   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs7_c02_j01_f_5   0.01   0.00   0.7   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs7_c02_j01_f_5   0.01   0.00   0.8   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs7_c02_j01_f_5   0.01   0.00   0.9   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs7_c02_j01_f_5   0.01   0.00   1.0   0.7   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs7_c06_j01_f_5   0.01   0.00   0.0   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs7_c06_j01_f_5   0.01   0.00   0.1   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs7_c06_j01_f_5   0.01   0.00   0.2   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs7_c06_j01_f_5   0.01   0.00   0.3   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs7_c06_j01_f_5   0.01   0.00   0.4   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs7_c06_j01_f_5   0.01   0.00   0.5   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs7_c06_j01_f_5   0.01   0.00   0.6   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs7_c06_j01_f_5   0.01   0.00   0.7   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs7_c06_j01_f_5   0.01   0.00   0.8   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs7_c06_j01_f_5   0.01   0.00   0.9   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs7_c06_j01_f_5   0.01   0.00   1.0   0.7   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.8, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs8_c02_j01_f_5   0.01   0.00   0.0   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs8_c02_j01_f_5   0.01   0.00   0.1   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs8_c02_j01_f_5   0.01   0.00   0.2   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs8_c02_j01_f_5   0.01   0.00   0.3   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs8_c02_j01_f_5   0.01   0.00   0.4   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs8_c02_j01_f_5   0.01   0.00   0.5   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs8_c02_j01_f_5   0.01   0.00   0.6   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs8_c02_j01_f_5   0.01   0.00   0.7   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs8_c02_j01_f_5   0.01   0.00   0.8   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs8_c02_j01_f_5   0.01   0.00   0.9   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs8_c02_j01_f_5   0.01   0.00   1.0   0.8   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs8_c06_j01_f_5   0.01   0.00   0.0   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs8_c06_j01_f_5   0.01   0.00   0.1   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs8_c06_j01_f_5   0.01   0.00   0.2   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs8_c06_j01_f_5   0.01   0.00   0.3   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs8_c06_j01_f_5   0.01   0.00   0.4   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs8_c06_j01_f_5   0.01   0.00   0.5   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs8_c06_j01_f_5   0.01   0.00   0.6   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs8_c06_j01_f_5   0.01   0.00   0.7   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs8_c06_j01_f_5   0.01   0.00   0.8   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs8_c06_j01_f_5   0.01   0.00   0.9   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs8_c06_j01_f_5   0.01   0.00   1.0   0.8   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.9, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs9_c02_j01_f_5   0.01   0.00   0.0   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs9_c02_j01_f_5   0.01   0.00   0.1   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs9_c02_j01_f_5   0.01   0.00   0.2   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs9_c02_j01_f_5   0.01   0.00   0.3   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs9_c02_j01_f_5   0.01   0.00   0.4   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs9_c02_j01_f_5   0.01   0.00   0.5   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs9_c02_j01_f_5   0.01   0.00   0.6   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs9_c02_j01_f_5   0.01   0.00   0.7   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs9_c02_j01_f_5   0.01   0.00   0.8   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs9_c02_j01_f_5   0.01   0.00   0.9   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs9_c02_j01_f_5   0.01   0.00   1.0   0.9   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs9_c06_j01_f_5   0.01   0.00   0.0   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs9_c06_j01_f_5   0.01   0.00   0.1   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs9_c06_j01_f_5   0.01   0.00   0.2   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs9_c06_j01_f_5   0.01   0.00   0.3   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs9_c06_j01_f_5   0.01   0.00   0.4   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs9_c06_j01_f_5   0.01   0.00   0.5   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs9_c06_j01_f_5   0.01   0.00   0.6   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs9_c06_j01_f_5   0.01   0.00   0.7   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs9_c06_j01_f_5   0.01   0.00   0.8   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs9_c06_j01_f_5   0.01   0.00   0.9   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs9_c06_j01_f_5   0.01   0.00   1.0   0.9   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 1.0, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs10_c02_j01_f_5   0.01   0.00   0.0   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs10_c02_j01_f_5   0.01   0.00   0.1   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs10_c02_j01_f_5   0.01   0.00   0.2   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs10_c02_j01_f_5   0.01   0.00   0.3   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs10_c02_j01_f_5   0.01   0.00   0.4   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs10_c02_j01_f_5   0.01   0.00   0.5   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs10_c02_j01_f_5   0.01   0.00   0.6   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs10_c02_j01_f_5   0.01   0.00   0.7   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs10_c02_j01_f_5   0.01   0.00   0.8   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs10_c02_j01_f_5   0.01   0.00   0.9   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs10_c02_j01_f_5   0.01   0.00   1.0   1.0   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs10_c06_j01_f_5   0.01   0.00   0.0   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs10_c06_j01_f_5   0.01   0.00   0.1   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs10_c06_j01_f_5   0.01   0.00   0.2   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs10_c06_j01_f_5   0.01   0.00   0.3   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs10_c06_j01_f_5   0.01   0.00   0.4   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs10_c06_j01_f_5   0.01   0.00   0.5   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs10_c06_j01_f_5   0.01   0.00   0.6   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs10_c06_j01_f_5   0.01   0.00   0.7   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs10_c06_j01_f_5   0.01   0.00   0.8   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs10_c06_j01_f_5   0.01   0.00   0.9   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs10_c06_j01_f_5   0.01   0.00   1.0   1.0   3   0.1667  0.00    0.1
 
 
 # ________________________________________________________________________________________________________________
@@ -2214,167 +2214,167 @@
 
 # varying dispersal, bs = 0.0, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs0_c05_j01_f_5   0.01   0.00   0.0   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs0_c05_j01_f_5   0.01   0.00   0.1   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs0_c05_j01_f_5   0.01   0.00   0.2   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs0_c05_j01_f_5   0.01   0.00   0.3   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs0_c05_j01_f_5   0.01   0.00   0.4   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs0_c05_j01_f_5   0.01   0.00   0.5   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs0_c05_j01_f_5   0.01   0.00   0.6   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs0_c05_j01_f_5   0.01   0.00   0.7   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs0_c05_j01_f_5   0.01   0.00   0.8   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs0_c05_j01_f_5   0.01   0.00   0.9   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs0_c05_j01_f_5   0.01   0.00   1.0   0.0   3   0.125   0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs0_c08_j01_f_5   0.01   0.00   0.0   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs0_c08_j01_f_5   0.01   0.00   0.1   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs0_c08_j01_f_5   0.01   0.00   0.2   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs0_c08_j01_f_5   0.01   0.00   0.3   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs0_c08_j01_f_5   0.01   0.00   0.4   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs0_c08_j01_f_5   0.01   0.00   0.5   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs0_c08_j01_f_5   0.01   0.00   0.6   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs0_c08_j01_f_5   0.01   0.00   0.7   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs0_c08_j01_f_5   0.01   0.00   0.8   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs0_c08_j01_f_5   0.01   0.00   0.9   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs0_c08_j01_f_5   0.01   0.00   1.0   0.0   3   0.125   0.00    0.1 
 
 
 # varying dispersal, bs = 0.1, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs1_c05_j01_f_5   0.01   0.00   0.0   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs1_c05_j01_f_5   0.01   0.00   0.1   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs1_c05_j01_f_5   0.01   0.00   0.2   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs1_c05_j01_f_5   0.01   0.00   0.3   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs1_c05_j01_f_5   0.01   0.00   0.4   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs1_c05_j01_f_5   0.01   0.00   0.5   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs1_c05_j01_f_5   0.01   0.00   0.6   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs1_c05_j01_f_5   0.01   0.00   0.7   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs1_c05_j01_f_5   0.01   0.00   0.8   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs1_c05_j01_f_5   0.01   0.00   0.9   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs1_c05_j01_f_5   0.01   0.00   1.0   0.1   3   0.125   0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs1_c08_j01_f_5   0.01   0.00   0.0   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs1_c08_j01_f_5   0.01   0.00   0.1   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs1_c08_j01_f_5   0.01   0.00   0.2   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs1_c08_j01_f_5   0.01   0.00   0.3   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs1_c08_j01_f_5   0.01   0.00   0.4   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs1_c08_j01_f_5   0.01   0.00   0.5   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs1_c08_j01_f_5   0.01   0.00   0.6   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs1_c08_j01_f_5   0.01   0.00   0.7   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs1_c08_j01_f_5   0.01   0.00   0.8   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs1_c08_j01_f_5   0.01   0.00   0.9   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs1_c08_j01_f_5   0.01   0.00   1.0   0.1   3   0.125   0.00    0.1 
 
 
 # varying dispersal, bs = 0.2, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs2_c05_j01_f_5   0.01   0.00   0.0   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs2_c05_j01_f_5   0.01   0.00   0.1   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs2_c05_j01_f_5   0.01   0.00   0.2   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs2_c05_j01_f_5   0.01   0.00   0.3   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs2_c05_j01_f_5   0.01   0.00   0.4   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs2_c05_j01_f_5   0.01   0.00   0.5   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs2_c05_j01_f_5   0.01   0.00   0.6   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs2_c05_j01_f_5   0.01   0.00   0.7   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs2_c05_j01_f_5   0.01   0.00   0.8   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs2_c05_j01_f_5   0.01   0.00   0.9   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs2_c05_j01_f_5   0.01   0.00   1.0   0.2   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs2_c08_j01_f_5   0.01   0.00   0.0   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs2_c08_j01_f_5   0.01   0.00   0.1   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs2_c08_j01_f_5   0.01   0.00   0.2   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs2_c08_j01_f_5   0.01   0.00   0.3   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs2_c08_j01_f_5   0.01   0.00   0.4   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs2_c08_j01_f_5   0.01   0.00   0.5   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs2_c08_j01_f_5   0.01   0.00   0.6   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs2_c08_j01_f_5   0.01   0.00   0.7   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs2_c08_j01_f_5   0.01   0.00   0.8   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs2_c08_j01_f_5   0.01   0.00   0.9   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs2_c08_j01_f_5   0.01   0.00   1.0   0.2   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.3, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs3_c05_j01_f_5   0.01   0.00   0.0   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs3_c05_j01_f_5   0.01   0.00   0.1   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs3_c05_j01_f_5   0.01   0.00   0.2   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs3_c05_j01_f_5   0.01   0.00   0.3   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs3_c05_j01_f_5   0.01   0.00   0.4   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs3_c05_j01_f_5   0.01   0.00   0.5   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs3_c05_j01_f_5   0.01   0.00   0.6   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs3_c05_j01_f_5   0.01   0.00   0.7   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs3_c05_j01_f_5   0.01   0.00   0.8   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs3_c05_j01_f_5   0.01   0.00   0.9   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs3_c05_j01_f_5   0.01   0.00   1.0   0.3   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs3_c08_j01_f_5   0.01   0.00   0.0   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs3_c08_j01_f_5   0.01   0.00   0.1   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs3_c08_j01_f_5   0.01   0.00   0.2   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs3_c08_j01_f_5   0.01   0.00   0.3   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs3_c08_j01_f_5   0.01   0.00   0.4   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs3_c08_j01_f_5   0.01   0.00   0.5   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs3_c08_j01_f_5   0.01   0.00   0.6   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs3_c08_j01_f_5   0.01   0.00   0.7   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs3_c08_j01_f_5   0.01   0.00   0.8   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs3_c08_j01_f_5   0.01   0.00   0.9   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs3_c08_j01_f_5   0.01   0.00   1.0   0.3   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.4, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs4_c05_j01_f_5   0.01   0.00   0.0   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs4_c05_j01_f_5   0.01   0.00   0.1   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs4_c05_j01_f_5   0.01   0.00   0.2   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs4_c05_j01_f_5   0.01   0.00   0.3   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs4_c05_j01_f_5   0.01   0.00   0.4   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs4_c05_j01_f_5   0.01   0.00   0.5   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs4_c05_j01_f_5   0.01   0.00   0.6   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs4_c05_j01_f_5   0.01   0.00   0.7   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs4_c05_j01_f_5   0.01   0.00   0.8   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs4_c05_j01_f_5   0.01   0.00   0.9   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs4_c05_j01_f_5   0.01   0.00   1.0   0.4   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs4_c08_j01_f_5   0.01   0.00   0.0   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs4_c08_j01_f_5   0.01   0.00   0.1   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs4_c08_j01_f_5   0.01   0.00   0.2   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs4_c08_j01_f_5   0.01   0.00   0.3   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs4_c08_j01_f_5   0.01   0.00   0.4   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs4_c08_j01_f_5   0.01   0.00   0.5   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs4_c08_j01_f_5   0.01   0.00   0.6   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs4_c08_j01_f_5   0.01   0.00   0.7   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs4_c08_j01_f_5   0.01   0.00   0.8   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs4_c08_j01_f_5   0.01   0.00   0.9   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs4_c08_j01_f_5   0.01   0.00   1.0   0.4   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.5, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs5_c05_j01_f_5   0.01   0.00   0.0   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs5_c05_j01_f_5   0.01   0.00   0.1   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs5_c05_j01_f_5   0.01   0.00   0.2   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs5_c05_j01_f_5   0.01   0.00   0.3   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs5_c05_j01_f_5   0.01   0.00   0.4   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs5_c05_j01_f_5   0.01   0.00   0.5   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs5_c05_j01_f_5   0.01   0.00   0.6   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs5_c05_j01_f_5   0.01   0.00   0.7   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs5_c05_j01_f_5   0.01   0.00   0.8   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs5_c05_j01_f_5   0.01   0.00   0.9   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs5_c05_j01_f_5   0.01   0.00   1.0   0.5   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs5_c08_j01_f_5   0.01   0.00   0.0   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs5_c08_j01_f_5   0.01   0.00   0.1   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs5_c08_j01_f_5   0.01   0.00   0.2   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs5_c08_j01_f_5   0.01   0.00   0.3   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs5_c08_j01_f_5   0.01   0.00   0.4   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs5_c08_j01_f_5   0.01   0.00   0.5   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs5_c08_j01_f_5   0.01   0.00   0.6   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs5_c08_j01_f_5   0.01   0.00   0.7   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs5_c08_j01_f_5   0.01   0.00   0.8   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs5_c08_j01_f_5   0.01   0.00   0.9   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs5_c08_j01_f_5   0.01   0.00   1.0   0.5   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.6, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs6_c05_j01_f_5   0.01   0.00   0.0   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs6_c05_j01_f_5   0.01   0.00   0.1   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs6_c05_j01_f_5   0.01   0.00   0.2   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs6_c05_j01_f_5   0.01   0.00   0.3   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs6_c05_j01_f_5   0.01   0.00   0.4   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs6_c05_j01_f_5   0.01   0.00   0.5   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs6_c05_j01_f_5   0.01   0.00   0.6   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs6_c05_j01_f_5   0.01   0.00   0.7   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs6_c05_j01_f_5   0.01   0.00   0.8   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs6_c05_j01_f_5   0.01   0.00   0.9   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs6_c05_j01_f_5   0.01   0.00   1.0   0.6   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs6_c08_j01_f_5   0.01   0.00   0.0   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs6_c08_j01_f_5   0.01   0.00   0.1   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs6_c08_j01_f_5   0.01   0.00   0.2   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs6_c08_j01_f_5   0.01   0.00   0.3   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs6_c08_j01_f_5   0.01   0.00   0.4   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs6_c08_j01_f_5   0.01   0.00   0.5   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs6_c08_j01_f_5   0.01   0.00   0.6   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs6_c08_j01_f_5   0.01   0.00   0.7   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs6_c08_j01_f_5   0.01   0.00   0.8   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs6_c08_j01_f_5   0.01   0.00   0.9   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs6_c08_j01_f_5   0.01   0.00   1.0   0.6   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.7, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs7_c05_j01_f_5   0.01   0.00   0.0   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs7_c05_j01_f_5   0.01   0.00   0.1   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs7_c05_j01_f_5   0.01   0.00   0.2   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs7_c05_j01_f_5   0.01   0.00   0.3   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs7_c05_j01_f_5   0.01   0.00   0.4   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs7_c05_j01_f_5   0.01   0.00   0.5   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs7_c05_j01_f_5   0.01   0.00   0.6   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs7_c05_j01_f_5   0.01   0.00   0.7   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs7_c05_j01_f_5   0.01   0.00   0.8   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs7_c05_j01_f_5   0.01   0.00   0.9   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs7_c05_j01_f_5   0.01   0.00   1.0   0.7   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs7_c08_j01_f_5   0.01   0.00   0.0   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs7_c08_j01_f_5   0.01   0.00   0.1   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs7_c08_j01_f_5   0.01   0.00   0.2   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs7_c08_j01_f_5   0.01   0.00   0.3   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs7_c08_j01_f_5   0.01   0.00   0.4   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs7_c08_j01_f_5   0.01   0.00   0.5   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs7_c08_j01_f_5   0.01   0.00   0.6   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs7_c08_j01_f_5   0.01   0.00   0.7   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs7_c08_j01_f_5   0.01   0.00   0.8   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs7_c08_j01_f_5   0.01   0.00   0.9   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs7_c08_j01_f_5   0.01   0.00   1.0   0.7   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.8, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs8_c05_j01_f_5   0.01   0.00   0.0   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs8_c05_j01_f_5   0.01   0.00   0.1   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs8_c05_j01_f_5   0.01   0.00   0.2   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs8_c05_j01_f_5   0.01   0.00   0.3   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs8_c05_j01_f_5   0.01   0.00   0.4   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs8_c05_j01_f_5   0.01   0.00   0.5   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs8_c05_j01_f_5   0.01   0.00   0.6   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs8_c05_j01_f_5   0.01   0.00   0.7   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs8_c05_j01_f_5   0.01   0.00   0.8   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs8_c05_j01_f_5   0.01   0.00   0.9   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs8_c05_j01_f_5   0.01   0.00   1.0   0.8   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs8_c08_j01_f_5   0.01   0.00   0.0   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs8_c08_j01_f_5   0.01   0.00   0.1   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs8_c08_j01_f_5   0.01   0.00   0.2   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs8_c08_j01_f_5   0.01   0.00   0.3   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs8_c08_j01_f_5   0.01   0.00   0.4   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs8_c08_j01_f_5   0.01   0.00   0.5   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs8_c08_j01_f_5   0.01   0.00   0.6   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs8_c08_j01_f_5   0.01   0.00   0.7   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs8_c08_j01_f_5   0.01   0.00   0.8   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs8_c08_j01_f_5   0.01   0.00   0.9   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs8_c08_j01_f_5   0.01   0.00   1.0   0.8   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.9, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs9_c05_j01_f_5   0.01   0.00   0.0   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs9_c05_j01_f_5   0.01   0.00   0.1   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs9_c05_j01_f_5   0.01   0.00   0.2   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs9_c05_j01_f_5   0.01   0.00   0.3   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs9_c05_j01_f_5   0.01   0.00   0.4   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs9_c05_j01_f_5   0.01   0.00   0.5   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs9_c05_j01_f_5   0.01   0.00   0.6   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs9_c05_j01_f_5   0.01   0.00   0.7   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs9_c05_j01_f_5   0.01   0.00   0.8   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs9_c05_j01_f_5   0.01   0.00   0.9   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs9_c05_j01_f_5   0.01   0.00   1.0   0.9   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs9_c08_j01_f_5   0.01   0.00   0.0   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs9_c08_j01_f_5   0.01   0.00   0.1   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs9_c08_j01_f_5   0.01   0.00   0.2   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs9_c08_j01_f_5   0.01   0.00   0.3   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs9_c08_j01_f_5   0.01   0.00   0.4   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs9_c08_j01_f_5   0.01   0.00   0.5   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs9_c08_j01_f_5   0.01   0.00   0.6   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs9_c08_j01_f_5   0.01   0.00   0.7   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs9_c08_j01_f_5   0.01   0.00   0.8   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs9_c08_j01_f_5   0.01   0.00   0.9   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs9_c08_j01_f_5   0.01   0.00   1.0   0.9   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 1.0, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs10_c05_j01_f_5   0.01   0.00   0.0   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs10_c05_j01_f_5   0.01   0.00   0.1   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs10_c05_j01_f_5   0.01   0.00   0.2   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs10_c05_j01_f_5   0.01   0.00   0.3   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs10_c05_j01_f_5   0.01   0.00   0.4   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs10_c05_j01_f_5   0.01   0.00   0.5   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs10_c05_j01_f_5   0.01   0.00   0.6   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs10_c05_j01_f_5   0.01   0.00   0.7   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs10_c05_j01_f_5   0.01   0.00   0.8   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs10_c05_j01_f_5   0.01   0.00   0.9   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs10_c05_j01_f_5   0.01   0.00   1.0   1.0   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs10_c08_j01_f_5   0.01   0.00   0.0   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs10_c08_j01_f_5   0.01   0.00   0.1   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs10_c08_j01_f_5   0.01   0.00   0.2   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs10_c08_j01_f_5   0.01   0.00   0.3   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs10_c08_j01_f_5   0.01   0.00   0.4   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs10_c08_j01_f_5   0.01   0.00   0.5   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs10_c08_j01_f_5   0.01   0.00   0.6   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs10_c08_j01_f_5   0.01   0.00   0.7   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs10_c08_j01_f_5   0.01   0.00   0.8   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs10_c08_j01_f_5   0.01   0.00   0.9   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs10_c08_j01_f_5   0.01   0.00   1.0   1.0   3   0.125   0.00    0.1
 
 
 # ________________________________________________________________________________________________________________
@@ -2382,167 +2382,167 @@
 
 # varying dispersal, bs = 0.0, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs0_c20_j01_f_5   0.01   0.00   0.0   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs0_c20_j01_f_5   0.01   0.00   0.1   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs0_c20_j01_f_5   0.01   0.00   0.2   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs0_c20_j01_f_5   0.01   0.00   0.3   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs0_c20_j01_f_5   0.01   0.00   0.4   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs0_c20_j01_f_5   0.01   0.00   0.5   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs0_c20_j01_f_5   0.01   0.00   0.6   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs0_c20_j01_f_5   0.01   0.00   0.7   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs0_c20_j01_f_5   0.01   0.00   0.8   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs0_c20_j01_f_5   0.01   0.00   0.9   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs0_c20_j01_f_5   0.01   0.00   1.0   0.0   3   0.10    0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs0_c10_j01_f_5   0.01   0.00   0.0   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs0_c10_j01_f_5   0.01   0.00   0.1   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs0_c10_j01_f_5   0.01   0.00   0.2   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs0_c10_j01_f_5   0.01   0.00   0.3   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs0_c10_j01_f_5   0.01   0.00   0.4   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs0_c10_j01_f_5   0.01   0.00   0.5   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs0_c10_j01_f_5   0.01   0.00   0.6   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs0_c10_j01_f_5   0.01   0.00   0.7   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs0_c10_j01_f_5   0.01   0.00   0.8   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs0_c10_j01_f_5   0.01   0.00   0.9   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs0_c10_j01_f_5   0.01   0.00   1.0   0.0   3   0.10    0.00    0.1 
 
 
 # varying dispersal, bs = 0.1, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs1_c20_j01_f_5   0.01   0.00   0.0   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs1_c20_j01_f_5   0.01   0.00   0.1   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs1_c20_j01_f_5   0.01   0.00   0.2   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs1_c20_j01_f_5   0.01   0.00   0.3   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs1_c20_j01_f_5   0.01   0.00   0.4   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs1_c20_j01_f_5   0.01   0.00   0.5   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs1_c20_j01_f_5   0.01   0.00   0.6   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs1_c20_j01_f_5   0.01   0.00   0.7   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs1_c20_j01_f_5   0.01   0.00   0.8   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs1_c20_j01_f_5   0.01   0.00   0.9   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs1_c20_j01_f_5   0.01   0.00   1.0   0.1   3   0.10    0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs1_c10_j01_f_5   0.01   0.00   0.0   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs1_c10_j01_f_5   0.01   0.00   0.1   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs1_c10_j01_f_5   0.01   0.00   0.2   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs1_c10_j01_f_5   0.01   0.00   0.3   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs1_c10_j01_f_5   0.01   0.00   0.4   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs1_c10_j01_f_5   0.01   0.00   0.5   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs1_c10_j01_f_5   0.01   0.00   0.6   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs1_c10_j01_f_5   0.01   0.00   0.7   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs1_c10_j01_f_5   0.01   0.00   0.8   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs1_c10_j01_f_5   0.01   0.00   0.9   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs1_c10_j01_f_5   0.01   0.00   1.0   0.1   3   0.10    0.00    0.1 
 
 
 # varying dispersal, bs = 0.2, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs2_c20_j01_f_5   0.01   0.00   0.0   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs2_c20_j01_f_5   0.01   0.00   0.1   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs2_c20_j01_f_5   0.01   0.00   0.2   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs2_c20_j01_f_5   0.01   0.00   0.3   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs2_c20_j01_f_5   0.01   0.00   0.4   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs2_c20_j01_f_5   0.01   0.00   0.5   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs2_c20_j01_f_5   0.01   0.00   0.6   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs2_c20_j01_f_5   0.01   0.00   0.7   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs2_c20_j01_f_5   0.01   0.00   0.8   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs2_c20_j01_f_5   0.01   0.00   0.9   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs2_c20_j01_f_5   0.01   0.00   1.0   0.2   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs2_c10_j01_f_5   0.01   0.00   0.0   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs2_c10_j01_f_5   0.01   0.00   0.1   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs2_c10_j01_f_5   0.01   0.00   0.2   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs2_c10_j01_f_5   0.01   0.00   0.3   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs2_c10_j01_f_5   0.01   0.00   0.4   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs2_c10_j01_f_5   0.01   0.00   0.5   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs2_c10_j01_f_5   0.01   0.00   0.6   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs2_c10_j01_f_5   0.01   0.00   0.7   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs2_c10_j01_f_5   0.01   0.00   0.8   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs2_c10_j01_f_5   0.01   0.00   0.9   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs2_c10_j01_f_5   0.01   0.00   1.0   0.2   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.3, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs3_c20_j01_f_5   0.01   0.00   0.0   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs3_c20_j01_f_5   0.01   0.00   0.1   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs3_c20_j01_f_5   0.01   0.00   0.2   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs3_c20_j01_f_5   0.01   0.00   0.3   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs3_c20_j01_f_5   0.01   0.00   0.4   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs3_c20_j01_f_5   0.01   0.00   0.5   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs3_c20_j01_f_5   0.01   0.00   0.6   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs3_c20_j01_f_5   0.01   0.00   0.7   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs3_c20_j01_f_5   0.01   0.00   0.8   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs3_c20_j01_f_5   0.01   0.00   0.9   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs3_c20_j01_f_5   0.01   0.00   1.0   0.3   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs3_c10_j01_f_5   0.01   0.00   0.0   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs3_c10_j01_f_5   0.01   0.00   0.1   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs3_c10_j01_f_5   0.01   0.00   0.2   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs3_c10_j01_f_5   0.01   0.00   0.3   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs3_c10_j01_f_5   0.01   0.00   0.4   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs3_c10_j01_f_5   0.01   0.00   0.5   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs3_c10_j01_f_5   0.01   0.00   0.6   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs3_c10_j01_f_5   0.01   0.00   0.7   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs3_c10_j01_f_5   0.01   0.00   0.8   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs3_c10_j01_f_5   0.01   0.00   0.9   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs3_c10_j01_f_5   0.01   0.00   1.0   0.3   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.4, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs4_c20_j01_f_5   0.01   0.00   0.0   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs4_c20_j01_f_5   0.01   0.00   0.1   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs4_c20_j01_f_5   0.01   0.00   0.2   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs4_c20_j01_f_5   0.01   0.00   0.3   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs4_c20_j01_f_5   0.01   0.00   0.4   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs4_c20_j01_f_5   0.01   0.00   0.5   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs4_c20_j01_f_5   0.01   0.00   0.6   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs4_c20_j01_f_5   0.01   0.00   0.7   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs4_c20_j01_f_5   0.01   0.00   0.8   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs4_c20_j01_f_5   0.01   0.00   0.9   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs4_c20_j01_f_5   0.01   0.00   1.0   0.4   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs4_c10_j01_f_5   0.01   0.00   0.0   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs4_c10_j01_f_5   0.01   0.00   0.1   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs4_c10_j01_f_5   0.01   0.00   0.2   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs4_c10_j01_f_5   0.01   0.00   0.3   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs4_c10_j01_f_5   0.01   0.00   0.4   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs4_c10_j01_f_5   0.01   0.00   0.5   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs4_c10_j01_f_5   0.01   0.00   0.6   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs4_c10_j01_f_5   0.01   0.00   0.7   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs4_c10_j01_f_5   0.01   0.00   0.8   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs4_c10_j01_f_5   0.01   0.00   0.9   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs4_c10_j01_f_5   0.01   0.00   1.0   0.4   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.5, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs5_c20_j01_f_5   0.01   0.00   0.0   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs5_c20_j01_f_5   0.01   0.00   0.1   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs5_c20_j01_f_5   0.01   0.00   0.2   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs5_c20_j01_f_5   0.01   0.00   0.3   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs5_c20_j01_f_5   0.01   0.00   0.4   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs5_c20_j01_f_5   0.01   0.00   0.5   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs5_c20_j01_f_5   0.01   0.00   0.6   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs5_c20_j01_f_5   0.01   0.00   0.7   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs5_c20_j01_f_5   0.01   0.00   0.8   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs5_c20_j01_f_5   0.01   0.00   0.9   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs5_c20_j01_f_5   0.01   0.00   1.0   0.5   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs5_c10_j01_f_5   0.01   0.00   0.0   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs5_c10_j01_f_5   0.01   0.00   0.1   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs5_c10_j01_f_5   0.01   0.00   0.2   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs5_c10_j01_f_5   0.01   0.00   0.3   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs5_c10_j01_f_5   0.01   0.00   0.4   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs5_c10_j01_f_5   0.01   0.00   0.5   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs5_c10_j01_f_5   0.01   0.00   0.6   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs5_c10_j01_f_5   0.01   0.00   0.7   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs5_c10_j01_f_5   0.01   0.00   0.8   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs5_c10_j01_f_5   0.01   0.00   0.9   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs5_c10_j01_f_5   0.01   0.00   1.0   0.5   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.6, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs6_c20_j01_f_5   0.01   0.00   0.0   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs6_c20_j01_f_5   0.01   0.00   0.1   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs6_c20_j01_f_5   0.01   0.00   0.2   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs6_c20_j01_f_5   0.01   0.00   0.3   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs6_c20_j01_f_5   0.01   0.00   0.4   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs6_c20_j01_f_5   0.01   0.00   0.5   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs6_c20_j01_f_5   0.01   0.00   0.6   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs6_c20_j01_f_5   0.01   0.00   0.7   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs6_c20_j01_f_5   0.01   0.00   0.8   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs6_c20_j01_f_5   0.01   0.00   0.9   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs6_c20_j01_f_5   0.01   0.00   1.0   0.6   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs6_c10_j01_f_5   0.01   0.00   0.0   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs6_c10_j01_f_5   0.01   0.00   0.1   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs6_c10_j01_f_5   0.01   0.00   0.2   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs6_c10_j01_f_5   0.01   0.00   0.3   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs6_c10_j01_f_5   0.01   0.00   0.4   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs6_c10_j01_f_5   0.01   0.00   0.5   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs6_c10_j01_f_5   0.01   0.00   0.6   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs6_c10_j01_f_5   0.01   0.00   0.7   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs6_c10_j01_f_5   0.01   0.00   0.8   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs6_c10_j01_f_5   0.01   0.00   0.9   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs6_c10_j01_f_5   0.01   0.00   1.0   0.6   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.7, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs7_c20_j01_f_5   0.01   0.00   0.0   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs7_c20_j01_f_5   0.01   0.00   0.1   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs7_c20_j01_f_5   0.01   0.00   0.2   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs7_c20_j01_f_5   0.01   0.00   0.3   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs7_c20_j01_f_5   0.01   0.00   0.4   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs7_c20_j01_f_5   0.01   0.00   0.5   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs7_c20_j01_f_5   0.01   0.00   0.6   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs7_c20_j01_f_5   0.01   0.00   0.7   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs7_c20_j01_f_5   0.01   0.00   0.8   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs7_c20_j01_f_5   0.01   0.00   0.9   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs7_c20_j01_f_5   0.01   0.00   1.0   0.7   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs7_c10_j01_f_5   0.01   0.00   0.0   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs7_c10_j01_f_5   0.01   0.00   0.1   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs7_c10_j01_f_5   0.01   0.00   0.2   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs7_c10_j01_f_5   0.01   0.00   0.3   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs7_c10_j01_f_5   0.01   0.00   0.4   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs7_c10_j01_f_5   0.01   0.00   0.5   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs7_c10_j01_f_5   0.01   0.00   0.6   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs7_c10_j01_f_5   0.01   0.00   0.7   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs7_c10_j01_f_5   0.01   0.00   0.8   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs7_c10_j01_f_5   0.01   0.00   0.9   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs7_c10_j01_f_5   0.01   0.00   1.0   0.7   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.8, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs8_c20_j01_f_5   0.01   0.00   0.0   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs8_c20_j01_f_5   0.01   0.00   0.1   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs8_c20_j01_f_5   0.01   0.00   0.2   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs8_c20_j01_f_5   0.01   0.00   0.3   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs8_c20_j01_f_5   0.01   0.00   0.4   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs8_c20_j01_f_5   0.01   0.00   0.5   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs8_c20_j01_f_5   0.01   0.00   0.6   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs8_c20_j01_f_5   0.01   0.00   0.7   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs8_c20_j01_f_5   0.01   0.00   0.8   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs8_c20_j01_f_5   0.01   0.00   0.9   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs8_c20_j01_f_5   0.01   0.00   1.0   0.8   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs8_c10_j01_f_5   0.01   0.00   0.0   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs8_c10_j01_f_5   0.01   0.00   0.1   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs8_c10_j01_f_5   0.01   0.00   0.2   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs8_c10_j01_f_5   0.01   0.00   0.3   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs8_c10_j01_f_5   0.01   0.00   0.4   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs8_c10_j01_f_5   0.01   0.00   0.5   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs8_c10_j01_f_5   0.01   0.00   0.6   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs8_c10_j01_f_5   0.01   0.00   0.7   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs8_c10_j01_f_5   0.01   0.00   0.8   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs8_c10_j01_f_5   0.01   0.00   0.9   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs8_c10_j01_f_5   0.01   0.00   1.0   0.8   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.9, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs9_c20_j01_f_5   0.01   0.00   0.0   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs9_c20_j01_f_5   0.01   0.00   0.1   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs9_c20_j01_f_5   0.01   0.00   0.2   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs9_c20_j01_f_5   0.01   0.00   0.3   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs9_c20_j01_f_5   0.01   0.00   0.4   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs9_c20_j01_f_5   0.01   0.00   0.5   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs9_c20_j01_f_5   0.01   0.00   0.6   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs9_c20_j01_f_5   0.01   0.00   0.7   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs9_c20_j01_f_5   0.01   0.00   0.8   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs9_c20_j01_f_5   0.01   0.00   0.9   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs9_c20_j01_f_5   0.01   0.00   1.0   0.9   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs9_c10_j01_f_5   0.01   0.00   0.0   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs9_c10_j01_f_5   0.01   0.00   0.1   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs9_c10_j01_f_5   0.01   0.00   0.2   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs9_c10_j01_f_5   0.01   0.00   0.3   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs9_c10_j01_f_5   0.01   0.00   0.4   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs9_c10_j01_f_5   0.01   0.00   0.5   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs9_c10_j01_f_5   0.01   0.00   0.6   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs9_c10_j01_f_5   0.01   0.00   0.7   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs9_c10_j01_f_5   0.01   0.00   0.8   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs9_c10_j01_f_5   0.01   0.00   0.9   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs9_c10_j01_f_5   0.01   0.00   1.0   0.9   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 1.0, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs10_c20_j01_f_5   0.01   0.00   0.0   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs10_c20_j01_f_5   0.01   0.00   0.1   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs10_c20_j01_f_5   0.01   0.00   0.2   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs10_c20_j01_f_5   0.01   0.00   0.3   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs10_c20_j01_f_5   0.01   0.00   0.4   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs10_c20_j01_f_5   0.01   0.00   0.5   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs10_c20_j01_f_5   0.01   0.00   0.6   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs10_c20_j01_f_5   0.01   0.00   0.7   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs10_c20_j01_f_5   0.01   0.00   0.8   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs10_c20_j01_f_5   0.01   0.00   0.9   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs10_c20_j01_f_5   0.01   0.00   1.0   1.0   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs10_c10_j01_f_5   0.01   0.00   0.0   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs10_c10_j01_f_5   0.01   0.00   0.1   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs10_c10_j01_f_5   0.01   0.00   0.2   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs10_c10_j01_f_5   0.01   0.00   0.3   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs10_c10_j01_f_5   0.01   0.00   0.4   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs10_c10_j01_f_5   0.01   0.00   0.5   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs10_c10_j01_f_5   0.01   0.00   0.6   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs10_c10_j01_f_5   0.01   0.00   0.7   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs10_c10_j01_f_5   0.01   0.00   0.8   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs10_c10_j01_f_5   0.01   0.00   0.9   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs10_c10_j01_f_5   0.01   0.00   1.0   1.0   3   0.10    0.00    0.1
 
 
 
@@ -2554,167 +2554,167 @@
 
 # varying dispersal, bs = 0.0, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs0_c02_j01_f_6   0.01   0.00   0.0   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs0_c02_j01_f_6   0.01   0.00   0.1   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs0_c02_j01_f_6   0.01   0.00   0.2   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs0_c02_j01_f_6   0.01   0.00   0.3   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs0_c02_j01_f_6   0.01   0.00   0.4   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs0_c02_j01_f_6   0.01   0.00   0.5   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs0_c02_j01_f_6   0.01   0.00   0.6   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs0_c02_j01_f_6   0.01   0.00   0.7   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs0_c02_j01_f_6   0.01   0.00   0.8   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs0_c02_j01_f_6   0.01   0.00   0.9   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs0_c02_j01_f_6   0.01   0.00   1.0   0.0   3   0.1667  0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs0_c06_j01_f_6   0.01   0.00   0.0   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs0_c06_j01_f_6   0.01   0.00   0.1   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs0_c06_j01_f_6   0.01   0.00   0.2   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs0_c06_j01_f_6   0.01   0.00   0.3   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs0_c06_j01_f_6   0.01   0.00   0.4   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs0_c06_j01_f_6   0.01   0.00   0.5   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs0_c06_j01_f_6   0.01   0.00   0.6   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs0_c06_j01_f_6   0.01   0.00   0.7   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs0_c06_j01_f_6   0.01   0.00   0.8   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs0_c06_j01_f_6   0.01   0.00   0.9   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs0_c06_j01_f_6   0.01   0.00   1.0   0.0   3   0.1667  0.00    0.1 
 
 
 # varying dispersal, bs = 0.1, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs1_c02_j01_f_6   0.01   0.00   0.0   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs1_c02_j01_f_6   0.01   0.00   0.1   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs1_c02_j01_f_6   0.01   0.00   0.2   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs1_c02_j01_f_6   0.01   0.00   0.3   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs1_c02_j01_f_6   0.01   0.00   0.4   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs1_c02_j01_f_6   0.01   0.00   0.5   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs1_c02_j01_f_6   0.01   0.00   0.6   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs1_c02_j01_f_6   0.01   0.00   0.7   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs1_c02_j01_f_6   0.01   0.00   0.8   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs1_c02_j01_f_6   0.01   0.00   0.9   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs1_c02_j01_f_6   0.01   0.00   1.0   0.1   3   0.1667  0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs1_c06_j01_f_6   0.01   0.00   0.0   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs1_c06_j01_f_6   0.01   0.00   0.1   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs1_c06_j01_f_6   0.01   0.00   0.2   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs1_c06_j01_f_6   0.01   0.00   0.3   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs1_c06_j01_f_6   0.01   0.00   0.4   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs1_c06_j01_f_6   0.01   0.00   0.5   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs1_c06_j01_f_6   0.01   0.00   0.6   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs1_c06_j01_f_6   0.01   0.00   0.7   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs1_c06_j01_f_6   0.01   0.00   0.8   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs1_c06_j01_f_6   0.01   0.00   0.9   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs1_c06_j01_f_6   0.01   0.00   1.0   0.1   3   0.1667  0.00    0.1 
 
 
 # varying dispersal, bs = 0.2, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs2_c02_j01_f_6   0.01   0.00   0.0   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs2_c02_j01_f_6   0.01   0.00   0.1   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs2_c02_j01_f_6   0.01   0.00   0.2   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs2_c02_j01_f_6   0.01   0.00   0.3   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs2_c02_j01_f_6   0.01   0.00   0.4   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs2_c02_j01_f_6   0.01   0.00   0.5   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs2_c02_j01_f_6   0.01   0.00   0.6   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs2_c02_j01_f_6   0.01   0.00   0.7   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs2_c02_j01_f_6   0.01   0.00   0.8   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs2_c02_j01_f_6   0.01   0.00   0.9   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs2_c02_j01_f_6   0.01   0.00   1.0   0.2   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs2_c06_j01_f_6   0.01   0.00   0.0   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs2_c06_j01_f_6   0.01   0.00   0.1   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs2_c06_j01_f_6   0.01   0.00   0.2   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs2_c06_j01_f_6   0.01   0.00   0.3   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs2_c06_j01_f_6   0.01   0.00   0.4   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs2_c06_j01_f_6   0.01   0.00   0.5   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs2_c06_j01_f_6   0.01   0.00   0.6   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs2_c06_j01_f_6   0.01   0.00   0.7   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs2_c06_j01_f_6   0.01   0.00   0.8   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs2_c06_j01_f_6   0.01   0.00   0.9   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs2_c06_j01_f_6   0.01   0.00   1.0   0.2   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.3, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs3_c02_j01_f_6   0.01   0.00   0.0   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs3_c02_j01_f_6   0.01   0.00   0.1   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs3_c02_j01_f_6   0.01   0.00   0.2   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs3_c02_j01_f_6   0.01   0.00   0.3   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs3_c02_j01_f_6   0.01   0.00   0.4   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs3_c02_j01_f_6   0.01   0.00   0.5   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs3_c02_j01_f_6   0.01   0.00   0.6   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs3_c02_j01_f_6   0.01   0.00   0.7   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs3_c02_j01_f_6   0.01   0.00   0.8   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs3_c02_j01_f_6   0.01   0.00   0.9   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs3_c02_j01_f_6   0.01   0.00   1.0   0.3   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs3_c06_j01_f_6   0.01   0.00   0.0   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs3_c06_j01_f_6   0.01   0.00   0.1   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs3_c06_j01_f_6   0.01   0.00   0.2   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs3_c06_j01_f_6   0.01   0.00   0.3   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs3_c06_j01_f_6   0.01   0.00   0.4   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs3_c06_j01_f_6   0.01   0.00   0.5   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs3_c06_j01_f_6   0.01   0.00   0.6   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs3_c06_j01_f_6   0.01   0.00   0.7   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs3_c06_j01_f_6   0.01   0.00   0.8   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs3_c06_j01_f_6   0.01   0.00   0.9   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs3_c06_j01_f_6   0.01   0.00   1.0   0.3   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.4, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs4_c02_j01_f_6   0.01   0.00   0.0   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs4_c02_j01_f_6   0.01   0.00   0.1   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs4_c02_j01_f_6   0.01   0.00   0.2   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs4_c02_j01_f_6   0.01   0.00   0.3   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs4_c02_j01_f_6   0.01   0.00   0.4   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs4_c02_j01_f_6   0.01   0.00   0.5   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs4_c02_j01_f_6   0.01   0.00   0.6   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs4_c02_j01_f_6   0.01   0.00   0.7   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs4_c02_j01_f_6   0.01   0.00   0.8   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs4_c02_j01_f_6   0.01   0.00   0.9   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs4_c02_j01_f_6   0.01   0.00   1.0   0.4   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs4_c06_j01_f_6   0.01   0.00   0.0   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs4_c06_j01_f_6   0.01   0.00   0.1   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs4_c06_j01_f_6   0.01   0.00   0.2   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs4_c06_j01_f_6   0.01   0.00   0.3   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs4_c06_j01_f_6   0.01   0.00   0.4   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs4_c06_j01_f_6   0.01   0.00   0.5   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs4_c06_j01_f_6   0.01   0.00   0.6   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs4_c06_j01_f_6   0.01   0.00   0.7   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs4_c06_j01_f_6   0.01   0.00   0.8   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs4_c06_j01_f_6   0.01   0.00   0.9   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs4_c06_j01_f_6   0.01   0.00   1.0   0.4   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.5, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs5_c02_j01_f_6   0.01   0.00   0.0   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs5_c02_j01_f_6   0.01   0.00   0.1   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs5_c02_j01_f_6   0.01   0.00   0.2   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs5_c02_j01_f_6   0.01   0.00   0.3   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs5_c02_j01_f_6   0.01   0.00   0.4   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs5_c02_j01_f_6   0.01   0.00   0.5   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs5_c02_j01_f_6   0.01   0.00   0.6   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs5_c02_j01_f_6   0.01   0.00   0.7   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs5_c02_j01_f_6   0.01   0.00   0.8   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs5_c02_j01_f_6   0.01   0.00   0.9   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs5_c02_j01_f_6   0.01   0.00   1.0   0.5   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs5_c06_j01_f_6   0.01   0.00   0.0   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs5_c06_j01_f_6   0.01   0.00   0.1   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs5_c06_j01_f_6   0.01   0.00   0.2   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs5_c06_j01_f_6   0.01   0.00   0.3   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs5_c06_j01_f_6   0.01   0.00   0.4   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs5_c06_j01_f_6   0.01   0.00   0.5   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs5_c06_j01_f_6   0.01   0.00   0.6   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs5_c06_j01_f_6   0.01   0.00   0.7   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs5_c06_j01_f_6   0.01   0.00   0.8   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs5_c06_j01_f_6   0.01   0.00   0.9   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs5_c06_j01_f_6   0.01   0.00   1.0   0.5   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.6, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs6_c02_j01_f_6   0.01   0.00   0.0   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs6_c02_j01_f_6   0.01   0.00   0.1   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs6_c02_j01_f_6   0.01   0.00   0.2   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs6_c02_j01_f_6   0.01   0.00   0.3   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs6_c02_j01_f_6   0.01   0.00   0.4   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs6_c02_j01_f_6   0.01   0.00   0.5   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs6_c02_j01_f_6   0.01   0.00   0.6   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs6_c02_j01_f_6   0.01   0.00   0.7   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs6_c02_j01_f_6   0.01   0.00   0.8   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs6_c02_j01_f_6   0.01   0.00   0.9   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs6_c02_j01_f_6   0.01   0.00   1.0   0.6   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs6_c06_j01_f_6   0.01   0.00   0.0   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs6_c06_j01_f_6   0.01   0.00   0.1   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs6_c06_j01_f_6   0.01   0.00   0.2   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs6_c06_j01_f_6   0.01   0.00   0.3   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs6_c06_j01_f_6   0.01   0.00   0.4   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs6_c06_j01_f_6   0.01   0.00   0.5   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs6_c06_j01_f_6   0.01   0.00   0.6   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs6_c06_j01_f_6   0.01   0.00   0.7   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs6_c06_j01_f_6   0.01   0.00   0.8   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs6_c06_j01_f_6   0.01   0.00   0.9   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs6_c06_j01_f_6   0.01   0.00   1.0   0.6   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.7, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs7_c02_j01_f_6   0.01   0.00   0.0   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs7_c02_j01_f_6   0.01   0.00   0.1   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs7_c02_j01_f_6   0.01   0.00   0.2   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs7_c02_j01_f_6   0.01   0.00   0.3   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs7_c02_j01_f_6   0.01   0.00   0.4   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs7_c02_j01_f_6   0.01   0.00   0.5   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs7_c02_j01_f_6   0.01   0.00   0.6   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs7_c02_j01_f_6   0.01   0.00   0.7   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs7_c02_j01_f_6   0.01   0.00   0.8   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs7_c02_j01_f_6   0.01   0.00   0.9   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs7_c02_j01_f_6   0.01   0.00   1.0   0.7   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs7_c06_j01_f_6   0.01   0.00   0.0   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs7_c06_j01_f_6   0.01   0.00   0.1   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs7_c06_j01_f_6   0.01   0.00   0.2   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs7_c06_j01_f_6   0.01   0.00   0.3   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs7_c06_j01_f_6   0.01   0.00   0.4   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs7_c06_j01_f_6   0.01   0.00   0.5   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs7_c06_j01_f_6   0.01   0.00   0.6   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs7_c06_j01_f_6   0.01   0.00   0.7   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs7_c06_j01_f_6   0.01   0.00   0.8   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs7_c06_j01_f_6   0.01   0.00   0.9   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs7_c06_j01_f_6   0.01   0.00   1.0   0.7   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.8, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs8_c02_j01_f_6   0.01   0.00   0.0   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs8_c02_j01_f_6   0.01   0.00   0.1   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs8_c02_j01_f_6   0.01   0.00   0.2   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs8_c02_j01_f_6   0.01   0.00   0.3   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs8_c02_j01_f_6   0.01   0.00   0.4   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs8_c02_j01_f_6   0.01   0.00   0.5   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs8_c02_j01_f_6   0.01   0.00   0.6   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs8_c02_j01_f_6   0.01   0.00   0.7   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs8_c02_j01_f_6   0.01   0.00   0.8   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs8_c02_j01_f_6   0.01   0.00   0.9   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs8_c02_j01_f_6   0.01   0.00   1.0   0.8   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs8_c06_j01_f_6   0.01   0.00   0.0   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs8_c06_j01_f_6   0.01   0.00   0.1   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs8_c06_j01_f_6   0.01   0.00   0.2   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs8_c06_j01_f_6   0.01   0.00   0.3   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs8_c06_j01_f_6   0.01   0.00   0.4   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs8_c06_j01_f_6   0.01   0.00   0.5   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs8_c06_j01_f_6   0.01   0.00   0.6   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs8_c06_j01_f_6   0.01   0.00   0.7   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs8_c06_j01_f_6   0.01   0.00   0.8   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs8_c06_j01_f_6   0.01   0.00   0.9   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs8_c06_j01_f_6   0.01   0.00   1.0   0.8   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.9, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs9_c02_j01_f_6   0.01   0.00   0.0   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs9_c02_j01_f_6   0.01   0.00   0.1   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs9_c02_j01_f_6   0.01   0.00   0.2   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs9_c02_j01_f_6   0.01   0.00   0.3   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs9_c02_j01_f_6   0.01   0.00   0.4   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs9_c02_j01_f_6   0.01   0.00   0.5   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs9_c02_j01_f_6   0.01   0.00   0.6   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs9_c02_j01_f_6   0.01   0.00   0.7   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs9_c02_j01_f_6   0.01   0.00   0.8   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs9_c02_j01_f_6   0.01   0.00   0.9   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs9_c02_j01_f_6   0.01   0.00   1.0   0.9   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs9_c06_j01_f_6   0.01   0.00   0.0   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs9_c06_j01_f_6   0.01   0.00   0.1   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs9_c06_j01_f_6   0.01   0.00   0.2   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs9_c06_j01_f_6   0.01   0.00   0.3   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs9_c06_j01_f_6   0.01   0.00   0.4   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs9_c06_j01_f_6   0.01   0.00   0.5   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs9_c06_j01_f_6   0.01   0.00   0.6   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs9_c06_j01_f_6   0.01   0.00   0.7   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs9_c06_j01_f_6   0.01   0.00   0.8   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs9_c06_j01_f_6   0.01   0.00   0.9   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs9_c06_j01_f_6   0.01   0.00   1.0   0.9   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 1.0, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs10_c02_j01_f_6   0.01   0.00   0.0   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs10_c02_j01_f_6   0.01   0.00   0.1   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs10_c02_j01_f_6   0.01   0.00   0.2   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs10_c02_j01_f_6   0.01   0.00   0.3   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs10_c02_j01_f_6   0.01   0.00   0.4   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs10_c02_j01_f_6   0.01   0.00   0.5   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs10_c02_j01_f_6   0.01   0.00   0.6   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs10_c02_j01_f_6   0.01   0.00   0.7   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs10_c02_j01_f_6   0.01   0.00   0.8   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs10_c02_j01_f_6   0.01   0.00   0.9   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs10_c02_j01_f_6   0.01   0.00   1.0   1.0   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs10_c06_j01_f_6   0.01   0.00   0.0   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs10_c06_j01_f_6   0.01   0.00   0.1   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs10_c06_j01_f_6   0.01   0.00   0.2   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs10_c06_j01_f_6   0.01   0.00   0.3   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs10_c06_j01_f_6   0.01   0.00   0.4   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs10_c06_j01_f_6   0.01   0.00   0.5   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs10_c06_j01_f_6   0.01   0.00   0.6   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs10_c06_j01_f_6   0.01   0.00   0.7   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs10_c06_j01_f_6   0.01   0.00   0.8   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs10_c06_j01_f_6   0.01   0.00   0.9   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs10_c06_j01_f_6   0.01   0.00   1.0   1.0   3   0.1667  0.00    0.1
 
 
 # ________________________________________________________________________________________________________________
@@ -2722,167 +2722,167 @@
 
 # varying dispersal, bs = 0.0, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs0_c05_j01_f_6   0.01   0.00   0.0   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs0_c05_j01_f_6   0.01   0.00   0.1   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs0_c05_j01_f_6   0.01   0.00   0.2   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs0_c05_j01_f_6   0.01   0.00   0.3   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs0_c05_j01_f_6   0.01   0.00   0.4   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs0_c05_j01_f_6   0.01   0.00   0.5   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs0_c05_j01_f_6   0.01   0.00   0.6   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs0_c05_j01_f_6   0.01   0.00   0.7   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs0_c05_j01_f_6   0.01   0.00   0.8   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs0_c05_j01_f_6   0.01   0.00   0.9   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs0_c05_j01_f_6   0.01   0.00   1.0   0.0   3   0.125   0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs0_c08_j01_f_6   0.01   0.00   0.0   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs0_c08_j01_f_6   0.01   0.00   0.1   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs0_c08_j01_f_6   0.01   0.00   0.2   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs0_c08_j01_f_6   0.01   0.00   0.3   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs0_c08_j01_f_6   0.01   0.00   0.4   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs0_c08_j01_f_6   0.01   0.00   0.5   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs0_c08_j01_f_6   0.01   0.00   0.6   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs0_c08_j01_f_6   0.01   0.00   0.7   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs0_c08_j01_f_6   0.01   0.00   0.8   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs0_c08_j01_f_6   0.01   0.00   0.9   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs0_c08_j01_f_6   0.01   0.00   1.0   0.0   3   0.125   0.00    0.1 
 
 
 # varying dispersal, bs = 0.1, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs1_c05_j01_f_6   0.01   0.00   0.0   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs1_c05_j01_f_6   0.01   0.00   0.1   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs1_c05_j01_f_6   0.01   0.00   0.2   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs1_c05_j01_f_6   0.01   0.00   0.3   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs1_c05_j01_f_6   0.01   0.00   0.4   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs1_c05_j01_f_6   0.01   0.00   0.5   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs1_c05_j01_f_6   0.01   0.00   0.6   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs1_c05_j01_f_6   0.01   0.00   0.7   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs1_c05_j01_f_6   0.01   0.00   0.8   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs1_c05_j01_f_6   0.01   0.00   0.9   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs1_c05_j01_f_6   0.01   0.00   1.0   0.1   3   0.125   0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs1_c08_j01_f_6   0.01   0.00   0.0   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs1_c08_j01_f_6   0.01   0.00   0.1   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs1_c08_j01_f_6   0.01   0.00   0.2   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs1_c08_j01_f_6   0.01   0.00   0.3   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs1_c08_j01_f_6   0.01   0.00   0.4   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs1_c08_j01_f_6   0.01   0.00   0.5   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs1_c08_j01_f_6   0.01   0.00   0.6   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs1_c08_j01_f_6   0.01   0.00   0.7   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs1_c08_j01_f_6   0.01   0.00   0.8   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs1_c08_j01_f_6   0.01   0.00   0.9   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs1_c08_j01_f_6   0.01   0.00   1.0   0.1   3   0.125   0.00    0.1 
 
 
 # varying dispersal, bs = 0.2, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs2_c05_j01_f_6   0.01   0.00   0.0   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs2_c05_j01_f_6   0.01   0.00   0.1   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs2_c05_j01_f_6   0.01   0.00   0.2   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs2_c05_j01_f_6   0.01   0.00   0.3   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs2_c05_j01_f_6   0.01   0.00   0.4   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs2_c05_j01_f_6   0.01   0.00   0.5   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs2_c05_j01_f_6   0.01   0.00   0.6   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs2_c05_j01_f_6   0.01   0.00   0.7   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs2_c05_j01_f_6   0.01   0.00   0.8   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs2_c05_j01_f_6   0.01   0.00   0.9   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs2_c05_j01_f_6   0.01   0.00   1.0   0.2   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs2_c08_j01_f_6   0.01   0.00   0.0   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs2_c08_j01_f_6   0.01   0.00   0.1   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs2_c08_j01_f_6   0.01   0.00   0.2   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs2_c08_j01_f_6   0.01   0.00   0.3   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs2_c08_j01_f_6   0.01   0.00   0.4   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs2_c08_j01_f_6   0.01   0.00   0.5   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs2_c08_j01_f_6   0.01   0.00   0.6   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs2_c08_j01_f_6   0.01   0.00   0.7   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs2_c08_j01_f_6   0.01   0.00   0.8   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs2_c08_j01_f_6   0.01   0.00   0.9   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs2_c08_j01_f_6   0.01   0.00   1.0   0.2   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.3, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs3_c05_j01_f_6   0.01   0.00   0.0   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs3_c05_j01_f_6   0.01   0.00   0.1   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs3_c05_j01_f_6   0.01   0.00   0.2   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs3_c05_j01_f_6   0.01   0.00   0.3   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs3_c05_j01_f_6   0.01   0.00   0.4   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs3_c05_j01_f_6   0.01   0.00   0.5   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs3_c05_j01_f_6   0.01   0.00   0.6   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs3_c05_j01_f_6   0.01   0.00   0.7   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs3_c05_j01_f_6   0.01   0.00   0.8   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs3_c05_j01_f_6   0.01   0.00   0.9   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs3_c05_j01_f_6   0.01   0.00   1.0   0.3   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs3_c08_j01_f_6   0.01   0.00   0.0   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs3_c08_j01_f_6   0.01   0.00   0.1   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs3_c08_j01_f_6   0.01   0.00   0.2   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs3_c08_j01_f_6   0.01   0.00   0.3   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs3_c08_j01_f_6   0.01   0.00   0.4   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs3_c08_j01_f_6   0.01   0.00   0.5   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs3_c08_j01_f_6   0.01   0.00   0.6   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs3_c08_j01_f_6   0.01   0.00   0.7   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs3_c08_j01_f_6   0.01   0.00   0.8   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs3_c08_j01_f_6   0.01   0.00   0.9   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs3_c08_j01_f_6   0.01   0.00   1.0   0.3   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.4, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs4_c05_j01_f_6   0.01   0.00   0.0   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs4_c05_j01_f_6   0.01   0.00   0.1   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs4_c05_j01_f_6   0.01   0.00   0.2   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs4_c05_j01_f_6   0.01   0.00   0.3   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs4_c05_j01_f_6   0.01   0.00   0.4   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs4_c05_j01_f_6   0.01   0.00   0.5   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs4_c05_j01_f_6   0.01   0.00   0.6   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs4_c05_j01_f_6   0.01   0.00   0.7   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs4_c05_j01_f_6   0.01   0.00   0.8   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs4_c05_j01_f_6   0.01   0.00   0.9   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs4_c05_j01_f_6   0.01   0.00   1.0   0.4   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs4_c08_j01_f_6   0.01   0.00   0.0   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs4_c08_j01_f_6   0.01   0.00   0.1   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs4_c08_j01_f_6   0.01   0.00   0.2   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs4_c08_j01_f_6   0.01   0.00   0.3   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs4_c08_j01_f_6   0.01   0.00   0.4   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs4_c08_j01_f_6   0.01   0.00   0.5   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs4_c08_j01_f_6   0.01   0.00   0.6   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs4_c08_j01_f_6   0.01   0.00   0.7   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs4_c08_j01_f_6   0.01   0.00   0.8   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs4_c08_j01_f_6   0.01   0.00   0.9   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs4_c08_j01_f_6   0.01   0.00   1.0   0.4   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.5, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs5_c05_j01_f_6   0.01   0.00   0.0   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs5_c05_j01_f_6   0.01   0.00   0.1   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs5_c05_j01_f_6   0.01   0.00   0.2   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs5_c05_j01_f_6   0.01   0.00   0.3   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs5_c05_j01_f_6   0.01   0.00   0.4   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs5_c05_j01_f_6   0.01   0.00   0.5   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs5_c05_j01_f_6   0.01   0.00   0.6   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs5_c05_j01_f_6   0.01   0.00   0.7   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs5_c05_j01_f_6   0.01   0.00   0.8   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs5_c05_j01_f_6   0.01   0.00   0.9   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs5_c05_j01_f_6   0.01   0.00   1.0   0.5   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs5_c08_j01_f_6   0.01   0.00   0.0   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs5_c08_j01_f_6   0.01   0.00   0.1   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs5_c08_j01_f_6   0.01   0.00   0.2   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs5_c08_j01_f_6   0.01   0.00   0.3   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs5_c08_j01_f_6   0.01   0.00   0.4   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs5_c08_j01_f_6   0.01   0.00   0.5   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs5_c08_j01_f_6   0.01   0.00   0.6   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs5_c08_j01_f_6   0.01   0.00   0.7   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs5_c08_j01_f_6   0.01   0.00   0.8   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs5_c08_j01_f_6   0.01   0.00   0.9   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs5_c08_j01_f_6   0.01   0.00   1.0   0.5   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.6, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs6_c05_j01_f_6   0.01   0.00   0.0   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs6_c05_j01_f_6   0.01   0.00   0.1   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs6_c05_j01_f_6   0.01   0.00   0.2   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs6_c05_j01_f_6   0.01   0.00   0.3   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs6_c05_j01_f_6   0.01   0.00   0.4   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs6_c05_j01_f_6   0.01   0.00   0.5   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs6_c05_j01_f_6   0.01   0.00   0.6   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs6_c05_j01_f_6   0.01   0.00   0.7   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs6_c05_j01_f_6   0.01   0.00   0.8   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs6_c05_j01_f_6   0.01   0.00   0.9   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs6_c05_j01_f_6   0.01   0.00   1.0   0.6   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs6_c08_j01_f_6   0.01   0.00   0.0   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs6_c08_j01_f_6   0.01   0.00   0.1   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs6_c08_j01_f_6   0.01   0.00   0.2   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs6_c08_j01_f_6   0.01   0.00   0.3   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs6_c08_j01_f_6   0.01   0.00   0.4   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs6_c08_j01_f_6   0.01   0.00   0.5   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs6_c08_j01_f_6   0.01   0.00   0.6   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs6_c08_j01_f_6   0.01   0.00   0.7   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs6_c08_j01_f_6   0.01   0.00   0.8   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs6_c08_j01_f_6   0.01   0.00   0.9   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs6_c08_j01_f_6   0.01   0.00   1.0   0.6   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.7, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs7_c05_j01_f_6   0.01   0.00   0.0   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs7_c05_j01_f_6   0.01   0.00   0.1   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs7_c05_j01_f_6   0.01   0.00   0.2   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs7_c05_j01_f_6   0.01   0.00   0.3   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs7_c05_j01_f_6   0.01   0.00   0.4   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs7_c05_j01_f_6   0.01   0.00   0.5   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs7_c05_j01_f_6   0.01   0.00   0.6   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs7_c05_j01_f_6   0.01   0.00   0.7   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs7_c05_j01_f_6   0.01   0.00   0.8   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs7_c05_j01_f_6   0.01   0.00   0.9   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs7_c05_j01_f_6   0.01   0.00   1.0   0.7   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs7_c08_j01_f_6   0.01   0.00   0.0   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs7_c08_j01_f_6   0.01   0.00   0.1   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs7_c08_j01_f_6   0.01   0.00   0.2   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs7_c08_j01_f_6   0.01   0.00   0.3   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs7_c08_j01_f_6   0.01   0.00   0.4   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs7_c08_j01_f_6   0.01   0.00   0.5   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs7_c08_j01_f_6   0.01   0.00   0.6   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs7_c08_j01_f_6   0.01   0.00   0.7   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs7_c08_j01_f_6   0.01   0.00   0.8   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs7_c08_j01_f_6   0.01   0.00   0.9   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs7_c08_j01_f_6   0.01   0.00   1.0   0.7   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.8, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs8_c05_j01_f_6   0.01   0.00   0.0   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs8_c05_j01_f_6   0.01   0.00   0.1   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs8_c05_j01_f_6   0.01   0.00   0.2   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs8_c05_j01_f_6   0.01   0.00   0.3   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs8_c05_j01_f_6   0.01   0.00   0.4   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs8_c05_j01_f_6   0.01   0.00   0.5   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs8_c05_j01_f_6   0.01   0.00   0.6   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs8_c05_j01_f_6   0.01   0.00   0.7   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs8_c05_j01_f_6   0.01   0.00   0.8   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs8_c05_j01_f_6   0.01   0.00   0.9   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs8_c05_j01_f_6   0.01   0.00   1.0   0.8   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs8_c08_j01_f_6   0.01   0.00   0.0   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs8_c08_j01_f_6   0.01   0.00   0.1   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs8_c08_j01_f_6   0.01   0.00   0.2   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs8_c08_j01_f_6   0.01   0.00   0.3   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs8_c08_j01_f_6   0.01   0.00   0.4   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs8_c08_j01_f_6   0.01   0.00   0.5   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs8_c08_j01_f_6   0.01   0.00   0.6   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs8_c08_j01_f_6   0.01   0.00   0.7   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs8_c08_j01_f_6   0.01   0.00   0.8   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs8_c08_j01_f_6   0.01   0.00   0.9   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs8_c08_j01_f_6   0.01   0.00   1.0   0.8   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.9, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs9_c05_j01_f_6   0.01   0.00   0.0   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs9_c05_j01_f_6   0.01   0.00   0.1   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs9_c05_j01_f_6   0.01   0.00   0.2   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs9_c05_j01_f_6   0.01   0.00   0.3   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs9_c05_j01_f_6   0.01   0.00   0.4   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs9_c05_j01_f_6   0.01   0.00   0.5   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs9_c05_j01_f_6   0.01   0.00   0.6   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs9_c05_j01_f_6   0.01   0.00   0.7   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs9_c05_j01_f_6   0.01   0.00   0.8   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs9_c05_j01_f_6   0.01   0.00   0.9   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs9_c05_j01_f_6   0.01   0.00   1.0   0.9   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs9_c08_j01_f_6   0.01   0.00   0.0   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs9_c08_j01_f_6   0.01   0.00   0.1   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs9_c08_j01_f_6   0.01   0.00   0.2   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs9_c08_j01_f_6   0.01   0.00   0.3   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs9_c08_j01_f_6   0.01   0.00   0.4   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs9_c08_j01_f_6   0.01   0.00   0.5   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs9_c08_j01_f_6   0.01   0.00   0.6   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs9_c08_j01_f_6   0.01   0.00   0.7   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs9_c08_j01_f_6   0.01   0.00   0.8   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs9_c08_j01_f_6   0.01   0.00   0.9   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs9_c08_j01_f_6   0.01   0.00   1.0   0.9   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 1.0, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs10_c05_j01_f_6   0.01   0.00   0.0   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs10_c05_j01_f_6   0.01   0.00   0.1   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs10_c05_j01_f_6   0.01   0.00   0.2   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs10_c05_j01_f_6   0.01   0.00   0.3   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs10_c05_j01_f_6   0.01   0.00   0.4   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs10_c05_j01_f_6   0.01   0.00   0.5   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs10_c05_j01_f_6   0.01   0.00   0.6   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs10_c05_j01_f_6   0.01   0.00   0.7   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs10_c05_j01_f_6   0.01   0.00   0.8   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs10_c05_j01_f_6   0.01   0.00   0.9   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs10_c05_j01_f_6   0.01   0.00   1.0   1.0   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs10_c08_j01_f_6   0.01   0.00   0.0   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs10_c08_j01_f_6   0.01   0.00   0.1   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs10_c08_j01_f_6   0.01   0.00   0.2   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs10_c08_j01_f_6   0.01   0.00   0.3   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs10_c08_j01_f_6   0.01   0.00   0.4   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs10_c08_j01_f_6   0.01   0.00   0.5   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs10_c08_j01_f_6   0.01   0.00   0.6   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs10_c08_j01_f_6   0.01   0.00   0.7   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs10_c08_j01_f_6   0.01   0.00   0.8   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs10_c08_j01_f_6   0.01   0.00   0.9   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs10_c08_j01_f_6   0.01   0.00   1.0   1.0   3   0.125   0.00    0.1
 
 
 # ________________________________________________________________________________________________________________
@@ -2890,167 +2890,167 @@
 
 # varying dispersal, bs = 0.0, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs0_c20_j01_f_6   0.01   0.00   0.0   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs0_c20_j01_f_6   0.01   0.00   0.1   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs0_c20_j01_f_6   0.01   0.00   0.2   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs0_c20_j01_f_6   0.01   0.00   0.3   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs0_c20_j01_f_6   0.01   0.00   0.4   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs0_c20_j01_f_6   0.01   0.00   0.5   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs0_c20_j01_f_6   0.01   0.00   0.6   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs0_c20_j01_f_6   0.01   0.00   0.7   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs0_c20_j01_f_6   0.01   0.00   0.8   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs0_c20_j01_f_6   0.01   0.00   0.9   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs0_c20_j01_f_6   0.01   0.00   1.0   0.0   3   0.10    0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs0_c10_j01_f_6   0.01   0.00   0.0   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs0_c10_j01_f_6   0.01   0.00   0.1   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs0_c10_j01_f_6   0.01   0.00   0.2   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs0_c10_j01_f_6   0.01   0.00   0.3   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs0_c10_j01_f_6   0.01   0.00   0.4   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs0_c10_j01_f_6   0.01   0.00   0.5   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs0_c10_j01_f_6   0.01   0.00   0.6   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs0_c10_j01_f_6   0.01   0.00   0.7   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs0_c10_j01_f_6   0.01   0.00   0.8   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs0_c10_j01_f_6   0.01   0.00   0.9   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs0_c10_j01_f_6   0.01   0.00   1.0   0.0   3   0.10    0.00    0.1 
 
 
 # varying dispersal, bs = 0.1, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs1_c20_j01_f_6   0.01   0.00   0.0   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs1_c20_j01_f_6   0.01   0.00   0.1   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs1_c20_j01_f_6   0.01   0.00   0.2   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs1_c20_j01_f_6   0.01   0.00   0.3   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs1_c20_j01_f_6   0.01   0.00   0.4   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs1_c20_j01_f_6   0.01   0.00   0.5   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs1_c20_j01_f_6   0.01   0.00   0.6   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs1_c20_j01_f_6   0.01   0.00   0.7   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs1_c20_j01_f_6   0.01   0.00   0.8   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs1_c20_j01_f_6   0.01   0.00   0.9   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs1_c20_j01_f_6   0.01   0.00   1.0   0.1   3   0.10    0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs1_c10_j01_f_6   0.01   0.00   0.0   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs1_c10_j01_f_6   0.01   0.00   0.1   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs1_c10_j01_f_6   0.01   0.00   0.2   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs1_c10_j01_f_6   0.01   0.00   0.3   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs1_c10_j01_f_6   0.01   0.00   0.4   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs1_c10_j01_f_6   0.01   0.00   0.5   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs1_c10_j01_f_6   0.01   0.00   0.6   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs1_c10_j01_f_6   0.01   0.00   0.7   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs1_c10_j01_f_6   0.01   0.00   0.8   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs1_c10_j01_f_6   0.01   0.00   0.9   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs1_c10_j01_f_6   0.01   0.00   1.0   0.1   3   0.10    0.00    0.1 
 
 
 # varying dispersal, bs = 0.2, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs2_c20_j01_f_6   0.01   0.00   0.0   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs2_c20_j01_f_6   0.01   0.00   0.1   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs2_c20_j01_f_6   0.01   0.00   0.2   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs2_c20_j01_f_6   0.01   0.00   0.3   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs2_c20_j01_f_6   0.01   0.00   0.4   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs2_c20_j01_f_6   0.01   0.00   0.5   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs2_c20_j01_f_6   0.01   0.00   0.6   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs2_c20_j01_f_6   0.01   0.00   0.7   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs2_c20_j01_f_6   0.01   0.00   0.8   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs2_c20_j01_f_6   0.01   0.00   0.9   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs2_c20_j01_f_6   0.01   0.00   1.0   0.2   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs2_c10_j01_f_6   0.01   0.00   0.0   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs2_c10_j01_f_6   0.01   0.00   0.1   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs2_c10_j01_f_6   0.01   0.00   0.2   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs2_c10_j01_f_6   0.01   0.00   0.3   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs2_c10_j01_f_6   0.01   0.00   0.4   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs2_c10_j01_f_6   0.01   0.00   0.5   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs2_c10_j01_f_6   0.01   0.00   0.6   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs2_c10_j01_f_6   0.01   0.00   0.7   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs2_c10_j01_f_6   0.01   0.00   0.8   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs2_c10_j01_f_6   0.01   0.00   0.9   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs2_c10_j01_f_6   0.01   0.00   1.0   0.2   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.3, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs3_c20_j01_f_6   0.01   0.00   0.0   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs3_c20_j01_f_6   0.01   0.00   0.1   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs3_c20_j01_f_6   0.01   0.00   0.2   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs3_c20_j01_f_6   0.01   0.00   0.3   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs3_c20_j01_f_6   0.01   0.00   0.4   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs3_c20_j01_f_6   0.01   0.00   0.5   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs3_c20_j01_f_6   0.01   0.00   0.6   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs3_c20_j01_f_6   0.01   0.00   0.7   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs3_c20_j01_f_6   0.01   0.00   0.8   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs3_c20_j01_f_6   0.01   0.00   0.9   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs3_c20_j01_f_6   0.01   0.00   1.0   0.3   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs3_c10_j01_f_6   0.01   0.00   0.0   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs3_c10_j01_f_6   0.01   0.00   0.1   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs3_c10_j01_f_6   0.01   0.00   0.2   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs3_c10_j01_f_6   0.01   0.00   0.3   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs3_c10_j01_f_6   0.01   0.00   0.4   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs3_c10_j01_f_6   0.01   0.00   0.5   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs3_c10_j01_f_6   0.01   0.00   0.6   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs3_c10_j01_f_6   0.01   0.00   0.7   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs3_c10_j01_f_6   0.01   0.00   0.8   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs3_c10_j01_f_6   0.01   0.00   0.9   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs3_c10_j01_f_6   0.01   0.00   1.0   0.3   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.4, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs4_c20_j01_f_6   0.01   0.00   0.0   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs4_c20_j01_f_6   0.01   0.00   0.1   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs4_c20_j01_f_6   0.01   0.00   0.2   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs4_c20_j01_f_6   0.01   0.00   0.3   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs4_c20_j01_f_6   0.01   0.00   0.4   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs4_c20_j01_f_6   0.01   0.00   0.5   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs4_c20_j01_f_6   0.01   0.00   0.6   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs4_c20_j01_f_6   0.01   0.00   0.7   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs4_c20_j01_f_6   0.01   0.00   0.8   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs4_c20_j01_f_6   0.01   0.00   0.9   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs4_c20_j01_f_6   0.01   0.00   1.0   0.4   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs4_c10_j01_f_6   0.01   0.00   0.0   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs4_c10_j01_f_6   0.01   0.00   0.1   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs4_c10_j01_f_6   0.01   0.00   0.2   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs4_c10_j01_f_6   0.01   0.00   0.3   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs4_c10_j01_f_6   0.01   0.00   0.4   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs4_c10_j01_f_6   0.01   0.00   0.5   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs4_c10_j01_f_6   0.01   0.00   0.6   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs4_c10_j01_f_6   0.01   0.00   0.7   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs4_c10_j01_f_6   0.01   0.00   0.8   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs4_c10_j01_f_6   0.01   0.00   0.9   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs4_c10_j01_f_6   0.01   0.00   1.0   0.4   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.5, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs5_c20_j01_f_6   0.01   0.00   0.0   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs5_c20_j01_f_6   0.01   0.00   0.1   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs5_c20_j01_f_6   0.01   0.00   0.2   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs5_c20_j01_f_6   0.01   0.00   0.3   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs5_c20_j01_f_6   0.01   0.00   0.4   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs5_c20_j01_f_6   0.01   0.00   0.5   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs5_c20_j01_f_6   0.01   0.00   0.6   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs5_c20_j01_f_6   0.01   0.00   0.7   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs5_c20_j01_f_6   0.01   0.00   0.8   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs5_c20_j01_f_6   0.01   0.00   0.9   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs5_c20_j01_f_6   0.01   0.00   1.0   0.5   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs5_c10_j01_f_6   0.01   0.00   0.0   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs5_c10_j01_f_6   0.01   0.00   0.1   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs5_c10_j01_f_6   0.01   0.00   0.2   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs5_c10_j01_f_6   0.01   0.00   0.3   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs5_c10_j01_f_6   0.01   0.00   0.4   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs5_c10_j01_f_6   0.01   0.00   0.5   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs5_c10_j01_f_6   0.01   0.00   0.6   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs5_c10_j01_f_6   0.01   0.00   0.7   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs5_c10_j01_f_6   0.01   0.00   0.8   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs5_c10_j01_f_6   0.01   0.00   0.9   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs5_c10_j01_f_6   0.01   0.00   1.0   0.5   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.6, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs6_c20_j01_f_6   0.01   0.00   0.0   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs6_c20_j01_f_6   0.01   0.00   0.1   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs6_c20_j01_f_6   0.01   0.00   0.2   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs6_c20_j01_f_6   0.01   0.00   0.3   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs6_c20_j01_f_6   0.01   0.00   0.4   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs6_c20_j01_f_6   0.01   0.00   0.5   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs6_c20_j01_f_6   0.01   0.00   0.6   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs6_c20_j01_f_6   0.01   0.00   0.7   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs6_c20_j01_f_6   0.01   0.00   0.8   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs6_c20_j01_f_6   0.01   0.00   0.9   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs6_c20_j01_f_6   0.01   0.00   1.0   0.6   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs6_c10_j01_f_6   0.01   0.00   0.0   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs6_c10_j01_f_6   0.01   0.00   0.1   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs6_c10_j01_f_6   0.01   0.00   0.2   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs6_c10_j01_f_6   0.01   0.00   0.3   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs6_c10_j01_f_6   0.01   0.00   0.4   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs6_c10_j01_f_6   0.01   0.00   0.5   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs6_c10_j01_f_6   0.01   0.00   0.6   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs6_c10_j01_f_6   0.01   0.00   0.7   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs6_c10_j01_f_6   0.01   0.00   0.8   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs6_c10_j01_f_6   0.01   0.00   0.9   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs6_c10_j01_f_6   0.01   0.00   1.0   0.6   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.7, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs7_c20_j01_f_6   0.01   0.00   0.0   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs7_c20_j01_f_6   0.01   0.00   0.1   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs7_c20_j01_f_6   0.01   0.00   0.2   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs7_c20_j01_f_6   0.01   0.00   0.3   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs7_c20_j01_f_6   0.01   0.00   0.4   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs7_c20_j01_f_6   0.01   0.00   0.5   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs7_c20_j01_f_6   0.01   0.00   0.6   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs7_c20_j01_f_6   0.01   0.00   0.7   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs7_c20_j01_f_6   0.01   0.00   0.8   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs7_c20_j01_f_6   0.01   0.00   0.9   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs7_c20_j01_f_6   0.01   0.00   1.0   0.7   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs7_c10_j01_f_6   0.01   0.00   0.0   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs7_c10_j01_f_6   0.01   0.00   0.1   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs7_c10_j01_f_6   0.01   0.00   0.2   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs7_c10_j01_f_6   0.01   0.00   0.3   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs7_c10_j01_f_6   0.01   0.00   0.4   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs7_c10_j01_f_6   0.01   0.00   0.5   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs7_c10_j01_f_6   0.01   0.00   0.6   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs7_c10_j01_f_6   0.01   0.00   0.7   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs7_c10_j01_f_6   0.01   0.00   0.8   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs7_c10_j01_f_6   0.01   0.00   0.9   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs7_c10_j01_f_6   0.01   0.00   1.0   0.7   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.8, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs8_c20_j01_f_6   0.01   0.00   0.0   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs8_c20_j01_f_6   0.01   0.00   0.1   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs8_c20_j01_f_6   0.01   0.00   0.2   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs8_c20_j01_f_6   0.01   0.00   0.3   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs8_c20_j01_f_6   0.01   0.00   0.4   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs8_c20_j01_f_6   0.01   0.00   0.5   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs8_c20_j01_f_6   0.01   0.00   0.6   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs8_c20_j01_f_6   0.01   0.00   0.7   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs8_c20_j01_f_6   0.01   0.00   0.8   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs8_c20_j01_f_6   0.01   0.00   0.9   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs8_c20_j01_f_6   0.01   0.00   1.0   0.8   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs8_c10_j01_f_6   0.01   0.00   0.0   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs8_c10_j01_f_6   0.01   0.00   0.1   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs8_c10_j01_f_6   0.01   0.00   0.2   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs8_c10_j01_f_6   0.01   0.00   0.3   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs8_c10_j01_f_6   0.01   0.00   0.4   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs8_c10_j01_f_6   0.01   0.00   0.5   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs8_c10_j01_f_6   0.01   0.00   0.6   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs8_c10_j01_f_6   0.01   0.00   0.7   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs8_c10_j01_f_6   0.01   0.00   0.8   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs8_c10_j01_f_6   0.01   0.00   0.9   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs8_c10_j01_f_6   0.01   0.00   1.0   0.8   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.9, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs9_c20_j01_f_6   0.01   0.00   0.0   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs9_c20_j01_f_6   0.01   0.00   0.1   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs9_c20_j01_f_6   0.01   0.00   0.2   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs9_c20_j01_f_6   0.01   0.00   0.3   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs9_c20_j01_f_6   0.01   0.00   0.4   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs9_c20_j01_f_6   0.01   0.00   0.5   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs9_c20_j01_f_6   0.01   0.00   0.6   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs9_c20_j01_f_6   0.01   0.00   0.7   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs9_c20_j01_f_6   0.01   0.00   0.8   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs9_c20_j01_f_6   0.01   0.00   0.9   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs9_c20_j01_f_6   0.01   0.00   1.0   0.9   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs9_c10_j01_f_6   0.01   0.00   0.0   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs9_c10_j01_f_6   0.01   0.00   0.1   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs9_c10_j01_f_6   0.01   0.00   0.2   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs9_c10_j01_f_6   0.01   0.00   0.3   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs9_c10_j01_f_6   0.01   0.00   0.4   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs9_c10_j01_f_6   0.01   0.00   0.5   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs9_c10_j01_f_6   0.01   0.00   0.6   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs9_c10_j01_f_6   0.01   0.00   0.7   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs9_c10_j01_f_6   0.01   0.00   0.8   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs9_c10_j01_f_6   0.01   0.00   0.9   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs9_c10_j01_f_6   0.01   0.00   1.0   0.9   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 1.0, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs10_c20_j01_f_6   0.01   0.00   0.0   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs10_c20_j01_f_6   0.01   0.00   0.1   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs10_c20_j01_f_6   0.01   0.00   0.2   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs10_c20_j01_f_6   0.01   0.00   0.3   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs10_c20_j01_f_6   0.01   0.00   0.4   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs10_c20_j01_f_6   0.01   0.00   0.5   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs10_c20_j01_f_6   0.01   0.00   0.6   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs10_c20_j01_f_6   0.01   0.00   0.7   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs10_c20_j01_f_6   0.01   0.00   0.8   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs10_c20_j01_f_6   0.01   0.00   0.9   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs10_c20_j01_f_6   0.01   0.00   1.0   1.0   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs10_c10_j01_f_6   0.01   0.00   0.0   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs10_c10_j01_f_6   0.01   0.00   0.1   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs10_c10_j01_f_6   0.01   0.00   0.2   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs10_c10_j01_f_6   0.01   0.00   0.3   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs10_c10_j01_f_6   0.01   0.00   0.4   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs10_c10_j01_f_6   0.01   0.00   0.5   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs10_c10_j01_f_6   0.01   0.00   0.6   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs10_c10_j01_f_6   0.01   0.00   0.7   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs10_c10_j01_f_6   0.01   0.00   0.8   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs10_c10_j01_f_6   0.01   0.00   0.9   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs10_c10_j01_f_6   0.01   0.00   1.0   1.0   3   0.10    0.00    0.1
 
 
 
@@ -3062,167 +3062,167 @@
 
 # varying dispersal, bs = 0.0, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs0_c02_j01_f_7   0.01   0.00   0.0   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs0_c02_j01_f_7   0.01   0.00   0.1   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs0_c02_j01_f_7   0.01   0.00   0.2   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs0_c02_j01_f_7   0.01   0.00   0.3   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs0_c02_j01_f_7   0.01   0.00   0.4   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs0_c02_j01_f_7   0.01   0.00   0.5   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs0_c02_j01_f_7   0.01   0.00   0.6   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs0_c02_j01_f_7   0.01   0.00   0.7   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs0_c02_j01_f_7   0.01   0.00   0.8   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs0_c02_j01_f_7   0.01   0.00   0.9   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs0_c02_j01_f_7   0.01   0.00   1.0   0.0   3   0.1667  0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs0_c06_j01_f_7   0.01   0.00   0.0   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs0_c06_j01_f_7   0.01   0.00   0.1   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs0_c06_j01_f_7   0.01   0.00   0.2   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs0_c06_j01_f_7   0.01   0.00   0.3   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs0_c06_j01_f_7   0.01   0.00   0.4   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs0_c06_j01_f_7   0.01   0.00   0.5   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs0_c06_j01_f_7   0.01   0.00   0.6   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs0_c06_j01_f_7   0.01   0.00   0.7   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs0_c06_j01_f_7   0.01   0.00   0.8   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs0_c06_j01_f_7   0.01   0.00   0.9   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs0_c06_j01_f_7   0.01   0.00   1.0   0.0   3   0.1667  0.00    0.1 
 
 
 # varying dispersal, bs = 0.1, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs1_c02_j01_f_7   0.01   0.00   0.0   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs1_c02_j01_f_7   0.01   0.00   0.1   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs1_c02_j01_f_7   0.01   0.00   0.2   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs1_c02_j01_f_7   0.01   0.00   0.3   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs1_c02_j01_f_7   0.01   0.00   0.4   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs1_c02_j01_f_7   0.01   0.00   0.5   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs1_c02_j01_f_7   0.01   0.00   0.6   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs1_c02_j01_f_7   0.01   0.00   0.7   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs1_c02_j01_f_7   0.01   0.00   0.8   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs1_c02_j01_f_7   0.01   0.00   0.9   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs1_c02_j01_f_7   0.01   0.00   1.0   0.1   3   0.1667  0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs1_c06_j01_f_7   0.01   0.00   0.0   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs1_c06_j01_f_7   0.01   0.00   0.1   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs1_c06_j01_f_7   0.01   0.00   0.2   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs1_c06_j01_f_7   0.01   0.00   0.3   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs1_c06_j01_f_7   0.01   0.00   0.4   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs1_c06_j01_f_7   0.01   0.00   0.5   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs1_c06_j01_f_7   0.01   0.00   0.6   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs1_c06_j01_f_7   0.01   0.00   0.7   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs1_c06_j01_f_7   0.01   0.00   0.8   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs1_c06_j01_f_7   0.01   0.00   0.9   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs1_c06_j01_f_7   0.01   0.00   1.0   0.1   3   0.1667  0.00    0.1 
 
 
 # varying dispersal, bs = 0.2, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs2_c02_j01_f_7   0.01   0.00   0.0   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs2_c02_j01_f_7   0.01   0.00   0.1   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs2_c02_j01_f_7   0.01   0.00   0.2   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs2_c02_j01_f_7   0.01   0.00   0.3   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs2_c02_j01_f_7   0.01   0.00   0.4   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs2_c02_j01_f_7   0.01   0.00   0.5   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs2_c02_j01_f_7   0.01   0.00   0.6   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs2_c02_j01_f_7   0.01   0.00   0.7   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs2_c02_j01_f_7   0.01   0.00   0.8   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs2_c02_j01_f_7   0.01   0.00   0.9   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs2_c02_j01_f_7   0.01   0.00   1.0   0.2   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs2_c06_j01_f_7   0.01   0.00   0.0   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs2_c06_j01_f_7   0.01   0.00   0.1   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs2_c06_j01_f_7   0.01   0.00   0.2   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs2_c06_j01_f_7   0.01   0.00   0.3   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs2_c06_j01_f_7   0.01   0.00   0.4   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs2_c06_j01_f_7   0.01   0.00   0.5   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs2_c06_j01_f_7   0.01   0.00   0.6   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs2_c06_j01_f_7   0.01   0.00   0.7   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs2_c06_j01_f_7   0.01   0.00   0.8   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs2_c06_j01_f_7   0.01   0.00   0.9   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs2_c06_j01_f_7   0.01   0.00   1.0   0.2   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.3, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs3_c02_j01_f_7   0.01   0.00   0.0   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs3_c02_j01_f_7   0.01   0.00   0.1   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs3_c02_j01_f_7   0.01   0.00   0.2   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs3_c02_j01_f_7   0.01   0.00   0.3   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs3_c02_j01_f_7   0.01   0.00   0.4   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs3_c02_j01_f_7   0.01   0.00   0.5   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs3_c02_j01_f_7   0.01   0.00   0.6   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs3_c02_j01_f_7   0.01   0.00   0.7   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs3_c02_j01_f_7   0.01   0.00   0.8   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs3_c02_j01_f_7   0.01   0.00   0.9   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs3_c02_j01_f_7   0.01   0.00   1.0   0.3   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs3_c06_j01_f_7   0.01   0.00   0.0   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs3_c06_j01_f_7   0.01   0.00   0.1   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs3_c06_j01_f_7   0.01   0.00   0.2   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs3_c06_j01_f_7   0.01   0.00   0.3   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs3_c06_j01_f_7   0.01   0.00   0.4   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs3_c06_j01_f_7   0.01   0.00   0.5   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs3_c06_j01_f_7   0.01   0.00   0.6   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs3_c06_j01_f_7   0.01   0.00   0.7   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs3_c06_j01_f_7   0.01   0.00   0.8   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs3_c06_j01_f_7   0.01   0.00   0.9   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs3_c06_j01_f_7   0.01   0.00   1.0   0.3   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.4, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs4_c02_j01_f_7   0.01   0.00   0.0   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs4_c02_j01_f_7   0.01   0.00   0.1   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs4_c02_j01_f_7   0.01   0.00   0.2   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs4_c02_j01_f_7   0.01   0.00   0.3   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs4_c02_j01_f_7   0.01   0.00   0.4   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs4_c02_j01_f_7   0.01   0.00   0.5   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs4_c02_j01_f_7   0.01   0.00   0.6   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs4_c02_j01_f_7   0.01   0.00   0.7   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs4_c02_j01_f_7   0.01   0.00   0.8   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs4_c02_j01_f_7   0.01   0.00   0.9   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs4_c02_j01_f_7   0.01   0.00   1.0   0.4   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs4_c06_j01_f_7   0.01   0.00   0.0   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs4_c06_j01_f_7   0.01   0.00   0.1   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs4_c06_j01_f_7   0.01   0.00   0.2   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs4_c06_j01_f_7   0.01   0.00   0.3   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs4_c06_j01_f_7   0.01   0.00   0.4   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs4_c06_j01_f_7   0.01   0.00   0.5   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs4_c06_j01_f_7   0.01   0.00   0.6   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs4_c06_j01_f_7   0.01   0.00   0.7   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs4_c06_j01_f_7   0.01   0.00   0.8   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs4_c06_j01_f_7   0.01   0.00   0.9   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs4_c06_j01_f_7   0.01   0.00   1.0   0.4   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.5, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs5_c02_j01_f_7   0.01   0.00   0.0   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs5_c02_j01_f_7   0.01   0.00   0.1   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs5_c02_j01_f_7   0.01   0.00   0.2   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs5_c02_j01_f_7   0.01   0.00   0.3   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs5_c02_j01_f_7   0.01   0.00   0.4   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs5_c02_j01_f_7   0.01   0.00   0.5   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs5_c02_j01_f_7   0.01   0.00   0.6   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs5_c02_j01_f_7   0.01   0.00   0.7   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs5_c02_j01_f_7   0.01   0.00   0.8   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs5_c02_j01_f_7   0.01   0.00   0.9   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs5_c02_j01_f_7   0.01   0.00   1.0   0.5   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs5_c06_j01_f_7   0.01   0.00   0.0   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs5_c06_j01_f_7   0.01   0.00   0.1   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs5_c06_j01_f_7   0.01   0.00   0.2   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs5_c06_j01_f_7   0.01   0.00   0.3   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs5_c06_j01_f_7   0.01   0.00   0.4   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs5_c06_j01_f_7   0.01   0.00   0.5   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs5_c06_j01_f_7   0.01   0.00   0.6   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs5_c06_j01_f_7   0.01   0.00   0.7   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs5_c06_j01_f_7   0.01   0.00   0.8   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs5_c06_j01_f_7   0.01   0.00   0.9   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs5_c06_j01_f_7   0.01   0.00   1.0   0.5   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.6, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs6_c02_j01_f_7   0.01   0.00   0.0   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs6_c02_j01_f_7   0.01   0.00   0.1   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs6_c02_j01_f_7   0.01   0.00   0.2   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs6_c02_j01_f_7   0.01   0.00   0.3   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs6_c02_j01_f_7   0.01   0.00   0.4   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs6_c02_j01_f_7   0.01   0.00   0.5   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs6_c02_j01_f_7   0.01   0.00   0.6   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs6_c02_j01_f_7   0.01   0.00   0.7   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs6_c02_j01_f_7   0.01   0.00   0.8   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs6_c02_j01_f_7   0.01   0.00   0.9   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs6_c02_j01_f_7   0.01   0.00   1.0   0.6   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs6_c06_j01_f_7   0.01   0.00   0.0   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs6_c06_j01_f_7   0.01   0.00   0.1   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs6_c06_j01_f_7   0.01   0.00   0.2   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs6_c06_j01_f_7   0.01   0.00   0.3   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs6_c06_j01_f_7   0.01   0.00   0.4   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs6_c06_j01_f_7   0.01   0.00   0.5   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs6_c06_j01_f_7   0.01   0.00   0.6   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs6_c06_j01_f_7   0.01   0.00   0.7   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs6_c06_j01_f_7   0.01   0.00   0.8   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs6_c06_j01_f_7   0.01   0.00   0.9   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs6_c06_j01_f_7   0.01   0.00   1.0   0.6   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.7, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs7_c02_j01_f_7   0.01   0.00   0.0   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs7_c02_j01_f_7   0.01   0.00   0.1   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs7_c02_j01_f_7   0.01   0.00   0.2   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs7_c02_j01_f_7   0.01   0.00   0.3   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs7_c02_j01_f_7   0.01   0.00   0.4   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs7_c02_j01_f_7   0.01   0.00   0.5   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs7_c02_j01_f_7   0.01   0.00   0.6   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs7_c02_j01_f_7   0.01   0.00   0.7   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs7_c02_j01_f_7   0.01   0.00   0.8   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs7_c02_j01_f_7   0.01   0.00   0.9   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs7_c02_j01_f_7   0.01   0.00   1.0   0.7   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs7_c06_j01_f_7   0.01   0.00   0.0   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs7_c06_j01_f_7   0.01   0.00   0.1   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs7_c06_j01_f_7   0.01   0.00   0.2   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs7_c06_j01_f_7   0.01   0.00   0.3   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs7_c06_j01_f_7   0.01   0.00   0.4   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs7_c06_j01_f_7   0.01   0.00   0.5   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs7_c06_j01_f_7   0.01   0.00   0.6   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs7_c06_j01_f_7   0.01   0.00   0.7   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs7_c06_j01_f_7   0.01   0.00   0.8   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs7_c06_j01_f_7   0.01   0.00   0.9   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs7_c06_j01_f_7   0.01   0.00   1.0   0.7   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.8, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs8_c02_j01_f_7   0.01   0.00   0.0   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs8_c02_j01_f_7   0.01   0.00   0.1   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs8_c02_j01_f_7   0.01   0.00   0.2   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs8_c02_j01_f_7   0.01   0.00   0.3   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs8_c02_j01_f_7   0.01   0.00   0.4   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs8_c02_j01_f_7   0.01   0.00   0.5   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs8_c02_j01_f_7   0.01   0.00   0.6   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs8_c02_j01_f_7   0.01   0.00   0.7   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs8_c02_j01_f_7   0.01   0.00   0.8   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs8_c02_j01_f_7   0.01   0.00   0.9   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs8_c02_j01_f_7   0.01   0.00   1.0   0.8   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs8_c06_j01_f_7   0.01   0.00   0.0   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs8_c06_j01_f_7   0.01   0.00   0.1   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs8_c06_j01_f_7   0.01   0.00   0.2   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs8_c06_j01_f_7   0.01   0.00   0.3   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs8_c06_j01_f_7   0.01   0.00   0.4   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs8_c06_j01_f_7   0.01   0.00   0.5   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs8_c06_j01_f_7   0.01   0.00   0.6   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs8_c06_j01_f_7   0.01   0.00   0.7   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs8_c06_j01_f_7   0.01   0.00   0.8   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs8_c06_j01_f_7   0.01   0.00   0.9   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs8_c06_j01_f_7   0.01   0.00   1.0   0.8   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.9, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs9_c02_j01_f_7   0.01   0.00   0.0   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs9_c02_j01_f_7   0.01   0.00   0.1   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs9_c02_j01_f_7   0.01   0.00   0.2   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs9_c02_j01_f_7   0.01   0.00   0.3   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs9_c02_j01_f_7   0.01   0.00   0.4   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs9_c02_j01_f_7   0.01   0.00   0.5   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs9_c02_j01_f_7   0.01   0.00   0.6   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs9_c02_j01_f_7   0.01   0.00   0.7   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs9_c02_j01_f_7   0.01   0.00   0.8   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs9_c02_j01_f_7   0.01   0.00   0.9   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs9_c02_j01_f_7   0.01   0.00   1.0   0.9   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs9_c06_j01_f_7   0.01   0.00   0.0   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs9_c06_j01_f_7   0.01   0.00   0.1   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs9_c06_j01_f_7   0.01   0.00   0.2   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs9_c06_j01_f_7   0.01   0.00   0.3   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs9_c06_j01_f_7   0.01   0.00   0.4   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs9_c06_j01_f_7   0.01   0.00   0.5   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs9_c06_j01_f_7   0.01   0.00   0.6   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs9_c06_j01_f_7   0.01   0.00   0.7   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs9_c06_j01_f_7   0.01   0.00   0.8   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs9_c06_j01_f_7   0.01   0.00   0.9   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs9_c06_j01_f_7   0.01   0.00   1.0   0.9   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 1.0, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs10_c02_j01_f_7   0.01   0.00   0.0   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs10_c02_j01_f_7   0.01   0.00   0.1   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs10_c02_j01_f_7   0.01   0.00   0.2   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs10_c02_j01_f_7   0.01   0.00   0.3   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs10_c02_j01_f_7   0.01   0.00   0.4   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs10_c02_j01_f_7   0.01   0.00   0.5   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs10_c02_j01_f_7   0.01   0.00   0.6   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs10_c02_j01_f_7   0.01   0.00   0.7   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs10_c02_j01_f_7   0.01   0.00   0.8   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs10_c02_j01_f_7   0.01   0.00   0.9   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs10_c02_j01_f_7   0.01   0.00   1.0   1.0   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs10_c06_j01_f_7   0.01   0.00   0.0   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs10_c06_j01_f_7   0.01   0.00   0.1   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs10_c06_j01_f_7   0.01   0.00   0.2   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs10_c06_j01_f_7   0.01   0.00   0.3   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs10_c06_j01_f_7   0.01   0.00   0.4   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs10_c06_j01_f_7   0.01   0.00   0.5   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs10_c06_j01_f_7   0.01   0.00   0.6   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs10_c06_j01_f_7   0.01   0.00   0.7   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs10_c06_j01_f_7   0.01   0.00   0.8   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs10_c06_j01_f_7   0.01   0.00   0.9   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs10_c06_j01_f_7   0.01   0.00   1.0   1.0   3   0.1667  0.00    0.1
 
 
 # ________________________________________________________________________________________________________________
@@ -3230,167 +3230,167 @@
 
 # varying dispersal, bs = 0.0, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs0_c05_j01_f_7   0.01   0.00   0.0   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs0_c05_j01_f_7   0.01   0.00   0.1   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs0_c05_j01_f_7   0.01   0.00   0.2   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs0_c05_j01_f_7   0.01   0.00   0.3   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs0_c05_j01_f_7   0.01   0.00   0.4   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs0_c05_j01_f_7   0.01   0.00   0.5   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs0_c05_j01_f_7   0.01   0.00   0.6   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs0_c05_j01_f_7   0.01   0.00   0.7   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs0_c05_j01_f_7   0.01   0.00   0.8   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs0_c05_j01_f_7   0.01   0.00   0.9   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs0_c05_j01_f_7   0.01   0.00   1.0   0.0   3   0.125   0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs0_c08_j01_f_7   0.01   0.00   0.0   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs0_c08_j01_f_7   0.01   0.00   0.1   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs0_c08_j01_f_7   0.01   0.00   0.2   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs0_c08_j01_f_7   0.01   0.00   0.3   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs0_c08_j01_f_7   0.01   0.00   0.4   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs0_c08_j01_f_7   0.01   0.00   0.5   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs0_c08_j01_f_7   0.01   0.00   0.6   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs0_c08_j01_f_7   0.01   0.00   0.7   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs0_c08_j01_f_7   0.01   0.00   0.8   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs0_c08_j01_f_7   0.01   0.00   0.9   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs0_c08_j01_f_7   0.01   0.00   1.0   0.0   3   0.125   0.00    0.1 
 
 
 # varying dispersal, bs = 0.1, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs1_c05_j01_f_7   0.01   0.00   0.0   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs1_c05_j01_f_7   0.01   0.00   0.1   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs1_c05_j01_f_7   0.01   0.00   0.2   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs1_c05_j01_f_7   0.01   0.00   0.3   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs1_c05_j01_f_7   0.01   0.00   0.4   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs1_c05_j01_f_7   0.01   0.00   0.5   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs1_c05_j01_f_7   0.01   0.00   0.6   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs1_c05_j01_f_7   0.01   0.00   0.7   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs1_c05_j01_f_7   0.01   0.00   0.8   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs1_c05_j01_f_7   0.01   0.00   0.9   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs1_c05_j01_f_7   0.01   0.00   1.0   0.1   3   0.125   0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs1_c08_j01_f_7   0.01   0.00   0.0   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs1_c08_j01_f_7   0.01   0.00   0.1   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs1_c08_j01_f_7   0.01   0.00   0.2   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs1_c08_j01_f_7   0.01   0.00   0.3   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs1_c08_j01_f_7   0.01   0.00   0.4   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs1_c08_j01_f_7   0.01   0.00   0.5   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs1_c08_j01_f_7   0.01   0.00   0.6   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs1_c08_j01_f_7   0.01   0.00   0.7   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs1_c08_j01_f_7   0.01   0.00   0.8   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs1_c08_j01_f_7   0.01   0.00   0.9   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs1_c08_j01_f_7   0.01   0.00   1.0   0.1   3   0.125   0.00    0.1 
 
 
 # varying dispersal, bs = 0.2, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs2_c05_j01_f_7   0.01   0.00   0.0   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs2_c05_j01_f_7   0.01   0.00   0.1   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs2_c05_j01_f_7   0.01   0.00   0.2   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs2_c05_j01_f_7   0.01   0.00   0.3   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs2_c05_j01_f_7   0.01   0.00   0.4   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs2_c05_j01_f_7   0.01   0.00   0.5   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs2_c05_j01_f_7   0.01   0.00   0.6   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs2_c05_j01_f_7   0.01   0.00   0.7   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs2_c05_j01_f_7   0.01   0.00   0.8   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs2_c05_j01_f_7   0.01   0.00   0.9   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs2_c05_j01_f_7   0.01   0.00   1.0   0.2   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs2_c08_j01_f_7   0.01   0.00   0.0   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs2_c08_j01_f_7   0.01   0.00   0.1   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs2_c08_j01_f_7   0.01   0.00   0.2   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs2_c08_j01_f_7   0.01   0.00   0.3   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs2_c08_j01_f_7   0.01   0.00   0.4   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs2_c08_j01_f_7   0.01   0.00   0.5   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs2_c08_j01_f_7   0.01   0.00   0.6   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs2_c08_j01_f_7   0.01   0.00   0.7   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs2_c08_j01_f_7   0.01   0.00   0.8   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs2_c08_j01_f_7   0.01   0.00   0.9   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs2_c08_j01_f_7   0.01   0.00   1.0   0.2   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.3, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs3_c05_j01_f_7   0.01   0.00   0.0   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs3_c05_j01_f_7   0.01   0.00   0.1   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs3_c05_j01_f_7   0.01   0.00   0.2   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs3_c05_j01_f_7   0.01   0.00   0.3   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs3_c05_j01_f_7   0.01   0.00   0.4   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs3_c05_j01_f_7   0.01   0.00   0.5   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs3_c05_j01_f_7   0.01   0.00   0.6   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs3_c05_j01_f_7   0.01   0.00   0.7   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs3_c05_j01_f_7   0.01   0.00   0.8   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs3_c05_j01_f_7   0.01   0.00   0.9   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs3_c05_j01_f_7   0.01   0.00   1.0   0.3   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs3_c08_j01_f_7   0.01   0.00   0.0   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs3_c08_j01_f_7   0.01   0.00   0.1   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs3_c08_j01_f_7   0.01   0.00   0.2   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs3_c08_j01_f_7   0.01   0.00   0.3   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs3_c08_j01_f_7   0.01   0.00   0.4   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs3_c08_j01_f_7   0.01   0.00   0.5   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs3_c08_j01_f_7   0.01   0.00   0.6   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs3_c08_j01_f_7   0.01   0.00   0.7   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs3_c08_j01_f_7   0.01   0.00   0.8   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs3_c08_j01_f_7   0.01   0.00   0.9   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs3_c08_j01_f_7   0.01   0.00   1.0   0.3   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.4, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs4_c05_j01_f_7   0.01   0.00   0.0   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs4_c05_j01_f_7   0.01   0.00   0.1   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs4_c05_j01_f_7   0.01   0.00   0.2   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs4_c05_j01_f_7   0.01   0.00   0.3   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs4_c05_j01_f_7   0.01   0.00   0.4   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs4_c05_j01_f_7   0.01   0.00   0.5   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs4_c05_j01_f_7   0.01   0.00   0.6   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs4_c05_j01_f_7   0.01   0.00   0.7   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs4_c05_j01_f_7   0.01   0.00   0.8   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs4_c05_j01_f_7   0.01   0.00   0.9   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs4_c05_j01_f_7   0.01   0.00   1.0   0.4   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs4_c08_j01_f_7   0.01   0.00   0.0   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs4_c08_j01_f_7   0.01   0.00   0.1   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs4_c08_j01_f_7   0.01   0.00   0.2   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs4_c08_j01_f_7   0.01   0.00   0.3   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs4_c08_j01_f_7   0.01   0.00   0.4   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs4_c08_j01_f_7   0.01   0.00   0.5   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs4_c08_j01_f_7   0.01   0.00   0.6   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs4_c08_j01_f_7   0.01   0.00   0.7   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs4_c08_j01_f_7   0.01   0.00   0.8   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs4_c08_j01_f_7   0.01   0.00   0.9   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs4_c08_j01_f_7   0.01   0.00   1.0   0.4   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.5, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs5_c05_j01_f_7   0.01   0.00   0.0   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs5_c05_j01_f_7   0.01   0.00   0.1   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs5_c05_j01_f_7   0.01   0.00   0.2   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs5_c05_j01_f_7   0.01   0.00   0.3   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs5_c05_j01_f_7   0.01   0.00   0.4   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs5_c05_j01_f_7   0.01   0.00   0.5   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs5_c05_j01_f_7   0.01   0.00   0.6   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs5_c05_j01_f_7   0.01   0.00   0.7   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs5_c05_j01_f_7   0.01   0.00   0.8   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs5_c05_j01_f_7   0.01   0.00   0.9   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs5_c05_j01_f_7   0.01   0.00   1.0   0.5   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs5_c08_j01_f_7   0.01   0.00   0.0   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs5_c08_j01_f_7   0.01   0.00   0.1   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs5_c08_j01_f_7   0.01   0.00   0.2   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs5_c08_j01_f_7   0.01   0.00   0.3   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs5_c08_j01_f_7   0.01   0.00   0.4   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs5_c08_j01_f_7   0.01   0.00   0.5   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs5_c08_j01_f_7   0.01   0.00   0.6   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs5_c08_j01_f_7   0.01   0.00   0.7   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs5_c08_j01_f_7   0.01   0.00   0.8   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs5_c08_j01_f_7   0.01   0.00   0.9   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs5_c08_j01_f_7   0.01   0.00   1.0   0.5   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.6, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs6_c05_j01_f_7   0.01   0.00   0.0   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs6_c05_j01_f_7   0.01   0.00   0.1   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs6_c05_j01_f_7   0.01   0.00   0.2   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs6_c05_j01_f_7   0.01   0.00   0.3   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs6_c05_j01_f_7   0.01   0.00   0.4   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs6_c05_j01_f_7   0.01   0.00   0.5   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs6_c05_j01_f_7   0.01   0.00   0.6   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs6_c05_j01_f_7   0.01   0.00   0.7   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs6_c05_j01_f_7   0.01   0.00   0.8   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs6_c05_j01_f_7   0.01   0.00   0.9   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs6_c05_j01_f_7   0.01   0.00   1.0   0.6   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs6_c08_j01_f_7   0.01   0.00   0.0   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs6_c08_j01_f_7   0.01   0.00   0.1   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs6_c08_j01_f_7   0.01   0.00   0.2   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs6_c08_j01_f_7   0.01   0.00   0.3   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs6_c08_j01_f_7   0.01   0.00   0.4   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs6_c08_j01_f_7   0.01   0.00   0.5   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs6_c08_j01_f_7   0.01   0.00   0.6   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs6_c08_j01_f_7   0.01   0.00   0.7   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs6_c08_j01_f_7   0.01   0.00   0.8   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs6_c08_j01_f_7   0.01   0.00   0.9   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs6_c08_j01_f_7   0.01   0.00   1.0   0.6   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.7, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs7_c05_j01_f_7   0.01   0.00   0.0   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs7_c05_j01_f_7   0.01   0.00   0.1   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs7_c05_j01_f_7   0.01   0.00   0.2   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs7_c05_j01_f_7   0.01   0.00   0.3   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs7_c05_j01_f_7   0.01   0.00   0.4   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs7_c05_j01_f_7   0.01   0.00   0.5   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs7_c05_j01_f_7   0.01   0.00   0.6   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs7_c05_j01_f_7   0.01   0.00   0.7   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs7_c05_j01_f_7   0.01   0.00   0.8   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs7_c05_j01_f_7   0.01   0.00   0.9   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs7_c05_j01_f_7   0.01   0.00   1.0   0.7   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs7_c08_j01_f_7   0.01   0.00   0.0   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs7_c08_j01_f_7   0.01   0.00   0.1   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs7_c08_j01_f_7   0.01   0.00   0.2   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs7_c08_j01_f_7   0.01   0.00   0.3   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs7_c08_j01_f_7   0.01   0.00   0.4   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs7_c08_j01_f_7   0.01   0.00   0.5   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs7_c08_j01_f_7   0.01   0.00   0.6   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs7_c08_j01_f_7   0.01   0.00   0.7   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs7_c08_j01_f_7   0.01   0.00   0.8   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs7_c08_j01_f_7   0.01   0.00   0.9   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs7_c08_j01_f_7   0.01   0.00   1.0   0.7   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.8, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs8_c05_j01_f_7   0.01   0.00   0.0   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs8_c05_j01_f_7   0.01   0.00   0.1   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs8_c05_j01_f_7   0.01   0.00   0.2   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs8_c05_j01_f_7   0.01   0.00   0.3   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs8_c05_j01_f_7   0.01   0.00   0.4   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs8_c05_j01_f_7   0.01   0.00   0.5   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs8_c05_j01_f_7   0.01   0.00   0.6   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs8_c05_j01_f_7   0.01   0.00   0.7   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs8_c05_j01_f_7   0.01   0.00   0.8   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs8_c05_j01_f_7   0.01   0.00   0.9   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs8_c05_j01_f_7   0.01   0.00   1.0   0.8   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs8_c08_j01_f_7   0.01   0.00   0.0   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs8_c08_j01_f_7   0.01   0.00   0.1   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs8_c08_j01_f_7   0.01   0.00   0.2   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs8_c08_j01_f_7   0.01   0.00   0.3   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs8_c08_j01_f_7   0.01   0.00   0.4   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs8_c08_j01_f_7   0.01   0.00   0.5   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs8_c08_j01_f_7   0.01   0.00   0.6   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs8_c08_j01_f_7   0.01   0.00   0.7   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs8_c08_j01_f_7   0.01   0.00   0.8   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs8_c08_j01_f_7   0.01   0.00   0.9   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs8_c08_j01_f_7   0.01   0.00   1.0   0.8   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.9, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs9_c05_j01_f_7   0.01   0.00   0.0   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs9_c05_j01_f_7   0.01   0.00   0.1   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs9_c05_j01_f_7   0.01   0.00   0.2   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs9_c05_j01_f_7   0.01   0.00   0.3   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs9_c05_j01_f_7   0.01   0.00   0.4   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs9_c05_j01_f_7   0.01   0.00   0.5   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs9_c05_j01_f_7   0.01   0.00   0.6   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs9_c05_j01_f_7   0.01   0.00   0.7   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs9_c05_j01_f_7   0.01   0.00   0.8   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs9_c05_j01_f_7   0.01   0.00   0.9   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs9_c05_j01_f_7   0.01   0.00   1.0   0.9   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs9_c08_j01_f_7   0.01   0.00   0.0   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs9_c08_j01_f_7   0.01   0.00   0.1   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs9_c08_j01_f_7   0.01   0.00   0.2   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs9_c08_j01_f_7   0.01   0.00   0.3   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs9_c08_j01_f_7   0.01   0.00   0.4   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs9_c08_j01_f_7   0.01   0.00   0.5   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs9_c08_j01_f_7   0.01   0.00   0.6   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs9_c08_j01_f_7   0.01   0.00   0.7   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs9_c08_j01_f_7   0.01   0.00   0.8   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs9_c08_j01_f_7   0.01   0.00   0.9   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs9_c08_j01_f_7   0.01   0.00   1.0   0.9   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 1.0, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs10_c05_j01_f_7   0.01   0.00   0.0   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs10_c05_j01_f_7   0.01   0.00   0.1   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs10_c05_j01_f_7   0.01   0.00   0.2   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs10_c05_j01_f_7   0.01   0.00   0.3   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs10_c05_j01_f_7   0.01   0.00   0.4   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs10_c05_j01_f_7   0.01   0.00   0.5   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs10_c05_j01_f_7   0.01   0.00   0.6   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs10_c05_j01_f_7   0.01   0.00   0.7   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs10_c05_j01_f_7   0.01   0.00   0.8   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs10_c05_j01_f_7   0.01   0.00   0.9   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs10_c05_j01_f_7   0.01   0.00   1.0   1.0   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs10_c08_j01_f_7   0.01   0.00   0.0   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs10_c08_j01_f_7   0.01   0.00   0.1   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs10_c08_j01_f_7   0.01   0.00   0.2   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs10_c08_j01_f_7   0.01   0.00   0.3   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs10_c08_j01_f_7   0.01   0.00   0.4   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs10_c08_j01_f_7   0.01   0.00   0.5   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs10_c08_j01_f_7   0.01   0.00   0.6   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs10_c08_j01_f_7   0.01   0.00   0.7   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs10_c08_j01_f_7   0.01   0.00   0.8   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs10_c08_j01_f_7   0.01   0.00   0.9   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs10_c08_j01_f_7   0.01   0.00   1.0   1.0   3   0.125   0.00    0.1
 
 
 # ________________________________________________________________________________________________________________
@@ -3398,167 +3398,167 @@
 
 # varying dispersal, bs = 0.0, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs0_c20_j01_f_7   0.01   0.00   0.0   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs0_c20_j01_f_7   0.01   0.00   0.1   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs0_c20_j01_f_7   0.01   0.00   0.2   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs0_c20_j01_f_7   0.01   0.00   0.3   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs0_c20_j01_f_7   0.01   0.00   0.4   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs0_c20_j01_f_7   0.01   0.00   0.5   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs0_c20_j01_f_7   0.01   0.00   0.6   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs0_c20_j01_f_7   0.01   0.00   0.7   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs0_c20_j01_f_7   0.01   0.00   0.8   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs0_c20_j01_f_7   0.01   0.00   0.9   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs0_c20_j01_f_7   0.01   0.00   1.0   0.0   3   0.10    0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs0_c10_j01_f_7   0.01   0.00   0.0   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs0_c10_j01_f_7   0.01   0.00   0.1   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs0_c10_j01_f_7   0.01   0.00   0.2   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs0_c10_j01_f_7   0.01   0.00   0.3   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs0_c10_j01_f_7   0.01   0.00   0.4   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs0_c10_j01_f_7   0.01   0.00   0.5   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs0_c10_j01_f_7   0.01   0.00   0.6   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs0_c10_j01_f_7   0.01   0.00   0.7   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs0_c10_j01_f_7   0.01   0.00   0.8   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs0_c10_j01_f_7   0.01   0.00   0.9   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs0_c10_j01_f_7   0.01   0.00   1.0   0.0   3   0.10    0.00    0.1 
 
 
 # varying dispersal, bs = 0.1, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs1_c20_j01_f_7   0.01   0.00   0.0   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs1_c20_j01_f_7   0.01   0.00   0.1   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs1_c20_j01_f_7   0.01   0.00   0.2   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs1_c20_j01_f_7   0.01   0.00   0.3   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs1_c20_j01_f_7   0.01   0.00   0.4   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs1_c20_j01_f_7   0.01   0.00   0.5   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs1_c20_j01_f_7   0.01   0.00   0.6   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs1_c20_j01_f_7   0.01   0.00   0.7   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs1_c20_j01_f_7   0.01   0.00   0.8   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs1_c20_j01_f_7   0.01   0.00   0.9   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs1_c20_j01_f_7   0.01   0.00   1.0   0.1   3   0.10    0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs1_c10_j01_f_7   0.01   0.00   0.0   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs1_c10_j01_f_7   0.01   0.00   0.1   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs1_c10_j01_f_7   0.01   0.00   0.2   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs1_c10_j01_f_7   0.01   0.00   0.3   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs1_c10_j01_f_7   0.01   0.00   0.4   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs1_c10_j01_f_7   0.01   0.00   0.5   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs1_c10_j01_f_7   0.01   0.00   0.6   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs1_c10_j01_f_7   0.01   0.00   0.7   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs1_c10_j01_f_7   0.01   0.00   0.8   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs1_c10_j01_f_7   0.01   0.00   0.9   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs1_c10_j01_f_7   0.01   0.00   1.0   0.1   3   0.10    0.00    0.1 
 
 
 # varying dispersal, bs = 0.2, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs2_c20_j01_f_7   0.01   0.00   0.0   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs2_c20_j01_f_7   0.01   0.00   0.1   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs2_c20_j01_f_7   0.01   0.00   0.2   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs2_c20_j01_f_7   0.01   0.00   0.3   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs2_c20_j01_f_7   0.01   0.00   0.4   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs2_c20_j01_f_7   0.01   0.00   0.5   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs2_c20_j01_f_7   0.01   0.00   0.6   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs2_c20_j01_f_7   0.01   0.00   0.7   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs2_c20_j01_f_7   0.01   0.00   0.8   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs2_c20_j01_f_7   0.01   0.00   0.9   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs2_c20_j01_f_7   0.01   0.00   1.0   0.2   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs2_c10_j01_f_7   0.01   0.00   0.0   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs2_c10_j01_f_7   0.01   0.00   0.1   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs2_c10_j01_f_7   0.01   0.00   0.2   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs2_c10_j01_f_7   0.01   0.00   0.3   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs2_c10_j01_f_7   0.01   0.00   0.4   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs2_c10_j01_f_7   0.01   0.00   0.5   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs2_c10_j01_f_7   0.01   0.00   0.6   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs2_c10_j01_f_7   0.01   0.00   0.7   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs2_c10_j01_f_7   0.01   0.00   0.8   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs2_c10_j01_f_7   0.01   0.00   0.9   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs2_c10_j01_f_7   0.01   0.00   1.0   0.2   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.3, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs3_c20_j01_f_7   0.01   0.00   0.0   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs3_c20_j01_f_7   0.01   0.00   0.1   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs3_c20_j01_f_7   0.01   0.00   0.2   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs3_c20_j01_f_7   0.01   0.00   0.3   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs3_c20_j01_f_7   0.01   0.00   0.4   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs3_c20_j01_f_7   0.01   0.00   0.5   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs3_c20_j01_f_7   0.01   0.00   0.6   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs3_c20_j01_f_7   0.01   0.00   0.7   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs3_c20_j01_f_7   0.01   0.00   0.8   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs3_c20_j01_f_7   0.01   0.00   0.9   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs3_c20_j01_f_7   0.01   0.00   1.0   0.3   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs3_c10_j01_f_7   0.01   0.00   0.0   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs3_c10_j01_f_7   0.01   0.00   0.1   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs3_c10_j01_f_7   0.01   0.00   0.2   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs3_c10_j01_f_7   0.01   0.00   0.3   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs3_c10_j01_f_7   0.01   0.00   0.4   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs3_c10_j01_f_7   0.01   0.00   0.5   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs3_c10_j01_f_7   0.01   0.00   0.6   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs3_c10_j01_f_7   0.01   0.00   0.7   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs3_c10_j01_f_7   0.01   0.00   0.8   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs3_c10_j01_f_7   0.01   0.00   0.9   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs3_c10_j01_f_7   0.01   0.00   1.0   0.3   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.4, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs4_c20_j01_f_7   0.01   0.00   0.0   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs4_c20_j01_f_7   0.01   0.00   0.1   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs4_c20_j01_f_7   0.01   0.00   0.2   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs4_c20_j01_f_7   0.01   0.00   0.3   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs4_c20_j01_f_7   0.01   0.00   0.4   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs4_c20_j01_f_7   0.01   0.00   0.5   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs4_c20_j01_f_7   0.01   0.00   0.6   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs4_c20_j01_f_7   0.01   0.00   0.7   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs4_c20_j01_f_7   0.01   0.00   0.8   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs4_c20_j01_f_7   0.01   0.00   0.9   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs4_c20_j01_f_7   0.01   0.00   1.0   0.4   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs4_c10_j01_f_7   0.01   0.00   0.0   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs4_c10_j01_f_7   0.01   0.00   0.1   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs4_c10_j01_f_7   0.01   0.00   0.2   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs4_c10_j01_f_7   0.01   0.00   0.3   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs4_c10_j01_f_7   0.01   0.00   0.4   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs4_c10_j01_f_7   0.01   0.00   0.5   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs4_c10_j01_f_7   0.01   0.00   0.6   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs4_c10_j01_f_7   0.01   0.00   0.7   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs4_c10_j01_f_7   0.01   0.00   0.8   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs4_c10_j01_f_7   0.01   0.00   0.9   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs4_c10_j01_f_7   0.01   0.00   1.0   0.4   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.5, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs5_c20_j01_f_7   0.01   0.00   0.0   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs5_c20_j01_f_7   0.01   0.00   0.1   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs5_c20_j01_f_7   0.01   0.00   0.2   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs5_c20_j01_f_7   0.01   0.00   0.3   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs5_c20_j01_f_7   0.01   0.00   0.4   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs5_c20_j01_f_7   0.01   0.00   0.5   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs5_c20_j01_f_7   0.01   0.00   0.6   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs5_c20_j01_f_7   0.01   0.00   0.7   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs5_c20_j01_f_7   0.01   0.00   0.8   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs5_c20_j01_f_7   0.01   0.00   0.9   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs5_c20_j01_f_7   0.01   0.00   1.0   0.5   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs5_c10_j01_f_7   0.01   0.00   0.0   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs5_c10_j01_f_7   0.01   0.00   0.1   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs5_c10_j01_f_7   0.01   0.00   0.2   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs5_c10_j01_f_7   0.01   0.00   0.3   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs5_c10_j01_f_7   0.01   0.00   0.4   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs5_c10_j01_f_7   0.01   0.00   0.5   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs5_c10_j01_f_7   0.01   0.00   0.6   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs5_c10_j01_f_7   0.01   0.00   0.7   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs5_c10_j01_f_7   0.01   0.00   0.8   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs5_c10_j01_f_7   0.01   0.00   0.9   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs5_c10_j01_f_7   0.01   0.00   1.0   0.5   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.6, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs6_c20_j01_f_7   0.01   0.00   0.0   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs6_c20_j01_f_7   0.01   0.00   0.1   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs6_c20_j01_f_7   0.01   0.00   0.2   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs6_c20_j01_f_7   0.01   0.00   0.3   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs6_c20_j01_f_7   0.01   0.00   0.4   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs6_c20_j01_f_7   0.01   0.00   0.5   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs6_c20_j01_f_7   0.01   0.00   0.6   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs6_c20_j01_f_7   0.01   0.00   0.7   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs6_c20_j01_f_7   0.01   0.00   0.8   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs6_c20_j01_f_7   0.01   0.00   0.9   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs6_c20_j01_f_7   0.01   0.00   1.0   0.6   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs6_c10_j01_f_7   0.01   0.00   0.0   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs6_c10_j01_f_7   0.01   0.00   0.1   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs6_c10_j01_f_7   0.01   0.00   0.2   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs6_c10_j01_f_7   0.01   0.00   0.3   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs6_c10_j01_f_7   0.01   0.00   0.4   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs6_c10_j01_f_7   0.01   0.00   0.5   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs6_c10_j01_f_7   0.01   0.00   0.6   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs6_c10_j01_f_7   0.01   0.00   0.7   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs6_c10_j01_f_7   0.01   0.00   0.8   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs6_c10_j01_f_7   0.01   0.00   0.9   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs6_c10_j01_f_7   0.01   0.00   1.0   0.6   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.7, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs7_c20_j01_f_7   0.01   0.00   0.0   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs7_c20_j01_f_7   0.01   0.00   0.1   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs7_c20_j01_f_7   0.01   0.00   0.2   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs7_c20_j01_f_7   0.01   0.00   0.3   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs7_c20_j01_f_7   0.01   0.00   0.4   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs7_c20_j01_f_7   0.01   0.00   0.5   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs7_c20_j01_f_7   0.01   0.00   0.6   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs7_c20_j01_f_7   0.01   0.00   0.7   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs7_c20_j01_f_7   0.01   0.00   0.8   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs7_c20_j01_f_7   0.01   0.00   0.9   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs7_c20_j01_f_7   0.01   0.00   1.0   0.7   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs7_c10_j01_f_7   0.01   0.00   0.0   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs7_c10_j01_f_7   0.01   0.00   0.1   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs7_c10_j01_f_7   0.01   0.00   0.2   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs7_c10_j01_f_7   0.01   0.00   0.3   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs7_c10_j01_f_7   0.01   0.00   0.4   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs7_c10_j01_f_7   0.01   0.00   0.5   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs7_c10_j01_f_7   0.01   0.00   0.6   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs7_c10_j01_f_7   0.01   0.00   0.7   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs7_c10_j01_f_7   0.01   0.00   0.8   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs7_c10_j01_f_7   0.01   0.00   0.9   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs7_c10_j01_f_7   0.01   0.00   1.0   0.7   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.8, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs8_c20_j01_f_7   0.01   0.00   0.0   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs8_c20_j01_f_7   0.01   0.00   0.1   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs8_c20_j01_f_7   0.01   0.00   0.2   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs8_c20_j01_f_7   0.01   0.00   0.3   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs8_c20_j01_f_7   0.01   0.00   0.4   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs8_c20_j01_f_7   0.01   0.00   0.5   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs8_c20_j01_f_7   0.01   0.00   0.6   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs8_c20_j01_f_7   0.01   0.00   0.7   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs8_c20_j01_f_7   0.01   0.00   0.8   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs8_c20_j01_f_7   0.01   0.00   0.9   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs8_c20_j01_f_7   0.01   0.00   1.0   0.8   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs8_c10_j01_f_7   0.01   0.00   0.0   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs8_c10_j01_f_7   0.01   0.00   0.1   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs8_c10_j01_f_7   0.01   0.00   0.2   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs8_c10_j01_f_7   0.01   0.00   0.3   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs8_c10_j01_f_7   0.01   0.00   0.4   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs8_c10_j01_f_7   0.01   0.00   0.5   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs8_c10_j01_f_7   0.01   0.00   0.6   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs8_c10_j01_f_7   0.01   0.00   0.7   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs8_c10_j01_f_7   0.01   0.00   0.8   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs8_c10_j01_f_7   0.01   0.00   0.9   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs8_c10_j01_f_7   0.01   0.00   1.0   0.8   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.9, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs9_c20_j01_f_7   0.01   0.00   0.0   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs9_c20_j01_f_7   0.01   0.00   0.1   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs9_c20_j01_f_7   0.01   0.00   0.2   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs9_c20_j01_f_7   0.01   0.00   0.3   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs9_c20_j01_f_7   0.01   0.00   0.4   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs9_c20_j01_f_7   0.01   0.00   0.5   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs9_c20_j01_f_7   0.01   0.00   0.6   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs9_c20_j01_f_7   0.01   0.00   0.7   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs9_c20_j01_f_7   0.01   0.00   0.8   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs9_c20_j01_f_7   0.01   0.00   0.9   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs9_c20_j01_f_7   0.01   0.00   1.0   0.9   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs9_c10_j01_f_7   0.01   0.00   0.0   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs9_c10_j01_f_7   0.01   0.00   0.1   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs9_c10_j01_f_7   0.01   0.00   0.2   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs9_c10_j01_f_7   0.01   0.00   0.3   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs9_c10_j01_f_7   0.01   0.00   0.4   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs9_c10_j01_f_7   0.01   0.00   0.5   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs9_c10_j01_f_7   0.01   0.00   0.6   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs9_c10_j01_f_7   0.01   0.00   0.7   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs9_c10_j01_f_7   0.01   0.00   0.8   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs9_c10_j01_f_7   0.01   0.00   0.9   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs9_c10_j01_f_7   0.01   0.00   1.0   0.9   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 1.0, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs10_c20_j01_f_7   0.01   0.00   0.0   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs10_c20_j01_f_7   0.01   0.00   0.1   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs10_c20_j01_f_7   0.01   0.00   0.2   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs10_c20_j01_f_7   0.01   0.00   0.3   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs10_c20_j01_f_7   0.01   0.00   0.4   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs10_c20_j01_f_7   0.01   0.00   0.5   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs10_c20_j01_f_7   0.01   0.00   0.6   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs10_c20_j01_f_7   0.01   0.00   0.7   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs10_c20_j01_f_7   0.01   0.00   0.8   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs10_c20_j01_f_7   0.01   0.00   0.9   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs10_c20_j01_f_7   0.01   0.00   1.0   1.0   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs10_c10_j01_f_7   0.01   0.00   0.0   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs10_c10_j01_f_7   0.01   0.00   0.1   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs10_c10_j01_f_7   0.01   0.00   0.2   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs10_c10_j01_f_7   0.01   0.00   0.3   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs10_c10_j01_f_7   0.01   0.00   0.4   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs10_c10_j01_f_7   0.01   0.00   0.5   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs10_c10_j01_f_7   0.01   0.00   0.6   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs10_c10_j01_f_7   0.01   0.00   0.7   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs10_c10_j01_f_7   0.01   0.00   0.8   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs10_c10_j01_f_7   0.01   0.00   0.9   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs10_c10_j01_f_7   0.01   0.00   1.0   1.0   3   0.10    0.00    0.1
 
 
 
@@ -3570,167 +3570,167 @@
 
 # varying dispersal, bs = 0.0, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs0_c02_j01_f_8   0.01   0.00   0.0   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs0_c02_j01_f_8   0.01   0.00   0.1   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs0_c02_j01_f_8   0.01   0.00   0.2   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs0_c02_j01_f_8   0.01   0.00   0.3   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs0_c02_j01_f_8   0.01   0.00   0.4   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs0_c02_j01_f_8   0.01   0.00   0.5   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs0_c02_j01_f_8   0.01   0.00   0.6   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs0_c02_j01_f_8   0.01   0.00   0.7   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs0_c02_j01_f_8   0.01   0.00   0.8   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs0_c02_j01_f_8   0.01   0.00   0.9   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs0_c02_j01_f_8   0.01   0.00   1.0   0.0   3   0.1667  0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs0_c06_j01_f_8   0.01   0.00   0.0   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs0_c06_j01_f_8   0.01   0.00   0.1   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs0_c06_j01_f_8   0.01   0.00   0.2   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs0_c06_j01_f_8   0.01   0.00   0.3   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs0_c06_j01_f_8   0.01   0.00   0.4   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs0_c06_j01_f_8   0.01   0.00   0.5   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs0_c06_j01_f_8   0.01   0.00   0.6   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs0_c06_j01_f_8   0.01   0.00   0.7   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs0_c06_j01_f_8   0.01   0.00   0.8   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs0_c06_j01_f_8   0.01   0.00   0.9   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs0_c06_j01_f_8   0.01   0.00   1.0   0.0   3   0.1667  0.00    0.1 
 
 
 # varying dispersal, bs = 0.1, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs1_c02_j01_f_8   0.01   0.00   0.0   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs1_c02_j01_f_8   0.01   0.00   0.1   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs1_c02_j01_f_8   0.01   0.00   0.2   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs1_c02_j01_f_8   0.01   0.00   0.3   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs1_c02_j01_f_8   0.01   0.00   0.4   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs1_c02_j01_f_8   0.01   0.00   0.5   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs1_c02_j01_f_8   0.01   0.00   0.6   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs1_c02_j01_f_8   0.01   0.00   0.7   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs1_c02_j01_f_8   0.01   0.00   0.8   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs1_c02_j01_f_8   0.01   0.00   0.9   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs1_c02_j01_f_8   0.01   0.00   1.0   0.1   3   0.1667  0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs1_c06_j01_f_8   0.01   0.00   0.0   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs1_c06_j01_f_8   0.01   0.00   0.1   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs1_c06_j01_f_8   0.01   0.00   0.2   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs1_c06_j01_f_8   0.01   0.00   0.3   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs1_c06_j01_f_8   0.01   0.00   0.4   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs1_c06_j01_f_8   0.01   0.00   0.5   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs1_c06_j01_f_8   0.01   0.00   0.6   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs1_c06_j01_f_8   0.01   0.00   0.7   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs1_c06_j01_f_8   0.01   0.00   0.8   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs1_c06_j01_f_8   0.01   0.00   0.9   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs1_c06_j01_f_8   0.01   0.00   1.0   0.1   3   0.1667  0.00    0.1 
 
 
 # varying dispersal, bs = 0.2, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs2_c02_j01_f_8   0.01   0.00   0.0   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs2_c02_j01_f_8   0.01   0.00   0.1   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs2_c02_j01_f_8   0.01   0.00   0.2   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs2_c02_j01_f_8   0.01   0.00   0.3   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs2_c02_j01_f_8   0.01   0.00   0.4   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs2_c02_j01_f_8   0.01   0.00   0.5   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs2_c02_j01_f_8   0.01   0.00   0.6   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs2_c02_j01_f_8   0.01   0.00   0.7   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs2_c02_j01_f_8   0.01   0.00   0.8   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs2_c02_j01_f_8   0.01   0.00   0.9   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs2_c02_j01_f_8   0.01   0.00   1.0   0.2   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs2_c06_j01_f_8   0.01   0.00   0.0   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs2_c06_j01_f_8   0.01   0.00   0.1   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs2_c06_j01_f_8   0.01   0.00   0.2   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs2_c06_j01_f_8   0.01   0.00   0.3   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs2_c06_j01_f_8   0.01   0.00   0.4   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs2_c06_j01_f_8   0.01   0.00   0.5   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs2_c06_j01_f_8   0.01   0.00   0.6   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs2_c06_j01_f_8   0.01   0.00   0.7   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs2_c06_j01_f_8   0.01   0.00   0.8   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs2_c06_j01_f_8   0.01   0.00   0.9   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs2_c06_j01_f_8   0.01   0.00   1.0   0.2   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.3, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs3_c02_j01_f_8   0.01   0.00   0.0   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs3_c02_j01_f_8   0.01   0.00   0.1   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs3_c02_j01_f_8   0.01   0.00   0.2   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs3_c02_j01_f_8   0.01   0.00   0.3   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs3_c02_j01_f_8   0.01   0.00   0.4   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs3_c02_j01_f_8   0.01   0.00   0.5   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs3_c02_j01_f_8   0.01   0.00   0.6   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs3_c02_j01_f_8   0.01   0.00   0.7   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs3_c02_j01_f_8   0.01   0.00   0.8   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs3_c02_j01_f_8   0.01   0.00   0.9   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs3_c02_j01_f_8   0.01   0.00   1.0   0.3   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs3_c06_j01_f_8   0.01   0.00   0.0   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs3_c06_j01_f_8   0.01   0.00   0.1   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs3_c06_j01_f_8   0.01   0.00   0.2   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs3_c06_j01_f_8   0.01   0.00   0.3   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs3_c06_j01_f_8   0.01   0.00   0.4   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs3_c06_j01_f_8   0.01   0.00   0.5   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs3_c06_j01_f_8   0.01   0.00   0.6   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs3_c06_j01_f_8   0.01   0.00   0.7   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs3_c06_j01_f_8   0.01   0.00   0.8   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs3_c06_j01_f_8   0.01   0.00   0.9   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs3_c06_j01_f_8   0.01   0.00   1.0   0.3   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.4, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs4_c02_j01_f_8   0.01   0.00   0.0   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs4_c02_j01_f_8   0.01   0.00   0.1   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs4_c02_j01_f_8   0.01   0.00   0.2   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs4_c02_j01_f_8   0.01   0.00   0.3   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs4_c02_j01_f_8   0.01   0.00   0.4   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs4_c02_j01_f_8   0.01   0.00   0.5   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs4_c02_j01_f_8   0.01   0.00   0.6   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs4_c02_j01_f_8   0.01   0.00   0.7   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs4_c02_j01_f_8   0.01   0.00   0.8   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs4_c02_j01_f_8   0.01   0.00   0.9   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs4_c02_j01_f_8   0.01   0.00   1.0   0.4   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs4_c06_j01_f_8   0.01   0.00   0.0   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs4_c06_j01_f_8   0.01   0.00   0.1   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs4_c06_j01_f_8   0.01   0.00   0.2   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs4_c06_j01_f_8   0.01   0.00   0.3   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs4_c06_j01_f_8   0.01   0.00   0.4   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs4_c06_j01_f_8   0.01   0.00   0.5   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs4_c06_j01_f_8   0.01   0.00   0.6   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs4_c06_j01_f_8   0.01   0.00   0.7   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs4_c06_j01_f_8   0.01   0.00   0.8   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs4_c06_j01_f_8   0.01   0.00   0.9   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs4_c06_j01_f_8   0.01   0.00   1.0   0.4   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.5, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs5_c02_j01_f_8   0.01   0.00   0.0   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs5_c02_j01_f_8   0.01   0.00   0.1   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs5_c02_j01_f_8   0.01   0.00   0.2   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs5_c02_j01_f_8   0.01   0.00   0.3   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs5_c02_j01_f_8   0.01   0.00   0.4   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs5_c02_j01_f_8   0.01   0.00   0.5   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs5_c02_j01_f_8   0.01   0.00   0.6   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs5_c02_j01_f_8   0.01   0.00   0.7   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs5_c02_j01_f_8   0.01   0.00   0.8   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs5_c02_j01_f_8   0.01   0.00   0.9   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs5_c02_j01_f_8   0.01   0.00   1.0   0.5   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs5_c06_j01_f_8   0.01   0.00   0.0   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs5_c06_j01_f_8   0.01   0.00   0.1   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs5_c06_j01_f_8   0.01   0.00   0.2   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs5_c06_j01_f_8   0.01   0.00   0.3   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs5_c06_j01_f_8   0.01   0.00   0.4   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs5_c06_j01_f_8   0.01   0.00   0.5   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs5_c06_j01_f_8   0.01   0.00   0.6   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs5_c06_j01_f_8   0.01   0.00   0.7   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs5_c06_j01_f_8   0.01   0.00   0.8   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs5_c06_j01_f_8   0.01   0.00   0.9   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs5_c06_j01_f_8   0.01   0.00   1.0   0.5   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.6, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs6_c02_j01_f_8   0.01   0.00   0.0   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs6_c02_j01_f_8   0.01   0.00   0.1   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs6_c02_j01_f_8   0.01   0.00   0.2   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs6_c02_j01_f_8   0.01   0.00   0.3   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs6_c02_j01_f_8   0.01   0.00   0.4   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs6_c02_j01_f_8   0.01   0.00   0.5   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs6_c02_j01_f_8   0.01   0.00   0.6   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs6_c02_j01_f_8   0.01   0.00   0.7   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs6_c02_j01_f_8   0.01   0.00   0.8   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs6_c02_j01_f_8   0.01   0.00   0.9   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs6_c02_j01_f_8   0.01   0.00   1.0   0.6   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs6_c06_j01_f_8   0.01   0.00   0.0   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs6_c06_j01_f_8   0.01   0.00   0.1   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs6_c06_j01_f_8   0.01   0.00   0.2   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs6_c06_j01_f_8   0.01   0.00   0.3   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs6_c06_j01_f_8   0.01   0.00   0.4   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs6_c06_j01_f_8   0.01   0.00   0.5   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs6_c06_j01_f_8   0.01   0.00   0.6   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs6_c06_j01_f_8   0.01   0.00   0.7   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs6_c06_j01_f_8   0.01   0.00   0.8   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs6_c06_j01_f_8   0.01   0.00   0.9   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs6_c06_j01_f_8   0.01   0.00   1.0   0.6   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.7, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs7_c02_j01_f_8   0.01   0.00   0.0   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs7_c02_j01_f_8   0.01   0.00   0.1   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs7_c02_j01_f_8   0.01   0.00   0.2   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs7_c02_j01_f_8   0.01   0.00   0.3   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs7_c02_j01_f_8   0.01   0.00   0.4   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs7_c02_j01_f_8   0.01   0.00   0.5   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs7_c02_j01_f_8   0.01   0.00   0.6   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs7_c02_j01_f_8   0.01   0.00   0.7   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs7_c02_j01_f_8   0.01   0.00   0.8   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs7_c02_j01_f_8   0.01   0.00   0.9   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs7_c02_j01_f_8   0.01   0.00   1.0   0.7   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs7_c06_j01_f_8   0.01   0.00   0.0   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs7_c06_j01_f_8   0.01   0.00   0.1   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs7_c06_j01_f_8   0.01   0.00   0.2   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs7_c06_j01_f_8   0.01   0.00   0.3   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs7_c06_j01_f_8   0.01   0.00   0.4   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs7_c06_j01_f_8   0.01   0.00   0.5   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs7_c06_j01_f_8   0.01   0.00   0.6   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs7_c06_j01_f_8   0.01   0.00   0.7   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs7_c06_j01_f_8   0.01   0.00   0.8   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs7_c06_j01_f_8   0.01   0.00   0.9   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs7_c06_j01_f_8   0.01   0.00   1.0   0.7   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.8, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs8_c02_j01_f_8   0.01   0.00   0.0   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs8_c02_j01_f_8   0.01   0.00   0.1   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs8_c02_j01_f_8   0.01   0.00   0.2   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs8_c02_j01_f_8   0.01   0.00   0.3   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs8_c02_j01_f_8   0.01   0.00   0.4   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs8_c02_j01_f_8   0.01   0.00   0.5   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs8_c02_j01_f_8   0.01   0.00   0.6   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs8_c02_j01_f_8   0.01   0.00   0.7   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs8_c02_j01_f_8   0.01   0.00   0.8   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs8_c02_j01_f_8   0.01   0.00   0.9   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs8_c02_j01_f_8   0.01   0.00   1.0   0.8   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs8_c06_j01_f_8   0.01   0.00   0.0   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs8_c06_j01_f_8   0.01   0.00   0.1   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs8_c06_j01_f_8   0.01   0.00   0.2   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs8_c06_j01_f_8   0.01   0.00   0.3   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs8_c06_j01_f_8   0.01   0.00   0.4   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs8_c06_j01_f_8   0.01   0.00   0.5   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs8_c06_j01_f_8   0.01   0.00   0.6   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs8_c06_j01_f_8   0.01   0.00   0.7   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs8_c06_j01_f_8   0.01   0.00   0.8   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs8_c06_j01_f_8   0.01   0.00   0.9   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs8_c06_j01_f_8   0.01   0.00   1.0   0.8   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.9, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs9_c02_j01_f_8   0.01   0.00   0.0   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs9_c02_j01_f_8   0.01   0.00   0.1   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs9_c02_j01_f_8   0.01   0.00   0.2   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs9_c02_j01_f_8   0.01   0.00   0.3   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs9_c02_j01_f_8   0.01   0.00   0.4   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs9_c02_j01_f_8   0.01   0.00   0.5   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs9_c02_j01_f_8   0.01   0.00   0.6   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs9_c02_j01_f_8   0.01   0.00   0.7   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs9_c02_j01_f_8   0.01   0.00   0.8   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs9_c02_j01_f_8   0.01   0.00   0.9   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs9_c02_j01_f_8   0.01   0.00   1.0   0.9   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs9_c06_j01_f_8   0.01   0.00   0.0   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs9_c06_j01_f_8   0.01   0.00   0.1   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs9_c06_j01_f_8   0.01   0.00   0.2   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs9_c06_j01_f_8   0.01   0.00   0.3   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs9_c06_j01_f_8   0.01   0.00   0.4   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs9_c06_j01_f_8   0.01   0.00   0.5   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs9_c06_j01_f_8   0.01   0.00   0.6   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs9_c06_j01_f_8   0.01   0.00   0.7   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs9_c06_j01_f_8   0.01   0.00   0.8   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs9_c06_j01_f_8   0.01   0.00   0.9   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs9_c06_j01_f_8   0.01   0.00   1.0   0.9   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 1.0, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs10_c02_j01_f_8   0.01   0.00   0.0   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs10_c02_j01_f_8   0.01   0.00   0.1   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs10_c02_j01_f_8   0.01   0.00   0.2   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs10_c02_j01_f_8   0.01   0.00   0.3   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs10_c02_j01_f_8   0.01   0.00   0.4   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs10_c02_j01_f_8   0.01   0.00   0.5   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs10_c02_j01_f_8   0.01   0.00   0.6   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs10_c02_j01_f_8   0.01   0.00   0.7   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs10_c02_j01_f_8   0.01   0.00   0.8   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs10_c02_j01_f_8   0.01   0.00   0.9   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs10_c02_j01_f_8   0.01   0.00   1.0   1.0   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs10_c06_j01_f_8   0.01   0.00   0.0   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs10_c06_j01_f_8   0.01   0.00   0.1   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs10_c06_j01_f_8   0.01   0.00   0.2   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs10_c06_j01_f_8   0.01   0.00   0.3   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs10_c06_j01_f_8   0.01   0.00   0.4   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs10_c06_j01_f_8   0.01   0.00   0.5   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs10_c06_j01_f_8   0.01   0.00   0.6   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs10_c06_j01_f_8   0.01   0.00   0.7   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs10_c06_j01_f_8   0.01   0.00   0.8   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs10_c06_j01_f_8   0.01   0.00   0.9   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs10_c06_j01_f_8   0.01   0.00   1.0   1.0   3   0.1667  0.00    0.1
 
 
 # ________________________________________________________________________________________________________________
@@ -3738,167 +3738,167 @@
 
 # varying dispersal, bs = 0.0, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs0_c05_j01_f_8   0.01   0.00   0.0   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs0_c05_j01_f_8   0.01   0.00   0.1   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs0_c05_j01_f_8   0.01   0.00   0.2   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs0_c05_j01_f_8   0.01   0.00   0.3   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs0_c05_j01_f_8   0.01   0.00   0.4   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs0_c05_j01_f_8   0.01   0.00   0.5   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs0_c05_j01_f_8   0.01   0.00   0.6   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs0_c05_j01_f_8   0.01   0.00   0.7   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs0_c05_j01_f_8   0.01   0.00   0.8   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs0_c05_j01_f_8   0.01   0.00   0.9   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs0_c05_j01_f_8   0.01   0.00   1.0   0.0   3   0.125   0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs0_c08_j01_f_8   0.01   0.00   0.0   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs0_c08_j01_f_8   0.01   0.00   0.1   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs0_c08_j01_f_8   0.01   0.00   0.2   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs0_c08_j01_f_8   0.01   0.00   0.3   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs0_c08_j01_f_8   0.01   0.00   0.4   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs0_c08_j01_f_8   0.01   0.00   0.5   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs0_c08_j01_f_8   0.01   0.00   0.6   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs0_c08_j01_f_8   0.01   0.00   0.7   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs0_c08_j01_f_8   0.01   0.00   0.8   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs0_c08_j01_f_8   0.01   0.00   0.9   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs0_c08_j01_f_8   0.01   0.00   1.0   0.0   3   0.125   0.00    0.1 
 
 
 # varying dispersal, bs = 0.1, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs1_c05_j01_f_8   0.01   0.00   0.0   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs1_c05_j01_f_8   0.01   0.00   0.1   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs1_c05_j01_f_8   0.01   0.00   0.2   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs1_c05_j01_f_8   0.01   0.00   0.3   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs1_c05_j01_f_8   0.01   0.00   0.4   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs1_c05_j01_f_8   0.01   0.00   0.5   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs1_c05_j01_f_8   0.01   0.00   0.6   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs1_c05_j01_f_8   0.01   0.00   0.7   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs1_c05_j01_f_8   0.01   0.00   0.8   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs1_c05_j01_f_8   0.01   0.00   0.9   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs1_c05_j01_f_8   0.01   0.00   1.0   0.1   3   0.125   0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs1_c08_j01_f_8   0.01   0.00   0.0   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs1_c08_j01_f_8   0.01   0.00   0.1   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs1_c08_j01_f_8   0.01   0.00   0.2   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs1_c08_j01_f_8   0.01   0.00   0.3   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs1_c08_j01_f_8   0.01   0.00   0.4   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs1_c08_j01_f_8   0.01   0.00   0.5   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs1_c08_j01_f_8   0.01   0.00   0.6   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs1_c08_j01_f_8   0.01   0.00   0.7   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs1_c08_j01_f_8   0.01   0.00   0.8   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs1_c08_j01_f_8   0.01   0.00   0.9   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs1_c08_j01_f_8   0.01   0.00   1.0   0.1   3   0.125   0.00    0.1 
 
 
 # varying dispersal, bs = 0.2, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs2_c05_j01_f_8   0.01   0.00   0.0   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs2_c05_j01_f_8   0.01   0.00   0.1   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs2_c05_j01_f_8   0.01   0.00   0.2   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs2_c05_j01_f_8   0.01   0.00   0.3   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs2_c05_j01_f_8   0.01   0.00   0.4   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs2_c05_j01_f_8   0.01   0.00   0.5   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs2_c05_j01_f_8   0.01   0.00   0.6   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs2_c05_j01_f_8   0.01   0.00   0.7   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs2_c05_j01_f_8   0.01   0.00   0.8   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs2_c05_j01_f_8   0.01   0.00   0.9   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs2_c05_j01_f_8   0.01   0.00   1.0   0.2   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs2_c08_j01_f_8   0.01   0.00   0.0   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs2_c08_j01_f_8   0.01   0.00   0.1   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs2_c08_j01_f_8   0.01   0.00   0.2   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs2_c08_j01_f_8   0.01   0.00   0.3   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs2_c08_j01_f_8   0.01   0.00   0.4   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs2_c08_j01_f_8   0.01   0.00   0.5   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs2_c08_j01_f_8   0.01   0.00   0.6   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs2_c08_j01_f_8   0.01   0.00   0.7   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs2_c08_j01_f_8   0.01   0.00   0.8   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs2_c08_j01_f_8   0.01   0.00   0.9   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs2_c08_j01_f_8   0.01   0.00   1.0   0.2   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.3, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs3_c05_j01_f_8   0.01   0.00   0.0   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs3_c05_j01_f_8   0.01   0.00   0.1   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs3_c05_j01_f_8   0.01   0.00   0.2   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs3_c05_j01_f_8   0.01   0.00   0.3   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs3_c05_j01_f_8   0.01   0.00   0.4   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs3_c05_j01_f_8   0.01   0.00   0.5   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs3_c05_j01_f_8   0.01   0.00   0.6   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs3_c05_j01_f_8   0.01   0.00   0.7   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs3_c05_j01_f_8   0.01   0.00   0.8   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs3_c05_j01_f_8   0.01   0.00   0.9   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs3_c05_j01_f_8   0.01   0.00   1.0   0.3   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs3_c08_j01_f_8   0.01   0.00   0.0   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs3_c08_j01_f_8   0.01   0.00   0.1   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs3_c08_j01_f_8   0.01   0.00   0.2   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs3_c08_j01_f_8   0.01   0.00   0.3   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs3_c08_j01_f_8   0.01   0.00   0.4   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs3_c08_j01_f_8   0.01   0.00   0.5   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs3_c08_j01_f_8   0.01   0.00   0.6   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs3_c08_j01_f_8   0.01   0.00   0.7   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs3_c08_j01_f_8   0.01   0.00   0.8   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs3_c08_j01_f_8   0.01   0.00   0.9   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs3_c08_j01_f_8   0.01   0.00   1.0   0.3   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.4, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs4_c05_j01_f_8   0.01   0.00   0.0   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs4_c05_j01_f_8   0.01   0.00   0.1   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs4_c05_j01_f_8   0.01   0.00   0.2   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs4_c05_j01_f_8   0.01   0.00   0.3   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs4_c05_j01_f_8   0.01   0.00   0.4   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs4_c05_j01_f_8   0.01   0.00   0.5   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs4_c05_j01_f_8   0.01   0.00   0.6   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs4_c05_j01_f_8   0.01   0.00   0.7   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs4_c05_j01_f_8   0.01   0.00   0.8   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs4_c05_j01_f_8   0.01   0.00   0.9   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs4_c05_j01_f_8   0.01   0.00   1.0   0.4   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs4_c08_j01_f_8   0.01   0.00   0.0   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs4_c08_j01_f_8   0.01   0.00   0.1   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs4_c08_j01_f_8   0.01   0.00   0.2   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs4_c08_j01_f_8   0.01   0.00   0.3   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs4_c08_j01_f_8   0.01   0.00   0.4   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs4_c08_j01_f_8   0.01   0.00   0.5   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs4_c08_j01_f_8   0.01   0.00   0.6   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs4_c08_j01_f_8   0.01   0.00   0.7   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs4_c08_j01_f_8   0.01   0.00   0.8   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs4_c08_j01_f_8   0.01   0.00   0.9   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs4_c08_j01_f_8   0.01   0.00   1.0   0.4   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.5, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs5_c05_j01_f_8   0.01   0.00   0.0   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs5_c05_j01_f_8   0.01   0.00   0.1   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs5_c05_j01_f_8   0.01   0.00   0.2   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs5_c05_j01_f_8   0.01   0.00   0.3   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs5_c05_j01_f_8   0.01   0.00   0.4   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs5_c05_j01_f_8   0.01   0.00   0.5   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs5_c05_j01_f_8   0.01   0.00   0.6   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs5_c05_j01_f_8   0.01   0.00   0.7   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs5_c05_j01_f_8   0.01   0.00   0.8   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs5_c05_j01_f_8   0.01   0.00   0.9   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs5_c05_j01_f_8   0.01   0.00   1.0   0.5   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs5_c08_j01_f_8   0.01   0.00   0.0   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs5_c08_j01_f_8   0.01   0.00   0.1   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs5_c08_j01_f_8   0.01   0.00   0.2   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs5_c08_j01_f_8   0.01   0.00   0.3   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs5_c08_j01_f_8   0.01   0.00   0.4   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs5_c08_j01_f_8   0.01   0.00   0.5   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs5_c08_j01_f_8   0.01   0.00   0.6   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs5_c08_j01_f_8   0.01   0.00   0.7   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs5_c08_j01_f_8   0.01   0.00   0.8   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs5_c08_j01_f_8   0.01   0.00   0.9   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs5_c08_j01_f_8   0.01   0.00   1.0   0.5   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.6, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs6_c05_j01_f_8   0.01   0.00   0.0   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs6_c05_j01_f_8   0.01   0.00   0.1   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs6_c05_j01_f_8   0.01   0.00   0.2   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs6_c05_j01_f_8   0.01   0.00   0.3   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs6_c05_j01_f_8   0.01   0.00   0.4   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs6_c05_j01_f_8   0.01   0.00   0.5   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs6_c05_j01_f_8   0.01   0.00   0.6   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs6_c05_j01_f_8   0.01   0.00   0.7   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs6_c05_j01_f_8   0.01   0.00   0.8   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs6_c05_j01_f_8   0.01   0.00   0.9   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs6_c05_j01_f_8   0.01   0.00   1.0   0.6   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs6_c08_j01_f_8   0.01   0.00   0.0   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs6_c08_j01_f_8   0.01   0.00   0.1   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs6_c08_j01_f_8   0.01   0.00   0.2   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs6_c08_j01_f_8   0.01   0.00   0.3   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs6_c08_j01_f_8   0.01   0.00   0.4   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs6_c08_j01_f_8   0.01   0.00   0.5   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs6_c08_j01_f_8   0.01   0.00   0.6   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs6_c08_j01_f_8   0.01   0.00   0.7   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs6_c08_j01_f_8   0.01   0.00   0.8   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs6_c08_j01_f_8   0.01   0.00   0.9   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs6_c08_j01_f_8   0.01   0.00   1.0   0.6   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.7, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs7_c05_j01_f_8   0.01   0.00   0.0   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs7_c05_j01_f_8   0.01   0.00   0.1   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs7_c05_j01_f_8   0.01   0.00   0.2   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs7_c05_j01_f_8   0.01   0.00   0.3   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs7_c05_j01_f_8   0.01   0.00   0.4   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs7_c05_j01_f_8   0.01   0.00   0.5   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs7_c05_j01_f_8   0.01   0.00   0.6   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs7_c05_j01_f_8   0.01   0.00   0.7   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs7_c05_j01_f_8   0.01   0.00   0.8   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs7_c05_j01_f_8   0.01   0.00   0.9   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs7_c05_j01_f_8   0.01   0.00   1.0   0.7   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs7_c08_j01_f_8   0.01   0.00   0.0   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs7_c08_j01_f_8   0.01   0.00   0.1   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs7_c08_j01_f_8   0.01   0.00   0.2   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs7_c08_j01_f_8   0.01   0.00   0.3   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs7_c08_j01_f_8   0.01   0.00   0.4   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs7_c08_j01_f_8   0.01   0.00   0.5   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs7_c08_j01_f_8   0.01   0.00   0.6   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs7_c08_j01_f_8   0.01   0.00   0.7   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs7_c08_j01_f_8   0.01   0.00   0.8   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs7_c08_j01_f_8   0.01   0.00   0.9   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs7_c08_j01_f_8   0.01   0.00   1.0   0.7   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.8, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs8_c05_j01_f_8   0.01   0.00   0.0   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs8_c05_j01_f_8   0.01   0.00   0.1   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs8_c05_j01_f_8   0.01   0.00   0.2   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs8_c05_j01_f_8   0.01   0.00   0.3   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs8_c05_j01_f_8   0.01   0.00   0.4   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs8_c05_j01_f_8   0.01   0.00   0.5   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs8_c05_j01_f_8   0.01   0.00   0.6   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs8_c05_j01_f_8   0.01   0.00   0.7   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs8_c05_j01_f_8   0.01   0.00   0.8   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs8_c05_j01_f_8   0.01   0.00   0.9   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs8_c05_j01_f_8   0.01   0.00   1.0   0.8   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs8_c08_j01_f_8   0.01   0.00   0.0   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs8_c08_j01_f_8   0.01   0.00   0.1   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs8_c08_j01_f_8   0.01   0.00   0.2   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs8_c08_j01_f_8   0.01   0.00   0.3   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs8_c08_j01_f_8   0.01   0.00   0.4   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs8_c08_j01_f_8   0.01   0.00   0.5   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs8_c08_j01_f_8   0.01   0.00   0.6   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs8_c08_j01_f_8   0.01   0.00   0.7   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs8_c08_j01_f_8   0.01   0.00   0.8   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs8_c08_j01_f_8   0.01   0.00   0.9   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs8_c08_j01_f_8   0.01   0.00   1.0   0.8   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.9, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs9_c05_j01_f_8   0.01   0.00   0.0   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs9_c05_j01_f_8   0.01   0.00   0.1   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs9_c05_j01_f_8   0.01   0.00   0.2   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs9_c05_j01_f_8   0.01   0.00   0.3   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs9_c05_j01_f_8   0.01   0.00   0.4   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs9_c05_j01_f_8   0.01   0.00   0.5   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs9_c05_j01_f_8   0.01   0.00   0.6   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs9_c05_j01_f_8   0.01   0.00   0.7   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs9_c05_j01_f_8   0.01   0.00   0.8   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs9_c05_j01_f_8   0.01   0.00   0.9   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs9_c05_j01_f_8   0.01   0.00   1.0   0.9   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs9_c08_j01_f_8   0.01   0.00   0.0   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs9_c08_j01_f_8   0.01   0.00   0.1   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs9_c08_j01_f_8   0.01   0.00   0.2   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs9_c08_j01_f_8   0.01   0.00   0.3   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs9_c08_j01_f_8   0.01   0.00   0.4   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs9_c08_j01_f_8   0.01   0.00   0.5   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs9_c08_j01_f_8   0.01   0.00   0.6   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs9_c08_j01_f_8   0.01   0.00   0.7   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs9_c08_j01_f_8   0.01   0.00   0.8   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs9_c08_j01_f_8   0.01   0.00   0.9   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs9_c08_j01_f_8   0.01   0.00   1.0   0.9   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 1.0, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs10_c05_j01_f_8   0.01   0.00   0.0   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs10_c05_j01_f_8   0.01   0.00   0.1   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs10_c05_j01_f_8   0.01   0.00   0.2   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs10_c05_j01_f_8   0.01   0.00   0.3   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs10_c05_j01_f_8   0.01   0.00   0.4   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs10_c05_j01_f_8   0.01   0.00   0.5   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs10_c05_j01_f_8   0.01   0.00   0.6   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs10_c05_j01_f_8   0.01   0.00   0.7   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs10_c05_j01_f_8   0.01   0.00   0.8   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs10_c05_j01_f_8   0.01   0.00   0.9   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs10_c05_j01_f_8   0.01   0.00   1.0   1.0   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs10_c08_j01_f_8   0.01   0.00   0.0   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs10_c08_j01_f_8   0.01   0.00   0.1   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs10_c08_j01_f_8   0.01   0.00   0.2   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs10_c08_j01_f_8   0.01   0.00   0.3   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs10_c08_j01_f_8   0.01   0.00   0.4   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs10_c08_j01_f_8   0.01   0.00   0.5   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs10_c08_j01_f_8   0.01   0.00   0.6   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs10_c08_j01_f_8   0.01   0.00   0.7   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs10_c08_j01_f_8   0.01   0.00   0.8   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs10_c08_j01_f_8   0.01   0.00   0.9   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs10_c08_j01_f_8   0.01   0.00   1.0   1.0   3   0.125   0.00    0.1
 
 
 # ________________________________________________________________________________________________________________
@@ -3906,167 +3906,167 @@
 
 # varying dispersal, bs = 0.0, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs0_c20_j01_f_8   0.01   0.00   0.0   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs0_c20_j01_f_8   0.01   0.00   0.1   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs0_c20_j01_f_8   0.01   0.00   0.2   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs0_c20_j01_f_8   0.01   0.00   0.3   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs0_c20_j01_f_8   0.01   0.00   0.4   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs0_c20_j01_f_8   0.01   0.00   0.5   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs0_c20_j01_f_8   0.01   0.00   0.6   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs0_c20_j01_f_8   0.01   0.00   0.7   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs0_c20_j01_f_8   0.01   0.00   0.8   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs0_c20_j01_f_8   0.01   0.00   0.9   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs0_c20_j01_f_8   0.01   0.00   1.0   0.0   3   0.10    0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs0_c10_j01_f_8   0.01   0.00   0.0   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs0_c10_j01_f_8   0.01   0.00   0.1   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs0_c10_j01_f_8   0.01   0.00   0.2   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs0_c10_j01_f_8   0.01   0.00   0.3   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs0_c10_j01_f_8   0.01   0.00   0.4   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs0_c10_j01_f_8   0.01   0.00   0.5   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs0_c10_j01_f_8   0.01   0.00   0.6   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs0_c10_j01_f_8   0.01   0.00   0.7   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs0_c10_j01_f_8   0.01   0.00   0.8   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs0_c10_j01_f_8   0.01   0.00   0.9   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs0_c10_j01_f_8   0.01   0.00   1.0   0.0   3   0.10    0.00    0.1 
 
 
 # varying dispersal, bs = 0.1, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs1_c20_j01_f_8   0.01   0.00   0.0   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs1_c20_j01_f_8   0.01   0.00   0.1   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs1_c20_j01_f_8   0.01   0.00   0.2   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs1_c20_j01_f_8   0.01   0.00   0.3   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs1_c20_j01_f_8   0.01   0.00   0.4   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs1_c20_j01_f_8   0.01   0.00   0.5   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs1_c20_j01_f_8   0.01   0.00   0.6   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs1_c20_j01_f_8   0.01   0.00   0.7   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs1_c20_j01_f_8   0.01   0.00   0.8   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs1_c20_j01_f_8   0.01   0.00   0.9   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs1_c20_j01_f_8   0.01   0.00   1.0   0.1   3   0.10    0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs1_c10_j01_f_8   0.01   0.00   0.0   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs1_c10_j01_f_8   0.01   0.00   0.1   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs1_c10_j01_f_8   0.01   0.00   0.2   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs1_c10_j01_f_8   0.01   0.00   0.3   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs1_c10_j01_f_8   0.01   0.00   0.4   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs1_c10_j01_f_8   0.01   0.00   0.5   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs1_c10_j01_f_8   0.01   0.00   0.6   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs1_c10_j01_f_8   0.01   0.00   0.7   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs1_c10_j01_f_8   0.01   0.00   0.8   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs1_c10_j01_f_8   0.01   0.00   0.9   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs1_c10_j01_f_8   0.01   0.00   1.0   0.1   3   0.10    0.00    0.1 
 
 
 # varying dispersal, bs = 0.2, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs2_c20_j01_f_8   0.01   0.00   0.0   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs2_c20_j01_f_8   0.01   0.00   0.1   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs2_c20_j01_f_8   0.01   0.00   0.2   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs2_c20_j01_f_8   0.01   0.00   0.3   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs2_c20_j01_f_8   0.01   0.00   0.4   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs2_c20_j01_f_8   0.01   0.00   0.5   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs2_c20_j01_f_8   0.01   0.00   0.6   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs2_c20_j01_f_8   0.01   0.00   0.7   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs2_c20_j01_f_8   0.01   0.00   0.8   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs2_c20_j01_f_8   0.01   0.00   0.9   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs2_c20_j01_f_8   0.01   0.00   1.0   0.2   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs2_c10_j01_f_8   0.01   0.00   0.0   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs2_c10_j01_f_8   0.01   0.00   0.1   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs2_c10_j01_f_8   0.01   0.00   0.2   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs2_c10_j01_f_8   0.01   0.00   0.3   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs2_c10_j01_f_8   0.01   0.00   0.4   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs2_c10_j01_f_8   0.01   0.00   0.5   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs2_c10_j01_f_8   0.01   0.00   0.6   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs2_c10_j01_f_8   0.01   0.00   0.7   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs2_c10_j01_f_8   0.01   0.00   0.8   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs2_c10_j01_f_8   0.01   0.00   0.9   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs2_c10_j01_f_8   0.01   0.00   1.0   0.2   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.3, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs3_c20_j01_f_8   0.01   0.00   0.0   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs3_c20_j01_f_8   0.01   0.00   0.1   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs3_c20_j01_f_8   0.01   0.00   0.2   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs3_c20_j01_f_8   0.01   0.00   0.3   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs3_c20_j01_f_8   0.01   0.00   0.4   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs3_c20_j01_f_8   0.01   0.00   0.5   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs3_c20_j01_f_8   0.01   0.00   0.6   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs3_c20_j01_f_8   0.01   0.00   0.7   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs3_c20_j01_f_8   0.01   0.00   0.8   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs3_c20_j01_f_8   0.01   0.00   0.9   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs3_c20_j01_f_8   0.01   0.00   1.0   0.3   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs3_c10_j01_f_8   0.01   0.00   0.0   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs3_c10_j01_f_8   0.01   0.00   0.1   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs3_c10_j01_f_8   0.01   0.00   0.2   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs3_c10_j01_f_8   0.01   0.00   0.3   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs3_c10_j01_f_8   0.01   0.00   0.4   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs3_c10_j01_f_8   0.01   0.00   0.5   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs3_c10_j01_f_8   0.01   0.00   0.6   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs3_c10_j01_f_8   0.01   0.00   0.7   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs3_c10_j01_f_8   0.01   0.00   0.8   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs3_c10_j01_f_8   0.01   0.00   0.9   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs3_c10_j01_f_8   0.01   0.00   1.0   0.3   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.4, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs4_c20_j01_f_8   0.01   0.00   0.0   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs4_c20_j01_f_8   0.01   0.00   0.1   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs4_c20_j01_f_8   0.01   0.00   0.2   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs4_c20_j01_f_8   0.01   0.00   0.3   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs4_c20_j01_f_8   0.01   0.00   0.4   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs4_c20_j01_f_8   0.01   0.00   0.5   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs4_c20_j01_f_8   0.01   0.00   0.6   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs4_c20_j01_f_8   0.01   0.00   0.7   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs4_c20_j01_f_8   0.01   0.00   0.8   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs4_c20_j01_f_8   0.01   0.00   0.9   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs4_c20_j01_f_8   0.01   0.00   1.0   0.4   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs4_c10_j01_f_8   0.01   0.00   0.0   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs4_c10_j01_f_8   0.01   0.00   0.1   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs4_c10_j01_f_8   0.01   0.00   0.2   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs4_c10_j01_f_8   0.01   0.00   0.3   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs4_c10_j01_f_8   0.01   0.00   0.4   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs4_c10_j01_f_8   0.01   0.00   0.5   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs4_c10_j01_f_8   0.01   0.00   0.6   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs4_c10_j01_f_8   0.01   0.00   0.7   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs4_c10_j01_f_8   0.01   0.00   0.8   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs4_c10_j01_f_8   0.01   0.00   0.9   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs4_c10_j01_f_8   0.01   0.00   1.0   0.4   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.5, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs5_c20_j01_f_8   0.01   0.00   0.0   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs5_c20_j01_f_8   0.01   0.00   0.1   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs5_c20_j01_f_8   0.01   0.00   0.2   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs5_c20_j01_f_8   0.01   0.00   0.3   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs5_c20_j01_f_8   0.01   0.00   0.4   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs5_c20_j01_f_8   0.01   0.00   0.5   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs5_c20_j01_f_8   0.01   0.00   0.6   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs5_c20_j01_f_8   0.01   0.00   0.7   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs5_c20_j01_f_8   0.01   0.00   0.8   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs5_c20_j01_f_8   0.01   0.00   0.9   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs5_c20_j01_f_8   0.01   0.00   1.0   0.5   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs5_c10_j01_f_8   0.01   0.00   0.0   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs5_c10_j01_f_8   0.01   0.00   0.1   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs5_c10_j01_f_8   0.01   0.00   0.2   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs5_c10_j01_f_8   0.01   0.00   0.3   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs5_c10_j01_f_8   0.01   0.00   0.4   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs5_c10_j01_f_8   0.01   0.00   0.5   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs5_c10_j01_f_8   0.01   0.00   0.6   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs5_c10_j01_f_8   0.01   0.00   0.7   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs5_c10_j01_f_8   0.01   0.00   0.8   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs5_c10_j01_f_8   0.01   0.00   0.9   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs5_c10_j01_f_8   0.01   0.00   1.0   0.5   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.6, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs6_c20_j01_f_8   0.01   0.00   0.0   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs6_c20_j01_f_8   0.01   0.00   0.1   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs6_c20_j01_f_8   0.01   0.00   0.2   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs6_c20_j01_f_8   0.01   0.00   0.3   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs6_c20_j01_f_8   0.01   0.00   0.4   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs6_c20_j01_f_8   0.01   0.00   0.5   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs6_c20_j01_f_8   0.01   0.00   0.6   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs6_c20_j01_f_8   0.01   0.00   0.7   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs6_c20_j01_f_8   0.01   0.00   0.8   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs6_c20_j01_f_8   0.01   0.00   0.9   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs6_c20_j01_f_8   0.01   0.00   1.0   0.6   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs6_c10_j01_f_8   0.01   0.00   0.0   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs6_c10_j01_f_8   0.01   0.00   0.1   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs6_c10_j01_f_8   0.01   0.00   0.2   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs6_c10_j01_f_8   0.01   0.00   0.3   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs6_c10_j01_f_8   0.01   0.00   0.4   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs6_c10_j01_f_8   0.01   0.00   0.5   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs6_c10_j01_f_8   0.01   0.00   0.6   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs6_c10_j01_f_8   0.01   0.00   0.7   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs6_c10_j01_f_8   0.01   0.00   0.8   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs6_c10_j01_f_8   0.01   0.00   0.9   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs6_c10_j01_f_8   0.01   0.00   1.0   0.6   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.7, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs7_c20_j01_f_8   0.01   0.00   0.0   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs7_c20_j01_f_8   0.01   0.00   0.1   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs7_c20_j01_f_8   0.01   0.00   0.2   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs7_c20_j01_f_8   0.01   0.00   0.3   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs7_c20_j01_f_8   0.01   0.00   0.4   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs7_c20_j01_f_8   0.01   0.00   0.5   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs7_c20_j01_f_8   0.01   0.00   0.6   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs7_c20_j01_f_8   0.01   0.00   0.7   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs7_c20_j01_f_8   0.01   0.00   0.8   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs7_c20_j01_f_8   0.01   0.00   0.9   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs7_c20_j01_f_8   0.01   0.00   1.0   0.7   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs7_c10_j01_f_8   0.01   0.00   0.0   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs7_c10_j01_f_8   0.01   0.00   0.1   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs7_c10_j01_f_8   0.01   0.00   0.2   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs7_c10_j01_f_8   0.01   0.00   0.3   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs7_c10_j01_f_8   0.01   0.00   0.4   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs7_c10_j01_f_8   0.01   0.00   0.5   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs7_c10_j01_f_8   0.01   0.00   0.6   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs7_c10_j01_f_8   0.01   0.00   0.7   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs7_c10_j01_f_8   0.01   0.00   0.8   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs7_c10_j01_f_8   0.01   0.00   0.9   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs7_c10_j01_f_8   0.01   0.00   1.0   0.7   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.8, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs8_c20_j01_f_8   0.01   0.00   0.0   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs8_c20_j01_f_8   0.01   0.00   0.1   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs8_c20_j01_f_8   0.01   0.00   0.2   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs8_c20_j01_f_8   0.01   0.00   0.3   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs8_c20_j01_f_8   0.01   0.00   0.4   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs8_c20_j01_f_8   0.01   0.00   0.5   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs8_c20_j01_f_8   0.01   0.00   0.6   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs8_c20_j01_f_8   0.01   0.00   0.7   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs8_c20_j01_f_8   0.01   0.00   0.8   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs8_c20_j01_f_8   0.01   0.00   0.9   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs8_c20_j01_f_8   0.01   0.00   1.0   0.8   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs8_c10_j01_f_8   0.01   0.00   0.0   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs8_c10_j01_f_8   0.01   0.00   0.1   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs8_c10_j01_f_8   0.01   0.00   0.2   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs8_c10_j01_f_8   0.01   0.00   0.3   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs8_c10_j01_f_8   0.01   0.00   0.4   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs8_c10_j01_f_8   0.01   0.00   0.5   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs8_c10_j01_f_8   0.01   0.00   0.6   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs8_c10_j01_f_8   0.01   0.00   0.7   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs8_c10_j01_f_8   0.01   0.00   0.8   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs8_c10_j01_f_8   0.01   0.00   0.9   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs8_c10_j01_f_8   0.01   0.00   1.0   0.8   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.9, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs9_c20_j01_f_8   0.01   0.00   0.0   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs9_c20_j01_f_8   0.01   0.00   0.1   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs9_c20_j01_f_8   0.01   0.00   0.2   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs9_c20_j01_f_8   0.01   0.00   0.3   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs9_c20_j01_f_8   0.01   0.00   0.4   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs9_c20_j01_f_8   0.01   0.00   0.5   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs9_c20_j01_f_8   0.01   0.00   0.6   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs9_c20_j01_f_8   0.01   0.00   0.7   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs9_c20_j01_f_8   0.01   0.00   0.8   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs9_c20_j01_f_8   0.01   0.00   0.9   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs9_c20_j01_f_8   0.01   0.00   1.0   0.9   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs9_c10_j01_f_8   0.01   0.00   0.0   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs9_c10_j01_f_8   0.01   0.00   0.1   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs9_c10_j01_f_8   0.01   0.00   0.2   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs9_c10_j01_f_8   0.01   0.00   0.3   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs9_c10_j01_f_8   0.01   0.00   0.4   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs9_c10_j01_f_8   0.01   0.00   0.5   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs9_c10_j01_f_8   0.01   0.00   0.6   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs9_c10_j01_f_8   0.01   0.00   0.7   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs9_c10_j01_f_8   0.01   0.00   0.8   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs9_c10_j01_f_8   0.01   0.00   0.9   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs9_c10_j01_f_8   0.01   0.00   1.0   0.9   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 1.0, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs10_c20_j01_f_8   0.01   0.00   0.0   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs10_c20_j01_f_8   0.01   0.00   0.1   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs10_c20_j01_f_8   0.01   0.00   0.2   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs10_c20_j01_f_8   0.01   0.00   0.3   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs10_c20_j01_f_8   0.01   0.00   0.4   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs10_c20_j01_f_8   0.01   0.00   0.5   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs10_c20_j01_f_8   0.01   0.00   0.6   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs10_c20_j01_f_8   0.01   0.00   0.7   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs10_c20_j01_f_8   0.01   0.00   0.8   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs10_c20_j01_f_8   0.01   0.00   0.9   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs10_c20_j01_f_8   0.01   0.00   1.0   1.0   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs10_c10_j01_f_8   0.01   0.00   0.0   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs10_c10_j01_f_8   0.01   0.00   0.1   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs10_c10_j01_f_8   0.01   0.00   0.2   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs10_c10_j01_f_8   0.01   0.00   0.3   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs10_c10_j01_f_8   0.01   0.00   0.4   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs10_c10_j01_f_8   0.01   0.00   0.5   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs10_c10_j01_f_8   0.01   0.00   0.6   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs10_c10_j01_f_8   0.01   0.00   0.7   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs10_c10_j01_f_8   0.01   0.00   0.8   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs10_c10_j01_f_8   0.01   0.00   0.9   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs10_c10_j01_f_8   0.01   0.00   1.0   1.0   3   0.10    0.00    0.1
 
 
 
@@ -4078,167 +4078,167 @@
 
 # varying dispersal, bs = 0.0, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs0_c02_j01_f_9   0.01   0.00   0.0   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs0_c02_j01_f_9   0.01   0.00   0.1   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs0_c02_j01_f_9   0.01   0.00   0.2   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs0_c02_j01_f_9   0.01   0.00   0.3   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs0_c02_j01_f_9   0.01   0.00   0.4   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs0_c02_j01_f_9   0.01   0.00   0.5   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs0_c02_j01_f_9   0.01   0.00   0.6   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs0_c02_j01_f_9   0.01   0.00   0.7   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs0_c02_j01_f_9   0.01   0.00   0.8   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs0_c02_j01_f_9   0.01   0.00   0.9   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs0_c02_j01_f_9   0.01   0.00   1.0   0.0   3   0.1667  0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs0_c06_j01_f_9   0.01   0.00   0.0   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs0_c06_j01_f_9   0.01   0.00   0.1   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs0_c06_j01_f_9   0.01   0.00   0.2   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs0_c06_j01_f_9   0.01   0.00   0.3   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs0_c06_j01_f_9   0.01   0.00   0.4   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs0_c06_j01_f_9   0.01   0.00   0.5   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs0_c06_j01_f_9   0.01   0.00   0.6   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs0_c06_j01_f_9   0.01   0.00   0.7   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs0_c06_j01_f_9   0.01   0.00   0.8   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs0_c06_j01_f_9   0.01   0.00   0.9   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs0_c06_j01_f_9   0.01   0.00   1.0   0.0   3   0.1667  0.00    0.1 
 
 
 # varying dispersal, bs = 0.1, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs1_c02_j01_f_9   0.01   0.00   0.0   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs1_c02_j01_f_9   0.01   0.00   0.1   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs1_c02_j01_f_9   0.01   0.00   0.2   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs1_c02_j01_f_9   0.01   0.00   0.3   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs1_c02_j01_f_9   0.01   0.00   0.4   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs1_c02_j01_f_9   0.01   0.00   0.5   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs1_c02_j01_f_9   0.01   0.00   0.6   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs1_c02_j01_f_9   0.01   0.00   0.7   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs1_c02_j01_f_9   0.01   0.00   0.8   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs1_c02_j01_f_9   0.01   0.00   0.9   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs1_c02_j01_f_9   0.01   0.00   1.0   0.1   3   0.1667  0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs1_c06_j01_f_9   0.01   0.00   0.0   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs1_c06_j01_f_9   0.01   0.00   0.1   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs1_c06_j01_f_9   0.01   0.00   0.2   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs1_c06_j01_f_9   0.01   0.00   0.3   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs1_c06_j01_f_9   0.01   0.00   0.4   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs1_c06_j01_f_9   0.01   0.00   0.5   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs1_c06_j01_f_9   0.01   0.00   0.6   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs1_c06_j01_f_9   0.01   0.00   0.7   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs1_c06_j01_f_9   0.01   0.00   0.8   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs1_c06_j01_f_9   0.01   0.00   0.9   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs1_c06_j01_f_9   0.01   0.00   1.0   0.1   3   0.1667  0.00    0.1 
 
 
 # varying dispersal, bs = 0.2, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs2_c02_j01_f_9   0.01   0.00   0.0   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs2_c02_j01_f_9   0.01   0.00   0.1   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs2_c02_j01_f_9   0.01   0.00   0.2   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs2_c02_j01_f_9   0.01   0.00   0.3   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs2_c02_j01_f_9   0.01   0.00   0.4   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs2_c02_j01_f_9   0.01   0.00   0.5   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs2_c02_j01_f_9   0.01   0.00   0.6   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs2_c02_j01_f_9   0.01   0.00   0.7   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs2_c02_j01_f_9   0.01   0.00   0.8   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs2_c02_j01_f_9   0.01   0.00   0.9   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs2_c02_j01_f_9   0.01   0.00   1.0   0.2   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs2_c06_j01_f_9   0.01   0.00   0.0   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs2_c06_j01_f_9   0.01   0.00   0.1   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs2_c06_j01_f_9   0.01   0.00   0.2   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs2_c06_j01_f_9   0.01   0.00   0.3   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs2_c06_j01_f_9   0.01   0.00   0.4   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs2_c06_j01_f_9   0.01   0.00   0.5   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs2_c06_j01_f_9   0.01   0.00   0.6   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs2_c06_j01_f_9   0.01   0.00   0.7   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs2_c06_j01_f_9   0.01   0.00   0.8   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs2_c06_j01_f_9   0.01   0.00   0.9   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs2_c06_j01_f_9   0.01   0.00   1.0   0.2   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.3, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs3_c02_j01_f_9   0.01   0.00   0.0   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs3_c02_j01_f_9   0.01   0.00   0.1   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs3_c02_j01_f_9   0.01   0.00   0.2   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs3_c02_j01_f_9   0.01   0.00   0.3   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs3_c02_j01_f_9   0.01   0.00   0.4   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs3_c02_j01_f_9   0.01   0.00   0.5   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs3_c02_j01_f_9   0.01   0.00   0.6   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs3_c02_j01_f_9   0.01   0.00   0.7   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs3_c02_j01_f_9   0.01   0.00   0.8   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs3_c02_j01_f_9   0.01   0.00   0.9   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs3_c02_j01_f_9   0.01   0.00   1.0   0.3   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs3_c06_j01_f_9   0.01   0.00   0.0   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs3_c06_j01_f_9   0.01   0.00   0.1   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs3_c06_j01_f_9   0.01   0.00   0.2   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs3_c06_j01_f_9   0.01   0.00   0.3   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs3_c06_j01_f_9   0.01   0.00   0.4   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs3_c06_j01_f_9   0.01   0.00   0.5   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs3_c06_j01_f_9   0.01   0.00   0.6   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs3_c06_j01_f_9   0.01   0.00   0.7   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs3_c06_j01_f_9   0.01   0.00   0.8   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs3_c06_j01_f_9   0.01   0.00   0.9   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs3_c06_j01_f_9   0.01   0.00   1.0   0.3   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.4, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs4_c02_j01_f_9   0.01   0.00   0.0   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs4_c02_j01_f_9   0.01   0.00   0.1   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs4_c02_j01_f_9   0.01   0.00   0.2   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs4_c02_j01_f_9   0.01   0.00   0.3   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs4_c02_j01_f_9   0.01   0.00   0.4   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs4_c02_j01_f_9   0.01   0.00   0.5   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs4_c02_j01_f_9   0.01   0.00   0.6   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs4_c02_j01_f_9   0.01   0.00   0.7   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs4_c02_j01_f_9   0.01   0.00   0.8   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs4_c02_j01_f_9   0.01   0.00   0.9   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs4_c02_j01_f_9   0.01   0.00   1.0   0.4   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs4_c06_j01_f_9   0.01   0.00   0.0   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs4_c06_j01_f_9   0.01   0.00   0.1   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs4_c06_j01_f_9   0.01   0.00   0.2   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs4_c06_j01_f_9   0.01   0.00   0.3   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs4_c06_j01_f_9   0.01   0.00   0.4   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs4_c06_j01_f_9   0.01   0.00   0.5   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs4_c06_j01_f_9   0.01   0.00   0.6   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs4_c06_j01_f_9   0.01   0.00   0.7   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs4_c06_j01_f_9   0.01   0.00   0.8   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs4_c06_j01_f_9   0.01   0.00   0.9   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs4_c06_j01_f_9   0.01   0.00   1.0   0.4   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.5, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs5_c02_j01_f_9   0.01   0.00   0.0   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs5_c02_j01_f_9   0.01   0.00   0.1   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs5_c02_j01_f_9   0.01   0.00   0.2   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs5_c02_j01_f_9   0.01   0.00   0.3   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs5_c02_j01_f_9   0.01   0.00   0.4   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs5_c02_j01_f_9   0.01   0.00   0.5   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs5_c02_j01_f_9   0.01   0.00   0.6   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs5_c02_j01_f_9   0.01   0.00   0.7   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs5_c02_j01_f_9   0.01   0.00   0.8   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs5_c02_j01_f_9   0.01   0.00   0.9   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs5_c02_j01_f_9   0.01   0.00   1.0   0.5   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs5_c06_j01_f_9   0.01   0.00   0.0   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs5_c06_j01_f_9   0.01   0.00   0.1   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs5_c06_j01_f_9   0.01   0.00   0.2   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs5_c06_j01_f_9   0.01   0.00   0.3   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs5_c06_j01_f_9   0.01   0.00   0.4   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs5_c06_j01_f_9   0.01   0.00   0.5   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs5_c06_j01_f_9   0.01   0.00   0.6   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs5_c06_j01_f_9   0.01   0.00   0.7   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs5_c06_j01_f_9   0.01   0.00   0.8   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs5_c06_j01_f_9   0.01   0.00   0.9   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs5_c06_j01_f_9   0.01   0.00   1.0   0.5   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.6, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs6_c02_j01_f_9   0.01   0.00   0.0   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs6_c02_j01_f_9   0.01   0.00   0.1   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs6_c02_j01_f_9   0.01   0.00   0.2   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs6_c02_j01_f_9   0.01   0.00   0.3   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs6_c02_j01_f_9   0.01   0.00   0.4   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs6_c02_j01_f_9   0.01   0.00   0.5   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs6_c02_j01_f_9   0.01   0.00   0.6   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs6_c02_j01_f_9   0.01   0.00   0.7   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs6_c02_j01_f_9   0.01   0.00   0.8   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs6_c02_j01_f_9   0.01   0.00   0.9   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs6_c02_j01_f_9   0.01   0.00   1.0   0.6   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs6_c06_j01_f_9   0.01   0.00   0.0   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs6_c06_j01_f_9   0.01   0.00   0.1   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs6_c06_j01_f_9   0.01   0.00   0.2   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs6_c06_j01_f_9   0.01   0.00   0.3   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs6_c06_j01_f_9   0.01   0.00   0.4   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs6_c06_j01_f_9   0.01   0.00   0.5   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs6_c06_j01_f_9   0.01   0.00   0.6   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs6_c06_j01_f_9   0.01   0.00   0.7   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs6_c06_j01_f_9   0.01   0.00   0.8   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs6_c06_j01_f_9   0.01   0.00   0.9   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs6_c06_j01_f_9   0.01   0.00   1.0   0.6   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.7, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs7_c02_j01_f_9   0.01   0.00   0.0   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs7_c02_j01_f_9   0.01   0.00   0.1   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs7_c02_j01_f_9   0.01   0.00   0.2   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs7_c02_j01_f_9   0.01   0.00   0.3   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs7_c02_j01_f_9   0.01   0.00   0.4   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs7_c02_j01_f_9   0.01   0.00   0.5   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs7_c02_j01_f_9   0.01   0.00   0.6   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs7_c02_j01_f_9   0.01   0.00   0.7   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs7_c02_j01_f_9   0.01   0.00   0.8   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs7_c02_j01_f_9   0.01   0.00   0.9   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs7_c02_j01_f_9   0.01   0.00   1.0   0.7   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs7_c06_j01_f_9   0.01   0.00   0.0   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs7_c06_j01_f_9   0.01   0.00   0.1   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs7_c06_j01_f_9   0.01   0.00   0.2   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs7_c06_j01_f_9   0.01   0.00   0.3   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs7_c06_j01_f_9   0.01   0.00   0.4   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs7_c06_j01_f_9   0.01   0.00   0.5   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs7_c06_j01_f_9   0.01   0.00   0.6   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs7_c06_j01_f_9   0.01   0.00   0.7   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs7_c06_j01_f_9   0.01   0.00   0.8   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs7_c06_j01_f_9   0.01   0.00   0.9   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs7_c06_j01_f_9   0.01   0.00   1.0   0.7   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.8, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs8_c02_j01_f_9   0.01   0.00   0.0   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs8_c02_j01_f_9   0.01   0.00   0.1   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs8_c02_j01_f_9   0.01   0.00   0.2   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs8_c02_j01_f_9   0.01   0.00   0.3   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs8_c02_j01_f_9   0.01   0.00   0.4   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs8_c02_j01_f_9   0.01   0.00   0.5   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs8_c02_j01_f_9   0.01   0.00   0.6   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs8_c02_j01_f_9   0.01   0.00   0.7   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs8_c02_j01_f_9   0.01   0.00   0.8   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs8_c02_j01_f_9   0.01   0.00   0.9   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs8_c02_j01_f_9   0.01   0.00   1.0   0.8   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs8_c06_j01_f_9   0.01   0.00   0.0   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs8_c06_j01_f_9   0.01   0.00   0.1   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs8_c06_j01_f_9   0.01   0.00   0.2   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs8_c06_j01_f_9   0.01   0.00   0.3   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs8_c06_j01_f_9   0.01   0.00   0.4   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs8_c06_j01_f_9   0.01   0.00   0.5   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs8_c06_j01_f_9   0.01   0.00   0.6   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs8_c06_j01_f_9   0.01   0.00   0.7   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs8_c06_j01_f_9   0.01   0.00   0.8   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs8_c06_j01_f_9   0.01   0.00   0.9   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs8_c06_j01_f_9   0.01   0.00   1.0   0.8   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.9, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs9_c02_j01_f_9   0.01   0.00   0.0   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs9_c02_j01_f_9   0.01   0.00   0.1   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs9_c02_j01_f_9   0.01   0.00   0.2   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs9_c02_j01_f_9   0.01   0.00   0.3   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs9_c02_j01_f_9   0.01   0.00   0.4   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs9_c02_j01_f_9   0.01   0.00   0.5   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs9_c02_j01_f_9   0.01   0.00   0.6   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs9_c02_j01_f_9   0.01   0.00   0.7   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs9_c02_j01_f_9   0.01   0.00   0.8   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs9_c02_j01_f_9   0.01   0.00   0.9   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs9_c02_j01_f_9   0.01   0.00   1.0   0.9   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs9_c06_j01_f_9   0.01   0.00   0.0   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs9_c06_j01_f_9   0.01   0.00   0.1   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs9_c06_j01_f_9   0.01   0.00   0.2   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs9_c06_j01_f_9   0.01   0.00   0.3   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs9_c06_j01_f_9   0.01   0.00   0.4   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs9_c06_j01_f_9   0.01   0.00   0.5   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs9_c06_j01_f_9   0.01   0.00   0.6   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs9_c06_j01_f_9   0.01   0.00   0.7   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs9_c06_j01_f_9   0.01   0.00   0.8   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs9_c06_j01_f_9   0.01   0.00   0.9   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs9_c06_j01_f_9   0.01   0.00   1.0   0.9   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 1.0, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs10_c02_j01_f_9   0.01   0.00   0.0   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs10_c02_j01_f_9   0.01   0.00   0.1   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs10_c02_j01_f_9   0.01   0.00   0.2   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs10_c02_j01_f_9   0.01   0.00   0.3   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs10_c02_j01_f_9   0.01   0.00   0.4   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs10_c02_j01_f_9   0.01   0.00   0.5   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs10_c02_j01_f_9   0.01   0.00   0.6   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs10_c02_j01_f_9   0.01   0.00   0.7   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs10_c02_j01_f_9   0.01   0.00   0.8   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs10_c02_j01_f_9   0.01   0.00   0.9   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs10_c02_j01_f_9   0.01   0.00   1.0   1.0   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs10_c06_j01_f_9   0.01   0.00   0.0   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs10_c06_j01_f_9   0.01   0.00   0.1   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs10_c06_j01_f_9   0.01   0.00   0.2   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs10_c06_j01_f_9   0.01   0.00   0.3   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs10_c06_j01_f_9   0.01   0.00   0.4   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs10_c06_j01_f_9   0.01   0.00   0.5   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs10_c06_j01_f_9   0.01   0.00   0.6   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs10_c06_j01_f_9   0.01   0.00   0.7   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs10_c06_j01_f_9   0.01   0.00   0.8   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs10_c06_j01_f_9   0.01   0.00   0.9   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs10_c06_j01_f_9   0.01   0.00   1.0   1.0   3   0.1667  0.00    0.1
 
 
 # ________________________________________________________________________________________________________________
@@ -4246,167 +4246,167 @@
 
 # varying dispersal, bs = 0.0, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs0_c05_j01_f_9   0.01   0.00   0.0   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs0_c05_j01_f_9   0.01   0.00   0.1   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs0_c05_j01_f_9   0.01   0.00   0.2   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs0_c05_j01_f_9   0.01   0.00   0.3   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs0_c05_j01_f_9   0.01   0.00   0.4   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs0_c05_j01_f_9   0.01   0.00   0.5   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs0_c05_j01_f_9   0.01   0.00   0.6   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs0_c05_j01_f_9   0.01   0.00   0.7   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs0_c05_j01_f_9   0.01   0.00   0.8   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs0_c05_j01_f_9   0.01   0.00   0.9   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs0_c05_j01_f_9   0.01   0.00   1.0   0.0   3   0.125   0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs0_c08_j01_f_9   0.01   0.00   0.0   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs0_c08_j01_f_9   0.01   0.00   0.1   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs0_c08_j01_f_9   0.01   0.00   0.2   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs0_c08_j01_f_9   0.01   0.00   0.3   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs0_c08_j01_f_9   0.01   0.00   0.4   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs0_c08_j01_f_9   0.01   0.00   0.5   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs0_c08_j01_f_9   0.01   0.00   0.6   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs0_c08_j01_f_9   0.01   0.00   0.7   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs0_c08_j01_f_9   0.01   0.00   0.8   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs0_c08_j01_f_9   0.01   0.00   0.9   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs0_c08_j01_f_9   0.01   0.00   1.0   0.0   3   0.125   0.00    0.1 
 
 
 # varying dispersal, bs = 0.1, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs1_c05_j01_f_9   0.01   0.00   0.0   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs1_c05_j01_f_9   0.01   0.00   0.1   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs1_c05_j01_f_9   0.01   0.00   0.2   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs1_c05_j01_f_9   0.01   0.00   0.3   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs1_c05_j01_f_9   0.01   0.00   0.4   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs1_c05_j01_f_9   0.01   0.00   0.5   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs1_c05_j01_f_9   0.01   0.00   0.6   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs1_c05_j01_f_9   0.01   0.00   0.7   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs1_c05_j01_f_9   0.01   0.00   0.8   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs1_c05_j01_f_9   0.01   0.00   0.9   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs1_c05_j01_f_9   0.01   0.00   1.0   0.1   3   0.125   0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs1_c08_j01_f_9   0.01   0.00   0.0   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs1_c08_j01_f_9   0.01   0.00   0.1   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs1_c08_j01_f_9   0.01   0.00   0.2   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs1_c08_j01_f_9   0.01   0.00   0.3   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs1_c08_j01_f_9   0.01   0.00   0.4   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs1_c08_j01_f_9   0.01   0.00   0.5   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs1_c08_j01_f_9   0.01   0.00   0.6   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs1_c08_j01_f_9   0.01   0.00   0.7   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs1_c08_j01_f_9   0.01   0.00   0.8   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs1_c08_j01_f_9   0.01   0.00   0.9   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs1_c08_j01_f_9   0.01   0.00   1.0   0.1   3   0.125   0.00    0.1 
 
 
 # varying dispersal, bs = 0.2, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs2_c05_j01_f_9   0.01   0.00   0.0   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs2_c05_j01_f_9   0.01   0.00   0.1   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs2_c05_j01_f_9   0.01   0.00   0.2   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs2_c05_j01_f_9   0.01   0.00   0.3   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs2_c05_j01_f_9   0.01   0.00   0.4   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs2_c05_j01_f_9   0.01   0.00   0.5   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs2_c05_j01_f_9   0.01   0.00   0.6   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs2_c05_j01_f_9   0.01   0.00   0.7   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs2_c05_j01_f_9   0.01   0.00   0.8   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs2_c05_j01_f_9   0.01   0.00   0.9   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs2_c05_j01_f_9   0.01   0.00   1.0   0.2   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs2_c08_j01_f_9   0.01   0.00   0.0   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs2_c08_j01_f_9   0.01   0.00   0.1   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs2_c08_j01_f_9   0.01   0.00   0.2   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs2_c08_j01_f_9   0.01   0.00   0.3   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs2_c08_j01_f_9   0.01   0.00   0.4   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs2_c08_j01_f_9   0.01   0.00   0.5   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs2_c08_j01_f_9   0.01   0.00   0.6   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs2_c08_j01_f_9   0.01   0.00   0.7   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs2_c08_j01_f_9   0.01   0.00   0.8   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs2_c08_j01_f_9   0.01   0.00   0.9   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs2_c08_j01_f_9   0.01   0.00   1.0   0.2   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.3, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs3_c05_j01_f_9   0.01   0.00   0.0   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs3_c05_j01_f_9   0.01   0.00   0.1   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs3_c05_j01_f_9   0.01   0.00   0.2   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs3_c05_j01_f_9   0.01   0.00   0.3   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs3_c05_j01_f_9   0.01   0.00   0.4   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs3_c05_j01_f_9   0.01   0.00   0.5   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs3_c05_j01_f_9   0.01   0.00   0.6   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs3_c05_j01_f_9   0.01   0.00   0.7   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs3_c05_j01_f_9   0.01   0.00   0.8   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs3_c05_j01_f_9   0.01   0.00   0.9   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs3_c05_j01_f_9   0.01   0.00   1.0   0.3   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs3_c08_j01_f_9   0.01   0.00   0.0   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs3_c08_j01_f_9   0.01   0.00   0.1   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs3_c08_j01_f_9   0.01   0.00   0.2   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs3_c08_j01_f_9   0.01   0.00   0.3   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs3_c08_j01_f_9   0.01   0.00   0.4   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs3_c08_j01_f_9   0.01   0.00   0.5   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs3_c08_j01_f_9   0.01   0.00   0.6   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs3_c08_j01_f_9   0.01   0.00   0.7   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs3_c08_j01_f_9   0.01   0.00   0.8   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs3_c08_j01_f_9   0.01   0.00   0.9   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs3_c08_j01_f_9   0.01   0.00   1.0   0.3   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.4, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs4_c05_j01_f_9   0.01   0.00   0.0   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs4_c05_j01_f_9   0.01   0.00   0.1   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs4_c05_j01_f_9   0.01   0.00   0.2   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs4_c05_j01_f_9   0.01   0.00   0.3   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs4_c05_j01_f_9   0.01   0.00   0.4   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs4_c05_j01_f_9   0.01   0.00   0.5   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs4_c05_j01_f_9   0.01   0.00   0.6   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs4_c05_j01_f_9   0.01   0.00   0.7   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs4_c05_j01_f_9   0.01   0.00   0.8   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs4_c05_j01_f_9   0.01   0.00   0.9   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs4_c05_j01_f_9   0.01   0.00   1.0   0.4   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs4_c08_j01_f_9   0.01   0.00   0.0   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs4_c08_j01_f_9   0.01   0.00   0.1   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs4_c08_j01_f_9   0.01   0.00   0.2   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs4_c08_j01_f_9   0.01   0.00   0.3   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs4_c08_j01_f_9   0.01   0.00   0.4   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs4_c08_j01_f_9   0.01   0.00   0.5   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs4_c08_j01_f_9   0.01   0.00   0.6   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs4_c08_j01_f_9   0.01   0.00   0.7   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs4_c08_j01_f_9   0.01   0.00   0.8   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs4_c08_j01_f_9   0.01   0.00   0.9   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs4_c08_j01_f_9   0.01   0.00   1.0   0.4   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.5, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs5_c05_j01_f_9   0.01   0.00   0.0   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs5_c05_j01_f_9   0.01   0.00   0.1   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs5_c05_j01_f_9   0.01   0.00   0.2   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs5_c05_j01_f_9   0.01   0.00   0.3   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs5_c05_j01_f_9   0.01   0.00   0.4   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs5_c05_j01_f_9   0.01   0.00   0.5   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs5_c05_j01_f_9   0.01   0.00   0.6   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs5_c05_j01_f_9   0.01   0.00   0.7   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs5_c05_j01_f_9   0.01   0.00   0.8   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs5_c05_j01_f_9   0.01   0.00   0.9   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs5_c05_j01_f_9   0.01   0.00   1.0   0.5   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs5_c08_j01_f_9   0.01   0.00   0.0   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs5_c08_j01_f_9   0.01   0.00   0.1   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs5_c08_j01_f_9   0.01   0.00   0.2   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs5_c08_j01_f_9   0.01   0.00   0.3   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs5_c08_j01_f_9   0.01   0.00   0.4   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs5_c08_j01_f_9   0.01   0.00   0.5   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs5_c08_j01_f_9   0.01   0.00   0.6   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs5_c08_j01_f_9   0.01   0.00   0.7   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs5_c08_j01_f_9   0.01   0.00   0.8   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs5_c08_j01_f_9   0.01   0.00   0.9   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs5_c08_j01_f_9   0.01   0.00   1.0   0.5   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.6, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs6_c05_j01_f_9   0.01   0.00   0.0   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs6_c05_j01_f_9   0.01   0.00   0.1   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs6_c05_j01_f_9   0.01   0.00   0.2   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs6_c05_j01_f_9   0.01   0.00   0.3   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs6_c05_j01_f_9   0.01   0.00   0.4   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs6_c05_j01_f_9   0.01   0.00   0.5   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs6_c05_j01_f_9   0.01   0.00   0.6   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs6_c05_j01_f_9   0.01   0.00   0.7   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs6_c05_j01_f_9   0.01   0.00   0.8   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs6_c05_j01_f_9   0.01   0.00   0.9   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs6_c05_j01_f_9   0.01   0.00   1.0   0.6   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs6_c08_j01_f_9   0.01   0.00   0.0   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs6_c08_j01_f_9   0.01   0.00   0.1   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs6_c08_j01_f_9   0.01   0.00   0.2   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs6_c08_j01_f_9   0.01   0.00   0.3   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs6_c08_j01_f_9   0.01   0.00   0.4   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs6_c08_j01_f_9   0.01   0.00   0.5   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs6_c08_j01_f_9   0.01   0.00   0.6   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs6_c08_j01_f_9   0.01   0.00   0.7   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs6_c08_j01_f_9   0.01   0.00   0.8   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs6_c08_j01_f_9   0.01   0.00   0.9   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs6_c08_j01_f_9   0.01   0.00   1.0   0.6   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.7, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs7_c05_j01_f_9   0.01   0.00   0.0   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs7_c05_j01_f_9   0.01   0.00   0.1   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs7_c05_j01_f_9   0.01   0.00   0.2   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs7_c05_j01_f_9   0.01   0.00   0.3   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs7_c05_j01_f_9   0.01   0.00   0.4   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs7_c05_j01_f_9   0.01   0.00   0.5   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs7_c05_j01_f_9   0.01   0.00   0.6   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs7_c05_j01_f_9   0.01   0.00   0.7   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs7_c05_j01_f_9   0.01   0.00   0.8   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs7_c05_j01_f_9   0.01   0.00   0.9   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs7_c05_j01_f_9   0.01   0.00   1.0   0.7   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs7_c08_j01_f_9   0.01   0.00   0.0   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs7_c08_j01_f_9   0.01   0.00   0.1   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs7_c08_j01_f_9   0.01   0.00   0.2   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs7_c08_j01_f_9   0.01   0.00   0.3   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs7_c08_j01_f_9   0.01   0.00   0.4   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs7_c08_j01_f_9   0.01   0.00   0.5   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs7_c08_j01_f_9   0.01   0.00   0.6   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs7_c08_j01_f_9   0.01   0.00   0.7   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs7_c08_j01_f_9   0.01   0.00   0.8   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs7_c08_j01_f_9   0.01   0.00   0.9   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs7_c08_j01_f_9   0.01   0.00   1.0   0.7   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.8, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs8_c05_j01_f_9   0.01   0.00   0.0   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs8_c05_j01_f_9   0.01   0.00   0.1   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs8_c05_j01_f_9   0.01   0.00   0.2   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs8_c05_j01_f_9   0.01   0.00   0.3   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs8_c05_j01_f_9   0.01   0.00   0.4   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs8_c05_j01_f_9   0.01   0.00   0.5   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs8_c05_j01_f_9   0.01   0.00   0.6   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs8_c05_j01_f_9   0.01   0.00   0.7   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs8_c05_j01_f_9   0.01   0.00   0.8   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs8_c05_j01_f_9   0.01   0.00   0.9   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs8_c05_j01_f_9   0.01   0.00   1.0   0.8   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs8_c08_j01_f_9   0.01   0.00   0.0   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs8_c08_j01_f_9   0.01   0.00   0.1   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs8_c08_j01_f_9   0.01   0.00   0.2   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs8_c08_j01_f_9   0.01   0.00   0.3   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs8_c08_j01_f_9   0.01   0.00   0.4   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs8_c08_j01_f_9   0.01   0.00   0.5   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs8_c08_j01_f_9   0.01   0.00   0.6   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs8_c08_j01_f_9   0.01   0.00   0.7   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs8_c08_j01_f_9   0.01   0.00   0.8   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs8_c08_j01_f_9   0.01   0.00   0.9   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs8_c08_j01_f_9   0.01   0.00   1.0   0.8   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.9, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs9_c05_j01_f_9   0.01   0.00   0.0   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs9_c05_j01_f_9   0.01   0.00   0.1   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs9_c05_j01_f_9   0.01   0.00   0.2   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs9_c05_j01_f_9   0.01   0.00   0.3   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs9_c05_j01_f_9   0.01   0.00   0.4   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs9_c05_j01_f_9   0.01   0.00   0.5   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs9_c05_j01_f_9   0.01   0.00   0.6   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs9_c05_j01_f_9   0.01   0.00   0.7   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs9_c05_j01_f_9   0.01   0.00   0.8   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs9_c05_j01_f_9   0.01   0.00   0.9   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs9_c05_j01_f_9   0.01   0.00   1.0   0.9   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs9_c08_j01_f_9   0.01   0.00   0.0   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs9_c08_j01_f_9   0.01   0.00   0.1   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs9_c08_j01_f_9   0.01   0.00   0.2   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs9_c08_j01_f_9   0.01   0.00   0.3   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs9_c08_j01_f_9   0.01   0.00   0.4   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs9_c08_j01_f_9   0.01   0.00   0.5   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs9_c08_j01_f_9   0.01   0.00   0.6   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs9_c08_j01_f_9   0.01   0.00   0.7   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs9_c08_j01_f_9   0.01   0.00   0.8   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs9_c08_j01_f_9   0.01   0.00   0.9   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs9_c08_j01_f_9   0.01   0.00   1.0   0.9   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 1.0, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs10_c05_j01_f_9   0.01   0.00   0.0   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs10_c05_j01_f_9   0.01   0.00   0.1   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs10_c05_j01_f_9   0.01   0.00   0.2   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs10_c05_j01_f_9   0.01   0.00   0.3   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs10_c05_j01_f_9   0.01   0.00   0.4   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs10_c05_j01_f_9   0.01   0.00   0.5   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs10_c05_j01_f_9   0.01   0.00   0.6   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs10_c05_j01_f_9   0.01   0.00   0.7   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs10_c05_j01_f_9   0.01   0.00   0.8   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs10_c05_j01_f_9   0.01   0.00   0.9   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs10_c05_j01_f_9   0.01   0.00   1.0   1.0   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs10_c08_j01_f_9   0.01   0.00   0.0   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs10_c08_j01_f_9   0.01   0.00   0.1   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs10_c08_j01_f_9   0.01   0.00   0.2   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs10_c08_j01_f_9   0.01   0.00   0.3   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs10_c08_j01_f_9   0.01   0.00   0.4   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs10_c08_j01_f_9   0.01   0.00   0.5   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs10_c08_j01_f_9   0.01   0.00   0.6   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs10_c08_j01_f_9   0.01   0.00   0.7   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs10_c08_j01_f_9   0.01   0.00   0.8   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs10_c08_j01_f_9   0.01   0.00   0.9   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs10_c08_j01_f_9   0.01   0.00   1.0   1.0   3   0.125   0.00    0.1
 
 
 # ________________________________________________________________________________________________________________
@@ -4414,167 +4414,167 @@
 
 # varying dispersal, bs = 0.0, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs0_c20_j01_f_9   0.01   0.00   0.0   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs0_c20_j01_f_9   0.01   0.00   0.1   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs0_c20_j01_f_9   0.01   0.00   0.2   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs0_c20_j01_f_9   0.01   0.00   0.3   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs0_c20_j01_f_9   0.01   0.00   0.4   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs0_c20_j01_f_9   0.01   0.00   0.5   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs0_c20_j01_f_9   0.01   0.00   0.6   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs0_c20_j01_f_9   0.01   0.00   0.7   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs0_c20_j01_f_9   0.01   0.00   0.8   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs0_c20_j01_f_9   0.01   0.00   0.9   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs0_c20_j01_f_9   0.01   0.00   1.0   0.0   3   0.10    0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs0_c10_j01_f_9   0.01   0.00   0.0   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs0_c10_j01_f_9   0.01   0.00   0.1   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs0_c10_j01_f_9   0.01   0.00   0.2   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs0_c10_j01_f_9   0.01   0.00   0.3   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs0_c10_j01_f_9   0.01   0.00   0.4   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs0_c10_j01_f_9   0.01   0.00   0.5   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs0_c10_j01_f_9   0.01   0.00   0.6   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs0_c10_j01_f_9   0.01   0.00   0.7   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs0_c10_j01_f_9   0.01   0.00   0.8   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs0_c10_j01_f_9   0.01   0.00   0.9   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs0_c10_j01_f_9   0.01   0.00   1.0   0.0   3   0.10    0.00    0.1 
 
 
 # varying dispersal, bs = 0.1, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs1_c20_j01_f_9   0.01   0.00   0.0   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs1_c20_j01_f_9   0.01   0.00   0.1   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs1_c20_j01_f_9   0.01   0.00   0.2   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs1_c20_j01_f_9   0.01   0.00   0.3   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs1_c20_j01_f_9   0.01   0.00   0.4   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs1_c20_j01_f_9   0.01   0.00   0.5   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs1_c20_j01_f_9   0.01   0.00   0.6   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs1_c20_j01_f_9   0.01   0.00   0.7   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs1_c20_j01_f_9   0.01   0.00   0.8   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs1_c20_j01_f_9   0.01   0.00   0.9   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs1_c20_j01_f_9   0.01   0.00   1.0   0.1   3   0.10    0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs1_c10_j01_f_9   0.01   0.00   0.0   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs1_c10_j01_f_9   0.01   0.00   0.1   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs1_c10_j01_f_9   0.01   0.00   0.2   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs1_c10_j01_f_9   0.01   0.00   0.3   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs1_c10_j01_f_9   0.01   0.00   0.4   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs1_c10_j01_f_9   0.01   0.00   0.5   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs1_c10_j01_f_9   0.01   0.00   0.6   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs1_c10_j01_f_9   0.01   0.00   0.7   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs1_c10_j01_f_9   0.01   0.00   0.8   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs1_c10_j01_f_9   0.01   0.00   0.9   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs1_c10_j01_f_9   0.01   0.00   1.0   0.1   3   0.10    0.00    0.1 
 
 
 # varying dispersal, bs = 0.2, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs2_c20_j01_f_9   0.01   0.00   0.0   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs2_c20_j01_f_9   0.01   0.00   0.1   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs2_c20_j01_f_9   0.01   0.00   0.2   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs2_c20_j01_f_9   0.01   0.00   0.3   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs2_c20_j01_f_9   0.01   0.00   0.4   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs2_c20_j01_f_9   0.01   0.00   0.5   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs2_c20_j01_f_9   0.01   0.00   0.6   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs2_c20_j01_f_9   0.01   0.00   0.7   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs2_c20_j01_f_9   0.01   0.00   0.8   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs2_c20_j01_f_9   0.01   0.00   0.9   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs2_c20_j01_f_9   0.01   0.00   1.0   0.2   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs2_c10_j01_f_9   0.01   0.00   0.0   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs2_c10_j01_f_9   0.01   0.00   0.1   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs2_c10_j01_f_9   0.01   0.00   0.2   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs2_c10_j01_f_9   0.01   0.00   0.3   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs2_c10_j01_f_9   0.01   0.00   0.4   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs2_c10_j01_f_9   0.01   0.00   0.5   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs2_c10_j01_f_9   0.01   0.00   0.6   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs2_c10_j01_f_9   0.01   0.00   0.7   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs2_c10_j01_f_9   0.01   0.00   0.8   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs2_c10_j01_f_9   0.01   0.00   0.9   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs2_c10_j01_f_9   0.01   0.00   1.0   0.2   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.3, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs3_c20_j01_f_9   0.01   0.00   0.0   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs3_c20_j01_f_9   0.01   0.00   0.1   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs3_c20_j01_f_9   0.01   0.00   0.2   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs3_c20_j01_f_9   0.01   0.00   0.3   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs3_c20_j01_f_9   0.01   0.00   0.4   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs3_c20_j01_f_9   0.01   0.00   0.5   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs3_c20_j01_f_9   0.01   0.00   0.6   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs3_c20_j01_f_9   0.01   0.00   0.7   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs3_c20_j01_f_9   0.01   0.00   0.8   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs3_c20_j01_f_9   0.01   0.00   0.9   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs3_c20_j01_f_9   0.01   0.00   1.0   0.3   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs3_c10_j01_f_9   0.01   0.00   0.0   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs3_c10_j01_f_9   0.01   0.00   0.1   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs3_c10_j01_f_9   0.01   0.00   0.2   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs3_c10_j01_f_9   0.01   0.00   0.3   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs3_c10_j01_f_9   0.01   0.00   0.4   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs3_c10_j01_f_9   0.01   0.00   0.5   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs3_c10_j01_f_9   0.01   0.00   0.6   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs3_c10_j01_f_9   0.01   0.00   0.7   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs3_c10_j01_f_9   0.01   0.00   0.8   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs3_c10_j01_f_9   0.01   0.00   0.9   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs3_c10_j01_f_9   0.01   0.00   1.0   0.3   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.4, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs4_c20_j01_f_9   0.01   0.00   0.0   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs4_c20_j01_f_9   0.01   0.00   0.1   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs4_c20_j01_f_9   0.01   0.00   0.2   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs4_c20_j01_f_9   0.01   0.00   0.3   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs4_c20_j01_f_9   0.01   0.00   0.4   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs4_c20_j01_f_9   0.01   0.00   0.5   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs4_c20_j01_f_9   0.01   0.00   0.6   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs4_c20_j01_f_9   0.01   0.00   0.7   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs4_c20_j01_f_9   0.01   0.00   0.8   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs4_c20_j01_f_9   0.01   0.00   0.9   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs4_c20_j01_f_9   0.01   0.00   1.0   0.4   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs4_c10_j01_f_9   0.01   0.00   0.0   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs4_c10_j01_f_9   0.01   0.00   0.1   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs4_c10_j01_f_9   0.01   0.00   0.2   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs4_c10_j01_f_9   0.01   0.00   0.3   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs4_c10_j01_f_9   0.01   0.00   0.4   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs4_c10_j01_f_9   0.01   0.00   0.5   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs4_c10_j01_f_9   0.01   0.00   0.6   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs4_c10_j01_f_9   0.01   0.00   0.7   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs4_c10_j01_f_9   0.01   0.00   0.8   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs4_c10_j01_f_9   0.01   0.00   0.9   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs4_c10_j01_f_9   0.01   0.00   1.0   0.4   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.5, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs5_c20_j01_f_9   0.01   0.00   0.0   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs5_c20_j01_f_9   0.01   0.00   0.1   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs5_c20_j01_f_9   0.01   0.00   0.2   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs5_c20_j01_f_9   0.01   0.00   0.3   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs5_c20_j01_f_9   0.01   0.00   0.4   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs5_c20_j01_f_9   0.01   0.00   0.5   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs5_c20_j01_f_9   0.01   0.00   0.6   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs5_c20_j01_f_9   0.01   0.00   0.7   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs5_c20_j01_f_9   0.01   0.00   0.8   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs5_c20_j01_f_9   0.01   0.00   0.9   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs5_c20_j01_f_9   0.01   0.00   1.0   0.5   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs5_c10_j01_f_9   0.01   0.00   0.0   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs5_c10_j01_f_9   0.01   0.00   0.1   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs5_c10_j01_f_9   0.01   0.00   0.2   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs5_c10_j01_f_9   0.01   0.00   0.3   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs5_c10_j01_f_9   0.01   0.00   0.4   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs5_c10_j01_f_9   0.01   0.00   0.5   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs5_c10_j01_f_9   0.01   0.00   0.6   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs5_c10_j01_f_9   0.01   0.00   0.7   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs5_c10_j01_f_9   0.01   0.00   0.8   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs5_c10_j01_f_9   0.01   0.00   0.9   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs5_c10_j01_f_9   0.01   0.00   1.0   0.5   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.6, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs6_c20_j01_f_9   0.01   0.00   0.0   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs6_c20_j01_f_9   0.01   0.00   0.1   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs6_c20_j01_f_9   0.01   0.00   0.2   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs6_c20_j01_f_9   0.01   0.00   0.3   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs6_c20_j01_f_9   0.01   0.00   0.4   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs6_c20_j01_f_9   0.01   0.00   0.5   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs6_c20_j01_f_9   0.01   0.00   0.6   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs6_c20_j01_f_9   0.01   0.00   0.7   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs6_c20_j01_f_9   0.01   0.00   0.8   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs6_c20_j01_f_9   0.01   0.00   0.9   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs6_c20_j01_f_9   0.01   0.00   1.0   0.6   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs6_c10_j01_f_9   0.01   0.00   0.0   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs6_c10_j01_f_9   0.01   0.00   0.1   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs6_c10_j01_f_9   0.01   0.00   0.2   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs6_c10_j01_f_9   0.01   0.00   0.3   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs6_c10_j01_f_9   0.01   0.00   0.4   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs6_c10_j01_f_9   0.01   0.00   0.5   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs6_c10_j01_f_9   0.01   0.00   0.6   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs6_c10_j01_f_9   0.01   0.00   0.7   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs6_c10_j01_f_9   0.01   0.00   0.8   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs6_c10_j01_f_9   0.01   0.00   0.9   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs6_c10_j01_f_9   0.01   0.00   1.0   0.6   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.7, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs7_c20_j01_f_9   0.01   0.00   0.0   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs7_c20_j01_f_9   0.01   0.00   0.1   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs7_c20_j01_f_9   0.01   0.00   0.2   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs7_c20_j01_f_9   0.01   0.00   0.3   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs7_c20_j01_f_9   0.01   0.00   0.4   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs7_c20_j01_f_9   0.01   0.00   0.5   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs7_c20_j01_f_9   0.01   0.00   0.6   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs7_c20_j01_f_9   0.01   0.00   0.7   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs7_c20_j01_f_9   0.01   0.00   0.8   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs7_c20_j01_f_9   0.01   0.00   0.9   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs7_c20_j01_f_9   0.01   0.00   1.0   0.7   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs7_c10_j01_f_9   0.01   0.00   0.0   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs7_c10_j01_f_9   0.01   0.00   0.1   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs7_c10_j01_f_9   0.01   0.00   0.2   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs7_c10_j01_f_9   0.01   0.00   0.3   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs7_c10_j01_f_9   0.01   0.00   0.4   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs7_c10_j01_f_9   0.01   0.00   0.5   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs7_c10_j01_f_9   0.01   0.00   0.6   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs7_c10_j01_f_9   0.01   0.00   0.7   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs7_c10_j01_f_9   0.01   0.00   0.8   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs7_c10_j01_f_9   0.01   0.00   0.9   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs7_c10_j01_f_9   0.01   0.00   1.0   0.7   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.8, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs8_c20_j01_f_9   0.01   0.00   0.0   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs8_c20_j01_f_9   0.01   0.00   0.1   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs8_c20_j01_f_9   0.01   0.00   0.2   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs8_c20_j01_f_9   0.01   0.00   0.3   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs8_c20_j01_f_9   0.01   0.00   0.4   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs8_c20_j01_f_9   0.01   0.00   0.5   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs8_c20_j01_f_9   0.01   0.00   0.6   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs8_c20_j01_f_9   0.01   0.00   0.7   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs8_c20_j01_f_9   0.01   0.00   0.8   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs8_c20_j01_f_9   0.01   0.00   0.9   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs8_c20_j01_f_9   0.01   0.00   1.0   0.8   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs8_c10_j01_f_9   0.01   0.00   0.0   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs8_c10_j01_f_9   0.01   0.00   0.1   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs8_c10_j01_f_9   0.01   0.00   0.2   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs8_c10_j01_f_9   0.01   0.00   0.3   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs8_c10_j01_f_9   0.01   0.00   0.4   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs8_c10_j01_f_9   0.01   0.00   0.5   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs8_c10_j01_f_9   0.01   0.00   0.6   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs8_c10_j01_f_9   0.01   0.00   0.7   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs8_c10_j01_f_9   0.01   0.00   0.8   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs8_c10_j01_f_9   0.01   0.00   0.9   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs8_c10_j01_f_9   0.01   0.00   1.0   0.8   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.9, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs9_c20_j01_f_9   0.01   0.00   0.0   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs9_c20_j01_f_9   0.01   0.00   0.1   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs9_c20_j01_f_9   0.01   0.00   0.2   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs9_c20_j01_f_9   0.01   0.00   0.3   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs9_c20_j01_f_9   0.01   0.00   0.4   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs9_c20_j01_f_9   0.01   0.00   0.5   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs9_c20_j01_f_9   0.01   0.00   0.6   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs9_c20_j01_f_9   0.01   0.00   0.7   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs9_c20_j01_f_9   0.01   0.00   0.8   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs9_c20_j01_f_9   0.01   0.00   0.9   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs9_c20_j01_f_9   0.01   0.00   1.0   0.9   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs9_c10_j01_f_9   0.01   0.00   0.0   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs9_c10_j01_f_9   0.01   0.00   0.1   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs9_c10_j01_f_9   0.01   0.00   0.2   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs9_c10_j01_f_9   0.01   0.00   0.3   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs9_c10_j01_f_9   0.01   0.00   0.4   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs9_c10_j01_f_9   0.01   0.00   0.5   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs9_c10_j01_f_9   0.01   0.00   0.6   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs9_c10_j01_f_9   0.01   0.00   0.7   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs9_c10_j01_f_9   0.01   0.00   0.8   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs9_c10_j01_f_9   0.01   0.00   0.9   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs9_c10_j01_f_9   0.01   0.00   1.0   0.9   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 1.0, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs10_c20_j01_f_9   0.01   0.00   0.0   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs10_c20_j01_f_9   0.01   0.00   0.1   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs10_c20_j01_f_9   0.01   0.00   0.2   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs10_c20_j01_f_9   0.01   0.00   0.3   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs10_c20_j01_f_9   0.01   0.00   0.4   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs10_c20_j01_f_9   0.01   0.00   0.5   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs10_c20_j01_f_9   0.01   0.00   0.6   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs10_c20_j01_f_9   0.01   0.00   0.7   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs10_c20_j01_f_9   0.01   0.00   0.8   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs10_c20_j01_f_9   0.01   0.00   0.9   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs10_c20_j01_f_9   0.01   0.00   1.0   1.0   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs10_c10_j01_f_9   0.01   0.00   0.0   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs10_c10_j01_f_9   0.01   0.00   0.1   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs10_c10_j01_f_9   0.01   0.00   0.2   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs10_c10_j01_f_9   0.01   0.00   0.3   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs10_c10_j01_f_9   0.01   0.00   0.4   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs10_c10_j01_f_9   0.01   0.00   0.5   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs10_c10_j01_f_9   0.01   0.00   0.6   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs10_c10_j01_f_9   0.01   0.00   0.7   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs10_c10_j01_f_9   0.01   0.00   0.8   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs10_c10_j01_f_9   0.01   0.00   0.9   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs10_c10_j01_f_9   0.01   0.00   1.0   1.0   3   0.10    0.00    0.1
 
 
 
@@ -4586,167 +4586,167 @@
 
 # varying dispersal, bs = 0.0, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs0_c02_j01_f_10  0.01   0.00   0.0   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs0_c02_j01_f_10  0.01   0.00   0.1   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs0_c02_j01_f_10  0.01   0.00   0.2   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs0_c02_j01_f_10  0.01   0.00   0.3   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs0_c02_j01_f_10  0.01   0.00   0.4   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs0_c02_j01_f_10  0.01   0.00   0.5   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs0_c02_j01_f_10  0.01   0.00   0.6   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs0_c02_j01_f_10  0.01   0.00   0.7   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs0_c02_j01_f_10  0.01   0.00   0.8   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs0_c02_j01_f_10  0.01   0.00   0.9   0.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs0_c02_j01_f_10  0.01   0.00   1.0   0.0   3   0.1667  0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs0_c06_j01_f_10  0.01   0.00   0.0   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs0_c06_j01_f_10  0.01   0.00   0.1   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs0_c06_j01_f_10  0.01   0.00   0.2   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs0_c06_j01_f_10  0.01   0.00   0.3   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs0_c06_j01_f_10  0.01   0.00   0.4   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs0_c06_j01_f_10  0.01   0.00   0.5   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs0_c06_j01_f_10  0.01   0.00   0.6   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs0_c06_j01_f_10  0.01   0.00   0.7   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs0_c06_j01_f_10  0.01   0.00   0.8   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs0_c06_j01_f_10  0.01   0.00   0.9   0.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs0_c06_j01_f_10  0.01   0.00   1.0   0.0   3   0.1667  0.00    0.1 
 
 
 # varying dispersal, bs = 0.1, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs1_c02_j01_f_10  0.01   0.00   0.0   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs1_c02_j01_f_10  0.01   0.00   0.1   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs1_c02_j01_f_10  0.01   0.00   0.2   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs1_c02_j01_f_10  0.01   0.00   0.3   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs1_c02_j01_f_10  0.01   0.00   0.4   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs1_c02_j01_f_10  0.01   0.00   0.5   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs1_c02_j01_f_10  0.01   0.00   0.6   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs1_c02_j01_f_10  0.01   0.00   0.7   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs1_c02_j01_f_10  0.01   0.00   0.8   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs1_c02_j01_f_10  0.01   0.00   0.9   0.1   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs1_c02_j01_f_10  0.01   0.00   1.0   0.1   3   0.1667  0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs1_c06_j01_f_10  0.01   0.00   0.0   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs1_c06_j01_f_10  0.01   0.00   0.1   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs1_c06_j01_f_10  0.01   0.00   0.2   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs1_c06_j01_f_10  0.01   0.00   0.3   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs1_c06_j01_f_10  0.01   0.00   0.4   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs1_c06_j01_f_10  0.01   0.00   0.5   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs1_c06_j01_f_10  0.01   0.00   0.6   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs1_c06_j01_f_10  0.01   0.00   0.7   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs1_c06_j01_f_10  0.01   0.00   0.8   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs1_c06_j01_f_10  0.01   0.00   0.9   0.1   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs1_c06_j01_f_10  0.01   0.00   1.0   0.1   3   0.1667  0.00    0.1 
 
 
 # varying dispersal, bs = 0.2, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs2_c02_j01_f_10  0.01   0.00   0.0   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs2_c02_j01_f_10  0.01   0.00   0.1   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs2_c02_j01_f_10  0.01   0.00   0.2   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs2_c02_j01_f_10  0.01   0.00   0.3   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs2_c02_j01_f_10  0.01   0.00   0.4   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs2_c02_j01_f_10  0.01   0.00   0.5   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs2_c02_j01_f_10  0.01   0.00   0.6   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs2_c02_j01_f_10  0.01   0.00   0.7   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs2_c02_j01_f_10  0.01   0.00   0.8   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs2_c02_j01_f_10  0.01   0.00   0.9   0.2   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs2_c02_j01_f_10  0.01   0.00   1.0   0.2   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs2_c06_j01_f_10  0.01   0.00   0.0   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs2_c06_j01_f_10  0.01   0.00   0.1   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs2_c06_j01_f_10  0.01   0.00   0.2   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs2_c06_j01_f_10  0.01   0.00   0.3   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs2_c06_j01_f_10  0.01   0.00   0.4   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs2_c06_j01_f_10  0.01   0.00   0.5   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs2_c06_j01_f_10  0.01   0.00   0.6   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs2_c06_j01_f_10  0.01   0.00   0.7   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs2_c06_j01_f_10  0.01   0.00   0.8   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs2_c06_j01_f_10  0.01   0.00   0.9   0.2   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs2_c06_j01_f_10  0.01   0.00   1.0   0.2   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.3, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs3_c02_j01_f_10  0.01   0.00   0.0   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs3_c02_j01_f_10  0.01   0.00   0.1   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs3_c02_j01_f_10  0.01   0.00   0.2   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs3_c02_j01_f_10  0.01   0.00   0.3   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs3_c02_j01_f_10  0.01   0.00   0.4   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs3_c02_j01_f_10  0.01   0.00   0.5   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs3_c02_j01_f_10  0.01   0.00   0.6   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs3_c02_j01_f_10  0.01   0.00   0.7   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs3_c02_j01_f_10  0.01   0.00   0.8   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs3_c02_j01_f_10  0.01   0.00   0.9   0.3   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs3_c02_j01_f_10  0.01   0.00   1.0   0.3   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs3_c06_j01_f_10  0.01   0.00   0.0   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs3_c06_j01_f_10  0.01   0.00   0.1   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs3_c06_j01_f_10  0.01   0.00   0.2   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs3_c06_j01_f_10  0.01   0.00   0.3   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs3_c06_j01_f_10  0.01   0.00   0.4   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs3_c06_j01_f_10  0.01   0.00   0.5   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs3_c06_j01_f_10  0.01   0.00   0.6   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs3_c06_j01_f_10  0.01   0.00   0.7   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs3_c06_j01_f_10  0.01   0.00   0.8   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs3_c06_j01_f_10  0.01   0.00   0.9   0.3   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs3_c06_j01_f_10  0.01   0.00   1.0   0.3   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.4, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs4_c02_j01_f_10  0.01   0.00   0.0   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs4_c02_j01_f_10  0.01   0.00   0.1   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs4_c02_j01_f_10  0.01   0.00   0.2   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs4_c02_j01_f_10  0.01   0.00   0.3   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs4_c02_j01_f_10  0.01   0.00   0.4   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs4_c02_j01_f_10  0.01   0.00   0.5   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs4_c02_j01_f_10  0.01   0.00   0.6   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs4_c02_j01_f_10  0.01   0.00   0.7   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs4_c02_j01_f_10  0.01   0.00   0.8   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs4_c02_j01_f_10  0.01   0.00   0.9   0.4   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs4_c02_j01_f_10  0.01   0.00   1.0   0.4   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs4_c06_j01_f_10  0.01   0.00   0.0   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs4_c06_j01_f_10  0.01   0.00   0.1   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs4_c06_j01_f_10  0.01   0.00   0.2   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs4_c06_j01_f_10  0.01   0.00   0.3   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs4_c06_j01_f_10  0.01   0.00   0.4   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs4_c06_j01_f_10  0.01   0.00   0.5   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs4_c06_j01_f_10  0.01   0.00   0.6   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs4_c06_j01_f_10  0.01   0.00   0.7   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs4_c06_j01_f_10  0.01   0.00   0.8   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs4_c06_j01_f_10  0.01   0.00   0.9   0.4   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs4_c06_j01_f_10  0.01   0.00   1.0   0.4   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.5, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs5_c02_j01_f_10  0.01   0.00   0.0   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs5_c02_j01_f_10  0.01   0.00   0.1   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs5_c02_j01_f_10  0.01   0.00   0.2   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs5_c02_j01_f_10  0.01   0.00   0.3   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs5_c02_j01_f_10  0.01   0.00   0.4   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs5_c02_j01_f_10  0.01   0.00   0.5   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs5_c02_j01_f_10  0.01   0.00   0.6   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs5_c02_j01_f_10  0.01   0.00   0.7   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs5_c02_j01_f_10  0.01   0.00   0.8   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs5_c02_j01_f_10  0.01   0.00   0.9   0.5   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs5_c02_j01_f_10  0.01   0.00   1.0   0.5   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs5_c06_j01_f_10  0.01   0.00   0.0   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs5_c06_j01_f_10  0.01   0.00   0.1   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs5_c06_j01_f_10  0.01   0.00   0.2   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs5_c06_j01_f_10  0.01   0.00   0.3   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs5_c06_j01_f_10  0.01   0.00   0.4   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs5_c06_j01_f_10  0.01   0.00   0.5   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs5_c06_j01_f_10  0.01   0.00   0.6   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs5_c06_j01_f_10  0.01   0.00   0.7   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs5_c06_j01_f_10  0.01   0.00   0.8   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs5_c06_j01_f_10  0.01   0.00   0.9   0.5   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs5_c06_j01_f_10  0.01   0.00   1.0   0.5   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.6, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs6_c02_j01_f_10  0.01   0.00   0.0   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs6_c02_j01_f_10  0.01   0.00   0.1   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs6_c02_j01_f_10  0.01   0.00   0.2   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs6_c02_j01_f_10  0.01   0.00   0.3   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs6_c02_j01_f_10  0.01   0.00   0.4   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs6_c02_j01_f_10  0.01   0.00   0.5   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs6_c02_j01_f_10  0.01   0.00   0.6   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs6_c02_j01_f_10  0.01   0.00   0.7   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs6_c02_j01_f_10  0.01   0.00   0.8   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs6_c02_j01_f_10  0.01   0.00   0.9   0.6   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs6_c02_j01_f_10  0.01   0.00   1.0   0.6   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs6_c06_j01_f_10  0.01   0.00   0.0   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs6_c06_j01_f_10  0.01   0.00   0.1   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs6_c06_j01_f_10  0.01   0.00   0.2   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs6_c06_j01_f_10  0.01   0.00   0.3   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs6_c06_j01_f_10  0.01   0.00   0.4   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs6_c06_j01_f_10  0.01   0.00   0.5   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs6_c06_j01_f_10  0.01   0.00   0.6   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs6_c06_j01_f_10  0.01   0.00   0.7   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs6_c06_j01_f_10  0.01   0.00   0.8   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs6_c06_j01_f_10  0.01   0.00   0.9   0.6   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs6_c06_j01_f_10  0.01   0.00   1.0   0.6   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.7, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs7_c02_j01_f_10  0.01   0.00   0.0   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs7_c02_j01_f_10  0.01   0.00   0.1   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs7_c02_j01_f_10  0.01   0.00   0.2   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs7_c02_j01_f_10  0.01   0.00   0.3   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs7_c02_j01_f_10  0.01   0.00   0.4   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs7_c02_j01_f_10  0.01   0.00   0.5   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs7_c02_j01_f_10  0.01   0.00   0.6   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs7_c02_j01_f_10  0.01   0.00   0.7   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs7_c02_j01_f_10  0.01   0.00   0.8   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs7_c02_j01_f_10  0.01   0.00   0.9   0.7   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs7_c02_j01_f_10  0.01   0.00   1.0   0.7   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs7_c06_j01_f_10  0.01   0.00   0.0   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs7_c06_j01_f_10  0.01   0.00   0.1   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs7_c06_j01_f_10  0.01   0.00   0.2   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs7_c06_j01_f_10  0.01   0.00   0.3   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs7_c06_j01_f_10  0.01   0.00   0.4   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs7_c06_j01_f_10  0.01   0.00   0.5   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs7_c06_j01_f_10  0.01   0.00   0.6   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs7_c06_j01_f_10  0.01   0.00   0.7   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs7_c06_j01_f_10  0.01   0.00   0.8   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs7_c06_j01_f_10  0.01   0.00   0.9   0.7   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs7_c06_j01_f_10  0.01   0.00   1.0   0.7   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.8, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs8_c02_j01_f_10  0.01   0.00   0.0   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs8_c02_j01_f_10  0.01   0.00   0.1   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs8_c02_j01_f_10  0.01   0.00   0.2   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs8_c02_j01_f_10  0.01   0.00   0.3   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs8_c02_j01_f_10  0.01   0.00   0.4   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs8_c02_j01_f_10  0.01   0.00   0.5   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs8_c02_j01_f_10  0.01   0.00   0.6   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs8_c02_j01_f_10  0.01   0.00   0.7   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs8_c02_j01_f_10  0.01   0.00   0.8   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs8_c02_j01_f_10  0.01   0.00   0.9   0.8   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs8_c02_j01_f_10  0.01   0.00   1.0   0.8   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs8_c06_j01_f_10  0.01   0.00   0.0   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs8_c06_j01_f_10  0.01   0.00   0.1   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs8_c06_j01_f_10  0.01   0.00   0.2   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs8_c06_j01_f_10  0.01   0.00   0.3   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs8_c06_j01_f_10  0.01   0.00   0.4   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs8_c06_j01_f_10  0.01   0.00   0.5   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs8_c06_j01_f_10  0.01   0.00   0.6   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs8_c06_j01_f_10  0.01   0.00   0.7   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs8_c06_j01_f_10  0.01   0.00   0.8   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs8_c06_j01_f_10  0.01   0.00   0.9   0.8   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs8_c06_j01_f_10  0.01   0.00   1.0   0.8   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 0.9, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs9_c02_j01_f_10  0.01   0.00   0.0   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs9_c02_j01_f_10  0.01   0.00   0.1   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs9_c02_j01_f_10  0.01   0.00   0.2   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs9_c02_j01_f_10  0.01   0.00   0.3   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs9_c02_j01_f_10  0.01   0.00   0.4   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs9_c02_j01_f_10  0.01   0.00   0.5   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs9_c02_j01_f_10  0.01   0.00   0.6   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs9_c02_j01_f_10  0.01   0.00   0.7   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs9_c02_j01_f_10  0.01   0.00   0.8   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs9_c02_j01_f_10  0.01   0.00   0.9   0.9   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs9_c02_j01_f_10  0.01   0.00   1.0   0.9   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs9_c06_j01_f_10  0.01   0.00   0.0   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs9_c06_j01_f_10  0.01   0.00   0.1   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs9_c06_j01_f_10  0.01   0.00   0.2   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs9_c06_j01_f_10  0.01   0.00   0.3   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs9_c06_j01_f_10  0.01   0.00   0.4   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs9_c06_j01_f_10  0.01   0.00   0.5   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs9_c06_j01_f_10  0.01   0.00   0.6   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs9_c06_j01_f_10  0.01   0.00   0.7   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs9_c06_j01_f_10  0.01   0.00   0.8   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs9_c06_j01_f_10  0.01   0.00   0.9   0.9   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs9_c06_j01_f_10  0.01   0.00   1.0   0.9   3   0.1667  0.00    0.1
 
 
 # varying dispersal, bs = 1.0, bf = 3, f_cost = 1/6, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs10_c02_j01_f_10  0.01   0.00   0.0   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs10_c02_j01_f_10  0.01   0.00   0.1   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs10_c02_j01_f_10  0.01   0.00   0.2   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs10_c02_j01_f_10  0.01   0.00   0.3   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs10_c02_j01_f_10  0.01   0.00   0.4   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs10_c02_j01_f_10  0.01   0.00   0.5   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs10_c02_j01_f_10  0.01   0.00   0.6   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs10_c02_j01_f_10  0.01   0.00   0.7   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs10_c02_j01_f_10  0.01   0.00   0.8   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs10_c02_j01_f_10  0.01   0.00   0.9   1.0   3   0.1667  0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs10_c02_j01_f_10  0.01   0.00   1.0   1.0   3   0.1667  0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs10_c06_j01_f_10  0.01   0.00   0.0   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs10_c06_j01_f_10  0.01   0.00   0.1   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs10_c06_j01_f_10  0.01   0.00   0.2   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs10_c06_j01_f_10  0.01   0.00   0.3   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs10_c06_j01_f_10  0.01   0.00   0.4   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs10_c06_j01_f_10  0.01   0.00   0.5   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs10_c06_j01_f_10  0.01   0.00   0.6   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs10_c06_j01_f_10  0.01   0.00   0.7   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs10_c06_j01_f_10  0.01   0.00   0.8   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs10_c06_j01_f_10  0.01   0.00   0.9   1.0   3   0.1667  0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs10_c06_j01_f_10  0.01   0.00   1.0   1.0   3   0.1667  0.00    0.1
 
 
 # ________________________________________________________________________________________________________________
@@ -4754,167 +4754,167 @@
 
 # varying dispersal, bs = 0.0, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs0_c05_j01_f_10  0.01   0.00   0.0   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs0_c05_j01_f_10  0.01   0.00   0.1   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs0_c05_j01_f_10  0.01   0.00   0.2   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs0_c05_j01_f_10  0.01   0.00   0.3   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs0_c05_j01_f_10  0.01   0.00   0.4   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs0_c05_j01_f_10  0.01   0.00   0.5   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs0_c05_j01_f_10  0.01   0.00   0.6   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs0_c05_j01_f_10  0.01   0.00   0.7   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs0_c05_j01_f_10  0.01   0.00   0.8   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs0_c05_j01_f_10  0.01   0.00   0.9   0.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs0_c05_j01_f_10  0.01   0.00   1.0   0.0   3   0.125   0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs0_c08_j01_f_10  0.01   0.00   0.0   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs0_c08_j01_f_10  0.01   0.00   0.1   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs0_c08_j01_f_10  0.01   0.00   0.2   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs0_c08_j01_f_10  0.01   0.00   0.3   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs0_c08_j01_f_10  0.01   0.00   0.4   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs0_c08_j01_f_10  0.01   0.00   0.5   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs0_c08_j01_f_10  0.01   0.00   0.6   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs0_c08_j01_f_10  0.01   0.00   0.7   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs0_c08_j01_f_10  0.01   0.00   0.8   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs0_c08_j01_f_10  0.01   0.00   0.9   0.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs0_c08_j01_f_10  0.01   0.00   1.0   0.0   3   0.125   0.00    0.1 
 
 
 # varying dispersal, bs = 0.1, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs1_c05_j01_f_10  0.01   0.00   0.0   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs1_c05_j01_f_10  0.01   0.00   0.1   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs1_c05_j01_f_10  0.01   0.00   0.2   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs1_c05_j01_f_10  0.01   0.00   0.3   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs1_c05_j01_f_10  0.01   0.00   0.4   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs1_c05_j01_f_10  0.01   0.00   0.5   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs1_c05_j01_f_10  0.01   0.00   0.6   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs1_c05_j01_f_10  0.01   0.00   0.7   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs1_c05_j01_f_10  0.01   0.00   0.8   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs1_c05_j01_f_10  0.01   0.00   0.9   0.1   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs1_c05_j01_f_10  0.01   0.00   1.0   0.1   3   0.125   0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs1_c08_j01_f_10  0.01   0.00   0.0   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs1_c08_j01_f_10  0.01   0.00   0.1   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs1_c08_j01_f_10  0.01   0.00   0.2   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs1_c08_j01_f_10  0.01   0.00   0.3   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs1_c08_j01_f_10  0.01   0.00   0.4   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs1_c08_j01_f_10  0.01   0.00   0.5   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs1_c08_j01_f_10  0.01   0.00   0.6   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs1_c08_j01_f_10  0.01   0.00   0.7   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs1_c08_j01_f_10  0.01   0.00   0.8   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs1_c08_j01_f_10  0.01   0.00   0.9   0.1   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs1_c08_j01_f_10  0.01   0.00   1.0   0.1   3   0.125   0.00    0.1 
 
 
 # varying dispersal, bs = 0.2, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs2_c05_j01_f_10  0.01   0.00   0.0   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs2_c05_j01_f_10  0.01   0.00   0.1   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs2_c05_j01_f_10  0.01   0.00   0.2   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs2_c05_j01_f_10  0.01   0.00   0.3   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs2_c05_j01_f_10  0.01   0.00   0.4   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs2_c05_j01_f_10  0.01   0.00   0.5   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs2_c05_j01_f_10  0.01   0.00   0.6   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs2_c05_j01_f_10  0.01   0.00   0.7   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs2_c05_j01_f_10  0.01   0.00   0.8   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs2_c05_j01_f_10  0.01   0.00   0.9   0.2   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs2_c05_j01_f_10  0.01   0.00   1.0   0.2   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs2_c08_j01_f_10  0.01   0.00   0.0   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs2_c08_j01_f_10  0.01   0.00   0.1   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs2_c08_j01_f_10  0.01   0.00   0.2   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs2_c08_j01_f_10  0.01   0.00   0.3   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs2_c08_j01_f_10  0.01   0.00   0.4   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs2_c08_j01_f_10  0.01   0.00   0.5   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs2_c08_j01_f_10  0.01   0.00   0.6   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs2_c08_j01_f_10  0.01   0.00   0.7   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs2_c08_j01_f_10  0.01   0.00   0.8   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs2_c08_j01_f_10  0.01   0.00   0.9   0.2   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs2_c08_j01_f_10  0.01   0.00   1.0   0.2   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.3, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs3_c05_j01_f_10  0.01   0.00   0.0   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs3_c05_j01_f_10  0.01   0.00   0.1   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs3_c05_j01_f_10  0.01   0.00   0.2   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs3_c05_j01_f_10  0.01   0.00   0.3   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs3_c05_j01_f_10  0.01   0.00   0.4   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs3_c05_j01_f_10  0.01   0.00   0.5   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs3_c05_j01_f_10  0.01   0.00   0.6   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs3_c05_j01_f_10  0.01   0.00   0.7   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs3_c05_j01_f_10  0.01   0.00   0.8   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs3_c05_j01_f_10  0.01   0.00   0.9   0.3   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs3_c05_j01_f_10  0.01   0.00   1.0   0.3   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs3_c08_j01_f_10  0.01   0.00   0.0   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs3_c08_j01_f_10  0.01   0.00   0.1   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs3_c08_j01_f_10  0.01   0.00   0.2   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs3_c08_j01_f_10  0.01   0.00   0.3   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs3_c08_j01_f_10  0.01   0.00   0.4   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs3_c08_j01_f_10  0.01   0.00   0.5   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs3_c08_j01_f_10  0.01   0.00   0.6   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs3_c08_j01_f_10  0.01   0.00   0.7   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs3_c08_j01_f_10  0.01   0.00   0.8   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs3_c08_j01_f_10  0.01   0.00   0.9   0.3   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs3_c08_j01_f_10  0.01   0.00   1.0   0.3   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.4, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs4_c05_j01_f_10  0.01   0.00   0.0   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs4_c05_j01_f_10  0.01   0.00   0.1   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs4_c05_j01_f_10  0.01   0.00   0.2   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs4_c05_j01_f_10  0.01   0.00   0.3   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs4_c05_j01_f_10  0.01   0.00   0.4   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs4_c05_j01_f_10  0.01   0.00   0.5   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs4_c05_j01_f_10  0.01   0.00   0.6   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs4_c05_j01_f_10  0.01   0.00   0.7   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs4_c05_j01_f_10  0.01   0.00   0.8   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs4_c05_j01_f_10  0.01   0.00   0.9   0.4   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs4_c05_j01_f_10  0.01   0.00   1.0   0.4   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs4_c08_j01_f_10  0.01   0.00   0.0   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs4_c08_j01_f_10  0.01   0.00   0.1   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs4_c08_j01_f_10  0.01   0.00   0.2   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs4_c08_j01_f_10  0.01   0.00   0.3   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs4_c08_j01_f_10  0.01   0.00   0.4   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs4_c08_j01_f_10  0.01   0.00   0.5   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs4_c08_j01_f_10  0.01   0.00   0.6   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs4_c08_j01_f_10  0.01   0.00   0.7   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs4_c08_j01_f_10  0.01   0.00   0.8   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs4_c08_j01_f_10  0.01   0.00   0.9   0.4   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs4_c08_j01_f_10  0.01   0.00   1.0   0.4   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.5, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs5_c05_j01_f_10  0.01   0.00   0.0   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs5_c05_j01_f_10  0.01   0.00   0.1   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs5_c05_j01_f_10  0.01   0.00   0.2   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs5_c05_j01_f_10  0.01   0.00   0.3   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs5_c05_j01_f_10  0.01   0.00   0.4   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs5_c05_j01_f_10  0.01   0.00   0.5   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs5_c05_j01_f_10  0.01   0.00   0.6   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs5_c05_j01_f_10  0.01   0.00   0.7   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs5_c05_j01_f_10  0.01   0.00   0.8   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs5_c05_j01_f_10  0.01   0.00   0.9   0.5   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs5_c05_j01_f_10  0.01   0.00   1.0   0.5   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs5_c08_j01_f_10  0.01   0.00   0.0   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs5_c08_j01_f_10  0.01   0.00   0.1   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs5_c08_j01_f_10  0.01   0.00   0.2   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs5_c08_j01_f_10  0.01   0.00   0.3   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs5_c08_j01_f_10  0.01   0.00   0.4   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs5_c08_j01_f_10  0.01   0.00   0.5   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs5_c08_j01_f_10  0.01   0.00   0.6   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs5_c08_j01_f_10  0.01   0.00   0.7   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs5_c08_j01_f_10  0.01   0.00   0.8   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs5_c08_j01_f_10  0.01   0.00   0.9   0.5   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs5_c08_j01_f_10  0.01   0.00   1.0   0.5   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.6, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs6_c05_j01_f_10  0.01   0.00   0.0   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs6_c05_j01_f_10  0.01   0.00   0.1   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs6_c05_j01_f_10  0.01   0.00   0.2   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs6_c05_j01_f_10  0.01   0.00   0.3   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs6_c05_j01_f_10  0.01   0.00   0.4   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs6_c05_j01_f_10  0.01   0.00   0.5   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs6_c05_j01_f_10  0.01   0.00   0.6   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs6_c05_j01_f_10  0.01   0.00   0.7   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs6_c05_j01_f_10  0.01   0.00   0.8   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs6_c05_j01_f_10  0.01   0.00   0.9   0.6   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs6_c05_j01_f_10  0.01   0.00   1.0   0.6   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs6_c08_j01_f_10  0.01   0.00   0.0   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs6_c08_j01_f_10  0.01   0.00   0.1   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs6_c08_j01_f_10  0.01   0.00   0.2   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs6_c08_j01_f_10  0.01   0.00   0.3   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs6_c08_j01_f_10  0.01   0.00   0.4   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs6_c08_j01_f_10  0.01   0.00   0.5   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs6_c08_j01_f_10  0.01   0.00   0.6   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs6_c08_j01_f_10  0.01   0.00   0.7   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs6_c08_j01_f_10  0.01   0.00   0.8   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs6_c08_j01_f_10  0.01   0.00   0.9   0.6   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs6_c08_j01_f_10  0.01   0.00   1.0   0.6   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.7, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs7_c05_j01_f_10  0.01   0.00   0.0   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs7_c05_j01_f_10  0.01   0.00   0.1   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs7_c05_j01_f_10  0.01   0.00   0.2   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs7_c05_j01_f_10  0.01   0.00   0.3   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs7_c05_j01_f_10  0.01   0.00   0.4   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs7_c05_j01_f_10  0.01   0.00   0.5   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs7_c05_j01_f_10  0.01   0.00   0.6   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs7_c05_j01_f_10  0.01   0.00   0.7   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs7_c05_j01_f_10  0.01   0.00   0.8   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs7_c05_j01_f_10  0.01   0.00   0.9   0.7   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs7_c05_j01_f_10  0.01   0.00   1.0   0.7   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs7_c08_j01_f_10  0.01   0.00   0.0   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs7_c08_j01_f_10  0.01   0.00   0.1   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs7_c08_j01_f_10  0.01   0.00   0.2   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs7_c08_j01_f_10  0.01   0.00   0.3   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs7_c08_j01_f_10  0.01   0.00   0.4   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs7_c08_j01_f_10  0.01   0.00   0.5   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs7_c08_j01_f_10  0.01   0.00   0.6   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs7_c08_j01_f_10  0.01   0.00   0.7   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs7_c08_j01_f_10  0.01   0.00   0.8   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs7_c08_j01_f_10  0.01   0.00   0.9   0.7   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs7_c08_j01_f_10  0.01   0.00   1.0   0.7   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.8, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs8_c05_j01_f_10  0.01   0.00   0.0   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs8_c05_j01_f_10  0.01   0.00   0.1   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs8_c05_j01_f_10  0.01   0.00   0.2   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs8_c05_j01_f_10  0.01   0.00   0.3   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs8_c05_j01_f_10  0.01   0.00   0.4   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs8_c05_j01_f_10  0.01   0.00   0.5   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs8_c05_j01_f_10  0.01   0.00   0.6   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs8_c05_j01_f_10  0.01   0.00   0.7   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs8_c05_j01_f_10  0.01   0.00   0.8   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs8_c05_j01_f_10  0.01   0.00   0.9   0.8   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs8_c05_j01_f_10  0.01   0.00   1.0   0.8   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs8_c08_j01_f_10  0.01   0.00   0.0   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs8_c08_j01_f_10  0.01   0.00   0.1   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs8_c08_j01_f_10  0.01   0.00   0.2   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs8_c08_j01_f_10  0.01   0.00   0.3   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs8_c08_j01_f_10  0.01   0.00   0.4   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs8_c08_j01_f_10  0.01   0.00   0.5   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs8_c08_j01_f_10  0.01   0.00   0.6   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs8_c08_j01_f_10  0.01   0.00   0.7   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs8_c08_j01_f_10  0.01   0.00   0.8   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs8_c08_j01_f_10  0.01   0.00   0.9   0.8   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs8_c08_j01_f_10  0.01   0.00   1.0   0.8   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 0.9, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs9_c05_j01_f_10  0.01   0.00   0.0   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs9_c05_j01_f_10  0.01   0.00   0.1   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs9_c05_j01_f_10  0.01   0.00   0.2   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs9_c05_j01_f_10  0.01   0.00   0.3   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs9_c05_j01_f_10  0.01   0.00   0.4   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs9_c05_j01_f_10  0.01   0.00   0.5   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs9_c05_j01_f_10  0.01   0.00   0.6   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs9_c05_j01_f_10  0.01   0.00   0.7   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs9_c05_j01_f_10  0.01   0.00   0.8   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs9_c05_j01_f_10  0.01   0.00   0.9   0.9   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs9_c05_j01_f_10  0.01   0.00   1.0   0.9   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs9_c08_j01_f_10  0.01   0.00   0.0   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs9_c08_j01_f_10  0.01   0.00   0.1   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs9_c08_j01_f_10  0.01   0.00   0.2   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs9_c08_j01_f_10  0.01   0.00   0.3   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs9_c08_j01_f_10  0.01   0.00   0.4   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs9_c08_j01_f_10  0.01   0.00   0.5   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs9_c08_j01_f_10  0.01   0.00   0.6   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs9_c08_j01_f_10  0.01   0.00   0.7   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs9_c08_j01_f_10  0.01   0.00   0.8   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs9_c08_j01_f_10  0.01   0.00   0.9   0.9   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs9_c08_j01_f_10  0.01   0.00   1.0   0.9   3   0.125   0.00    0.1
 
 
 # varying dispersal, bs = 1.0, bf = 3, f_cost = 1/8, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs10_c05_j01_f_10  0.01   0.00   0.0   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs10_c05_j01_f_10  0.01   0.00   0.1   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs10_c05_j01_f_10  0.01   0.00   0.2   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs10_c05_j01_f_10  0.01   0.00   0.3   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs10_c05_j01_f_10  0.01   0.00   0.4   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs10_c05_j01_f_10  0.01   0.00   0.5   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs10_c05_j01_f_10  0.01   0.00   0.6   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs10_c05_j01_f_10  0.01   0.00   0.7   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs10_c05_j01_f_10  0.01   0.00   0.8   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs10_c05_j01_f_10  0.01   0.00   0.9   1.0   3   0.125   0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs10_c05_j01_f_10  0.01   0.00   1.0   1.0   3   0.125   0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs10_c08_j01_f_10  0.01   0.00   0.0   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs10_c08_j01_f_10  0.01   0.00   0.1   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs10_c08_j01_f_10  0.01   0.00   0.2   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs10_c08_j01_f_10  0.01   0.00   0.3   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs10_c08_j01_f_10  0.01   0.00   0.4   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs10_c08_j01_f_10  0.01   0.00   0.5   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs10_c08_j01_f_10  0.01   0.00   0.6   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs10_c08_j01_f_10  0.01   0.00   0.7   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs10_c08_j01_f_10  0.01   0.00   0.8   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs10_c08_j01_f_10  0.01   0.00   0.9   1.0   3   0.125   0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs10_c08_j01_f_10  0.01   0.00   1.0   1.0   3   0.125   0.00    0.1
 
 
 # ________________________________________________________________________________________________________________
@@ -4922,165 +4922,165 @@
 
 # varying dispersal, bs = 0.0, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs0_c20_j01_f_10  0.01   0.00   0.0   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs0_c20_j01_f_10  0.01   0.00   0.1   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs0_c20_j01_f_10  0.01   0.00   0.2   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs0_c20_j01_f_10  0.01   0.00   0.3   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs0_c20_j01_f_10  0.01   0.00   0.4   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs0_c20_j01_f_10  0.01   0.00   0.5   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs0_c20_j01_f_10  0.01   0.00   0.6   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs0_c20_j01_f_10  0.01   0.00   0.7   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs0_c20_j01_f_10  0.01   0.00   0.8   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs0_c20_j01_f_10  0.01   0.00   0.9   0.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs0_c20_j01_f_10  0.01   0.00   1.0   0.0   3   0.10    0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs0_c10_j01_f_10  0.01   0.00   0.0   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs0_c10_j01_f_10  0.01   0.00   0.1   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs0_c10_j01_f_10  0.01   0.00   0.2   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs0_c10_j01_f_10  0.01   0.00   0.3   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs0_c10_j01_f_10  0.01   0.00   0.4   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs0_c10_j01_f_10  0.01   0.00   0.5   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs0_c10_j01_f_10  0.01   0.00   0.6   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs0_c10_j01_f_10  0.01   0.00   0.7   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs0_c10_j01_f_10  0.01   0.00   0.8   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs0_c10_j01_f_10  0.01   0.00   0.9   0.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs0_c10_j01_f_10  0.01   0.00   1.0   0.0   3   0.10    0.00    0.1 
 
 
 # varying dispersal, bs = 0.1, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs1_c20_j01_f_10  0.01   0.00   0.0   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs1_c20_j01_f_10  0.01   0.00   0.1   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs1_c20_j01_f_10  0.01   0.00   0.2   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs1_c20_j01_f_10  0.01   0.00   0.3   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs1_c20_j01_f_10  0.01   0.00   0.4   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs1_c20_j01_f_10  0.01   0.00   0.5   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs1_c20_j01_f_10  0.01   0.00   0.6   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs1_c20_j01_f_10  0.01   0.00   0.7   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs1_c20_j01_f_10  0.01   0.00   0.8   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs1_c20_j01_f_10  0.01   0.00   0.9   0.1   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs1_c20_j01_f_10  0.01   0.00   1.0   0.1   3   0.10    0.00    0.1 
+./build/MutualismIBM file_set_intergen3_d00_bs1_c10_j01_f_10  0.01   0.00   0.0   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs1_c10_j01_f_10  0.01   0.00   0.1   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs1_c10_j01_f_10  0.01   0.00   0.2   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs1_c10_j01_f_10  0.01   0.00   0.3   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs1_c10_j01_f_10  0.01   0.00   0.4   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs1_c10_j01_f_10  0.01   0.00   0.5   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs1_c10_j01_f_10  0.01   0.00   0.6   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs1_c10_j01_f_10  0.01   0.00   0.7   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs1_c10_j01_f_10  0.01   0.00   0.8   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs1_c10_j01_f_10  0.01   0.00   0.9   0.1   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs1_c10_j01_f_10  0.01   0.00   1.0   0.1   3   0.10    0.00    0.1 
 
 
 # varying dispersal, bs = 0.2, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs2_c20_j01_f_10  0.01   0.00   0.0   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs2_c20_j01_f_10  0.01   0.00   0.1   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs2_c20_j01_f_10  0.01   0.00   0.2   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs2_c20_j01_f_10  0.01   0.00   0.3   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs2_c20_j01_f_10  0.01   0.00   0.4   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs2_c20_j01_f_10  0.01   0.00   0.5   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs2_c20_j01_f_10  0.01   0.00   0.6   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs2_c20_j01_f_10  0.01   0.00   0.7   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs2_c20_j01_f_10  0.01   0.00   0.8   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs2_c20_j01_f_10  0.01   0.00   0.9   0.2   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs2_c20_j01_f_10  0.01   0.00   1.0   0.2   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs2_c10_j01_f_10  0.01   0.00   0.0   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs2_c10_j01_f_10  0.01   0.00   0.1   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs2_c10_j01_f_10  0.01   0.00   0.2   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs2_c10_j01_f_10  0.01   0.00   0.3   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs2_c10_j01_f_10  0.01   0.00   0.4   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs2_c10_j01_f_10  0.01   0.00   0.5   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs2_c10_j01_f_10  0.01   0.00   0.6   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs2_c10_j01_f_10  0.01   0.00   0.7   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs2_c10_j01_f_10  0.01   0.00   0.8   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs2_c10_j01_f_10  0.01   0.00   0.9   0.2   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs2_c10_j01_f_10  0.01   0.00   1.0   0.2   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.3, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs3_c20_j01_f_10  0.01   0.00   0.0   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs3_c20_j01_f_10  0.01   0.00   0.1   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs3_c20_j01_f_10  0.01   0.00   0.2   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs3_c20_j01_f_10  0.01   0.00   0.3   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs3_c20_j01_f_10  0.01   0.00   0.4   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs3_c20_j01_f_10  0.01   0.00   0.5   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs3_c20_j01_f_10  0.01   0.00   0.6   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs3_c20_j01_f_10  0.01   0.00   0.7   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs3_c20_j01_f_10  0.01   0.00   0.8   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs3_c20_j01_f_10  0.01   0.00   0.9   0.3   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs3_c20_j01_f_10  0.01   0.00   1.0   0.3   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs3_c10_j01_f_10  0.01   0.00   0.0   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs3_c10_j01_f_10  0.01   0.00   0.1   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs3_c10_j01_f_10  0.01   0.00   0.2   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs3_c10_j01_f_10  0.01   0.00   0.3   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs3_c10_j01_f_10  0.01   0.00   0.4   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs3_c10_j01_f_10  0.01   0.00   0.5   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs3_c10_j01_f_10  0.01   0.00   0.6   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs3_c10_j01_f_10  0.01   0.00   0.7   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs3_c10_j01_f_10  0.01   0.00   0.8   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs3_c10_j01_f_10  0.01   0.00   0.9   0.3   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs3_c10_j01_f_10  0.01   0.00   1.0   0.3   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.4, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs4_c20_j01_f_10  0.01   0.00   0.0   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs4_c20_j01_f_10  0.01   0.00   0.1   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs4_c20_j01_f_10  0.01   0.00   0.2   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs4_c20_j01_f_10  0.01   0.00   0.3   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs4_c20_j01_f_10  0.01   0.00   0.4   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs4_c20_j01_f_10  0.01   0.00   0.5   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs4_c20_j01_f_10  0.01   0.00   0.6   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs4_c20_j01_f_10  0.01   0.00   0.7   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs4_c20_j01_f_10  0.01   0.00   0.8   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs4_c20_j01_f_10  0.01   0.00   0.9   0.4   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs4_c20_j01_f_10  0.01   0.00   1.0   0.4   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs4_c10_j01_f_10  0.01   0.00   0.0   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs4_c10_j01_f_10  0.01   0.00   0.1   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs4_c10_j01_f_10  0.01   0.00   0.2   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs4_c10_j01_f_10  0.01   0.00   0.3   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs4_c10_j01_f_10  0.01   0.00   0.4   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs4_c10_j01_f_10  0.01   0.00   0.5   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs4_c10_j01_f_10  0.01   0.00   0.6   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs4_c10_j01_f_10  0.01   0.00   0.7   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs4_c10_j01_f_10  0.01   0.00   0.8   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs4_c10_j01_f_10  0.01   0.00   0.9   0.4   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs4_c10_j01_f_10  0.01   0.00   1.0   0.4   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.5, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs5_c20_j01_f_10  0.01   0.00   0.0   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs5_c20_j01_f_10  0.01   0.00   0.1   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs5_c20_j01_f_10  0.01   0.00   0.2   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs5_c20_j01_f_10  0.01   0.00   0.3   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs5_c20_j01_f_10  0.01   0.00   0.4   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs5_c20_j01_f_10  0.01   0.00   0.5   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs5_c20_j01_f_10  0.01   0.00   0.6   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs5_c20_j01_f_10  0.01   0.00   0.7   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs5_c20_j01_f_10  0.01   0.00   0.8   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs5_c20_j01_f_10  0.01   0.00   0.9   0.5   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs5_c20_j01_f_10  0.01   0.00   1.0   0.5   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs5_c10_j01_f_10  0.01   0.00   0.0   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs5_c10_j01_f_10  0.01   0.00   0.1   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs5_c10_j01_f_10  0.01   0.00   0.2   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs5_c10_j01_f_10  0.01   0.00   0.3   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs5_c10_j01_f_10  0.01   0.00   0.4   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs5_c10_j01_f_10  0.01   0.00   0.5   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs5_c10_j01_f_10  0.01   0.00   0.6   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs5_c10_j01_f_10  0.01   0.00   0.7   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs5_c10_j01_f_10  0.01   0.00   0.8   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs5_c10_j01_f_10  0.01   0.00   0.9   0.5   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs5_c10_j01_f_10  0.01   0.00   1.0   0.5   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.6, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs6_c20_j01_f_10  0.01   0.00   0.0   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs6_c20_j01_f_10  0.01   0.00   0.1   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs6_c20_j01_f_10  0.01   0.00   0.2   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs6_c20_j01_f_10  0.01   0.00   0.3   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs6_c20_j01_f_10  0.01   0.00   0.4   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs6_c20_j01_f_10  0.01   0.00   0.5   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs6_c20_j01_f_10  0.01   0.00   0.6   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs6_c20_j01_f_10  0.01   0.00   0.7   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs6_c20_j01_f_10  0.01   0.00   0.8   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs6_c20_j01_f_10  0.01   0.00   0.9   0.6   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs6_c20_j01_f_10  0.01   0.00   1.0   0.6   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs6_c10_j01_f_10  0.01   0.00   0.0   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs6_c10_j01_f_10  0.01   0.00   0.1   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs6_c10_j01_f_10  0.01   0.00   0.2   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs6_c10_j01_f_10  0.01   0.00   0.3   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs6_c10_j01_f_10  0.01   0.00   0.4   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs6_c10_j01_f_10  0.01   0.00   0.5   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs6_c10_j01_f_10  0.01   0.00   0.6   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs6_c10_j01_f_10  0.01   0.00   0.7   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs6_c10_j01_f_10  0.01   0.00   0.8   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs6_c10_j01_f_10  0.01   0.00   0.9   0.6   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs6_c10_j01_f_10  0.01   0.00   1.0   0.6   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.7, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs7_c20_j01_f_10  0.01   0.00   0.0   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs7_c20_j01_f_10  0.01   0.00   0.1   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs7_c20_j01_f_10  0.01   0.00   0.2   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs7_c20_j01_f_10  0.01   0.00   0.3   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs7_c20_j01_f_10  0.01   0.00   0.4   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs7_c20_j01_f_10  0.01   0.00   0.5   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs7_c20_j01_f_10  0.01   0.00   0.6   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs7_c20_j01_f_10  0.01   0.00   0.7   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs7_c20_j01_f_10  0.01   0.00   0.8   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs7_c20_j01_f_10  0.01   0.00   0.9   0.7   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs7_c20_j01_f_10  0.01   0.00   1.0   0.7   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs7_c10_j01_f_10  0.01   0.00   0.0   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs7_c10_j01_f_10  0.01   0.00   0.1   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs7_c10_j01_f_10  0.01   0.00   0.2   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs7_c10_j01_f_10  0.01   0.00   0.3   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs7_c10_j01_f_10  0.01   0.00   0.4   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs7_c10_j01_f_10  0.01   0.00   0.5   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs7_c10_j01_f_10  0.01   0.00   0.6   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs7_c10_j01_f_10  0.01   0.00   0.7   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs7_c10_j01_f_10  0.01   0.00   0.8   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs7_c10_j01_f_10  0.01   0.00   0.9   0.7   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs7_c10_j01_f_10  0.01   0.00   1.0   0.7   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.8, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs8_c20_j01_f_10  0.01   0.00   0.0   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs8_c20_j01_f_10  0.01   0.00   0.1   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs8_c20_j01_f_10  0.01   0.00   0.2   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs8_c20_j01_f_10  0.01   0.00   0.3   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs8_c20_j01_f_10  0.01   0.00   0.4   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs8_c20_j01_f_10  0.01   0.00   0.5   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs8_c20_j01_f_10  0.01   0.00   0.6   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs8_c20_j01_f_10  0.01   0.00   0.7   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs8_c20_j01_f_10  0.01   0.00   0.8   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs8_c20_j01_f_10  0.01   0.00   0.9   0.8   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs8_c20_j01_f_10  0.01   0.00   1.0   0.8   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs8_c10_j01_f_10  0.01   0.00   0.0   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs8_c10_j01_f_10  0.01   0.00   0.1   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs8_c10_j01_f_10  0.01   0.00   0.2   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs8_c10_j01_f_10  0.01   0.00   0.3   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs8_c10_j01_f_10  0.01   0.00   0.4   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs8_c10_j01_f_10  0.01   0.00   0.5   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs8_c10_j01_f_10  0.01   0.00   0.6   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs8_c10_j01_f_10  0.01   0.00   0.7   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs8_c10_j01_f_10  0.01   0.00   0.8   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs8_c10_j01_f_10  0.01   0.00   0.9   0.8   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs8_c10_j01_f_10  0.01   0.00   1.0   0.8   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 0.9, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs9_c20_j01_f_10  0.01   0.00   0.0   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs9_c20_j01_f_10  0.01   0.00   0.1   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs9_c20_j01_f_10  0.01   0.00   0.2   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs9_c20_j01_f_10  0.01   0.00   0.3   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs9_c20_j01_f_10  0.01   0.00   0.4   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs9_c20_j01_f_10  0.01   0.00   0.5   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs9_c20_j01_f_10  0.01   0.00   0.6   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs9_c20_j01_f_10  0.01   0.00   0.7   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs9_c20_j01_f_10  0.01   0.00   0.8   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs9_c20_j01_f_10  0.01   0.00   0.9   0.9   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs9_c20_j01_f_10  0.01   0.00   1.0   0.9   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs9_c10_j01_f_10  0.01   0.00   0.0   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs9_c10_j01_f_10  0.01   0.00   0.1   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs9_c10_j01_f_10  0.01   0.00   0.2   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs9_c10_j01_f_10  0.01   0.00   0.3   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs9_c10_j01_f_10  0.01   0.00   0.4   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs9_c10_j01_f_10  0.01   0.00   0.5   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs9_c10_j01_f_10  0.01   0.00   0.6   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs9_c10_j01_f_10  0.01   0.00   0.7   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs9_c10_j01_f_10  0.01   0.00   0.8   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs9_c10_j01_f_10  0.01   0.00   0.9   0.9   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs9_c10_j01_f_10  0.01   0.00   1.0   0.9   3   0.10    0.00    0.1
 
 
 # varying dispersal, bs = 1.0, bf = 3, f_cost = 1/10, s_cost = 0, jsw = 0.1
 #                                                            mu_f   mu_s   d     bs    bf  f_cost  s_cost  jsw
-./build/MutualismIBM file_set_intergen3_d00_bs10_c20_j01_f_10  0.01   0.00   0.0   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d01_bs10_c20_j01_f_10  0.01   0.00   0.1   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d02_bs10_c20_j01_f_10  0.01   0.00   0.2   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d03_bs10_c20_j01_f_10  0.01   0.00   0.3   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d04_bs10_c20_j01_f_10  0.01   0.00   0.4   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d05_bs10_c20_j01_f_10  0.01   0.00   0.5   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d06_bs10_c20_j01_f_10  0.01   0.00   0.6   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d07_bs10_c20_j01_f_10  0.01   0.00   0.7   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d08_bs10_c20_j01_f_10  0.01   0.00   0.8   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d09_bs10_c20_j01_f_10  0.01   0.00   0.9   1.0   3   0.10    0.00    0.1 &
-./build/MutualismIBM file_set_intergen3_d10_bs10_c20_j01_f_10  0.01   0.00   1.0   1.0   3   0.10    0.00    0.1
+./build/MutualismIBM file_set_intergen3_d00_bs10_c10_j01_f_10  0.01   0.00   0.0   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d01_bs10_c10_j01_f_10  0.01   0.00   0.1   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d02_bs10_c10_j01_f_10  0.01   0.00   0.2   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d03_bs10_c10_j01_f_10  0.01   0.00   0.3   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d04_bs10_c10_j01_f_10  0.01   0.00   0.4   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d05_bs10_c10_j01_f_10  0.01   0.00   0.5   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d06_bs10_c10_j01_f_10  0.01   0.00   0.6   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d07_bs10_c10_j01_f_10  0.01   0.00   0.7   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d08_bs10_c10_j01_f_10  0.01   0.00   0.8   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d09_bs10_c10_j01_f_10  0.01   0.00   0.9   1.0   3   0.10    0.00    0.1 &
+./build/MutualismIBM file_set_intergen3_d10_bs10_c10_j01_f_10  0.01   0.00   1.0   1.0   3   0.10    0.00    0.1
 
