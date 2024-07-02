@@ -16,7 +16,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c02_f_1   4     0.2   0.50   &
 ./build/MutualismIBM file_set_npp4_bs03_c02_f_1   4     0.3   0.50   &
 ./build/MutualismIBM file_set_npp4_bs04_c02_f_1   4     0.4   0.50   &
-./build/MutualismIBM file_set_npp4_bs05_c02_f_1   4     0.5   0.50   &
+./build/MutualismIBM file_set_npp4_bs05_c02_f_1   4     0.5   0.50   
 ./build/MutualismIBM file_set_npp4_bs06_c02_f_1   4     0.6   0.50   &
 ./build/MutualismIBM file_set_npp4_bs07_c02_f_1   4     0.7   0.50   &
 ./build/MutualismIBM file_set_npp4_bs08_c02_f_1   4     0.8   0.50   &
@@ -32,7 +32,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c03_f_1   4     0.2   0.333  &
 ./build/MutualismIBM file_set_npp4_bs03_c03_f_1   4     0.3   0.333  &
 ./build/MutualismIBM file_set_npp4_bs04_c03_f_1   4     0.4   0.333  &
-./build/MutualismIBM file_set_npp4_bs05_c03_f_1   4     0.5   0.333  &
+./build/MutualismIBM file_set_npp4_bs05_c03_f_1   4     0.5   0.333  
 ./build/MutualismIBM file_set_npp4_bs06_c03_f_1   4     0.6   0.333  &
 ./build/MutualismIBM file_set_npp4_bs07_c03_f_1   4     0.7   0.333  &
 ./build/MutualismIBM file_set_npp4_bs08_c03_f_1   4     0.8   0.333  &
@@ -48,7 +48,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c04_f_1   4     0.2   0.25   &
 ./build/MutualismIBM file_set_npp4_bs03_c04_f_1   4     0.3   0.25   &
 ./build/MutualismIBM file_set_npp4_bs04_c04_f_1   4     0.4   0.25   &
-./build/MutualismIBM file_set_npp4_bs05_c04_f_1   4     0.5   0.25   &
+./build/MutualismIBM file_set_npp4_bs05_c04_f_1   4     0.5   0.25   
 ./build/MutualismIBM file_set_npp4_bs06_c04_f_1   4     0.6   0.25   &
 ./build/MutualismIBM file_set_npp4_bs07_c04_f_1   4     0.7   0.25   &
 ./build/MutualismIBM file_set_npp4_bs08_c04_f_1   4     0.8   0.25   &
@@ -64,7 +64,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c05_f_1   4     0.2   0.20   &
 ./build/MutualismIBM file_set_npp4_bs03_c05_f_1   4     0.3   0.20   &
 ./build/MutualismIBM file_set_npp4_bs04_c05_f_1   4     0.4   0.20   &
-./build/MutualismIBM file_set_npp4_bs05_c05_f_1   4     0.5   0.20   &
+./build/MutualismIBM file_set_npp4_bs05_c05_f_1   4     0.5   0.20   
 ./build/MutualismIBM file_set_npp4_bs06_c05_f_1   4     0.6   0.20   &
 ./build/MutualismIBM file_set_npp4_bs07_c05_f_1   4     0.7   0.20   &
 ./build/MutualismIBM file_set_npp4_bs08_c05_f_1   4     0.8   0.20   &
@@ -80,7 +80,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c06_f_1   4     0.2   0.167  &
 ./build/MutualismIBM file_set_npp4_bs03_c06_f_1   4     0.3   0.167  &
 ./build/MutualismIBM file_set_npp4_bs04_c06_f_1   4     0.4   0.167  &
-./build/MutualismIBM file_set_npp4_bs05_c06_f_1   4     0.5   0.167  &
+./build/MutualismIBM file_set_npp4_bs05_c06_f_1   4     0.5   0.167  
 ./build/MutualismIBM file_set_npp4_bs06_c06_f_1   4     0.6   0.167  &
 ./build/MutualismIBM file_set_npp4_bs07_c06_f_1   4     0.7   0.167  &
 ./build/MutualismIBM file_set_npp4_bs08_c06_f_1   4     0.8   0.167  &
@@ -96,7 +96,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c07_f_1   4     0.2   0.143  &
 ./build/MutualismIBM file_set_npp4_bs03_c07_f_1   4     0.3   0.143  &
 ./build/MutualismIBM file_set_npp4_bs04_c07_f_1   4     0.4   0.143  &
-./build/MutualismIBM file_set_npp4_bs05_c07_f_1   4     0.5   0.143  &
+./build/MutualismIBM file_set_npp4_bs05_c07_f_1   4     0.5   0.143  
 ./build/MutualismIBM file_set_npp4_bs06_c07_f_1   4     0.6   0.143  &
 ./build/MutualismIBM file_set_npp4_bs07_c07_f_1   4     0.7   0.143  &
 ./build/MutualismIBM file_set_npp4_bs08_c07_f_1   4     0.8   0.143  &
@@ -115,7 +115,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c02_f_1   5     0.2   0.50   &
 ./build/MutualismIBM file_set_npp5_bs03_c02_f_1   5     0.3   0.50   &
 ./build/MutualismIBM file_set_npp5_bs04_c02_f_1   5     0.4   0.50   &
-./build/MutualismIBM file_set_npp5_bs05_c02_f_1   5     0.5   0.50   &
+./build/MutualismIBM file_set_npp5_bs05_c02_f_1   5     0.5   0.50   
 ./build/MutualismIBM file_set_npp5_bs06_c02_f_1   5     0.6   0.50   &
 ./build/MutualismIBM file_set_npp5_bs07_c02_f_1   5     0.7   0.50   &
 ./build/MutualismIBM file_set_npp5_bs08_c02_f_1   5     0.8   0.50   &
@@ -131,7 +131,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c03_f_1   5     0.2   0.333  &
 ./build/MutualismIBM file_set_npp5_bs03_c03_f_1   5     0.3   0.333  &
 ./build/MutualismIBM file_set_npp5_bs04_c03_f_1   5     0.4   0.333  &
-./build/MutualismIBM file_set_npp5_bs05_c03_f_1   5     0.5   0.333  &
+./build/MutualismIBM file_set_npp5_bs05_c03_f_1   5     0.5   0.333  
 ./build/MutualismIBM file_set_npp5_bs06_c03_f_1   5     0.6   0.333  &
 ./build/MutualismIBM file_set_npp5_bs07_c03_f_1   5     0.7   0.333  &
 ./build/MutualismIBM file_set_npp5_bs08_c03_f_1   5     0.8   0.333  &
@@ -147,7 +147,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c04_f_1   5     0.2   0.25   &
 ./build/MutualismIBM file_set_npp5_bs03_c04_f_1   5     0.3   0.25   &
 ./build/MutualismIBM file_set_npp5_bs04_c04_f_1   5     0.4   0.25   &
-./build/MutualismIBM file_set_npp5_bs05_c04_f_1   5     0.5   0.25   &
+./build/MutualismIBM file_set_npp5_bs05_c04_f_1   5     0.5   0.25   
 ./build/MutualismIBM file_set_npp5_bs06_c04_f_1   5     0.6   0.25   &
 ./build/MutualismIBM file_set_npp5_bs07_c04_f_1   5     0.7   0.25   &
 ./build/MutualismIBM file_set_npp5_bs08_c04_f_1   5     0.8   0.25   &
@@ -163,7 +163,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c05_f_1   5     0.2   0.20   &
 ./build/MutualismIBM file_set_npp5_bs03_c05_f_1   5     0.3   0.20   &
 ./build/MutualismIBM file_set_npp5_bs04_c05_f_1   5     0.4   0.20   &
-./build/MutualismIBM file_set_npp5_bs05_c05_f_1   5     0.5   0.20   &
+./build/MutualismIBM file_set_npp5_bs05_c05_f_1   5     0.5   0.20   
 ./build/MutualismIBM file_set_npp5_bs06_c05_f_1   5     0.6   0.20   &
 ./build/MutualismIBM file_set_npp5_bs07_c05_f_1   5     0.7   0.20   &
 ./build/MutualismIBM file_set_npp5_bs08_c05_f_1   5     0.8   0.20   &
@@ -179,7 +179,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c06_f_1   5     0.2   0.167  &
 ./build/MutualismIBM file_set_npp5_bs03_c06_f_1   5     0.3   0.167  &
 ./build/MutualismIBM file_set_npp5_bs04_c06_f_1   5     0.4   0.167  &
-./build/MutualismIBM file_set_npp5_bs05_c06_f_1   5     0.5   0.167  &
+./build/MutualismIBM file_set_npp5_bs05_c06_f_1   5     0.5   0.167  
 ./build/MutualismIBM file_set_npp5_bs06_c06_f_1   5     0.6   0.167  &
 ./build/MutualismIBM file_set_npp5_bs07_c06_f_1   5     0.7   0.167  &
 ./build/MutualismIBM file_set_npp5_bs08_c06_f_1   5     0.8   0.167  &
@@ -195,7 +195,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c07_f_1   5     0.2   0.143  &
 ./build/MutualismIBM file_set_npp5_bs03_c07_f_1   5     0.3   0.143  &
 ./build/MutualismIBM file_set_npp5_bs04_c07_f_1   5     0.4   0.143  &
-./build/MutualismIBM file_set_npp5_bs05_c07_f_1   5     0.5   0.143  &
+./build/MutualismIBM file_set_npp5_bs05_c07_f_1   5     0.5   0.143  
 ./build/MutualismIBM file_set_npp5_bs06_c07_f_1   5     0.6   0.143  &
 ./build/MutualismIBM file_set_npp5_bs07_c07_f_1   5     0.7   0.143  &
 ./build/MutualismIBM file_set_npp5_bs08_c07_f_1   5     0.8   0.143  &
@@ -214,7 +214,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c02_f_1   6     0.2   0.50   &
 ./build/MutualismIBM file_set_npp6_bs03_c02_f_1   6     0.3   0.50   &
 ./build/MutualismIBM file_set_npp6_bs04_c02_f_1   6     0.4   0.50   &
-./build/MutualismIBM file_set_npp6_bs05_c02_f_1   6     0.5   0.50   &
+./build/MutualismIBM file_set_npp6_bs05_c02_f_1   6     0.5   0.50   
 ./build/MutualismIBM file_set_npp6_bs06_c02_f_1   6     0.6   0.50   &
 ./build/MutualismIBM file_set_npp6_bs07_c02_f_1   6     0.7   0.50   &
 ./build/MutualismIBM file_set_npp6_bs08_c02_f_1   6     0.8   0.50   &
@@ -230,7 +230,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c03_f_1   6     0.2   0.333  &
 ./build/MutualismIBM file_set_npp6_bs03_c03_f_1   6     0.3   0.333  &
 ./build/MutualismIBM file_set_npp6_bs04_c03_f_1   6     0.4   0.333  &
-./build/MutualismIBM file_set_npp6_bs05_c03_f_1   6     0.5   0.333  &
+./build/MutualismIBM file_set_npp6_bs05_c03_f_1   6     0.5   0.333  
 ./build/MutualismIBM file_set_npp6_bs06_c03_f_1   6     0.6   0.333  &
 ./build/MutualismIBM file_set_npp6_bs07_c03_f_1   6     0.7   0.333  &
 ./build/MutualismIBM file_set_npp6_bs08_c03_f_1   6     0.8   0.333  &
@@ -246,7 +246,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c04_f_1   6     0.2   0.25   &
 ./build/MutualismIBM file_set_npp6_bs03_c04_f_1   6     0.3   0.25   &
 ./build/MutualismIBM file_set_npp6_bs04_c04_f_1   6     0.4   0.25   &
-./build/MutualismIBM file_set_npp6_bs05_c04_f_1   6     0.5   0.25   &
+./build/MutualismIBM file_set_npp6_bs05_c04_f_1   6     0.5   0.25   
 ./build/MutualismIBM file_set_npp6_bs06_c04_f_1   6     0.6   0.25   &
 ./build/MutualismIBM file_set_npp6_bs07_c04_f_1   6     0.7   0.25   &
 ./build/MutualismIBM file_set_npp6_bs08_c04_f_1   6     0.8   0.25   &
@@ -262,7 +262,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c05_f_1   6     0.2   0.20   &
 ./build/MutualismIBM file_set_npp6_bs03_c05_f_1   6     0.3   0.20   &
 ./build/MutualismIBM file_set_npp6_bs04_c05_f_1   6     0.4   0.20   &
-./build/MutualismIBM file_set_npp6_bs05_c05_f_1   6     0.5   0.20   &
+./build/MutualismIBM file_set_npp6_bs05_c05_f_1   6     0.5   0.20   
 ./build/MutualismIBM file_set_npp6_bs06_c05_f_1   6     0.6   0.20   &
 ./build/MutualismIBM file_set_npp6_bs07_c05_f_1   6     0.7   0.20   &
 ./build/MutualismIBM file_set_npp6_bs08_c05_f_1   6     0.8   0.20   &
@@ -278,7 +278,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c06_f_1   6     0.2   0.167  &
 ./build/MutualismIBM file_set_npp6_bs03_c06_f_1   6     0.3   0.167  &
 ./build/MutualismIBM file_set_npp6_bs04_c06_f_1   6     0.4   0.167  &
-./build/MutualismIBM file_set_npp6_bs05_c06_f_1   6     0.5   0.167  &
+./build/MutualismIBM file_set_npp6_bs05_c06_f_1   6     0.5   0.167  
 ./build/MutualismIBM file_set_npp6_bs06_c06_f_1   6     0.6   0.167  &
 ./build/MutualismIBM file_set_npp6_bs07_c06_f_1   6     0.7   0.167  &
 ./build/MutualismIBM file_set_npp6_bs08_c06_f_1   6     0.8   0.167  &
@@ -294,7 +294,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c07_f_1   6     0.2   0.143  &
 ./build/MutualismIBM file_set_npp6_bs03_c07_f_1   6     0.3   0.143  &
 ./build/MutualismIBM file_set_npp6_bs04_c07_f_1   6     0.4   0.143  &
-./build/MutualismIBM file_set_npp6_bs05_c07_f_1   6     0.5   0.143  &
+./build/MutualismIBM file_set_npp6_bs05_c07_f_1   6     0.5   0.143  
 ./build/MutualismIBM file_set_npp6_bs06_c07_f_1   6     0.6   0.143  &
 ./build/MutualismIBM file_set_npp6_bs07_c07_f_1   6     0.7   0.143  &
 ./build/MutualismIBM file_set_npp6_bs08_c07_f_1   6     0.8   0.143  &
@@ -316,7 +316,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c02_f_2   4     0.2   0.50   &
 ./build/MutualismIBM file_set_npp4_bs03_c02_f_2   4     0.3   0.50   &
 ./build/MutualismIBM file_set_npp4_bs04_c02_f_2   4     0.4   0.50   &
-./build/MutualismIBM file_set_npp4_bs05_c02_f_2   4     0.5   0.50   &
+./build/MutualismIBM file_set_npp4_bs05_c02_f_2   4     0.5   0.50   
 ./build/MutualismIBM file_set_npp4_bs06_c02_f_2   4     0.6   0.50   &
 ./build/MutualismIBM file_set_npp4_bs07_c02_f_2   4     0.7   0.50   &
 ./build/MutualismIBM file_set_npp4_bs08_c02_f_2   4     0.8   0.50   &
@@ -332,7 +332,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c03_f_2   4     0.2   0.333  &
 ./build/MutualismIBM file_set_npp4_bs03_c03_f_2   4     0.3   0.333  &
 ./build/MutualismIBM file_set_npp4_bs04_c03_f_2   4     0.4   0.333  &
-./build/MutualismIBM file_set_npp4_bs05_c03_f_2   4     0.5   0.333  &
+./build/MutualismIBM file_set_npp4_bs05_c03_f_2   4     0.5   0.333  
 ./build/MutualismIBM file_set_npp4_bs06_c03_f_2   4     0.6   0.333  &
 ./build/MutualismIBM file_set_npp4_bs07_c03_f_2   4     0.7   0.333  &
 ./build/MutualismIBM file_set_npp4_bs08_c03_f_2   4     0.8   0.333  &
@@ -348,7 +348,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c04_f_2   4     0.2   0.25   &
 ./build/MutualismIBM file_set_npp4_bs03_c04_f_2   4     0.3   0.25   &
 ./build/MutualismIBM file_set_npp4_bs04_c04_f_2   4     0.4   0.25   &
-./build/MutualismIBM file_set_npp4_bs05_c04_f_2   4     0.5   0.25   &
+./build/MutualismIBM file_set_npp4_bs05_c04_f_2   4     0.5   0.25   
 ./build/MutualismIBM file_set_npp4_bs06_c04_f_2   4     0.6   0.25   &
 ./build/MutualismIBM file_set_npp4_bs07_c04_f_2   4     0.7   0.25   &
 ./build/MutualismIBM file_set_npp4_bs08_c04_f_2   4     0.8   0.25   &
@@ -364,7 +364,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c05_f_2   4     0.2   0.20   &
 ./build/MutualismIBM file_set_npp4_bs03_c05_f_2   4     0.3   0.20   &
 ./build/MutualismIBM file_set_npp4_bs04_c05_f_2   4     0.4   0.20   &
-./build/MutualismIBM file_set_npp4_bs05_c05_f_2   4     0.5   0.20   &
+./build/MutualismIBM file_set_npp4_bs05_c05_f_2   4     0.5   0.20   
 ./build/MutualismIBM file_set_npp4_bs06_c05_f_2   4     0.6   0.20   &
 ./build/MutualismIBM file_set_npp4_bs07_c05_f_2   4     0.7   0.20   &
 ./build/MutualismIBM file_set_npp4_bs08_c05_f_2   4     0.8   0.20   &
@@ -380,7 +380,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c06_f_2   4     0.2   0.167  &
 ./build/MutualismIBM file_set_npp4_bs03_c06_f_2   4     0.3   0.167  &
 ./build/MutualismIBM file_set_npp4_bs04_c06_f_2   4     0.4   0.167  &
-./build/MutualismIBM file_set_npp4_bs05_c06_f_2   4     0.5   0.167  &
+./build/MutualismIBM file_set_npp4_bs05_c06_f_2   4     0.5   0.167  
 ./build/MutualismIBM file_set_npp4_bs06_c06_f_2   4     0.6   0.167  &
 ./build/MutualismIBM file_set_npp4_bs07_c06_f_2   4     0.7   0.167  &
 ./build/MutualismIBM file_set_npp4_bs08_c06_f_2   4     0.8   0.167  &
@@ -396,7 +396,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c07_f_2   4     0.2   0.143  &
 ./build/MutualismIBM file_set_npp4_bs03_c07_f_2   4     0.3   0.143  &
 ./build/MutualismIBM file_set_npp4_bs04_c07_f_2   4     0.4   0.143  &
-./build/MutualismIBM file_set_npp4_bs05_c07_f_2   4     0.5   0.143  &
+./build/MutualismIBM file_set_npp4_bs05_c07_f_2   4     0.5   0.143  
 ./build/MutualismIBM file_set_npp4_bs06_c07_f_2   4     0.6   0.143  &
 ./build/MutualismIBM file_set_npp4_bs07_c07_f_2   4     0.7   0.143  &
 ./build/MutualismIBM file_set_npp4_bs08_c07_f_2   4     0.8   0.143  &
@@ -415,7 +415,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c02_f_2   5     0.2   0.50   &
 ./build/MutualismIBM file_set_npp5_bs03_c02_f_2   5     0.3   0.50   &
 ./build/MutualismIBM file_set_npp5_bs04_c02_f_2   5     0.4   0.50   &
-./build/MutualismIBM file_set_npp5_bs05_c02_f_2   5     0.5   0.50   &
+./build/MutualismIBM file_set_npp5_bs05_c02_f_2   5     0.5   0.50   
 ./build/MutualismIBM file_set_npp5_bs06_c02_f_2   5     0.6   0.50   &
 ./build/MutualismIBM file_set_npp5_bs07_c02_f_2   5     0.7   0.50   &
 ./build/MutualismIBM file_set_npp5_bs08_c02_f_2   5     0.8   0.50   &
@@ -431,7 +431,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c03_f_2   5     0.2   0.333  &
 ./build/MutualismIBM file_set_npp5_bs03_c03_f_2   5     0.3   0.333  &
 ./build/MutualismIBM file_set_npp5_bs04_c03_f_2   5     0.4   0.333  &
-./build/MutualismIBM file_set_npp5_bs05_c03_f_2   5     0.5   0.333  &
+./build/MutualismIBM file_set_npp5_bs05_c03_f_2   5     0.5   0.333  
 ./build/MutualismIBM file_set_npp5_bs06_c03_f_2   5     0.6   0.333  &
 ./build/MutualismIBM file_set_npp5_bs07_c03_f_2   5     0.7   0.333  &
 ./build/MutualismIBM file_set_npp5_bs08_c03_f_2   5     0.8   0.333  &
@@ -447,7 +447,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c04_f_2   5     0.2   0.25   &
 ./build/MutualismIBM file_set_npp5_bs03_c04_f_2   5     0.3   0.25   &
 ./build/MutualismIBM file_set_npp5_bs04_c04_f_2   5     0.4   0.25   &
-./build/MutualismIBM file_set_npp5_bs05_c04_f_2   5     0.5   0.25   &
+./build/MutualismIBM file_set_npp5_bs05_c04_f_2   5     0.5   0.25   
 ./build/MutualismIBM file_set_npp5_bs06_c04_f_2   5     0.6   0.25   &
 ./build/MutualismIBM file_set_npp5_bs07_c04_f_2   5     0.7   0.25   &
 ./build/MutualismIBM file_set_npp5_bs08_c04_f_2   5     0.8   0.25   &
@@ -463,7 +463,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c05_f_2   5     0.2   0.20   &
 ./build/MutualismIBM file_set_npp5_bs03_c05_f_2   5     0.3   0.20   &
 ./build/MutualismIBM file_set_npp5_bs04_c05_f_2   5     0.4   0.20   &
-./build/MutualismIBM file_set_npp5_bs05_c05_f_2   5     0.5   0.20   &
+./build/MutualismIBM file_set_npp5_bs05_c05_f_2   5     0.5   0.20   
 ./build/MutualismIBM file_set_npp5_bs06_c05_f_2   5     0.6   0.20   &
 ./build/MutualismIBM file_set_npp5_bs07_c05_f_2   5     0.7   0.20   &
 ./build/MutualismIBM file_set_npp5_bs08_c05_f_2   5     0.8   0.20   &
@@ -479,7 +479,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c06_f_2   5     0.2   0.167  &
 ./build/MutualismIBM file_set_npp5_bs03_c06_f_2   5     0.3   0.167  &
 ./build/MutualismIBM file_set_npp5_bs04_c06_f_2   5     0.4   0.167  &
-./build/MutualismIBM file_set_npp5_bs05_c06_f_2   5     0.5   0.167  &
+./build/MutualismIBM file_set_npp5_bs05_c06_f_2   5     0.5   0.167  
 ./build/MutualismIBM file_set_npp5_bs06_c06_f_2   5     0.6   0.167  &
 ./build/MutualismIBM file_set_npp5_bs07_c06_f_2   5     0.7   0.167  &
 ./build/MutualismIBM file_set_npp5_bs08_c06_f_2   5     0.8   0.167  &
@@ -495,7 +495,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c07_f_2   5     0.2   0.143  &
 ./build/MutualismIBM file_set_npp5_bs03_c07_f_2   5     0.3   0.143  &
 ./build/MutualismIBM file_set_npp5_bs04_c07_f_2   5     0.4   0.143  &
-./build/MutualismIBM file_set_npp5_bs05_c07_f_2   5     0.5   0.143  &
+./build/MutualismIBM file_set_npp5_bs05_c07_f_2   5     0.5   0.143  
 ./build/MutualismIBM file_set_npp5_bs06_c07_f_2   5     0.6   0.143  &
 ./build/MutualismIBM file_set_npp5_bs07_c07_f_2   5     0.7   0.143  &
 ./build/MutualismIBM file_set_npp5_bs08_c07_f_2   5     0.8   0.143  &
@@ -514,7 +514,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c02_f_2   6     0.2   0.50   &
 ./build/MutualismIBM file_set_npp6_bs03_c02_f_2   6     0.3   0.50   &
 ./build/MutualismIBM file_set_npp6_bs04_c02_f_2   6     0.4   0.50   &
-./build/MutualismIBM file_set_npp6_bs05_c02_f_2   6     0.5   0.50   &
+./build/MutualismIBM file_set_npp6_bs05_c02_f_2   6     0.5   0.50   
 ./build/MutualismIBM file_set_npp6_bs06_c02_f_2   6     0.6   0.50   &
 ./build/MutualismIBM file_set_npp6_bs07_c02_f_2   6     0.7   0.50   &
 ./build/MutualismIBM file_set_npp6_bs08_c02_f_2   6     0.8   0.50   &
@@ -530,7 +530,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c03_f_2   6     0.2   0.333  &
 ./build/MutualismIBM file_set_npp6_bs03_c03_f_2   6     0.3   0.333  &
 ./build/MutualismIBM file_set_npp6_bs04_c03_f_2   6     0.4   0.333  &
-./build/MutualismIBM file_set_npp6_bs05_c03_f_2   6     0.5   0.333  &
+./build/MutualismIBM file_set_npp6_bs05_c03_f_2   6     0.5   0.333  
 ./build/MutualismIBM file_set_npp6_bs06_c03_f_2   6     0.6   0.333  &
 ./build/MutualismIBM file_set_npp6_bs07_c03_f_2   6     0.7   0.333  &
 ./build/MutualismIBM file_set_npp6_bs08_c03_f_2   6     0.8   0.333  &
@@ -546,7 +546,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c04_f_2   6     0.2   0.25   &
 ./build/MutualismIBM file_set_npp6_bs03_c04_f_2   6     0.3   0.25   &
 ./build/MutualismIBM file_set_npp6_bs04_c04_f_2   6     0.4   0.25   &
-./build/MutualismIBM file_set_npp6_bs05_c04_f_2   6     0.5   0.25   &
+./build/MutualismIBM file_set_npp6_bs05_c04_f_2   6     0.5   0.25   
 ./build/MutualismIBM file_set_npp6_bs06_c04_f_2   6     0.6   0.25   &
 ./build/MutualismIBM file_set_npp6_bs07_c04_f_2   6     0.7   0.25   &
 ./build/MutualismIBM file_set_npp6_bs08_c04_f_2   6     0.8   0.25   &
@@ -562,7 +562,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c05_f_2   6     0.2   0.20   &
 ./build/MutualismIBM file_set_npp6_bs03_c05_f_2   6     0.3   0.20   &
 ./build/MutualismIBM file_set_npp6_bs04_c05_f_2   6     0.4   0.20   &
-./build/MutualismIBM file_set_npp6_bs05_c05_f_2   6     0.5   0.20   &
+./build/MutualismIBM file_set_npp6_bs05_c05_f_2   6     0.5   0.20   
 ./build/MutualismIBM file_set_npp6_bs06_c05_f_2   6     0.6   0.20   &
 ./build/MutualismIBM file_set_npp6_bs07_c05_f_2   6     0.7   0.20   &
 ./build/MutualismIBM file_set_npp6_bs08_c05_f_2   6     0.8   0.20   &
@@ -578,7 +578,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c06_f_2   6     0.2   0.167  &
 ./build/MutualismIBM file_set_npp6_bs03_c06_f_2   6     0.3   0.167  &
 ./build/MutualismIBM file_set_npp6_bs04_c06_f_2   6     0.4   0.167  &
-./build/MutualismIBM file_set_npp6_bs05_c06_f_2   6     0.5   0.167  &
+./build/MutualismIBM file_set_npp6_bs05_c06_f_2   6     0.5   0.167  
 ./build/MutualismIBM file_set_npp6_bs06_c06_f_2   6     0.6   0.167  &
 ./build/MutualismIBM file_set_npp6_bs07_c06_f_2   6     0.7   0.167  &
 ./build/MutualismIBM file_set_npp6_bs08_c06_f_2   6     0.8   0.167  &
@@ -594,7 +594,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c07_f_2   6     0.2   0.143  &
 ./build/MutualismIBM file_set_npp6_bs03_c07_f_2   6     0.3   0.143  &
 ./build/MutualismIBM file_set_npp6_bs04_c07_f_2   6     0.4   0.143  &
-./build/MutualismIBM file_set_npp6_bs05_c07_f_2   6     0.5   0.143  &
+./build/MutualismIBM file_set_npp6_bs05_c07_f_2   6     0.5   0.143  
 ./build/MutualismIBM file_set_npp6_bs06_c07_f_2   6     0.6   0.143  &
 ./build/MutualismIBM file_set_npp6_bs07_c07_f_2   6     0.7   0.143  &
 ./build/MutualismIBM file_set_npp6_bs08_c07_f_2   6     0.8   0.143  &
@@ -616,7 +616,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c02_f_3   4     0.2   0.50   &
 ./build/MutualismIBM file_set_npp4_bs03_c02_f_3   4     0.3   0.50   &
 ./build/MutualismIBM file_set_npp4_bs04_c02_f_3   4     0.4   0.50   &
-./build/MutualismIBM file_set_npp4_bs05_c02_f_3   4     0.5   0.50   &
+./build/MutualismIBM file_set_npp4_bs05_c02_f_3   4     0.5   0.50   
 ./build/MutualismIBM file_set_npp4_bs06_c02_f_3   4     0.6   0.50   &
 ./build/MutualismIBM file_set_npp4_bs07_c02_f_3   4     0.7   0.50   &
 ./build/MutualismIBM file_set_npp4_bs08_c02_f_3   4     0.8   0.50   &
@@ -632,7 +632,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c03_f_3   4     0.2   0.333  &
 ./build/MutualismIBM file_set_npp4_bs03_c03_f_3   4     0.3   0.333  &
 ./build/MutualismIBM file_set_npp4_bs04_c03_f_3   4     0.4   0.333  &
-./build/MutualismIBM file_set_npp4_bs05_c03_f_3   4     0.5   0.333  &
+./build/MutualismIBM file_set_npp4_bs05_c03_f_3   4     0.5   0.333  
 ./build/MutualismIBM file_set_npp4_bs06_c03_f_3   4     0.6   0.333  &
 ./build/MutualismIBM file_set_npp4_bs07_c03_f_3   4     0.7   0.333  &
 ./build/MutualismIBM file_set_npp4_bs08_c03_f_3   4     0.8   0.333  &
@@ -648,7 +648,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c04_f_3   4     0.2   0.25   &
 ./build/MutualismIBM file_set_npp4_bs03_c04_f_3   4     0.3   0.25   &
 ./build/MutualismIBM file_set_npp4_bs04_c04_f_3   4     0.4   0.25   &
-./build/MutualismIBM file_set_npp4_bs05_c04_f_3   4     0.5   0.25   &
+./build/MutualismIBM file_set_npp4_bs05_c04_f_3   4     0.5   0.25   
 ./build/MutualismIBM file_set_npp4_bs06_c04_f_3   4     0.6   0.25   &
 ./build/MutualismIBM file_set_npp4_bs07_c04_f_3   4     0.7   0.25   &
 ./build/MutualismIBM file_set_npp4_bs08_c04_f_3   4     0.8   0.25   &
@@ -664,7 +664,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c05_f_3   4     0.2   0.20   &
 ./build/MutualismIBM file_set_npp4_bs03_c05_f_3   4     0.3   0.20   &
 ./build/MutualismIBM file_set_npp4_bs04_c05_f_3   4     0.4   0.20   &
-./build/MutualismIBM file_set_npp4_bs05_c05_f_3   4     0.5   0.20   &
+./build/MutualismIBM file_set_npp4_bs05_c05_f_3   4     0.5   0.20   
 ./build/MutualismIBM file_set_npp4_bs06_c05_f_3   4     0.6   0.20   &
 ./build/MutualismIBM file_set_npp4_bs07_c05_f_3   4     0.7   0.20   &
 ./build/MutualismIBM file_set_npp4_bs08_c05_f_3   4     0.8   0.20   &
@@ -680,7 +680,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c06_f_3   4     0.2   0.167  &
 ./build/MutualismIBM file_set_npp4_bs03_c06_f_3   4     0.3   0.167  &
 ./build/MutualismIBM file_set_npp4_bs04_c06_f_3   4     0.4   0.167  &
-./build/MutualismIBM file_set_npp4_bs05_c06_f_3   4     0.5   0.167  &
+./build/MutualismIBM file_set_npp4_bs05_c06_f_3   4     0.5   0.167  
 ./build/MutualismIBM file_set_npp4_bs06_c06_f_3   4     0.6   0.167  &
 ./build/MutualismIBM file_set_npp4_bs07_c06_f_3   4     0.7   0.167  &
 ./build/MutualismIBM file_set_npp4_bs08_c06_f_3   4     0.8   0.167  &
@@ -696,7 +696,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c07_f_3   4     0.2   0.143  &
 ./build/MutualismIBM file_set_npp4_bs03_c07_f_3   4     0.3   0.143  &
 ./build/MutualismIBM file_set_npp4_bs04_c07_f_3   4     0.4   0.143  &
-./build/MutualismIBM file_set_npp4_bs05_c07_f_3   4     0.5   0.143  &
+./build/MutualismIBM file_set_npp4_bs05_c07_f_3   4     0.5   0.143  
 ./build/MutualismIBM file_set_npp4_bs06_c07_f_3   4     0.6   0.143  &
 ./build/MutualismIBM file_set_npp4_bs07_c07_f_3   4     0.7   0.143  &
 ./build/MutualismIBM file_set_npp4_bs08_c07_f_3   4     0.8   0.143  &
@@ -715,7 +715,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c02_f_3   5     0.2   0.50   &
 ./build/MutualismIBM file_set_npp5_bs03_c02_f_3   5     0.3   0.50   &
 ./build/MutualismIBM file_set_npp5_bs04_c02_f_3   5     0.4   0.50   &
-./build/MutualismIBM file_set_npp5_bs05_c02_f_3   5     0.5   0.50   &
+./build/MutualismIBM file_set_npp5_bs05_c02_f_3   5     0.5   0.50   
 ./build/MutualismIBM file_set_npp5_bs06_c02_f_3   5     0.6   0.50   &
 ./build/MutualismIBM file_set_npp5_bs07_c02_f_3   5     0.7   0.50   &
 ./build/MutualismIBM file_set_npp5_bs08_c02_f_3   5     0.8   0.50   &
@@ -731,7 +731,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c03_f_3   5     0.2   0.333  &
 ./build/MutualismIBM file_set_npp5_bs03_c03_f_3   5     0.3   0.333  &
 ./build/MutualismIBM file_set_npp5_bs04_c03_f_3   5     0.4   0.333  &
-./build/MutualismIBM file_set_npp5_bs05_c03_f_3   5     0.5   0.333  &
+./build/MutualismIBM file_set_npp5_bs05_c03_f_3   5     0.5   0.333  
 ./build/MutualismIBM file_set_npp5_bs06_c03_f_3   5     0.6   0.333  &
 ./build/MutualismIBM file_set_npp5_bs07_c03_f_3   5     0.7   0.333  &
 ./build/MutualismIBM file_set_npp5_bs08_c03_f_3   5     0.8   0.333  &
@@ -747,7 +747,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c04_f_3   5     0.2   0.25   &
 ./build/MutualismIBM file_set_npp5_bs03_c04_f_3   5     0.3   0.25   &
 ./build/MutualismIBM file_set_npp5_bs04_c04_f_3   5     0.4   0.25   &
-./build/MutualismIBM file_set_npp5_bs05_c04_f_3   5     0.5   0.25   &
+./build/MutualismIBM file_set_npp5_bs05_c04_f_3   5     0.5   0.25   
 ./build/MutualismIBM file_set_npp5_bs06_c04_f_3   5     0.6   0.25   &
 ./build/MutualismIBM file_set_npp5_bs07_c04_f_3   5     0.7   0.25   &
 ./build/MutualismIBM file_set_npp5_bs08_c04_f_3   5     0.8   0.25   &
@@ -763,7 +763,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c05_f_3   5     0.2   0.20   &
 ./build/MutualismIBM file_set_npp5_bs03_c05_f_3   5     0.3   0.20   &
 ./build/MutualismIBM file_set_npp5_bs04_c05_f_3   5     0.4   0.20   &
-./build/MutualismIBM file_set_npp5_bs05_c05_f_3   5     0.5   0.20   &
+./build/MutualismIBM file_set_npp5_bs05_c05_f_3   5     0.5   0.20   
 ./build/MutualismIBM file_set_npp5_bs06_c05_f_3   5     0.6   0.20   &
 ./build/MutualismIBM file_set_npp5_bs07_c05_f_3   5     0.7   0.20   &
 ./build/MutualismIBM file_set_npp5_bs08_c05_f_3   5     0.8   0.20   &
@@ -779,7 +779,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c06_f_3   5     0.2   0.167  &
 ./build/MutualismIBM file_set_npp5_bs03_c06_f_3   5     0.3   0.167  &
 ./build/MutualismIBM file_set_npp5_bs04_c06_f_3   5     0.4   0.167  &
-./build/MutualismIBM file_set_npp5_bs05_c06_f_3   5     0.5   0.167  &
+./build/MutualismIBM file_set_npp5_bs05_c06_f_3   5     0.5   0.167  
 ./build/MutualismIBM file_set_npp5_bs06_c06_f_3   5     0.6   0.167  &
 ./build/MutualismIBM file_set_npp5_bs07_c06_f_3   5     0.7   0.167  &
 ./build/MutualismIBM file_set_npp5_bs08_c06_f_3   5     0.8   0.167  &
@@ -795,7 +795,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c07_f_3   5     0.2   0.143  &
 ./build/MutualismIBM file_set_npp5_bs03_c07_f_3   5     0.3   0.143  &
 ./build/MutualismIBM file_set_npp5_bs04_c07_f_3   5     0.4   0.143  &
-./build/MutualismIBM file_set_npp5_bs05_c07_f_3   5     0.5   0.143  &
+./build/MutualismIBM file_set_npp5_bs05_c07_f_3   5     0.5   0.143  
 ./build/MutualismIBM file_set_npp5_bs06_c07_f_3   5     0.6   0.143  &
 ./build/MutualismIBM file_set_npp5_bs07_c07_f_3   5     0.7   0.143  &
 ./build/MutualismIBM file_set_npp5_bs08_c07_f_3   5     0.8   0.143  &
@@ -814,7 +814,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c02_f_3   6     0.2   0.50   &
 ./build/MutualismIBM file_set_npp6_bs03_c02_f_3   6     0.3   0.50   &
 ./build/MutualismIBM file_set_npp6_bs04_c02_f_3   6     0.4   0.50   &
-./build/MutualismIBM file_set_npp6_bs05_c02_f_3   6     0.5   0.50   &
+./build/MutualismIBM file_set_npp6_bs05_c02_f_3   6     0.5   0.50   
 ./build/MutualismIBM file_set_npp6_bs06_c02_f_3   6     0.6   0.50   &
 ./build/MutualismIBM file_set_npp6_bs07_c02_f_3   6     0.7   0.50   &
 ./build/MutualismIBM file_set_npp6_bs08_c02_f_3   6     0.8   0.50   &
@@ -830,7 +830,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c03_f_3   6     0.2   0.333  &
 ./build/MutualismIBM file_set_npp6_bs03_c03_f_3   6     0.3   0.333  &
 ./build/MutualismIBM file_set_npp6_bs04_c03_f_3   6     0.4   0.333  &
-./build/MutualismIBM file_set_npp6_bs05_c03_f_3   6     0.5   0.333  &
+./build/MutualismIBM file_set_npp6_bs05_c03_f_3   6     0.5   0.333  
 ./build/MutualismIBM file_set_npp6_bs06_c03_f_3   6     0.6   0.333  &
 ./build/MutualismIBM file_set_npp6_bs07_c03_f_3   6     0.7   0.333  &
 ./build/MutualismIBM file_set_npp6_bs08_c03_f_3   6     0.8   0.333  &
@@ -846,7 +846,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c04_f_3   6     0.2   0.25   &
 ./build/MutualismIBM file_set_npp6_bs03_c04_f_3   6     0.3   0.25   &
 ./build/MutualismIBM file_set_npp6_bs04_c04_f_3   6     0.4   0.25   &
-./build/MutualismIBM file_set_npp6_bs05_c04_f_3   6     0.5   0.25   &
+./build/MutualismIBM file_set_npp6_bs05_c04_f_3   6     0.5   0.25   
 ./build/MutualismIBM file_set_npp6_bs06_c04_f_3   6     0.6   0.25   &
 ./build/MutualismIBM file_set_npp6_bs07_c04_f_3   6     0.7   0.25   &
 ./build/MutualismIBM file_set_npp6_bs08_c04_f_3   6     0.8   0.25   &
@@ -862,7 +862,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c05_f_3   6     0.2   0.20   &
 ./build/MutualismIBM file_set_npp6_bs03_c05_f_3   6     0.3   0.20   &
 ./build/MutualismIBM file_set_npp6_bs04_c05_f_3   6     0.4   0.20   &
-./build/MutualismIBM file_set_npp6_bs05_c05_f_3   6     0.5   0.20   &
+./build/MutualismIBM file_set_npp6_bs05_c05_f_3   6     0.5   0.20   
 ./build/MutualismIBM file_set_npp6_bs06_c05_f_3   6     0.6   0.20   &
 ./build/MutualismIBM file_set_npp6_bs07_c05_f_3   6     0.7   0.20   &
 ./build/MutualismIBM file_set_npp6_bs08_c05_f_3   6     0.8   0.20   &
@@ -878,7 +878,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c06_f_3   6     0.2   0.167  &
 ./build/MutualismIBM file_set_npp6_bs03_c06_f_3   6     0.3   0.167  &
 ./build/MutualismIBM file_set_npp6_bs04_c06_f_3   6     0.4   0.167  &
-./build/MutualismIBM file_set_npp6_bs05_c06_f_3   6     0.5   0.167  &
+./build/MutualismIBM file_set_npp6_bs05_c06_f_3   6     0.5   0.167  
 ./build/MutualismIBM file_set_npp6_bs06_c06_f_3   6     0.6   0.167  &
 ./build/MutualismIBM file_set_npp6_bs07_c06_f_3   6     0.7   0.167  &
 ./build/MutualismIBM file_set_npp6_bs08_c06_f_3   6     0.8   0.167  &
@@ -894,7 +894,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c07_f_3   6     0.2   0.143  &
 ./build/MutualismIBM file_set_npp6_bs03_c07_f_3   6     0.3   0.143  &
 ./build/MutualismIBM file_set_npp6_bs04_c07_f_3   6     0.4   0.143  &
-./build/MutualismIBM file_set_npp6_bs05_c07_f_3   6     0.5   0.143  &
+./build/MutualismIBM file_set_npp6_bs05_c07_f_3   6     0.5   0.143  
 ./build/MutualismIBM file_set_npp6_bs06_c07_f_3   6     0.6   0.143  &
 ./build/MutualismIBM file_set_npp6_bs07_c07_f_3   6     0.7   0.143  &
 ./build/MutualismIBM file_set_npp6_bs08_c07_f_3   6     0.8   0.143  &
@@ -917,7 +917,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c02_f_4   4     0.2   0.50   &
 ./build/MutualismIBM file_set_npp4_bs03_c02_f_4   4     0.3   0.50   &
 ./build/MutualismIBM file_set_npp4_bs04_c02_f_4   4     0.4   0.50   &
-./build/MutualismIBM file_set_npp4_bs05_c02_f_4   4     0.5   0.50   &
+./build/MutualismIBM file_set_npp4_bs05_c02_f_4   4     0.5   0.50   
 ./build/MutualismIBM file_set_npp4_bs06_c02_f_4   4     0.6   0.50   &
 ./build/MutualismIBM file_set_npp4_bs07_c02_f_4   4     0.7   0.50   &
 ./build/MutualismIBM file_set_npp4_bs08_c02_f_4   4     0.8   0.50   &
@@ -933,7 +933,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c03_f_4   4     0.2   0.333  &
 ./build/MutualismIBM file_set_npp4_bs03_c03_f_4   4     0.3   0.333  &
 ./build/MutualismIBM file_set_npp4_bs04_c03_f_4   4     0.4   0.333  &
-./build/MutualismIBM file_set_npp4_bs05_c03_f_4   4     0.5   0.333  &
+./build/MutualismIBM file_set_npp4_bs05_c03_f_4   4     0.5   0.333  
 ./build/MutualismIBM file_set_npp4_bs06_c03_f_4   4     0.6   0.333  &
 ./build/MutualismIBM file_set_npp4_bs07_c03_f_4   4     0.7   0.333  &
 ./build/MutualismIBM file_set_npp4_bs08_c03_f_4   4     0.8   0.333  &
@@ -949,7 +949,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c04_f_4   4     0.2   0.25   &
 ./build/MutualismIBM file_set_npp4_bs03_c04_f_4   4     0.3   0.25   &
 ./build/MutualismIBM file_set_npp4_bs04_c04_f_4   4     0.4   0.25   &
-./build/MutualismIBM file_set_npp4_bs05_c04_f_4   4     0.5   0.25   &
+./build/MutualismIBM file_set_npp4_bs05_c04_f_4   4     0.5   0.25   
 ./build/MutualismIBM file_set_npp4_bs06_c04_f_4   4     0.6   0.25   &
 ./build/MutualismIBM file_set_npp4_bs07_c04_f_4   4     0.7   0.25   &
 ./build/MutualismIBM file_set_npp4_bs08_c04_f_4   4     0.8   0.25   &
@@ -965,7 +965,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c05_f_4   4     0.2   0.20   &
 ./build/MutualismIBM file_set_npp4_bs03_c05_f_4   4     0.3   0.20   &
 ./build/MutualismIBM file_set_npp4_bs04_c05_f_4   4     0.4   0.20   &
-./build/MutualismIBM file_set_npp4_bs05_c05_f_4   4     0.5   0.20   &
+./build/MutualismIBM file_set_npp4_bs05_c05_f_4   4     0.5   0.20   
 ./build/MutualismIBM file_set_npp4_bs06_c05_f_4   4     0.6   0.20   &
 ./build/MutualismIBM file_set_npp4_bs07_c05_f_4   4     0.7   0.20   &
 ./build/MutualismIBM file_set_npp4_bs08_c05_f_4   4     0.8   0.20   &
@@ -981,7 +981,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c06_f_4   4     0.2   0.167  &
 ./build/MutualismIBM file_set_npp4_bs03_c06_f_4   4     0.3   0.167  &
 ./build/MutualismIBM file_set_npp4_bs04_c06_f_4   4     0.4   0.167  &
-./build/MutualismIBM file_set_npp4_bs05_c06_f_4   4     0.5   0.167  &
+./build/MutualismIBM file_set_npp4_bs05_c06_f_4   4     0.5   0.167  
 ./build/MutualismIBM file_set_npp4_bs06_c06_f_4   4     0.6   0.167  &
 ./build/MutualismIBM file_set_npp4_bs07_c06_f_4   4     0.7   0.167  &
 ./build/MutualismIBM file_set_npp4_bs08_c06_f_4   4     0.8   0.167  &
@@ -997,7 +997,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c07_f_4   4     0.2   0.143  &
 ./build/MutualismIBM file_set_npp4_bs03_c07_f_4   4     0.3   0.143  &
 ./build/MutualismIBM file_set_npp4_bs04_c07_f_4   4     0.4   0.143  &
-./build/MutualismIBM file_set_npp4_bs05_c07_f_4   4     0.5   0.143  &
+./build/MutualismIBM file_set_npp4_bs05_c07_f_4   4     0.5   0.143  
 ./build/MutualismIBM file_set_npp4_bs06_c07_f_4   4     0.6   0.143  &
 ./build/MutualismIBM file_set_npp4_bs07_c07_f_4   4     0.7   0.143  &
 ./build/MutualismIBM file_set_npp4_bs08_c07_f_4   4     0.8   0.143  &
@@ -1016,7 +1016,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c02_f_4   5     0.2   0.50   &
 ./build/MutualismIBM file_set_npp5_bs03_c02_f_4   5     0.3   0.50   &
 ./build/MutualismIBM file_set_npp5_bs04_c02_f_4   5     0.4   0.50   &
-./build/MutualismIBM file_set_npp5_bs05_c02_f_4   5     0.5   0.50   &
+./build/MutualismIBM file_set_npp5_bs05_c02_f_4   5     0.5   0.50   
 ./build/MutualismIBM file_set_npp5_bs06_c02_f_4   5     0.6   0.50   &
 ./build/MutualismIBM file_set_npp5_bs07_c02_f_4   5     0.7   0.50   &
 ./build/MutualismIBM file_set_npp5_bs08_c02_f_4   5     0.8   0.50   &
@@ -1032,7 +1032,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c03_f_4   5     0.2   0.333  &
 ./build/MutualismIBM file_set_npp5_bs03_c03_f_4   5     0.3   0.333  &
 ./build/MutualismIBM file_set_npp5_bs04_c03_f_4   5     0.4   0.333  &
-./build/MutualismIBM file_set_npp5_bs05_c03_f_4   5     0.5   0.333  &
+./build/MutualismIBM file_set_npp5_bs05_c03_f_4   5     0.5   0.333  
 ./build/MutualismIBM file_set_npp5_bs06_c03_f_4   5     0.6   0.333  &
 ./build/MutualismIBM file_set_npp5_bs07_c03_f_4   5     0.7   0.333  &
 ./build/MutualismIBM file_set_npp5_bs08_c03_f_4   5     0.8   0.333  &
@@ -1048,7 +1048,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c04_f_4   5     0.2   0.25   &
 ./build/MutualismIBM file_set_npp5_bs03_c04_f_4   5     0.3   0.25   &
 ./build/MutualismIBM file_set_npp5_bs04_c04_f_4   5     0.4   0.25   &
-./build/MutualismIBM file_set_npp5_bs05_c04_f_4   5     0.5   0.25   &
+./build/MutualismIBM file_set_npp5_bs05_c04_f_4   5     0.5   0.25   
 ./build/MutualismIBM file_set_npp5_bs06_c04_f_4   5     0.6   0.25   &
 ./build/MutualismIBM file_set_npp5_bs07_c04_f_4   5     0.7   0.25   &
 ./build/MutualismIBM file_set_npp5_bs08_c04_f_4   5     0.8   0.25   &
@@ -1064,7 +1064,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c05_f_4   5     0.2   0.20   &
 ./build/MutualismIBM file_set_npp5_bs03_c05_f_4   5     0.3   0.20   &
 ./build/MutualismIBM file_set_npp5_bs04_c05_f_4   5     0.4   0.20   &
-./build/MutualismIBM file_set_npp5_bs05_c05_f_4   5     0.5   0.20   &
+./build/MutualismIBM file_set_npp5_bs05_c05_f_4   5     0.5   0.20   
 ./build/MutualismIBM file_set_npp5_bs06_c05_f_4   5     0.6   0.20   &
 ./build/MutualismIBM file_set_npp5_bs07_c05_f_4   5     0.7   0.20   &
 ./build/MutualismIBM file_set_npp5_bs08_c05_f_4   5     0.8   0.20   &
@@ -1080,7 +1080,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c06_f_4   5     0.2   0.167  &
 ./build/MutualismIBM file_set_npp5_bs03_c06_f_4   5     0.3   0.167  &
 ./build/MutualismIBM file_set_npp5_bs04_c06_f_4   5     0.4   0.167  &
-./build/MutualismIBM file_set_npp5_bs05_c06_f_4   5     0.5   0.167  &
+./build/MutualismIBM file_set_npp5_bs05_c06_f_4   5     0.5   0.167  
 ./build/MutualismIBM file_set_npp5_bs06_c06_f_4   5     0.6   0.167  &
 ./build/MutualismIBM file_set_npp5_bs07_c06_f_4   5     0.7   0.167  &
 ./build/MutualismIBM file_set_npp5_bs08_c06_f_4   5     0.8   0.167  &
@@ -1096,7 +1096,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c07_f_4   5     0.2   0.143  &
 ./build/MutualismIBM file_set_npp5_bs03_c07_f_4   5     0.3   0.143  &
 ./build/MutualismIBM file_set_npp5_bs04_c07_f_4   5     0.4   0.143  &
-./build/MutualismIBM file_set_npp5_bs05_c07_f_4   5     0.5   0.143  &
+./build/MutualismIBM file_set_npp5_bs05_c07_f_4   5     0.5   0.143  
 ./build/MutualismIBM file_set_npp5_bs06_c07_f_4   5     0.6   0.143  &
 ./build/MutualismIBM file_set_npp5_bs07_c07_f_4   5     0.7   0.143  &
 ./build/MutualismIBM file_set_npp5_bs08_c07_f_4   5     0.8   0.143  &
@@ -1115,7 +1115,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c02_f_4   6     0.2   0.50   &
 ./build/MutualismIBM file_set_npp6_bs03_c02_f_4   6     0.3   0.50   &
 ./build/MutualismIBM file_set_npp6_bs04_c02_f_4   6     0.4   0.50   &
-./build/MutualismIBM file_set_npp6_bs05_c02_f_4   6     0.5   0.50   &
+./build/MutualismIBM file_set_npp6_bs05_c02_f_4   6     0.5   0.50   
 ./build/MutualismIBM file_set_npp6_bs06_c02_f_4   6     0.6   0.50   &
 ./build/MutualismIBM file_set_npp6_bs07_c02_f_4   6     0.7   0.50   &
 ./build/MutualismIBM file_set_npp6_bs08_c02_f_4   6     0.8   0.50   &
@@ -1131,7 +1131,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c03_f_4   6     0.2   0.333  &
 ./build/MutualismIBM file_set_npp6_bs03_c03_f_4   6     0.3   0.333  &
 ./build/MutualismIBM file_set_npp6_bs04_c03_f_4   6     0.4   0.333  &
-./build/MutualismIBM file_set_npp6_bs05_c03_f_4   6     0.5   0.333  &
+./build/MutualismIBM file_set_npp6_bs05_c03_f_4   6     0.5   0.333  
 ./build/MutualismIBM file_set_npp6_bs06_c03_f_4   6     0.6   0.333  &
 ./build/MutualismIBM file_set_npp6_bs07_c03_f_4   6     0.7   0.333  &
 ./build/MutualismIBM file_set_npp6_bs08_c03_f_4   6     0.8   0.333  &
@@ -1147,7 +1147,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c04_f_4   6     0.2   0.25   &
 ./build/MutualismIBM file_set_npp6_bs03_c04_f_4   6     0.3   0.25   &
 ./build/MutualismIBM file_set_npp6_bs04_c04_f_4   6     0.4   0.25   &
-./build/MutualismIBM file_set_npp6_bs05_c04_f_4   6     0.5   0.25   &
+./build/MutualismIBM file_set_npp6_bs05_c04_f_4   6     0.5   0.25   
 ./build/MutualismIBM file_set_npp6_bs06_c04_f_4   6     0.6   0.25   &
 ./build/MutualismIBM file_set_npp6_bs07_c04_f_4   6     0.7   0.25   &
 ./build/MutualismIBM file_set_npp6_bs08_c04_f_4   6     0.8   0.25   &
@@ -1163,7 +1163,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c05_f_4   6     0.2   0.20   &
 ./build/MutualismIBM file_set_npp6_bs03_c05_f_4   6     0.3   0.20   &
 ./build/MutualismIBM file_set_npp6_bs04_c05_f_4   6     0.4   0.20   &
-./build/MutualismIBM file_set_npp6_bs05_c05_f_4   6     0.5   0.20   &
+./build/MutualismIBM file_set_npp6_bs05_c05_f_4   6     0.5   0.20   
 ./build/MutualismIBM file_set_npp6_bs06_c05_f_4   6     0.6   0.20   &
 ./build/MutualismIBM file_set_npp6_bs07_c05_f_4   6     0.7   0.20   &
 ./build/MutualismIBM file_set_npp6_bs08_c05_f_4   6     0.8   0.20   &
@@ -1179,7 +1179,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c06_f_4   6     0.2   0.167  &
 ./build/MutualismIBM file_set_npp6_bs03_c06_f_4   6     0.3   0.167  &
 ./build/MutualismIBM file_set_npp6_bs04_c06_f_4   6     0.4   0.167  &
-./build/MutualismIBM file_set_npp6_bs05_c06_f_4   6     0.5   0.167  &
+./build/MutualismIBM file_set_npp6_bs05_c06_f_4   6     0.5   0.167  
 ./build/MutualismIBM file_set_npp6_bs06_c06_f_4   6     0.6   0.167  &
 ./build/MutualismIBM file_set_npp6_bs07_c06_f_4   6     0.7   0.167  &
 ./build/MutualismIBM file_set_npp6_bs08_c06_f_4   6     0.8   0.167  &
@@ -1195,7 +1195,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c07_f_4   6     0.2   0.143  &
 ./build/MutualismIBM file_set_npp6_bs03_c07_f_4   6     0.3   0.143  &
 ./build/MutualismIBM file_set_npp6_bs04_c07_f_4   6     0.4   0.143  &
-./build/MutualismIBM file_set_npp6_bs05_c07_f_4   6     0.5   0.143  &
+./build/MutualismIBM file_set_npp6_bs05_c07_f_4   6     0.5   0.143  
 ./build/MutualismIBM file_set_npp6_bs06_c07_f_4   6     0.6   0.143  &
 ./build/MutualismIBM file_set_npp6_bs07_c07_f_4   6     0.7   0.143  &
 ./build/MutualismIBM file_set_npp6_bs08_c07_f_4   6     0.8   0.143  &
@@ -1218,7 +1218,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c02_f_5   4     0.2   0.50   &
 ./build/MutualismIBM file_set_npp4_bs03_c02_f_5   4     0.3   0.50   &
 ./build/MutualismIBM file_set_npp4_bs04_c02_f_5   4     0.4   0.50   &
-./build/MutualismIBM file_set_npp4_bs05_c02_f_5   4     0.5   0.50   &
+./build/MutualismIBM file_set_npp4_bs05_c02_f_5   4     0.5   0.50   
 ./build/MutualismIBM file_set_npp4_bs06_c02_f_5   4     0.6   0.50   &
 ./build/MutualismIBM file_set_npp4_bs07_c02_f_5   4     0.7   0.50   &
 ./build/MutualismIBM file_set_npp4_bs08_c02_f_5   4     0.8   0.50   &
@@ -1234,7 +1234,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c03_f_5   4     0.2   0.333  &
 ./build/MutualismIBM file_set_npp4_bs03_c03_f_5   4     0.3   0.333  &
 ./build/MutualismIBM file_set_npp4_bs04_c03_f_5   4     0.4   0.333  &
-./build/MutualismIBM file_set_npp4_bs05_c03_f_5   4     0.5   0.333  &
+./build/MutualismIBM file_set_npp4_bs05_c03_f_5   4     0.5   0.333  
 ./build/MutualismIBM file_set_npp4_bs06_c03_f_5   4     0.6   0.333  &
 ./build/MutualismIBM file_set_npp4_bs07_c03_f_5   4     0.7   0.333  &
 ./build/MutualismIBM file_set_npp4_bs08_c03_f_5   4     0.8   0.333  &
@@ -1250,7 +1250,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c04_f_5   4     0.2   0.25   &
 ./build/MutualismIBM file_set_npp4_bs03_c04_f_5   4     0.3   0.25   &
 ./build/MutualismIBM file_set_npp4_bs04_c04_f_5   4     0.4   0.25   &
-./build/MutualismIBM file_set_npp4_bs05_c04_f_5   4     0.5   0.25   &
+./build/MutualismIBM file_set_npp4_bs05_c04_f_5   4     0.5   0.25   
 ./build/MutualismIBM file_set_npp4_bs06_c04_f_5   4     0.6   0.25   &
 ./build/MutualismIBM file_set_npp4_bs07_c04_f_5   4     0.7   0.25   &
 ./build/MutualismIBM file_set_npp4_bs08_c04_f_5   4     0.8   0.25   &
@@ -1266,7 +1266,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c05_f_5   4     0.2   0.20   &
 ./build/MutualismIBM file_set_npp4_bs03_c05_f_5   4     0.3   0.20   &
 ./build/MutualismIBM file_set_npp4_bs04_c05_f_5   4     0.4   0.20   &
-./build/MutualismIBM file_set_npp4_bs05_c05_f_5   4     0.5   0.20   &
+./build/MutualismIBM file_set_npp4_bs05_c05_f_5   4     0.5   0.20   
 ./build/MutualismIBM file_set_npp4_bs06_c05_f_5   4     0.6   0.20   &
 ./build/MutualismIBM file_set_npp4_bs07_c05_f_5   4     0.7   0.20   &
 ./build/MutualismIBM file_set_npp4_bs08_c05_f_5   4     0.8   0.20   &
@@ -1282,7 +1282,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c06_f_5   4     0.2   0.167  &
 ./build/MutualismIBM file_set_npp4_bs03_c06_f_5   4     0.3   0.167  &
 ./build/MutualismIBM file_set_npp4_bs04_c06_f_5   4     0.4   0.167  &
-./build/MutualismIBM file_set_npp4_bs05_c06_f_5   4     0.5   0.167  &
+./build/MutualismIBM file_set_npp4_bs05_c06_f_5   4     0.5   0.167  
 ./build/MutualismIBM file_set_npp4_bs06_c06_f_5   4     0.6   0.167  &
 ./build/MutualismIBM file_set_npp4_bs07_c06_f_5   4     0.7   0.167  &
 ./build/MutualismIBM file_set_npp4_bs08_c06_f_5   4     0.8   0.167  &
@@ -1298,7 +1298,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c07_f_5   4     0.2   0.143  &
 ./build/MutualismIBM file_set_npp4_bs03_c07_f_5   4     0.3   0.143  &
 ./build/MutualismIBM file_set_npp4_bs04_c07_f_5   4     0.4   0.143  &
-./build/MutualismIBM file_set_npp4_bs05_c07_f_5   4     0.5   0.143  &
+./build/MutualismIBM file_set_npp4_bs05_c07_f_5   4     0.5   0.143  
 ./build/MutualismIBM file_set_npp4_bs06_c07_f_5   4     0.6   0.143  &
 ./build/MutualismIBM file_set_npp4_bs07_c07_f_5   4     0.7   0.143  &
 ./build/MutualismIBM file_set_npp4_bs08_c07_f_5   4     0.8   0.143  &
@@ -1317,7 +1317,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c02_f_5   5     0.2   0.50   &
 ./build/MutualismIBM file_set_npp5_bs03_c02_f_5   5     0.3   0.50   &
 ./build/MutualismIBM file_set_npp5_bs04_c02_f_5   5     0.4   0.50   &
-./build/MutualismIBM file_set_npp5_bs05_c02_f_5   5     0.5   0.50   &
+./build/MutualismIBM file_set_npp5_bs05_c02_f_5   5     0.5   0.50   
 ./build/MutualismIBM file_set_npp5_bs06_c02_f_5   5     0.6   0.50   &
 ./build/MutualismIBM file_set_npp5_bs07_c02_f_5   5     0.7   0.50   &
 ./build/MutualismIBM file_set_npp5_bs08_c02_f_5   5     0.8   0.50   &
@@ -1333,7 +1333,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c03_f_5   5     0.2   0.333  &
 ./build/MutualismIBM file_set_npp5_bs03_c03_f_5   5     0.3   0.333  &
 ./build/MutualismIBM file_set_npp5_bs04_c03_f_5   5     0.4   0.333  &
-./build/MutualismIBM file_set_npp5_bs05_c03_f_5   5     0.5   0.333  &
+./build/MutualismIBM file_set_npp5_bs05_c03_f_5   5     0.5   0.333  
 ./build/MutualismIBM file_set_npp5_bs06_c03_f_5   5     0.6   0.333  &
 ./build/MutualismIBM file_set_npp5_bs07_c03_f_5   5     0.7   0.333  &
 ./build/MutualismIBM file_set_npp5_bs08_c03_f_5   5     0.8   0.333  &
@@ -1349,7 +1349,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c04_f_5   5     0.2   0.25   &
 ./build/MutualismIBM file_set_npp5_bs03_c04_f_5   5     0.3   0.25   &
 ./build/MutualismIBM file_set_npp5_bs04_c04_f_5   5     0.4   0.25   &
-./build/MutualismIBM file_set_npp5_bs05_c04_f_5   5     0.5   0.25   &
+./build/MutualismIBM file_set_npp5_bs05_c04_f_5   5     0.5   0.25   
 ./build/MutualismIBM file_set_npp5_bs06_c04_f_5   5     0.6   0.25   &
 ./build/MutualismIBM file_set_npp5_bs07_c04_f_5   5     0.7   0.25   &
 ./build/MutualismIBM file_set_npp5_bs08_c04_f_5   5     0.8   0.25   &
@@ -1365,7 +1365,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c05_f_5   5     0.2   0.20   &
 ./build/MutualismIBM file_set_npp5_bs03_c05_f_5   5     0.3   0.20   &
 ./build/MutualismIBM file_set_npp5_bs04_c05_f_5   5     0.4   0.20   &
-./build/MutualismIBM file_set_npp5_bs05_c05_f_5   5     0.5   0.20   &
+./build/MutualismIBM file_set_npp5_bs05_c05_f_5   5     0.5   0.20   
 ./build/MutualismIBM file_set_npp5_bs06_c05_f_5   5     0.6   0.20   &
 ./build/MutualismIBM file_set_npp5_bs07_c05_f_5   5     0.7   0.20   &
 ./build/MutualismIBM file_set_npp5_bs08_c05_f_5   5     0.8   0.20   &
@@ -1381,7 +1381,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c06_f_5   5     0.2   0.167  &
 ./build/MutualismIBM file_set_npp5_bs03_c06_f_5   5     0.3   0.167  &
 ./build/MutualismIBM file_set_npp5_bs04_c06_f_5   5     0.4   0.167  &
-./build/MutualismIBM file_set_npp5_bs05_c06_f_5   5     0.5   0.167  &
+./build/MutualismIBM file_set_npp5_bs05_c06_f_5   5     0.5   0.167  
 ./build/MutualismIBM file_set_npp5_bs06_c06_f_5   5     0.6   0.167  &
 ./build/MutualismIBM file_set_npp5_bs07_c06_f_5   5     0.7   0.167  &
 ./build/MutualismIBM file_set_npp5_bs08_c06_f_5   5     0.8   0.167  &
@@ -1397,7 +1397,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c07_f_5   5     0.2   0.143  &
 ./build/MutualismIBM file_set_npp5_bs03_c07_f_5   5     0.3   0.143  &
 ./build/MutualismIBM file_set_npp5_bs04_c07_f_5   5     0.4   0.143  &
-./build/MutualismIBM file_set_npp5_bs05_c07_f_5   5     0.5   0.143  &
+./build/MutualismIBM file_set_npp5_bs05_c07_f_5   5     0.5   0.143  
 ./build/MutualismIBM file_set_npp5_bs06_c07_f_5   5     0.6   0.143  &
 ./build/MutualismIBM file_set_npp5_bs07_c07_f_5   5     0.7   0.143  &
 ./build/MutualismIBM file_set_npp5_bs08_c07_f_5   5     0.8   0.143  &
@@ -1416,7 +1416,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c02_f_5   6     0.2   0.50   &
 ./build/MutualismIBM file_set_npp6_bs03_c02_f_5   6     0.3   0.50   &
 ./build/MutualismIBM file_set_npp6_bs04_c02_f_5   6     0.4   0.50   &
-./build/MutualismIBM file_set_npp6_bs05_c02_f_5   6     0.5   0.50   &
+./build/MutualismIBM file_set_npp6_bs05_c02_f_5   6     0.5   0.50   
 ./build/MutualismIBM file_set_npp6_bs06_c02_f_5   6     0.6   0.50   &
 ./build/MutualismIBM file_set_npp6_bs07_c02_f_5   6     0.7   0.50   &
 ./build/MutualismIBM file_set_npp6_bs08_c02_f_5   6     0.8   0.50   &
@@ -1432,7 +1432,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c03_f_5   6     0.2   0.333  &
 ./build/MutualismIBM file_set_npp6_bs03_c03_f_5   6     0.3   0.333  &
 ./build/MutualismIBM file_set_npp6_bs04_c03_f_5   6     0.4   0.333  &
-./build/MutualismIBM file_set_npp6_bs05_c03_f_5   6     0.5   0.333  &
+./build/MutualismIBM file_set_npp6_bs05_c03_f_5   6     0.5   0.333  
 ./build/MutualismIBM file_set_npp6_bs06_c03_f_5   6     0.6   0.333  &
 ./build/MutualismIBM file_set_npp6_bs07_c03_f_5   6     0.7   0.333  &
 ./build/MutualismIBM file_set_npp6_bs08_c03_f_5   6     0.8   0.333  &
@@ -1448,7 +1448,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c04_f_5   6     0.2   0.25   &
 ./build/MutualismIBM file_set_npp6_bs03_c04_f_5   6     0.3   0.25   &
 ./build/MutualismIBM file_set_npp6_bs04_c04_f_5   6     0.4   0.25   &
-./build/MutualismIBM file_set_npp6_bs05_c04_f_5   6     0.5   0.25   &
+./build/MutualismIBM file_set_npp6_bs05_c04_f_5   6     0.5   0.25   
 ./build/MutualismIBM file_set_npp6_bs06_c04_f_5   6     0.6   0.25   &
 ./build/MutualismIBM file_set_npp6_bs07_c04_f_5   6     0.7   0.25   &
 ./build/MutualismIBM file_set_npp6_bs08_c04_f_5   6     0.8   0.25   &
@@ -1464,7 +1464,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c05_f_5   6     0.2   0.20   &
 ./build/MutualismIBM file_set_npp6_bs03_c05_f_5   6     0.3   0.20   &
 ./build/MutualismIBM file_set_npp6_bs04_c05_f_5   6     0.4   0.20   &
-./build/MutualismIBM file_set_npp6_bs05_c05_f_5   6     0.5   0.20   &
+./build/MutualismIBM file_set_npp6_bs05_c05_f_5   6     0.5   0.20   
 ./build/MutualismIBM file_set_npp6_bs06_c05_f_5   6     0.6   0.20   &
 ./build/MutualismIBM file_set_npp6_bs07_c05_f_5   6     0.7   0.20   &
 ./build/MutualismIBM file_set_npp6_bs08_c05_f_5   6     0.8   0.20   &
@@ -1480,7 +1480,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c06_f_5   6     0.2   0.167  &
 ./build/MutualismIBM file_set_npp6_bs03_c06_f_5   6     0.3   0.167  &
 ./build/MutualismIBM file_set_npp6_bs04_c06_f_5   6     0.4   0.167  &
-./build/MutualismIBM file_set_npp6_bs05_c06_f_5   6     0.5   0.167  &
+./build/MutualismIBM file_set_npp6_bs05_c06_f_5   6     0.5   0.167  
 ./build/MutualismIBM file_set_npp6_bs06_c06_f_5   6     0.6   0.167  &
 ./build/MutualismIBM file_set_npp6_bs07_c06_f_5   6     0.7   0.167  &
 ./build/MutualismIBM file_set_npp6_bs08_c06_f_5   6     0.8   0.167  &
@@ -1496,7 +1496,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c07_f_5   6     0.2   0.143  &
 ./build/MutualismIBM file_set_npp6_bs03_c07_f_5   6     0.3   0.143  &
 ./build/MutualismIBM file_set_npp6_bs04_c07_f_5   6     0.4   0.143  &
-./build/MutualismIBM file_set_npp6_bs05_c07_f_5   6     0.5   0.143  &
+./build/MutualismIBM file_set_npp6_bs05_c07_f_5   6     0.5   0.143  
 ./build/MutualismIBM file_set_npp6_bs06_c07_f_5   6     0.6   0.143  &
 ./build/MutualismIBM file_set_npp6_bs07_c07_f_5   6     0.7   0.143  &
 ./build/MutualismIBM file_set_npp6_bs08_c07_f_5   6     0.8   0.143  &
@@ -1519,7 +1519,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c02_f_6   4     0.2   0.50   &
 ./build/MutualismIBM file_set_npp4_bs03_c02_f_6   4     0.3   0.50   &
 ./build/MutualismIBM file_set_npp4_bs04_c02_f_6   4     0.4   0.50   &
-./build/MutualismIBM file_set_npp4_bs05_c02_f_6   4     0.5   0.50   &
+./build/MutualismIBM file_set_npp4_bs05_c02_f_6   4     0.5   0.50   
 ./build/MutualismIBM file_set_npp4_bs06_c02_f_6   4     0.6   0.50   &
 ./build/MutualismIBM file_set_npp4_bs07_c02_f_6   4     0.7   0.50   &
 ./build/MutualismIBM file_set_npp4_bs08_c02_f_6   4     0.8   0.50   &
@@ -1535,7 +1535,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c03_f_6   4     0.2   0.333  &
 ./build/MutualismIBM file_set_npp4_bs03_c03_f_6   4     0.3   0.333  &
 ./build/MutualismIBM file_set_npp4_bs04_c03_f_6   4     0.4   0.333  &
-./build/MutualismIBM file_set_npp4_bs05_c03_f_6   4     0.5   0.333  &
+./build/MutualismIBM file_set_npp4_bs05_c03_f_6   4     0.5   0.333  
 ./build/MutualismIBM file_set_npp4_bs06_c03_f_6   4     0.6   0.333  &
 ./build/MutualismIBM file_set_npp4_bs07_c03_f_6   4     0.7   0.333  &
 ./build/MutualismIBM file_set_npp4_bs08_c03_f_6   4     0.8   0.333  &
@@ -1551,7 +1551,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c04_f_6   4     0.2   0.25   &
 ./build/MutualismIBM file_set_npp4_bs03_c04_f_6   4     0.3   0.25   &
 ./build/MutualismIBM file_set_npp4_bs04_c04_f_6   4     0.4   0.25   &
-./build/MutualismIBM file_set_npp4_bs05_c04_f_6   4     0.5   0.25   &
+./build/MutualismIBM file_set_npp4_bs05_c04_f_6   4     0.5   0.25   
 ./build/MutualismIBM file_set_npp4_bs06_c04_f_6   4     0.6   0.25   &
 ./build/MutualismIBM file_set_npp4_bs07_c04_f_6   4     0.7   0.25   &
 ./build/MutualismIBM file_set_npp4_bs08_c04_f_6   4     0.8   0.25   &
@@ -1567,7 +1567,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c05_f_6   4     0.2   0.20   &
 ./build/MutualismIBM file_set_npp4_bs03_c05_f_6   4     0.3   0.20   &
 ./build/MutualismIBM file_set_npp4_bs04_c05_f_6   4     0.4   0.20   &
-./build/MutualismIBM file_set_npp4_bs05_c05_f_6   4     0.5   0.20   &
+./build/MutualismIBM file_set_npp4_bs05_c05_f_6   4     0.5   0.20   
 ./build/MutualismIBM file_set_npp4_bs06_c05_f_6   4     0.6   0.20   &
 ./build/MutualismIBM file_set_npp4_bs07_c05_f_6   4     0.7   0.20   &
 ./build/MutualismIBM file_set_npp4_bs08_c05_f_6   4     0.8   0.20   &
@@ -1583,7 +1583,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c06_f_6   4     0.2   0.167  &
 ./build/MutualismIBM file_set_npp4_bs03_c06_f_6   4     0.3   0.167  &
 ./build/MutualismIBM file_set_npp4_bs04_c06_f_6   4     0.4   0.167  &
-./build/MutualismIBM file_set_npp4_bs05_c06_f_6   4     0.5   0.167  &
+./build/MutualismIBM file_set_npp4_bs05_c06_f_6   4     0.5   0.167  
 ./build/MutualismIBM file_set_npp4_bs06_c06_f_6   4     0.6   0.167  &
 ./build/MutualismIBM file_set_npp4_bs07_c06_f_6   4     0.7   0.167  &
 ./build/MutualismIBM file_set_npp4_bs08_c06_f_6   4     0.8   0.167  &
@@ -1599,7 +1599,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c07_f_6   4     0.2   0.143  &
 ./build/MutualismIBM file_set_npp4_bs03_c07_f_6   4     0.3   0.143  &
 ./build/MutualismIBM file_set_npp4_bs04_c07_f_6   4     0.4   0.143  &
-./build/MutualismIBM file_set_npp4_bs05_c07_f_6   4     0.5   0.143  &
+./build/MutualismIBM file_set_npp4_bs05_c07_f_6   4     0.5   0.143  
 ./build/MutualismIBM file_set_npp4_bs06_c07_f_6   4     0.6   0.143  &
 ./build/MutualismIBM file_set_npp4_bs07_c07_f_6   4     0.7   0.143  &
 ./build/MutualismIBM file_set_npp4_bs08_c07_f_6   4     0.8   0.143  &
@@ -1618,7 +1618,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c02_f_6   5     0.2   0.50   &
 ./build/MutualismIBM file_set_npp5_bs03_c02_f_6   5     0.3   0.50   &
 ./build/MutualismIBM file_set_npp5_bs04_c02_f_6   5     0.4   0.50   &
-./build/MutualismIBM file_set_npp5_bs05_c02_f_6   5     0.5   0.50   &
+./build/MutualismIBM file_set_npp5_bs05_c02_f_6   5     0.5   0.50   
 ./build/MutualismIBM file_set_npp5_bs06_c02_f_6   5     0.6   0.50   &
 ./build/MutualismIBM file_set_npp5_bs07_c02_f_6   5     0.7   0.50   &
 ./build/MutualismIBM file_set_npp5_bs08_c02_f_6   5     0.8   0.50   &
@@ -1634,7 +1634,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c03_f_6   5     0.2   0.333  &
 ./build/MutualismIBM file_set_npp5_bs03_c03_f_6   5     0.3   0.333  &
 ./build/MutualismIBM file_set_npp5_bs04_c03_f_6   5     0.4   0.333  &
-./build/MutualismIBM file_set_npp5_bs05_c03_f_6   5     0.5   0.333  &
+./build/MutualismIBM file_set_npp5_bs05_c03_f_6   5     0.5   0.333  
 ./build/MutualismIBM file_set_npp5_bs06_c03_f_6   5     0.6   0.333  &
 ./build/MutualismIBM file_set_npp5_bs07_c03_f_6   5     0.7   0.333  &
 ./build/MutualismIBM file_set_npp5_bs08_c03_f_6   5     0.8   0.333  &
@@ -1650,7 +1650,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c04_f_6   5     0.2   0.25   &
 ./build/MutualismIBM file_set_npp5_bs03_c04_f_6   5     0.3   0.25   &
 ./build/MutualismIBM file_set_npp5_bs04_c04_f_6   5     0.4   0.25   &
-./build/MutualismIBM file_set_npp5_bs05_c04_f_6   5     0.5   0.25   &
+./build/MutualismIBM file_set_npp5_bs05_c04_f_6   5     0.5   0.25   
 ./build/MutualismIBM file_set_npp5_bs06_c04_f_6   5     0.6   0.25   &
 ./build/MutualismIBM file_set_npp5_bs07_c04_f_6   5     0.7   0.25   &
 ./build/MutualismIBM file_set_npp5_bs08_c04_f_6   5     0.8   0.25   &
@@ -1666,7 +1666,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c05_f_6   5     0.2   0.20   &
 ./build/MutualismIBM file_set_npp5_bs03_c05_f_6   5     0.3   0.20   &
 ./build/MutualismIBM file_set_npp5_bs04_c05_f_6   5     0.4   0.20   &
-./build/MutualismIBM file_set_npp5_bs05_c05_f_6   5     0.5   0.20   &
+./build/MutualismIBM file_set_npp5_bs05_c05_f_6   5     0.5   0.20   
 ./build/MutualismIBM file_set_npp5_bs06_c05_f_6   5     0.6   0.20   &
 ./build/MutualismIBM file_set_npp5_bs07_c05_f_6   5     0.7   0.20   &
 ./build/MutualismIBM file_set_npp5_bs08_c05_f_6   5     0.8   0.20   &
@@ -1682,7 +1682,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c06_f_6   5     0.2   0.167  &
 ./build/MutualismIBM file_set_npp5_bs03_c06_f_6   5     0.3   0.167  &
 ./build/MutualismIBM file_set_npp5_bs04_c06_f_6   5     0.4   0.167  &
-./build/MutualismIBM file_set_npp5_bs05_c06_f_6   5     0.5   0.167  &
+./build/MutualismIBM file_set_npp5_bs05_c06_f_6   5     0.5   0.167  
 ./build/MutualismIBM file_set_npp5_bs06_c06_f_6   5     0.6   0.167  &
 ./build/MutualismIBM file_set_npp5_bs07_c06_f_6   5     0.7   0.167  &
 ./build/MutualismIBM file_set_npp5_bs08_c06_f_6   5     0.8   0.167  &
@@ -1698,7 +1698,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c07_f_6   5     0.2   0.143  &
 ./build/MutualismIBM file_set_npp5_bs03_c07_f_6   5     0.3   0.143  &
 ./build/MutualismIBM file_set_npp5_bs04_c07_f_6   5     0.4   0.143  &
-./build/MutualismIBM file_set_npp5_bs05_c07_f_6   5     0.5   0.143  &
+./build/MutualismIBM file_set_npp5_bs05_c07_f_6   5     0.5   0.143  
 ./build/MutualismIBM file_set_npp5_bs06_c07_f_6   5     0.6   0.143  &
 ./build/MutualismIBM file_set_npp5_bs07_c07_f_6   5     0.7   0.143  &
 ./build/MutualismIBM file_set_npp5_bs08_c07_f_6   5     0.8   0.143  &
@@ -1717,7 +1717,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c02_f_6   6     0.2   0.50   &
 ./build/MutualismIBM file_set_npp6_bs03_c02_f_6   6     0.3   0.50   &
 ./build/MutualismIBM file_set_npp6_bs04_c02_f_6   6     0.4   0.50   &
-./build/MutualismIBM file_set_npp6_bs05_c02_f_6   6     0.5   0.50   &
+./build/MutualismIBM file_set_npp6_bs05_c02_f_6   6     0.5   0.50   
 ./build/MutualismIBM file_set_npp6_bs06_c02_f_6   6     0.6   0.50   &
 ./build/MutualismIBM file_set_npp6_bs07_c02_f_6   6     0.7   0.50   &
 ./build/MutualismIBM file_set_npp6_bs08_c02_f_6   6     0.8   0.50   &
@@ -1733,7 +1733,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c03_f_6   6     0.2   0.333  &
 ./build/MutualismIBM file_set_npp6_bs03_c03_f_6   6     0.3   0.333  &
 ./build/MutualismIBM file_set_npp6_bs04_c03_f_6   6     0.4   0.333  &
-./build/MutualismIBM file_set_npp6_bs05_c03_f_6   6     0.5   0.333  &
+./build/MutualismIBM file_set_npp6_bs05_c03_f_6   6     0.5   0.333  
 ./build/MutualismIBM file_set_npp6_bs06_c03_f_6   6     0.6   0.333  &
 ./build/MutualismIBM file_set_npp6_bs07_c03_f_6   6     0.7   0.333  &
 ./build/MutualismIBM file_set_npp6_bs08_c03_f_6   6     0.8   0.333  &
@@ -1749,7 +1749,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c04_f_6   6     0.2   0.25   &
 ./build/MutualismIBM file_set_npp6_bs03_c04_f_6   6     0.3   0.25   &
 ./build/MutualismIBM file_set_npp6_bs04_c04_f_6   6     0.4   0.25   &
-./build/MutualismIBM file_set_npp6_bs05_c04_f_6   6     0.5   0.25   &
+./build/MutualismIBM file_set_npp6_bs05_c04_f_6   6     0.5   0.25   
 ./build/MutualismIBM file_set_npp6_bs06_c04_f_6   6     0.6   0.25   &
 ./build/MutualismIBM file_set_npp6_bs07_c04_f_6   6     0.7   0.25   &
 ./build/MutualismIBM file_set_npp6_bs08_c04_f_6   6     0.8   0.25   &
@@ -1765,7 +1765,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c05_f_6   6     0.2   0.20   &
 ./build/MutualismIBM file_set_npp6_bs03_c05_f_6   6     0.3   0.20   &
 ./build/MutualismIBM file_set_npp6_bs04_c05_f_6   6     0.4   0.20   &
-./build/MutualismIBM file_set_npp6_bs05_c05_f_6   6     0.5   0.20   &
+./build/MutualismIBM file_set_npp6_bs05_c05_f_6   6     0.5   0.20   
 ./build/MutualismIBM file_set_npp6_bs06_c05_f_6   6     0.6   0.20   &
 ./build/MutualismIBM file_set_npp6_bs07_c05_f_6   6     0.7   0.20   &
 ./build/MutualismIBM file_set_npp6_bs08_c05_f_6   6     0.8   0.20   &
@@ -1781,7 +1781,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c06_f_6   6     0.2   0.167  &
 ./build/MutualismIBM file_set_npp6_bs03_c06_f_6   6     0.3   0.167  &
 ./build/MutualismIBM file_set_npp6_bs04_c06_f_6   6     0.4   0.167  &
-./build/MutualismIBM file_set_npp6_bs05_c06_f_6   6     0.5   0.167  &
+./build/MutualismIBM file_set_npp6_bs05_c06_f_6   6     0.5   0.167  
 ./build/MutualismIBM file_set_npp6_bs06_c06_f_6   6     0.6   0.167  &
 ./build/MutualismIBM file_set_npp6_bs07_c06_f_6   6     0.7   0.167  &
 ./build/MutualismIBM file_set_npp6_bs08_c06_f_6   6     0.8   0.167  &
@@ -1797,7 +1797,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c07_f_6   6     0.2   0.143  &
 ./build/MutualismIBM file_set_npp6_bs03_c07_f_6   6     0.3   0.143  &
 ./build/MutualismIBM file_set_npp6_bs04_c07_f_6   6     0.4   0.143  &
-./build/MutualismIBM file_set_npp6_bs05_c07_f_6   6     0.5   0.143  &
+./build/MutualismIBM file_set_npp6_bs05_c07_f_6   6     0.5   0.143  
 ./build/MutualismIBM file_set_npp6_bs06_c07_f_6   6     0.6   0.143  &
 ./build/MutualismIBM file_set_npp6_bs07_c07_f_6   6     0.7   0.143  &
 ./build/MutualismIBM file_set_npp6_bs08_c07_f_6   6     0.8   0.143  &
@@ -1820,7 +1820,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c02_f_7   4     0.2   0.50   &
 ./build/MutualismIBM file_set_npp4_bs03_c02_f_7   4     0.3   0.50   &
 ./build/MutualismIBM file_set_npp4_bs04_c02_f_7   4     0.4   0.50   &
-./build/MutualismIBM file_set_npp4_bs05_c02_f_7   4     0.5   0.50   &
+./build/MutualismIBM file_set_npp4_bs05_c02_f_7   4     0.5   0.50   
 ./build/MutualismIBM file_set_npp4_bs06_c02_f_7   4     0.6   0.50   &
 ./build/MutualismIBM file_set_npp4_bs07_c02_f_7   4     0.7   0.50   &
 ./build/MutualismIBM file_set_npp4_bs08_c02_f_7   4     0.8   0.50   &
@@ -1836,7 +1836,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c03_f_7   4     0.2   0.333  &
 ./build/MutualismIBM file_set_npp4_bs03_c03_f_7   4     0.3   0.333  &
 ./build/MutualismIBM file_set_npp4_bs04_c03_f_7   4     0.4   0.333  &
-./build/MutualismIBM file_set_npp4_bs05_c03_f_7   4     0.5   0.333  &
+./build/MutualismIBM file_set_npp4_bs05_c03_f_7   4     0.5   0.333  
 ./build/MutualismIBM file_set_npp4_bs06_c03_f_7   4     0.6   0.333  &
 ./build/MutualismIBM file_set_npp4_bs07_c03_f_7   4     0.7   0.333  &
 ./build/MutualismIBM file_set_npp4_bs08_c03_f_7   4     0.8   0.333  &
@@ -1852,7 +1852,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c04_f_7   4     0.2   0.25   &
 ./build/MutualismIBM file_set_npp4_bs03_c04_f_7   4     0.3   0.25   &
 ./build/MutualismIBM file_set_npp4_bs04_c04_f_7   4     0.4   0.25   &
-./build/MutualismIBM file_set_npp4_bs05_c04_f_7   4     0.5   0.25   &
+./build/MutualismIBM file_set_npp4_bs05_c04_f_7   4     0.5   0.25   
 ./build/MutualismIBM file_set_npp4_bs06_c04_f_7   4     0.6   0.25   &
 ./build/MutualismIBM file_set_npp4_bs07_c04_f_7   4     0.7   0.25   &
 ./build/MutualismIBM file_set_npp4_bs08_c04_f_7   4     0.8   0.25   &
@@ -1868,7 +1868,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c05_f_7   4     0.2   0.20   &
 ./build/MutualismIBM file_set_npp4_bs03_c05_f_7   4     0.3   0.20   &
 ./build/MutualismIBM file_set_npp4_bs04_c05_f_7   4     0.4   0.20   &
-./build/MutualismIBM file_set_npp4_bs05_c05_f_7   4     0.5   0.20   &
+./build/MutualismIBM file_set_npp4_bs05_c05_f_7   4     0.5   0.20   
 ./build/MutualismIBM file_set_npp4_bs06_c05_f_7   4     0.6   0.20   &
 ./build/MutualismIBM file_set_npp4_bs07_c05_f_7   4     0.7   0.20   &
 ./build/MutualismIBM file_set_npp4_bs08_c05_f_7   4     0.8   0.20   &
@@ -1884,7 +1884,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c06_f_7   4     0.2   0.167  &
 ./build/MutualismIBM file_set_npp4_bs03_c06_f_7   4     0.3   0.167  &
 ./build/MutualismIBM file_set_npp4_bs04_c06_f_7   4     0.4   0.167  &
-./build/MutualismIBM file_set_npp4_bs05_c06_f_7   4     0.5   0.167  &
+./build/MutualismIBM file_set_npp4_bs05_c06_f_7   4     0.5   0.167  
 ./build/MutualismIBM file_set_npp4_bs06_c06_f_7   4     0.6   0.167  &
 ./build/MutualismIBM file_set_npp4_bs07_c06_f_7   4     0.7   0.167  &
 ./build/MutualismIBM file_set_npp4_bs08_c06_f_7   4     0.8   0.167  &
@@ -1900,7 +1900,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c07_f_7   4     0.2   0.143  &
 ./build/MutualismIBM file_set_npp4_bs03_c07_f_7   4     0.3   0.143  &
 ./build/MutualismIBM file_set_npp4_bs04_c07_f_7   4     0.4   0.143  &
-./build/MutualismIBM file_set_npp4_bs05_c07_f_7   4     0.5   0.143  &
+./build/MutualismIBM file_set_npp4_bs05_c07_f_7   4     0.5   0.143  
 ./build/MutualismIBM file_set_npp4_bs06_c07_f_7   4     0.6   0.143  &
 ./build/MutualismIBM file_set_npp4_bs07_c07_f_7   4     0.7   0.143  &
 ./build/MutualismIBM file_set_npp4_bs08_c07_f_7   4     0.8   0.143  &
@@ -1919,7 +1919,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c02_f_7   5     0.2   0.50   &
 ./build/MutualismIBM file_set_npp5_bs03_c02_f_7   5     0.3   0.50   &
 ./build/MutualismIBM file_set_npp5_bs04_c02_f_7   5     0.4   0.50   &
-./build/MutualismIBM file_set_npp5_bs05_c02_f_7   5     0.5   0.50   &
+./build/MutualismIBM file_set_npp5_bs05_c02_f_7   5     0.5   0.50   
 ./build/MutualismIBM file_set_npp5_bs06_c02_f_7   5     0.6   0.50   &
 ./build/MutualismIBM file_set_npp5_bs07_c02_f_7   5     0.7   0.50   &
 ./build/MutualismIBM file_set_npp5_bs08_c02_f_7   5     0.8   0.50   &
@@ -1935,7 +1935,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c03_f_7   5     0.2   0.333  &
 ./build/MutualismIBM file_set_npp5_bs03_c03_f_7   5     0.3   0.333  &
 ./build/MutualismIBM file_set_npp5_bs04_c03_f_7   5     0.4   0.333  &
-./build/MutualismIBM file_set_npp5_bs05_c03_f_7   5     0.5   0.333  &
+./build/MutualismIBM file_set_npp5_bs05_c03_f_7   5     0.5   0.333  
 ./build/MutualismIBM file_set_npp5_bs06_c03_f_7   5     0.6   0.333  &
 ./build/MutualismIBM file_set_npp5_bs07_c03_f_7   5     0.7   0.333  &
 ./build/MutualismIBM file_set_npp5_bs08_c03_f_7   5     0.8   0.333  &
@@ -1951,7 +1951,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c04_f_7   5     0.2   0.25   &
 ./build/MutualismIBM file_set_npp5_bs03_c04_f_7   5     0.3   0.25   &
 ./build/MutualismIBM file_set_npp5_bs04_c04_f_7   5     0.4   0.25   &
-./build/MutualismIBM file_set_npp5_bs05_c04_f_7   5     0.5   0.25   &
+./build/MutualismIBM file_set_npp5_bs05_c04_f_7   5     0.5   0.25   
 ./build/MutualismIBM file_set_npp5_bs06_c04_f_7   5     0.6   0.25   &
 ./build/MutualismIBM file_set_npp5_bs07_c04_f_7   5     0.7   0.25   &
 ./build/MutualismIBM file_set_npp5_bs08_c04_f_7   5     0.8   0.25   &
@@ -1967,7 +1967,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c05_f_7   5     0.2   0.20   &
 ./build/MutualismIBM file_set_npp5_bs03_c05_f_7   5     0.3   0.20   &
 ./build/MutualismIBM file_set_npp5_bs04_c05_f_7   5     0.4   0.20   &
-./build/MutualismIBM file_set_npp5_bs05_c05_f_7   5     0.5   0.20   &
+./build/MutualismIBM file_set_npp5_bs05_c05_f_7   5     0.5   0.20   
 ./build/MutualismIBM file_set_npp5_bs06_c05_f_7   5     0.6   0.20   &
 ./build/MutualismIBM file_set_npp5_bs07_c05_f_7   5     0.7   0.20   &
 ./build/MutualismIBM file_set_npp5_bs08_c05_f_7   5     0.8   0.20   &
@@ -1983,7 +1983,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c06_f_7   5     0.2   0.167  &
 ./build/MutualismIBM file_set_npp5_bs03_c06_f_7   5     0.3   0.167  &
 ./build/MutualismIBM file_set_npp5_bs04_c06_f_7   5     0.4   0.167  &
-./build/MutualismIBM file_set_npp5_bs05_c06_f_7   5     0.5   0.167  &
+./build/MutualismIBM file_set_npp5_bs05_c06_f_7   5     0.5   0.167  
 ./build/MutualismIBM file_set_npp5_bs06_c06_f_7   5     0.6   0.167  &
 ./build/MutualismIBM file_set_npp5_bs07_c06_f_7   5     0.7   0.167  &
 ./build/MutualismIBM file_set_npp5_bs08_c06_f_7   5     0.8   0.167  &
@@ -1999,7 +1999,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c07_f_7   5     0.2   0.143  &
 ./build/MutualismIBM file_set_npp5_bs03_c07_f_7   5     0.3   0.143  &
 ./build/MutualismIBM file_set_npp5_bs04_c07_f_7   5     0.4   0.143  &
-./build/MutualismIBM file_set_npp5_bs05_c07_f_7   5     0.5   0.143  &
+./build/MutualismIBM file_set_npp5_bs05_c07_f_7   5     0.5   0.143  
 ./build/MutualismIBM file_set_npp5_bs06_c07_f_7   5     0.6   0.143  &
 ./build/MutualismIBM file_set_npp5_bs07_c07_f_7   5     0.7   0.143  &
 ./build/MutualismIBM file_set_npp5_bs08_c07_f_7   5     0.8   0.143  &
@@ -2018,7 +2018,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c02_f_7   6     0.2   0.50   &
 ./build/MutualismIBM file_set_npp6_bs03_c02_f_7   6     0.3   0.50   &
 ./build/MutualismIBM file_set_npp6_bs04_c02_f_7   6     0.4   0.50   &
-./build/MutualismIBM file_set_npp6_bs05_c02_f_7   6     0.5   0.50   &
+./build/MutualismIBM file_set_npp6_bs05_c02_f_7   6     0.5   0.50   
 ./build/MutualismIBM file_set_npp6_bs06_c02_f_7   6     0.6   0.50   &
 ./build/MutualismIBM file_set_npp6_bs07_c02_f_7   6     0.7   0.50   &
 ./build/MutualismIBM file_set_npp6_bs08_c02_f_7   6     0.8   0.50   &
@@ -2034,7 +2034,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c03_f_7   6     0.2   0.333  &
 ./build/MutualismIBM file_set_npp6_bs03_c03_f_7   6     0.3   0.333  &
 ./build/MutualismIBM file_set_npp6_bs04_c03_f_7   6     0.4   0.333  &
-./build/MutualismIBM file_set_npp6_bs05_c03_f_7   6     0.5   0.333  &
+./build/MutualismIBM file_set_npp6_bs05_c03_f_7   6     0.5   0.333  
 ./build/MutualismIBM file_set_npp6_bs06_c03_f_7   6     0.6   0.333  &
 ./build/MutualismIBM file_set_npp6_bs07_c03_f_7   6     0.7   0.333  &
 ./build/MutualismIBM file_set_npp6_bs08_c03_f_7   6     0.8   0.333  &
@@ -2050,7 +2050,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c04_f_7   6     0.2   0.25   &
 ./build/MutualismIBM file_set_npp6_bs03_c04_f_7   6     0.3   0.25   &
 ./build/MutualismIBM file_set_npp6_bs04_c04_f_7   6     0.4   0.25   &
-./build/MutualismIBM file_set_npp6_bs05_c04_f_7   6     0.5   0.25   &
+./build/MutualismIBM file_set_npp6_bs05_c04_f_7   6     0.5   0.25   
 ./build/MutualismIBM file_set_npp6_bs06_c04_f_7   6     0.6   0.25   &
 ./build/MutualismIBM file_set_npp6_bs07_c04_f_7   6     0.7   0.25   &
 ./build/MutualismIBM file_set_npp6_bs08_c04_f_7   6     0.8   0.25   &
@@ -2066,7 +2066,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c05_f_7   6     0.2   0.20   &
 ./build/MutualismIBM file_set_npp6_bs03_c05_f_7   6     0.3   0.20   &
 ./build/MutualismIBM file_set_npp6_bs04_c05_f_7   6     0.4   0.20   &
-./build/MutualismIBM file_set_npp6_bs05_c05_f_7   6     0.5   0.20   &
+./build/MutualismIBM file_set_npp6_bs05_c05_f_7   6     0.5   0.20   
 ./build/MutualismIBM file_set_npp6_bs06_c05_f_7   6     0.6   0.20   &
 ./build/MutualismIBM file_set_npp6_bs07_c05_f_7   6     0.7   0.20   &
 ./build/MutualismIBM file_set_npp6_bs08_c05_f_7   6     0.8   0.20   &
@@ -2082,7 +2082,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c06_f_7   6     0.2   0.167  &
 ./build/MutualismIBM file_set_npp6_bs03_c06_f_7   6     0.3   0.167  &
 ./build/MutualismIBM file_set_npp6_bs04_c06_f_7   6     0.4   0.167  &
-./build/MutualismIBM file_set_npp6_bs05_c06_f_7   6     0.5   0.167  &
+./build/MutualismIBM file_set_npp6_bs05_c06_f_7   6     0.5   0.167  
 ./build/MutualismIBM file_set_npp6_bs06_c06_f_7   6     0.6   0.167  &
 ./build/MutualismIBM file_set_npp6_bs07_c06_f_7   6     0.7   0.167  &
 ./build/MutualismIBM file_set_npp6_bs08_c06_f_7   6     0.8   0.167  &
@@ -2098,7 +2098,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c07_f_7   6     0.2   0.143  &
 ./build/MutualismIBM file_set_npp6_bs03_c07_f_7   6     0.3   0.143  &
 ./build/MutualismIBM file_set_npp6_bs04_c07_f_7   6     0.4   0.143  &
-./build/MutualismIBM file_set_npp6_bs05_c07_f_7   6     0.5   0.143  &
+./build/MutualismIBM file_set_npp6_bs05_c07_f_7   6     0.5   0.143  
 ./build/MutualismIBM file_set_npp6_bs06_c07_f_7   6     0.6   0.143  &
 ./build/MutualismIBM file_set_npp6_bs07_c07_f_7   6     0.7   0.143  &
 ./build/MutualismIBM file_set_npp6_bs08_c07_f_7   6     0.8   0.143  &
@@ -2121,7 +2121,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c02_f_8   4     0.2   0.50   &
 ./build/MutualismIBM file_set_npp4_bs03_c02_f_8   4     0.3   0.50   &
 ./build/MutualismIBM file_set_npp4_bs04_c02_f_8   4     0.4   0.50   &
-./build/MutualismIBM file_set_npp4_bs05_c02_f_8   4     0.5   0.50   &
+./build/MutualismIBM file_set_npp4_bs05_c02_f_8   4     0.5   0.50   
 ./build/MutualismIBM file_set_npp4_bs06_c02_f_8   4     0.6   0.50   &
 ./build/MutualismIBM file_set_npp4_bs07_c02_f_8   4     0.7   0.50   &
 ./build/MutualismIBM file_set_npp4_bs08_c02_f_8   4     0.8   0.50   &
@@ -2137,7 +2137,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c03_f_8   4     0.2   0.333  &
 ./build/MutualismIBM file_set_npp4_bs03_c03_f_8   4     0.3   0.333  &
 ./build/MutualismIBM file_set_npp4_bs04_c03_f_8   4     0.4   0.333  &
-./build/MutualismIBM file_set_npp4_bs05_c03_f_8   4     0.5   0.333  &
+./build/MutualismIBM file_set_npp4_bs05_c03_f_8   4     0.5   0.333  
 ./build/MutualismIBM file_set_npp4_bs06_c03_f_8   4     0.6   0.333  &
 ./build/MutualismIBM file_set_npp4_bs07_c03_f_8   4     0.7   0.333  &
 ./build/MutualismIBM file_set_npp4_bs08_c03_f_8   4     0.8   0.333  &
@@ -2153,7 +2153,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c04_f_8   4     0.2   0.25   &
 ./build/MutualismIBM file_set_npp4_bs03_c04_f_8   4     0.3   0.25   &
 ./build/MutualismIBM file_set_npp4_bs04_c04_f_8   4     0.4   0.25   &
-./build/MutualismIBM file_set_npp4_bs05_c04_f_8   4     0.5   0.25   &
+./build/MutualismIBM file_set_npp4_bs05_c04_f_8   4     0.5   0.25   
 ./build/MutualismIBM file_set_npp4_bs06_c04_f_8   4     0.6   0.25   &
 ./build/MutualismIBM file_set_npp4_bs07_c04_f_8   4     0.7   0.25   &
 ./build/MutualismIBM file_set_npp4_bs08_c04_f_8   4     0.8   0.25   &
@@ -2169,7 +2169,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c05_f_8   4     0.2   0.20   &
 ./build/MutualismIBM file_set_npp4_bs03_c05_f_8   4     0.3   0.20   &
 ./build/MutualismIBM file_set_npp4_bs04_c05_f_8   4     0.4   0.20   &
-./build/MutualismIBM file_set_npp4_bs05_c05_f_8   4     0.5   0.20   &
+./build/MutualismIBM file_set_npp4_bs05_c05_f_8   4     0.5   0.20   
 ./build/MutualismIBM file_set_npp4_bs06_c05_f_8   4     0.6   0.20   &
 ./build/MutualismIBM file_set_npp4_bs07_c05_f_8   4     0.7   0.20   &
 ./build/MutualismIBM file_set_npp4_bs08_c05_f_8   4     0.8   0.20   &
@@ -2185,7 +2185,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c06_f_8   4     0.2   0.167  &
 ./build/MutualismIBM file_set_npp4_bs03_c06_f_8   4     0.3   0.167  &
 ./build/MutualismIBM file_set_npp4_bs04_c06_f_8   4     0.4   0.167  &
-./build/MutualismIBM file_set_npp4_bs05_c06_f_8   4     0.5   0.167  &
+./build/MutualismIBM file_set_npp4_bs05_c06_f_8   4     0.5   0.167  
 ./build/MutualismIBM file_set_npp4_bs06_c06_f_8   4     0.6   0.167  &
 ./build/MutualismIBM file_set_npp4_bs07_c06_f_8   4     0.7   0.167  &
 ./build/MutualismIBM file_set_npp4_bs08_c06_f_8   4     0.8   0.167  &
@@ -2201,7 +2201,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c07_f_8   4     0.2   0.143  &
 ./build/MutualismIBM file_set_npp4_bs03_c07_f_8   4     0.3   0.143  &
 ./build/MutualismIBM file_set_npp4_bs04_c07_f_8   4     0.4   0.143  &
-./build/MutualismIBM file_set_npp4_bs05_c07_f_8   4     0.5   0.143  &
+./build/MutualismIBM file_set_npp4_bs05_c07_f_8   4     0.5   0.143  
 ./build/MutualismIBM file_set_npp4_bs06_c07_f_8   4     0.6   0.143  &
 ./build/MutualismIBM file_set_npp4_bs07_c07_f_8   4     0.7   0.143  &
 ./build/MutualismIBM file_set_npp4_bs08_c07_f_8   4     0.8   0.143  &
@@ -2220,7 +2220,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c02_f_8   5     0.2   0.50   &
 ./build/MutualismIBM file_set_npp5_bs03_c02_f_8   5     0.3   0.50   &
 ./build/MutualismIBM file_set_npp5_bs04_c02_f_8   5     0.4   0.50   &
-./build/MutualismIBM file_set_npp5_bs05_c02_f_8   5     0.5   0.50   &
+./build/MutualismIBM file_set_npp5_bs05_c02_f_8   5     0.5   0.50   
 ./build/MutualismIBM file_set_npp5_bs06_c02_f_8   5     0.6   0.50   &
 ./build/MutualismIBM file_set_npp5_bs07_c02_f_8   5     0.7   0.50   &
 ./build/MutualismIBM file_set_npp5_bs08_c02_f_8   5     0.8   0.50   &
@@ -2236,7 +2236,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c03_f_8   5     0.2   0.333  &
 ./build/MutualismIBM file_set_npp5_bs03_c03_f_8   5     0.3   0.333  &
 ./build/MutualismIBM file_set_npp5_bs04_c03_f_8   5     0.4   0.333  &
-./build/MutualismIBM file_set_npp5_bs05_c03_f_8   5     0.5   0.333  &
+./build/MutualismIBM file_set_npp5_bs05_c03_f_8   5     0.5   0.333  
 ./build/MutualismIBM file_set_npp5_bs06_c03_f_8   5     0.6   0.333  &
 ./build/MutualismIBM file_set_npp5_bs07_c03_f_8   5     0.7   0.333  &
 ./build/MutualismIBM file_set_npp5_bs08_c03_f_8   5     0.8   0.333  &
@@ -2252,7 +2252,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c04_f_8   5     0.2   0.25   &
 ./build/MutualismIBM file_set_npp5_bs03_c04_f_8   5     0.3   0.25   &
 ./build/MutualismIBM file_set_npp5_bs04_c04_f_8   5     0.4   0.25   &
-./build/MutualismIBM file_set_npp5_bs05_c04_f_8   5     0.5   0.25   &
+./build/MutualismIBM file_set_npp5_bs05_c04_f_8   5     0.5   0.25   
 ./build/MutualismIBM file_set_npp5_bs06_c04_f_8   5     0.6   0.25   &
 ./build/MutualismIBM file_set_npp5_bs07_c04_f_8   5     0.7   0.25   &
 ./build/MutualismIBM file_set_npp5_bs08_c04_f_8   5     0.8   0.25   &
@@ -2268,7 +2268,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c05_f_8   5     0.2   0.20   &
 ./build/MutualismIBM file_set_npp5_bs03_c05_f_8   5     0.3   0.20   &
 ./build/MutualismIBM file_set_npp5_bs04_c05_f_8   5     0.4   0.20   &
-./build/MutualismIBM file_set_npp5_bs05_c05_f_8   5     0.5   0.20   &
+./build/MutualismIBM file_set_npp5_bs05_c05_f_8   5     0.5   0.20   
 ./build/MutualismIBM file_set_npp5_bs06_c05_f_8   5     0.6   0.20   &
 ./build/MutualismIBM file_set_npp5_bs07_c05_f_8   5     0.7   0.20   &
 ./build/MutualismIBM file_set_npp5_bs08_c05_f_8   5     0.8   0.20   &
@@ -2284,7 +2284,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c06_f_8   5     0.2   0.167  &
 ./build/MutualismIBM file_set_npp5_bs03_c06_f_8   5     0.3   0.167  &
 ./build/MutualismIBM file_set_npp5_bs04_c06_f_8   5     0.4   0.167  &
-./build/MutualismIBM file_set_npp5_bs05_c06_f_8   5     0.5   0.167  &
+./build/MutualismIBM file_set_npp5_bs05_c06_f_8   5     0.5   0.167  
 ./build/MutualismIBM file_set_npp5_bs06_c06_f_8   5     0.6   0.167  &
 ./build/MutualismIBM file_set_npp5_bs07_c06_f_8   5     0.7   0.167  &
 ./build/MutualismIBM file_set_npp5_bs08_c06_f_8   5     0.8   0.167  &
@@ -2300,7 +2300,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c07_f_8   5     0.2   0.143  &
 ./build/MutualismIBM file_set_npp5_bs03_c07_f_8   5     0.3   0.143  &
 ./build/MutualismIBM file_set_npp5_bs04_c07_f_8   5     0.4   0.143  &
-./build/MutualismIBM file_set_npp5_bs05_c07_f_8   5     0.5   0.143  &
+./build/MutualismIBM file_set_npp5_bs05_c07_f_8   5     0.5   0.143  
 ./build/MutualismIBM file_set_npp5_bs06_c07_f_8   5     0.6   0.143  &
 ./build/MutualismIBM file_set_npp5_bs07_c07_f_8   5     0.7   0.143  &
 ./build/MutualismIBM file_set_npp5_bs08_c07_f_8   5     0.8   0.143  &
@@ -2319,7 +2319,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c02_f_8   6     0.2   0.50   &
 ./build/MutualismIBM file_set_npp6_bs03_c02_f_8   6     0.3   0.50   &
 ./build/MutualismIBM file_set_npp6_bs04_c02_f_8   6     0.4   0.50   &
-./build/MutualismIBM file_set_npp6_bs05_c02_f_8   6     0.5   0.50   &
+./build/MutualismIBM file_set_npp6_bs05_c02_f_8   6     0.5   0.50   
 ./build/MutualismIBM file_set_npp6_bs06_c02_f_8   6     0.6   0.50   &
 ./build/MutualismIBM file_set_npp6_bs07_c02_f_8   6     0.7   0.50   &
 ./build/MutualismIBM file_set_npp6_bs08_c02_f_8   6     0.8   0.50   &
@@ -2335,7 +2335,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c03_f_8   6     0.2   0.333  &
 ./build/MutualismIBM file_set_npp6_bs03_c03_f_8   6     0.3   0.333  &
 ./build/MutualismIBM file_set_npp6_bs04_c03_f_8   6     0.4   0.333  &
-./build/MutualismIBM file_set_npp6_bs05_c03_f_8   6     0.5   0.333  &
+./build/MutualismIBM file_set_npp6_bs05_c03_f_8   6     0.5   0.333  
 ./build/MutualismIBM file_set_npp6_bs06_c03_f_8   6     0.6   0.333  &
 ./build/MutualismIBM file_set_npp6_bs07_c03_f_8   6     0.7   0.333  &
 ./build/MutualismIBM file_set_npp6_bs08_c03_f_8   6     0.8   0.333  &
@@ -2351,7 +2351,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c04_f_8   6     0.2   0.25   &
 ./build/MutualismIBM file_set_npp6_bs03_c04_f_8   6     0.3   0.25   &
 ./build/MutualismIBM file_set_npp6_bs04_c04_f_8   6     0.4   0.25   &
-./build/MutualismIBM file_set_npp6_bs05_c04_f_8   6     0.5   0.25   &
+./build/MutualismIBM file_set_npp6_bs05_c04_f_8   6     0.5   0.25   
 ./build/MutualismIBM file_set_npp6_bs06_c04_f_8   6     0.6   0.25   &
 ./build/MutualismIBM file_set_npp6_bs07_c04_f_8   6     0.7   0.25   &
 ./build/MutualismIBM file_set_npp6_bs08_c04_f_8   6     0.8   0.25   &
@@ -2367,7 +2367,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c05_f_8   6     0.2   0.20   &
 ./build/MutualismIBM file_set_npp6_bs03_c05_f_8   6     0.3   0.20   &
 ./build/MutualismIBM file_set_npp6_bs04_c05_f_8   6     0.4   0.20   &
-./build/MutualismIBM file_set_npp6_bs05_c05_f_8   6     0.5   0.20   &
+./build/MutualismIBM file_set_npp6_bs05_c05_f_8   6     0.5   0.20   
 ./build/MutualismIBM file_set_npp6_bs06_c05_f_8   6     0.6   0.20   &
 ./build/MutualismIBM file_set_npp6_bs07_c05_f_8   6     0.7   0.20   &
 ./build/MutualismIBM file_set_npp6_bs08_c05_f_8   6     0.8   0.20   &
@@ -2383,7 +2383,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c06_f_8   6     0.2   0.167  &
 ./build/MutualismIBM file_set_npp6_bs03_c06_f_8   6     0.3   0.167  &
 ./build/MutualismIBM file_set_npp6_bs04_c06_f_8   6     0.4   0.167  &
-./build/MutualismIBM file_set_npp6_bs05_c06_f_8   6     0.5   0.167  &
+./build/MutualismIBM file_set_npp6_bs05_c06_f_8   6     0.5   0.167  
 ./build/MutualismIBM file_set_npp6_bs06_c06_f_8   6     0.6   0.167  &
 ./build/MutualismIBM file_set_npp6_bs07_c06_f_8   6     0.7   0.167  &
 ./build/MutualismIBM file_set_npp6_bs08_c06_f_8   6     0.8   0.167  &
@@ -2399,7 +2399,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c07_f_8   6     0.2   0.143  &
 ./build/MutualismIBM file_set_npp6_bs03_c07_f_8   6     0.3   0.143  &
 ./build/MutualismIBM file_set_npp6_bs04_c07_f_8   6     0.4   0.143  &
-./build/MutualismIBM file_set_npp6_bs05_c07_f_8   6     0.5   0.143  &
+./build/MutualismIBM file_set_npp6_bs05_c07_f_8   6     0.5   0.143  
 ./build/MutualismIBM file_set_npp6_bs06_c07_f_8   6     0.6   0.143  &
 ./build/MutualismIBM file_set_npp6_bs07_c07_f_8   6     0.7   0.143  &
 ./build/MutualismIBM file_set_npp6_bs08_c07_f_8   6     0.8   0.143  &
@@ -2422,7 +2422,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c02_f_9   4     0.2   0.50   &
 ./build/MutualismIBM file_set_npp4_bs03_c02_f_9   4     0.3   0.50   &
 ./build/MutualismIBM file_set_npp4_bs04_c02_f_9   4     0.4   0.50   &
-./build/MutualismIBM file_set_npp4_bs05_c02_f_9   4     0.5   0.50   &
+./build/MutualismIBM file_set_npp4_bs05_c02_f_9   4     0.5   0.50   
 ./build/MutualismIBM file_set_npp4_bs06_c02_f_9   4     0.6   0.50   &
 ./build/MutualismIBM file_set_npp4_bs07_c02_f_9   4     0.7   0.50   &
 ./build/MutualismIBM file_set_npp4_bs08_c02_f_9   4     0.8   0.50   &
@@ -2438,7 +2438,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c03_f_9   4     0.2   0.333  &
 ./build/MutualismIBM file_set_npp4_bs03_c03_f_9   4     0.3   0.333  &
 ./build/MutualismIBM file_set_npp4_bs04_c03_f_9   4     0.4   0.333  &
-./build/MutualismIBM file_set_npp4_bs05_c03_f_9   4     0.5   0.333  &
+./build/MutualismIBM file_set_npp4_bs05_c03_f_9   4     0.5   0.333  
 ./build/MutualismIBM file_set_npp4_bs06_c03_f_9   4     0.6   0.333  &
 ./build/MutualismIBM file_set_npp4_bs07_c03_f_9   4     0.7   0.333  &
 ./build/MutualismIBM file_set_npp4_bs08_c03_f_9   4     0.8   0.333  &
@@ -2454,7 +2454,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c04_f_9   4     0.2   0.25   &
 ./build/MutualismIBM file_set_npp4_bs03_c04_f_9   4     0.3   0.25   &
 ./build/MutualismIBM file_set_npp4_bs04_c04_f_9   4     0.4   0.25   &
-./build/MutualismIBM file_set_npp4_bs05_c04_f_9   4     0.5   0.25   &
+./build/MutualismIBM file_set_npp4_bs05_c04_f_9   4     0.5   0.25   
 ./build/MutualismIBM file_set_npp4_bs06_c04_f_9   4     0.6   0.25   &
 ./build/MutualismIBM file_set_npp4_bs07_c04_f_9   4     0.7   0.25   &
 ./build/MutualismIBM file_set_npp4_bs08_c04_f_9   4     0.8   0.25   &
@@ -2470,7 +2470,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c05_f_9   4     0.2   0.20   &
 ./build/MutualismIBM file_set_npp4_bs03_c05_f_9   4     0.3   0.20   &
 ./build/MutualismIBM file_set_npp4_bs04_c05_f_9   4     0.4   0.20   &
-./build/MutualismIBM file_set_npp4_bs05_c05_f_9   4     0.5   0.20   &
+./build/MutualismIBM file_set_npp4_bs05_c05_f_9   4     0.5   0.20   
 ./build/MutualismIBM file_set_npp4_bs06_c05_f_9   4     0.6   0.20   &
 ./build/MutualismIBM file_set_npp4_bs07_c05_f_9   4     0.7   0.20   &
 ./build/MutualismIBM file_set_npp4_bs08_c05_f_9   4     0.8   0.20   &
@@ -2486,7 +2486,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c06_f_9   4     0.2   0.167  &
 ./build/MutualismIBM file_set_npp4_bs03_c06_f_9   4     0.3   0.167  &
 ./build/MutualismIBM file_set_npp4_bs04_c06_f_9   4     0.4   0.167  &
-./build/MutualismIBM file_set_npp4_bs05_c06_f_9   4     0.5   0.167  &
+./build/MutualismIBM file_set_npp4_bs05_c06_f_9   4     0.5   0.167  
 ./build/MutualismIBM file_set_npp4_bs06_c06_f_9   4     0.6   0.167  &
 ./build/MutualismIBM file_set_npp4_bs07_c06_f_9   4     0.7   0.167  &
 ./build/MutualismIBM file_set_npp4_bs08_c06_f_9   4     0.8   0.167  &
@@ -2502,7 +2502,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c07_f_9   4     0.2   0.143  &
 ./build/MutualismIBM file_set_npp4_bs03_c07_f_9   4     0.3   0.143  &
 ./build/MutualismIBM file_set_npp4_bs04_c07_f_9   4     0.4   0.143  &
-./build/MutualismIBM file_set_npp4_bs05_c07_f_9   4     0.5   0.143  &
+./build/MutualismIBM file_set_npp4_bs05_c07_f_9   4     0.5   0.143  
 ./build/MutualismIBM file_set_npp4_bs06_c07_f_9   4     0.6   0.143  &
 ./build/MutualismIBM file_set_npp4_bs07_c07_f_9   4     0.7   0.143  &
 ./build/MutualismIBM file_set_npp4_bs08_c07_f_9   4     0.8   0.143  &
@@ -2521,7 +2521,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c02_f_9   5     0.2   0.50   &
 ./build/MutualismIBM file_set_npp5_bs03_c02_f_9   5     0.3   0.50   &
 ./build/MutualismIBM file_set_npp5_bs04_c02_f_9   5     0.4   0.50   &
-./build/MutualismIBM file_set_npp5_bs05_c02_f_9   5     0.5   0.50   &
+./build/MutualismIBM file_set_npp5_bs05_c02_f_9   5     0.5   0.50   
 ./build/MutualismIBM file_set_npp5_bs06_c02_f_9   5     0.6   0.50   &
 ./build/MutualismIBM file_set_npp5_bs07_c02_f_9   5     0.7   0.50   &
 ./build/MutualismIBM file_set_npp5_bs08_c02_f_9   5     0.8   0.50   &
@@ -2537,7 +2537,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c03_f_9   5     0.2   0.333  &
 ./build/MutualismIBM file_set_npp5_bs03_c03_f_9   5     0.3   0.333  &
 ./build/MutualismIBM file_set_npp5_bs04_c03_f_9   5     0.4   0.333  &
-./build/MutualismIBM file_set_npp5_bs05_c03_f_9   5     0.5   0.333  &
+./build/MutualismIBM file_set_npp5_bs05_c03_f_9   5     0.5   0.333  
 ./build/MutualismIBM file_set_npp5_bs06_c03_f_9   5     0.6   0.333  &
 ./build/MutualismIBM file_set_npp5_bs07_c03_f_9   5     0.7   0.333  &
 ./build/MutualismIBM file_set_npp5_bs08_c03_f_9   5     0.8   0.333  &
@@ -2553,7 +2553,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c04_f_9   5     0.2   0.25   &
 ./build/MutualismIBM file_set_npp5_bs03_c04_f_9   5     0.3   0.25   &
 ./build/MutualismIBM file_set_npp5_bs04_c04_f_9   5     0.4   0.25   &
-./build/MutualismIBM file_set_npp5_bs05_c04_f_9   5     0.5   0.25   &
+./build/MutualismIBM file_set_npp5_bs05_c04_f_9   5     0.5   0.25   
 ./build/MutualismIBM file_set_npp5_bs06_c04_f_9   5     0.6   0.25   &
 ./build/MutualismIBM file_set_npp5_bs07_c04_f_9   5     0.7   0.25   &
 ./build/MutualismIBM file_set_npp5_bs08_c04_f_9   5     0.8   0.25   &
@@ -2569,7 +2569,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c05_f_9   5     0.2   0.20   &
 ./build/MutualismIBM file_set_npp5_bs03_c05_f_9   5     0.3   0.20   &
 ./build/MutualismIBM file_set_npp5_bs04_c05_f_9   5     0.4   0.20   &
-./build/MutualismIBM file_set_npp5_bs05_c05_f_9   5     0.5   0.20   &
+./build/MutualismIBM file_set_npp5_bs05_c05_f_9   5     0.5   0.20   
 ./build/MutualismIBM file_set_npp5_bs06_c05_f_9   5     0.6   0.20   &
 ./build/MutualismIBM file_set_npp5_bs07_c05_f_9   5     0.7   0.20   &
 ./build/MutualismIBM file_set_npp5_bs08_c05_f_9   5     0.8   0.20   &
@@ -2585,7 +2585,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c06_f_9   5     0.2   0.167  &
 ./build/MutualismIBM file_set_npp5_bs03_c06_f_9   5     0.3   0.167  &
 ./build/MutualismIBM file_set_npp5_bs04_c06_f_9   5     0.4   0.167  &
-./build/MutualismIBM file_set_npp5_bs05_c06_f_9   5     0.5   0.167  &
+./build/MutualismIBM file_set_npp5_bs05_c06_f_9   5     0.5   0.167  
 ./build/MutualismIBM file_set_npp5_bs06_c06_f_9   5     0.6   0.167  &
 ./build/MutualismIBM file_set_npp5_bs07_c06_f_9   5     0.7   0.167  &
 ./build/MutualismIBM file_set_npp5_bs08_c06_f_9   5     0.8   0.167  &
@@ -2601,7 +2601,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c07_f_9   5     0.2   0.143  &
 ./build/MutualismIBM file_set_npp5_bs03_c07_f_9   5     0.3   0.143  &
 ./build/MutualismIBM file_set_npp5_bs04_c07_f_9   5     0.4   0.143  &
-./build/MutualismIBM file_set_npp5_bs05_c07_f_9   5     0.5   0.143  &
+./build/MutualismIBM file_set_npp5_bs05_c07_f_9   5     0.5   0.143  
 ./build/MutualismIBM file_set_npp5_bs06_c07_f_9   5     0.6   0.143  &
 ./build/MutualismIBM file_set_npp5_bs07_c07_f_9   5     0.7   0.143  &
 ./build/MutualismIBM file_set_npp5_bs08_c07_f_9   5     0.8   0.143  &
@@ -2620,7 +2620,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c02_f_9   6     0.2   0.50   &
 ./build/MutualismIBM file_set_npp6_bs03_c02_f_9   6     0.3   0.50   &
 ./build/MutualismIBM file_set_npp6_bs04_c02_f_9   6     0.4   0.50   &
-./build/MutualismIBM file_set_npp6_bs05_c02_f_9   6     0.5   0.50   &
+./build/MutualismIBM file_set_npp6_bs05_c02_f_9   6     0.5   0.50   
 ./build/MutualismIBM file_set_npp6_bs06_c02_f_9   6     0.6   0.50   &
 ./build/MutualismIBM file_set_npp6_bs07_c02_f_9   6     0.7   0.50   &
 ./build/MutualismIBM file_set_npp6_bs08_c02_f_9   6     0.8   0.50   &
@@ -2636,7 +2636,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c03_f_9   6     0.2   0.333  &
 ./build/MutualismIBM file_set_npp6_bs03_c03_f_9   6     0.3   0.333  &
 ./build/MutualismIBM file_set_npp6_bs04_c03_f_9   6     0.4   0.333  &
-./build/MutualismIBM file_set_npp6_bs05_c03_f_9   6     0.5   0.333  &
+./build/MutualismIBM file_set_npp6_bs05_c03_f_9   6     0.5   0.333  
 ./build/MutualismIBM file_set_npp6_bs06_c03_f_9   6     0.6   0.333  &
 ./build/MutualismIBM file_set_npp6_bs07_c03_f_9   6     0.7   0.333  &
 ./build/MutualismIBM file_set_npp6_bs08_c03_f_9   6     0.8   0.333  &
@@ -2652,7 +2652,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c04_f_9   6     0.2   0.25   &
 ./build/MutualismIBM file_set_npp6_bs03_c04_f_9   6     0.3   0.25   &
 ./build/MutualismIBM file_set_npp6_bs04_c04_f_9   6     0.4   0.25   &
-./build/MutualismIBM file_set_npp6_bs05_c04_f_9   6     0.5   0.25   &
+./build/MutualismIBM file_set_npp6_bs05_c04_f_9   6     0.5   0.25   
 ./build/MutualismIBM file_set_npp6_bs06_c04_f_9   6     0.6   0.25   &
 ./build/MutualismIBM file_set_npp6_bs07_c04_f_9   6     0.7   0.25   &
 ./build/MutualismIBM file_set_npp6_bs08_c04_f_9   6     0.8   0.25   &
@@ -2668,7 +2668,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c05_f_9   6     0.2   0.20   &
 ./build/MutualismIBM file_set_npp6_bs03_c05_f_9   6     0.3   0.20   &
 ./build/MutualismIBM file_set_npp6_bs04_c05_f_9   6     0.4   0.20   &
-./build/MutualismIBM file_set_npp6_bs05_c05_f_9   6     0.5   0.20   &
+./build/MutualismIBM file_set_npp6_bs05_c05_f_9   6     0.5   0.20   
 ./build/MutualismIBM file_set_npp6_bs06_c05_f_9   6     0.6   0.20   &
 ./build/MutualismIBM file_set_npp6_bs07_c05_f_9   6     0.7   0.20   &
 ./build/MutualismIBM file_set_npp6_bs08_c05_f_9   6     0.8   0.20   &
@@ -2684,7 +2684,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c06_f_9   6     0.2   0.167  &
 ./build/MutualismIBM file_set_npp6_bs03_c06_f_9   6     0.3   0.167  &
 ./build/MutualismIBM file_set_npp6_bs04_c06_f_9   6     0.4   0.167  &
-./build/MutualismIBM file_set_npp6_bs05_c06_f_9   6     0.5   0.167  &
+./build/MutualismIBM file_set_npp6_bs05_c06_f_9   6     0.5   0.167  
 ./build/MutualismIBM file_set_npp6_bs06_c06_f_9   6     0.6   0.167  &
 ./build/MutualismIBM file_set_npp6_bs07_c06_f_9   6     0.7   0.167  &
 ./build/MutualismIBM file_set_npp6_bs08_c06_f_9   6     0.8   0.167  &
@@ -2700,7 +2700,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c07_f_9   6     0.2   0.143  &
 ./build/MutualismIBM file_set_npp6_bs03_c07_f_9   6     0.3   0.143  &
 ./build/MutualismIBM file_set_npp6_bs04_c07_f_9   6     0.4   0.143  &
-./build/MutualismIBM file_set_npp6_bs05_c07_f_9   6     0.5   0.143  &
+./build/MutualismIBM file_set_npp6_bs05_c07_f_9   6     0.5   0.143  
 ./build/MutualismIBM file_set_npp6_bs06_c07_f_9   6     0.6   0.143  &
 ./build/MutualismIBM file_set_npp6_bs07_c07_f_9   6     0.7   0.143  &
 ./build/MutualismIBM file_set_npp6_bs08_c07_f_9   6     0.8   0.143  &
@@ -2723,7 +2723,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c02_f_10   4     0.2   0.50   &
 ./build/MutualismIBM file_set_npp4_bs03_c02_f_10   4     0.3   0.50   &
 ./build/MutualismIBM file_set_npp4_bs04_c02_f_10   4     0.4   0.50   &
-./build/MutualismIBM file_set_npp4_bs05_c02_f_10   4     0.5   0.50   &
+./build/MutualismIBM file_set_npp4_bs05_c02_f_10   4     0.5   0.50   
 ./build/MutualismIBM file_set_npp4_bs06_c02_f_10   4     0.6   0.50   &
 ./build/MutualismIBM file_set_npp4_bs07_c02_f_10   4     0.7   0.50   &
 ./build/MutualismIBM file_set_npp4_bs08_c02_f_10   4     0.8   0.50   &
@@ -2739,7 +2739,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c03_f_10   4     0.2   0.333  &
 ./build/MutualismIBM file_set_npp4_bs03_c03_f_10   4     0.3   0.333  &
 ./build/MutualismIBM file_set_npp4_bs04_c03_f_10   4     0.4   0.333  &
-./build/MutualismIBM file_set_npp4_bs05_c03_f_10   4     0.5   0.333  &
+./build/MutualismIBM file_set_npp4_bs05_c03_f_10   4     0.5   0.333  
 ./build/MutualismIBM file_set_npp4_bs06_c03_f_10   4     0.6   0.333  &
 ./build/MutualismIBM file_set_npp4_bs07_c03_f_10   4     0.7   0.333  &
 ./build/MutualismIBM file_set_npp4_bs08_c03_f_10   4     0.8   0.333  &
@@ -2755,7 +2755,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c04_f_10   4     0.2   0.25   &
 ./build/MutualismIBM file_set_npp4_bs03_c04_f_10   4     0.3   0.25   &
 ./build/MutualismIBM file_set_npp4_bs04_c04_f_10   4     0.4   0.25   &
-./build/MutualismIBM file_set_npp4_bs05_c04_f_10   4     0.5   0.25   &
+./build/MutualismIBM file_set_npp4_bs05_c04_f_10   4     0.5   0.25   
 ./build/MutualismIBM file_set_npp4_bs06_c04_f_10   4     0.6   0.25   &
 ./build/MutualismIBM file_set_npp4_bs07_c04_f_10   4     0.7   0.25   &
 ./build/MutualismIBM file_set_npp4_bs08_c04_f_10   4     0.8   0.25   &
@@ -2771,7 +2771,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c05_f_10   4     0.2   0.20   &
 ./build/MutualismIBM file_set_npp4_bs03_c05_f_10   4     0.3   0.20   &
 ./build/MutualismIBM file_set_npp4_bs04_c05_f_10   4     0.4   0.20   &
-./build/MutualismIBM file_set_npp4_bs05_c05_f_10   4     0.5   0.20   &
+./build/MutualismIBM file_set_npp4_bs05_c05_f_10   4     0.5   0.20   
 ./build/MutualismIBM file_set_npp4_bs06_c05_f_10   4     0.6   0.20   &
 ./build/MutualismIBM file_set_npp4_bs07_c05_f_10   4     0.7   0.20   &
 ./build/MutualismIBM file_set_npp4_bs08_c05_f_10   4     0.8   0.20   &
@@ -2787,7 +2787,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c06_f_10   4     0.2   0.167  &
 ./build/MutualismIBM file_set_npp4_bs03_c06_f_10   4     0.3   0.167  &
 ./build/MutualismIBM file_set_npp4_bs04_c06_f_10   4     0.4   0.167  &
-./build/MutualismIBM file_set_npp4_bs05_c06_f_10   4     0.5   0.167  &
+./build/MutualismIBM file_set_npp4_bs05_c06_f_10   4     0.5   0.167  
 ./build/MutualismIBM file_set_npp4_bs06_c06_f_10   4     0.6   0.167  &
 ./build/MutualismIBM file_set_npp4_bs07_c06_f_10   4     0.7   0.167  &
 ./build/MutualismIBM file_set_npp4_bs08_c06_f_10   4     0.8   0.167  &
@@ -2803,7 +2803,7 @@
 ./build/MutualismIBM file_set_npp4_bs02_c07_f_10   4     0.2   0.143  &
 ./build/MutualismIBM file_set_npp4_bs03_c07_f_10   4     0.3   0.143  &
 ./build/MutualismIBM file_set_npp4_bs04_c07_f_10   4     0.4   0.143  &
-./build/MutualismIBM file_set_npp4_bs05_c07_f_10   4     0.5   0.143  &
+./build/MutualismIBM file_set_npp4_bs05_c07_f_10   4     0.5   0.143  
 ./build/MutualismIBM file_set_npp4_bs06_c07_f_10   4     0.6   0.143  &
 ./build/MutualismIBM file_set_npp4_bs07_c07_f_10   4     0.7   0.143  &
 ./build/MutualismIBM file_set_npp4_bs08_c07_f_10   4     0.8   0.143  &
@@ -2822,7 +2822,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c02_f_10   5     0.2   0.50   &
 ./build/MutualismIBM file_set_npp5_bs03_c02_f_10   5     0.3   0.50   &
 ./build/MutualismIBM file_set_npp5_bs04_c02_f_10   5     0.4   0.50   &
-./build/MutualismIBM file_set_npp5_bs05_c02_f_10   5     0.5   0.50   &
+./build/MutualismIBM file_set_npp5_bs05_c02_f_10   5     0.5   0.50   
 ./build/MutualismIBM file_set_npp5_bs06_c02_f_10   5     0.6   0.50   &
 ./build/MutualismIBM file_set_npp5_bs07_c02_f_10   5     0.7   0.50   &
 ./build/MutualismIBM file_set_npp5_bs08_c02_f_10   5     0.8   0.50   &
@@ -2838,7 +2838,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c03_f_10   5     0.2   0.333  &
 ./build/MutualismIBM file_set_npp5_bs03_c03_f_10   5     0.3   0.333  &
 ./build/MutualismIBM file_set_npp5_bs04_c03_f_10   5     0.4   0.333  &
-./build/MutualismIBM file_set_npp5_bs05_c03_f_10   5     0.5   0.333  &
+./build/MutualismIBM file_set_npp5_bs05_c03_f_10   5     0.5   0.333  
 ./build/MutualismIBM file_set_npp5_bs06_c03_f_10   5     0.6   0.333  &
 ./build/MutualismIBM file_set_npp5_bs07_c03_f_10   5     0.7   0.333  &
 ./build/MutualismIBM file_set_npp5_bs08_c03_f_10   5     0.8   0.333  &
@@ -2854,7 +2854,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c04_f_10   5     0.2   0.25   &
 ./build/MutualismIBM file_set_npp5_bs03_c04_f_10   5     0.3   0.25   &
 ./build/MutualismIBM file_set_npp5_bs04_c04_f_10   5     0.4   0.25   &
-./build/MutualismIBM file_set_npp5_bs05_c04_f_10   5     0.5   0.25   &
+./build/MutualismIBM file_set_npp5_bs05_c04_f_10   5     0.5   0.25   
 ./build/MutualismIBM file_set_npp5_bs06_c04_f_10   5     0.6   0.25   &
 ./build/MutualismIBM file_set_npp5_bs07_c04_f_10   5     0.7   0.25   &
 ./build/MutualismIBM file_set_npp5_bs08_c04_f_10   5     0.8   0.25   &
@@ -2870,7 +2870,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c05_f_10   5     0.2   0.20   &
 ./build/MutualismIBM file_set_npp5_bs03_c05_f_10   5     0.3   0.20   &
 ./build/MutualismIBM file_set_npp5_bs04_c05_f_10   5     0.4   0.20   &
-./build/MutualismIBM file_set_npp5_bs05_c05_f_10   5     0.5   0.20   &
+./build/MutualismIBM file_set_npp5_bs05_c05_f_10   5     0.5   0.20   
 ./build/MutualismIBM file_set_npp5_bs06_c05_f_10   5     0.6   0.20   &
 ./build/MutualismIBM file_set_npp5_bs07_c05_f_10   5     0.7   0.20   &
 ./build/MutualismIBM file_set_npp5_bs08_c05_f_10   5     0.8   0.20   &
@@ -2886,7 +2886,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c06_f_10   5     0.2   0.167  &
 ./build/MutualismIBM file_set_npp5_bs03_c06_f_10   5     0.3   0.167  &
 ./build/MutualismIBM file_set_npp5_bs04_c06_f_10   5     0.4   0.167  &
-./build/MutualismIBM file_set_npp5_bs05_c06_f_10   5     0.5   0.167  &
+./build/MutualismIBM file_set_npp5_bs05_c06_f_10   5     0.5   0.167  
 ./build/MutualismIBM file_set_npp5_bs06_c06_f_10   5     0.6   0.167  &
 ./build/MutualismIBM file_set_npp5_bs07_c06_f_10   5     0.7   0.167  &
 ./build/MutualismIBM file_set_npp5_bs08_c06_f_10   5     0.8   0.167  &
@@ -2902,7 +2902,7 @@
 ./build/MutualismIBM file_set_npp5_bs02_c07_f_10   5     0.2   0.143  &
 ./build/MutualismIBM file_set_npp5_bs03_c07_f_10   5     0.3   0.143  &
 ./build/MutualismIBM file_set_npp5_bs04_c07_f_10   5     0.4   0.143  &
-./build/MutualismIBM file_set_npp5_bs05_c07_f_10   5     0.5   0.143  &
+./build/MutualismIBM file_set_npp5_bs05_c07_f_10   5     0.5   0.143  
 ./build/MutualismIBM file_set_npp5_bs06_c07_f_10   5     0.6   0.143  &
 ./build/MutualismIBM file_set_npp5_bs07_c07_f_10   5     0.7   0.143  &
 ./build/MutualismIBM file_set_npp5_bs08_c07_f_10   5     0.8   0.143  &
@@ -2921,7 +2921,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c02_f_10   6     0.2   0.50   &
 ./build/MutualismIBM file_set_npp6_bs03_c02_f_10   6     0.3   0.50   &
 ./build/MutualismIBM file_set_npp6_bs04_c02_f_10   6     0.4   0.50   &
-./build/MutualismIBM file_set_npp6_bs05_c02_f_10   6     0.5   0.50   &
+./build/MutualismIBM file_set_npp6_bs05_c02_f_10   6     0.5   0.50   
 ./build/MutualismIBM file_set_npp6_bs06_c02_f_10   6     0.6   0.50   &
 ./build/MutualismIBM file_set_npp6_bs07_c02_f_10   6     0.7   0.50   &
 ./build/MutualismIBM file_set_npp6_bs08_c02_f_10   6     0.8   0.50   &
@@ -2937,7 +2937,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c03_f_10   6     0.2   0.333  &
 ./build/MutualismIBM file_set_npp6_bs03_c03_f_10   6     0.3   0.333  &
 ./build/MutualismIBM file_set_npp6_bs04_c03_f_10   6     0.4   0.333  &
-./build/MutualismIBM file_set_npp6_bs05_c03_f_10   6     0.5   0.333  &
+./build/MutualismIBM file_set_npp6_bs05_c03_f_10   6     0.5   0.333  
 ./build/MutualismIBM file_set_npp6_bs06_c03_f_10   6     0.6   0.333  &
 ./build/MutualismIBM file_set_npp6_bs07_c03_f_10   6     0.7   0.333  &
 ./build/MutualismIBM file_set_npp6_bs08_c03_f_10   6     0.8   0.333  &
@@ -2953,7 +2953,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c04_f_10   6     0.2   0.25   &
 ./build/MutualismIBM file_set_npp6_bs03_c04_f_10   6     0.3   0.25   &
 ./build/MutualismIBM file_set_npp6_bs04_c04_f_10   6     0.4   0.25   &
-./build/MutualismIBM file_set_npp6_bs05_c04_f_10   6     0.5   0.25   &
+./build/MutualismIBM file_set_npp6_bs05_c04_f_10   6     0.5   0.25   
 ./build/MutualismIBM file_set_npp6_bs06_c04_f_10   6     0.6   0.25   &
 ./build/MutualismIBM file_set_npp6_bs07_c04_f_10   6     0.7   0.25   &
 ./build/MutualismIBM file_set_npp6_bs08_c04_f_10   6     0.8   0.25   &
@@ -2969,7 +2969,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c05_f_10   6     0.2   0.20   &
 ./build/MutualismIBM file_set_npp6_bs03_c05_f_10   6     0.3   0.20   &
 ./build/MutualismIBM file_set_npp6_bs04_c05_f_10   6     0.4   0.20   &
-./build/MutualismIBM file_set_npp6_bs05_c05_f_10   6     0.5   0.20   &
+./build/MutualismIBM file_set_npp6_bs05_c05_f_10   6     0.5   0.20   
 ./build/MutualismIBM file_set_npp6_bs06_c05_f_10   6     0.6   0.20   &
 ./build/MutualismIBM file_set_npp6_bs07_c05_f_10   6     0.7   0.20   &
 ./build/MutualismIBM file_set_npp6_bs08_c05_f_10   6     0.8   0.20   &
@@ -2985,7 +2985,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c06_f_10   6     0.2   0.167  &
 ./build/MutualismIBM file_set_npp6_bs03_c06_f_10   6     0.3   0.167  &
 ./build/MutualismIBM file_set_npp6_bs04_c06_f_10   6     0.4   0.167  &
-./build/MutualismIBM file_set_npp6_bs05_c06_f_10   6     0.5   0.167  &
+./build/MutualismIBM file_set_npp6_bs05_c06_f_10   6     0.5   0.167  
 ./build/MutualismIBM file_set_npp6_bs06_c06_f_10   6     0.6   0.167  &
 ./build/MutualismIBM file_set_npp6_bs07_c06_f_10   6     0.7   0.167  &
 ./build/MutualismIBM file_set_npp6_bs08_c06_f_10   6     0.8   0.167  &
@@ -3001,7 +3001,7 @@
 ./build/MutualismIBM file_set_npp6_bs02_c07_f_10   6     0.2   0.143  &
 ./build/MutualismIBM file_set_npp6_bs03_c07_f_10   6     0.3   0.143  &
 ./build/MutualismIBM file_set_npp6_bs04_c07_f_10   6     0.4   0.143  &
-./build/MutualismIBM file_set_npp6_bs05_c07_f_10   6     0.5   0.143  &
+./build/MutualismIBM file_set_npp6_bs05_c07_f_10   6     0.5   0.143  
 ./build/MutualismIBM file_set_npp6_bs06_c07_f_10   6     0.6   0.143  &
 ./build/MutualismIBM file_set_npp6_bs07_c07_f_10   6     0.7   0.143  &
 ./build/MutualismIBM file_set_npp6_bs08_c07_f_10   6     0.8   0.143  &
