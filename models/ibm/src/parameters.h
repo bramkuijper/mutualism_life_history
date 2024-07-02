@@ -24,7 +24,7 @@ struct Parameters {
     // array to determine whether species 1 and species 2
     // have death-birth rather than birth death updating
     // TODO: make db/bd asymmetric
-    bool death_birth = false;
+    bool death_birth = true;
 
     // toggle within vs between species help
     bool between_species = false;
@@ -68,7 +68,7 @@ struct Parameters {
     double fecundity_cost_of_fec_help[2]  = {0.0,0.0};
 
     // mutation rates
-    double mu_fec_h = 0.0;
+    double mu_fec_h = 0.01;
     double mu_surv_h = 0.0;
     double sdmu = 0.01;
 
