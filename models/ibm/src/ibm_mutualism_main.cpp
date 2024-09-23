@@ -14,6 +14,9 @@ int main(int argc, char **argv)
     parms.survival_cost_of_surv_help[0] = atof(argv[3]);
     parms.survival_cost_of_surv_help[1] = atof(argv[3]);
 
+    parms.dispersal_rate[0] = atof(argv[4]);
+    parms.dispersal_rate[1] = atof(argv[4]);
+
     // parms.between_species = argv[2] == std::string{"true"};
     // parms.death_birth = argv[3] == std::string{"true"};
     // parms.partner_mechanism = atof(argv[4]);  
