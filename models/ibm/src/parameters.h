@@ -24,7 +24,7 @@ struct Parameters {
     // array to determine whether species 1 and species 2
     // have death-birth rather than birth death updating
     // TODO: make db/bd asymmetric
-    bool death_birth = true;
+    bool death_birth = false;
 
     // toggle within vs between species help
     bool between_species = false;
@@ -50,7 +50,7 @@ struct Parameters {
 
     // baseline survival and fecundity for both species
     double baseline_survival[2]  = {0.7,0.7};
-    double baseline_fecundity[2] = {20.0,20.0};
+    double baseline_fecundity[2] = {3.0,3.0};
 
     // how rapidly survival increases with help
     double strength_survival[2] = {0.3,0.3};
