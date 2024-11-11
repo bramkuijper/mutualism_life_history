@@ -1385,7 +1385,8 @@ void IBM_Mutualism::defend_to_survive_0()
             }
 
             // to recaculate adult survival probability later
-            double sum_juvenile_survival_weights = metapop[patch_idx].juveniles[species_idx].size() * par.juvenile_survival_weight[species_idx];
+            double sum_juvenile_survival_weights = metapop[patch_idx].juveniles[species_idx].size() * 
+            par.juvenile_survival_weight[species_idx] / par.npp[species_idx];
 
             // then make a juvenile sample distribution
             // so that each juvenile is equally likely to be selected
