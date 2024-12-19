@@ -30,7 +30,7 @@ struct Parameters {
     // 0 for death-birth 
     // 1 for full scramble (intergenerational competition)
     // 2 for adult defence (birth-death)
-    int update_mechanism = 1;
+    int update_mechanism = 2;
 
     // toggle within vs between species help
     bool between_species = false;
@@ -74,8 +74,8 @@ struct Parameters {
     double fecundity_cost_of_fec_help[2]  = {0.0,0.0};
 
     // mutation rates
-    double mu_fec_h = 0.0;
-    double mu_surv_h = 0.01;
+    double mu_fec_h = 0.01;
+    double mu_surv_h = 0.0;
     double sdmu = 0.01;
 
     // rank error in partner choice (standard deviation)
