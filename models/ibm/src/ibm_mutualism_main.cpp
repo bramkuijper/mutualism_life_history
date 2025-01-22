@@ -15,7 +15,7 @@ int main(int argc, char **argv)
     parms.baseline_survival[1] = atof(argv[4]);
 
     parms.fecundity_cost_of_fec_help[0] = atof(argv[5]);
-    parms.fecundity_cost_of_fec_help[1] = atof(argv[6]);
+    parms.fecundity_cost_of_fec_help[1] = atof(argv[5]);
 
     // parms.survival_cost_of_surv_help[0] = atof(argv[5]);
     // parms.survival_cost_of_surv_help[1] = atof(argv[6]);

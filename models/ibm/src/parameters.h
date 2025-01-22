@@ -28,8 +28,8 @@ struct Parameters {
 
     // determine the update mechanism for species 1 and species 2
     // 0 for death-birth 
-    // 1 for full scramble (intergenerational competition)
-    // 2 for adult defence (birth-death)
+    // 1 for full scramble 
+    // 2 for adult defence 
     int update_mechanism = 0;
 
     // toggle within vs between species help
@@ -79,7 +79,7 @@ struct Parameters {
     double sdmu = 0.01;
 
     // rank error in partner choice (standard deviation)
-    // e.g. 0.5 gives probability of approx 0.317 that there will be a swap
+    // e.g. 0.5 gives probability of approx 0.317 that there will be a swap (I think)
     double sd_pcerr = 0.0;
 };
 
