@@ -76,7 +76,7 @@ struct Parameters {
     // mutation rates
     double mu_fec_h = 0.01;
     double mu_surv_h = 0.0;
-    double sdmu = 0.01;
+    double sdmu = 0.02;
 
     // rank error in partner choice (standard deviation)
     // e.g. 0.5 gives probability of approx 0.317 that there will be a swap (I think)
