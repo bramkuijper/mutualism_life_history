@@ -41,7 +41,7 @@ struct Parameters {
     // 2 for partner fidelity;
     // 3 for partner fidelity and negotiation
     // TODO: 3 partner fidelity and negotiation
-    int partner_mechanism = 2;
+    int partner_mechanism = 0;
 
     // probability that partners will stay together at the end of each time step
     double fidelity_prob{1.0};
@@ -76,7 +76,7 @@ struct Parameters {
     // mutation rates
     double mu_fec_h = 0.0;
     double mu_surv_h = 0.01;
-    double sdmu = 0.02;
+    double sdmu = 0.01;
 
     // rank error in partner choice (standard deviation)
     // e.g. 0.5 gives probability of approx 0.317 that there will be a swap (I think)
