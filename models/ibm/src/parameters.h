@@ -8,7 +8,7 @@
 // https://stackoverflow.com/questions/58859201/why-pass-structure-to-function-instead-of-separate-parameters
 struct Parameters {
     double dispersal_rate[2] = {0.15,0.15}; // dispersal rates of species 1 and 2
-    int max_time_steps{50000}; // number of generations the simulation is supposed to last
+    int max_time_steps{100000}; // number of generations the simulation is supposed to last
     unsigned int npatches{250}; // number of patches
 
     // number of individuals per patch
@@ -19,7 +19,7 @@ struct Parameters {
     std::string base_name{"ibm_mutualism_data"};
 
     // interval in generations at which data is written to the data
-    int data_interval = 10;
+    int data_interval = 20;
 
     // array to determine whether species 1 and species 2
     // have death-birth rather than birth death updating
