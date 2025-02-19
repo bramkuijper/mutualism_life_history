@@ -1036,11 +1036,14 @@ void IBM_Mutualism::compete_to_survive_0()
                         individual_iter->surv_h[1]);
 
                 p_survive = par.baseline_survival[species_idx] +
-                    (1.0 - par.baseline_survival[species_idx])
-                            * (1.0 - exp(-par.strength_survival[species_idx] * (
+                par.strength_survival[species_idx] * (
                     survival_help_per_individual
-                    - survival_cost_of_help))
-                    );
+                    - survival_cost_of_help);
+
+                if (p_survive < 0)
+                {
+                    p_survive = 0.0;
+                }
 
                 survival_weights.push_back(p_survive);
 
@@ -1231,11 +1234,14 @@ void IBM_Mutualism::compete_to_survive_12()
                         individual_iter->surv_h[1]);
 
                 p_survive = par.baseline_survival[species_idx] +
-                    (1.0 - par.baseline_survival[species_idx])
-                            * (1.0 - exp(-par.strength_survival[species_idx] * (
+                    par.strength_survival[species_idx] * (
                     individual_iter->rec_surv_h
-                    - survival_cost_of_help))
-                    );
+                    - survival_cost_of_help);
+
+                if (p_survive < 0)
+                {
+                    p_survive = 0.0;
+                }
 
                 survival_weights.push_back(p_survive);
 
@@ -1419,11 +1425,14 @@ void IBM_Mutualism::defend_to_survive_0()
 
                 // calculate survival probability
                 p_survive = par.baseline_survival[species_idx] +
-                    (1.0 - par.baseline_survival[species_idx])
-                            * (1.0 - exp(-par.strength_survival[species_idx] * (
+                    par.strength_survival[species_idx] * (
                     survival_help_per_individual
-                    - survival_cost_of_help))
-                        );
+                    - survival_cost_of_help);
+
+                if (p_survive < 0)
+                {
+                    p_survive = 0.0;
+                }
 
                 p_survive = p_survive / (p_survive + sum_juvenile_survival_weights);
                 // alternative would be to divide by 1 + sum_juvenile_survival_weights
@@ -1585,11 +1594,14 @@ void IBM_Mutualism::defend_to_survive_12()
 
                 // calculate survival probability
                 p_survive = par.baseline_survival[species_idx] +
-                    (1.0 - par.baseline_survival[species_idx])
-                        * (1.0 - exp(-par.strength_survival[species_idx] * (
+                    par.strength_survival[species_idx] * (
                             individual_iter->rec_surv_h
-                            - survival_cost_of_help))
-                        );
+                            - survival_cost_of_help);
+
+                if (p_survive < 0)
+                {
+                    p_survive = 0.0;
+                }
 
                 p_survive = p_survive / (p_survive + sum_juvenile_survival_weights);
                 // alternative would be to divide by 1 + sum_juvenile_survival_weights

@@ -8,7 +8,7 @@
 // https://stackoverflow.com/questions/58859201/why-pass-structure-to-function-instead-of-separate-parameters
 struct Parameters {
     double dispersal_rate[2] = {0.15,0.15}; // dispersal rates of species 1 and 2
-    int max_time_steps{100000}; // number of generations the simulation is supposed to last
+    int max_time_steps{50000}; // number of generations the simulation is supposed to last
     unsigned int npatches{250}; // number of patches
 
     // number of individuals per patch
@@ -19,7 +19,7 @@ struct Parameters {
     std::string base_name{"ibm_mutualism_data"};
 
     // interval in generations at which data is written to the data
-    int data_interval = 20;
+    int data_interval = 10;
 
     // array to determine whether species 1 and species 2
     // have death-birth rather than birth death updating
@@ -30,10 +30,10 @@ struct Parameters {
     // 0 for death-birth 
     // 1 for full scramble 
     // 2 for adult defence 
-    int update_mechanism = 0;
+    int update_mechanism = 2;
 
     // toggle within vs between species help
-    bool between_species = true;
+    bool between_species = false;
 
     // select partnering mechanism
     // 0 for no mechanism;
@@ -56,7 +56,7 @@ struct Parameters {
 
     // baseline survival and fecundity for both species
     double baseline_survival[2]  = {0.7,0.7};
-    double baseline_fecundity[2] = {20.0,20.0};
+    double baseline_fecundity[2] = {3.0,3.0};
 
     // how rapidly survival increases with help
     double strength_survival[2] = {1.0,1.0};
@@ -74,8 +74,8 @@ struct Parameters {
     double fecundity_cost_of_fec_help[2]  = {0.0,0.0};
 
     // mutation rates
-    double mu_fec_h = 0.01;
-    double mu_surv_h = 0.0;
+    double mu_fec_h = 0.0;
+    double mu_surv_h = 0.01;
     double sdmu = 0.01;
 
     // rank error in partner choice (standard deviation)
