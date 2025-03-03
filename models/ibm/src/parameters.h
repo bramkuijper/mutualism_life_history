@@ -30,7 +30,8 @@ struct Parameters {
     // 0 for death-birth 
     // 1 for full scramble 
     // 2 for adult defence 
-    int update_mechanism = 2;
+    // 3 for birth-death?
+    int update_mechanism = 3;
 
     // toggle within vs between species help
     bool between_species = false;
@@ -56,7 +57,7 @@ struct Parameters {
 
     // baseline survival and fecundity for both species
     double baseline_survival[2]  = {0.7,0.7};
-    double baseline_fecundity[2] = {3.0,3.0};
+    double baseline_fecundity[2] = {20.0,20.0};
 
     // how rapidly survival increases with help
     double strength_survival[2] = {1.0,1.0};
@@ -74,8 +75,8 @@ struct Parameters {
     double fecundity_cost_of_fec_help[2]  = {0.0,0.0};
 
     // mutation rates
-    double mu_fec_h = 0.01;
-    double mu_surv_h = 0.0;
+    double mu_fec_h = 0.0;
+    double mu_surv_h = 0.01;
     double sdmu = 0.01;
 
     // rank error in partner choice (standard deviation)

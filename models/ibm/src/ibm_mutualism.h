@@ -85,6 +85,9 @@ class IBM_Mutualism
         void defend_to_survive_0();
         void defend_to_survive_12();
 
+        void compete_vs_adults_0();
+        void compete_vs_adults_12();
+
         void write_parameters();
         void write_data();
         void write_data_headers();
