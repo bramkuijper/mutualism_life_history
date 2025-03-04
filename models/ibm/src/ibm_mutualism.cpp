@@ -1788,13 +1788,21 @@ void IBM_Mutualism::compete_vs_adults_0()
                     - survival_cost_of_help);
 
                 // store adult survival weights
-                survival_weights.push_back(p_survive * -1);
+                survival_weights.push_back(p_survive);
                 mean_adult_survival_weight[species_idx] += p_survive;
 
                 // mean_surv_prob[species_idx] += p_survive;
                 ++n_events[species_idx];
 
             } // end ind_iter
+
+            // rescale p_survive to remove negative values and invert to get probability of dying
+            double min_p_survive = *std::min_element(survival_weights.begin(), survival_weights.end());
+            for (int weight_idx = 0; weight_idx < survival_weights.size(); ++weight_idx)
+            {
+                survival_weights[weight_idx] = 1.0/(survival_weights[weight_idx] - min_p_survive + 1e-6);
+            }
+            
 
             // sample according to juvenile pressure
             // - first, if there are enough juveniles to outweigh adults, replace all adults
