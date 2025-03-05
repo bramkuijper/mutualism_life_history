@@ -1830,9 +1830,10 @@ void IBM_Mutualism::compete_vs_adults_0()
 
                 // replace adults
                 for(int juvenile_idx = 0; juvenile_idx < n_replaced; ++juvenile_idx){
-                    // sample weighted distribution of adults
+                    // sample weighted distribution of adults, and remove sampled adult from the pool
                     std::discrete_distribution<int> weighted_distribution(survival_weights.begin(), survival_weights.end());
                     survivor_idx = weighted_distribution(rng_r);
+                    survival_weights[survivor_idx] = 0.0;
 
                     // randomly chosen juvenile overwrites adult
                     metapop[patch_idx].breeders[species_idx][survivor_idx] = 
