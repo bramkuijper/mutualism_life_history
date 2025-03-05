@@ -1807,7 +1807,7 @@ void IBM_Mutualism::compete_vs_adults_0()
             // sample according to juvenile pressure
             // - first, if there are enough juveniles to outweigh adults, replace all adults
             // - then, if there are not enough juveniles, sample adults from weighted distribution
-            if(sum_juvenile_survival_weights > par.npp[species_idx]){
+            if(sum_juvenile_survival_weights >= par.npp[species_idx]){
                 for (int individual_idx = 0; individual_idx < par.npp[species_idx]; ++individual_idx) {
                     // sample juveniles
                     // randomly chosen juvenile overwrites adult
@@ -1838,13 +1838,7 @@ void IBM_Mutualism::compete_vs_adults_0()
                     metapop[patch_idx].breeders[species_idx][survivor_idx] = 
                         metapop[juvenile_origin_patch].juveniles[species_idx][juvenile_sampler(rng_r)];
                 }
-            } else 
-            if(sum_juvenile_survival_weights == par.npp[species_idx]){
-                for(int site_idx = 0; site_idx < par.npp[species_idx]; ++site_idx){
-                    metapop[patch_idx].breeders[species_idx][site_idx] = 
-                        metapop[juvenile_origin_patch].juveniles[species_idx][site_idx];
-                }
-            }
+            } 
         } // species
     } // end patch
 
