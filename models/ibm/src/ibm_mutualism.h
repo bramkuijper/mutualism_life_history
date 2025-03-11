@@ -85,8 +85,11 @@ class IBM_Mutualism
         void defend_to_survive_0();
         void defend_to_survive_12();
 
-        void compete_vs_adults_0();
-        void compete_vs_adults_12();
+        void adults_reproduce_0();
+        void adults_reproduce_12();
+
+        void juveniles_replace_0();
+        void juveniles_replace_12();
 
         void write_parameters();
         void write_data();

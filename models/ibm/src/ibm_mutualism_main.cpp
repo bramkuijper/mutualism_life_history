@@ -29,12 +29,6 @@ int main(int argc, char **argv)
     // parms.between_species = argv[2] == std::string{"true"};
     // parms.partner_mechanism = atof(argv[4]);  
 
-    // parms.initial_fec_h[0] = atof(argv[4]);
-    // parms.initial_fec_h[1] = atof(argv[5]);
-
-    // parms.initial_surv_h[0] = atof(argv[6]);
-    // parms.initial_surv_h[1] = atof(argv[7]);
-
     IBM_Mutualism sim{parms};
 
     return 0;
