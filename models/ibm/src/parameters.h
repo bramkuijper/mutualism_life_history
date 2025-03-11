@@ -53,7 +53,7 @@ struct Parameters {
     double adjust_prop[2] = {1.0,1.0};
 
     // juvenile survival weight for birth-death updating
-    double juvenile_survival_weight[2] = {0, 0};
+    double juvenile_survival_weight[2] = {1.0, 1.0};
 
     // baseline survival and fecundity for both species
     double baseline_survival[2]  = {0.7,0.7};
