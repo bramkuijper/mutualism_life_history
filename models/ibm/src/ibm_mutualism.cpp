@@ -1885,7 +1885,7 @@ void IBM_Mutualism::juveniles_replace_0()
             double min_p_survive = *std::min_element(metapop_survival_weights[species_idx].begin(), metapop_survival_weights[species_idx].end());
             for (int weight_idx = 0; weight_idx < metapop_survival_weights[species_idx].size(); ++weight_idx)
             {
-                metapop_survival_weights[species_idx][weight_idx] = 1.0/(metapop_survival_weights[species_idx][weight_idx] - min_p_survive + 1e-6);
+                metapop_survival_weights[species_idx][weight_idx] = 1.0/(metapop_survival_weights[species_idx][weight_idx] - min_p_survive + 1);
             }
         } // species
     } // end patch
