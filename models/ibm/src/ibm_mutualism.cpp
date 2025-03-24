@@ -1883,9 +1883,11 @@ void IBM_Mutualism::juveniles_replace_0()
 
             // rescale p_survive to remove negative values and invert to get probability of dying
             double min_p_survive = *std::min_element(metapop_survival_weights[species_idx].begin(), metapop_survival_weights[species_idx].end());
+            double max_p_survive = *std::max_element(metapop_survival_weights[species_idx].begin(), metapop_survival_weights[species_idx].end());
             for (int weight_idx = 0; weight_idx < metapop_survival_weights[species_idx].size(); ++weight_idx)
             {
-                metapop_survival_weights[species_idx][weight_idx] = 1.0/(metapop_survival_weights[species_idx][weight_idx] - min_p_survive + 1);
+                metapop_survival_weights[species_idx][weight_idx] = 1.0/(metapop_survival_weights[species_idx][weight_idx] - 
+                    min_p_survive + max_p_survive);
             }
         } // species
     } // end patch

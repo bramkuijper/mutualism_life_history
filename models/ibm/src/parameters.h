@@ -76,7 +76,7 @@ struct Parameters {
 
     // mutation rates
     double mu_fec_h = 0.0;
-    double mu_surv_h = 0.01;
+    double mu_surv_h = 0.02;
     double sdmu = 0.01;
 
     // rank error in partner choice (standard deviation)
