@@ -1866,29 +1866,24 @@ void IBM_Mutualism::juveniles_replace_0()
 
                 // calculate survival probability
                 p_survive = par.baseline_survival[species_idx] +
-                    par.strength_survival[species_idx] * (
+                    (1.0 - par.baseline_survival[species_idx])
+                            * (1.0 - exp(-par.strength_survival[species_idx] * (
                     survival_help_per_individual
-                    - survival_cost_of_help);
-
-                // store adult survival weights
-                metapop_survival_weights[species_idx].push_back(p_survive);
+                    - survival_cost_of_help))
+                        );
 
                 // store at this stage so that smaller value still equals lower survival
                 mean_adult_survival_weight[species_idx] += p_survive;
+
+                // store adult survival weights
+                p_survive = 1.0 - p_survive;
+                metapop_survival_weights[species_idx].push_back(p_survive);
 
                 // mean_surv_prob[species_idx] += p_survive;
                 ++n_events[species_idx];
 
             } // end ind_iter
 
-            // rescale p_survive to remove negative values and invert to get probability of dying
-            double min_p_survive = *std::min_element(metapop_survival_weights[species_idx].begin(), metapop_survival_weights[species_idx].end());
-            double max_p_survive = *std::max_element(metapop_survival_weights[species_idx].begin(), metapop_survival_weights[species_idx].end());
-            for (int weight_idx = 0; weight_idx < metapop_survival_weights[species_idx].size(); ++weight_idx)
-            {
-                metapop_survival_weights[species_idx][weight_idx] = 1.0/(metapop_survival_weights[species_idx][weight_idx] - 
-                    min_p_survive + max_p_survive);
-            }
         } // species
     } // end patch
 
