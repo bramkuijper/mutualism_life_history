@@ -2055,16 +2055,6 @@ void IBM_Mutualism::write_data()
     double ss_given_fec_h[2]    = {0.0,0.0};
     double ss_given_surv_h[2]   = {0.0,0.0};
 
-    double mean_fec_h_patch[2]  = {0.0,0.0};
-    double mean_surv_h_patch[2] = {0.0,0.0};
-    double covariance_fec_help  = 0.0;
-    double covariance_surv_help = 0.0;
-
-    double std_dev_fec_help[2]  = {0.0,0.0};
-    double std_dev_surv_help[2] = {0.0,0.0};
-    double correlation_fec_help = 0.0;
-    double correlation_surv_help = 0.0;
-
     // aux variables to store trait values
     double f,s,gf,gs;
 
@@ -2108,50 +2098,6 @@ void IBM_Mutualism::write_data()
         } // end for species_idx
     } // end for patch_idx
 
-    // calculate covariance, std dev, and correlation between help traits
-    for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
-    {
-        // go through the 2 species
-        for (int species_idx = 0; species_idx < 2; ++species_idx)
-        {
-            for (ind_iter individual_iter =
-                    metapop[patch_idx].breeders[species_idx].begin();
-                    individual_iter != metapop[patch_idx].breeders[species_idx].end();
-                    ++individual_iter)
-            {
-                // obtain allelic values, add them all to mean_fec_patch[species_idx], and mean_surv_patch[species_idx]
-                f       = individual_iter->fec_h[0]     + individual_iter->fec_h[1];
-                s       = individual_iter->surv_h[0]    + individual_iter->surv_h[1];
-
-                mean_fec_h_patch[species_idx]         += f;
-                mean_surv_h_patch[species_idx]        += s;
-                
-            } // end for individual_iter
-        
-        // divide mean_fec_patch and mean_surv_patch by npp[species_idx] to get mean_fec_patch and mean_surv_patch
-        mean_fec_h_patch[species_idx]  = mean_fec_h_patch[species_idx] / par.npp[species_idx];
-        mean_surv_h_patch[species_idx] = mean_surv_h_patch[species_idx] / par.npp[species_idx];
-        } // end for species_idx
-
-        // covariance_fec_help += mean_fec_patch[0] - mean_fec_h[0] * mean_fec_patch[1] - mean_fec_h[1] to get denom
-        covariance_fec_help  += (mean_fec_h_patch[0] - mean_fec_h[0]) * (mean_fec_h_patch[1] - mean_fec_h[1]);
-        covariance_surv_help += (mean_surv_h_patch[0] - mean_surv_h[0]) * (mean_surv_h_patch[1] - mean_surv_h[1]);
-        // later divide by N to get covariance
-
-        for (int species_idx = 0; species_idx < 2; ++species_idx)
-        {
-            // std_dev_fec[species_idx] = mean_fec_patch[0] - mean_fec_h[0] * mean_fec_patch[0] - mean_fec_h[0] to get denoms
-            std_dev_fec_help[species_idx]  += (mean_fec_h_patch[species_idx] - mean_fec_h[species_idx]) * (mean_fec_h_patch[species_idx] - mean_fec_h[species_idx]);
-            std_dev_surv_help[species_idx] += (mean_surv_h_patch[species_idx] - mean_surv_h[species_idx]) * (mean_surv_h_patch[species_idx] - mean_surv_h[species_idx]);
-            // later divide by N to get std_dev
-
-            // reset data members for mean patch values
-            mean_fec_h_patch[species_idx] = 0.0;
-            mean_surv_h_patch[species_idx] = 0.0;
-        }
-    } // end for patch_idx
-
-
     // output the time step for starters
     data_file << time_step << ";";
 
@@ -2162,9 +2108,6 @@ void IBM_Mutualism::write_data()
         mean_surv_h[species_idx]        /= n_events[species_idx];
         mean_given_fec_h[species_idx]   /= n_events[species_idx];
         mean_given_surv_h[species_idx]  /= n_events[species_idx];
-
-        std_dev_fec_help[species_idx]  = sqrt(std_dev_fec_help[species_idx] / par.npatches);
-        std_dev_surv_help[species_idx] = sqrt(std_dev_surv_help[species_idx] / par.npatches);
 
         // var = E[x^2] - E[x]^2
         double var_fec_h = ss_fec_h[species_idx] / n_events[species_idx] -
@@ -2200,18 +2143,6 @@ void IBM_Mutualism::write_data()
                     << mean_adult_survival_weight[species_idx] << ";"
                     << extinctions[species_idx] << ";";
     } // end for species_idx
-
-    // calculate covariance and correlation
-
-    covariance_fec_help   = covariance_fec_help / par.npatches;
-    covariance_surv_help  = covariance_surv_help / par.npatches;
-
-    correlation_fec_help  = covariance_fec_help / (std_dev_fec_help[0] * std_dev_fec_help[1]);
-    correlation_surv_help = covariance_surv_help / (std_dev_surv_help[0] * std_dev_surv_help[1]);
-
-    data_file 
-                << correlation_fec_help << ";"
-                << correlation_surv_help << ";";
 
     data_file << std::endl;
 
