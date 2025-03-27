@@ -2033,10 +2033,6 @@ void IBM_Mutualism::write_data_headers()
             << "extinctions" << species_idx << ";";
     }
 
-    data_file 
-        << "corr_fec_help" << ";"
-        << "corr_surv_help" << ";" ;
-
     data_file << std::endl;
 } // end IBM_Mutualism::write_data_headers()
 
