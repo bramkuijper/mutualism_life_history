@@ -14,17 +14,17 @@ int main(int argc, char **argv)
     parms.baseline_survival[0] = atof(argv[3]);
     parms.baseline_survival[1] = atof(argv[3]);
 
-    parms.fecundity_cost_of_fec_help[0] = atof(argv[4]);
-    parms.fecundity_cost_of_fec_help[1] = atof(argv[4]);
+    // parms.fecundity_cost_of_fec_help[0] = atof(argv[4]);
+    // parms.fecundity_cost_of_fec_help[1] = atof(argv[4]);
 
-    // parms.survival_cost_of_surv_help[0] = atof(argv[4]);
-    // parms.survival_cost_of_surv_help[1] = atof(argv[4]);
+    parms.survival_cost_of_surv_help[0] = atof(argv[4]);
+    parms.survival_cost_of_surv_help[1] = atof(argv[4]);
 
-    // parms.juvenile_survival_weight[0] = atof(argv[5]);
-    // parms.juvenile_survival_weight[1] = atof(argv[5]);
+    parms.juvenile_survival_weight[0] = atof(argv[5]);
+    parms.juvenile_survival_weight[1] = atof(argv[5]);
 
-    parms.baseline_fecundity[0] = atof(argv[5]);
-    parms.baseline_fecundity[1] = atof(argv[5]);
+    // parms.baseline_fecundity[0] = atof(argv[5]);
+    // parms.baseline_fecundity[1] = atof(argv[5]);
 
     // parms.between_species = argv[2] == std::string{"true"};
     // parms.partner_mechanism = atof(argv[4]);  
