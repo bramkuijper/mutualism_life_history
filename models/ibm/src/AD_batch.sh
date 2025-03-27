@@ -1,4 +1,4 @@
-./MutualismIBM   file_set_newFS_d015_bs10_c02_k001_s_1   0.15   1.0   0.5   0.01   &
+./MutualismIBM   file_set_newFS_d015_bs10_c02_k001_s_1   0.15   1.0   0.5   0.01   & 
 ./MutualismIBM   file_set_newFS_d015_bs10_c05_k001_s_1   0.15   1.0   0.2   0.01   &
 ./MutualismIBM   file_set_newFS_d015_bs10_c10_k001_s_1   0.15   1.0   0.1   0.01   &
 ./MutualismIBM   file_set_newFS_d015_bs10_c15_k001_s_1   0.15   1.0   0.067   0.01   &
