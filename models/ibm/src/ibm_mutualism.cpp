@@ -931,11 +931,10 @@ void IBM_Mutualism::compete_to_survive_0()
     double p_survive;                               // survival prob
     double survival_cost_of_help;                   // survival cost value
     int juvenile_origin_patch;                      // patch of origin of juveniles (in case 0 juveniles in patch)
-    std::vector<int> survivor_idx;                  // to store survivor indices
+    
 
     std::vector <double> survival_weights;          // vector of sampling probabilities of both adults and juveniles
-    // std::vector<Individual> surviving_adults;       // vector of surviving adults
-    std::vector<Individual> surviving_juveniles;    // vector of surviving juveniles
+    std::vector<Individual> survivors;              // vector of survivors
     // TODO: check auxillary variables
 
     // reset data members for stats
@@ -970,9 +969,8 @@ void IBM_Mutualism::compete_to_survive_0()
         for (int species_idx = 0; species_idx < 2; ++species_idx)
         {
             // clear stored survivors and weights
-            survivor_idx.clear();
-            // surviving_adults.clear();
-            surviving_juveniles.clear();
+            int survivor_idx; // to store survivor index
+            survivors.clear();
             survival_weights.clear();
 
             // get the opposite index species_idx
@@ -1017,6 +1015,15 @@ void IBM_Mutualism::compete_to_survive_0()
             }
 
             // -then make a juvenile sample distribution-
+            // so that each juvenile is equally likely to be selected
+            // clearly we sample and replace, which is not super realistic
+            // as each juvenile can be selected multiple times. However, as long
+            // as this is independent of a juvenile's phenotype, no effect on
+            // selection
+            std::uniform_int_distribution<int>
+                juvenile_sampler(0,
+                        metapop[juvenile_origin_patch].juveniles[species_idx].size() - 1);
+
             // This is where things start to differ from survive-replace
             // because we want to include adults in the sampling 
 
@@ -1065,32 +1072,32 @@ void IBM_Mutualism::compete_to_survive_0()
             {
                 // sampling distribution using weights from baseline survival and help values
                 std::discrete_distribution<int> weighted_distribution(survival_weights.begin(), survival_weights.end());
-                survivor_idx.push_back(weighted_distribution(rng_r));
+                survivor_idx = weighted_distribution(rng_r);
                 // sample without replacement while maintaining order (for fidelity)
-                survival_weights[survivor_idx[site_idx]] = 0.0;
+                // survival_weights[survivor_idx[site_idx]] = 0.0;
 
                 // store survivors
                 // TODO: switch from npp to size
-                if (survivor_idx[site_idx] < par.npp[species_idx]){
-                    // surviving_adults.push_back(metapop[patch_idx].breeders[species_idx][survivor_idx[site_idx]]);
+                if (survivor_idx < par.npp[species_idx]){
+                    survivors.push_back(metapop[patch_idx].breeders[species_idx][survivor_idx]);
+                    survival_weights[survivor_idx] = 0.0;
                     ++nsurvivors[species_idx];
                 }
                 else
                 {
-                    surviving_juveniles.push_back(metapop[juvenile_origin_patch].juveniles[species_idx][survivor_idx[site_idx] - par.npp[species_idx]]);
+                    survivors.push_back(metapop[juvenile_origin_patch].juveniles[species_idx][juvenile_sampler(rng_r)]);
                 }
 
             } // site
 
             // juveniles become adults
-            // following method maintains position in patch which is necessary for fidelity
+            // following method does not maintain position in patch which is necessary for fidelity
+            // TODO: think of a method which maintains fidelity
             for (int site_idx = 0; site_idx < par.npp[species_idx]; ++site_idx)
             {
-                if (std::none_of(survivor_idx.begin(), survivor_idx.end(), [site_idx](int a){return a == site_idx;}))
-                {
-                    metapop[patch_idx].breeders[species_idx][site_idx] = surviving_juveniles.back();
-                    surviving_juveniles.pop_back();
-                } 
+                // adults and juveniles fill sites
+                metapop[patch_idx].breeders[species_idx][site_idx] =
+                    survivors[site_idx];
             } // site
         } // species
     } // patches
