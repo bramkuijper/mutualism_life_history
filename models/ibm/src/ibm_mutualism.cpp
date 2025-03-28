@@ -947,19 +947,9 @@ void IBM_Mutualism::compete_to_survive_0()
         patch_occupancy[species_idx]                = 0.0;
         mean_adult_survival_weight[species_idx]     = 0.0;
 
-        // go through each metapop patch and check if any are bigger than par.npp[species_idx]
-        int n_viable_patches = 0;
-        for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
-        {
-            if (metapop[patch_idx].juveniles[species_idx].size() > par.npp[species_idx])
-            {
-                ++n_viable_patches;
-            }
-        }
-
-        // not enough juveniles to replace adults
+        // no juveniles to replace adults
         // consider population to be extinct
-        if (n_viable_patches < 1)
+        if (njuveniles[species_idx] < 1)
         {
             write_parameters();
             exit(1);
@@ -1012,17 +1002,15 @@ void IBM_Mutualism::compete_to_survive_0()
             // by default get juveniles from local patch
             juvenile_origin_patch = patch_idx;
 
-            // if not enough juveniles produced in local patch
+            // if no juveniles produced in local patch
             // first increment counter
-            if(metapop[juvenile_origin_patch].juveniles[species_idx].size() +
-            (par.npp[species_idx] * std::ceil(par.baseline_survival[species_idx])) < par.npp[species_idx])
+            if(metapop[juvenile_origin_patch].juveniles[species_idx].size() < 1)
             {
                 extinctions[species_idx]++;
             }
 
-            // then resample juveniles from other patches
-            while (metapop[juvenile_origin_patch].juveniles[species_idx].size() +
-            (par.npp[species_idx] * std::ceil(par.baseline_survival[species_idx])) < par.npp[species_idx])
+            // then get them elsewhere...
+            while (metapop[juvenile_origin_patch].juveniles[species_idx].size() < 1)
             {
                 // sample random patch where there might be nonzero juvs
                 juvenile_origin_patch = patch_sampler(rng_r);
@@ -1154,19 +1142,9 @@ void IBM_Mutualism::compete_to_survive_12()
         patch_occupancy[species_idx]                = 0.0;
         mean_adult_survival_weight[species_idx]     = 0.0;
 
-        // go through each metapop patch and check if any are bigger than par.npp[species_idx]
-        int n_viable_patches = 0;
-        for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
-        {
-            if (metapop[patch_idx].juveniles[species_idx].size() > par.npp[species_idx])
-            {
-                ++n_viable_patches;
-            }
-        }
-
-        // not enough juveniles to replace adults
+        // no juveniles to replace adults
         // consider population to be extinct
-        if (n_viable_patches < 1)
+        if (njuveniles[species_idx] < 1)
         {
             write_parameters();
             exit(1);
@@ -1211,17 +1189,15 @@ void IBM_Mutualism::compete_to_survive_12()
             // by default get juveniles from local patch
             juvenile_origin_patch = patch_idx;
 
-            // if not enough juveniles produced in local patch
+            // if no juveniles produced in local patch
             // first increment counter
-            if(metapop[juvenile_origin_patch].juveniles[species_idx].size() +
-            (par.npp[species_idx] * std::ceil(par.baseline_survival[species_idx])) < par.npp[species_idx])
+            if(metapop[juvenile_origin_patch].juveniles[species_idx].size() < 1)
             {
                 extinctions[species_idx]++;
             }
 
-            // then resample juveniles from other patches
-            while (metapop[juvenile_origin_patch].juveniles[species_idx].size() +
-            (par.npp[species_idx] * std::ceil(par.baseline_survival[species_idx])) < par.npp[species_idx])
+            // then get them elsewhere...
+            while (metapop[juvenile_origin_patch].juveniles[species_idx].size() < 1)
             {
                 // sample random patch where there might be nonzero juvs
                 juvenile_origin_patch = patch_sampler(rng_r);
