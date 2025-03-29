@@ -1080,7 +1080,7 @@ void IBM_Mutualism::compete_to_survive_0()
                 // TODO: switch from npp to size
                 if (survivor_idx < par.npp[species_idx]){
                     survivors.push_back(metapop[patch_idx].breeders[species_idx][survivor_idx]);
-                    survival_weights[survivor_idx] = 0.0;
+                    // survival_weights[survivor_idx] = 0.0;
                     ++nsurvivors[species_idx];
                 }
                 else
