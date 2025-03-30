@@ -31,7 +31,7 @@ struct Parameters {
     // 1 for full scramble 
     // 2 for adult defence 
     // 3 for birth-death?
-    int update_mechanism = 1;
+    int update_mechanism = 2;
 
     // toggle within vs between species help
     bool between_species = false;
