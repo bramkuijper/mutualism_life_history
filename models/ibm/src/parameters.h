@@ -31,10 +31,10 @@ struct Parameters {
     // 1 for full scramble 
     // 2 for adult defence 
     // 3 for birth-death?
-    int update_mechanism = 2;
+    int update_mechanism = 0;
 
     // toggle within vs between species help
-    bool between_species = false;
+    bool between_species = true;
 
     // select partnering mechanism
     // 0 for no mechanism;
@@ -42,7 +42,7 @@ struct Parameters {
     // 2 for partner fidelity;
     // 3 for partner fidelity and negotiation
     // TODO: 3 partner fidelity and negotiation
-    int partner_mechanism = 0;
+    int partner_mechanism = 2;
 
     // probability that partners will stay together at the end of each time step
     double fidelity_prob{1.0};
@@ -57,7 +57,7 @@ struct Parameters {
 
     // baseline survival and fecundity for both species
     double baseline_survival[2]  = {0.7,0.7};
-    double baseline_fecundity[2] = {3.0,3.0};
+    double baseline_fecundity[2] = {10.0,10.0};
 
     // how rapidly survival increases with help
     double strength_survival[2] = {1.0,1.0};
@@ -75,7 +75,7 @@ struct Parameters {
     double fecundity_cost_of_fec_help[2]  = {0.0,0.0};
 
     // mutation rates
-    double mu_fec_h = 0.01;
+    double mu_fec_h = 0.0;
     double mu_surv_h = 0.0;
     double sdmu = 0.01;
 
