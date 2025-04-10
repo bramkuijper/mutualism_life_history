@@ -19,157 +19,315 @@ IBM_Mutualism::IBM_Mutualism(Parameters const &params) : // constructors first i
 {
     write_data_headers();
 
-    if (par.partner_mechanism == 0){
-        // no partnering mechanism
-        if (par.update_mechanism == 0) 
-        {
-            // do death birth things
-            for (time_step = 0; time_step <= par.max_time_steps; ++time_step)
-            {
-                calculate_help_0();
-                reproduce_0();
-                survive_otherwise_replace_0();
-
-                if (time_step % par.data_interval == 0 ||
-                        time_step == par.max_time_steps)
-                {
-                    write_data();
-                }
-            } // end time
-        } // end death birth
-        else if (par.update_mechanism == 1)
-
-        {
-            // do full scramble things (intergenerational competition)
-            for (time_step = 0; time_step <= par.max_time_steps; ++time_step)
-            {
-                calculate_help_0();
-                reproduce_0();
-                compete_to_survive_0();
-
-                if (time_step % par.data_interval == 0 ||
-                        time_step == par.max_time_steps)
-                {
-                    write_data();
-                }
-            } // end time step
-        } // end full scramble
-        else if (par.update_mechanism == 2)
-
-        {
-            // do adult defence things
-            for (time_step = 0; time_step <= par.max_time_steps; ++time_step)
-            {
-                calculate_help_0();
-                reproduce_0();
-                defend_to_survive_0();
-
-                if (time_step % par.data_interval == 0 ||
-                        time_step == par.max_time_steps)
-                {
-                    write_data();
-                }
-            } // end time step
-        } // end adult defence
-        else if (par.update_mechanism == 3)
-
-        {
-            // do global competition things (intergenerational competition)
-            for (time_step = 0; time_step <= par.max_time_steps; ++time_step)
-            {
-                calculate_help_0();
-                adults_reproduce_0();
-                juveniles_replace_0();
-
-                if (time_step % par.data_interval == 0 ||
-                        time_step == par.max_time_steps)
-                {
-                    write_data();
-                }
-            } // end time step
-        } // end local competition
-    } // end no partner mechanism
-
-    else if (par.partner_mechanism == 1)
+    if (par.dispersal_mechanism == 0) 
     {
-        // partner choice
-        partner_choice();
-
-        if (par.update_mechanism == 0) 
-        {
-            // do death birth things
-            for (time_step = 0; time_step <= par.max_time_steps; ++time_step)
+        if (par.partner_mechanism == 0){
+            // no partnering mechanism
+            if (par.update_mechanism == 0) 
             {
-                calculate_help_12();
-                reproduce_12();
-                survive_otherwise_replace_12();
-
-                if (time_step % par.data_interval == 0 ||
-                        time_step == par.max_time_steps)
+                // do death birth things
+                for (time_step = 0; time_step <= par.max_time_steps; ++time_step)
                 {
-                    write_data();
-                }
-            } // end time
-        } // end death birth
-        else if (par.update_mechanism == 1)
-
-        {
-            // do birth death things
-            for (time_step = 0; time_step <= par.max_time_steps; ++time_step)
+                    calculate_help_0();
+                    reproduce_0();
+                    survive_otherwise_replace_0();
+    
+                    if (time_step % par.data_interval == 0 ||
+                            time_step == par.max_time_steps)
+                    {
+                        write_data();
+                    }
+                } // end time
+            } // end death birth
+            else if (par.update_mechanism == 1)
+    
             {
-                calculate_help_12();
-                reproduce_12();
-                compete_to_survive_12();
-
-                if (time_step % par.data_interval == 0 ||
-                        time_step == par.max_time_steps)
+                // do full scramble things (intergenerational competition)
+                for (time_step = 0; time_step <= par.max_time_steps; ++time_step)
                 {
-                    write_data();
-                }
-            } // end birth death
-        } // end time step
-    } // end partner choice
-
-    else if (par.partner_mechanism == 2)
+                    calculate_help_0();
+                    reproduce_0();
+                    compete_to_survive_0();
+    
+                    if (time_step % par.data_interval == 0 ||
+                            time_step == par.max_time_steps)
+                    {
+                        write_data();
+                    }
+                } // end time step
+            } // end full scramble
+            else if (par.update_mechanism == 2)
+    
+            {
+                // do adult defence things
+                for (time_step = 0; time_step <= par.max_time_steps; ++time_step)
+                {
+                    calculate_help_0();
+                    reproduce_0();
+                    defend_to_survive_0();
+    
+                    if (time_step % par.data_interval == 0 ||
+                            time_step == par.max_time_steps)
+                    {
+                        write_data();
+                    }
+                } // end time step
+            } // end adult defence
+            else if (par.update_mechanism == 3)
+    
+            {
+                // do global competition things (intergenerational competition)
+                for (time_step = 0; time_step <= par.max_time_steps; ++time_step)
+                {
+                    calculate_help_0();
+                    adults_reproduce_0();
+                    juveniles_replace_0();
+    
+                    if (time_step % par.data_interval == 0 ||
+                            time_step == par.max_time_steps)
+                    {
+                        write_data();
+                    }
+                } // end time step
+            } // end local competition
+        } // end no partner mechanism
+    
+        else if (par.partner_mechanism == 1)
+        {
+            // partner choice
+            partner_choice();
+    
+            if (par.update_mechanism == 0) 
+            {
+                // do death birth things
+                for (time_step = 0; time_step <= par.max_time_steps; ++time_step)
+                {
+                    calculate_help_12();
+                    reproduce_12();
+                    survive_otherwise_replace_12();
+    
+                    if (time_step % par.data_interval == 0 ||
+                            time_step == par.max_time_steps)
+                    {
+                        write_data();
+                    }
+                } // end time
+            } // end death birth
+            else if (par.update_mechanism == 1)
+    
+            {
+                // do birth death things
+                for (time_step = 0; time_step <= par.max_time_steps; ++time_step)
+                {
+                    calculate_help_12();
+                    reproduce_12();
+                    compete_to_survive_12();
+    
+                    if (time_step % par.data_interval == 0 ||
+                            time_step == par.max_time_steps)
+                    {
+                        write_data();
+                    }
+                } // end birth death
+            } // end time step
+        } // end partner choice
+    
+        else if (par.partner_mechanism == 2)
+        {
+            // partner fidelity
+            partner_fidelity();
+    
+            if (par.update_mechanism == 0) 
+            {
+                // do death birth things
+                for (time_step = 0; time_step <= par.max_time_steps; ++time_step)
+                {
+                    calculate_help_12();
+                    reproduce_12();
+                    survive_otherwise_replace_12();
+    
+                    if (time_step % par.data_interval == 0 ||
+                            time_step == par.max_time_steps)
+                    {
+                        write_data();
+                    }
+                } // end time
+            } // end death birth
+            else if (par.update_mechanism == 1)
+    
+            {
+                // do birth death things
+                for (time_step = 0; time_step <= par.max_time_steps; ++time_step)
+                {
+                    calculate_help_12();
+                    reproduce_12();
+                    compete_to_survive_12();
+    
+                    if (time_step % par.data_interval == 0 ||
+                            time_step == par.max_time_steps)
+                    {
+                        write_data();
+                    }
+                } // end birth death
+            } // end time step
+        } // end partner fidelity
+        
+    } // end global random dispersal
+    else if (par.dispersal_mechanism == 1)
     {
-        // partner fidelity
-        partner_fidelity();
-
-        if (par.update_mechanism == 0) 
-        {
-            // do death birth things
-            for (time_step = 0; time_step <= par.max_time_steps; ++time_step)
+        if (par.partner_mechanism == 0){
+            // no partnering mechanism
+            if (par.update_mechanism == 0) 
             {
-                calculate_help_12();
-                reproduce_12();
-                survive_otherwise_replace_12();
-
-                if (time_step % par.data_interval == 0 ||
-                        time_step == par.max_time_steps)
+                // do death birth things
+                for (time_step = 0; time_step <= par.max_time_steps; ++time_step)
                 {
-                    write_data();
-                }
-            } // end time
-        } // end death birth
-        else if (par.update_mechanism == 1)
-
-        {
-            // do birth death things
-            for (time_step = 0; time_step <= par.max_time_steps; ++time_step)
+                    calculate_help_0();
+                    reproduce_local_0();
+                    survive_otherwise_replace_0();
+    
+                    if (time_step % par.data_interval == 0 ||
+                            time_step == par.max_time_steps)
+                    {
+                        write_data();
+                    }
+                } // end time
+            } // end death birth
+            else if (par.update_mechanism == 1)
+    
             {
-                calculate_help_12();
-                reproduce_12();
-                compete_to_survive_12();
-
-                if (time_step % par.data_interval == 0 ||
-                        time_step == par.max_time_steps)
+                // do full scramble things (intergenerational competition)
+                for (time_step = 0; time_step <= par.max_time_steps; ++time_step)
                 {
-                    write_data();
-                }
+                    calculate_help_0();
+                    reproduce_local_0();
+                    compete_to_survive_0();
+    
+                    if (time_step % par.data_interval == 0 ||
+                            time_step == par.max_time_steps)
+                    {
+                        write_data();
+                    }
+                } // end time step
+            } // end full scramble
+            else if (par.update_mechanism == 2)
+    
+            {
+                // do adult defence things
+                for (time_step = 0; time_step <= par.max_time_steps; ++time_step)
+                {
+                    calculate_help_0();
+                    reproduce_local_0();
+                    defend_to_survive_0();
+    
+                    if (time_step % par.data_interval == 0 ||
+                            time_step == par.max_time_steps)
+                    {
+                        write_data();
+                    }
+                } // end time step
+            } // end adult defence
+            else if (par.update_mechanism == 3)
+    
+            {
+                // TODO: warning, no BD for local dispersal
+                // do birth death things
+                for (time_step = 0; time_step <= par.max_time_steps; ++time_step)
+                {
+                    calculate_help_0();
+                    adults_reproduce_0();
+                    juveniles_replace_0();
+    
+                    if (time_step % par.data_interval == 0 ||
+                            time_step == par.max_time_steps)
+                    {
+                        write_data();
+                    }
+                } // end time step
             } // end birth death
-        } // end time step
-    } // end partner fidelity
-
+        } // end no partner mechanism
+    
+        else if (par.partner_mechanism == 1)
+        {
+            // partner choice
+            partner_choice();
+    
+            if (par.update_mechanism == 0) 
+            {
+                // do death birth things
+                for (time_step = 0; time_step <= par.max_time_steps; ++time_step)
+                {
+                    calculate_help_12();
+                    reproduce_local_12();
+                    survive_otherwise_replace_12();
+    
+                    if (time_step % par.data_interval == 0 ||
+                            time_step == par.max_time_steps)
+                    {
+                        write_data();
+                    }
+                } // end time
+            } // end death birth
+            else if (par.update_mechanism == 1)
+    
+            {
+                // do full scramble things
+                for (time_step = 0; time_step <= par.max_time_steps; ++time_step)
+                {
+                    calculate_help_12();
+                    reproduce_local_12();
+                    compete_to_survive_12();
+    
+                    if (time_step % par.data_interval == 0 ||
+                            time_step == par.max_time_steps)
+                    {
+                        write_data();
+                    }
+                } // end full scramble
+            } // end time step
+        } // end partner choice
+    
+        else if (par.partner_mechanism == 2)
+        {
+            // partner fidelity
+            partner_fidelity();
+    
+            if (par.update_mechanism == 0) 
+            {
+                // do death birth things
+                for (time_step = 0; time_step <= par.max_time_steps; ++time_step)
+                {
+                    calculate_help_12();
+                    reproduce_local_12();
+                    survive_otherwise_replace_12();
+    
+                    if (time_step % par.data_interval == 0 ||
+                            time_step == par.max_time_steps)
+                    {
+                        write_data();
+                    }
+                } // end time
+            } // end death birth
+            else if (par.update_mechanism == 1)
+    
+            {
+                // do full scramble things
+                for (time_step = 0; time_step <= par.max_time_steps; ++time_step)
+                {
+                    calculate_help_12();
+                    reproduce_local_12();
+                    compete_to_survive_12();
+    
+                    if (time_step % par.data_interval == 0 ||
+                            time_step == par.max_time_steps)
+                    {
+                        write_data();
+                    }
+                } // end full scramble
+            } // end time step
+        } // end partner fidelity
+    
+    } // end local neighbour dispersal
     write_parameters();
 
 } // end IBM_Mutualism
@@ -607,6 +765,298 @@ void IBM_Mutualism::reproduce_12()
                                         patch_sampler(rng_r) // disperse, hence remote patch
                                         :
                                         patch_idx; // philopatric, hence local patch
+
+                    assert(destination_patch >= 0);
+                    assert(destination_patch < metapop.size());
+
+                    // add offspring to local stack of juveniles
+                    metapop[destination_patch].juveniles[species_idx].push_back(offspring);
+                    // update count
+                    ++njuveniles[species_idx];
+                } // egg
+
+            } // paired individuals
+
+        } // species, help
+    } // metapop
+
+    // finalize stats
+    for (int species_idx = 0; species_idx < 2; ++species_idx)
+    {
+        // calculate mean offspring per adult
+        mean_offspring[species_idx] /= n_events[species_idx];
+    }
+} // end IBM_Mutualism::reproduce_12()
+
+// reproduce with local dispersal
+void IBM_Mutualism::reproduce_local_0()
+{
+    // some auxiliary variables to store temporary
+    // cost and benefit values
+    double fecundity_help_per_individual,
+            fecundity_cost_of_help,
+            fecundity;
+
+    // integer variable for discretized fecundity
+    int fecundity_i;
+
+    // aux variable to get the index of the interacting species
+    int friend_species;
+
+    // aux variable to store patch of destination
+    int destination_patch;
+
+    // first clear the previous stacks of juveniles across all patches
+    // these are from the previous time step so we do not want any remaining
+    // juveniles to carry over to the current one
+    for (int species_idx = 0; species_idx < 2; ++species_idx)
+    {
+        // reset stats variable that tracks # offspring
+        mean_offspring[species_idx] = 0.0;
+
+        for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
+        {
+            metapop[patch_idx].juveniles[species_idx].clear();
+        }
+
+        // reset count of juveniles
+        njuveniles[species_idx] = 0;
+    }
+
+    int n_events[2] = {0,0};
+
+    // go through all patches and calculate help of the two species
+    // then use this to reproduce
+    for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
+    {
+
+        for (int species_idx = 0; species_idx < 2; ++species_idx)
+        {
+            // get the opposite index species_idx
+            // to obtain the index of the mutualist
+            // or the leave it the same for within species interactions
+            if (par.between_species)
+            {
+                friend_species = !species_idx;
+            }
+            else
+            {
+                friend_species = species_idx;
+            }
+
+            // calculate fecundity help per individual without partner choice
+            fecundity_help_per_individual =
+                // total amount of help
+                metapop[patch_idx].help_fecundity[friend_species] / // the_other_species <- species_idx
+                    metapop[patch_idx].breeders[species_idx].size();
+                    // divide by #recipients
+                    // to get per-individual amount of benefits
+
+            // - calculate fecundity costs of help (these vary per individual
+            //      as they depend on the expression of helping traits)
+            // - calculate fecundity (help received - costs)
+            // - actually reproduce
+            for (ind_iter individual_iter =
+                    metapop[patch_idx].breeders[species_idx].begin();
+                    individual_iter != metapop[patch_idx].breeders[species_idx].end();
+                    ++individual_iter)
+            {
+                fecundity_cost_of_help =
+                    par.fecundity_cost_of_fec_help[species_idx] * (
+                            individual_iter->fec_h[0] +
+                            individual_iter->fec_h[1])
+                    +
+                    par.fecundity_cost_of_surv_help[species_idx] * (
+                            individual_iter->surv_h[0] +
+                            individual_iter->surv_h[1]);
+
+                // calculate fecundity 
+                fecundity = par.baseline_fecundity[species_idx]
+                    + fecundity_help_per_individual
+                    - fecundity_cost_of_help;
+
+                // now translate fecundity into births
+                // as fecundity is necessarily discrete (0, 1, 2, .., n offspring)
+                // let us discretize the number
+                //
+                // first we take the lowest integer in fecundity
+                fecundity_i = floor(fecundity);
+
+                // then we draw a random number and compare it against the remainder
+                // hence if fecundity is 10.73, one produces 10 offspring with certainty
+                // but 11 offspring with a probability of 0.73
+                if (uniform(rng_r) < fecundity - fecundity_i)
+                {
+                    // increment count by 1
+                    ++fecundity_i;
+                }
+
+                mean_offspring[species_idx] += fecundity_i;
+
+                ++n_events[species_idx];
+
+                // now reproduce
+                for (int egg_i = 0; egg_i < fecundity_i; ++egg_i)
+                {
+                    // make offspring
+                    Individual offspring(
+                            // current parent (dereference an iterator)
+                            *individual_iter
+                            ,rng_r
+                            ,par
+                            ,species_idx);
+
+
+                    // determine patch of destination dependent on dispersal
+                    std::uniform_int_distribution<int> left_right(0, 1);
+                    if (uniform(rng_r) < par.dispersal_rate[species_idx])
+                    {
+                        int offset = (left_right(rng_r) == 0) 
+                            ? -1 // disperse left
+                            : 1; // disperse right
+                        destination_patch = (patch_idx + offset + metapop.size()) % metapop.size();
+                    }
+                    else 
+                    {
+                        destination_patch = patch_idx; // philopatric, hence local patch
+                    }
+
+                    assert(destination_patch >= 0);
+                    assert(destination_patch < metapop.size());
+
+                    // add offspring to local stack of juveniles
+                    metapop[destination_patch].juveniles[species_idx].push_back(offspring);
+                    // update count
+                    ++njuveniles[species_idx];
+                } // egg
+            } // individual
+        } // end for species_idx
+    } // end for patch_idx
+
+    // finalize stats
+    for (int species_idx = 0; species_idx < 2; ++species_idx)
+    {
+        // calculate mean offspring per adult
+        mean_offspring[species_idx] /= n_events[species_idx];
+    }
+} // end IBM_Mutualism::reproduce_0()
+
+// reproduce with local dispersal
+void IBM_Mutualism::reproduce_local_12()
+{
+    // some auxiliary variables to store temporary
+    // cost and benefit values
+    double fecundity_help_per_individual,
+            fecundity_cost_of_help,
+            fecundity;
+
+    // integer variable for discretized fecundity
+    int fecundity_i;
+
+    // aux variable to get the index of the interacting species
+    int friend_species;
+
+    // aux variable to store patch of destination
+    int destination_patch;
+
+    // first clear the previous stacks of juveniles across all patches
+    // these are from the previous time step so we do not want any remaining
+    // juveniles to carry over to the current one
+    for (int species_idx = 0; species_idx < 2; ++species_idx)
+    {
+        // reset stats variable that tracks # offspring
+        mean_offspring[species_idx] = 0.0;
+
+        for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
+        {
+            metapop[patch_idx].juveniles[species_idx].clear();
+        }
+
+        // reset count of juveniles
+        njuveniles[species_idx] = 0;
+    }
+
+    int n_events[2] = {0,0};
+
+    for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
+    {
+        // help for each species
+        for (int species_idx = 0; species_idx < 2; ++species_idx)
+        {
+            // get opposite index species_idx (no method for within species)
+
+            // loop through pair of individuals, source: stackoverflow.com/questions/9602918/c-initiailising-2-different-iterators-in-a-for-loop
+            /* Only iterates the length of the focal species vector, 
+            though I'm assuming because of the way the juvenile population is sampled (with replacement) species vectors will always be the same length*/
+            // get fecundity help from opposite species
+            // get fecundity costs of help
+            // calculate fecundity
+            // actually reproduce
+            
+            for (ind_iter individual_iter = metapop[patch_idx].breeders[species_idx].begin();
+                individual_iter != metapop[patch_idx].breeders[species_idx].end();
+                ++individual_iter)
+            {
+
+                fecundity_cost_of_help =
+                    par.fecundity_cost_of_fec_help[species_idx] * (
+                            individual_iter->fec_h[0] +
+                            individual_iter->fec_h[1])
+                    +
+                    par.fecundity_cost_of_surv_help[species_idx] * (
+                            individual_iter->surv_h[0] +
+                            individual_iter->surv_h[1]);
+
+                fecundity_help_per_individual = individual_iter->rec_fec_h;
+
+                fecundity = par.baseline_fecundity[species_idx] +
+                    fecundity_help_per_individual -
+                    fecundity_cost_of_help;
+
+                // now translate fecundity into births
+                // as fecundity is necessarily discrete (0, 1, 2, .., n offspring)
+                // let us discretize the number
+                //
+                // first we take the lowest integer in fecundity
+                fecundity_i = floor(fecundity);
+
+                // then we draw a random number and compare it against the remainder
+                // hence if fecundity is 10.73, one produces 10 offspring with certainty
+                // but 11 offspring with a probability of 0.73
+                if (uniform(rng_r) < fecundity - fecundity_i)
+                {
+                    // increment count by 1
+                    ++fecundity_i;
+                }
+
+                mean_offspring[species_idx] += fecundity_i;
+
+                ++n_events[species_idx];
+
+                // now reproduce
+                for (int egg_i = 0; egg_i < fecundity_i; ++egg_i)
+                {
+                    // make offspring
+                    Individual offspring(
+                            // current parent (dereference an iterator)
+                            *individual_iter
+                            ,rng_r
+                            ,par
+                            ,species_idx);
+
+                    // determine patch of destination dependent on dispersal
+                    std::uniform_int_distribution<int> left_right(0, 1);
+                    if (uniform(rng_r) < par.dispersal_rate[species_idx])
+                    {
+                        int offset = (left_right(rng_r) == 0) 
+                            ? -1 // disperse left
+                            : 1; // disperse right
+                        destination_patch = (patch_idx + offset + metapop.size()) % metapop.size();
+                    }
+                    else 
+                    {
+                        destination_patch = patch_idx; // philopatric, hence local patch
+                    }
 
                     assert(destination_patch >= 0);
                     assert(destination_patch < metapop.size());

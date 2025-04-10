@@ -76,6 +76,9 @@ class IBM_Mutualism
         void reproduce_0();
         void reproduce_12();
 
+        void reproduce_local_0();
+        void reproduce_local_12();
+
         void survive_otherwise_replace_0();
         void survive_otherwise_replace_12();
 

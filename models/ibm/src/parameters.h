@@ -21,6 +21,11 @@ struct Parameters {
     // interval in generations at which data is written to the data
     int data_interval = 10;
 
+    // dispersal mechanism
+    // 0 for global random dispersal
+    // 1 for local neighbour dispersal
+    int dispersal_mechanism = 1;
+
     // array to determine whether species 1 and species 2
     // have death-birth rather than birth death updating
     // TODO: make db/bd asymmetric
@@ -30,7 +35,7 @@ struct Parameters {
     // 0 for death-birth 
     // 1 for full scramble 
     // 2 for adult defence 
-    // 3 for birth-death?
+    // 3 for birth-death
     int update_mechanism = 0;
 
     // toggle within vs between species help
@@ -42,7 +47,7 @@ struct Parameters {
     // 2 for partner fidelity;
     // 3 for partner fidelity and negotiation
     // TODO: 3 partner fidelity and negotiation
-    int partner_mechanism = 2;
+    int partner_mechanism = 0;
 
     // probability that partners will stay together at the end of each time step
     double fidelity_prob{1.0};
