@@ -47,7 +47,7 @@ struct Parameters {
     // 2 for partner fidelity;
     // 3 for partner fidelity and negotiation
     // TODO: 3 partner fidelity and negotiation
-    int partner_mechanism = 0;
+    int partner_mechanism = 2;
 
     // probability that partners will stay together at the end of each time step
     double fidelity_prob{1.0};
