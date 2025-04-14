@@ -2448,13 +2448,13 @@ void IBM_Mutualism::write_data_headers()
         data_file
             << "mean_fec_h" << species_idx << ";"
             << "mean_surv_h" << species_idx << ";"
-            << "mean_given_fec_h" << species_idx << ";"
-            << "mean_given_surv_h" << species_idx << ";"
+            // << "mean_given_fec_h" << species_idx << ";"
+            // << "mean_given_surv_h" << species_idx << ";"
 
             << "var_fec_h" << species_idx << ";"
             << "var_surv_h" << species_idx << ";"
-            << "var_given_fec_h" << species_idx << ";"
-            << "var_given_surv_h" << species_idx << ";"
+            // << "var_given_fec_h" << species_idx << ";"
+            // << "var_given_surv_h" << species_idx << ";"
 
             << "mean_surv_prob" << species_idx << ";"
             << "mean_surv_help_per_ind" << species_idx << ";"
@@ -2466,6 +2466,10 @@ void IBM_Mutualism::write_data_headers()
             << "extinctions" << species_idx << ";";
     }
 
+    data_file 
+        << "corr_fec_help" << ";"
+        << "corr_surv_help" << ";" ;
+
     data_file << std::endl;
 } // end IBM_Mutualism::write_data_headers()
 
@@ -2476,13 +2480,23 @@ void IBM_Mutualism::write_data()
     // (latter for variance calculations)
     double mean_fec_h[2]        = {0.0,0.0};
     double mean_surv_h[2]       = {0.0,0.0};
-    double mean_given_fec_h[2]  = {0.0,0.0};
-    double mean_given_surv_h[2] = {0.0,0.0};
+    // double mean_given_fec_h[2]  = {0.0,0.0};
+    // double mean_given_surv_h[2] = {0.0,0.0};
 
     double ss_fec_h[2]          = {0.0,0.0};
     double ss_surv_h[2]         = {0.0,0.0};
-    double ss_given_fec_h[2]    = {0.0,0.0};
-    double ss_given_surv_h[2]   = {0.0,0.0};
+    // double ss_given_fec_h[2]    = {0.0,0.0};
+    // double ss_given_surv_h[2]   = {0.0,0.0};
+
+    double mean_fec_h_patch[2]  = {0.0,0.0};
+    double mean_surv_h_patch[2] = {0.0,0.0};
+    double covariance_fec_help  = 0.0;
+    double covariance_surv_help = 0.0;
+
+    double std_dev_fec_help[2]  = {0.0,0.0};
+    double std_dev_surv_help[2] = {0.0,0.0};
+    double correlation_fec_help = 0.0;
+    double correlation_surv_help = 0.0;
 
     // aux variables to store trait values
     double f,s,gf,gs;
@@ -2505,8 +2519,8 @@ void IBM_Mutualism::write_data()
                 // obtain allelic values
                 f       = individual_iter->fec_h[0]     + individual_iter->fec_h[1];
                 s       = individual_iter->surv_h[0]    + individual_iter->surv_h[1];
-                gf      = individual_iter->given_fec_h;
-                gs      = individual_iter->given_surv_h;
+                // gf      = individual_iter->given_fec_h;
+                // gs      = individual_iter->given_surv_h;
 
                 mean_fec_h[species_idx]         += f;
                 ss_fec_h[species_idx]           += f * f;
@@ -2514,17 +2528,59 @@ void IBM_Mutualism::write_data()
                 mean_surv_h[species_idx]        += s;
                 ss_surv_h[species_idx]          += s * s;
 
-                mean_given_fec_h[species_idx]   += gf;
-                ss_given_fec_h[species_idx]     += gf *gf;
+                // mean_given_fec_h[species_idx]   += gf;
+                // ss_given_fec_h[species_idx]     += gf *gf;
 
-                mean_given_surv_h[species_idx]  += gs;
-                ss_given_surv_h[species_idx]    += gs * gs;
+                // mean_given_surv_h[species_idx]  += gs;
+                // ss_given_surv_h[species_idx]    += gs * gs;
 
                 // update population stats
                 // (although for now, it should be the same as
                 ++n_events[species_idx];
             }
         } // end for species_idx
+    } // end for patch_idx
+
+    // calculate covariance, std dev, and correlation between help traits
+    for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
+    {
+        // go through the 2 species
+        for (int species_idx = 0; species_idx < 2; ++species_idx)
+        {
+            for (ind_iter individual_iter =
+                    metapop[patch_idx].breeders[species_idx].begin();
+                    individual_iter != metapop[patch_idx].breeders[species_idx].end();
+                    ++individual_iter)
+            {
+                // obtain allelic values, sum them for mean help values
+                f       = individual_iter->fec_h[0]     + individual_iter->fec_h[1];
+                s       = individual_iter->surv_h[0]    + individual_iter->surv_h[1];    
+                mean_fec_h_patch[species_idx]         += f;
+                mean_surv_h_patch[species_idx]        += s;
+                
+            } // end for individual_iter
+
+            // divide sum help values by npp to get mean help value at each patch
+            mean_fec_h_patch[species_idx]  = mean_fec_h_patch[species_idx] / par.npp[species_idx];
+            mean_surv_h_patch[species_idx] = mean_surv_h_patch[species_idx] / par.npp[species_idx];
+        } // end for species_idx
+
+        // covariance_fec_help += mean_fec_patch[0] - mean_fec_h[0] * mean_fec_patch[1] - mean_fec_h[1] to get denom
+        covariance_fec_help  += (mean_fec_h_patch[0] - mean_fec_h[0]) * (mean_fec_h_patch[1] - mean_fec_h[1]);
+        covariance_surv_help += (mean_surv_h_patch[0] - mean_surv_h[0]) * (mean_surv_h_patch[1] - mean_surv_h[1]);
+        // later divide by std_dev to get Pearsons correlation
+
+        for (int species_idx = 0; species_idx < 2; ++species_idx)
+        {
+            // std_dev_fec[species_idx] = mean_fec_patch[0] - mean_fec_h[0] * mean_fec_patch[0] - mean_fec_h[0] to get denoms
+            std_dev_fec_help[species_idx]  += (mean_fec_h_patch[species_idx] - mean_fec_h[species_idx]) * (mean_fec_h_patch[species_idx] - mean_fec_h[species_idx]);
+            std_dev_surv_help[species_idx] += (mean_surv_h_patch[species_idx] - mean_surv_h[species_idx]) * (mean_surv_h_patch[species_idx] - mean_surv_h[species_idx]);
+            // later divide by N to get std_dev
+
+            // reset data members for mean patch values
+            mean_fec_h_patch[species_idx] = 0.0;
+            mean_surv_h_patch[species_idx] = 0.0;
+        }
     } // end for patch_idx
 
     // output the time step for starters
@@ -2535,8 +2591,11 @@ void IBM_Mutualism::write_data()
     {
         mean_fec_h[species_idx]         /= n_events[species_idx];
         mean_surv_h[species_idx]        /= n_events[species_idx];
-        mean_given_fec_h[species_idx]   /= n_events[species_idx];
-        mean_given_surv_h[species_idx]  /= n_events[species_idx];
+        // mean_given_fec_h[species_idx]   /= n_events[species_idx];
+        // mean_given_surv_h[species_idx]  /= n_events[species_idx];
+
+        std_dev_fec_help[species_idx]  = sqrt(std_dev_fec_help[species_idx] / par.npatches);
+        std_dev_surv_help[species_idx] = sqrt(std_dev_surv_help[species_idx] / par.npatches);
 
         // var = E[x^2] - E[x]^2
         double var_fec_h = ss_fec_h[species_idx] / n_events[species_idx] -
@@ -2545,22 +2604,22 @@ void IBM_Mutualism::write_data()
         double var_surv_h = ss_surv_h[species_idx] / n_events[species_idx] -
             mean_surv_h[species_idx] * mean_surv_h[species_idx];
 
-        double var_given_fec_h = ss_given_fec_h[species_idx] / n_events[species_idx] -
-            mean_given_fec_h[species_idx] * mean_given_fec_h[species_idx];
+        // double var_given_fec_h = ss_given_fec_h[species_idx] / n_events[species_idx] -
+            // mean_given_fec_h[species_idx] * mean_given_fec_h[species_idx];
 
-        double var_given_surv_h = ss_given_surv_h[species_idx] / n_events[species_idx] -
-            mean_given_surv_h[species_idx] * mean_given_surv_h[species_idx];
+        // double var_given_surv_h = ss_given_surv_h[species_idx] / n_events[species_idx] -
+            // mean_given_surv_h[species_idx] * mean_given_surv_h[species_idx];
 
         data_file
                     << mean_fec_h[species_idx] << ";"
                     << mean_surv_h[species_idx] << ";"
-                    << mean_given_fec_h[species_idx] << ";"
-                    << mean_given_surv_h[species_idx] << ";"
+                    // << mean_given_fec_h[species_idx] << ";"
+                    // << mean_given_surv_h[species_idx] << ";"
 
                     << var_fec_h << ";"
                     << var_surv_h << ";"
-                    << var_given_fec_h << ";"
-                    << var_given_surv_h << ";"
+                    // << var_given_fec_h << ";"
+                    // << var_given_surv_h << ";"
 
                     << mean_surv_prob[species_idx] << ";"
                     // TODO: missing mean_fec_help_per_individual?
@@ -2573,6 +2632,17 @@ void IBM_Mutualism::write_data()
                     << extinctions[species_idx] << ";";
     } // end for species_idx
 
+        // calculate covariance and correlation
+
+        covariance_fec_help   = covariance_fec_help / par.npatches;
+        covariance_surv_help  = covariance_surv_help / par.npatches;
+    
+        correlation_fec_help  = covariance_fec_help / (std_dev_fec_help[0] * std_dev_fec_help[1]);
+        correlation_surv_help = covariance_surv_help / (std_dev_surv_help[0] * std_dev_surv_help[1]);
+
+        data_file 
+                    << correlation_fec_help << ";"
+                    << correlation_surv_help << ";";
     data_file << std::endl;
 
 } // end IBM_Mutualism::write_data()
