@@ -41,6 +41,9 @@ struct Parameters {
     // toggle within vs between species help
     bool between_species = true;
 
+    // toggle costs being absolute
+    bool absolute_costs = true;
+
     // select partnering mechanism
     // 0 for no mechanism;
     // 1 for partner choice;
@@ -54,7 +57,7 @@ struct Parameters {
     bool negotiate_once{false};
 
     // proportion by which individuals adjust if they are negotiating (unused so far)
-    // TODO: negotiate
+    // TODO: remove negotiate
     double adjust_prop[2] = {1.0,1.0};
 
     // juvenile survival weight for birth-death updating

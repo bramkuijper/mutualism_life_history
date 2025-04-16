@@ -430,7 +430,7 @@ void IBM_Mutualism::partner_fidelity()
     } // metapop patches
 } // end partner fidelity
 
-// go over the population and calculates help value according to partnering mechanism
+// go over the population and calculate help value according to partnering mechanism
 void IBM_Mutualism::calculate_help_0()
 {
     // go through all patches and calculate help of the two species
@@ -458,7 +458,7 @@ void IBM_Mutualism::calculate_help_0()
     }
 } // end void IBM_Mutualism::calculate_help_0()
 
-// go over the population and calculates help value according to partnering mechanism
+// go over the population and calculate help value according to partnering mechanism
 void IBM_Mutualism::calculate_help_12()
 {
         // aux variable to get index of interacting species and store temporary cost and benefit values
@@ -590,6 +590,11 @@ void IBM_Mutualism::reproduce_0()
                             individual_iter->surv_h[0] +
                             individual_iter->surv_h[1]);
 
+                if (par.absolute_costs)
+                {
+                    fecundity_cost_of_help = std::fabs(fecundity_cost_of_help);
+                }
+
                 // calculate fecundity 
                 fecundity = par.baseline_fecundity[species_idx]
                     + fecundity_help_per_individual
@@ -720,6 +725,11 @@ void IBM_Mutualism::reproduce_12()
                     par.fecundity_cost_of_surv_help[species_idx] * (
                             individual_iter->surv_h[0] +
                             individual_iter->surv_h[1]);
+
+                if (par.absolute_costs)
+                {
+                    fecundity_cost_of_help = std::fabs(fecundity_cost_of_help);
+                }
 
                 fecundity_help_per_individual = individual_iter->rec_fec_h;
 
@@ -870,6 +880,11 @@ void IBM_Mutualism::reproduce_local_0()
                             individual_iter->surv_h[0] +
                             individual_iter->surv_h[1]);
 
+                if (par.absolute_costs)
+                {
+                    fecundity_cost_of_help = std::fabs(fecundity_cost_of_help);
+                }
+
                 // calculate fecundity 
                 fecundity = par.baseline_fecundity[species_idx]
                     + fecundity_help_per_individual
@@ -1006,6 +1021,11 @@ void IBM_Mutualism::reproduce_local_12()
                     par.fecundity_cost_of_surv_help[species_idx] * (
                             individual_iter->surv_h[0] +
                             individual_iter->surv_h[1]);
+
+                if (par.absolute_costs)
+                {
+                    fecundity_cost_of_help = std::fabs(fecundity_cost_of_help);
+                }
 
                 fecundity_help_per_individual = individual_iter->rec_fec_h;
 
@@ -1192,6 +1212,11 @@ void IBM_Mutualism::survive_otherwise_replace_0()
                             individual_iter->surv_h[0] +
                             individual_iter->surv_h[1]);
 
+                if (par.absolute_costs)
+                {
+                    survival_cost_of_help = std::fabs(survival_cost_of_help);
+                }
+
                 // calculate survival probability
                 p_survive = par.baseline_survival[species_idx] +
                     (1.0 - par.baseline_survival[species_idx])
@@ -1327,7 +1352,12 @@ void IBM_Mutualism::survive_otherwise_replace_12()
                     par.survival_cost_of_surv_help[species_idx] * (
                         individual_iter->surv_h[0] +
                         individual_iter->surv_h[1]);
-                
+
+                if (par.absolute_costs)
+                {
+                    survival_cost_of_help = std::fabs(survival_cost_of_help);
+                }
+
                 // calculate survival probability
                 p_survive = par.baseline_survival[species_idx] +
                     (1.0 - par.baseline_survival[species_idx]) 
@@ -1492,6 +1522,11 @@ void IBM_Mutualism::compete_to_survive_0()
                     par.survival_cost_of_surv_help[species_idx] * (
                         individual_iter->surv_h[0] +
                         individual_iter->surv_h[1]);
+
+                if (par.absolute_costs)
+                {
+                    survival_cost_of_help = std::fabs(survival_cost_of_help);
+                }
 
                 p_survive = par.baseline_survival[species_idx] +
                 par.strength_survival[species_idx] * (
@@ -1680,6 +1715,11 @@ void IBM_Mutualism::compete_to_survive_12()
                     par.survival_cost_of_surv_help[species_idx] * (
                         individual_iter->surv_h[0] +
                         individual_iter->surv_h[1]);
+
+                if (par.absolute_costs)
+                {
+                    survival_cost_of_help = std::fabs(survival_cost_of_help);
+                }
 
                 p_survive = par.baseline_survival[species_idx] +
                     par.strength_survival[species_idx] * (
@@ -1871,6 +1911,11 @@ void IBM_Mutualism::defend_to_survive_0()
                             individual_iter->surv_h[0] +
                             individual_iter->surv_h[1]);
 
+                if (par.absolute_costs)
+                {
+                    survival_cost_of_help = std::fabs(survival_cost_of_help);
+                }
+
                 // calculate survival probability
                 p_survive = par.baseline_survival[species_idx] +
                     par.strength_survival[species_idx] * (
@@ -2040,6 +2085,11 @@ void IBM_Mutualism::defend_to_survive_12()
                             individual_iter->surv_h[0] +
                             individual_iter->surv_h[1]);
 
+                if (par.absolute_costs)
+                {
+                    survival_cost_of_help = std::fabs(survival_cost_of_help);
+                }
+
                 // calculate survival probability
                 p_survive = par.baseline_survival[species_idx] +
                     par.strength_survival[species_idx] * (
@@ -2165,6 +2215,11 @@ void IBM_Mutualism::adults_reproduce_0()
                     par.fecundity_cost_of_surv_help[species_idx] * (
                             individual_iter->surv_h[0] +
                             individual_iter->surv_h[1]);
+
+                if (par.absolute_costs)
+                {
+                    fecundity_cost_of_help = std::fabs(fecundity_cost_of_help);
+                }
 
                 // calculate fecundity 
                 fecundity = par.baseline_fecundity[species_idx] +
@@ -2296,6 +2351,11 @@ void IBM_Mutualism::juveniles_replace_0()
                     par.survival_cost_of_surv_help[species_idx] * (
                             individual_iter->surv_h[0] +
                             individual_iter->surv_h[1]);
+
+                if (par.absolute_costs)
+                {
+                    survival_cost_of_help = std::fabs(survival_cost_of_help);
+                }
 
                 // calculate survival probability
                 p_survive = par.baseline_survival[species_idx] +
@@ -2430,6 +2490,7 @@ void IBM_Mutualism::write_parameters()
                 << "sdmu;" << par.sdmu << std::endl
                 << "npatch;" << par.npatches << std::endl
                 << "between_species;" << par.between_species << std::endl
+                << "absolute_costs;" << par.absolute_costs << std::endl
                 << "death_birth;" << par.update_mechanism << std::endl
                 << "partner_mechanism;" << par.partner_mechanism << std::endl
                 << "fidelity_prob;" << par.fidelity_prob << std::endl
