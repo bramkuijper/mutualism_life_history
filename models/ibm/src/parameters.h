@@ -42,7 +42,7 @@ struct Parameters {
     bool between_species = true;
 
     // toggle costs being absolute
-    bool absolute_costs = true;
+    bool absolute_costs = false;
 
     // select partnering mechanism
     // 0 for no mechanism;

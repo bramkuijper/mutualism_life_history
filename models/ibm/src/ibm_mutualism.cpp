@@ -2602,6 +2602,15 @@ void IBM_Mutualism::write_data()
         } // end for species_idx
     } // end for patch_idx
 
+    // calculate means so they can be used for correlation calculations
+    for (int species_idx = 0; species_idx < 2; ++species_idx)
+    {
+        mean_fec_h[species_idx]         /= n_events[species_idx];
+        mean_surv_h[species_idx]        /= n_events[species_idx];
+        // mean_given_fec_h[species_idx]   /= n_events[species_idx];
+        // mean_given_surv_h[species_idx]  /= n_events[species_idx];
+    }
+
     // calculate covariance, std dev, and correlation between help traits
     for (int patch_idx = 0; patch_idx < metapop.size(); ++patch_idx)
     {
@@ -2647,11 +2656,11 @@ void IBM_Mutualism::write_data()
     // output the time step for starters
     data_file << time_step << ";";
 
-    // calculate means variances of traits for each species
+    // calculate variances of traits for each species (means calculated earlier for use in calculating correlations)
     for (int species_idx = 0; species_idx < 2; ++species_idx)
     {
-        mean_fec_h[species_idx]         /= n_events[species_idx];
-        mean_surv_h[species_idx]        /= n_events[species_idx];
+        // mean_fec_h[species_idx]         /= n_events[species_idx];
+        // mean_surv_h[species_idx]        /= n_events[species_idx];
         // mean_given_fec_h[species_idx]   /= n_events[species_idx];
         // mean_given_surv_h[species_idx]  /= n_events[species_idx];
 
