@@ -1226,8 +1226,9 @@ void IBM_Mutualism::survive_otherwise_replace_0()
                 //         );
 
                 p_survive = par.baseline_survival[species_idx] +
+                par.strength_survival[species_idx] * (
                     survival_help_per_individual 
-                    - survival_cost_of_help;
+                    - survival_cost_of_help);
 
                 if(p_survive < 0.0)
                 {
@@ -1380,8 +1381,9 @@ void IBM_Mutualism::survive_otherwise_replace_12()
                 //         );
 
                 p_survive = par.baseline_survival[species_idx] +
+                par.strength_survival[species_idx] * (
                     survival_help_per_individual 
-                    - survival_cost_of_help;
+                    - survival_cost_of_help);
 
                 if(p_survive < 0.0)
                 {
@@ -2405,8 +2407,9 @@ void IBM_Mutualism::juveniles_replace_0()
                 //         );
                 
                 p_survive = par.baseline_survival[species_idx] +
+                par.strength_survival[species_idx] * (
                     survival_help_per_individual 
-                    - survival_cost_of_help;
+                    - survival_cost_of_help);
 
                 if(p_survive < 0.0)
                 {
