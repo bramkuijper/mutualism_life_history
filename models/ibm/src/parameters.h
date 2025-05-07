@@ -29,7 +29,7 @@ struct Parameters {
     // array to determine whether species 1 and species 2
     // have death-birth rather than birth death updating
     // TODO: make db/bd asymmetric
-    // bool death_birth = false;
+    // bool death_birth = true;
 
     // determine the update mechanism for species 1 and species 2
     // 0 for death-birth 
@@ -84,7 +84,7 @@ struct Parameters {
 
     // mutation rates
     double mu_fec_h = 0.0;
-    double mu_surv_h = 0.0;
+    double mu_surv_h = 0.01;
     double sdmu = 0.01;
 
     // rank error in partner choice (standard deviation)

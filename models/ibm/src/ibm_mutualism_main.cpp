@@ -20,8 +20,10 @@ int main(int argc, char **argv)
     parms.survival_cost_of_surv_help[0] = atof(argv[3]);
     parms.survival_cost_of_surv_help[1] = atof(argv[3]);
 
-    // parms.mu_fec_h = atof(argv[6]);
-    parms.mu_surv_h = atof(argv[4]);
+    // parms.mu_fec_h = atof(argv[4]);
+    // parms.mu_surv_h = atof(argv[4]);
+
+    parms.npatches = atof(argv[4]);
 
     // parms.juvenile_survival_weight[0] = atof(argv[5]);
     // parms.juvenile_survival_weight[1] = atof(argv[5]);
