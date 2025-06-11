@@ -1218,25 +1218,16 @@ void IBM_Mutualism::survive_otherwise_replace_0()
                 }
 
                 // calculate survival probability
-                // p_survive = par.baseline_survival[species_idx] +
-                //     (1.0 - par.baseline_survival[species_idx])
-                //             * (1.0 - exp(-par.strength_survival[species_idx] * (
-                //     survival_help_per_individual
-                //     - survival_cost_of_help))
-                //         );
-
                 p_survive = par.baseline_survival[species_idx] +
-                par.strength_survival[species_idx] * (
-                    survival_help_per_individual 
-                    - survival_cost_of_help);
+                    (1.0 - par.baseline_survival[species_idx])
+                            * (1.0 - exp(-par.strength_survival[species_idx] * (
+                    survival_help_per_individual
+                    - survival_cost_of_help))
+                        );
 
                 if(p_survive < 0.0)
                 {
                     p_survive = 0.0;
-                }
-                else if (p_survive > 1.0)
-                {
-                    p_survive = 1.0;
                 }
 
                 mean_surv_prob[species_idx] += p_survive;
@@ -1373,25 +1364,16 @@ void IBM_Mutualism::survive_otherwise_replace_12()
                 }
 
                 // calculate survival probability
-                // p_survive = par.baseline_survival[species_idx] +
-                //     (1.0 - par.baseline_survival[species_idx]) 
-                //         * (1.0 - exp(-par.strength_survival[species_idx] * (
-                //             individual_iter->rec_surv_h
-                //             - survival_cost_of_help))
-                //         );
-
                 p_survive = par.baseline_survival[species_idx] +
-                par.strength_survival[species_idx] * (
-                    survival_help_per_individual 
-                    - survival_cost_of_help);
+                    (1.0 - par.baseline_survival[species_idx]) 
+                        * (1.0 - exp(-par.strength_survival[species_idx] * (
+                            individual_iter->rec_surv_h
+                            - survival_cost_of_help))
+                        );
 
                 if(p_survive < 0.0)
                 {
                     p_survive = 0.0;
-                }
-                else if (p_survive > 1.0)
-                {
-                    p_survive = 1.0;
                 }
 
                 mean_surv_prob[species_idx] += p_survive;
@@ -2250,23 +2232,15 @@ void IBM_Mutualism::adults_reproduce_0()
                 }
 
                 // calculate fecundity 
-                // fecundity = par.baseline_fecundity[species_idx] +
-                //     (1.0 - par.baseline_fecundity[species_idx])
-                //         * (1.0 - exp(-1 * (fecundity_help_per_individual - fecundity_cost_of_help))
-                // );
-
                 fecundity = par.baseline_fecundity[species_idx] +
-                    fecundity_help_per_individual - fecundity_cost_of_help;
-                
+                    (1.0 - par.baseline_fecundity[species_idx])
+                        * (1.0 - exp(-1 * (fecundity_help_per_individual - fecundity_cost_of_help))
+                );
+
                 if(fecundity < 0)
                 {
                     fecundity = 0.0;
-                } else if (fecundity > 1)
-                {
-                    fecundity = 1.0;
-                }
-                
-                
+                } 
 
                 // now translate fecundity into births
 
@@ -2399,25 +2373,16 @@ void IBM_Mutualism::juveniles_replace_0()
                 }
 
                 // calculate survival probability
-                // p_survive = par.baseline_survival[species_idx] +
-                //     (1.0 - par.baseline_survival[species_idx])
-                //             * (1.0 - exp(-par.strength_survival[species_idx] * (
-                //     survival_help_per_individual
-                //     - survival_cost_of_help))
-                //         );
-                
                 p_survive = par.baseline_survival[species_idx] +
-                par.strength_survival[species_idx] * (
-                    survival_help_per_individual 
-                    - survival_cost_of_help);
+                    (1.0 - par.baseline_survival[species_idx])
+                            * (1.0 - exp(-par.strength_survival[species_idx] * (
+                    survival_help_per_individual
+                    - survival_cost_of_help))
+                        );
 
                 if(p_survive < 0.0)
                 {
                     p_survive = 0.0;
-                }
-                else if (p_survive > 1.0)
-                {
-                    p_survive = 1.0;
                 }
 
                 // store at this stage so that smaller value still equals lower survival
